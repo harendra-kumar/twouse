@@ -1,0 +1,3 @@
+#summary Browse classes, subclasses, properties and individuals? using the Class Hierarchy Viewer and the Entity Browser.
+
+http://twouse.googlecode.com/svn/wiki/images/EntityBrowser.png

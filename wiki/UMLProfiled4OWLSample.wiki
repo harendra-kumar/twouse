@@ -1,0 +1,20 @@
+#summary This page describes, how to create a sample file for UMLProfiled4OWL
+#labels Featured
+
+= Creating a sample file for UMLProfiled4OWL =
+
+http://twouse.googlecode.com/svn/wiki/images/umlprofiled4owl0.png
+
+http://twouse.googlecode.com/svn/wiki/images/umlprofiled4owl1.png
+
+http://twouse.googlecode.com/svn/wiki/images/umlprofiled4owl2.png
+
+http://twouse.googlecode.com/svn/wiki/images/umlprofiled4owl3.png
+
+http://twouse.googlecode.com/svn/wiki/images/umlprofiled4owl4.png
+
+http://twouse.googlecode.com/svn/wiki/images/umlprofiled4owl5.png
+
+http://twouse.googlecode.com/svn/wiki/images/umlprofiled4owl6.png
+
+http://twouse.googlecode.com/svn/wiki/images/umlprofiled4owl7.png

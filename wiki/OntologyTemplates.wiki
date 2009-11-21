@@ -1,0 +1,3 @@
+#summary Graphically model and store ontology design patterns as templates.
+
+http://twouse.googlecode.com/svn/wiki/images/OntologyTemplates.png

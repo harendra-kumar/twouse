@@ -1,0 +1,5 @@
+#summary Write and safe SPARQL queries using the SPARQL Editor with syntax highlight.
+
+http://twouse.googlecode.com/svn/wiki/images/SPARQLQuery0.png
+
+http://twouse.googlecode.com/svn/wiki/images/SPARQLQuery1.png

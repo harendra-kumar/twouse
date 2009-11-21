@@ -1,0 +1,3 @@
+#summary Graphically model OWL ontologies and OWL safe rules? using OMG UML Profile for OWL and UML Profile for SWRL.
+
+http://twouse.googlecode.com/svn/wiki/images/UMLProfileOWLRules.png
