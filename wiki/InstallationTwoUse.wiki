@@ -1,5 +1,5 @@
 #summary This page describes how to install TwoUse Toolkit from the Update Site.
-#labels Phase-Deploy,Featured
+#labels Deprecated
 
 = Installing the TwoUse Toolkit from the Update Site =
 
