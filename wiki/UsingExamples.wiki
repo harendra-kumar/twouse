@@ -1,3 +1,0 @@
-#summary Learn with the installed TwoUse examples
-
-http://twouse.googlecode.com/svn/wiki/images/TwoUseExamples.png
