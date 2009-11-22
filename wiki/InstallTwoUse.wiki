@@ -1,5 +1,5 @@
 #summary This page describes how to install TwoUse Toolkit from the Update Site.
-#labels Featured
+#labels Featured,Phase-Deploy
 
 = Installing the TwoUse Toolkit from the Update Site =
 
