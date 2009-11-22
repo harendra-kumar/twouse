@@ -8,6 +8,6 @@ If you do not have the Eclipse platform yet, download the *Eclipse Classic* for 
 
 After unzipping, start Eclipse and follow these instructions: 
 
-http://twouse.googlecode.com/svn/wiki/images/InstallationTwoUse0.png
+ * http://twouse.googlecode.com/svn/wiki/images/InstallationTwoUse0.png
 
-use the following url: http://userpages.uni-koblenz.de/~parreiras/twouse/update/
+ * use the following url: http://userpages.uni-koblenz.de/~parreiras/twouse/update/
