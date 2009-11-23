@@ -1,3 +1,3 @@
-#summary Graphically model OWL ontologies and OWL Safe Rules using the TwoUse Graphical Editor.fg
+#summary Graphically model OWL ontologies and OWL Safe Rules using the TwoUse Graphical Editor.
 
 http://twouse.googlecode.com/svn/wiki/images/OWL2Diagram.png
