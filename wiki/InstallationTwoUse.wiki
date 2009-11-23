@@ -12,3 +12,5 @@ After unzipping, start Eclipse and follow these instructions:
 http://twouse.googlecode.com/svn/wiki/images/InstallationTwoUse0.png
 
 use the following url: http://userpages.uni-koblenz.de/~parreiras/twouse/update
+
+http://twouse.googlecode.com/svn/wiki/images/InstallationTwoUse1.png
