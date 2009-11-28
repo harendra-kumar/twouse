@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/de.uniko.isweb.emftext.sparqlas/src"
+    modelPluginID="de.uniko.isweb.emftext.sparqlas" modelName="SPARQLAS" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>SPARQLAS.ecore</foreignModel>
+  <genPackages prefix="SPARQLAS" basePackage="de.uniko.isweb.emftext.sparqlas" disposableProviderFactory="true"
+      ecorePackage="SPARQLAS.ecore#/">
+    <genClasses ecoreClass="SPARQLAS.ecore#//OntologyDocument">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//OntologyDocument/prefixDefinition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//OntologyDocument/query"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//PrefixDefinition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SPARQLAS.ecore#//PrefixDefinition/pref"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//PrefixDefinition/namespace"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//Query">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//Query/queryIRI"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//Query/atoms"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SPARQLAS.ecore#//Atom"/>
+    <genClasses image="false" ecoreClass="SPARQLAS.ecore#//Variable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SPARQLAS.ecore#//Variable/symbol"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ClassVariable"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ObjectPropertyVariable"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//DataPropertyVariable"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//IndividualVariable"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//Class"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//Datatype"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ObjectProperty"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//DataProperty"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//Individual"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//NamedIndividual"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//AnonymousIndividual">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SPARQLAS.ecore#//AnonymousIndividual/nodeID"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//Literal">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SPARQLAS.ecore#//Literal/lexicalForm"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//Literal/datatype"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SPARQLAS.ecore#//ClassAtom"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//EquivalentClasses">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//EquivalentClasses/classExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//SubClassOf">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//SubClassOf/subClassExpression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//SubClassOf/superClassExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//DisjointClasses">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//DisjointClasses/classExpressions"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SPARQLAS.ecore#//ObjectPropertyAtom"/>
+    <genClasses image="false" ecoreClass="SPARQLAS.ecore#//Assertion"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ObjectPropertyAssertion">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectPropertyAssertion/sourceIndividual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectPropertyAssertion/targetIndividual"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectPropertyAssertion/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//DataPropertyAssertion">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//DataPropertyAssertion/sourceIndividual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//DataPropertyAssertion/targetValue"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//DataPropertyAssertion/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ClassAssertion">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ClassAssertion/individual"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ClassAssertion/classExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//SameIndividual">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//SameIndividual/individuals"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//DifferentIndividuals">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//DifferentIndividuals/individuals"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//EquivalentObjectProperties">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//EquivalentObjectProperties/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//SubPropertyOf">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//SubPropertyOf/subObjectPropertyExpression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//SubPropertyOf/superObjectPropertyExpression"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SPARQLAS.ecore#//Expression"/>
+    <genClasses image="false" ecoreClass="SPARQLAS.ecore#//ObjectPropertyExpression"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//InverseObjectProperty">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//InverseObjectProperty/objectProperty"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//InverseObjectPropertyAtom">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//InverseObjectPropertyAtom/objectPropertyExpression1"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//InverseObjectPropertyAtom/objectPropertyExpression2"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//FunctionalObjectProperty">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//FunctionalObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//InverseFunctionalObjectProperty">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//InverseFunctionalObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//TransitiveObjectProperty">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//TransitiveObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//SymmetricObjectProperty">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//SymmetricObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SPARQLAS.ecore#//ClassExpression"/>
+    <genClasses image="false" ecoreClass="SPARQLAS.ecore#//DataPropertyExpression"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ObjectUnionOf">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectUnionOf/classExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ObjectComplementOf">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectComplementOf/classExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ObjectOneOf">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectOneOf/individuals"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ObjectIntersectionOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectIntersectionOf/classExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ObjectAllValuesFrom">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectAllValuesFrom/classExpression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectAllValuesFrom/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ObjectSomeValuesFrom">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectSomeValuesFrom/classExpression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectSomeValuesFrom/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ObjectHasValue">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectHasValue/individual"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectHasValue/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ObjectMinCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SPARQLAS.ecore#//ObjectMinCardinality/cardinality"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectMinCardinality/classExpression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectMinCardinality/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ObjectMaxCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SPARQLAS.ecore#//ObjectMaxCardinality/cardinality"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectMaxCardinality/classExpression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectMaxCardinality/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ObjectExactCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SPARQLAS.ecore#//ObjectExactCardinality/cardinality"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectExactCardinality/classExpression"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectExactCardinality/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//DataHasValue">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//DataHasValue/literal"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//DataHasValue/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//IRI">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute SPARQLAS.ecore#//IRI/id"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//FullIRI"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//AbbreviatedIRI"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//Declaration"/>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ObjectPropertyDeclaration">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ObjectPropertyDeclaration/objectPropertyVariable"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//DatatypePropertyDeclaration">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//DatatypePropertyDeclaration/datatypePropertyVariable"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//IndividualDeclaration">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//IndividualDeclaration/individualVariable"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//ClassDeclaration">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//ClassDeclaration/classVariable"/>
+    </genClasses>
+    <genClasses ecoreClass="SPARQLAS.ecore#//Constant">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference SPARQLAS.ecore#//Constant/constantIRI"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="SPARQLAS.ecore#//Term"/>
+  </genPackages>
+</genmodel:GenModel>
