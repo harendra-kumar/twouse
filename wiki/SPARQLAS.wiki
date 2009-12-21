@@ -1,0 +1,13 @@
+#summary SPARQL-DL concrete syntax for writing DL queries.
+
+= Introduction =
+
+SPARQLAS is our implementation of the SPARQL-DL abstract syntax for writing description Logic queries. With SPARQLAS, users write queries faster than using SPARQL, since they do not have to care about mapping OWL to RDF graphs.
+
+= Details =
+
+SPARQLAS is part of the TwoUse Toolkit installation 
+
+= Examples =
+
+[SPARQLASExamples A catalogue with examples of SPARQLAS queries using the pizza ontology].
