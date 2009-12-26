@@ -10,6 +10,10 @@ SPARQLAS queries are automatically translated into SPARQL queries that can be ex
 
 SPARQLAS is part of the [InstallationTwoUse TwoUse Toolkit installation].
 
+http://twouse.googlecode.com/svn/wiki/images/sparqlas.png
+
+http://twouse.googlecode.com/svn/wiki/images/sparqlas1.png
+
 = Examples =
 
 [SPARQLASExamples A catalogue with examples of SPARQLAS queries using the pizza ontology].
