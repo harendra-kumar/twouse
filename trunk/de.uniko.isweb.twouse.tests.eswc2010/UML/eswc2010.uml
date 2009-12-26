@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:OWL="http:///schemas/OWL/_t4ta0MU3Ed6asJgx21DMiA/6" xmlns:SWRLprofile="http:///schemas/SWRLprofile/_-pTT4M7fEd6BrvJVQ-gJkg/7" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/OWL/_t4ta0MU3Ed6asJgx21DMiA/6 pathmap://TwoUse_Profiles/OWL.profile.uml#_t43L0MU3Ed6asJgx21DMiA http:///schemas/SWRLprofile/_-pTT4M7fEd6BrvJVQ-gJkg/7 pathmap://TwoUse_Profiles/SWRL.profile.uml#_-pTT4c7fEd6BrvJVQ-gJkg">
+  <uml:Model xmi:id="_SZEbAPJSEd6O0IjO5OY4KA" name="eswc2010">
+    <packageImport xmi:id="_SZEbAfJSEd6O0IjO5OY4KA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_SZEbAvJSEd6O0IjO5OY4KA" name="Cars">
+      <templateBinding xmi:id="_SZEbA_JSEd6O0IjO5OY4KA" signature="_SZEbD_JSEd6O0IjO5OY4KA">
+        <parameterSubstitution xmi:id="_SZEbBPJSEd6O0IjO5OY4KA" formal="_SZEbEPJSEd6O0IjO5OY4KA" actual="_SZEbB_JSEd6O0IjO5OY4KA"/>
+        <parameterSubstitution xmi:id="_SZEbBfJSEd6O0IjO5OY4KA" formal="_SZEbEvJSEd6O0IjO5OY4KA" actual="_SZEbBvJSEd6O0IjO5OY4KA"/>
+      </templateBinding>
+      <packagedElement xmi:type="uml:Class" xmi:id="_SZEbBvJSEd6O0IjO5OY4KA" name="{Hybrid, Gas, Petrol,  Diesel}"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_SZEbB_JSEd6O0IjO5OY4KA" name="Engine"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_SZEbCPJSEd6O0IjO5OY4KA" name="Diesel" classifier="_SZEbB_JSEd6O0IjO5OY4KA"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_SZEbCfJSEd6O0IjO5OY4KA" name="Gas" classifier="_SZEbB_JSEd6O0IjO5OY4KA"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_SZEbCvJSEd6O0IjO5OY4KA" name="Hybrid" classifier="_SZEbB_JSEd6O0IjO5OY4KA"/>
+      <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_SZEbC_JSEd6O0IjO5OY4KA" name="Petrol" classifier="_SZEbB_JSEd6O0IjO5OY4KA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_SZEbDPJSEd6O0IjO5OY4KA" name="Closed-domain">
+      <ownedRule xmi:id="_SZEbDfJSEd6O0IjO5OY4KA" name="" constrainedElement="_SZEbEfJSEd6O0IjO5OY4KA _SZEbE_JSEd6O0IjO5OY4KA">
+        <specification xmi:type="uml:OpaqueExpression" xmi:id="_SZEbDvJSEd6O0IjO5OY4KA"/>
+      </ownedRule>
+      <ownedTemplateSignature xmi:id="_SZEbD_JSEd6O0IjO5OY4KA" parameter="_SZEbEPJSEd6O0IjO5OY4KA _SZEbEvJSEd6O0IjO5OY4KA">
+        <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_SZEbEPJSEd6O0IjO5OY4KA" parameteredElement="_SZEbEfJSEd6O0IjO5OY4KA">
+          <ownedParameteredElement xmi:type="uml:Class" xmi:id="_SZEbEfJSEd6O0IjO5OY4KA" name="X" templateParameter="_SZEbEPJSEd6O0IjO5OY4KA"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:ClassifierTemplateParameter" xmi:id="_SZEbEvJSEd6O0IjO5OY4KA" parameteredElement="_SZEbE_JSEd6O0IjO5OY4KA">
+          <ownedParameteredElement xmi:type="uml:Class" xmi:id="_SZEbE_JSEd6O0IjO5OY4KA" name="{}" templateParameter="_SZEbEvJSEd6O0IjO5OY4KA"/>
+        </ownedParameter>
+      </ownedTemplateSignature>
+      <packagedElement xmi:type="uml:Package" xmi:id="_SZEbFPJSEd6O0IjO5OY4KA" name="Consequent">
+        <ownedRule xmi:id="_SZEbFfJSEd6O0IjO5OY4KA" name="differentFrom" constrainedElement="_SZEbGPJSEd6O0IjO5OY4KA _SZEbF_JSEd6O0IjO5OY4KA">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_SZEbFvJSEd6O0IjO5OY4KA"/>
+        </ownedRule>
+        <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_SZEbF_JSEd6O0IjO5OY4KA" name="y" classifier="_SZEbEfJSEd6O0IjO5OY4KA"/>
+        <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_SZEbGPJSEd6O0IjO5OY4KA" name="x" classifier="_SZEbEfJSEd6O0IjO5OY4KA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_SZEbGfJSEd6O0IjO5OY4KA" name="Antecedent">
+        <ownedRule xmi:id="_SZEbGvJSEd6O0IjO5OY4KA" name="notEqual" constrainedElement="_SZEbHPJSEd6O0IjO5OY4KA _SZEbHfJSEd6O0IjO5OY4KA">
+          <specification xmi:type="uml:OpaqueExpression" xmi:id="_SZEbG_JSEd6O0IjO5OY4KA"/>
+        </ownedRule>
+        <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_SZEbHPJSEd6O0IjO5OY4KA" name="y" classifier="_SZEbEfJSEd6O0IjO5OY4KA"/>
+        <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_SZEbHfJSEd6O0IjO5OY4KA" name="x" classifier="_SZEbEfJSEd6O0IjO5OY4KA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_SZEbHvJSEd6O0IjO5OY4KA">
+      <eAnnotations xmi:id="_SZEbH_JSEd6O0IjO5OY4KA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nDeNYPJSEd6Zqs6JiB8rlQ">
+      <eAnnotations xmi:id="_nDgpoPJSEd6Zqs6JiB8rlQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://TwoUse_Profiles/RDF.profile.uml#_0R89QCqWEd6tAp0dWJ5sSg"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://TwoUse_Profiles/RDF.profile.uml#_TEtTYHGwEdyoJ7Xxsdx7ug"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nDgpofJSEd6Zqs6JiB8rlQ">
+      <eAnnotations xmi:id="_nDhQsPJSEd6Zqs6JiB8rlQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://TwoUse_Profiles/OWL.profile.uml#_t43L0MU3Ed6asJgx21DMiA"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://TwoUse_Profiles/OWL.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_nDhQsfJSEd6Zqs6JiB8rlQ">
+      <eAnnotations xmi:id="_nDhQsvJSEd6Zqs6JiB8rlQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://TwoUse_Profiles/SWRL.profile.uml#_-pTT4c7fEd6BrvJVQ-gJkg"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://TwoUse_Profiles/SWRL.profile.uml#_QyvbkKd6Ed6XOZ-lFJtlZg"/>
+    </profileApplication>
+    <viewpoint xsi:nil="true"/>
+  </uml:Model>
+  <OWL:owlOntology xmi:id="_r6e_oPJSEd6Zqs6JiB8rlQ" base_Package="_SZEbAPJSEd6O0IjO5OY4KA"/>
+  <OWL:owlOntology xmi:id="_u-VyMPJSEd6Zqs6JiB8rlQ" base_Package="_SZEbAvJSEd6O0IjO5OY4KA"/>
+  <OWL:owlOntology xmi:id="_wSgv0PJSEd6Zqs6JiB8rlQ" base_Package="_SZEbDPJSEd6O0IjO5OY4KA"/>
+  <OWL:enumeratedClass xmi:id="_fyZXAPJTEd6Zqs6JiB8rlQ" base_Class="_SZEbBvJSEd6O0IjO5OY4KA"/>
+  <OWL:owlClass xmi:id="_jD6LEPJTEd6Zqs6JiB8rlQ" base_Class="_SZEbB_JSEd6O0IjO5OY4KA"/>
+  <OWL:owlIndividual xmi:id="_lHaT4PJTEd6Zqs6JiB8rlQ" base_InstanceSpecification="_SZEbCPJSEd6O0IjO5OY4KA"/>
+  <OWL:owlIndividual xmi:id="_ls3KUPJTEd6Zqs6JiB8rlQ" base_InstanceSpecification="_SZEbCfJSEd6O0IjO5OY4KA"/>
+  <OWL:owlIndividual xmi:id="_mufmcPJTEd6Zqs6JiB8rlQ" base_InstanceSpecification="_SZEbCvJSEd6O0IjO5OY4KA"/>
+  <OWL:owlIndividual xmi:id="_nXeSAPJTEd6Zqs6JiB8rlQ" base_InstanceSpecification="_SZEbC_JSEd6O0IjO5OY4KA"/>
+  <OWL:equivalentClass xmi:id="_pDbdgPJTEd6Zqs6JiB8rlQ" base_Constraint="_SZEbDfJSEd6O0IjO5OY4KA"/>
+  <OWL:owlClass xmi:id="_rrJtsPJTEd6Zqs6JiB8rlQ" base_Class="_SZEbEfJSEd6O0IjO5OY4KA"/>
+  <OWL:enumeratedClass xmi:id="_swtAgPJTEd6Zqs6JiB8rlQ" base_Class="_SZEbE_JSEd6O0IjO5OY4KA"/>
+  <SWRLprofile:consequent xmi:id="_vqIEsPJTEd6Zqs6JiB8rlQ" base_Package="_SZEbFPJSEd6O0IjO5OY4KA"/>
+  <SWRLprofile:antecedent xmi:id="_1Q11kPJTEd6Zqs6JiB8rlQ" base_Package="_SZEbGfJSEd6O0IjO5OY4KA"/>
+  <SWRLprofile:objectVariable xmi:id="_4RCQIPJTEd6Zqs6JiB8rlQ" base_InstanceSpecification="_SZEbF_JSEd6O0IjO5OY4KA"/>
+  <SWRLprofile:objectVariable xmi:id="_45_GgPJTEd6Zqs6JiB8rlQ" base_InstanceSpecification="_SZEbGPJSEd6O0IjO5OY4KA"/>
+  <SWRLprofile:objectVariable xmi:id="_6BjykPJTEd6Zqs6JiB8rlQ" base_InstanceSpecification="_SZEbHPJSEd6O0IjO5OY4KA"/>
+  <SWRLprofile:objectVariable xmi:id="_6wR5wPJTEd6Zqs6JiB8rlQ" base_InstanceSpecification="_SZEbHfJSEd6O0IjO5OY4KA"/>
+  <SWRLprofile:builtin xmi:id="_Tpl8sPJUEd6Zqs6JiB8rlQ" base_Constraint="_SZEbFfJSEd6O0IjO5OY4KA"/>
+  <SWRLprofile:builtin xmi:id="_UyNxoPJUEd6Zqs6JiB8rlQ" base_Constraint="_SZEbGvJSEd6O0IjO5OY4KA"/>
+</xmi:XMI>

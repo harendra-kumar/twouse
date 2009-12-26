@@ -1,0 +1,212 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1261152793434 "http://Ontology1261152793434.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://Ontology1261152793434.owl#"
+     xml:base="http://Ontology1261152793434.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Ontology1261152793434="http://Ontology1261152793434.owl#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://Ontology1261152793434.owl#hasEngine -->
+
+    <owl:ObjectProperty rdf:about="#hasEngine">
+        <rdfs:range rdf:resource="#Engine"/>
+        <rdfs:domain rdf:resource="#Vehicle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://Ontology1261152793434.owl#hasEngineClosed -->
+
+    <owl:ObjectProperty rdf:about="#hasEngineClosed">
+        <rdfs:domain rdf:resource="#Car"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="#Hybrid"/>
+                    <rdf:Description rdf:about="#Diesel"/>
+                    <rdf:Description rdf:about="#Petrol"/>
+                </owl:oneOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://Ontology1261152793434.owl#Car -->
+
+    <owl:Class rdf:about="#Car">
+        <rdfs:subClassOf rdf:resource="#Vehicle"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="#hasEngine"/>
+                <owl:someValuesFrom rdf:resource="#Engine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://Ontology1261152793434.owl#Convertible -->
+
+    <owl:Class rdf:about="#Convertible">
+        <rdfs:subClassOf rdf:resource="#Car"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#hasEngine"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:oneOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="#Hybrid"/>
+                                </owl:oneOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#hasEngine"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:oneOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="#Diesel"/>
+                                </owl:oneOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://Ontology1261152793434.owl#Engine -->
+
+    <owl:Class rdf:about="#Engine"/>
+    
+
+
+    <!-- http://Ontology1261152793434.owl#Vehicle -->
+
+    <owl:Class rdf:about="#Vehicle"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://Ontology1261152793434.owl#Alfa -->
+
+    <Car rdf:about="#Alfa">
+        <rdf:type rdf:resource="&owl;Thing"/>
+        <hasEngine rdf:resource="#Petrol"/>
+    </Car>
+    
+
+
+    <!-- http://Ontology1261152793434.owl#Diesel -->
+
+    <owl:Thing rdf:about="#Diesel"/>
+    
+
+
+    <!-- http://Ontology1261152793434.owl#Gas -->
+
+    <owl:Thing rdf:about="#Gas"/>
+    
+
+
+    <!-- http://Ontology1261152793434.owl#Hybrid -->
+
+    <owl:Thing rdf:about="#Hybrid"/>
+    
+
+
+    <!-- http://Ontology1261152793434.owl#MB -->
+
+    <owl:Thing rdf:about="#MB">
+        <rdf:type rdf:resource="#Car"/>
+        <hasEngine rdf:resource="#Diesel"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://Ontology1261152793434.owl#Petrol -->
+
+    <owl:Thing rdf:about="#Petrol"/>
+    
+
+
+    <!-- http://Ontology1261152793434.owl#Spider -->
+
+    <Convertible rdf:about="#Spider">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </Convertible>
+    
+
+
+    <!-- http://Ontology1261152793434.owl#Toyota -->
+
+    <owl:Thing rdf:about="#Toyota">
+        <rdf:type rdf:resource="#Car"/>
+        <hasEngine rdf:resource="#Hybrid"/>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

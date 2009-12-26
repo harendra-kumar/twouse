@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:BpmnDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:bpmn="http://stp.eclipse.org/bpmn" xmi:id="_xK7OoO2pEd6t3tGMkHLy9A" iD="_xK6nke2pEd6t3tGMkHLy9A">
+  <pools xmi:type="bpmn:Pool" xmi:id="_xL-Xge2pEd6t3tGMkHLy9A" iD="_xL-XgO2pEd6t3tGMkHLy9A" name="Applying Templates in OWL">
+    <artifacts xmi:type="bpmn:DataObject" xmi:id="_9vtk4e2pEd6t3tGMkHLy9A" iD="_9vtk4O2pEd6t3tGMkHLy9A" name="Implicity Ontology &#xD;&#xA;Document in &#xD;&#xA;UML Profile for &#xD;&#xA;OWL/SWRL">
+      <associations xmi:type="bpmn:Association" xmi:id="_A5Hl0O2qEd6t3tGMkHLy9A" direction="From"/>
+    </artifacts>
+    <artifacts xmi:type="bpmn:DataObject" xmi:id="_L57A0O2qEd6t3tGMkHLy9A" iD="_L56Zwe2qEd6t3tGMkHLy9A" name="Implicity Ontology &#xD;&#xA;Document &#xD;&#xA;in Graphical Syntax">
+      <associations xmi:type="bpmn:Association" xmi:id="_QeQusO2qEd6t3tGMkHLy9A" direction="From"/>
+    </artifacts>
+    <artifacts xmi:type="bpmn:DataObject" xmi:id="_E7LGAO2qEd6t3tGMkHLy9A" iD="_E7Ke8O2qEd6t3tGMkHLy9A" name="Implicity Ontology/Query&#xD;&#xA;Document Model&#xD;&#xA;(our approach)">
+      <associations xmi:type="bpmn:Association" xmi:id="_pELUgO2qEd6t3tGMkHLy9A" direction="From"/>
+      <associations xmi:type="bpmn:Association" xmi:id="_ePtacO2sEd6t3tGMkHLy9A" direction="To"/>
+    </artifacts>
+    <artifacts xmi:type="bpmn:DataObject" xmi:id="_qfhRIe2qEd6t3tGMkHLy9A" iD="_qfhRIO2qEd6t3tGMkHLy9A" name="Effective Ontology/ Query &#xD;&#xA;Document Model &#xD;&#xA;(ODM, Neon, OWL2, &#xD;&#xA;SAIQL, SPARQL-DL)">
+      <associations xmi:type="bpmn:Association" xmi:id="_slCzMO2qEd6t3tGMkHLy9A" direction="To"/>
+      <associations xmi:type="bpmn:Association" xmi:id="_s6Nx8O2qEd6t3tGMkHLy9A" direction="From"/>
+    </artifacts>
+    <artifacts xmi:type="bpmn:DataObject" xmi:id="_wNuxIe2qEd6t3tGMkHLy9A" iD="_wNuxIO2qEd6t3tGMkHLy9A" name="OWL File&#xD;&#xA;(RDF, XML, &#xD;&#xA;Manchester)">
+      <associations xmi:type="bpmn:Association" xmi:id="_1NyKoO2qEd6t3tGMkHLy9A"/>
+      <associations xmi:type="bpmn:Association" xmi:id="_l4jbIO2sEd6t3tGMkHLy9A" direction="To"/>
+    </artifacts>
+    <artifacts xmi:type="bpmn:DataObject" xmi:id="_V659ke2qEd6t3tGMkHLy9A" iD="_V659kO2qEd6t3tGMkHLy9A" name="Implicity Query &#xD;&#xA;Document in SAIQL &#xD;&#xA;or SPARQL-DL Syntax">
+      <associations xmi:type="bpmn:Association" xmi:id="_eT0wUO2qEd6t3tGMkHLy9A" direction="From"/>
+    </artifacts>
+    <vertices xmi:type="bpmn:Activity" xmi:id="_xM7Zwe2pEd6t3tGMkHLy9A" iD="_xM7ZwO2pEd6t3tGMkHLy9A" associations="_A5Hl0O2qEd6t3tGMkHLy9A _QeQusO2qEd6t3tGMkHLy9A _eT0wUO2qEd6t3tGMkHLy9A _ePtacO2sEd6t3tGMkHLy9A" outgoingEdges="_pm5AAe2qEd6t3tGMkHLy9A" name="parsing concrete syntaxes" activityType="Task"/>
+    <vertices xmi:type="bpmn:Activity" xmi:id="_hBMVge2qEd6t3tGMkHLy9A" iD="_hBMVgO2qEd6t3tGMkHLy9A" associations="_pELUgO2qEd6t3tGMkHLy9A _slCzMO2qEd6t3tGMkHLy9A" outgoingEdges="_qGWjMe2qEd6t3tGMkHLy9A" incomingEdges="_pm5AAe2qEd6t3tGMkHLy9A" name="Realization"/>
+    <vertices xmi:type="bpmn:Activity" xmi:id="_izbvMe2qEd6t3tGMkHLy9A" iD="_izbvMO2qEd6t3tGMkHLy9A" associations="_s6Nx8O2qEd6t3tGMkHLy9A _l4jbIO2sEd6t3tGMkHLy9A" outgoingEdges="_2aRL4e2qEd6t3tGMkHLy9A" incomingEdges="_qGWjMe2qEd6t3tGMkHLy9A" name="Parsing to OWL  Standard &#xD;&#xA;Concrete Syntax"/>
+    <vertices xmi:type="bpmn:Activity" xmi:id="_0At6ke2qEd6t3tGMkHLy9A" iD="_0At6kO2qEd6t3tGMkHLy9A" associations="_1NyKoO2qEd6t3tGMkHLy9A" incomingEdges="_2aRL4e2qEd6t3tGMkHLy9A" name="Reasoning"/>
+    <sequenceEdges xmi:type="bpmn:SequenceEdge" xmi:id="_pm5AAe2qEd6t3tGMkHLy9A" iD="_pm5AAO2qEd6t3tGMkHLy9A"/>
+    <sequenceEdges xmi:type="bpmn:SequenceEdge" xmi:id="_qGWjMe2qEd6t3tGMkHLy9A" iD="_qGWjMO2qEd6t3tGMkHLy9A"/>
+    <sequenceEdges xmi:type="bpmn:SequenceEdge" xmi:id="_2aRL4e2qEd6t3tGMkHLy9A" iD="_2aRL4O2qEd6t3tGMkHLy9A"/>
+  </pools>
+</bpmn:BpmnDiagram>
