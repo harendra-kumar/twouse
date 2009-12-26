@@ -8,6 +8,7 @@ only have a restricted access to the T-Box. We present SAIQL, the novel Schema
 And Instance Query Language for OWL DL, that is well suited for ontology
 extraction. We describe its syntax and explain a basic evaluation strategy. 
 
+http://twouse.googlecode.com/svn/wiki/images/saiql.png
 
 = Details =
 
