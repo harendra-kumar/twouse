@@ -18,3 +18,5 @@ http://twouse.googlecode.com/svn/wiki/images/umlprofiled4owl5.png
 http://twouse.googlecode.com/svn/wiki/images/umlprofiled4owl6.png
 
 http://twouse.googlecode.com/svn/wiki/images/umlprofiled4owl7.png
+
+http://twouse.googlecode.com/svn/wiki/images/umlprofiled4owl8.png
