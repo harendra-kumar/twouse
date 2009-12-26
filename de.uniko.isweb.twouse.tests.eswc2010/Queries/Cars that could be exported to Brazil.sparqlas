@@ -1,0 +1,11 @@
+Namespace ( = <http://Ontology1261152793434.owl#> ) 
+Namespace (q1 = <http://CarsWithMotorsAllowedInEurope#> )
+Namespace (q2 = <http://CarsWithMotorsAllowedInBrazil#> )
+
+Query ( 
+//	Bind (q1:c ?car)
+//	Bind (q2:c ?car)
+
+	Type ( ?c And ( Car Some ( hasEngine OneOf ( Hybrid Gas ) ) ) ) 
+    Type ( ?c And ( Car Some ( hasEngine OneOf ( Hybrid Gas Diesel ) ) ) ) 
+)  

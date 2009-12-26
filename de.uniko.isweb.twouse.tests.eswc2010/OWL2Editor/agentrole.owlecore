@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<owl2:Ontology xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:owl2="http:///owl.ecore" ontologyURI="http://org.semanticweb.ontologies/Ontology20091013115400">
+  <axioms xsi:type="owl2:SubClassOf" subClassExpression="//@packages.0/@axioms.3/@entity" superClassExpression="//@packages.0/@axioms.0/@entity"/>
+  <axioms xsi:type="owl2:SubClassOf" subClassExpression="//@packages.0/@axioms.2/@entity" superClassExpression="//@packages.0/@axioms.1/@entity"/>
+  <axioms xsi:type="owl2:ObjectPropertyDomain" domain="//@packages.0/@axioms.0/@entity" objectPropertyExpression="//@packages.0/@axioms.4/@entity"/>
+  <axioms xsi:type="owl2:SubObjectPropertyOf" superObjectPropertyExpression="//@packages.0/@axioms.4/@entity" subObjectPropertyExpressions="//@packages.0/@axioms.5/@entity"/>
+  <axioms xsi:type="owl2:SubObjectPropertyOf" superObjectPropertyExpression="//@packages.0/@axioms.6/@entity" subObjectPropertyExpressions="//@packages.0/@axioms.7/@entity"/>
+  <axioms xsi:type="owl2:InverseObjectProperties" ObjectPropertyExpression1="//@packages.0/@axioms.6/@entity" ObjectPropertyExpression2="//@packages.0/@axioms.4/@entity"/>
+  <axioms xsi:type="owl2:ObjectPropertyRange" range="//@packages.0/@axioms.0/@entity" objectPropertyExpression="//@packages.0/@axioms.6/@entity"/>
+  <axioms xsi:type="owl2:ObjectPropertyDomain" domain="//@packages.0/@axioms.3/@entity" objectPropertyExpression="//@packages.0/@axioms.5/@entity"/>
+  <axioms xsi:type="owl2:ObjectPropertyDomain" domain="//@packages.0/@axioms.1/@entity" objectPropertyExpression="//@packages.0/@axioms.7/@entity"/>
+  <axioms xsi:type="owl2:ObjectPropertyRange" range="//@packages.0/@axioms.3/@entity" objectPropertyExpression="//@packages.0/@axioms.7/@entity"/>
+  <axioms xsi:type="owl2:ObjectPropertyRange" range="//@packages.0/@axioms.1/@entity" objectPropertyExpression="//@packages.0/@axioms.5/@entity"/>
+  <axioms xsi:type="owl2:SubClassOf" subClassExpression="//@packages.0/@axioms.1/@entity" superClassExpression="//@packages.0/@expressions.0"/>
+  <axioms xsi:type="owl2:ClassAssertion" individual="//@packages.1/@axioms.3/@entity" classExpression="//@packages.1/@axioms.0/@entity"/>
+  <axioms xsi:type="owl2:ClassAssertion" individual="//@packages.1/@axioms.4/@entity" classExpression="//@packages.1/@axioms.1/@entity"/>
+  <packages PackageUri="AgentRole">
+    <ownedTemplateSignature parameter="//@packages.0/@ownedTemplateSignature/@ownedParameter.1 //@packages.0/@ownedTemplateSignature/@ownedParameter.0 //@packages.0/@ownedTemplateSignature/@ownedParameter.2">
+      <ownedParameter xsi:type="owl2:ClassifierTemplateParameter" parameteredElement="//@packages.0/@axioms.3/@entity"/>
+      <ownedParameter xsi:type="owl2:ClassifierTemplateParameter" parameteredElement="//@packages.0/@axioms.2/@entity"/>
+      <ownedParameter xsi:type="owl2:ClassifierTemplateParameter" parameteredElement="//@packages.0/@axioms.7/@entity"/>
+    </ownedTemplateSignature>
+    <expressions xsi:type="owl2:ObjectAllValuesFrom" classExpression="//@packages.0/@axioms.3/@entity" objectPropertyExpression="//@packages.0/@axioms.7/@entity"/>
+    <axioms xsi:type="owl2:Declaration">
+      <entity xsi:type="owl2:Class">
+        <entityURI value="Concept"/>
+      </entity>
+    </axioms>
+    <axioms xsi:type="owl2:Declaration">
+      <entity xsi:type="owl2:Class">
+        <entityURI value="Object"/>
+      </entity>
+    </axioms>
+    <axioms xsi:type="owl2:Declaration">
+      <entity xsi:type="owl2:Class" templateParameter="//@packages.0/@ownedTemplateSignature/@ownedParameter.1">
+        <entityURI value="Agent"/>
+      </entity>
+    </axioms>
+    <axioms xsi:type="owl2:Declaration">
+      <entity xsi:type="owl2:Class" templateParameter="//@packages.0/@ownedTemplateSignature/@ownedParameter.0">
+        <entityURI value="Role"/>
+      </entity>
+    </axioms>
+    <axioms xsi:type="owl2:Declaration">
+      <entity xsi:type="owl2:ObjectProperty">
+        <entityURI value="classifies"/>
+      </entity>
+    </axioms>
+    <axioms xsi:type="owl2:Declaration">
+      <entity xsi:type="owl2:ObjectProperty">
+        <entityURI value="isRoleOf"/>
+      </entity>
+    </axioms>
+    <axioms xsi:type="owl2:Declaration">
+      <entity xsi:type="owl2:ObjectProperty">
+        <entityURI value="isClassifiedBy"/>
+      </entity>
+    </axioms>
+    <axioms xsi:type="owl2:Declaration">
+      <entity xsi:type="owl2:ObjectProperty" templateParameter="//@packages.0/@ownedTemplateSignature/@ownedParameter.2">
+        <entityURI value="hasRole"/>
+      </entity>
+    </axioms>
+    <axioms xsi:type="owl2:DisjointClasses" disjointClassExpressions="//@packages.0/@axioms.2/@entity //@packages.0/@axioms.3/@entity"/>
+  </packages>
+  <packages PackageUri="Music">
+    <templateBinding signature="//@packages.0/@ownedTemplateSignature">
+      <parameterSubstitution actual="//@packages.1/@axioms.0/@entity" formal="//@packages.0/@ownedTemplateSignature/@ownedParameter.1"/>
+      <parameterSubstitution actual="//@packages.1/@axioms.1/@entity" formal="//@packages.0/@ownedTemplateSignature/@ownedParameter.0"/>
+      <parameterSubstitution actual="//@packages.1/@axioms.2/@entity" formal="//@packages.0/@ownedTemplateSignature/@ownedParameter.2"/>
+    </templateBinding>
+    <axioms xsi:type="owl2:Declaration">
+      <entity xsi:type="owl2:Class">
+        <entityURI value="Musician"/>
+      </entity>
+    </axioms>
+    <axioms xsi:type="owl2:Declaration">
+      <entity xsi:type="owl2:Class">
+        <entityURI value="Position"/>
+      </entity>
+    </axioms>
+    <axioms xsi:type="owl2:Declaration">
+      <entity xsi:type="owl2:ObjectProperty">
+        <entityURI value="plays"/>
+      </entity>
+    </axioms>
+    <axioms xsi:type="owl2:Declaration">
+      <entity xsi:type="owl2:NamedIndividual">
+        <entityURI value="Anthony Kiedis"/>
+      </entity>
+    </axioms>
+    <axioms xsi:type="owl2:Declaration">
+      <entity xsi:type="owl2:NamedIndividual">
+        <entityURI value="Vocalist"/>
+      </entity>
+    </axioms>
+    <axioms xsi:type="owl2:ClassAssertion" individual="//@packages.1/@axioms.4/@entity" classExpression="//@packages.1/@axioms.1/@entity"/>
+    <axioms xsi:type="owl2:ClassAssertion" individual="//@packages.1/@axioms.3/@entity" classExpression="//@packages.1/@axioms.0/@entity"/>
+    <axioms xsi:type="owl2:ObjectPropertyAssertion" objectPropertyExpression="//@packages.1/@axioms.2/@entity" sourceIndividual="//@packages.1/@axioms.3/@entity" targetIndividual="//@packages.1/@axioms.4/@entity"/>
+  </packages>
+</owl2:Ontology>

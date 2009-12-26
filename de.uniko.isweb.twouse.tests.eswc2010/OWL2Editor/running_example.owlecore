@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<owl2:OntologyDocument xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:owl2="http:///owl.ecore">
+  <ontology ontologyURI="&lt;http://org.semanticweb.ontologies/Ontology2009122105959>">
+    <axioms xsi:type="owl2:SubClassOf" subClassExpression="//@ontology/@packages.0/@axioms.7/@entity" superClassExpression="//@ontology/@packages.0/@axioms.1/@entity"/>
+    <axioms xsi:type="owl2:SubClassOf" subClassExpression="//@ontology/@packages.0/@axioms.1/@entity" superClassExpression="//@ontology/@packages.0/@axioms.0/@entity"/>
+    <axioms xsi:type="owl2:SubClassOf" subClassExpression="//@ontology/@packages.0/@axioms.7/@entity" superClassExpression="//@ontology/@packages.0/@expressions.6"/>
+    <axioms xsi:type="owl2:SubClassOf" subClassExpression="//@ontology/@packages.0/@axioms.7/@entity" superClassExpression="//@ontology/@packages.0/@expressions.4"/>
+    <packages PackageUri="Car Ontology">
+      <templateBinding signature="//@ontology/@packages.1/@ownedTemplateSignature">
+        <parameterSubstitution actual="//@ontology/@packages.0/@axioms.3/@entity" formal="//@ontology/@packages.1/@ownedTemplateSignature/@ownedParameter.0"/>
+        <parameterSubstitution/>
+      </templateBinding>
+      <expressions xsi:type="owl2:ObjectSomeValuesFrom" classExpression="//@ontology/@packages.0/@axioms.3/@entity" objectPropertyExpression="//@ontology/@packages.0/@axioms.4/@entity"/>
+      <expressions xsi:type="owl2:ObjectOneOf" individuals="//@ontology/@packages.0/@axioms.9/@entity"/>
+      <expressions xsi:type="owl2:ObjectOneOf" individuals="//@ontology/@packages.0/@axioms.10/@entity"/>
+      <expressions xsi:type="owl2:ObjectSomeValuesFrom" classExpression="//@ontology/@packages.0/@expressions.1" objectPropertyExpression="//@ontology/@packages.0/@axioms.4/@entity"/>
+      <expressions xsi:type="owl2:ObjectComplementOf" classExpression="//@ontology/@packages.0/@expressions.3"/>
+      <expressions xsi:type="owl2:ObjectSomeValuesFrom" classExpression="//@ontology/@packages.0/@expressions.2" objectPropertyExpression="//@ontology/@packages.0/@axioms.4/@entity"/>
+      <expressions xsi:type="owl2:ObjectComplementOf" classExpression="//@ontology/@packages.0/@expressions.5"/>
+      <expressions xsi:type="owl2:ObjectOneOf" individuals="//@ontology/@packages.0/@axioms.9/@entity //@ontology/@packages.0/@axioms.10/@entity //@ontology/@packages.0/@axioms.17/@entity"/>
+      <axioms xsi:type="owl2:Declaration">
+        <entity xsi:type="owl2:Class">
+          <entityURI value="Vehicle"/>
+        </entity>
+      </axioms>
+      <axioms xsi:type="owl2:Declaration">
+        <entity xsi:type="owl2:Class">
+          <entityURI value="Car"/>
+        </entity>
+      </axioms>
+      <axioms xsi:type="owl2:SubClassOf" subClassExpression="//@ontology/@packages.0/@axioms.1/@entity" superClassExpression="//@ontology/@packages.0/@axioms.0/@entity"/>
+      <axioms xsi:type="owl2:Declaration">
+        <entity xsi:type="owl2:Class">
+          <entityURI value="Engine"/>
+        </entity>
+      </axioms>
+      <axioms xsi:type="owl2:Declaration">
+        <entity xsi:type="owl2:ObjectProperty">
+          <entityURI value="hasEngine"/>
+        </entity>
+      </axioms>
+      <axioms xsi:type="owl2:ObjectPropertyDomain" domain="//@ontology/@packages.0/@axioms.0/@entity" objectPropertyExpression="//@ontology/@packages.0/@axioms.4/@entity"/>
+      <axioms xsi:type="owl2:ObjectPropertyRange" range="//@ontology/@packages.0/@axioms.3/@entity" objectPropertyExpression="//@ontology/@packages.0/@axioms.4/@entity"/>
+      <axioms xsi:type="owl2:Declaration">
+        <entity xsi:type="owl2:Class">
+          <entityURI value="Convertible"/>
+        </entity>
+      </axioms>
+      <axioms xsi:type="owl2:SubClassOf" subClassExpression="//@ontology/@packages.0/@axioms.7/@entity" superClassExpression="//@ontology/@packages.0/@axioms.1/@entity"/>
+      <axioms xsi:type="owl2:Declaration">
+        <entity xsi:type="owl2:NamedIndividual">
+          <entityURI value="Diesel"/>
+        </entity>
+      </axioms>
+      <axioms xsi:type="owl2:Declaration">
+        <entity xsi:type="owl2:NamedIndividual">
+          <entityURI value="Hybrid"/>
+        </entity>
+      </axioms>
+      <axioms xsi:type="owl2:SubClassOf" subClassExpression="//@ontology/@packages.0/@axioms.7/@entity" superClassExpression="//@ontology/@packages.0/@expressions.6"/>
+      <axioms xsi:type="owl2:SubClassOf" subClassExpression="//@ontology/@packages.0/@axioms.7/@entity" superClassExpression="//@ontology/@packages.0/@expressions.4"/>
+      <axioms xsi:type="owl2:SubClassOf" subClassExpression="//@ontology/@packages.0/@axioms.1/@entity" superClassExpression="//@ontology/@packages.0/@expressions.0"/>
+      <axioms xsi:type="owl2:Declaration">
+        <entity xsi:type="owl2:NamedIndividual">
+          <entityURI value="Alfa"/>
+        </entity>
+      </axioms>
+      <axioms xsi:type="owl2:ClassAssertion" individual="//@ontology/@packages.0/@axioms.14/@entity" classExpression="//@ontology/@packages.0/@axioms.0/@entity"/>
+      <axioms xsi:type="owl2:ObjectPropertyAssertion" objectPropertyExpression="//@ontology/@packages.0/@axioms.4/@entity" sourceIndividual="//@ontology/@packages.0/@axioms.14/@entity" targetIndividual="//@ontology/@packages.0/@axioms.17/@entity"/>
+      <axioms xsi:type="owl2:Declaration">
+        <entity xsi:type="owl2:NamedIndividual">
+          <entityURI value="Petrol"/>
+        </entity>
+      </axioms>
+    </packages>
+    <packages PackageUri="Closed-domain">
+      <ownedTemplateSignature>
+        <ownedParameter xsi:type="owl2:ClassifierTemplateParameter" parameteredElement="//@ontology/@packages.1/@axioms.2/@entity"/>
+      </ownedTemplateSignature>
+      <expressions xsi:type="owl2:ObjectOneOf"/>
+      <axioms xsi:type="owl2:Rule" name="Individuals different from each other">
+        <hasAntecedent name="swrl:Antecedent">
+          <containsAtoms xsi:type="owl2:ClassAtom" hasPredicateSymbol="//@ontology/@packages.1/@axioms.2/@entity" hasTerm="//@ontology/@packages.1/@axioms.0/@swrlVariables.2"/>
+          <containsAtoms xsi:type="owl2:ClassAtom" hasPredicateSymbol="//@ontology/@packages.1/@axioms.2/@entity" hasTerm="//@ontology/@packages.1/@axioms.0/@swrlVariables.4"/>
+        </hasAntecedent>
+        <hasConsequent name="swrl:Consequent">
+          <containsAtoms xsi:type="owl2:ClassAtom" hasPredicateSymbol="//@ontology/@packages.1/@axioms.2/@entity" hasTerm="//@ontology/@packages.1/@axioms.0/@swrlVariables.0"/>
+          <containsAtoms xsi:type="owl2:ClassAtom" hasPredicateSymbol="//@ontology/@packages.1/@axioms.2/@entity" hasTerm="//@ontology/@packages.1/@axioms.0/@swrlVariables.1"/>
+          <containsAtoms xsi:type="owl2:BuiltInAtom" hasPredicateSymbol="swrlb:notEqual"/>
+        </hasConsequent>
+        <swrlVariables xsi:type="owl2:IndividualVariable" name="x"/>
+        <swrlVariables xsi:type="owl2:IndividualVariable" name="y"/>
+        <swrlVariables xsi:type="owl2:IndividualVariable" name="x"/>
+        <swrlVariables xsi:type="owl2:DataVariable" name="Connect"/>
+        <swrlVariables xsi:type="owl2:IndividualVariable" name="y"/>
+      </axioms>
+      <axioms xsi:type="owl2:DifferentIndividuals"/>
+      <axioms xsi:type="owl2:Declaration">
+        <entity xsi:type="owl2:Class" templateParameter="//@ontology/@packages.1/@ownedTemplateSignature/@ownedParameter.0">
+          <entityURI value="X"/>
+        </entity>
+      </axioms>
+      <axioms xsi:type="owl2:EquivalentClasses" equivalentClassExpressions="//@ontology/@packages.1/@axioms.2/@entity //@ontology/@packages.1/@expressions.0"/>
+    </packages>
+  </ontology>
+</owl2:OntologyDocument>
