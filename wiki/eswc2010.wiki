@@ -6,7 +6,7 @@ Please follow this tutorial to reproduce the results described in the paper subm
 
 1. [InstallationTwoUse Download and install TwoUse Toolkit]
 
-2. http://twouse.googlecode.com/svn/trunk/de.uniko.isweb.twouse.tests.eswc2010 [Download and import the project eswc2010] into your workspace
+2. [http://twouse.googlecode.com/svn/trunk/de.uniko.isweb.twouse.tests.eswc2010 Download and import the project eswc2010] into your workspace
 
 3. Try to transform the example into OWL: 
 
