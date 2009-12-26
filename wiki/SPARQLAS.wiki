@@ -8,6 +8,8 @@ SPARQLAS is our implementation of the SPARQL-DL abstract syntax for writing desc
 
 SPARQLAS queries are automatically translated into SPARQL queries that can be executed using a query engine and reasoner with support to OWL entailment regime, like [http://clarkparsia.com/pellet/ pellet].
 
+Click here to see [SPARQLQuery how to execute SPARQL queries using the twouse toolkit].
+
 SPARQLAS is part of the [InstallationTwoUse TwoUse Toolkit installation].
 
 http://twouse.googlecode.com/svn/wiki/images/sparqlas.png
