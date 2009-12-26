@@ -12,3 +12,5 @@ http://twouse.googlecode.com/svn/wiki/images/Create%20an%20OWL-Editor%20File2.pn
 http://twouse.googlecode.com/svn/wiki/images/Create%20an%20OWL-Editor%20File3.png
 
 http://twouse.googlecode.com/svn/wiki/images/Create%20an%20OWL-Editor%20File4.png
+
+http://twouse.googlecode.com/svn/wiki/images/Create%20an%20OWL-Editor%20File5.png
