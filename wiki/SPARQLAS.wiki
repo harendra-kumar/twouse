@@ -12,6 +12,8 @@ Click here to see [SPARQLQuery how to execute SPARQL queries using the twouse to
 
 Click here to see [SPARQLASExamples examples of SPARQLAS queries].
 
+Clicke here to see the [SPARQLASGrammar complete SPARQLAS grammar]. 
+
 SPARQLAS is part of the [InstallationTwoUse TwoUse Toolkit installation].
 
 http://twouse.googlecode.com/svn/wiki/images/sparqlas.png
