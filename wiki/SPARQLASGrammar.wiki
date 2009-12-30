@@ -1,0 +1,195 @@
+#summary This page shows the grammar for SPARQLAS.
+
+= Introduction =
+
+This page shows the complete grammar for SPARQLAS.
+
+
+= Grammar =
+
+*cardinality* := _a nonempty finite sequence of digits between 0 and 9_
+
+*lexical* := _a nonempty finite sequence of alphanumeric characters enclosed in a pair of " (U+22) characters_
+
+*variable* := _a nonempty finite sequence of alphanumeric characters starting with a ? (U+3F) character_
+
+*nodeID* := _a finite sequence of characters matching the BLANK_NODE_LABEL production of [http://www.w3.org/TR/2008/REC-rdf-sparql-query-20080115/ SPARQL]_
+
+*prefix* := _a finite sequence of characters matching the PNAME_NS production of [http://www.w3.org/TR/2008/REC-rdf-sparql-query-20080115/ SPARQL]_
+
+*fullIRI* := _an IRI as defined in [http://www.ietf.org/rfc/rfc3987.txt RFC3987], enclosed in a pair of < (U+3C) and > (U+3E) characters_
+
+*abbreviatedIRI* := _a finite sequence of characters matching the PNAME_LN production of [http://www.w3.org/TR/2008/REC-rdf-sparql-query-20080115/ SPARQL]_
+
+
+<br/>
+
+*IRI* := *fullIRI* | *abbreviatedIRI*
+
+
+<br/>
+
+*!OntologyDocument* := `{` *!PrefixDefinition* `}` *Query*
+
+*!PrefixDefinition* := 'Namespace' '(' `[` *prefix* `]` '=' *fullIRI* ')'
+
+
+<br/>
+
+*Query* := 'Query' '(' `[` *IRI* `]` `{` *Atom* `}` ')'
+
+
+<br/>
+
+*!ClassVariable* :=  *variable*
+
+*!ObjectPropertyVariable* := *variable*
+
+*!DatatypePropertyVariable* := *variable*
+
+*!IndividualVariable* :=  *variable*
+
+
+<br/>
+
+*Class* := *IRI*
+
+*Datatype* := *IRI*
+
+*!ObjectProperty* := *IRI*
+
+*!DatatypeProperty* := *IRI*
+
+*!NamedIndividual* := *IRI*
+
+*!AnonymousIndividual* := *nodeID*
+
+*Literal* := *lexical* '^^' *Datatype*
+
+
+<br/>
+
+*Atom* := *Assertion* | *!ClassAtom* | *!ObjectPropertyAtom* | *Declaration*
+
+
+<br/>
+
+*Assertion* := *!ObjectPropertyAssertion* | *!DatatypePropertyAssertion* | *!ClassAssertion* | *!SameIndividual* | *!DifferentIndividual*
+
+<br/>
+
+*!ObjectPropertyAssertion* := '!PropertyValue' '(' *!SourceIndividual* *!ObjectPropertyExpression* *!TargetIndividual* ')'
+
+*!DatatypePropertyAssertion* := '!PropertyValue' '(' *!SourceIndividual* *!DatatypePropertyExpression* *!TargetValue* ')'
+
+*!ClassAssertion* := 'Type' '(' *Individual* *!ClassExpression* ')'
+
+*!SameIndividual* := '!SameAs' '(' *Individual* *Individual* `{` *Individual* `}` ')'
+
+*!DifferentIndividual* := '!DifferentFrom' '(' *Individual* *Individual* `{` *Individual* `}` ')'
+
+*!SourceIndividual* := *Individual*
+
+*!TargetIndividual* := *Individual*
+
+*Individual* := *!NamedIndividual* | *!AnonymousIndividual*
+
+
+<br/>
+
+*!ClassAtom* := *!EquivalentClasses* | *!SubClassOf* | *!DisjointClasses*
+
+<br/>
+
+*!EquivalentClasses* := '!EquivalentTo' '(' *!ClassExpression* *!ClassExpression* `{` *!ClassExpression* `}` ')'
+
+*!SubClassOf* := '!SubClassOf' '(' *!SubClassExpression* *!SuperClassExpression* ')'
+
+*!DisjointClasses* := '!DisjointWith' '(' *!ClassExpression* *!ClassExpression* `{` *!ClassExpression* `}` ')'
+
+*!SubClassExpression* := *!ClassExpression*
+
+*!SuperClassExpression* := *!ClassExpression*
+
+
+<br/>
+
+*!ClassExpression* := *!ClassVariable* | *Class* | *!ObjectUnionOf* | *!ObjectComplementOf* | *!ObjectOneOf* | *!ObjectIntersectionOf* | *!ObjectAllValuesFrom* | *!ObjectSomeValuesFrom* | *!ObjectHasValue* | *!ObjectMinCardinality* | *!ObjectMaxCardinality * | *!ObjectExactCardinality* | *!DataHasValue*
+
+<br/>
+
+*!ObjectUnionOf* := 'Or' '(' *!ClassExpression* *!ClassExpression* `{` *!ClassExpresion* `}` ')'
+
+*!ObjectComplementOf* := 'Not' '(' *!ClassExpression* ')'
+
+*!ObjectOneOf* := '!OneOf' '(' *Individual* `{` *Individual* `}` ')'
+
+*!ObjectIntersectionOf* := 'And' '(' *!ClassExpression* *!ClassExpression* `{` *!ClassExpresion* `}`')'
+
+*!ObjectAllValuesFrom* := 'All' '(' *!ObjectPropertyExpression* *!ClassExpression* ')'
+
+*!ObjectSomeValuesFrom* := 'Some' '(' *!ObjectPropertyExpression* *!ClassExpression* ')'
+
+*!ObjectHasValue* := 'Has' '(' *!ObjectPropertyExpression* *Individual* ')'
+
+*!ObjectMinCardinality* := 'Min' '(' *cardinality* *!ObjectPropertyExpression* `[` *!ClassExpression* `]` ')'
+
+*!ObjectMaxCardinality* := 'Max' '(' *cardinality* *!ObjectPropertyExpression* `[` *!ClassExpression* `]` ')'
+
+*!ObjectExactCardinality* := 'Exact' '(' *cardinality* *!ObjectPropertyExpression* `[` *!ClassExpression* `]` ')'
+
+*!DataHasValue* := 'Has' '(' *!DatatypePropertyExpression* *Literal* ')'
+
+
+<br/>
+
+*!DatatypePropertyExpression* := *!DatatypePropertyVariable* | *!DatatypeProperty*
+
+
+<br/>
+
+*!ObjectPropertyAtom* := *!EquivalentObjectProperties* | *!SubPropertyOf* | *!InverseObjectPropertyAtom* | *!FunctionalObjectProperty* | *!InverseFunctionalObjectProperty* | *!TransitiveObjectProperty* | *!SymmetricObjectProperty*
+
+<br/>
+
+*!EquivalentObjectProperties* := '!EquivalentProperty' '(' *!ObjectPropertyExpression* *!ObjectPropertyExpression* `{` *!ObjectPropertyExpression* `}` ')'
+
+*!SubPropertyOf* := '!SubPropertyOf' '(' *!SubObjectPropertyExpression* *!SuperObjectPropertyExpression* ')'
+
+*!InverseObjectPropertyAtom* := '!InverseOf' '(' *!ObjectPropertyExpression* *!ObjectPropertyExpression* ')'
+
+*!FunctionalObjectProperty* := 'Functional' '(' *!ObjectPropertyExpression* ')'
+
+*!InverseFunctionalObjectProperty* := '!InverseFunctional' '(' *!ObjectPropertyExpression* ')'
+
+*!TransitiveObjectProperty* := 'Transitive' '(' *!ObjectPropertyExpression* ')'
+
+*!SymmetricObjectProperty* := 'Symmetric' '(' *!ObjectPropertyExpression* ')'
+
+*!SubObjectPropertyExpression* := *!ObjectPropertyExpression*
+
+*!SuperObjectPropertyExpression* := *!ObjectPropertyExpression*
+
+
+<br/>
+
+*!ObjectPropertyExpression* := *!ObjectPropertyVariabe* | *!ObjectProperty* | *!InverseObjectProperty*
+
+<br/>
+
+*!InverseObjectProperty* := '!InverseOf' '(' *!ObjectPropertyExpression* ')'
+
+
+<br/>
+
+*Declaration* := *!ObjectPropertyDeclaration* | *!DatatypePropertyDeclaration* | *!IndividualDeclaration* | *!ClassDeclaration*
+
+<br/>
+
+*!ObjectPropertyDeclaration* := '!ObjectProperty' '(' *!ObjectPropertyVariable* ')'
+
+*!DatatypePropertyDeclaration* := '!DatatypeProperty' '(' *!DatatypePropertyVariable* ')'
+
+*!IndividualDeclaration* := 'Individual' '(' *!IndividualVariable* ')'
+
+*!ClassDeclaration* := 'Class' '(' *!ClassVariable* ')'
