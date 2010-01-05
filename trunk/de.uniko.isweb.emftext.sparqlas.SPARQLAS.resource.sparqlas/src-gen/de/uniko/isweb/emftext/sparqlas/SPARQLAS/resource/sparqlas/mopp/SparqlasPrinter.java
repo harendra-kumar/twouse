@@ -46,6 +46,14 @@ public class SparqlasPrinter implements de.uniko.isweb.emftext.sparqlas.SPARQLAS
 			throw new java.lang.IllegalArgumentException("Nothing to write on.");
 		}
 		
+		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.FullIRI) {
+			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_FullIRI((de.uniko.isweb.emftext.sparqlas.SPARQLAS.FullIRI) element, globaltab, out);
+			return;
+		}
+		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.AbbreviatedIRI) {
+			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_AbbreviatedIRI((de.uniko.isweb.emftext.sparqlas.SPARQLAS.AbbreviatedIRI) element, globaltab, out);
+			return;
+		}
 		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.OntologyDocument) {
 			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_OntologyDocument((de.uniko.isweb.emftext.sparqlas.SPARQLAS.OntologyDocument) element, globaltab, out);
 			return;
@@ -102,18 +110,6 @@ public class SparqlasPrinter implements de.uniko.isweb.emftext.sparqlas.SPARQLAS
 			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_Literal((de.uniko.isweb.emftext.sparqlas.SPARQLAS.Literal) element, globaltab, out);
 			return;
 		}
-		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.EquivalentClasses) {
-			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_EquivalentClasses((de.uniko.isweb.emftext.sparqlas.SPARQLAS.EquivalentClasses) element, globaltab, out);
-			return;
-		}
-		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.SubClassOf) {
-			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_SubClassOf((de.uniko.isweb.emftext.sparqlas.SPARQLAS.SubClassOf) element, globaltab, out);
-			return;
-		}
-		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.DisjointClasses) {
-			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_DisjointClasses((de.uniko.isweb.emftext.sparqlas.SPARQLAS.DisjointClasses) element, globaltab, out);
-			return;
-		}
 		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.ObjectPropertyAssertion) {
 			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_ObjectPropertyAssertion((de.uniko.isweb.emftext.sparqlas.SPARQLAS.ObjectPropertyAssertion) element, globaltab, out);
 			return;
@@ -134,36 +130,16 @@ public class SparqlasPrinter implements de.uniko.isweb.emftext.sparqlas.SPARQLAS
 			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_DifferentIndividuals((de.uniko.isweb.emftext.sparqlas.SPARQLAS.DifferentIndividuals) element, globaltab, out);
 			return;
 		}
-		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.EquivalentObjectProperties) {
-			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_EquivalentObjectProperties((de.uniko.isweb.emftext.sparqlas.SPARQLAS.EquivalentObjectProperties) element, globaltab, out);
+		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.EquivalentClasses) {
+			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_EquivalentClasses((de.uniko.isweb.emftext.sparqlas.SPARQLAS.EquivalentClasses) element, globaltab, out);
 			return;
 		}
-		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.SubPropertyOf) {
-			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_SubPropertyOf((de.uniko.isweb.emftext.sparqlas.SPARQLAS.SubPropertyOf) element, globaltab, out);
+		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.SubClassOf) {
+			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_SubClassOf((de.uniko.isweb.emftext.sparqlas.SPARQLAS.SubClassOf) element, globaltab, out);
 			return;
 		}
-		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseObjectProperty) {
-			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_InverseObjectProperty((de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseObjectProperty) element, globaltab, out);
-			return;
-		}
-		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseObjectPropertyAtom) {
-			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_InverseObjectPropertyAtom((de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseObjectPropertyAtom) element, globaltab, out);
-			return;
-		}
-		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.FunctionalObjectProperty) {
-			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_FunctionalObjectProperty((de.uniko.isweb.emftext.sparqlas.SPARQLAS.FunctionalObjectProperty) element, globaltab, out);
-			return;
-		}
-		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseFunctionalObjectProperty) {
-			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_InverseFunctionalObjectProperty((de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseFunctionalObjectProperty) element, globaltab, out);
-			return;
-		}
-		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.TransitiveObjectProperty) {
-			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_TransitiveObjectProperty((de.uniko.isweb.emftext.sparqlas.SPARQLAS.TransitiveObjectProperty) element, globaltab, out);
-			return;
-		}
-		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.SymmetricObjectProperty) {
-			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_SymmetricObjectProperty((de.uniko.isweb.emftext.sparqlas.SPARQLAS.SymmetricObjectProperty) element, globaltab, out);
+		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.DisjointClasses) {
+			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_DisjointClasses((de.uniko.isweb.emftext.sparqlas.SPARQLAS.DisjointClasses) element, globaltab, out);
 			return;
 		}
 		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.ObjectUnionOf) {
@@ -210,12 +186,36 @@ public class SparqlasPrinter implements de.uniko.isweb.emftext.sparqlas.SPARQLAS
 			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_DataHasValue((de.uniko.isweb.emftext.sparqlas.SPARQLAS.DataHasValue) element, globaltab, out);
 			return;
 		}
-		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.FullIRI) {
-			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_FullIRI((de.uniko.isweb.emftext.sparqlas.SPARQLAS.FullIRI) element, globaltab, out);
+		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.EquivalentObjectProperties) {
+			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_EquivalentObjectProperties((de.uniko.isweb.emftext.sparqlas.SPARQLAS.EquivalentObjectProperties) element, globaltab, out);
 			return;
 		}
-		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.AbbreviatedIRI) {
-			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_AbbreviatedIRI((de.uniko.isweb.emftext.sparqlas.SPARQLAS.AbbreviatedIRI) element, globaltab, out);
+		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.SubPropertyOf) {
+			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_SubPropertyOf((de.uniko.isweb.emftext.sparqlas.SPARQLAS.SubPropertyOf) element, globaltab, out);
+			return;
+		}
+		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseObjectPropertyAtom) {
+			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_InverseObjectPropertyAtom((de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseObjectPropertyAtom) element, globaltab, out);
+			return;
+		}
+		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.FunctionalObjectProperty) {
+			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_FunctionalObjectProperty((de.uniko.isweb.emftext.sparqlas.SPARQLAS.FunctionalObjectProperty) element, globaltab, out);
+			return;
+		}
+		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseFunctionalObjectProperty) {
+			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_InverseFunctionalObjectProperty((de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseFunctionalObjectProperty) element, globaltab, out);
+			return;
+		}
+		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.TransitiveObjectProperty) {
+			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_TransitiveObjectProperty((de.uniko.isweb.emftext.sparqlas.SPARQLAS.TransitiveObjectProperty) element, globaltab, out);
+			return;
+		}
+		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.SymmetricObjectProperty) {
+			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_SymmetricObjectProperty((de.uniko.isweb.emftext.sparqlas.SPARQLAS.SymmetricObjectProperty) element, globaltab, out);
+			return;
+		}
+		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseObjectProperty) {
+			print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_InverseObjectProperty((de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseObjectProperty) element, globaltab, out);
 			return;
 		}
 		if (element instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.ObjectPropertyDeclaration) {
@@ -266,9 +266,51 @@ public class SparqlasPrinter implements de.uniko.isweb.emftext.sparqlas.SPARQLAS
 	/** Calls {@link #doPrint(EObject, String)} and writes the result to the underlying output stream. */
 	public void print(org.eclipse.emf.ecore.EObject element)  {
 		java.io.PrintWriter out = new java.io.PrintWriter(new java.io.BufferedOutputStream(outputStream));
-		doPrint(element,out,"");
+		doPrint(element, out, "");
 		out.flush();
 		out.close();
+	}
+	
+	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_FullIRI(de.uniko.isweb.emftext.sparqlas.SPARQLAS.FullIRI element, java.lang.String outertab, java.io.PrintWriter out) {
+		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
+		java.lang.Object temp;
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.FULL_IRI__ID));
+		printCountingMap.put("id", temp == null ? 0 : 1);
+		// print collected hidden tokens
+		int count;
+		//////////////DEFINITION PART BEGINS (PlaceholderUsingSpecifiedToken):
+		count = printCountingMap.get("id");
+		if (count > 0) {
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.FULL_IRI__ID));
+			if (o != null) {
+				de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ISparqlasTokenResolver resolver = tokenResolverFactory.createTokenResolver("FULLIRI");
+				resolver.setOptions(getOptions());
+				out.print(resolver.deResolve((java.lang.Object) o, element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.FULL_IRI__ID), element));
+				out.print(" ");
+			}
+			printCountingMap.put("id", count - 1);
+		}
+	}
+	
+	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_AbbreviatedIRI(de.uniko.isweb.emftext.sparqlas.SPARQLAS.AbbreviatedIRI element, java.lang.String outertab, java.io.PrintWriter out) {
+		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
+		java.lang.Object temp;
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.ABBREVIATED_IRI__ID));
+		printCountingMap.put("id", temp == null ? 0 : 1);
+		// print collected hidden tokens
+		int count;
+		//////////////DEFINITION PART BEGINS (PlaceholderUsingSpecifiedToken):
+		count = printCountingMap.get("id");
+		if (count > 0) {
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.ABBREVIATED_IRI__ID));
+			if (o != null) {
+				de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ISparqlasTokenResolver resolver = tokenResolverFactory.createTokenResolver("ABBRIRI");
+				resolver.setOptions(getOptions());
+				out.print(resolver.deResolve((java.lang.Object) o, element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.ABBREVIATED_IRI__ID), element));
+				out.print(" ");
+			}
+			printCountingMap.put("id", count - 1);
+		}
 	}
 	
 	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_OntologyDocument(de.uniko.isweb.emftext.sparqlas.SPARQLAS.OntologyDocument element, java.lang.String outertab, java.io.PrintWriter out) {
@@ -328,7 +370,7 @@ public class SparqlasPrinter implements de.uniko.isweb.emftext.sparqlas.SPARQLAS
 		if (count > 0) {
 			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.PREFIX_DEFINITION__PREF));
 			if (o != null) {
-				de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ISparqlasTokenResolver resolver = tokenResolverFactory.createTokenResolver("STRING");
+				de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ISparqlasTokenResolver resolver = tokenResolverFactory.createTokenResolver("ABBRIRI");
 				resolver.setOptions(getOptions());
 				out.print(resolver.deResolve((java.lang.Object) o, element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.PREFIX_DEFINITION__PREF), element));
 				out.print(" ");
@@ -633,145 +675,6 @@ public class SparqlasPrinter implements de.uniko.isweb.emftext.sparqlas.SPARQLAS
 		}
 	}
 	
-	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_EquivalentClasses(de.uniko.isweb.emftext.sparqlas.SPARQLAS.EquivalentClasses element, java.lang.String outertab, java.io.PrintWriter out) {
-		java.lang.String localtab = outertab;
-		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
-		java.lang.Object temp;
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.EQUIVALENT_CLASSES__CLASS_EXPRESSIONS));
-		printCountingMap.put("classExpressions", temp == null ? 0 : ((java.util.Collection<?>) temp).size());
-		// print collected hidden tokens
-		int count;
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("EquivalentClass");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("(");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("classExpressions");
-		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.EQUIVALENT_CLASSES__CLASS_EXPRESSIONS));
-			java.util.List<?> list = (java.util.List<?>) o;
-			int index = list.size() - count;
-			if (index >= 0) {
-				o = list.get(index);
-			} else {
-				o = null;
-			}
-			if (o != null) {
-				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
-			}
-			printCountingMap.put("classExpressions", count - 1);
-		}
-		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("classExpressions");
-		if (count > 0) {
-			java.util.List<?> list = (java.util.List<?>)element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.EQUIVALENT_CLASSES__CLASS_EXPRESSIONS));
-			int index  = list.size() - count;
-			if (index < 0) {
-				index = 0;
-			}
-			java.util.ListIterator<?> it  = list.listIterator(index);
-			while (it.hasNext()) {
-				java.lang.Object o = it.next();
-				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
-			}
-			printCountingMap.put("classExpressions",0);
-		}
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print(")");
-		out.print(" ");
-	}
-	
-	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_SubClassOf(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SubClassOf element, java.lang.String outertab, java.io.PrintWriter out) {
-		java.lang.String localtab = outertab;
-		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(2);
-		java.lang.Object temp;
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_CLASS_OF__SUB_CLASS_EXPRESSION));
-		printCountingMap.put("subClassExpression", temp == null ? 0 : 1);
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_CLASS_OF__SUPER_CLASS_EXPRESSION));
-		printCountingMap.put("superClassExpression", temp == null ? 0 : 1);
-		// print collected hidden tokens
-		int count;
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("SubClassOf");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("(");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("subClassExpression");
-		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_CLASS_OF__SUB_CLASS_EXPRESSION));
-			if (o != null) {
-				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
-			}
-			printCountingMap.put("subClassExpression", count - 1);
-		}
-		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("superClassExpression");
-		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_CLASS_OF__SUPER_CLASS_EXPRESSION));
-			if (o != null) {
-				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
-			}
-			printCountingMap.put("superClassExpression", count - 1);
-		}
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print(")");
-		out.print(" ");
-	}
-	
-	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_DisjointClasses(de.uniko.isweb.emftext.sparqlas.SPARQLAS.DisjointClasses element, java.lang.String outertab, java.io.PrintWriter out) {
-		java.lang.String localtab = outertab;
-		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
-		java.lang.Object temp;
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.DISJOINT_CLASSES__CLASS_EXPRESSIONS));
-		printCountingMap.put("classExpressions", temp == null ? 0 : ((java.util.Collection<?>) temp).size());
-		// print collected hidden tokens
-		int count;
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("DisjointWith");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("(");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("classExpressions");
-		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.DISJOINT_CLASSES__CLASS_EXPRESSIONS));
-			java.util.List<?> list = (java.util.List<?>) o;
-			int index = list.size() - count;
-			if (index >= 0) {
-				o = list.get(index);
-			} else {
-				o = null;
-			}
-			if (o != null) {
-				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
-			}
-			printCountingMap.put("classExpressions", count - 1);
-		}
-		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("classExpressions");
-		if (count > 0) {
-			java.util.List<?> list = (java.util.List<?>)element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.DISJOINT_CLASSES__CLASS_EXPRESSIONS));
-			int index  = list.size() - count;
-			if (index < 0) {
-				index = 0;
-			}
-			java.util.ListIterator<?> it  = list.listIterator(index);
-			while (it.hasNext()) {
-				java.lang.Object o = it.next();
-				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
-			}
-			printCountingMap.put("classExpressions",0);
-		}
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print(")");
-		out.print(" ");
-	}
-	
 	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_ObjectPropertyAssertion(de.uniko.isweb.emftext.sparqlas.SPARQLAS.ObjectPropertyAssertion element, java.lang.String outertab, java.io.PrintWriter out) {
 		java.lang.String localtab = outertab;
 		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(3);
@@ -1011,24 +914,24 @@ public class SparqlasPrinter implements de.uniko.isweb.emftext.sparqlas.SPARQLAS
 		out.print(" ");
 	}
 	
-	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_EquivalentObjectProperties(de.uniko.isweb.emftext.sparqlas.SPARQLAS.EquivalentObjectProperties element, java.lang.String outertab, java.io.PrintWriter out) {
+	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_EquivalentClasses(de.uniko.isweb.emftext.sparqlas.SPARQLAS.EquivalentClasses element, java.lang.String outertab, java.io.PrintWriter out) {
 		java.lang.String localtab = outertab;
 		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
 		java.lang.Object temp;
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.EQUIVALENT_OBJECT_PROPERTIES__OBJECT_PROPERTY_EXPRESSION));
-		printCountingMap.put("objectPropertyExpression", temp == null ? 0 : ((java.util.Collection<?>) temp).size());
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.EQUIVALENT_CLASSES__CLASS_EXPRESSIONS));
+		printCountingMap.put("classExpressions", temp == null ? 0 : ((java.util.Collection<?>) temp).size());
 		// print collected hidden tokens
 		int count;
 		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("EquivalentProperty");
+		out.print("EquivalentTo");
 		out.print(" ");
 		//////////////DEFINITION PART BEGINS (CsString):
 		out.print("(");
 		out.print(" ");
 		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("objectPropertyExpression");
+		count = printCountingMap.get("classExpressions");
 		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.EQUIVALENT_OBJECT_PROPERTIES__OBJECT_PROPERTY_EXPRESSION));
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.EQUIVALENT_CLASSES__CLASS_EXPRESSIONS));
 			java.util.List<?> list = (java.util.List<?>) o;
 			int index = list.size() - count;
 			if (index >= 0) {
@@ -1039,12 +942,12 @@ public class SparqlasPrinter implements de.uniko.isweb.emftext.sparqlas.SPARQLAS
 			if (o != null) {
 				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
 			}
-			printCountingMap.put("objectPropertyExpression", count - 1);
+			printCountingMap.put("classExpressions", count - 1);
 		}
 		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("objectPropertyExpression");
+		count = printCountingMap.get("classExpressions");
 		if (count > 0) {
-			java.util.List<?> list = (java.util.List<?>)element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.EQUIVALENT_OBJECT_PROPERTIES__OBJECT_PROPERTY_EXPRESSION));
+			java.util.List<?> list = (java.util.List<?>)element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.EQUIVALENT_CLASSES__CLASS_EXPRESSIONS));
 			int index  = list.size() - count;
 			if (index < 0) {
 				index = 0;
@@ -1054,225 +957,96 @@ public class SparqlasPrinter implements de.uniko.isweb.emftext.sparqlas.SPARQLAS
 				java.lang.Object o = it.next();
 				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
 			}
-			printCountingMap.put("objectPropertyExpression",0);
+			printCountingMap.put("classExpressions",0);
 		}
 		//////////////DEFINITION PART BEGINS (CsString):
 		out.print(")");
 		out.print(" ");
 	}
 	
-	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_SubPropertyOf(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SubPropertyOf element, java.lang.String outertab, java.io.PrintWriter out) {
+	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_SubClassOf(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SubClassOf element, java.lang.String outertab, java.io.PrintWriter out) {
 		java.lang.String localtab = outertab;
 		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(2);
 		java.lang.Object temp;
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_PROPERTY_OF__SUB_OBJECT_PROPERTY_EXPRESSION));
-		printCountingMap.put("subObjectPropertyExpression", temp == null ? 0 : 1);
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_PROPERTY_OF__SUPER_OBJECT_PROPERTY_EXPRESSION));
-		printCountingMap.put("superObjectPropertyExpression", temp == null ? 0 : 1);
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_CLASS_OF__SUB_CLASS_EXPRESSION));
+		printCountingMap.put("subClassExpression", temp == null ? 0 : 1);
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_CLASS_OF__SUPER_CLASS_EXPRESSION));
+		printCountingMap.put("superClassExpression", temp == null ? 0 : 1);
 		// print collected hidden tokens
 		int count;
 		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("SubPropertyOf");
+		out.print("SubClassOf");
 		out.print(" ");
 		//////////////DEFINITION PART BEGINS (CsString):
 		out.print("(");
 		out.print(" ");
 		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("subObjectPropertyExpression");
+		count = printCountingMap.get("subClassExpression");
 		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_PROPERTY_OF__SUB_OBJECT_PROPERTY_EXPRESSION));
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_CLASS_OF__SUB_CLASS_EXPRESSION));
 			if (o != null) {
 				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
 			}
-			printCountingMap.put("subObjectPropertyExpression", count - 1);
+			printCountingMap.put("subClassExpression", count - 1);
 		}
 		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("superObjectPropertyExpression");
+		count = printCountingMap.get("superClassExpression");
 		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_PROPERTY_OF__SUPER_OBJECT_PROPERTY_EXPRESSION));
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_CLASS_OF__SUPER_CLASS_EXPRESSION));
 			if (o != null) {
 				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
 			}
-			printCountingMap.put("superObjectPropertyExpression", count - 1);
+			printCountingMap.put("superClassExpression", count - 1);
 		}
 		//////////////DEFINITION PART BEGINS (CsString):
 		out.print(")");
 		out.print(" ");
 	}
 	
-	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_InverseObjectProperty(de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseObjectProperty element, java.lang.String outertab, java.io.PrintWriter out) {
+	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_DisjointClasses(de.uniko.isweb.emftext.sparqlas.SPARQLAS.DisjointClasses element, java.lang.String outertab, java.io.PrintWriter out) {
 		java.lang.String localtab = outertab;
 		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
 		java.lang.Object temp;
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_OBJECT_PROPERTY__OBJECT_PROPERTY));
-		printCountingMap.put("objectProperty", temp == null ? 0 : 1);
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.DISJOINT_CLASSES__CLASS_EXPRESSIONS));
+		printCountingMap.put("classExpressions", temp == null ? 0 : ((java.util.Collection<?>) temp).size());
 		// print collected hidden tokens
 		int count;
 		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("InverseOf");
+		out.print("DisjointWith");
 		out.print(" ");
 		//////////////DEFINITION PART BEGINS (CsString):
 		out.print("(");
 		out.print(" ");
 		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("objectProperty");
+		count = printCountingMap.get("classExpressions");
 		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_OBJECT_PROPERTY__OBJECT_PROPERTY));
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.DISJOINT_CLASSES__CLASS_EXPRESSIONS));
+			java.util.List<?> list = (java.util.List<?>) o;
+			int index = list.size() - count;
+			if (index >= 0) {
+				o = list.get(index);
+			} else {
+				o = null;
+			}
 			if (o != null) {
 				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
 			}
-			printCountingMap.put("objectProperty", count - 1);
-		}
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print(")");
-		out.print(" ");
-	}
-	
-	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_InverseObjectPropertyAtom(de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseObjectPropertyAtom element, java.lang.String outertab, java.io.PrintWriter out) {
-		java.lang.String localtab = outertab;
-		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(2);
-		java.lang.Object temp;
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_OBJECT_PROPERTY_ATOM__OBJECT_PROPERTY_EXPRESSION1));
-		printCountingMap.put("objectPropertyExpression1", temp == null ? 0 : 1);
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_OBJECT_PROPERTY_ATOM__OBJECT_PROPERTY_EXPRESSION2));
-		printCountingMap.put("objectPropertyExpression2", temp == null ? 0 : 1);
-		// print collected hidden tokens
-		int count;
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("InverseOf");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("(");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("objectPropertyExpression1");
-		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_OBJECT_PROPERTY_ATOM__OBJECT_PROPERTY_EXPRESSION1));
-			if (o != null) {
-				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
-			}
-			printCountingMap.put("objectPropertyExpression1", count - 1);
+			printCountingMap.put("classExpressions", count - 1);
 		}
 		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("objectPropertyExpression2");
+		count = printCountingMap.get("classExpressions");
 		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_OBJECT_PROPERTY_ATOM__OBJECT_PROPERTY_EXPRESSION2));
-			if (o != null) {
+			java.util.List<?> list = (java.util.List<?>)element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.DISJOINT_CLASSES__CLASS_EXPRESSIONS));
+			int index  = list.size() - count;
+			if (index < 0) {
+				index = 0;
+			}
+			java.util.ListIterator<?> it  = list.listIterator(index);
+			while (it.hasNext()) {
+				java.lang.Object o = it.next();
 				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
 			}
-			printCountingMap.put("objectPropertyExpression2", count - 1);
-		}
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print(")");
-		out.print(" ");
-	}
-	
-	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_FunctionalObjectProperty(de.uniko.isweb.emftext.sparqlas.SPARQLAS.FunctionalObjectProperty element, java.lang.String outertab, java.io.PrintWriter out) {
-		java.lang.String localtab = outertab;
-		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
-		java.lang.Object temp;
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.FUNCTIONAL_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
-		printCountingMap.put("objectPropertyExpression", temp == null ? 0 : 1);
-		// print collected hidden tokens
-		int count;
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("Functional");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("(");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("objectPropertyExpression");
-		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.FUNCTIONAL_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
-			if (o != null) {
-				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
-			}
-			printCountingMap.put("objectPropertyExpression", count - 1);
-		}
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print(")");
-		out.print(" ");
-	}
-	
-	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_InverseFunctionalObjectProperty(de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseFunctionalObjectProperty element, java.lang.String outertab, java.io.PrintWriter out) {
-		java.lang.String localtab = outertab;
-		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
-		java.lang.Object temp;
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_FUNCTIONAL_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
-		printCountingMap.put("objectPropertyExpression", temp == null ? 0 : 1);
-		// print collected hidden tokens
-		int count;
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("InverseFunctional");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("(");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("objectPropertyExpression");
-		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_FUNCTIONAL_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
-			if (o != null) {
-				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
-			}
-			printCountingMap.put("objectPropertyExpression", count - 1);
-		}
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print(")");
-		out.print(" ");
-	}
-	
-	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_TransitiveObjectProperty(de.uniko.isweb.emftext.sparqlas.SPARQLAS.TransitiveObjectProperty element, java.lang.String outertab, java.io.PrintWriter out) {
-		java.lang.String localtab = outertab;
-		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
-		java.lang.Object temp;
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.TRANSITIVE_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
-		printCountingMap.put("objectPropertyExpression", temp == null ? 0 : 1);
-		// print collected hidden tokens
-		int count;
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("Transitive");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("(");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("objectPropertyExpression");
-		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.TRANSITIVE_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
-			if (o != null) {
-				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
-			}
-			printCountingMap.put("objectPropertyExpression", count - 1);
-		}
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print(")");
-		out.print(" ");
-	}
-	
-	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_SymmetricObjectProperty(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SymmetricObjectProperty element, java.lang.String outertab, java.io.PrintWriter out) {
-		java.lang.String localtab = outertab;
-		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
-		java.lang.Object temp;
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SYMMETRIC_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
-		printCountingMap.put("objectPropertyExpression", temp == null ? 0 : 1);
-		// print collected hidden tokens
-		int count;
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("Symmetric");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("(");
-		out.print(" ");
-		//////////////DEFINITION PART BEGINS (Containment):
-		count = printCountingMap.get("objectPropertyExpression");
-		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SYMMETRIC_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
-			if (o != null) {
-				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
-			}
-			printCountingMap.put("objectPropertyExpression", count - 1);
+			printCountingMap.put("classExpressions",0);
 		}
 		//////////////DEFINITION PART BEGINS (CsString):
 		out.print(")");
@@ -1288,7 +1062,7 @@ public class SparqlasPrinter implements de.uniko.isweb.emftext.sparqlas.SPARQLAS
 		// print collected hidden tokens
 		int count;
 		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("UnionOf");
+		out.print("Or");
 		out.print(" ");
 		//////////////DEFINITION PART BEGINS (CsString):
 		out.print("(");
@@ -1338,7 +1112,7 @@ public class SparqlasPrinter implements de.uniko.isweb.emftext.sparqlas.SPARQLAS
 		// print collected hidden tokens
 		int count;
 		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("ComplementOf");
+		out.print("Not");
 		out.print(" ");
 		//////////////DEFINITION PART BEGINS (CsString):
 		out.print("(");
@@ -1400,7 +1174,7 @@ public class SparqlasPrinter implements de.uniko.isweb.emftext.sparqlas.SPARQLAS
 		// print collected hidden tokens
 		int count;
 		//////////////DEFINITION PART BEGINS (CsString):
-		out.print("IntersectionOf");
+		out.print("And");
 		out.print(" ");
 		//////////////DEFINITION PART BEGINS (CsString):
 		out.print("(");
@@ -1756,46 +1530,272 @@ public class SparqlasPrinter implements de.uniko.isweb.emftext.sparqlas.SPARQLAS
 		out.print(" ");
 	}
 	
-	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_FullIRI(de.uniko.isweb.emftext.sparqlas.SPARQLAS.FullIRI element, java.lang.String outertab, java.io.PrintWriter out) {
+	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_EquivalentObjectProperties(de.uniko.isweb.emftext.sparqlas.SPARQLAS.EquivalentObjectProperties element, java.lang.String outertab, java.io.PrintWriter out) {
+		java.lang.String localtab = outertab;
 		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
 		java.lang.Object temp;
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.FULL_IRI__ID));
-		printCountingMap.put("id", temp == null ? 0 : 1);
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.EQUIVALENT_OBJECT_PROPERTIES__OBJECT_PROPERTY_EXPRESSION));
+		printCountingMap.put("objectPropertyExpression", temp == null ? 0 : ((java.util.Collection<?>) temp).size());
 		// print collected hidden tokens
 		int count;
-		//////////////DEFINITION PART BEGINS (PlaceholderUsingSpecifiedToken):
-		count = printCountingMap.get("id");
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("EquivalentProperty");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("(");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (Containment):
+		count = printCountingMap.get("objectPropertyExpression");
 		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.FULL_IRI__ID));
-			if (o != null) {
-				de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ISparqlasTokenResolver resolver = tokenResolverFactory.createTokenResolver("FULLIRI");
-				resolver.setOptions(getOptions());
-				out.print(resolver.deResolve((java.lang.Object) o, element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.FULL_IRI__ID), element));
-				out.print(" ");
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.EQUIVALENT_OBJECT_PROPERTIES__OBJECT_PROPERTY_EXPRESSION));
+			java.util.List<?> list = (java.util.List<?>) o;
+			int index = list.size() - count;
+			if (index >= 0) {
+				o = list.get(index);
+			} else {
+				o = null;
 			}
-			printCountingMap.put("id", count - 1);
+			if (o != null) {
+				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
+			}
+			printCountingMap.put("objectPropertyExpression", count - 1);
 		}
+		//////////////DEFINITION PART BEGINS (Containment):
+		count = printCountingMap.get("objectPropertyExpression");
+		if (count > 0) {
+			java.util.List<?> list = (java.util.List<?>)element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.EQUIVALENT_OBJECT_PROPERTIES__OBJECT_PROPERTY_EXPRESSION));
+			int index  = list.size() - count;
+			if (index < 0) {
+				index = 0;
+			}
+			java.util.ListIterator<?> it  = list.listIterator(index);
+			while (it.hasNext()) {
+				java.lang.Object o = it.next();
+				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
+			}
+			printCountingMap.put("objectPropertyExpression",0);
+		}
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print(")");
+		out.print(" ");
 	}
 	
-	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_AbbreviatedIRI(de.uniko.isweb.emftext.sparqlas.SPARQLAS.AbbreviatedIRI element, java.lang.String outertab, java.io.PrintWriter out) {
-		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
+	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_SubPropertyOf(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SubPropertyOf element, java.lang.String outertab, java.io.PrintWriter out) {
+		java.lang.String localtab = outertab;
+		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(2);
 		java.lang.Object temp;
-		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.ABBREVIATED_IRI__ID));
-		printCountingMap.put("id", temp == null ? 0 : 1);
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_PROPERTY_OF__SUB_OBJECT_PROPERTY_EXPRESSION));
+		printCountingMap.put("subObjectPropertyExpression", temp == null ? 0 : 1);
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_PROPERTY_OF__SUPER_OBJECT_PROPERTY_EXPRESSION));
+		printCountingMap.put("superObjectPropertyExpression", temp == null ? 0 : 1);
 		// print collected hidden tokens
 		int count;
-		//////////////DEFINITION PART BEGINS (PlaceholderUsingSpecifiedToken):
-		count = printCountingMap.get("id");
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("SubPropertyOf");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("(");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (Containment):
+		count = printCountingMap.get("subObjectPropertyExpression");
 		if (count > 0) {
-			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.ABBREVIATED_IRI__ID));
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_PROPERTY_OF__SUB_OBJECT_PROPERTY_EXPRESSION));
 			if (o != null) {
-				de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ISparqlasTokenResolver resolver = tokenResolverFactory.createTokenResolver("ABBRIRI");
-				resolver.setOptions(getOptions());
-				out.print(resolver.deResolve((java.lang.Object) o, element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.ABBREVIATED_IRI__ID), element));
-				out.print(" ");
+				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
 			}
-			printCountingMap.put("id", count - 1);
+			printCountingMap.put("subObjectPropertyExpression", count - 1);
 		}
+		//////////////DEFINITION PART BEGINS (Containment):
+		count = printCountingMap.get("superObjectPropertyExpression");
+		if (count > 0) {
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SUB_PROPERTY_OF__SUPER_OBJECT_PROPERTY_EXPRESSION));
+			if (o != null) {
+				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
+			}
+			printCountingMap.put("superObjectPropertyExpression", count - 1);
+		}
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print(")");
+		out.print(" ");
+	}
+	
+	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_InverseObjectPropertyAtom(de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseObjectPropertyAtom element, java.lang.String outertab, java.io.PrintWriter out) {
+		java.lang.String localtab = outertab;
+		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(2);
+		java.lang.Object temp;
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_OBJECT_PROPERTY_ATOM__OBJECT_PROPERTY_EXPRESSION1));
+		printCountingMap.put("objectPropertyExpression1", temp == null ? 0 : 1);
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_OBJECT_PROPERTY_ATOM__OBJECT_PROPERTY_EXPRESSION2));
+		printCountingMap.put("objectPropertyExpression2", temp == null ? 0 : 1);
+		// print collected hidden tokens
+		int count;
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("InverseOf");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("(");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (Containment):
+		count = printCountingMap.get("objectPropertyExpression1");
+		if (count > 0) {
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_OBJECT_PROPERTY_ATOM__OBJECT_PROPERTY_EXPRESSION1));
+			if (o != null) {
+				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
+			}
+			printCountingMap.put("objectPropertyExpression1", count - 1);
+		}
+		//////////////DEFINITION PART BEGINS (Containment):
+		count = printCountingMap.get("objectPropertyExpression2");
+		if (count > 0) {
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_OBJECT_PROPERTY_ATOM__OBJECT_PROPERTY_EXPRESSION2));
+			if (o != null) {
+				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
+			}
+			printCountingMap.put("objectPropertyExpression2", count - 1);
+		}
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print(")");
+		out.print(" ");
+	}
+	
+	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_FunctionalObjectProperty(de.uniko.isweb.emftext.sparqlas.SPARQLAS.FunctionalObjectProperty element, java.lang.String outertab, java.io.PrintWriter out) {
+		java.lang.String localtab = outertab;
+		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
+		java.lang.Object temp;
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.FUNCTIONAL_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
+		printCountingMap.put("objectPropertyExpression", temp == null ? 0 : 1);
+		// print collected hidden tokens
+		int count;
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("Functional");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("(");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (Containment):
+		count = printCountingMap.get("objectPropertyExpression");
+		if (count > 0) {
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.FUNCTIONAL_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
+			if (o != null) {
+				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
+			}
+			printCountingMap.put("objectPropertyExpression", count - 1);
+		}
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print(")");
+		out.print(" ");
+	}
+	
+	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_InverseFunctionalObjectProperty(de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseFunctionalObjectProperty element, java.lang.String outertab, java.io.PrintWriter out) {
+		java.lang.String localtab = outertab;
+		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
+		java.lang.Object temp;
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_FUNCTIONAL_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
+		printCountingMap.put("objectPropertyExpression", temp == null ? 0 : 1);
+		// print collected hidden tokens
+		int count;
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("InverseFunctional");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("(");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (Containment):
+		count = printCountingMap.get("objectPropertyExpression");
+		if (count > 0) {
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_FUNCTIONAL_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
+			if (o != null) {
+				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
+			}
+			printCountingMap.put("objectPropertyExpression", count - 1);
+		}
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print(")");
+		out.print(" ");
+	}
+	
+	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_TransitiveObjectProperty(de.uniko.isweb.emftext.sparqlas.SPARQLAS.TransitiveObjectProperty element, java.lang.String outertab, java.io.PrintWriter out) {
+		java.lang.String localtab = outertab;
+		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
+		java.lang.Object temp;
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.TRANSITIVE_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
+		printCountingMap.put("objectPropertyExpression", temp == null ? 0 : 1);
+		// print collected hidden tokens
+		int count;
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("Transitive");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("(");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (Containment):
+		count = printCountingMap.get("objectPropertyExpression");
+		if (count > 0) {
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.TRANSITIVE_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
+			if (o != null) {
+				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
+			}
+			printCountingMap.put("objectPropertyExpression", count - 1);
+		}
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print(")");
+		out.print(" ");
+	}
+	
+	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_SymmetricObjectProperty(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SymmetricObjectProperty element, java.lang.String outertab, java.io.PrintWriter out) {
+		java.lang.String localtab = outertab;
+		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
+		java.lang.Object temp;
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SYMMETRIC_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
+		printCountingMap.put("objectPropertyExpression", temp == null ? 0 : 1);
+		// print collected hidden tokens
+		int count;
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("Symmetric");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("(");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (Containment):
+		count = printCountingMap.get("objectPropertyExpression");
+		if (count > 0) {
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.SYMMETRIC_OBJECT_PROPERTY__OBJECT_PROPERTY_EXPRESSION));
+			if (o != null) {
+				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
+			}
+			printCountingMap.put("objectPropertyExpression", count - 1);
+		}
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print(")");
+		out.print(" ");
+	}
+	
+	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_InverseObjectProperty(de.uniko.isweb.emftext.sparqlas.SPARQLAS.InverseObjectProperty element, java.lang.String outertab, java.io.PrintWriter out) {
+		java.lang.String localtab = outertab;
+		java.util.Map<java.lang.String, java.lang.Integer> printCountingMap = new java.util.HashMap<java.lang.String, java.lang.Integer>(1);
+		java.lang.Object temp;
+		temp = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_OBJECT_PROPERTY__OBJECT_PROPERTY));
+		printCountingMap.put("objectProperty", temp == null ? 0 : 1);
+		// print collected hidden tokens
+		int count;
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("InverseOf");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("(");
+		out.print(" ");
+		//////////////DEFINITION PART BEGINS (Containment):
+		count = printCountingMap.get("objectProperty");
+		if (count > 0) {
+			Object o = element.eGet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.sparqlas.SPARQLAS.SPARQLASPackage.INVERSE_OBJECT_PROPERTY__OBJECT_PROPERTY));
+			if (o != null) {
+				doPrint((org.eclipse.emf.ecore.EObject) o, out, localtab);
+			}
+			printCountingMap.put("objectProperty", count - 1);
+		}
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print(")");
+		out.print(" ");
 	}
 	
 	public void print_de_uniko_isweb_emftext_sparqlas_SPARQLAS_ObjectPropertyDeclaration(de.uniko.isweb.emftext.sparqlas.SPARQLAS.ObjectPropertyDeclaration element, java.lang.String outertab, java.io.PrintWriter out) {

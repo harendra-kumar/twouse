@@ -6,7 +6,7 @@
  */
 package de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ui;
 
-// The "New" wizard page allows setting the container for the new file as well
+// The NewWizardPage allows setting the container for the new file, as well
 // as the file name. The page will only accept file name without the extension
 // OR with the extension that matches the expected one.
 public class SparqlasNewFileWizardPage extends org.eclipse.jface.wizard.WizardPage {
@@ -16,12 +16,12 @@ public class SparqlasNewFileWizardPage extends org.eclipse.jface.wizard.WizardPa
 	private org.eclipse.swt.widgets.Text fileText;
 	private org.eclipse.jface.viewers.ISelection selection;
 	
-	// Constructor for SampleNewWizardPage.
+	// Constructor for NewWizardPage.
 	//
 	// @param pageName
 	public SparqlasNewFileWizardPage(org.eclipse.jface.viewers.ISelection selection, String fileExtension) {
 		super("wizardPage");
-		setTitle("EMFText File");
+		setTitle("Create new sparqlas file");
 		setDescription("This wizard creates a new file with *." + fileExtension + " extension that can be opened with the EMFText editor.");
 		this.selection = selection;
 		this.fileExtension = fileExtension;
@@ -70,7 +70,6 @@ public class SparqlasNewFileWizardPage extends org.eclipse.jface.wizard.WizardPa
 	}
 	
 	// Tests if the current workbench selection is a suitable container to use.
-	
 	private void initialize() {
 		String name = "new_file";
 		if (selection != null && selection.isEmpty() == false		&& selection instanceof org.eclipse.jface.viewers.IStructuredSelection) {
@@ -97,7 +96,6 @@ public class SparqlasNewFileWizardPage extends org.eclipse.jface.wizard.WizardPa
 	
 	// Uses the standard container selection dialog to choose the new value for
 	// the container field.
-	
 	private void handleBrowse() {
 		org.eclipse.ui.dialogs.ContainerSelectionDialog dialog = new org.eclipse.ui.dialogs.ContainerSelectionDialog(		getShell(), org.eclipse.core.resources.ResourcesPlugin.getWorkspace().getRoot(), false,
 		"Select new file container");
@@ -110,7 +108,6 @@ public class SparqlasNewFileWizardPage extends org.eclipse.jface.wizard.WizardPa
 	}
 	
 	// Ensures that both text fields are set.
-	
 	private void dialogChanged() {
 		org.eclipse.core.resources.IResource container = org.eclipse.core.resources.ResourcesPlugin.getWorkspace().getRoot().findMember(new org.eclipse.core.runtime.Path(getContainerName()));
 		String fileName = getFileName();
@@ -119,7 +116,7 @@ public class SparqlasNewFileWizardPage extends org.eclipse.jface.wizard.WizardPa
 			updateStatus("File container must be specified");
 			return;
 		}
-		if (container == null		|| (container.getType() & (org.eclipse.core.resources.IResource.PROJECT | org.eclipse.core.resources.IResource.FOLDER)) == 0) {
+		if (container == null || (container.getType() & (org.eclipse.core.resources.IResource.PROJECT | org.eclipse.core.resources.IResource.FOLDER)) == 0) {
 			updateStatus("File container must exist");
 			return;
 		}

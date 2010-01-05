@@ -47,7 +47,7 @@ public class SparqlasReferenceResolveResult<ReferenceType> implements de.uniko.i
 	}
 	
 	public void addMapping(String identifier, ReferenceType target) {
-		if (resolveFuzzy && target == null) {
+		if (!resolveFuzzy && target == null) {
 			throw new IllegalArgumentException("Mapping references to null is only allowed for fuzzy resolution.");
 		}
 		addMapping(identifier, target, null);

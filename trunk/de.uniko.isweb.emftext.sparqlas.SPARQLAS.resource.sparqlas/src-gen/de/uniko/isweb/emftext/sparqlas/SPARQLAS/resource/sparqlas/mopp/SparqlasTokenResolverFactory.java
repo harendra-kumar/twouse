@@ -16,7 +16,6 @@ public class SparqlasTokenResolverFactory implements de.uniko.isweb.emftext.spar
 		tokenName2TokenResolver = new java.util.HashMap<java.lang.String, de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ISparqlasTokenResolver>();
 		featureName2CollectInTokenResolver = new java.util.HashMap<java.lang.String, de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ISparqlasTokenResolver>();
 		registerTokenResolver("INTEGER", new de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.analysis.SparqlasINTEGERTokenResolver());
-		registerTokenResolver("STRING", new de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.analysis.SparqlasSTRINGTokenResolver());
 		registerTokenResolver("LITERAL", new de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.analysis.SparqlasLITERALTokenResolver());
 		registerTokenResolver("NODE", new de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.analysis.SparqlasNODETokenResolver());
 		registerTokenResolver("VARIABLE", new de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.analysis.SparqlasVARIABLETokenResolver());

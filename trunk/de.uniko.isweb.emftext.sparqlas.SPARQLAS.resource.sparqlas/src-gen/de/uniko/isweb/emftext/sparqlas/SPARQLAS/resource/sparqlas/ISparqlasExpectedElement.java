@@ -10,11 +10,7 @@ package de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas;
 // stream.
 public interface ISparqlasExpectedElement {
 	
-	public void setPosition(int startIncludingHiddenTokens, int startExcludingHiddenTokens);
-	public int getStartExcludingHiddenTokens();
-	public int getStartIncludingHiddenTokens();
-	public String getPrefix();
-	public void setPrefix(String prefix);
-	public String getScopeID();
-	public boolean discardFollowingExpectations();
+	public java.lang.String getTokenName();
+	public void addFollower(de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ISparqlasExpectedElement follower);
+	public java.util.Collection<de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ISparqlasExpectedElement> getFollowers();
 }
