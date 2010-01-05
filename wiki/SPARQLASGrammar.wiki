@@ -188,10 +188,10 @@ This page shows the complete grammar for SPARQLAS.
 
 <br/>
 
-*!ObjectPropertyDeclaration* := '!ObjectProperty' '(' *!ObjectPropertyVariable* ')'
+*!ObjectPropertyDeclaration* := '!ObjectProperty' '(' *!ObjectProperty* | *!ObjectPropertyVariable* ')'
 
-*!DatatypePropertyDeclaration* := '!DatatypeProperty' '(' *!DatatypePropertyVariable* ')'
+*!DatatypePropertyDeclaration* := '!DatatypeProperty' '(' *!DatatypeProperty* | *!DatatypePropertyVariable* ')'
 
-*!IndividualDeclaration* := 'Individual' '(' *!IndividualVariable* ')'
+*!IndividualDeclaration* := 'Individual' '(' *Individual* | *!IndividualVariable* ')'
 
-*!ClassDeclaration* := 'Class' '(' *!ClassVariable* ')'
+*!ClassDeclaration* := 'Class' '(' *Class* | *!ClassVariable* ')'
