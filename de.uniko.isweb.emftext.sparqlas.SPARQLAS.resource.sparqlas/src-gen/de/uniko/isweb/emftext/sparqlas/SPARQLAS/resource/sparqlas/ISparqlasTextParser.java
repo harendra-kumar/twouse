@@ -27,7 +27,7 @@ public interface ISparqlasTextParser extends de.uniko.isweb.emftext.sparqlas.SPA
 	// position.
 	//
 	// The class 'type' is used as start symbol.
-	public java.util.List<de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ISparqlasExpectedElement> parseToExpectedElements(org.eclipse.emf.ecore.EClass type);
+	public java.util.List<de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.mopp.SparqlasExpectedTerminal> parseToExpectedElements(org.eclipse.emf.ecore.EClass type, de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ISparqlasTextResource dummyResource);
 	
 	// Signals the parse to terminates the parsing as soon as possible.
 	public void terminate();

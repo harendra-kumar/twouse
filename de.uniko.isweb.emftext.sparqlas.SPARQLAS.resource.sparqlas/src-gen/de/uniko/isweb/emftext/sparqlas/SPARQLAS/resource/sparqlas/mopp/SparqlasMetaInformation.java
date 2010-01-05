@@ -84,4 +84,8 @@ public class SparqlasMetaInformation implements de.uniko.isweb.emftext.sparqlas.
 		return new de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.mopp.SparqlasNewFileContentProvider();
 	}
 	
+	public de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.mopp.SparqlasCodeCompletionHelper createCodeCompletionHelper() {
+		return new de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.mopp.SparqlasCodeCompletionHelper();
+	}
+	
 }

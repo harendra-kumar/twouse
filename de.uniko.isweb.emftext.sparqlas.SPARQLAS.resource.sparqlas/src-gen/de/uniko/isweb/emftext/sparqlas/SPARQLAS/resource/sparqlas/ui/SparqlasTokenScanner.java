@@ -7,7 +7,7 @@
 package de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ui;
 
 // An adapter from the Eclipse <code>org.eclipse.jface.text.rules.ITokenScanner</code> interface
-// to the EMFText <code>ITextLexer</code> interface.
+// to the generated lexer.
 //
 public class SparqlasTokenScanner implements org.eclipse.jface.text.rules.ITokenScanner {
 	

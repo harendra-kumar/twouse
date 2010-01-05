@@ -52,12 +52,8 @@ public class SparqlasHyperlink implements org.eclipse.jface.text.hyperlink.IHype
 			org.eclipse.ui.IWorkbenchPage page = workbench.getActiveWorkbenchWindow().getActivePage();
 			try {
 				org.eclipse.ui.IEditorPart activeEditor = page.getActiveEditor();
-				if (isSupported(file.getFileExtension())) {
-					page.openEditor(new org.eclipse.ui.part.FileEditorInput(file), activeEditor.getSite().getId());
-				} else {
-					org.eclipse.ui.IEditorDescriptor desc = workbench.getEditorRegistry().getDefaultEditor(file.getName());
-					page.openEditor(new org.eclipse.ui.part.FileEditorInput(file), desc.getId());
-				}
+				org.eclipse.ui.IEditorDescriptor desc = workbench.getEditorRegistry().getDefaultEditor(file.getName());
+				page.openEditor(new org.eclipse.ui.part.FileEditorInput(file), desc.getId());
 				org.eclipse.ui.IEditorPart editorPart = activeEditor;
 				if (editorPart instanceof de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ui.SparqlasEditor) {
 					de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ui.SparqlasEditor emftEditor = (de.uniko.isweb.emftext.sparqlas.SPARQLAS.resource.sparqlas.ui.SparqlasEditor) editorPart;
@@ -67,10 +63,6 @@ public class SparqlasHyperlink implements org.eclipse.jface.text.hyperlink.IHype
 				e.printStackTrace();
 			}
 		}
-	}
-	
-	private boolean isSupported(String fileExtension) {
-		return true;
 	}
 	
 	private org.eclipse.core.resources.IFile getIFileFromResource() {
