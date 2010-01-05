@@ -68,6 +68,7 @@ public class Owl2fsLexer extends Lexer {
     public static final int T__84=84;
     public static final int T__87=87;
     public static final int T__86=86;
+    public static final int T__89=89;
     public static final int T__88=88;
     public static final int FULLIRI=5;
     public static final int T__30=30;
@@ -113,15 +114,15 @@ public class Owl2fsLexer extends Lexer {
         super(input,state);
 
     }
-    public String getGrammarFileName() { return "D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g"; }
+    public String getGrammarFileName() { return "D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g"; }
 
     // $ANTLR start "T__14"
     public final void mT__14() throws RecognitionException {
         try {
             int _type = T__14;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:16:7: ( 'AbbreviatedURI' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:16:9: 'AbbreviatedURI'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:16:7: ( 'AbbreviatedURI' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:16:9: 'AbbreviatedURI'
             {
             match("AbbreviatedURI"); 
 
@@ -141,8 +142,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__15;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:17:7: ( '{' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:17:9: '{'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:17:7: ( '{' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:17:9: '{'
             {
             match('{'); 
 
@@ -161,8 +162,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__16;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:18:7: ( 'localName' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:18:9: 'localName'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:18:7: ( 'localName' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:18:9: 'localName'
             {
             match("localName"); 
 
@@ -182,8 +183,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__17;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19:7: ( ':' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19:9: ':'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19:7: ( ':' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19:9: ':'
             {
             match(':'); 
 
@@ -202,8 +203,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__18;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:20:7: ( '}' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:20:9: '}'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:20:7: ( '}' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:20:9: '}'
             {
             match('}'); 
 
@@ -222,8 +223,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__19;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:21:7: ( 'Namespace' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:21:9: 'Namespace'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:21:7: ( 'Namespace' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:21:9: 'Namespace'
             {
             match("Namespace"); 
 
@@ -243,8 +244,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__20;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:22:7: ( '(' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:22:9: '('
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:22:7: ( '(' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:22:9: '('
             {
             match('('); 
 
@@ -263,8 +264,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__21;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:23:7: ( '=' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:23:9: '='
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:23:7: ( '=' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:23:9: '='
             {
             match('='); 
 
@@ -283,8 +284,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__22;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:24:7: ( ')' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:24:9: ')'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:24:7: ( ')' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:24:9: ')'
             {
             match(')'); 
 
@@ -303,8 +304,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__23;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:25:7: ( 'Ontology' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:25:9: 'Ontology'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:25:7: ( 'Ontology' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:25:9: 'Ontology'
             {
             match("Ontology"); 
 
@@ -324,8 +325,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__24;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:26:7: ( 'Import' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:26:9: 'Import'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:26:7: ( 'Import' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:26:9: 'Import'
             {
             match("Import"); 
 
@@ -345,8 +346,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__25;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:27:7: ( 'Declaration' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:27:9: 'Declaration'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:27:7: ( 'Declaration' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:27:9: 'Declaration'
             {
             match("Declaration"); 
 
@@ -366,10 +367,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__26;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:28:7: ( '^^' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:28:9: '^^'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:28:7: ( 'Class' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:28:9: 'Class'
             {
-            match("^^"); 
+            match("Class"); 
 
 
             }
@@ -387,10 +388,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__27;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:29:7: ( 'ObjectInverseOf' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:29:9: 'ObjectInverseOf'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:29:7: ( 'Datatype' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:29:9: 'Datatype'
             {
-            match("ObjectInverseOf"); 
+            match("Datatype"); 
 
 
             }
@@ -408,10 +409,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__28;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:30:7: ( 'DataComplementOf' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:30:9: 'DataComplementOf'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:30:7: ( 'ObjectProperty' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:30:9: 'ObjectProperty'
             {
-            match("DataComplementOf"); 
+            match("ObjectProperty"); 
 
 
             }
@@ -429,10 +430,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__29;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:31:7: ( 'DataOneOf' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:31:9: 'DataOneOf'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:31:7: ( 'DataProperty' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:31:9: 'DataProperty'
             {
-            match("DataOneOf"); 
+            match("DataProperty"); 
 
 
             }
@@ -450,10 +451,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__30;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:32:7: ( 'DatatypeRestriction' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:32:9: 'DatatypeRestriction'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:32:7: ( 'Individual' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:32:9: 'Individual'
             {
-            match("DatatypeRestriction"); 
+            match("Individual"); 
 
 
             }
@@ -471,10 +472,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__31;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:33:7: ( 'ObjectIntersectionOf' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:33:9: 'ObjectIntersectionOf'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:33:7: ( '^^' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:33:9: '^^'
             {
-            match("ObjectIntersectionOf"); 
+            match("^^"); 
 
 
             }
@@ -492,10 +493,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__32;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:34:7: ( 'ObjectUnionOf' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:34:9: 'ObjectUnionOf'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:34:7: ( 'ObjectInverseOf' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:34:9: 'ObjectInverseOf'
             {
-            match("ObjectUnionOf"); 
+            match("ObjectInverseOf"); 
 
 
             }
@@ -513,10 +514,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__33;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:35:7: ( 'ObjectComplementOf' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:35:9: 'ObjectComplementOf'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:35:7: ( 'DataComplementOf' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:35:9: 'DataComplementOf'
             {
-            match("ObjectComplementOf"); 
+            match("DataComplementOf"); 
 
 
             }
@@ -534,10 +535,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__34;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:36:7: ( 'ObjectOneOf' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:36:9: 'ObjectOneOf'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:36:7: ( 'DataOneOf' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:36:9: 'DataOneOf'
             {
-            match("ObjectOneOf"); 
+            match("DataOneOf"); 
 
 
             }
@@ -555,10 +556,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__35;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:37:7: ( 'ObjectSomeValuesFrom' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:37:9: 'ObjectSomeValuesFrom'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:37:7: ( 'DatatypeRestriction' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:37:9: 'DatatypeRestriction'
             {
-            match("ObjectSomeValuesFrom"); 
+            match("DatatypeRestriction"); 
 
 
             }
@@ -576,10 +577,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__36;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:38:7: ( 'ObjectAllValuesFrom' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:38:9: 'ObjectAllValuesFrom'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:38:7: ( 'ObjectIntersectionOf' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:38:9: 'ObjectIntersectionOf'
             {
-            match("ObjectAllValuesFrom"); 
+            match("ObjectIntersectionOf"); 
 
 
             }
@@ -597,10 +598,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__37;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:39:7: ( 'ObjectHasValue' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:39:9: 'ObjectHasValue'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:39:7: ( 'ObjectUnionOf' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:39:9: 'ObjectUnionOf'
             {
-            match("ObjectHasValue"); 
+            match("ObjectUnionOf"); 
 
 
             }
@@ -618,10 +619,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__38;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:40:7: ( 'ObjectExistsSelf' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:40:9: 'ObjectExistsSelf'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:40:7: ( 'ObjectComplementOf' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:40:9: 'ObjectComplementOf'
             {
-            match("ObjectExistsSelf"); 
+            match("ObjectComplementOf"); 
 
 
             }
@@ -639,10 +640,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__39;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:41:7: ( 'ObjectMinCardinality' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:41:9: 'ObjectMinCardinality'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:41:7: ( 'ObjectOneOf' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:41:9: 'ObjectOneOf'
             {
-            match("ObjectMinCardinality"); 
+            match("ObjectOneOf"); 
 
 
             }
@@ -660,10 +661,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__40;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:42:7: ( 'ObjectMaxCardinality' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:42:9: 'ObjectMaxCardinality'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:42:7: ( 'ObjectSomeValuesFrom' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:42:9: 'ObjectSomeValuesFrom'
             {
-            match("ObjectMaxCardinality"); 
+            match("ObjectSomeValuesFrom"); 
 
 
             }
@@ -681,10 +682,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__41;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:43:7: ( 'ObjectExactCardinality' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:43:9: 'ObjectExactCardinality'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:43:7: ( 'ObjectAllValuesFrom' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:43:9: 'ObjectAllValuesFrom'
             {
-            match("ObjectExactCardinality"); 
+            match("ObjectAllValuesFrom"); 
 
 
             }
@@ -702,10 +703,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__42;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:44:7: ( 'DataSomeValuesFrom' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:44:9: 'DataSomeValuesFrom'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:44:7: ( 'ObjectHasValue' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:44:9: 'ObjectHasValue'
             {
-            match("DataSomeValuesFrom"); 
+            match("ObjectHasValue"); 
 
 
             }
@@ -723,10 +724,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__43;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:45:7: ( 'DataAllValuesFrom' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:45:9: 'DataAllValuesFrom'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:45:7: ( 'ObjectExistsSelf' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:45:9: 'ObjectExistsSelf'
             {
-            match("DataAllValuesFrom"); 
+            match("ObjectExistsSelf"); 
 
 
             }
@@ -744,10 +745,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__44;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:46:7: ( 'DataHasValue' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:46:9: 'DataHasValue'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:46:7: ( 'ObjectMinCardinality' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:46:9: 'ObjectMinCardinality'
             {
-            match("DataHasValue"); 
+            match("ObjectMinCardinality"); 
 
 
             }
@@ -765,10 +766,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__45;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:47:7: ( 'DataMinCardinality' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:47:9: 'DataMinCardinality'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:47:7: ( 'ObjectMaxCardinality' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:47:9: 'ObjectMaxCardinality'
             {
-            match("DataMinCardinality"); 
+            match("ObjectMaxCardinality"); 
 
 
             }
@@ -786,10 +787,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__46;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:48:7: ( 'DataMaxCardinality' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:48:9: 'DataMaxCardinality'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:48:7: ( 'ObjectExactCardinality' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:48:9: 'ObjectExactCardinality'
             {
-            match("DataMaxCardinality"); 
+            match("ObjectExactCardinality"); 
 
 
             }
@@ -807,10 +808,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__47;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:49:7: ( 'DataExactCardinality' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:49:9: 'DataExactCardinality'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:49:7: ( 'DataSomeValuesFrom' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:49:9: 'DataSomeValuesFrom'
             {
-            match("DataExactCardinality"); 
+            match("DataSomeValuesFrom"); 
 
 
             }
@@ -828,10 +829,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__48;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:50:7: ( 'SubClassOf' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:50:9: 'SubClassOf'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:50:7: ( 'DataAllValuesFrom' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:50:9: 'DataAllValuesFrom'
             {
-            match("SubClassOf"); 
+            match("DataAllValuesFrom"); 
 
 
             }
@@ -849,10 +850,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__49;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:51:7: ( 'EquivalentClasses' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:51:9: 'EquivalentClasses'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:51:7: ( 'DataHasValue' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:51:9: 'DataHasValue'
             {
-            match("EquivalentClasses"); 
+            match("DataHasValue"); 
 
 
             }
@@ -870,10 +871,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__50;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:52:7: ( 'DisjointClasses' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:52:9: 'DisjointClasses'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:52:7: ( 'DataMinCardinality' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:52:9: 'DataMinCardinality'
             {
-            match("DisjointClasses"); 
+            match("DataMinCardinality"); 
 
 
             }
@@ -891,10 +892,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__51;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:53:7: ( 'DisjointUnion' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:53:9: 'DisjointUnion'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:53:7: ( 'DataMaxCardinality' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:53:9: 'DataMaxCardinality'
             {
-            match("DisjointUnion"); 
+            match("DataMaxCardinality"); 
 
 
             }
@@ -912,10 +913,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__52;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:54:7: ( 'SubObjectPropertyOf' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:54:9: 'SubObjectPropertyOf'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:54:7: ( 'DataExactCardinality' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:54:9: 'DataExactCardinality'
             {
-            match("SubObjectPropertyOf"); 
+            match("DataExactCardinality"); 
 
 
             }
@@ -933,10 +934,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__53;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:55:7: ( 'EquivalentObjectProperties' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:55:9: 'EquivalentObjectProperties'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:55:7: ( 'SubClassOf' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:55:9: 'SubClassOf'
             {
-            match("EquivalentObjectProperties"); 
+            match("SubClassOf"); 
 
 
             }
@@ -954,10 +955,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__54;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:56:7: ( 'DisjointObjectProperties' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:56:9: 'DisjointObjectProperties'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:56:7: ( 'EquivalentClasses' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:56:9: 'EquivalentClasses'
             {
-            match("DisjointObjectProperties"); 
+            match("EquivalentClasses"); 
 
 
             }
@@ -975,10 +976,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__55;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:57:7: ( 'ObjectPropertyDomain' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:57:9: 'ObjectPropertyDomain'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:57:7: ( 'DisjointClasses' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:57:9: 'DisjointClasses'
             {
-            match("ObjectPropertyDomain"); 
+            match("DisjointClasses"); 
 
 
             }
@@ -996,10 +997,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__56;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:58:7: ( 'ObjectPropertyRange' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:58:9: 'ObjectPropertyRange'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:58:7: ( 'DisjointUnion' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:58:9: 'DisjointUnion'
             {
-            match("ObjectPropertyRange"); 
+            match("DisjointUnion"); 
 
 
             }
@@ -1017,10 +1018,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__57;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:59:7: ( 'InverseObjectProperties' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:59:9: 'InverseObjectProperties'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:59:7: ( 'SubObjectPropertyOf' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:59:9: 'SubObjectPropertyOf'
             {
-            match("InverseObjectProperties"); 
+            match("SubObjectPropertyOf"); 
 
 
             }
@@ -1038,10 +1039,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__58;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:60:7: ( 'FunctionalObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:60:9: 'FunctionalObjectProperty'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:60:7: ( 'EquivalentObjectProperties' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:60:9: 'EquivalentObjectProperties'
             {
-            match("FunctionalObjectProperty"); 
+            match("EquivalentObjectProperties"); 
 
 
             }
@@ -1059,10 +1060,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__59;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:61:7: ( 'InverseFunctionalObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:61:9: 'InverseFunctionalObjectProperty'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:61:7: ( 'DisjointObjectProperties' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:61:9: 'DisjointObjectProperties'
             {
-            match("InverseFunctionalObjectProperty"); 
+            match("DisjointObjectProperties"); 
 
 
             }
@@ -1080,10 +1081,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__60;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:62:7: ( 'ReflexiveObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:62:9: 'ReflexiveObjectProperty'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:62:7: ( 'ObjectPropertyDomain' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:62:9: 'ObjectPropertyDomain'
             {
-            match("ReflexiveObjectProperty"); 
+            match("ObjectPropertyDomain"); 
 
 
             }
@@ -1101,10 +1102,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__61;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:63:7: ( 'IrreflexiveObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:63:9: 'IrreflexiveObjectProperty'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:63:7: ( 'ObjectPropertyRange' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:63:9: 'ObjectPropertyRange'
             {
-            match("IrreflexiveObjectProperty"); 
+            match("ObjectPropertyRange"); 
 
 
             }
@@ -1122,10 +1123,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__62;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:64:7: ( 'SymmetricObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:64:9: 'SymmetricObjectProperty'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:64:7: ( 'InverseObjectProperties' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:64:9: 'InverseObjectProperties'
             {
-            match("SymmetricObjectProperty"); 
+            match("InverseObjectProperties"); 
 
 
             }
@@ -1143,10 +1144,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__63;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:65:7: ( 'AsymmetricObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:65:9: 'AsymmetricObjectProperty'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:65:7: ( 'FunctionalObjectProperty' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:65:9: 'FunctionalObjectProperty'
             {
-            match("AsymmetricObjectProperty"); 
+            match("FunctionalObjectProperty"); 
 
 
             }
@@ -1164,10 +1165,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__64;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:66:7: ( 'TransitiveObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:66:9: 'TransitiveObjectProperty'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:66:7: ( 'InverseFunctionalObjectProperty' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:66:9: 'InverseFunctionalObjectProperty'
             {
-            match("TransitiveObjectProperty"); 
+            match("InverseFunctionalObjectProperty"); 
 
 
             }
@@ -1185,10 +1186,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__65;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:67:7: ( 'SubDataPropertyOf' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:67:9: 'SubDataPropertyOf'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:67:7: ( 'ReflexiveObjectProperty' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:67:9: 'ReflexiveObjectProperty'
             {
-            match("SubDataPropertyOf"); 
+            match("ReflexiveObjectProperty"); 
 
 
             }
@@ -1206,10 +1207,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__66;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:68:7: ( 'EquivalentDataProperties' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:68:9: 'EquivalentDataProperties'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:68:7: ( 'IrreflexiveObjectProperty' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:68:9: 'IrreflexiveObjectProperty'
             {
-            match("EquivalentDataProperties"); 
+            match("IrreflexiveObjectProperty"); 
 
 
             }
@@ -1227,10 +1228,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__67;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:69:7: ( 'DisjointDataProperties' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:69:9: 'DisjointDataProperties'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:69:7: ( 'SymmetricObjectProperty' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:69:9: 'SymmetricObjectProperty'
             {
-            match("DisjointDataProperties"); 
+            match("SymmetricObjectProperty"); 
 
 
             }
@@ -1248,10 +1249,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__68;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:70:7: ( 'DataPropertyDomain' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:70:9: 'DataPropertyDomain'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:70:7: ( 'AsymmetricObjectProperty' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:70:9: 'AsymmetricObjectProperty'
             {
-            match("DataPropertyDomain"); 
+            match("AsymmetricObjectProperty"); 
 
 
             }
@@ -1269,10 +1270,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__69;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:71:7: ( 'DataPropertyRange' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:71:9: 'DataPropertyRange'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:71:7: ( 'TransitiveObjectProperty' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:71:9: 'TransitiveObjectProperty'
             {
-            match("DataPropertyRange"); 
+            match("TransitiveObjectProperty"); 
 
 
             }
@@ -1290,10 +1291,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__70;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:72:7: ( 'FunctionalDataProperty' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:72:9: 'FunctionalDataProperty'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:72:7: ( 'SubDataPropertyOf' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:72:9: 'SubDataPropertyOf'
             {
-            match("FunctionalDataProperty"); 
+            match("SubDataPropertyOf"); 
 
 
             }
@@ -1311,10 +1312,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__71;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:73:7: ( 'KeyFor' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:73:9: 'KeyFor'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:73:7: ( 'EquivalentDataProperties' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:73:9: 'EquivalentDataProperties'
             {
-            match("KeyFor"); 
+            match("EquivalentDataProperties"); 
 
 
             }
@@ -1332,10 +1333,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__72;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:74:7: ( 'SameIndividual' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:74:9: 'SameIndividual'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:74:7: ( 'DisjointDataProperties' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:74:9: 'DisjointDataProperties'
             {
-            match("SameIndividual"); 
+            match("DisjointDataProperties"); 
 
 
             }
@@ -1353,10 +1354,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__73;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:75:7: ( 'DifferentIndividuals' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:75:9: 'DifferentIndividuals'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:75:7: ( 'DataPropertyDomain' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:75:9: 'DataPropertyDomain'
             {
-            match("DifferentIndividuals"); 
+            match("DataPropertyDomain"); 
 
 
             }
@@ -1374,10 +1375,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__74;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:76:7: ( 'ClassAssertion' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:76:9: 'ClassAssertion'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:76:7: ( 'DataPropertyRange' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:76:9: 'DataPropertyRange'
             {
-            match("ClassAssertion"); 
+            match("DataPropertyRange"); 
 
 
             }
@@ -1395,10 +1396,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__75;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:77:7: ( 'ObjectPropertyAssertion' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:77:9: 'ObjectPropertyAssertion'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:77:7: ( 'FunctionalDataProperty' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:77:9: 'FunctionalDataProperty'
             {
-            match("ObjectPropertyAssertion"); 
+            match("FunctionalDataProperty"); 
 
 
             }
@@ -1416,10 +1417,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__76;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:78:7: ( 'NegativeObjectPropertyAssertion' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:78:9: 'NegativeObjectPropertyAssertion'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:78:7: ( 'KeyFor' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:78:9: 'KeyFor'
             {
-            match("NegativeObjectPropertyAssertion"); 
+            match("KeyFor"); 
 
 
             }
@@ -1437,10 +1438,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__77;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:79:7: ( 'DataPropertyAssertion' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:79:9: 'DataPropertyAssertion'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:79:7: ( 'SameIndividual' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:79:9: 'SameIndividual'
             {
-            match("DataPropertyAssertion"); 
+            match("SameIndividual"); 
 
 
             }
@@ -1458,10 +1459,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__78;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:80:7: ( 'NegativeDataPropertyAssertion' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:80:9: 'NegativeDataPropertyAssertion'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:80:7: ( 'DifferentIndividuals' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:80:9: 'DifferentIndividuals'
             {
-            match("NegativeDataPropertyAssertion"); 
+            match("DifferentIndividuals"); 
 
 
             }
@@ -1479,10 +1480,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__79;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:81:7: ( 'Annotation' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:81:9: 'Annotation'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:81:7: ( 'ClassAssertion' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:81:9: 'ClassAssertion'
             {
-            match("Annotation"); 
+            match("ClassAssertion"); 
 
 
             }
@@ -1500,10 +1501,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__80;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:82:7: ( 'Comment' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:82:9: 'Comment'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:82:7: ( 'ObjectPropertyAssertion' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:82:9: 'ObjectPropertyAssertion'
             {
-            match("Comment"); 
+            match("ObjectPropertyAssertion"); 
 
 
             }
@@ -1521,10 +1522,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__81;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:83:7: ( 'Label' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:83:9: 'Label'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:83:7: ( 'NegativeObjectPropertyAssertion' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:83:9: 'NegativeObjectPropertyAssertion'
             {
-            match("Label"); 
+            match("NegativeObjectPropertyAssertion"); 
 
 
             }
@@ -1542,10 +1543,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__82;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:84:7: ( 'EntityAnnotation' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:84:9: 'EntityAnnotation'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:84:7: ( 'DataPropertyAssertion' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:84:9: 'DataPropertyAssertion'
             {
-            match("EntityAnnotation"); 
+            match("DataPropertyAssertion"); 
 
 
             }
@@ -1563,10 +1564,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__83;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:85:7: ( 'AnnotationProperty' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:85:9: 'AnnotationProperty'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:85:7: ( 'NegativeDataPropertyAssertion' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:85:9: 'NegativeDataPropertyAssertion'
             {
-            match("AnnotationProperty"); 
+            match("NegativeDataPropertyAssertion"); 
 
 
             }
@@ -1584,10 +1585,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__84;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:86:7: ( 'Datatype' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:86:9: 'Datatype'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:86:7: ( 'Annotation' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:86:9: 'Annotation'
             {
-            match("Datatype"); 
+            match("Annotation"); 
 
 
             }
@@ -1605,10 +1606,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__85;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:87:7: ( 'ObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:87:9: 'ObjectProperty'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:87:7: ( 'Comment' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:87:9: 'Comment'
             {
-            match("ObjectProperty"); 
+            match("Comment"); 
 
 
             }
@@ -1626,10 +1627,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__86;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:88:7: ( 'Class' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:88:9: 'Class'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:88:7: ( 'Label' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:88:9: 'Label'
             {
-            match("Class"); 
+            match("Label"); 
 
 
             }
@@ -1647,10 +1648,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__87;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:89:7: ( 'NamedIndividual' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:89:9: 'NamedIndividual'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:89:7: ( 'EntityAnnotation' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:89:9: 'EntityAnnotation'
             {
-            match("NamedIndividual"); 
+            match("EntityAnnotation"); 
 
 
             }
@@ -1668,10 +1669,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__88;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:90:7: ( 'DataProperty' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:90:9: 'DataProperty'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:90:7: ( 'AnnotationProperty' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:90:9: 'AnnotationProperty'
             {
-            match("DataProperty"); 
+            match("AnnotationProperty"); 
 
 
             }
@@ -1684,13 +1685,34 @@ public class Owl2fsLexer extends Lexer {
     }
     // $ANTLR end "T__88"
 
+    // $ANTLR start "T__89"
+    public final void mT__89() throws RecognitionException {
+        try {
+            int _type = T__89;
+            int _channel = DEFAULT_TOKEN_CHANNEL;
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:91:7: ( 'NamedIndividual' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:91:9: 'NamedIndividual'
+            {
+            match("NamedIndividual"); 
+
+
+            }
+
+            state.type = _type;
+            state.channel = _channel;
+        }
+        finally {
+        }
+    }
+    // $ANTLR end "T__89"
+
     // $ANTLR start "WHITESPACE"
     public final void mWHITESPACE() throws RecognitionException {
         try {
             int _type = WHITESPACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12902:11: ( ( ' ' | '\\t' | '\\f' ) )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12903:2: ( ' ' | '\\t' | '\\f' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13030:11: ( ( ' ' | '\\t' | '\\f' ) )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13031:2: ( ' ' | '\\t' | '\\f' )
             {
             if ( input.LA(1)=='\t'||input.LA(1)=='\f'||input.LA(1)==' ' ) {
                 input.consume();
@@ -1718,10 +1740,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = LINEBREAKS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12906:11: ( ( '\\r\\n' | '\\r' | '\\n' ) )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12907:2: ( '\\r\\n' | '\\r' | '\\n' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13034:11: ( ( '\\r\\n' | '\\r' | '\\n' ) )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13035:2: ( '\\r\\n' | '\\r' | '\\n' )
             {
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12907:2: ( '\\r\\n' | '\\r' | '\\n' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13035:2: ( '\\r\\n' | '\\r' | '\\n' )
             int alt1=3;
             int LA1_0 = input.LA(1);
 
@@ -1745,7 +1767,7 @@ public class Owl2fsLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12907:3: '\\r\\n'
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13035:3: '\\r\\n'
                     {
                     match("\r\n"); 
 
@@ -1753,14 +1775,14 @@ public class Owl2fsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12907:10: '\\r'
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13035:10: '\\r'
                     {
                     match('\r'); 
 
                     }
                     break;
                 case 3 :
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12907:15: '\\n'
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13035:15: '\\n'
                     {
                     match('\n'); 
 
@@ -1786,12 +1808,12 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12910:8: ( '//' (~ ( '\\n' | '\\r' | '\\uffff' ) )* )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12911:2: '//' (~ ( '\\n' | '\\r' | '\\uffff' ) )*
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13038:8: ( '//' (~ ( '\\n' | '\\r' | '\\uffff' ) )* )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13039:2: '//' (~ ( '\\n' | '\\r' | '\\uffff' ) )*
             {
             match("//"); 
 
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12911:6: (~ ( '\\n' | '\\r' | '\\uffff' ) )*
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13039:6: (~ ( '\\n' | '\\r' | '\\uffff' ) )*
             loop2:
             do {
                 int alt2=2;
@@ -1804,7 +1826,7 @@ public class Owl2fsLexer extends Lexer {
 
                 switch (alt2) {
             	case 1 :
-            	    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12911:7: ~ ( '\\n' | '\\r' | '\\uffff' )
+            	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13039:7: ~ ( '\\n' | '\\r' | '\\uffff' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFE') ) {
             	        input.consume();
@@ -1841,7 +1863,7 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = INTEGER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12914:8: ( ( '-' )? ( '1' .. '9' ) ( '0' .. '9' )* | '0' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13042:8: ( ( '-' )? ( '1' .. '9' ) ( '0' .. '9' )* | '0' )
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -1859,9 +1881,9 @@ public class Owl2fsLexer extends Lexer {
             }
             switch (alt5) {
                 case 1 :
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12915:2: ( '-' )? ( '1' .. '9' ) ( '0' .. '9' )*
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13043:2: ( '-' )? ( '1' .. '9' ) ( '0' .. '9' )*
                     {
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12915:2: ( '-' )?
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13043:2: ( '-' )?
                     int alt3=2;
                     int LA3_0 = input.LA(1);
 
@@ -1870,7 +1892,7 @@ public class Owl2fsLexer extends Lexer {
                     }
                     switch (alt3) {
                         case 1 :
-                            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12915:3: '-'
+                            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13043:3: '-'
                             {
                             match('-'); 
 
@@ -1879,14 +1901,14 @@ public class Owl2fsLexer extends Lexer {
 
                     }
 
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12915:8: ( '1' .. '9' )
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12915:9: '1' .. '9'
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13043:8: ( '1' .. '9' )
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13043:9: '1' .. '9'
                     {
                     matchRange('1','9'); 
 
                     }
 
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12915:18: ( '0' .. '9' )*
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13043:18: ( '0' .. '9' )*
                     loop4:
                     do {
                         int alt4=2;
@@ -1899,7 +1921,7 @@ public class Owl2fsLexer extends Lexer {
 
                         switch (alt4) {
                     	case 1 :
-                    	    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12915:19: '0' .. '9'
+                    	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13043:19: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); 
 
@@ -1915,7 +1937,7 @@ public class Owl2fsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12915:30: '0'
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13043:30: '0'
                     {
                     match('0'); 
 
@@ -1936,10 +1958,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = FLOAT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12916:6: ( ( '-' )? ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' ) '.' ( '0' .. '9' )+ )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12917:2: ( '-' )? ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' ) '.' ( '0' .. '9' )+
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13044:6: ( ( '-' )? ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' ) '.' ( '0' .. '9' )+ )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13045:2: ( '-' )? ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' ) '.' ( '0' .. '9' )+
             {
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12917:2: ( '-' )?
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13045:2: ( '-' )?
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -1948,7 +1970,7 @@ public class Owl2fsLexer extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12917:3: '-'
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13045:3: '-'
                     {
                     match('-'); 
 
@@ -1957,7 +1979,7 @@ public class Owl2fsLexer extends Lexer {
 
             }
 
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12917:8: ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13045:8: ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' )
             int alt8=2;
             int LA8_0 = input.LA(1);
 
@@ -1975,16 +1997,16 @@ public class Owl2fsLexer extends Lexer {
             }
             switch (alt8) {
                 case 1 :
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12917:9: ( '1' .. '9' ) ( '0' .. '9' )*
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13045:9: ( '1' .. '9' ) ( '0' .. '9' )*
                     {
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12917:9: ( '1' .. '9' )
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12917:10: '1' .. '9'
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13045:9: ( '1' .. '9' )
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13045:10: '1' .. '9'
                     {
                     matchRange('1','9'); 
 
                     }
 
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12917:20: ( '0' .. '9' )*
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13045:20: ( '0' .. '9' )*
                     loop7:
                     do {
                         int alt7=2;
@@ -1997,7 +2019,7 @@ public class Owl2fsLexer extends Lexer {
 
                         switch (alt7) {
                     	case 1 :
-                    	    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12917:21: '0' .. '9'
+                    	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13045:21: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); 
 
@@ -2013,7 +2035,7 @@ public class Owl2fsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12917:34: '0'
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13045:34: '0'
                     {
                     match('0'); 
 
@@ -2023,7 +2045,7 @@ public class Owl2fsLexer extends Lexer {
             }
 
             match('.'); 
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12917:43: ( '0' .. '9' )+
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13045:43: ( '0' .. '9' )+
             int cnt9=0;
             loop9:
             do {
@@ -2037,7 +2059,7 @@ public class Owl2fsLexer extends Lexer {
 
                 switch (alt9) {
             	case 1 :
-            	    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12917:44: '0' .. '9'
+            	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13045:44: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -2070,17 +2092,17 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12919:8: ( ( '\"' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+ ( '\"' ) )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12920:2: ( '\"' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+ ( '\"' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13047:8: ( ( '\"' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+ ( '\"' ) )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13048:2: ( '\"' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+ ( '\"' )
             {
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12920:2: ( '\"' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12920:3: '\"'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13048:2: ( '\"' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13048:3: '\"'
             {
             match('\"'); 
 
             }
 
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12920:7: ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13048:7: ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+
             int cnt10=0;
             loop10:
             do {
@@ -2094,7 +2116,7 @@ public class Owl2fsLexer extends Lexer {
 
                 switch (alt10) {
             	case 1 :
-            	    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:
+            	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:
             	    {
             	    if ( input.LA(1)=='-'||(input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
             	        input.consume();
@@ -2118,8 +2140,8 @@ public class Owl2fsLexer extends Lexer {
                 cnt10++;
             } while (true);
 
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12920:52: ( '\"' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12920:53: '\"'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13048:52: ( '\"' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13048:53: '\"'
             {
             match('\"'); 
 
@@ -2141,24 +2163,24 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = NODE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12922:5: ( ( '_' ) ( ':' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+ )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12923:2: ( '_' ) ( ':' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13050:5: ( ( '_' ) ( ':' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+ )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13051:2: ( '_' ) ( ':' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+
             {
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12923:2: ( '_' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12923:3: '_'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13051:2: ( '_' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13051:3: '_'
             {
             match('_'); 
 
             }
 
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12923:7: ( ':' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12923:8: ':'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13051:7: ( ':' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13051:8: ':'
             {
             match(':'); 
 
             }
 
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12923:12: ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13051:12: ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+
             int cnt11=0;
             loop11:
             do {
@@ -2172,7 +2194,7 @@ public class Owl2fsLexer extends Lexer {
 
                 switch (alt11) {
             	case 1 :
-            	    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:
+            	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:
             	    {
             	    if ( input.LA(1)=='-'||(input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
             	        input.consume();
@@ -2212,17 +2234,17 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = DIRTYIRI;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12924:9: ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '\"' | '^' | '<' | '>' | '@' | ':' | '/' )+ | ( '\"' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '<' | '>' | '@' | ':' | '/' | ',' | '.' | ' ' | '(' | ')' )+ ( '\"' ) ) )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12925:2: ( ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '\"' | '^' | '<' | '>' | '@' | ':' | '/' )+ | ( '\"' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '<' | '>' | '@' | ':' | '/' | ',' | '.' | ' ' | '(' | ')' )+ ( '\"' ) )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13052:9: ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '\"' | '^' | '<' | '>' | '@' | ':' | '/' )+ | ( '\"' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '<' | '>' | '@' | ':' | '/' | ',' | '.' | ' ' | '(' | ')' )+ ( '\"' ) ) )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13053:2: ( ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '\"' | '^' | '<' | '>' | '@' | ':' | '/' )+ | ( '\"' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '<' | '>' | '@' | ':' | '/' | ',' | '.' | ' ' | '(' | ')' )+ ( '\"' ) )
             {
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12925:2: ( ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '\"' | '^' | '<' | '>' | '@' | ':' | '/' )+ | ( '\"' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '<' | '>' | '@' | ':' | '/' | ',' | '.' | ' ' | '(' | ')' )+ ( '\"' ) )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13053:2: ( ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '\"' | '^' | '<' | '>' | '@' | ':' | '/' )+ | ( '\"' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '<' | '>' | '@' | ':' | '/' | ',' | '.' | ' ' | '(' | ')' )+ ( '\"' ) )
             int alt14=2;
             alt14 = dfa14.predict(input);
             switch (alt14) {
                 case 1 :
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12925:3: ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '\"' | '^' | '<' | '>' | '@' | ':' | '/' )+
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13053:3: ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '\"' | '^' | '<' | '>' | '@' | ':' | '/' )+
                     {
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12925:3: ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '\"' | '^' | '<' | '>' | '@' | ':' | '/' )+
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13053:3: ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '\"' | '^' | '<' | '>' | '@' | ':' | '/' )+
                     int cnt12=0;
                     loop12:
                     do {
@@ -2236,7 +2258,7 @@ public class Owl2fsLexer extends Lexer {
 
                         switch (alt12) {
                     	case 1 :
-                    	    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:
+                    	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:
                     	    {
                     	    if ( input.LA(1)=='\"'||input.LA(1)=='-'||(input.LA(1)>='/' && input.LA(1)<=':')||input.LA(1)=='<'||input.LA(1)=='>'||(input.LA(1)>='@' && input.LA(1)<='Z')||(input.LA(1)>='^' && input.LA(1)<='_')||(input.LA(1)>='a' && input.LA(1)<='z') ) {
                     	        input.consume();
@@ -2264,16 +2286,16 @@ public class Owl2fsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12925:94: ( '\"' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '<' | '>' | '@' | ':' | '/' | ',' | '.' | ' ' | '(' | ')' )+ ( '\"' )
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13053:94: ( '\"' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '<' | '>' | '@' | ':' | '/' | ',' | '.' | ' ' | '(' | ')' )+ ( '\"' )
                     {
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12925:94: ( '\"' )
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12925:95: '\"'
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13053:94: ( '\"' )
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13053:95: '\"'
                     {
                     match('\"'); 
 
                     }
 
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12925:99: ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '<' | '>' | '@' | ':' | '/' | ',' | '.' | ' ' | '(' | ')' )+
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13053:99: ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '<' | '>' | '@' | ':' | '/' | ',' | '.' | ' ' | '(' | ')' )+
                     int cnt13=0;
                     loop13:
                     do {
@@ -2287,7 +2309,7 @@ public class Owl2fsLexer extends Lexer {
 
                         switch (alt13) {
                     	case 1 :
-                    	    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:
+                    	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:
                     	    {
                     	    if ( input.LA(1)==' '||(input.LA(1)>='(' && input.LA(1)<=')')||(input.LA(1)>=',' && input.LA(1)<=':')||input.LA(1)=='<'||input.LA(1)=='>'||(input.LA(1)>='@' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
                     	        input.consume();
@@ -2311,8 +2333,8 @@ public class Owl2fsLexer extends Lexer {
                         cnt13++;
                     } while (true);
 
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12925:205: ( '\"' )
-                    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12925:206: '\"'
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13053:205: ( '\"' )
+                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13053:206: '\"'
                     {
                     match('\"'); 
 
@@ -2340,11 +2362,11 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = FULLIRI;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12927:8: ( '<' (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )* '>' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12928:2: '<' (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )* '>'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13055:8: ( '<' (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )* '>' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13056:2: '<' (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )* '>'
             {
             match('<'); 
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12928:6: (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )*
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13056:6: (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )*
             loop15:
             do {
                 int alt15=2;
@@ -2357,7 +2379,7 @@ public class Owl2fsLexer extends Lexer {
 
                 switch (alt15) {
             	case 1 :
-            	    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12928:7: ~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' )
+            	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13056:7: ~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' )
             	    {
             	    if ( input.LA(1)=='!'||(input.LA(1)>='#' && input.LA(1)<=';')||input.LA(1)=='='||(input.LA(1)>='?' && input.LA(1)<='[')||input.LA(1)==']'||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z')||input.LA(1)=='|'||(input.LA(1)>='~' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -2394,17 +2416,17 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = QUOTED_34_34;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12929:13: ( ( '\"' ) (~ ( '\"' ) )* ( '\"' ) )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12930:2: ( '\"' ) (~ ( '\"' ) )* ( '\"' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13057:13: ( ( '\"' ) (~ ( '\"' ) )* ( '\"' ) )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13058:2: ( '\"' ) (~ ( '\"' ) )* ( '\"' )
             {
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12930:2: ( '\"' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12930:3: '\"'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13058:2: ( '\"' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13058:3: '\"'
             {
             match('\"'); 
 
             }
 
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12930:7: (~ ( '\"' ) )*
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13058:7: (~ ( '\"' ) )*
             loop16:
             do {
                 int alt16=2;
@@ -2417,7 +2439,7 @@ public class Owl2fsLexer extends Lexer {
 
                 switch (alt16) {
             	case 1 :
-            	    // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12930:8: ~ ( '\"' )
+            	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13058:8: ~ ( '\"' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -2437,8 +2459,8 @@ public class Owl2fsLexer extends Lexer {
                 }
             } while (true);
 
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12930:16: ( '\"' )
-            // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:12930:17: '\"'
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13058:16: ( '\"' )
+            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:13058:17: '\"'
             {
             match('\"'); 
 
@@ -2456,600 +2478,607 @@ public class Owl2fsLexer extends Lexer {
     // $ANTLR end "QUOTED_34_34"
 
     public void mTokens() throws RecognitionException {
-        // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:8: ( T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | WHITESPACE | LINEBREAKS | COMMENT | INTEGER | FLOAT | LITERAL | NODE | DIRTYIRI | FULLIRI | QUOTED_34_34 )
-        int alt17=85;
+        // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:8: ( T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | WHITESPACE | LINEBREAKS | COMMENT | INTEGER | FLOAT | LITERAL | NODE | DIRTYIRI | FULLIRI | QUOTED_34_34 )
+        int alt17=86;
         alt17 = dfa17.predict(input);
         switch (alt17) {
             case 1 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:10: T__14
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:10: T__14
                 {
                 mT__14(); 
 
                 }
                 break;
             case 2 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:16: T__15
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:16: T__15
                 {
                 mT__15(); 
 
                 }
                 break;
             case 3 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:22: T__16
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:22: T__16
                 {
                 mT__16(); 
 
                 }
                 break;
             case 4 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:28: T__17
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:28: T__17
                 {
                 mT__17(); 
 
                 }
                 break;
             case 5 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:34: T__18
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:34: T__18
                 {
                 mT__18(); 
 
                 }
                 break;
             case 6 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:40: T__19
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:40: T__19
                 {
                 mT__19(); 
 
                 }
                 break;
             case 7 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:46: T__20
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:46: T__20
                 {
                 mT__20(); 
 
                 }
                 break;
             case 8 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:52: T__21
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:52: T__21
                 {
                 mT__21(); 
 
                 }
                 break;
             case 9 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:58: T__22
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:58: T__22
                 {
                 mT__22(); 
 
                 }
                 break;
             case 10 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:64: T__23
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:64: T__23
                 {
                 mT__23(); 
 
                 }
                 break;
             case 11 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:70: T__24
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:70: T__24
                 {
                 mT__24(); 
 
                 }
                 break;
             case 12 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:76: T__25
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:76: T__25
                 {
                 mT__25(); 
 
                 }
                 break;
             case 13 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:82: T__26
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:82: T__26
                 {
                 mT__26(); 
 
                 }
                 break;
             case 14 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:88: T__27
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:88: T__27
                 {
                 mT__27(); 
 
                 }
                 break;
             case 15 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:94: T__28
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:94: T__28
                 {
                 mT__28(); 
 
                 }
                 break;
             case 16 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:100: T__29
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:100: T__29
                 {
                 mT__29(); 
 
                 }
                 break;
             case 17 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:106: T__30
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:106: T__30
                 {
                 mT__30(); 
 
                 }
                 break;
             case 18 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:112: T__31
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:112: T__31
                 {
                 mT__31(); 
 
                 }
                 break;
             case 19 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:118: T__32
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:118: T__32
                 {
                 mT__32(); 
 
                 }
                 break;
             case 20 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:124: T__33
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:124: T__33
                 {
                 mT__33(); 
 
                 }
                 break;
             case 21 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:130: T__34
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:130: T__34
                 {
                 mT__34(); 
 
                 }
                 break;
             case 22 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:136: T__35
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:136: T__35
                 {
                 mT__35(); 
 
                 }
                 break;
             case 23 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:142: T__36
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:142: T__36
                 {
                 mT__36(); 
 
                 }
                 break;
             case 24 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:148: T__37
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:148: T__37
                 {
                 mT__37(); 
 
                 }
                 break;
             case 25 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:154: T__38
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:154: T__38
                 {
                 mT__38(); 
 
                 }
                 break;
             case 26 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:160: T__39
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:160: T__39
                 {
                 mT__39(); 
 
                 }
                 break;
             case 27 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:166: T__40
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:166: T__40
                 {
                 mT__40(); 
 
                 }
                 break;
             case 28 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:172: T__41
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:172: T__41
                 {
                 mT__41(); 
 
                 }
                 break;
             case 29 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:178: T__42
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:178: T__42
                 {
                 mT__42(); 
 
                 }
                 break;
             case 30 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:184: T__43
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:184: T__43
                 {
                 mT__43(); 
 
                 }
                 break;
             case 31 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:190: T__44
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:190: T__44
                 {
                 mT__44(); 
 
                 }
                 break;
             case 32 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:196: T__45
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:196: T__45
                 {
                 mT__45(); 
 
                 }
                 break;
             case 33 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:202: T__46
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:202: T__46
                 {
                 mT__46(); 
 
                 }
                 break;
             case 34 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:208: T__47
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:208: T__47
                 {
                 mT__47(); 
 
                 }
                 break;
             case 35 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:214: T__48
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:214: T__48
                 {
                 mT__48(); 
 
                 }
                 break;
             case 36 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:220: T__49
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:220: T__49
                 {
                 mT__49(); 
 
                 }
                 break;
             case 37 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:226: T__50
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:226: T__50
                 {
                 mT__50(); 
 
                 }
                 break;
             case 38 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:232: T__51
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:232: T__51
                 {
                 mT__51(); 
 
                 }
                 break;
             case 39 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:238: T__52
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:238: T__52
                 {
                 mT__52(); 
 
                 }
                 break;
             case 40 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:244: T__53
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:244: T__53
                 {
                 mT__53(); 
 
                 }
                 break;
             case 41 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:250: T__54
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:250: T__54
                 {
                 mT__54(); 
 
                 }
                 break;
             case 42 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:256: T__55
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:256: T__55
                 {
                 mT__55(); 
 
                 }
                 break;
             case 43 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:262: T__56
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:262: T__56
                 {
                 mT__56(); 
 
                 }
                 break;
             case 44 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:268: T__57
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:268: T__57
                 {
                 mT__57(); 
 
                 }
                 break;
             case 45 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:274: T__58
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:274: T__58
                 {
                 mT__58(); 
 
                 }
                 break;
             case 46 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:280: T__59
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:280: T__59
                 {
                 mT__59(); 
 
                 }
                 break;
             case 47 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:286: T__60
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:286: T__60
                 {
                 mT__60(); 
 
                 }
                 break;
             case 48 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:292: T__61
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:292: T__61
                 {
                 mT__61(); 
 
                 }
                 break;
             case 49 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:298: T__62
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:298: T__62
                 {
                 mT__62(); 
 
                 }
                 break;
             case 50 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:304: T__63
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:304: T__63
                 {
                 mT__63(); 
 
                 }
                 break;
             case 51 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:310: T__64
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:310: T__64
                 {
                 mT__64(); 
 
                 }
                 break;
             case 52 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:316: T__65
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:316: T__65
                 {
                 mT__65(); 
 
                 }
                 break;
             case 53 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:322: T__66
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:322: T__66
                 {
                 mT__66(); 
 
                 }
                 break;
             case 54 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:328: T__67
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:328: T__67
                 {
                 mT__67(); 
 
                 }
                 break;
             case 55 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:334: T__68
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:334: T__68
                 {
                 mT__68(); 
 
                 }
                 break;
             case 56 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:340: T__69
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:340: T__69
                 {
                 mT__69(); 
 
                 }
                 break;
             case 57 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:346: T__70
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:346: T__70
                 {
                 mT__70(); 
 
                 }
                 break;
             case 58 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:352: T__71
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:352: T__71
                 {
                 mT__71(); 
 
                 }
                 break;
             case 59 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:358: T__72
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:358: T__72
                 {
                 mT__72(); 
 
                 }
                 break;
             case 60 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:364: T__73
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:364: T__73
                 {
                 mT__73(); 
 
                 }
                 break;
             case 61 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:370: T__74
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:370: T__74
                 {
                 mT__74(); 
 
                 }
                 break;
             case 62 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:376: T__75
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:376: T__75
                 {
                 mT__75(); 
 
                 }
                 break;
             case 63 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:382: T__76
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:382: T__76
                 {
                 mT__76(); 
 
                 }
                 break;
             case 64 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:388: T__77
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:388: T__77
                 {
                 mT__77(); 
 
                 }
                 break;
             case 65 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:394: T__78
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:394: T__78
                 {
                 mT__78(); 
 
                 }
                 break;
             case 66 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:400: T__79
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:400: T__79
                 {
                 mT__79(); 
 
                 }
                 break;
             case 67 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:406: T__80
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:406: T__80
                 {
                 mT__80(); 
 
                 }
                 break;
             case 68 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:412: T__81
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:412: T__81
                 {
                 mT__81(); 
 
                 }
                 break;
             case 69 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:418: T__82
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:418: T__82
                 {
                 mT__82(); 
 
                 }
                 break;
             case 70 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:424: T__83
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:424: T__83
                 {
                 mT__83(); 
 
                 }
                 break;
             case 71 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:430: T__84
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:430: T__84
                 {
                 mT__84(); 
 
                 }
                 break;
             case 72 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:436: T__85
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:436: T__85
                 {
                 mT__85(); 
 
                 }
                 break;
             case 73 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:442: T__86
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:442: T__86
                 {
                 mT__86(); 
 
                 }
                 break;
             case 74 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:448: T__87
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:448: T__87
                 {
                 mT__87(); 
 
                 }
                 break;
             case 75 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:454: T__88
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:454: T__88
                 {
                 mT__88(); 
 
                 }
                 break;
             case 76 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:460: WHITESPACE
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:460: T__89
+                {
+                mT__89(); 
+
+                }
+                break;
+            case 77 :
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:466: WHITESPACE
                 {
                 mWHITESPACE(); 
 
                 }
                 break;
-            case 77 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:471: LINEBREAKS
+            case 78 :
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:477: LINEBREAKS
                 {
                 mLINEBREAKS(); 
 
                 }
                 break;
-            case 78 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:482: COMMENT
+            case 79 :
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:488: COMMENT
                 {
                 mCOMMENT(); 
 
                 }
                 break;
-            case 79 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:490: INTEGER
+            case 80 :
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:496: INTEGER
                 {
                 mINTEGER(); 
 
                 }
                 break;
-            case 80 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:498: FLOAT
+            case 81 :
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:504: FLOAT
                 {
                 mFLOAT(); 
 
                 }
                 break;
-            case 81 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:504: LITERAL
+            case 82 :
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:510: LITERAL
                 {
                 mLITERAL(); 
 
                 }
                 break;
-            case 82 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:512: NODE
+            case 83 :
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:518: NODE
                 {
                 mNODE(); 
 
                 }
                 break;
-            case 83 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:517: DIRTYIRI
+            case 84 :
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:523: DIRTYIRI
                 {
                 mDIRTYIRI(); 
 
                 }
                 break;
-            case 84 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:526: FULLIRI
+            case 85 :
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:532: FULLIRI
                 {
                 mFULLIRI(); 
 
                 }
                 break;
-            case 85 :
-                // D:\\Uni\\HiWi\\MOST\\workspace1\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:534: QUOTED_34_34
+            case 86 :
+                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs\\src-gen\\de\\uniko\\isweb\\emftext\\owl2fs\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:540: QUOTED_34_34
                 {
                 mQUOTED_34_34(); 
 
@@ -3117,233 +3146,238 @@ public class Owl2fsLexer extends Lexer {
             this.transition = DFA14_transition;
         }
         public String getDescription() {
-            return "12925:2: ( ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '\"' | '^' | '<' | '>' | '@' | ':' | '/' )+ | ( '\"' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '<' | '>' | '@' | ':' | '/' | ',' | '.' | ' ' | '(' | ')' )+ ( '\"' ) )";
+            return "13053:2: ( ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '\"' | '^' | '<' | '>' | '@' | ':' | '/' )+ | ( '\"' ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '-' | '_' | '<' | '>' | '@' | ':' | '/' | ',' | '.' | ' ' | '(' | ')' )+ ( '\"' ) )";
         }
     }
     static final String DFA17_eotS =
         "\1\uffff\1\37\1\uffff\1\37\1\44\1\uffff\1\37\3\uffff\14\37\2\uffff"+
-        "\2\37\2\77\3\37\1\uffff\4\37\1\uffff\12\37\1\132\14\37\1\150\1\37"+
-        "\1\77\2\uffff\1\37\1\uffff\2\37\2\uffff\2\37\2\uffff\17\37\1\uffff"+
-        "\14\37\1\150\1\uffff\1\u008a\2\uffff\1\u008b\35\37\2\uffff\43\37"+
-        "\1\u00d7\1\37\1\u00d9\11\37\1\u00ec\31\37\1\u0106\1\37\1\uffff\1"+
-        "\37\1\uffff\22\37\1\uffff\31\37\1\uffff\1\37\1\u0137\7\37\1\u0140"+
-        "\21\37\1\u0155\24\37\1\uffff\3\37\1\u0170\1\u0171\3\37\1\uffff\22"+
-        "\37\1\u0187\1\37\1\uffff\31\37\1\u01a3\2\uffff\25\37\1\uffff\15"+
-        "\37\1\u01c6\15\37\1\uffff\7\37\1\u01de\13\37\1\u01ea\16\37\1\uffff"+
-        "\27\37\1\uffff\13\37\1\uffff\4\37\1\u021f\3\37\1\u0226\32\37\1\u0241"+
-        "\20\37\1\uffff\6\37\1\uffff\1\37\1\u0259\20\37\1\u026a\7\37\1\uffff"+
-        "\3\37\1\u0275\4\37\1\u027d\16\37\1\uffff\6\37\1\u0292\10\37\1\u029b"+
-        "\1\uffff\2\37\1\u029e\2\37\1\u02a1\4\37\1\uffff\7\37\1\uffff\15"+
-        "\37\1\u02ba\6\37\1\uffff\10\37\1\uffff\2\37\1\uffff\2\37\1\uffff"+
-        "\4\37\1\u02d1\11\37\1\u02db\11\37\1\uffff\11\37\1\u02ee\14\37\1"+
-        "\uffff\11\37\1\uffff\2\37\1\u0306\4\37\1\u030b\5\37\1\u0311\1\37"+
-        "\1\u0313\2\37\1\uffff\5\37\1\u031b\3\37\1\u031f\14\37\1\u032c\1"+
-        "\uffff\1\u032d\1\u032e\1\37\1\u0330\1\uffff\5\37\1\uffff\1\37\1"+
-        "\uffff\7\37\1\uffff\3\37\1\uffff\1\37\1\u0342\4\37\1\u0347\4\37"+
-        "\1\u034c\3\uffff\1\37\1\uffff\4\37\1\u0352\12\37\1\u035d\1\u035e"+
-        "\1\uffff\1\37\1\u0360\1\u0361\1\u0362\1\uffff\4\37\1\uffff\1\u0367"+
-        "\3\37\1\u036b\1\uffff\12\37\2\uffff\1\37\3\uffff\4\37\1\uffff\1"+
-        "\u037b\2\37\1\uffff\12\37\1\u0388\4\37\1\uffff\1\37\1\u038e\4\37"+
-        "\1\u0393\5\37\1\uffff\1\u0399\1\u039a\3\37\1\uffff\1\u039e\3\37"+
-        "\1\uffff\1\u03a2\1\37\1\u03a4\2\37\2\uffff\2\37\1\u03a9\1\uffff"+
-        "\1\37\1\u03ab\1\u03ac\1\uffff\1\u03ad\1\uffff\3\37\1\u03b1\1\uffff"+
-        "\1\37\3\uffff\3\37\1\uffff\1\u03b6\3\37\1\uffff\4\37\1\u03be\2\37"+
-        "\1\uffff\1\37\1\u03c2\1\u03c3\2\uffff";
+        "\2\37\2\77\3\37\1\uffff\4\37\1\uffff\14\37\1\135\12\37\1\151\1\37"+
+        "\1\77\2\uffff\1\37\1\uffff\1\37\2\uffff\3\37\2\uffff\22\37\1\uffff"+
+        "\12\37\1\151\1\uffff\1\u008c\2\uffff\1\u008d\36\37\2\uffff\31\37"+
+        "\1\u00d0\14\37\1\u00dd\11\37\1\u00f0\21\37\1\uffff\13\37\1\u010d"+
+        "\1\uffff\22\37\1\uffff\21\37\1\u0133\12\37\1\uffff\7\37\1\u0146"+
+        "\20\37\1\u015a\14\37\1\uffff\15\37\1\u0177\1\u0178\3\37\1\uffff"+
+        "\23\37\1\uffff\2\37\1\u0191\30\37\1\u01ab\2\uffff\20\37\1\u01bc"+
+        "\7\37\1\uffff\14\37\1\u01d0\14\37\1\uffff\10\37\1\u01e8\7\37\1\uffff"+
+        "\3\37\1\u01f3\17\37\1\uffff\27\37\1\uffff\12\37\1\uffff\1\37\1\u0228"+
+        "\3\37\1\u022c\36\37\1\u024b\17\37\1\uffff\3\37\1\uffff\4\37\1\u0262"+
+        "\20\37\1\u0273\5\37\1\u027c\2\37\1\uffff\3\37\1\u0282\22\37\1\uffff"+
+        "\3\37\1\u0298\3\37\1\u029c\10\37\1\uffff\2\37\1\u02a7\5\37\1\uffff"+
+        "\1\u02ad\4\37\1\uffff\21\37\1\u02c3\3\37\1\uffff\3\37\1\uffff\12"+
+        "\37\1\uffff\5\37\1\uffff\4\37\1\u02dd\12\37\1\u02e8\5\37\1\uffff"+
+        "\11\37\1\u02f7\17\37\1\uffff\10\37\1\u030f\1\37\1\uffff\1\37\1\u0312"+
+        "\7\37\1\u031a\1\37\1\u031c\2\37\1\uffff\5\37\1\u0324\6\37\1\u032b"+
+        "\11\37\1\u0335\1\uffff\1\37\1\u0337\1\uffff\1\u0338\1\u0339\5\37"+
+        "\1\uffff\1\37\1\uffff\7\37\1\uffff\3\37\1\u034a\2\37\1\uffff\1\37"+
+        "\1\u034e\6\37\1\u0355\1\uffff\1\37\3\uffff\4\37\1\u035b\12\37\1"+
+        "\u0366\1\uffff\1\37\1\u0368\1\u0369\1\uffff\1\37\1\u036b\1\u036c"+
+        "\3\37\1\uffff\1\37\1\u0371\2\37\1\u0374\1\uffff\12\37\1\uffff\1"+
+        "\37\2\uffff\1\37\2\uffff\3\37\1\u0384\1\uffff\2\37\1\uffff\13\37"+
+        "\1\u0392\3\37\1\uffff\1\37\1\u0397\4\37\1\u039c\5\37\1\u03a2\1\uffff"+
+        "\1\u03a3\3\37\1\uffff\1\u03a7\3\37\1\uffff\1\u03ab\1\37\1\u03ad"+
+        "\2\37\2\uffff\2\37\1\u03b2\1\uffff\1\37\1\u03b4\1\u03b5\1\uffff"+
+        "\1\u03b6\1\uffff\3\37\1\u03ba\1\uffff\1\37\3\uffff\3\37\1\uffff"+
+        "\1\u03bf\3\37\1\uffff\4\37\1\u03c7\2\37\1\uffff\1\37\1\u03cb\1\u03cc"+
+        "\2\uffff";
     static final String DFA17_eofS =
-        "\u03c4\uffff";
+        "\u03cd\uffff";
     static final String DFA17_minS =
         "\1\11\1\142\1\uffff\1\157\1\42\1\uffff\1\141\3\uffff\1\142\1\155"+
-        "\1\141\1\136\1\141\1\156\1\165\1\145\1\162\1\145\1\154\1\141\2\uffff"+
+        "\1\141\1\154\1\136\1\141\1\156\1\165\1\145\1\162\1\145\1\141\2\uffff"+
         "\1\57\1\60\2\42\1\0\1\72\1\41\1\uffff\1\142\1\171\1\156\1\143\1"+
-        "\uffff\1\155\1\147\1\164\1\152\1\160\1\166\1\162\1\143\1\164\1\146"+
-        "\1\42\1\142\2\155\1\165\1\164\1\156\1\146\1\141\1\171\1\141\1\155"+
+        "\uffff\1\155\1\147\1\164\1\152\1\160\1\144\1\162\1\143\1\164\1\146"+
+        "\1\141\1\155\1\42\1\142\2\155\1\165\1\164\1\156\1\146\1\141\1\171"+
         "\1\142\1\42\1\56\1\42\2\uffff\1\0\1\uffff\2\0\1\uffff\1\0\1\55\1"+
         "\41\2\uffff\1\162\1\155\1\157\1\141\1\145\1\141\1\157\1\145\1\157"+
-        "\2\145\1\154\1\141\1\152\1\146\1\uffff\1\103\1\155\1\145\2\151\1"+
-        "\143\1\154\1\156\1\106\1\163\1\155\1\145\1\42\1\uffff\1\42\2\uffff"+
-        "\1\42\1\145\1\155\1\164\1\154\1\144\1\164\1\154\1\143\2\162\1\146"+
-        "\1\141\1\101\1\157\1\145\1\154\1\142\1\141\1\145\1\111\1\166\2\164"+
-        "\1\145\1\163\1\157\1\163\1\145\1\154\2\uffff\1\166\1\145\1\141\1"+
-        "\116\1\160\1\111\1\151\1\157\2\164\1\163\1\154\1\162\1\157\1\156"+
-        "\1\171\1\157\1\154\2\141\1\170\1\162\1\151\1\162\1\141\1\152\2\164"+
-        "\1\156\1\141\1\171\1\151\1\170\1\151\1\162\1\42\1\156\1\42\1\151"+
-        "\2\164\2\141\1\156\1\166\1\147\1\101\1\42\2\145\1\141\1\155\1\145"+
-        "\1\160\1\155\1\154\1\163\1\156\1\170\1\141\1\157\1\156\1\145\1\163"+
-        "\1\145\1\141\1\162\1\144\1\154\1\101\1\157\1\151\1\164\1\42\1\163"+
-        "\1\uffff\1\164\1\uffff\1\141\1\162\1\151\1\155\1\143\1\144\1\145"+
-        "\1\171\2\156\1\157\1\156\1\157\1\154\1\141\1\170\1\141\1\162\1\uffff"+
-        "\1\106\1\170\1\164\1\160\1\117\2\145\2\126\2\103\1\143\1\160\1\164"+
-        "\1\156\1\163\1\143\1\120\2\151\1\145\2\156\1\166\1\151\1\uffff\1"+
-        "\163\1\42\1\164\1\151\1\157\2\145\1\151\1\104\1\42\1\164\1\151\1"+
-        "\155\1\145\1\155\1\154\1\163\1\141\1\156\1\170\1\157\1\142\1\165"+
-        "\2\151\1\154\1\146\1\42\1\126\4\141\1\164\1\145\1\103\1\164\1\117"+
-        "\1\164\1\162\1\143\1\166\2\156\1\141\1\145\1\166\1\145\1\uffff\1"+
-        "\145\1\143\1\156\2\42\1\166\1\142\1\141\1\uffff\2\145\1\157\1\160"+
-        "\1\117\1\145\2\126\1\163\1\143\2\103\1\160\1\152\1\156\1\166\1\157"+
-        "\1\145\1\42\1\145\1\uffff\1\141\2\154\2\162\1\103\1\162\1\154\1"+
-        "\156\1\142\1\141\1\111\1\146\1\120\1\157\1\117\1\151\1\164\1\157"+
-        "\1\154\1\117\1\145\1\162\1\144\1\117\1\42\2\uffff\1\151\1\152\1"+
-        "\164\2\162\1\156\1\154\1\146\1\126\2\141\2\164\2\141\2\145\1\143"+
-        "\1\145\1\156\1\155\1\uffff\1\163\1\154\2\165\2\144\1\141\1\164\1"+
-        "\141\1\151\1\152\1\164\1\156\1\42\1\162\1\160\1\142\1\144\1\103"+
-        "\1\164\1\104\1\142\1\117\1\164\1\125\1\142\1\162\1\uffff\1\144\1"+
-        "\145\1\141\2\163\1\117\1\145\1\42\1\141\2\154\1\163\1\103\3\162"+
-        "\1\143\1\164\1\117\1\42\1\145\1\164\1\165\2\145\2\151\1\162\1\171"+
-        "\1\163\1\157\1\145\1\141\1\144\1\uffff\1\157\1\145\1\152\1\165\1"+
-        "\154\1\142\2\141\1\142\1\141\1\152\1\142\1\151\1\122\1\152\1\157"+
-        "\1\165\1\143\1\120\2\145\1\146\1\155\1\uffff\1\154\2\165\1\123\1"+
-        "\141\2\144\2\164\1\151\1\142\1\uffff\1\156\1\162\1\145\1\163\1\42"+
-        "\2\156\1\144\1\42\1\163\1\156\1\143\1\120\1\151\1\160\1\162\1\145"+
-        "\2\141\1\152\2\164\1\152\1\164\1\145\1\152\1\157\1\111\1\145\1\160"+
-        "\1\141\1\164\1\162\1\117\1\143\1\42\1\145\1\165\3\145\1\162\2\151"+
-        "\1\171\1\120\1\157\1\152\1\164\1\151\1\163\1\106\1\uffff\2\141\1"+
-        "\151\1\157\1\141\1\163\1\uffff\1\145\1\42\1\164\1\162\1\166\1\145"+
-        "\1\164\1\143\1\154\1\163\1\145\1\141\1\151\1\145\1\141\1\143\1\145"+
-        "\1\156\1\42\1\143\1\145\1\154\1\120\1\157\1\146\1\164\1\uffff\1"+
-        "\156\1\145\1\163\1\42\1\154\1\144\2\156\1\42\1\162\1\156\1\145\1"+
-        "\117\1\143\1\106\1\162\2\154\1\156\1\155\1\156\2\163\1\uffff\1\120"+
-        "\1\157\1\151\1\162\1\171\1\164\1\42\1\163\1\143\1\120\1\157\1\143"+
-        "\1\120\1\164\1\143\1\42\1\uffff\1\164\1\162\1\42\1\162\1\160\1\42"+
-        "\1\151\1\164\1\163\1\106\1\uffff\1\146\1\151\2\141\1\157\1\141\1"+
-        "\163\1\uffff\1\157\1\141\1\143\1\146\1\164\1\162\1\157\2\151\2\141"+
-        "\1\147\1\145\1\42\1\162\1\160\1\144\1\164\1\117\1\120\1\uffff\1"+
-        "\145\1\164\1\162\1\156\1\164\1\162\1\120\1\164\1\uffff\1\120\1\164"+
-        "\1\uffff\1\157\1\145\1\uffff\1\157\1\117\1\106\1\162\1\42\1\156"+
-        "\2\154\1\155\1\156\1\163\1\160\1\154\1\164\1\42\1\151\1\157\1\155"+
-        "\2\164\1\154\1\151\1\145\1\162\1\uffff\1\157\1\145\1\165\1\171\1"+
-        "\146\1\162\1\163\1\120\1\157\1\42\1\120\1\157\1\162\1\120\1\162"+
-        "\1\171\1\160\1\162\1\156\1\146\1\162\1\157\1\uffff\1\141\2\151\1"+
-        "\141\1\147\2\145\1\117\1\120\1\uffff\1\157\1\155\1\42\2\171\1\151"+
-        "\1\156\1\42\1\164\1\160\1\162\1\141\1\117\1\42\1\157\1\42\1\162"+
-        "\1\160\1\uffff\1\162\1\160\1\157\1\162\1\157\1\42\1\145\1\164\1"+
-        "\117\1\42\1\157\1\155\1\154\2\164\1\151\1\145\2\162\1\142\1\162"+
-        "\1\156\1\42\1\uffff\2\42\1\164\1\42\1\uffff\1\151\1\145\1\164\1"+
-        "\154\1\146\1\uffff\1\160\1\uffff\1\157\1\145\1\157\1\145\1\160\1"+
-        "\157\1\160\1\uffff\1\162\1\171\1\146\1\uffff\1\155\1\42\1\151\2"+
-        "\171\1\156\1\42\2\164\1\152\1\157\1\42\3\uffff\1\171\1\uffff\1\157"+
-        "\1\162\1\151\1\163\1\42\1\145\1\160\1\162\1\160\1\162\1\145\1\160"+
-        "\1\145\1\164\1\101\2\42\1\uffff\1\164\3\42\1\uffff\2\151\1\145\1"+
-        "\160\1\uffff\1\42\1\156\1\164\1\145\1\42\1\uffff\1\162\1\145\1\164"+
-        "\1\145\1\164\1\162\1\145\1\162\1\171\1\163\2\uffff\1\171\3\uffff"+
-        "\1\157\1\145\1\143\1\145\1\uffff\1\42\1\151\1\163\1\uffff\1\164"+
-        "\1\162\1\151\1\162\1\171\1\164\1\162\1\164\1\101\1\163\1\42\1\156"+
-        "\1\163\1\164\1\162\1\uffff\1\145\1\42\1\171\1\164\1\145\1\164\1"+
-        "\42\1\171\1\164\1\171\1\163\1\145\1\uffff\2\42\1\120\1\164\1\163"+
-        "\1\uffff\1\42\1\151\1\163\1\171\1\uffff\1\42\1\171\1\42\1\163\1"+
-        "\162\2\uffff\1\162\1\171\1\42\1\uffff\1\145\2\42\1\uffff\1\42\1"+
-        "\uffff\1\145\1\164\1\157\1\42\1\uffff\1\163\3\uffff\1\162\1\151"+
-        "\1\160\1\uffff\1\42\1\164\1\157\1\145\1\uffff\1\151\1\156\1\162"+
-        "\1\157\1\42\1\164\1\156\1\uffff\1\171\2\42\2\uffff";
+        "\1\151\2\145\1\154\1\141\1\152\1\146\1\163\1\155\1\uffff\1\103\1"+
+        "\155\1\145\2\151\1\143\1\154\1\156\1\106\1\145\1\42\1\uffff\1\42"+
+        "\2\uffff\1\42\1\145\1\155\1\164\1\154\1\144\1\164\1\154\1\143\1"+
+        "\162\1\166\1\162\1\146\1\141\1\101\1\157\1\145\1\163\1\145\1\154"+
+        "\1\142\1\141\1\145\1\111\1\166\2\164\1\145\1\163\1\157\1\154\2\uffff"+
+        "\1\166\1\145\1\141\1\116\1\160\1\111\1\151\1\157\2\164\1\151\1\163"+
+        "\1\154\1\162\1\171\1\162\1\157\1\156\1\157\1\154\2\141\1\170\1\151"+
+        "\1\162\1\42\1\156\1\141\1\152\2\164\1\156\1\141\1\171\1\151\1\170"+
+        "\1\151\1\162\1\42\1\151\2\164\2\141\1\156\1\166\1\147\1\101\1\42"+
+        "\1\144\2\145\1\141\1\160\1\157\1\155\1\145\1\155\1\154\1\163\1\156"+
+        "\1\170\1\141\1\156\1\145\1\163\1\uffff\1\164\1\163\1\145\1\141\1"+
+        "\162\1\144\1\154\1\101\1\157\1\151\1\164\1\42\1\uffff\1\141\1\162"+
+        "\1\151\1\155\1\143\1\144\1\145\1\171\1\162\2\156\1\157\1\156\1\157"+
+        "\1\154\1\141\1\170\1\141\1\uffff\1\165\1\106\1\170\1\164\1\145\2"+
+        "\160\1\117\1\145\2\126\2\103\1\143\1\164\1\156\1\163\1\42\1\163"+
+        "\1\143\1\120\2\151\1\145\2\156\1\166\1\151\1\uffff\1\164\1\151\1"+
+        "\157\2\145\1\151\1\104\1\42\1\157\1\164\1\151\1\155\1\145\1\155"+
+        "\1\154\1\163\1\141\1\156\1\170\1\141\1\142\1\165\2\151\1\42\1\145"+
+        "\1\154\1\146\1\126\4\141\1\164\1\103\1\164\1\145\1\uffff\1\117\1"+
+        "\164\1\162\1\143\1\166\2\156\1\141\1\145\1\166\1\145\1\143\1\156"+
+        "\2\42\1\166\1\142\1\141\1\uffff\1\160\2\145\1\157\1\160\1\117\1"+
+        "\145\2\126\1\163\1\143\2\103\1\154\1\152\1\156\1\166\1\157\1\145"+
+        "\1\uffff\1\162\1\145\1\42\1\141\2\154\2\162\1\103\1\154\1\156\1"+
+        "\142\1\141\1\111\1\162\1\146\1\120\1\157\1\117\1\151\1\164\1\157"+
+        "\1\154\1\117\1\145\1\144\1\117\1\42\2\uffff\1\151\1\152\1\164\1"+
+        "\145\2\162\1\156\1\154\1\146\1\126\2\141\2\164\2\141\1\42\1\145"+
+        "\1\143\1\145\1\156\1\163\1\164\1\155\1\uffff\1\154\2\165\2\144\2"+
+        "\141\1\151\1\152\1\164\1\156\1\164\1\42\1\162\1\160\1\142\1\144"+
+        "\1\103\1\164\1\104\1\142\1\117\1\125\1\142\1\162\1\uffff\1\144\1"+
+        "\145\1\141\1\162\2\163\1\117\1\145\1\42\1\141\2\154\1\163\1\103"+
+        "\2\162\1\uffff\1\143\1\164\1\117\1\42\1\164\1\171\1\145\1\165\2"+
+        "\145\2\151\1\162\1\163\1\157\1\145\1\141\1\144\1\151\1\uffff\1\157"+
+        "\1\145\1\152\1\165\1\154\1\142\2\141\1\142\1\141\1\152\1\142\1\122"+
+        "\1\152\1\157\1\165\1\143\1\120\1\164\2\145\1\146\1\155\1\uffff\1"+
+        "\154\2\165\1\123\1\141\2\144\1\164\1\151\1\142\1\uffff\1\162\1\42"+
+        "\1\156\1\145\1\163\1\42\2\156\1\144\1\163\1\156\1\143\1\120\1\151"+
+        "\1\157\1\160\1\162\1\145\2\141\1\152\2\164\1\152\1\164\1\145\1\152"+
+        "\1\111\1\145\1\160\1\141\1\164\1\162\1\171\1\117\1\143\1\42\1\145"+
+        "\1\165\3\145\1\162\2\151\1\120\1\157\1\152\1\151\1\157\1\141\1\163"+
+        "\1\uffff\1\164\1\163\1\106\1\uffff\2\141\1\151\1\145\1\42\1\164"+
+        "\1\162\1\166\1\156\1\145\1\164\1\143\1\154\1\163\1\145\1\141\1\151"+
+        "\1\145\1\141\1\143\1\145\1\42\1\143\1\145\1\154\1\120\1\157\1\42"+
+        "\1\146\1\164\1\uffff\1\156\1\145\1\163\1\42\1\154\1\144\2\156\1"+
+        "\162\1\156\1\145\1\143\1\155\1\156\1\163\1\117\1\106\1\162\2\154"+
+        "\1\156\1\163\1\uffff\1\120\1\157\1\151\1\42\1\162\1\171\1\164\1"+
+        "\42\1\163\1\143\1\120\1\157\1\143\1\120\1\164\1\143\1\uffff\1\164"+
+        "\1\162\1\42\1\162\1\160\1\157\1\141\1\163\1\uffff\1\42\1\151\1\164"+
+        "\1\163\1\106\1\uffff\1\146\1\151\2\141\1\157\1\141\1\143\1\164\1"+
+        "\141\1\147\1\145\1\146\1\162\1\157\2\151\1\141\1\42\1\162\1\160"+
+        "\1\144\1\uffff\1\164\1\117\1\120\1\uffff\1\145\1\164\1\162\1\156"+
+        "\1\164\1\162\1\120\1\164\1\120\1\164\1\uffff\1\157\1\145\1\155\1"+
+        "\156\1\163\1\uffff\1\157\1\117\1\106\1\162\1\42\1\156\2\154\1\160"+
+        "\1\154\1\164\2\151\1\145\1\162\1\42\1\157\1\155\2\164\1\154\1\uffff"+
+        "\1\157\1\145\1\165\1\171\1\146\1\162\1\163\1\120\1\157\1\42\1\120"+
+        "\1\157\1\162\1\120\1\162\1\171\1\160\1\162\1\141\1\147\1\145\1\156"+
+        "\1\146\1\162\1\157\1\uffff\1\141\2\151\1\145\1\117\1\120\1\157\1"+
+        "\156\1\42\1\164\1\uffff\1\155\1\42\2\171\1\151\1\160\1\162\1\141"+
+        "\1\117\1\42\1\157\1\42\1\162\1\160\1\uffff\1\162\1\160\1\157\1\162"+
+        "\1\157\1\42\1\145\1\164\1\151\1\145\1\162\1\117\1\42\1\157\1\155"+
+        "\1\154\2\164\1\162\1\142\1\162\1\156\1\42\1\uffff\1\151\1\42\1\uffff"+
+        "\2\42\1\164\1\145\1\164\1\154\1\146\1\uffff\1\160\1\uffff\1\157"+
+        "\1\145\1\157\1\145\1\160\1\157\1\160\1\uffff\1\162\1\171\1\156\1"+
+        "\42\1\164\1\146\1\uffff\1\155\1\42\1\151\2\171\1\164\1\152\1\157"+
+        "\1\42\1\uffff\1\157\3\uffff\1\171\1\162\1\151\1\163\1\42\1\145\1"+
+        "\160\1\162\1\160\1\162\1\145\1\160\1\145\1\164\1\101\1\42\1\uffff"+
+        "\1\151\2\42\1\uffff\1\164\2\42\1\151\1\145\1\160\1\uffff\1\156\1"+
+        "\42\1\164\1\145\1\42\1\uffff\1\162\1\145\1\164\1\145\1\164\1\162"+
+        "\1\145\1\162\1\171\1\163\1\uffff\1\157\2\uffff\1\171\2\uffff\1\145"+
+        "\1\143\1\145\1\42\1\uffff\1\151\1\163\1\uffff\1\164\1\162\1\151"+
+        "\1\162\1\171\1\164\1\162\1\164\1\101\1\163\1\156\1\42\1\163\1\164"+
+        "\1\162\1\uffff\1\145\1\42\1\171\1\164\1\145\1\164\1\42\1\171\1\164"+
+        "\1\171\1\163\1\145\1\42\1\uffff\1\42\1\120\1\164\1\163\1\uffff\1"+
+        "\42\1\151\1\163\1\171\1\uffff\1\42\1\171\1\42\1\163\1\162\2\uffff"+
+        "\1\162\1\171\1\42\1\uffff\1\145\2\42\1\uffff\1\42\1\uffff\1\145"+
+        "\1\164\1\157\1\42\1\uffff\1\163\3\uffff\1\162\1\151\1\160\1\uffff"+
+        "\1\42\1\164\1\157\1\145\1\uffff\1\151\1\156\1\162\1\157\1\42\1\164"+
+        "\1\156\1\uffff\1\171\2\42\2\uffff";
     static final String DFA17_maxS =
         "\1\175\1\163\1\uffff\1\157\1\172\1\uffff\1\145\3\uffff\1\156\1"+
-        "\162\1\151\1\136\1\171\1\161\1\165\1\145\1\162\1\145\1\157\1\141"+
+        "\162\1\151\1\157\1\136\1\171\1\161\1\165\1\145\1\162\1\145\1\141"+
         "\2\uffff\1\57\1\71\2\172\1\uffff\1\72\1\uffff\1\uffff\1\142\1\171"+
         "\1\156\1\143\1\uffff\1\155\1\147\1\164\1\152\1\160\1\166\1\162\1"+
-        "\143\1\164\1\163\1\172\1\142\2\155\1\165\1\164\1\156\1\146\1\141"+
-        "\1\171\1\141\1\155\1\142\1\172\1\56\1\172\2\uffff\1\uffff\1\uffff"+
+        "\143\1\164\1\163\1\141\1\155\1\172\1\142\2\155\1\165\1\164\1\156"+
+        "\1\146\1\141\1\171\1\142\1\172\1\56\1\172\2\uffff\1\uffff\1\uffff"+
         "\2\uffff\1\uffff\1\uffff\1\172\1\uffff\2\uffff\1\162\1\155\1\157"+
-        "\1\141\1\145\1\141\1\157\1\145\1\157\2\145\1\154\1\141\1\152\1\146"+
-        "\1\uffff\1\117\1\155\1\145\2\151\1\143\1\154\1\156\1\106\1\163\1"+
-        "\155\1\145\1\172\1\uffff\1\172\2\uffff\1\172\1\145\1\155\1\164\1"+
-        "\154\1\163\1\164\1\154\1\143\2\162\1\146\1\141\1\164\1\157\1\145"+
-        "\1\154\1\142\1\141\1\145\1\111\1\166\2\164\1\145\1\163\1\157\1\163"+
-        "\1\145\1\154\2\uffff\1\166\1\145\1\141\1\116\1\160\1\111\1\151\1"+
-        "\157\2\164\1\163\1\154\1\162\1\157\1\156\1\171\1\157\1\154\1\141"+
-        "\1\151\1\170\1\162\1\151\1\162\1\141\1\152\2\164\1\156\1\141\1\171"+
-        "\1\151\1\170\1\151\1\162\1\172\1\156\1\172\1\151\2\164\2\141\1\156"+
-        "\1\166\1\147\1\125\1\172\2\145\1\141\1\155\1\145\1\160\1\155\1\154"+
-        "\1\163\1\156\1\170\1\141\1\157\1\156\1\145\1\163\1\145\1\141\1\162"+
-        "\1\144\1\154\1\101\1\157\1\151\1\164\1\172\1\163\1\uffff\1\164\1"+
-        "\uffff\1\141\1\162\1\151\1\155\1\143\1\144\1\145\1\171\2\156\1\157"+
-        "\1\156\1\157\1\154\1\141\1\170\1\151\1\162\1\uffff\1\117\1\170\1"+
-        "\164\1\160\1\117\2\145\2\126\2\103\1\143\1\160\1\164\1\156\1\163"+
-        "\1\143\1\120\2\151\1\145\2\156\1\166\1\151\1\uffff\1\163\1\172\1"+
-        "\164\1\151\1\157\2\145\1\151\1\117\1\172\1\166\1\151\1\155\1\145"+
-        "\1\155\1\154\1\163\1\151\1\156\1\170\1\157\1\142\1\165\2\151\1\154"+
-        "\1\146\1\172\1\126\4\141\1\164\1\145\1\125\1\164\1\117\1\164\1\162"+
-        "\1\143\1\166\2\156\1\141\1\145\1\166\1\145\1\uffff\1\145\1\143\1"+
-        "\156\2\172\1\166\1\142\1\141\1\uffff\2\145\1\157\1\160\1\117\1\145"+
-        "\2\126\1\163\1\143\2\103\1\160\1\152\1\156\1\166\1\157\1\145\1\172"+
-        "\1\145\1\uffff\1\141\2\154\2\162\1\103\1\162\1\154\1\156\1\142\1"+
-        "\141\1\111\1\146\1\120\1\157\1\117\1\151\1\164\1\157\1\154\1\117"+
-        "\1\145\1\162\1\144\1\117\1\172\2\uffff\1\151\1\152\1\164\2\162\1"+
-        "\156\1\154\1\146\1\126\2\141\2\164\2\141\2\145\1\143\1\145\1\156"+
-        "\1\155\1\uffff\1\163\1\154\2\165\2\144\1\141\1\164\1\141\1\151\1"+
-        "\152\1\164\1\156\1\172\1\162\1\160\1\142\1\144\1\117\1\164\1\117"+
-        "\1\142\1\117\1\164\1\125\1\142\1\162\1\uffff\1\144\1\145\1\141\2"+
-        "\163\1\117\1\145\1\172\1\141\2\154\1\163\1\103\3\162\1\143\1\164"+
-        "\1\117\1\172\1\145\1\164\1\165\2\145\2\151\1\162\1\171\1\163\1\157"+
-        "\1\145\1\141\1\144\1\uffff\1\157\1\145\1\152\1\165\1\154\1\142\2"+
-        "\141\1\142\1\141\1\152\1\142\1\151\1\122\1\152\1\157\1\165\1\143"+
-        "\1\120\2\145\1\146\1\155\1\uffff\1\154\2\165\1\123\1\141\2\144\2"+
-        "\164\1\151\1\142\1\uffff\1\156\1\162\1\145\1\163\1\172\2\156\1\144"+
-        "\1\172\1\163\1\156\1\143\1\120\1\151\1\160\1\162\1\145\2\141\1\152"+
-        "\2\164\1\152\1\164\1\145\1\152\1\157\1\111\1\145\1\160\1\141\1\164"+
-        "\1\162\1\117\1\143\1\172\1\145\1\165\3\145\1\162\2\151\1\171\1\120"+
-        "\1\157\1\152\1\164\1\151\1\163\1\106\1\uffff\2\141\1\151\1\157\1"+
-        "\141\1\163\1\uffff\1\145\1\172\1\164\1\162\1\166\1\145\1\164\1\143"+
-        "\1\154\1\163\1\145\1\141\1\151\1\145\1\141\1\143\1\145\1\156\1\172"+
-        "\1\143\1\145\1\154\1\120\1\157\1\146\1\164\1\uffff\1\156\1\145\1"+
-        "\163\1\172\1\154\1\144\2\156\1\172\1\162\1\156\1\145\1\117\1\143"+
-        "\1\106\1\162\2\154\1\156\1\155\1\156\2\163\1\uffff\1\120\1\157\1"+
-        "\151\1\162\1\171\1\164\1\172\1\163\1\143\1\120\1\157\1\143\1\120"+
-        "\1\164\1\143\1\172\1\uffff\1\164\1\162\1\172\1\162\1\160\1\172\1"+
-        "\151\1\164\1\163\1\106\1\uffff\1\146\1\151\2\141\1\157\1\141\1\163"+
-        "\1\uffff\1\157\1\141\1\143\1\146\1\164\1\162\1\157\2\151\2\141\1"+
-        "\147\1\145\1\172\1\162\1\160\1\144\1\164\1\117\1\120\1\uffff\1\145"+
-        "\1\164\1\162\1\156\1\164\1\162\1\120\1\164\1\uffff\1\120\1\164\1"+
-        "\uffff\1\157\1\145\1\uffff\1\157\1\117\1\106\1\162\1\172\1\156\2"+
-        "\154\1\155\1\156\1\163\1\160\1\154\1\164\1\172\1\151\1\157\1\155"+
-        "\2\164\1\154\1\151\1\145\1\162\1\uffff\1\157\1\145\1\165\1\171\1"+
-        "\146\1\162\1\163\1\120\1\157\1\172\1\120\1\157\1\162\1\120\1\162"+
-        "\1\171\1\160\1\162\1\156\1\146\1\162\1\157\1\uffff\1\141\2\151\1"+
-        "\141\1\147\2\145\1\117\1\120\1\uffff\1\157\1\155\1\172\2\171\1\151"+
-        "\1\156\1\172\1\164\1\160\1\162\1\141\1\117\1\172\1\157\1\172\1\162"+
-        "\1\160\1\uffff\1\162\1\160\1\157\1\162\1\157\1\172\1\145\1\164\1"+
-        "\117\1\172\1\157\1\155\1\154\2\164\1\151\1\145\2\162\1\142\1\162"+
-        "\1\156\1\172\1\uffff\2\172\1\164\1\172\1\uffff\1\151\1\145\1\164"+
-        "\1\154\1\146\1\uffff\1\160\1\uffff\1\157\1\145\1\157\1\145\1\160"+
-        "\1\157\1\160\1\uffff\1\162\1\171\1\146\1\uffff\1\155\1\172\1\151"+
-        "\2\171\1\156\1\172\2\164\1\152\1\157\1\172\3\uffff\1\171\1\uffff"+
-        "\1\157\1\162\1\151\1\163\1\172\1\145\1\160\1\162\1\160\1\162\1\145"+
-        "\1\160\1\145\1\164\1\101\2\172\1\uffff\1\164\3\172\1\uffff\2\151"+
-        "\1\145\1\160\1\uffff\1\172\1\156\1\164\1\145\1\172\1\uffff\1\162"+
-        "\1\145\1\164\1\145\1\164\1\162\1\145\1\162\1\171\1\163\2\uffff\1"+
-        "\171\3\uffff\1\157\1\145\1\143\1\145\1\uffff\1\172\1\151\1\163\1"+
-        "\uffff\1\164\1\162\1\151\1\162\1\171\1\164\1\162\1\164\1\101\1\163"+
-        "\1\172\1\156\1\163\1\164\1\162\1\uffff\1\145\1\172\1\171\1\164\1"+
-        "\145\1\164\1\172\1\171\1\164\1\171\1\163\1\145\1\uffff\2\172\1\120"+
-        "\1\164\1\163\1\uffff\1\172\1\151\1\163\1\171\1\uffff\1\172\1\171"+
-        "\1\172\1\163\1\162\2\uffff\1\162\1\171\1\172\1\uffff\1\145\2\172"+
-        "\1\uffff\1\172\1\uffff\1\145\1\164\1\157\1\172\1\uffff\1\163\3\uffff"+
-        "\1\162\1\151\1\160\1\uffff\1\172\1\164\1\157\1\145\1\uffff\1\151"+
-        "\1\156\1\162\1\157\1\172\1\164\1\156\1\uffff\1\171\2\172\2\uffff";
+        "\1\141\1\145\1\141\1\157\1\145\1\157\1\151\2\145\1\154\1\141\1\152"+
+        "\1\146\1\163\1\155\1\uffff\1\117\1\155\1\145\2\151\1\143\1\154\1"+
+        "\156\1\106\1\145\1\172\1\uffff\1\172\2\uffff\1\172\1\145\1\155\1"+
+        "\164\1\154\1\163\1\164\1\154\1\143\1\162\1\166\1\162\1\146\1\141"+
+        "\1\164\1\157\1\145\1\163\1\145\1\154\1\142\1\141\1\145\1\111\1\166"+
+        "\2\164\1\145\1\163\1\157\1\154\2\uffff\1\166\1\145\1\141\1\116\1"+
+        "\160\1\111\1\151\1\157\2\164\1\151\1\163\1\154\1\162\1\171\1\162"+
+        "\1\157\1\156\1\157\1\154\1\141\1\151\1\170\1\151\1\162\1\172\1\156"+
+        "\1\141\1\152\2\164\1\156\1\141\1\171\1\151\1\170\1\151\1\162\1\172"+
+        "\1\151\2\164\2\141\1\156\1\166\1\147\1\125\1\172\1\144\2\145\1\141"+
+        "\1\160\1\157\1\155\1\145\1\155\1\154\1\163\1\156\1\170\1\141\1\156"+
+        "\1\145\1\163\1\uffff\1\164\1\163\1\145\1\141\1\162\1\144\1\154\1"+
+        "\101\1\157\1\151\1\164\1\172\1\uffff\1\141\1\162\1\151\1\155\1\143"+
+        "\1\144\1\145\1\171\1\162\2\156\1\157\1\156\1\157\1\154\1\141\1\170"+
+        "\1\151\1\uffff\1\165\1\117\1\170\1\164\1\145\2\160\1\117\1\145\2"+
+        "\126\2\103\1\143\1\164\1\156\1\163\1\172\1\163\1\143\1\120\2\151"+
+        "\1\145\2\156\1\166\1\151\1\uffff\1\164\1\151\1\157\2\145\1\151\1"+
+        "\117\1\172\1\157\1\166\1\151\1\155\1\145\1\155\1\154\1\163\1\151"+
+        "\1\156\1\170\1\141\1\142\1\165\2\151\1\172\1\145\1\154\1\146\1\126"+
+        "\4\141\1\164\1\125\1\164\1\145\1\uffff\1\117\1\164\1\162\1\143\1"+
+        "\166\2\156\1\141\1\145\1\166\1\145\1\143\1\156\2\172\1\166\1\142"+
+        "\1\141\1\uffff\1\160\2\145\1\157\1\160\1\117\1\145\2\126\1\163\1"+
+        "\143\2\103\1\154\1\152\1\156\1\166\1\157\1\145\1\uffff\1\162\1\145"+
+        "\1\172\1\141\2\154\2\162\1\103\1\154\1\156\1\142\1\141\1\111\1\162"+
+        "\1\146\1\120\1\157\1\117\1\151\1\164\1\157\1\154\1\117\1\145\1\144"+
+        "\1\117\1\172\2\uffff\1\151\1\152\1\164\1\145\2\162\1\156\1\154\1"+
+        "\146\1\126\2\141\2\164\2\141\1\172\1\145\1\143\1\145\1\156\1\163"+
+        "\1\164\1\155\1\uffff\1\154\2\165\2\144\2\141\1\151\1\152\1\164\1"+
+        "\156\1\164\1\172\1\162\1\160\1\142\1\144\1\117\1\164\1\117\1\142"+
+        "\1\117\1\125\1\142\1\162\1\uffff\1\144\1\145\1\141\1\162\2\163\1"+
+        "\117\1\145\1\172\1\141\2\154\1\163\1\103\2\162\1\uffff\1\143\1\164"+
+        "\1\117\1\172\1\164\1\171\1\145\1\165\2\145\2\151\1\162\1\163\1\157"+
+        "\1\145\1\141\1\144\1\151\1\uffff\1\157\1\145\1\152\1\165\1\154\1"+
+        "\142\2\141\1\142\1\141\1\152\1\142\1\122\1\152\1\157\1\165\1\143"+
+        "\1\120\1\164\2\145\1\146\1\155\1\uffff\1\154\2\165\1\123\1\141\2"+
+        "\144\1\164\1\151\1\142\1\uffff\1\162\1\172\1\156\1\145\1\163\1\172"+
+        "\2\156\1\144\1\163\1\156\1\143\1\120\1\151\1\157\1\160\1\162\1\145"+
+        "\2\141\1\152\2\164\1\152\1\164\1\145\1\152\1\111\1\145\1\160\1\141"+
+        "\1\164\1\162\1\171\1\117\1\143\1\172\1\145\1\165\3\145\1\162\2\151"+
+        "\1\120\1\157\1\152\1\151\1\157\1\141\1\163\1\uffff\1\164\1\163\1"+
+        "\106\1\uffff\2\141\1\151\1\145\1\172\1\164\1\162\1\166\1\156\1\145"+
+        "\1\164\1\143\1\154\1\163\1\145\1\141\1\151\1\145\1\141\1\143\1\145"+
+        "\1\172\1\143\1\145\1\154\1\120\1\157\1\172\1\146\1\164\1\uffff\1"+
+        "\156\1\145\1\163\1\172\1\154\1\144\2\156\1\162\1\156\1\145\1\143"+
+        "\1\155\1\156\1\163\1\117\1\106\1\162\2\154\1\156\1\163\1\uffff\1"+
+        "\120\1\157\1\151\1\172\1\162\1\171\1\164\1\172\1\163\1\143\1\120"+
+        "\1\157\1\143\1\120\1\164\1\143\1\uffff\1\164\1\162\1\172\1\162\1"+
+        "\160\1\157\1\141\1\163\1\uffff\1\172\1\151\1\164\1\163\1\106\1\uffff"+
+        "\1\146\1\151\2\141\1\157\1\141\1\143\1\164\1\141\1\147\1\145\1\146"+
+        "\1\162\1\157\2\151\1\141\1\172\1\162\1\160\1\144\1\uffff\1\164\1"+
+        "\117\1\120\1\uffff\1\145\1\164\1\162\1\156\1\164\1\162\1\120\1\164"+
+        "\1\120\1\164\1\uffff\1\157\1\145\1\155\1\156\1\163\1\uffff\1\157"+
+        "\1\117\1\106\1\162\1\172\1\156\2\154\1\160\1\154\1\164\2\151\1\145"+
+        "\1\162\1\172\1\157\1\155\2\164\1\154\1\uffff\1\157\1\145\1\165\1"+
+        "\171\1\146\1\162\1\163\1\120\1\157\1\172\1\120\1\157\1\162\1\120"+
+        "\1\162\1\171\1\160\1\162\1\141\1\147\1\145\1\156\1\146\1\162\1\157"+
+        "\1\uffff\1\141\2\151\1\145\1\117\1\120\1\157\1\156\1\172\1\164\1"+
+        "\uffff\1\155\1\172\2\171\1\151\1\160\1\162\1\141\1\117\1\172\1\157"+
+        "\1\172\1\162\1\160\1\uffff\1\162\1\160\1\157\1\162\1\157\1\172\1"+
+        "\145\1\164\1\151\1\145\1\162\1\117\1\172\1\157\1\155\1\154\2\164"+
+        "\1\162\1\142\1\162\1\156\1\172\1\uffff\1\151\1\172\1\uffff\2\172"+
+        "\1\164\1\145\1\164\1\154\1\146\1\uffff\1\160\1\uffff\1\157\1\145"+
+        "\1\157\1\145\1\160\1\157\1\160\1\uffff\1\162\1\171\1\156\1\172\1"+
+        "\164\1\146\1\uffff\1\155\1\172\1\151\2\171\1\164\1\152\1\157\1\172"+
+        "\1\uffff\1\157\3\uffff\1\171\1\162\1\151\1\163\1\172\1\145\1\160"+
+        "\1\162\1\160\1\162\1\145\1\160\1\145\1\164\1\101\1\172\1\uffff\1"+
+        "\151\2\172\1\uffff\1\164\2\172\1\151\1\145\1\160\1\uffff\1\156\1"+
+        "\172\1\164\1\145\1\172\1\uffff\1\162\1\145\1\164\1\145\1\164\1\162"+
+        "\1\145\1\162\1\171\1\163\1\uffff\1\157\2\uffff\1\171\2\uffff\1\145"+
+        "\1\143\1\145\1\172\1\uffff\1\151\1\163\1\uffff\1\164\1\162\1\151"+
+        "\1\162\1\171\1\164\1\162\1\164\1\101\1\163\1\156\1\172\1\163\1\164"+
+        "\1\162\1\uffff\1\145\1\172\1\171\1\164\1\145\1\164\1\172\1\171\1"+
+        "\164\1\171\1\163\1\145\1\172\1\uffff\1\172\1\120\1\164\1\163\1\uffff"+
+        "\1\172\1\151\1\163\1\171\1\uffff\1\172\1\171\1\172\1\163\1\162\2"+
+        "\uffff\1\162\1\171\1\172\1\uffff\1\145\2\172\1\uffff\1\172\1\uffff"+
+        "\1\145\1\164\1\157\1\172\1\uffff\1\163\3\uffff\1\162\1\151\1\160"+
+        "\1\uffff\1\172\1\164\1\157\1\145\1\uffff\1\151\1\156\1\162\1\157"+
+        "\1\172\1\164\1\156\1\uffff\1\171\2\172\2\uffff";
     static final String DFA17_acceptS =
-        "\2\uffff\1\2\2\uffff\1\5\1\uffff\1\7\1\10\1\11\14\uffff\1\114\1"+
-        "\115\7\uffff\1\123\4\uffff\1\4\32\uffff\1\117\1\120\1\uffff\1\123"+
-        "\2\uffff\1\125\3\uffff\1\123\1\124\17\uffff\1\15\15\uffff\1\116"+
-        "\1\uffff\2\123\36\uffff\1\121\1\122\113\uffff\1\111\1\uffff\1\104"+
-        "\22\uffff\1\13\31\uffff\1\72\60\uffff\1\103\10\uffff\1\12\24\uffff"+
-        "\1\107\32\uffff\1\3\1\6\25\uffff\1\20\33\uffff\1\102\42\uffff\1"+
-        "\43\27\uffff\1\25\13\uffff\1\14\64\uffff\1\37\6\uffff\1\113\32\uffff"+
-        "\1\23\27\uffff\1\46\20\uffff\1\1\12\uffff\1\30\7\uffff\1\110\24"+
-        "\uffff\1\73\10\uffff\1\75\2\uffff\1\112\2\uffff\1\16\30\uffff\1"+
-        "\45\26\uffff\1\31\11\uffff\1\17\22\uffff\1\105\27\uffff\1\36\4\uffff"+
-        "\1\70\5\uffff\1\64\1\uffff\1\44\7\uffff\1\106\3\uffff\1\24\14\uffff"+
-        "\1\35\1\40\1\41\1\uffff\1\67\21\uffff\1\27\4\uffff\1\53\4\uffff"+
-        "\1\21\5\uffff\1\47\12\uffff\1\22\1\26\1\uffff\1\32\1\33\1\52\4\uffff"+
-        "\1\42\3\uffff\1\74\17\uffff\1\100\14\uffff\1\34\5\uffff\1\66\4\uffff"+
-        "\1\71\5\uffff\1\76\1\54\3\uffff\1\61\3\uffff\1\57\1\uffff\1\62\4"+
-        "\uffff\1\51\1\uffff\1\65\1\55\1\63\3\uffff\1\60\4\uffff\1\50\7\uffff"+
-        "\1\101\3\uffff\1\77\1\56";
+        "\2\uffff\1\2\2\uffff\1\5\1\uffff\1\7\1\10\1\11\14\uffff\1\115\1"+
+        "\116\7\uffff\1\124\4\uffff\1\4\32\uffff\1\120\1\121\1\uffff\1\124"+
+        "\2\uffff\1\126\3\uffff\1\124\1\125\22\uffff\1\22\13\uffff\1\117"+
+        "\1\uffff\2\124\37\uffff\1\122\1\123\102\uffff\1\15\14\uffff\1\111"+
+        "\22\uffff\1\13\34\uffff\1\77\45\uffff\1\110\22\uffff\1\12\23\uffff"+
+        "\1\16\34\uffff\1\3\1\6\30\uffff\1\25\31\uffff\1\107\20\uffff\1\21"+
+        "\23\uffff\1\50\27\uffff\1\32\12\uffff\1\14\64\uffff\1\20\3\uffff"+
+        "\1\44\36\uffff\1\30\26\uffff\1\53\20\uffff\1\1\10\uffff\1\17\5\uffff"+
+        "\1\35\25\uffff\1\102\3\uffff\1\100\12\uffff\1\114\5\uffff\1\23\25"+
+        "\uffff\1\52\31\uffff\1\36\12\uffff\1\24\16\uffff\1\112\27\uffff"+
+        "\1\75\2\uffff\1\43\7\uffff\1\71\1\uffff\1\51\7\uffff\1\113\6\uffff"+
+        "\1\31\11\uffff\1\74\1\uffff\1\42\1\45\1\46\20\uffff\1\60\3\uffff"+
+        "\1\34\6\uffff\1\26\5\uffff\1\54\12\uffff\1\57\1\uffff\1\27\1\33"+
+        "\1\uffff\1\37\1\40\4\uffff\1\47\2\uffff\1\101\17\uffff\1\105\15"+
+        "\uffff\1\41\4\uffff\1\73\4\uffff\1\76\5\uffff\1\103\1\61\3\uffff"+
+        "\1\66\3\uffff\1\64\1\uffff\1\67\4\uffff\1\56\1\uffff\1\72\1\62\1"+
+        "\70\3\uffff\1\65\4\uffff\1\55\7\uffff\1\106\3\uffff\1\104\1\63";
     static final String DFA17_specialS =
-        "\34\uffff\1\4\44\uffff\1\1\1\uffff\1\3\1\0\1\uffff\1\2\u037d\uffff}>";
+        "\34\uffff\1\0\44\uffff\1\2\1\uffff\1\3\1\4\1\uffff\1\1\u0386\uffff}>";
     static final String[] DFA17_transitionS = {
             "\1\26\1\27\1\uffff\1\26\1\27\22\uffff\1\26\1\uffff\1\34\5\uffff"+
             "\1\7\1\11\3\uffff\1\31\1\uffff\1\30\1\33\11\32\1\4\1\uffff\1"+
-            "\36\1\10\1\37\1\uffff\1\37\1\1\1\37\1\24\1\14\1\17\1\20\2\37"+
-            "\1\13\1\37\1\23\1\25\1\37\1\6\1\12\2\37\1\21\1\16\1\22\6\37"+
-            "\3\uffff\1\15\1\35\1\uffff\13\37\1\3\16\37\1\2\1\uffff\1\5",
+            "\36\1\10\1\37\1\uffff\1\37\1\1\1\37\1\15\1\14\1\20\1\21\2\37"+
+            "\1\13\1\37\1\24\1\25\1\37\1\6\1\12\2\37\1\22\1\17\1\23\6\37"+
+            "\3\uffff\1\16\1\35\1\uffff\13\37\1\3\16\37\1\2\1\uffff\1\5",
             "\1\40\13\uffff\1\42\4\uffff\1\41",
             "",
             "\1\43",
@@ -3357,14 +3391,14 @@ public class Owl2fsLexer extends Lexer {
             "\1\50\13\uffff\1\47",
             "\1\51\1\52\3\uffff\1\53",
             "\1\55\3\uffff\1\54\3\uffff\1\56",
-            "\1\57",
-            "\1\62\23\uffff\1\60\3\uffff\1\61",
-            "\1\64\2\uffff\1\63",
-            "\1\65",
-            "\1\66",
+            "\1\57\2\uffff\1\60",
+            "\1\61",
+            "\1\64\23\uffff\1\62\3\uffff\1\63",
+            "\1\66\2\uffff\1\65",
             "\1\67",
             "\1\70",
-            "\1\71\2\uffff\1\72",
+            "\1\71",
+            "\1\72",
             "\1\73",
             "",
             "",
@@ -3374,8 +3408,8 @@ public class Owl2fsLexer extends Lexer {
             "\1\37\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\37\12\uffff\1\37\1\100\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\40\105\1\106\1\105\1\102\5\105\2\106\2\105\1\106\1\101\1"+
-            "\106\1\104\12\101\1\104\1\105\1\104\1\105\1\104\1\105\1\104"+
+            "\40\105\1\104\1\105\1\102\5\105\2\104\2\105\1\104\1\101\1"+
+            "\104\1\106\12\101\1\106\1\105\1\106\1\105\1\106\1\105\1\106"+
             "\32\101\3\105\1\103\1\101\1\105\32\101\uff85\105",
             "\1\107",
             "\1\112\1\uffff\12\112\1\110\1\112\14\110\1\112\1\uffff\1\112"+
@@ -3392,16 +3426,15 @@ public class Owl2fsLexer extends Lexer {
             "\1\121",
             "\1\122",
             "\1\123",
-            "\1\124",
-            "\1\125",
+            "\1\124\21\uffff\1\125",
             "\1\126",
             "\1\127",
-            "\1\131\14\uffff\1\130",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\130",
+            "\1\132\14\uffff\1\131",
             "\1\133",
             "\1\134",
-            "\1\135",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\136",
             "\1\137",
             "\1\140",
@@ -3411,34 +3444,34 @@ public class Owl2fsLexer extends Lexer {
             "\1\144",
             "\1\145",
             "\1\146",
-            "\1\147\12\uffff\1\147\1\uffff\14\147\1\uffff\1\147\1\uffff"+
-            "\1\147\1\uffff\33\147\3\uffff\2\147\1\uffff\32\147",
+            "\1\147",
+            "\1\150\12\uffff\1\150\1\uffff\14\150\1\uffff\1\150\1\uffff"+
+            "\1\150\1\uffff\33\150\3\uffff\2\150\1\uffff\32\150",
             "\1\100",
             "\1\37\12\uffff\1\37\1\100\1\37\12\76\1\37\1\uffff\1\37\1\uffff"+
             "\1\37\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "",
             "",
-            "\40\105\1\106\1\105\1\151\5\105\2\106\2\105\1\106\1\101\1"+
-            "\106\1\104\12\101\1\104\1\105\1\104\1\105\1\104\1\105\1\104"+
+            "\40\105\1\104\1\105\1\152\5\105\2\104\2\105\1\104\1\101\1"+
+            "\104\1\106\12\101\1\106\1\105\1\106\1\105\1\106\1\105\1\106"+
             "\32\101\3\105\1\103\1\101\1\105\32\101\uff85\105",
             "",
             "\42\105\1\102\12\105\1\103\1\105\14\103\1\105\1\103\1\105"+
             "\1\103\1\105\33\103\3\105\2\103\1\105\32\103\uff85\105",
-            "\40\105\1\106\1\105\1\152\5\105\2\106\2\105\1\106\1\104\1"+
-            "\106\14\104\1\105\1\104\1\105\1\104\1\105\33\104\3\105\1\103"+
-            "\1\104\1\105\32\104\uff85\105",
-            "",
-            "\40\105\1\106\1\105\1\153\5\105\2\106\2\105\17\106\1\105\1"+
-            "\106\1\105\1\106\1\105\33\106\4\105\1\106\1\105\32\106\uff85"+
+            "\40\105\1\104\1\105\1\153\5\105\2\104\2\105\17\104\1\105\1"+
+            "\104\1\105\1\104\1\105\33\104\4\105\1\104\1\105\32\104\uff85"+
             "\105",
-            "\1\154\2\uffff\12\154\7\uffff\32\154\4\uffff\1\154\1\uffff"+
-            "\32\154",
+            "",
+            "\40\105\1\104\1\105\1\154\5\105\2\104\2\105\1\104\1\106\1"+
+            "\104\14\106\1\105\1\106\1\105\1\106\1\105\33\106\3\105\1\103"+
+            "\1\106\1\105\32\106\uff85\105",
+            "\1\155\2\uffff\12\155\7\uffff\32\155\4\uffff\1\155\1\uffff"+
+            "\32\155",
             "\1\112\1\uffff\12\112\1\110\1\112\14\110\1\112\1\uffff\1\112"+
             "\1\111\1\112\33\110\1\112\1\uffff\1\112\1\uffff\1\110\1\uffff"+
             "\32\110\1\uffff\1\112\1\uffff\uff82\112",
             "",
             "",
-            "\1\155",
             "\1\156",
             "\1\157",
             "\1\160",
@@ -3453,12 +3486,12 @@ public class Owl2fsLexer extends Lexer {
             "\1\171",
             "\1\172",
             "\1\173",
-            "",
-            "\1\174\1\176\12\uffff\1\175",
+            "\1\174",
+            "\1\175",
+            "\1\176",
             "\1\177",
-            "\1\u0080",
-            "\1\u0081",
-            "\1\u0082",
+            "",
+            "\1\u0080\1\u0082\12\uffff\1\u0081",
             "\1\u0083",
             "\1\u0084",
             "\1\u0085",
@@ -3466,34 +3499,34 @@ public class Owl2fsLexer extends Lexer {
             "\1\u0087",
             "\1\u0088",
             "\1\u0089",
-            "\1\147\12\uffff\1\147\1\uffff\14\147\1\uffff\1\147\1\uffff"+
-            "\1\147\1\uffff\33\147\3\uffff\2\147\1\uffff\32\147",
+            "\1\u008a",
+            "\1\u008b",
+            "\1\150\12\uffff\1\150\1\uffff\14\150\1\uffff\1\150\1\uffff"+
+            "\1\150\1\uffff\33\150\3\uffff\2\150\1\uffff\32\150",
             "",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "",
             "",
-            "\1\37\12\uffff\1\154\1\uffff\1\37\12\154\1\37\1\uffff\1\37"+
-            "\1\uffff\1\37\1\uffff\1\37\32\154\3\uffff\1\37\1\154\1\uffff"+
-            "\32\154",
-            "\1\u008c",
-            "\1\u008d",
+            "\1\37\12\uffff\1\155\1\uffff\1\37\12\155\1\37\1\uffff\1\37"+
+            "\1\uffff\1\37\1\uffff\1\37\32\155\3\uffff\1\37\1\155\1\uffff"+
+            "\32\155",
             "\1\u008e",
             "\1\u008f",
-            "\1\u0091\16\uffff\1\u0090",
-            "\1\u0092",
-            "\1\u0093",
+            "\1\u0090",
+            "\1\u0091",
+            "\1\u0093\16\uffff\1\u0092",
             "\1\u0094",
             "\1\u0095",
             "\1\u0096",
             "\1\u0097",
             "\1\u0098",
-            "\1\u009d\1\uffff\1\u0099\1\uffff\1\u00a0\2\uffff\1\u009e\4"+
-            "\uffff\1\u009f\1\uffff\1\u009a\1\u00a1\2\uffff\1\u009c\40\uffff"+
+            "\1\u0099",
+            "\1\u009a",
             "\1\u009b",
-            "\1\u00a2",
-            "\1\u00a3",
-            "\1\u00a4",
+            "\1\u00a1\1\uffff\1\u009e\1\uffff\1\u00a4\2\uffff\1\u00a2\4"+
+            "\uffff\1\u00a3\1\uffff\1\u009f\1\u009d\2\uffff\1\u00a0\40\uffff"+
+            "\1\u009c",
             "\1\u00a5",
             "\1\u00a6",
             "\1\u00a7",
@@ -3507,11 +3540,11 @@ public class Owl2fsLexer extends Lexer {
             "\1\u00af",
             "\1\u00b0",
             "\1\u00b1",
-            "",
-            "",
             "\1\u00b2",
             "\1\u00b3",
             "\1\u00b4",
+            "",
+            "",
             "\1\u00b5",
             "\1\u00b6",
             "\1\u00b7",
@@ -3528,44 +3561,44 @@ public class Owl2fsLexer extends Lexer {
             "\1\u00c2",
             "\1\u00c3",
             "\1\u00c4",
-            "\1\u00c6\7\uffff\1\u00c5",
+            "\1\u00c5",
+            "\1\u00c6",
             "\1\u00c7",
             "\1\u00c8",
             "\1\u00c9",
-            "\1\u00ca",
-            "\1\u00cb",
+            "\1\u00cb\7\uffff\1\u00ca",
             "\1\u00cc",
             "\1\u00cd",
             "\1\u00ce",
-            "\1\u00cf",
-            "\1\u00d0",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\1\37\1\u00cf\31\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u00d1",
             "\1\u00d2",
             "\1\u00d3",
             "\1\u00d4",
             "\1\u00d5",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\1\37\1\u00d6\31\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u00d6",
+            "\1\u00d7",
             "\1\u00d8",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u00d9",
             "\1\u00da",
             "\1\u00db",
             "\1\u00dc",
-            "\1\u00dd",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u00de",
             "\1\u00df",
             "\1\u00e0",
             "\1\u00e1",
-            "\1\u00e7\1\uffff\1\u00e4\1\uffff\1\u00e9\2\uffff\1\u00e8\1"+
-            "\u00e2\3\uffff\1\u00ea\1\uffff\1\u00e5\1\u00eb\2\uffff\1\u00e6"+
-            "\1\uffff\1\u00e3",
+            "\1\u00e2",
+            "\1\u00e3",
+            "\1\u00e4",
+            "\1\u00e5",
+            "\1\u00ec\1\uffff\1\u00e9\1\uffff\1\u00ee\2\uffff\1\u00ed\1"+
+            "\u00e7\3\uffff\1\u00ef\1\uffff\1\u00ea\1\u00e6\2\uffff\1\u00eb"+
+            "\1\uffff\1\u00e8",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\u00ed",
-            "\1\u00ee",
-            "\1\u00ef",
-            "\1\u00f0",
             "\1\u00f1",
             "\1\u00f2",
             "\1\u00f3",
@@ -3583,21 +3616,21 @@ public class Owl2fsLexer extends Lexer {
             "\1\u00ff",
             "\1\u0100",
             "\1\u0101",
+            "",
             "\1\u0102",
             "\1\u0103",
             "\1\u0104",
             "\1\u0105",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0106",
             "\1\u0107",
-            "",
             "\1\u0108",
-            "",
             "\1\u0109",
             "\1\u010a",
             "\1\u010b",
             "\1\u010c",
-            "\1\u010d",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "",
             "\1\u010e",
             "\1\u010f",
             "\1\u0110",
@@ -3609,16 +3642,16 @@ public class Owl2fsLexer extends Lexer {
             "\1\u0116",
             "\1\u0117",
             "\1\u0118",
-            "\1\u011a\7\uffff\1\u0119",
+            "\1\u0119",
+            "\1\u011a",
             "\1\u011b",
-            "",
-            "\1\u011d\10\uffff\1\u011c",
+            "\1\u011c",
+            "\1\u011d",
             "\1\u011e",
-            "\1\u011f",
-            "\1\u0120",
+            "\1\u0120\7\uffff\1\u011f",
+            "",
             "\1\u0121",
-            "\1\u0122",
-            "\1\u0123",
+            "\1\u0123\10\uffff\1\u0122",
             "\1\u0124",
             "\1\u0125",
             "\1\u0126",
@@ -3634,80 +3667,80 @@ public class Owl2fsLexer extends Lexer {
             "\1\u0130",
             "\1\u0131",
             "\1\u0132",
-            "\1\u0133",
-            "\1\u0134",
-            "\1\u0135",
-            "",
-            "\1\u0136",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0134",
+            "\1\u0135",
+            "\1\u0136",
+            "\1\u0137",
             "\1\u0138",
             "\1\u0139",
             "\1\u013a",
             "\1\u013b",
             "\1\u013c",
             "\1\u013d",
-            "\1\u013f\12\uffff\1\u013e",
+            "",
+            "\1\u013e",
+            "\1\u013f",
+            "\1\u0140",
+            "\1\u0141",
+            "\1\u0142",
+            "\1\u0143",
+            "\1\u0145\12\uffff\1\u0144",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\u0142\1\uffff\1\u0141",
-            "\1\u0143",
-            "\1\u0144",
-            "\1\u0145",
-            "\1\u0146",
             "\1\u0147",
-            "\1\u0148",
-            "\1\u014a\7\uffff\1\u0149",
+            "\1\u0149\1\uffff\1\u0148",
+            "\1\u014a",
             "\1\u014b",
             "\1\u014c",
             "\1\u014d",
             "\1\u014e",
             "\1\u014f",
-            "\1\u0150",
-            "\1\u0151",
+            "\1\u0151\7\uffff\1\u0150",
             "\1\u0152",
             "\1\u0153",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\22\37\1\u0154\10\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0154",
+            "\1\u0155",
             "\1\u0156",
             "\1\u0157",
             "\1\u0158",
-            "\1\u0159",
-            "\1\u015a",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\22\37\1\u0159\10\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u015b",
             "\1\u015c",
-            "\1\u015d\1\u0160\12\uffff\1\u015f\5\uffff\1\u015e",
+            "\1\u015d",
+            "\1\u015e",
+            "\1\u015f",
+            "\1\u0160",
             "\1\u0161",
             "\1\u0162",
             "\1\u0163",
-            "\1\u0164",
-            "\1\u0165",
-            "\1\u0166",
-            "\1\u0167",
+            "\1\u0164\1\u0167\12\uffff\1\u0166\5\uffff\1\u0165",
             "\1\u0168",
             "\1\u0169",
+            "",
             "\1\u016a",
             "\1\u016b",
             "\1\u016c",
-            "",
             "\1\u016d",
             "\1\u016e",
             "\1\u016f",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0170",
+            "\1\u0171",
             "\1\u0172",
             "\1\u0173",
             "\1\u0174",
-            "",
             "\1\u0175",
             "\1\u0176",
-            "\1\u0177",
-            "\1\u0178",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u0179",
             "\1\u017a",
             "\1\u017b",
+            "",
             "\1\u017c",
             "\1\u017d",
             "\1\u017e",
@@ -3719,19 +3752,19 @@ public class Owl2fsLexer extends Lexer {
             "\1\u0184",
             "\1\u0185",
             "\1\u0186",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0187",
             "\1\u0188",
-            "",
             "\1\u0189",
             "\1\u018a",
             "\1\u018b",
             "\1\u018c",
             "\1\u018d",
             "\1\u018e",
+            "",
             "\1\u018f",
             "\1\u0190",
-            "\1\u0191",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u0192",
             "\1\u0193",
             "\1\u0194",
@@ -3748,18 +3781,18 @@ public class Owl2fsLexer extends Lexer {
             "\1\u019f",
             "\1\u01a0",
             "\1\u01a1",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\20\37\1\u01a2\12\37\3\uffff\2\37\1\uffff\32\37",
-            "",
-            "",
+            "\1\u01a2",
+            "\1\u01a3",
             "\1\u01a4",
             "\1\u01a5",
             "\1\u01a6",
             "\1\u01a7",
             "\1\u01a8",
             "\1\u01a9",
-            "\1\u01aa",
-            "\1\u01ab",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\20\37\1\u01aa\12\37\3\uffff\2\37\1\uffff\32\37",
+            "",
+            "",
             "\1\u01ac",
             "\1\u01ad",
             "\1\u01ae",
@@ -3773,11 +3806,11 @@ public class Owl2fsLexer extends Lexer {
             "\1\u01b6",
             "\1\u01b7",
             "\1\u01b8",
-            "",
             "\1\u01b9",
             "\1\u01ba",
             "\1\u01bb",
-            "\1\u01bc",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u01bd",
             "\1\u01be",
             "\1\u01bf",
@@ -3785,34 +3818,34 @@ public class Owl2fsLexer extends Lexer {
             "\1\u01c1",
             "\1\u01c2",
             "\1\u01c3",
+            "",
             "\1\u01c4",
             "\1\u01c5",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u01c6",
             "\1\u01c7",
             "\1\u01c8",
             "\1\u01c9",
             "\1\u01ca",
-            "\1\u01cb\1\u01cd\12\uffff\1\u01cc",
+            "\1\u01cb",
+            "\1\u01cc",
+            "\1\u01cd",
             "\1\u01ce",
-            "\1\u01d0\12\uffff\1\u01cf",
+            "\1\u01cf",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u01d1",
             "\1\u01d2",
             "\1\u01d3",
             "\1\u01d4",
-            "\1\u01d5",
-            "\1\u01d6",
-            "",
-            "\1\u01d7",
+            "\1\u01d5\1\u01d7\12\uffff\1\u01d6",
             "\1\u01d8",
-            "\1\u01d9",
-            "\1\u01da",
+            "\1\u01da\12\uffff\1\u01d9",
             "\1\u01db",
             "\1\u01dc",
             "\1\u01dd",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u01de",
             "\1\u01df",
+            "",
             "\1\u01e0",
             "\1\u01e1",
             "\1\u01e2",
@@ -3821,25 +3854,26 @@ public class Owl2fsLexer extends Lexer {
             "\1\u01e5",
             "\1\u01e6",
             "\1\u01e7",
-            "\1\u01e8",
-            "\1\u01e9",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u01e9",
+            "\1\u01ea",
             "\1\u01eb",
             "\1\u01ec",
             "\1\u01ed",
             "\1\u01ee",
             "\1\u01ef",
+            "",
             "\1\u01f0",
             "\1\u01f1",
             "\1\u01f2",
-            "\1\u01f3",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u01f4",
             "\1\u01f5",
             "\1\u01f6",
             "\1\u01f7",
             "\1\u01f8",
-            "",
             "\1\u01f9",
             "\1\u01fa",
             "\1\u01fb",
@@ -3850,6 +3884,7 @@ public class Owl2fsLexer extends Lexer {
             "\1\u0200",
             "\1\u0201",
             "\1\u0202",
+            "",
             "\1\u0203",
             "\1\u0204",
             "\1\u0205",
@@ -3863,7 +3898,6 @@ public class Owl2fsLexer extends Lexer {
             "\1\u020d",
             "\1\u020e",
             "\1\u020f",
-            "",
             "\1\u0210",
             "\1\u0211",
             "\1\u0212",
@@ -3874,26 +3908,27 @@ public class Owl2fsLexer extends Lexer {
             "\1\u0217",
             "\1\u0218",
             "\1\u0219",
-            "\1\u021a",
             "",
+            "\1\u021a",
             "\1\u021b",
             "\1\u021c",
             "\1\u021d",
             "\1\u021e",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u021f",
             "\1\u0220",
             "\1\u0221",
             "\1\u0222",
+            "\1\u0223",
+            "",
+            "\1\u0224",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\1\37\1\u0225\2\37\1\u0223\15\37\1\u0224\10\37\3\uffff"+
+            "\1\uffff\1\37\1\u0227\2\37\1\u0225\15\37\1\u0226\10\37\3\uffff"+
             "\2\37\1\uffff\32\37",
-            "\1\u0227",
-            "\1\u0228",
             "\1\u0229",
             "\1\u022a",
             "\1\u022b",
-            "\1\u022c",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u022d",
             "\1\u022e",
             "\1\u022f",
@@ -3914,8 +3949,7 @@ public class Owl2fsLexer extends Lexer {
             "\1\u023e",
             "\1\u023f",
             "\1\u0240",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0241",
             "\1\u0242",
             "\1\u0243",
             "\1\u0244",
@@ -3925,33 +3959,34 @@ public class Owl2fsLexer extends Lexer {
             "\1\u0248",
             "\1\u0249",
             "\1\u024a",
-            "\1\u024b",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u024c",
             "\1\u024d",
             "\1\u024e",
             "\1\u024f",
             "\1\u0250",
             "\1\u0251",
-            "",
             "\1\u0252",
             "\1\u0253",
             "\1\u0254",
             "\1\u0255",
             "\1\u0256",
             "\1\u0257",
-            "",
             "\1\u0258",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0259",
             "\1\u025a",
+            "",
             "\1\u025b",
             "\1\u025c",
             "\1\u025d",
+            "",
             "\1\u025e",
             "\1\u025f",
             "\1\u0260",
             "\1\u0261",
-            "\1\u0262",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u0263",
             "\1\u0264",
             "\1\u0265",
@@ -3959,8 +3994,7 @@ public class Owl2fsLexer extends Lexer {
             "\1\u0267",
             "\1\u0268",
             "\1\u0269",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u026a",
             "\1\u026b",
             "\1\u026c",
             "\1\u026d",
@@ -3968,24 +4002,25 @@ public class Owl2fsLexer extends Lexer {
             "\1\u026f",
             "\1\u0270",
             "\1\u0271",
-            "",
             "\1\u0272",
-            "\1\u0273",
-            "\1\u0274",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0274",
+            "\1\u0275",
             "\1\u0276",
             "\1\u0277",
             "\1\u0278",
-            "\1\u0279",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\1\37\1\u027c\2\37\1\u027a\15\37\1\u027b\10\37\3\uffff"+
+            "\1\uffff\1\37\1\u027b\2\37\1\u0279\15\37\1\u027a\10\37\3\uffff"+
             "\2\37\1\uffff\32\37",
+            "\1\u027d",
             "\1\u027e",
+            "",
             "\1\u027f",
             "\1\u0280",
             "\1\u0281",
-            "\1\u0282",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u0283",
             "\1\u0284",
             "\1\u0285",
@@ -3995,52 +4030,52 @@ public class Owl2fsLexer extends Lexer {
             "\1\u0289",
             "\1\u028a",
             "\1\u028b",
-            "",
             "\1\u028c",
             "\1\u028d",
             "\1\u028e",
             "\1\u028f",
             "\1\u0290",
             "\1\u0291",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0292",
             "\1\u0293",
             "\1\u0294",
+            "",
             "\1\u0295",
             "\1\u0296",
             "\1\u0297",
-            "\1\u0298",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u0299",
             "\1\u029a",
+            "\1\u029b",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "",
-            "\1\u029c",
             "\1\u029d",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u029e",
             "\1\u029f",
             "\1\u02a0",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u02a1",
             "\1\u02a2",
             "\1\u02a3",
             "\1\u02a4",
-            "\1\u02a5",
             "",
+            "\1\u02a5",
             "\1\u02a6",
-            "\1\u02a7",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u02a8",
             "\1\u02a9",
             "\1\u02aa",
             "\1\u02ab",
             "\1\u02ac",
             "",
-            "\1\u02ad",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u02ae",
             "\1\u02af",
             "\1\u02b0",
             "\1\u02b1",
+            "",
             "\1\u02b2",
             "\1\u02b3",
             "\1\u02b4",
@@ -4049,49 +4084,48 @@ public class Owl2fsLexer extends Lexer {
             "\1\u02b7",
             "\1\u02b8",
             "\1\u02b9",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u02ba",
             "\1\u02bb",
             "\1\u02bc",
             "\1\u02bd",
             "\1\u02be",
             "\1\u02bf",
             "\1\u02c0",
-            "",
             "\1\u02c1",
             "\1\u02c2",
-            "\1\u02c3",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u02c4",
             "\1\u02c5",
             "\1\u02c6",
+            "",
             "\1\u02c7",
             "\1\u02c8",
-            "",
             "\1\u02c9",
-            "\1\u02ca",
             "",
+            "\1\u02ca",
             "\1\u02cb",
             "\1\u02cc",
-            "",
             "\1\u02cd",
             "\1\u02ce",
             "\1\u02cf",
             "\1\u02d0",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u02d1",
             "\1\u02d2",
             "\1\u02d3",
+            "",
             "\1\u02d4",
             "\1\u02d5",
             "\1\u02d6",
             "\1\u02d7",
             "\1\u02d8",
+            "",
             "\1\u02d9",
             "\1\u02da",
+            "\1\u02db",
+            "\1\u02dc",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\u02dc",
-            "\1\u02dd",
             "\1\u02de",
             "\1\u02df",
             "\1\u02e0",
@@ -4099,18 +4133,18 @@ public class Owl2fsLexer extends Lexer {
             "\1\u02e2",
             "\1\u02e3",
             "\1\u02e4",
-            "",
             "\1\u02e5",
             "\1\u02e6",
             "\1\u02e7",
-            "\1\u02e8",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u02e9",
             "\1\u02ea",
             "\1\u02eb",
             "\1\u02ec",
             "\1\u02ed",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "",
+            "\1\u02ee",
             "\1\u02ef",
             "\1\u02f0",
             "\1\u02f1",
@@ -4119,11 +4153,11 @@ public class Owl2fsLexer extends Lexer {
             "\1\u02f4",
             "\1\u02f5",
             "\1\u02f6",
-            "\1\u02f7",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u02f8",
             "\1\u02f9",
             "\1\u02fa",
-            "",
             "\1\u02fb",
             "\1\u02fc",
             "\1\u02fd",
@@ -4133,272 +4167,282 @@ public class Owl2fsLexer extends Lexer {
             "\1\u0301",
             "\1\u0302",
             "\1\u0303",
-            "",
             "\1\u0304",
             "\1\u0305",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0306",
+            "",
             "\1\u0307",
             "\1\u0308",
             "\1\u0309",
             "\1\u030a",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u030b",
             "\1\u030c",
             "\1\u030d",
             "\1\u030e",
-            "\1\u030f",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u0310",
+            "",
+            "\1\u0311",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\u0312",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0313",
             "\1\u0314",
             "\1\u0315",
-            "",
             "\1\u0316",
             "\1\u0317",
             "\1\u0318",
             "\1\u0319",
-            "\1\u031a",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\u031c",
+            "\1\u031b",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u031d",
             "\1\u031e",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "",
+            "\1\u031f",
             "\1\u0320",
             "\1\u0321",
             "\1\u0322",
             "\1\u0323",
-            "\1\u0324",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u0325",
             "\1\u0326",
             "\1\u0327",
             "\1\u0328",
             "\1\u0329",
             "\1\u032a",
-            "\1\u032b",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u032c",
+            "\1\u032d",
+            "\1\u032e",
             "\1\u032f",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "",
+            "\1\u0330",
             "\1\u0331",
             "\1\u0332",
             "\1\u0333",
             "\1\u0334",
-            "\1\u0335",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "",
             "\1\u0336",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "",
-            "\1\u0337",
-            "\1\u0338",
-            "\1\u0339",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u033a",
             "\1\u033b",
             "\1\u033c",
             "\1\u033d",
-            "",
             "\1\u033e",
-            "\1\u033f",
-            "\1\u0340",
             "",
+            "\1\u033f",
+            "",
+            "\1\u0340",
             "\1\u0341",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0342",
             "\1\u0343",
             "\1\u0344",
             "\1\u0345",
             "\1\u0346",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "",
+            "\1\u0347",
             "\1\u0348",
             "\1\u0349",
-            "\1\u034a",
-            "\1\u034b",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "",
-            "",
+            "\1\u034b",
+            "\1\u034c",
             "",
             "\1\u034d",
-            "",
-            "\1\u034e",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u034f",
             "\1\u0350",
             "\1\u0351",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0352",
             "\1\u0353",
             "\1\u0354",
-            "\1\u0355",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "",
             "\1\u0356",
+            "",
+            "",
+            "",
             "\1\u0357",
             "\1\u0358",
             "\1\u0359",
             "\1\u035a",
-            "\1\u035b",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u035c",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "",
+            "\1\u035d",
+            "\1\u035e",
             "\1\u035f",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "",
+            "\1\u0360",
+            "\1\u0361",
+            "\1\u0362",
             "\1\u0363",
             "\1\u0364",
             "\1\u0365",
-            "\1\u0366",
-            "",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\u0368",
-            "\1\u0369",
+            "",
+            "\1\u0367",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "",
             "\1\u036a",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "",
-            "\1\u036c",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u036d",
             "\1\u036e",
             "\1\u036f",
+            "",
             "\1\u0370",
-            "\1\u0371",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u0372",
             "\1\u0373",
-            "\1\u0374",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "",
             "\1\u0375",
-            "",
-            "",
             "\1\u0376",
-            "",
-            "",
-            "",
             "\1\u0377",
             "\1\u0378",
             "\1\u0379",
             "\1\u037a",
-            "",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u037b",
             "\1\u037c",
             "\1\u037d",
-            "",
             "\1\u037e",
+            "",
             "\1\u037f",
+            "",
+            "",
             "\1\u0380",
+            "",
+            "",
             "\1\u0381",
             "\1\u0382",
             "\1\u0383",
-            "\1\u0384",
-            "\1\u0385",
-            "\1\u0386",
-            "\1\u0387",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "",
+            "\1\u0385",
+            "\1\u0386",
+            "",
+            "\1\u0387",
+            "\1\u0388",
             "\1\u0389",
             "\1\u038a",
             "\1\u038b",
             "\1\u038c",
-            "",
             "\1\u038d",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u038e",
             "\1\u038f",
             "\1\u0390",
             "\1\u0391",
-            "\1\u0392",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0393",
             "\1\u0394",
             "\1\u0395",
+            "",
             "\1\u0396",
-            "\1\u0397",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u0398",
-            "",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u0399",
+            "\1\u039a",
             "\1\u039b",
-            "\1\u039c",
-            "\1\u039d",
-            "",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u039d",
+            "\1\u039e",
             "\1\u039f",
             "\1\u03a0",
             "\1\u03a1",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\u03a3",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u03a4",
             "\1\u03a5",
             "\1\u03a6",
             "",
-            "",
-            "\1\u03a7",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u03a8",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "",
+            "\1\u03a9",
             "\1\u03aa",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
-            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "",
+            "\1\u03ac",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\u03ae",
             "\1\u03af",
+            "",
+            "",
             "\1\u03b0",
+            "\1\u03b1",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "",
-            "\1\u03b2",
-            "",
-            "",
             "",
             "\1\u03b3",
-            "\1\u03b4",
-            "\1\u03b5",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "",
             "\1\u03b7",
             "\1\u03b8",
             "\1\u03b9",
-            "",
-            "\1\u03ba",
-            "\1\u03bb",
-            "\1\u03bc",
-            "\1\u03bd",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
-            "\1\u03bf",
-            "\1\u03c0",
             "",
+            "\1\u03bb",
+            "",
+            "",
+            "",
+            "\1\u03bc",
+            "\1\u03bd",
+            "\1\u03be",
+            "",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u03c0",
             "\1\u03c1",
+            "\1\u03c2",
+            "",
+            "\1\u03c3",
+            "\1\u03c4",
+            "\1\u03c5",
+            "\1\u03c6",
+            "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
+            "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
+            "\1\u03c8",
+            "\1\u03c9",
+            "",
+            "\1\u03ca",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
             "\1\uffff\33\37\3\uffff\2\37\1\uffff\32\37",
             "\1\37\12\uffff\1\37\1\uffff\14\37\1\uffff\1\37\1\uffff\1\37"+
@@ -4437,59 +4481,67 @@ public class Owl2fsLexer extends Lexer {
             this.transition = DFA17_transition;
         }
         public String getDescription() {
-            return "1:1: Tokens : ( T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | WHITESPACE | LINEBREAKS | COMMENT | INTEGER | FLOAT | LITERAL | NODE | DIRTYIRI | FULLIRI | QUOTED_34_34 );";
+            return "1:1: Tokens : ( T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | WHITESPACE | LINEBREAKS | COMMENT | INTEGER | FLOAT | LITERAL | NODE | DIRTYIRI | FULLIRI | QUOTED_34_34 );";
         }
         public int specialStateTransition(int s, IntStream _input) throws NoViableAltException {
             IntStream input = _input;
         	int _s = s;
             switch ( s ) {
                     case 0 : 
-                        int LA17_68 = input.LA(1);
+                        int LA17_28 = input.LA(1);
 
                         s = -1;
-                        if ( (LA17_68=='\"') ) {s = 106;}
+                        if ( (LA17_28=='-'||(LA17_28>='0' && LA17_28<='9')||(LA17_28>='A' && LA17_28<='Z')||LA17_28=='_'||(LA17_28>='a' && LA17_28<='z')) ) {s = 65;}
 
-                        else if ( (LA17_68=='-'||(LA17_68>='/' && LA17_68<=':')||LA17_68=='<'||LA17_68=='>'||(LA17_68>='@' && LA17_68<='Z')||LA17_68=='_'||(LA17_68>='a' && LA17_68<='z')) ) {s = 68;}
+                        else if ( (LA17_28=='\"') ) {s = 66;}
 
-                        else if ( (LA17_68==' '||(LA17_68>='(' && LA17_68<=')')||LA17_68==','||LA17_68=='.') ) {s = 70;}
+                        else if ( (LA17_28=='^') ) {s = 67;}
 
-                        else if ( (LA17_68=='^') ) {s = 67;}
+                        else if ( (LA17_28==' '||(LA17_28>='(' && LA17_28<=')')||LA17_28==','||LA17_28=='.') ) {s = 68;}
 
-                        else if ( ((LA17_68>='\u0000' && LA17_68<='\u001F')||LA17_68=='!'||(LA17_68>='#' && LA17_68<='\'')||(LA17_68>='*' && LA17_68<='+')||LA17_68==';'||LA17_68=='='||LA17_68=='?'||(LA17_68>='[' && LA17_68<=']')||LA17_68=='`'||(LA17_68>='{' && LA17_68<='\uFFFF')) ) {s = 69;}
+                        else if ( ((LA17_28>='\u0000' && LA17_28<='\u001F')||LA17_28=='!'||(LA17_28>='#' && LA17_28<='\'')||(LA17_28>='*' && LA17_28<='+')||LA17_28==';'||LA17_28=='='||LA17_28=='?'||(LA17_28>='[' && LA17_28<=']')||LA17_28=='`'||(LA17_28>='{' && LA17_28<='\uFFFF')) ) {s = 69;}
+
+                        else if ( (LA17_28=='/'||LA17_28==':'||LA17_28=='<'||LA17_28=='>'||LA17_28=='@') ) {s = 70;}
 
                         else s = 31;
 
                         if ( s>=0 ) return s;
                         break;
                     case 1 : 
-                        int LA17_65 = input.LA(1);
+                        int LA17_70 = input.LA(1);
 
                         s = -1;
-                        if ( (LA17_65=='\"') ) {s = 105;}
+                        if ( (LA17_70=='\"') ) {s = 108;}
 
-                        else if ( (LA17_65=='-'||(LA17_65>='0' && LA17_65<='9')||(LA17_65>='A' && LA17_65<='Z')||LA17_65=='_'||(LA17_65>='a' && LA17_65<='z')) ) {s = 65;}
+                        else if ( (LA17_70=='-'||(LA17_70>='/' && LA17_70<=':')||LA17_70=='<'||LA17_70=='>'||(LA17_70>='@' && LA17_70<='Z')||LA17_70=='_'||(LA17_70>='a' && LA17_70<='z')) ) {s = 70;}
 
-                        else if ( (LA17_65=='/'||LA17_65==':'||LA17_65=='<'||LA17_65=='>'||LA17_65=='@') ) {s = 68;}
+                        else if ( (LA17_70=='^') ) {s = 67;}
 
-                        else if ( (LA17_65==' '||(LA17_65>='(' && LA17_65<=')')||LA17_65==','||LA17_65=='.') ) {s = 70;}
+                        else if ( (LA17_70==' '||(LA17_70>='(' && LA17_70<=')')||LA17_70==','||LA17_70=='.') ) {s = 68;}
 
-                        else if ( (LA17_65=='^') ) {s = 67;}
-
-                        else if ( ((LA17_65>='\u0000' && LA17_65<='\u001F')||LA17_65=='!'||(LA17_65>='#' && LA17_65<='\'')||(LA17_65>='*' && LA17_65<='+')||LA17_65==';'||LA17_65=='='||LA17_65=='?'||(LA17_65>='[' && LA17_65<=']')||LA17_65=='`'||(LA17_65>='{' && LA17_65<='\uFFFF')) ) {s = 69;}
+                        else if ( ((LA17_70>='\u0000' && LA17_70<='\u001F')||LA17_70=='!'||(LA17_70>='#' && LA17_70<='\'')||(LA17_70>='*' && LA17_70<='+')||LA17_70==';'||LA17_70=='='||LA17_70=='?'||(LA17_70>='[' && LA17_70<=']')||LA17_70=='`'||(LA17_70>='{' && LA17_70<='\uFFFF')) ) {s = 69;}
 
                         else s = 31;
 
                         if ( s>=0 ) return s;
                         break;
                     case 2 : 
-                        int LA17_70 = input.LA(1);
+                        int LA17_65 = input.LA(1);
 
                         s = -1;
-                        if ( (LA17_70=='\"') ) {s = 107;}
+                        if ( (LA17_65=='\"') ) {s = 106;}
 
-                        else if ( (LA17_70==' '||(LA17_70>='(' && LA17_70<=')')||(LA17_70>=',' && LA17_70<=':')||LA17_70=='<'||LA17_70=='>'||(LA17_70>='@' && LA17_70<='Z')||LA17_70=='_'||(LA17_70>='a' && LA17_70<='z')) ) {s = 70;}
+                        else if ( (LA17_65=='-'||(LA17_65>='0' && LA17_65<='9')||(LA17_65>='A' && LA17_65<='Z')||LA17_65=='_'||(LA17_65>='a' && LA17_65<='z')) ) {s = 65;}
 
-                        else if ( ((LA17_70>='\u0000' && LA17_70<='\u001F')||LA17_70=='!'||(LA17_70>='#' && LA17_70<='\'')||(LA17_70>='*' && LA17_70<='+')||LA17_70==';'||LA17_70=='='||LA17_70=='?'||(LA17_70>='[' && LA17_70<='^')||LA17_70=='`'||(LA17_70>='{' && LA17_70<='\uFFFF')) ) {s = 69;}
+                        else if ( (LA17_65=='/'||LA17_65==':'||LA17_65=='<'||LA17_65=='>'||LA17_65=='@') ) {s = 70;}
+
+                        else if ( (LA17_65=='^') ) {s = 67;}
+
+                        else if ( (LA17_65==' '||(LA17_65>='(' && LA17_65<=')')||LA17_65==','||LA17_65=='.') ) {s = 68;}
+
+                        else if ( ((LA17_65>='\u0000' && LA17_65<='\u001F')||LA17_65=='!'||(LA17_65>='#' && LA17_65<='\'')||(LA17_65>='*' && LA17_65<='+')||LA17_65==';'||LA17_65=='='||LA17_65=='?'||(LA17_65>='[' && LA17_65<=']')||LA17_65=='`'||(LA17_65>='{' && LA17_65<='\uFFFF')) ) {s = 69;}
+
+                        else s = 31;
 
                         if ( s>=0 ) return s;
                         break;
@@ -4508,22 +4560,14 @@ public class Owl2fsLexer extends Lexer {
                         if ( s>=0 ) return s;
                         break;
                     case 4 : 
-                        int LA17_28 = input.LA(1);
+                        int LA17_68 = input.LA(1);
 
                         s = -1;
-                        if ( (LA17_28=='-'||(LA17_28>='0' && LA17_28<='9')||(LA17_28>='A' && LA17_28<='Z')||LA17_28=='_'||(LA17_28>='a' && LA17_28<='z')) ) {s = 65;}
+                        if ( (LA17_68=='\"') ) {s = 107;}
 
-                        else if ( (LA17_28=='\"') ) {s = 66;}
+                        else if ( (LA17_68==' '||(LA17_68>='(' && LA17_68<=')')||(LA17_68>=',' && LA17_68<=':')||LA17_68=='<'||LA17_68=='>'||(LA17_68>='@' && LA17_68<='Z')||LA17_68=='_'||(LA17_68>='a' && LA17_68<='z')) ) {s = 68;}
 
-                        else if ( (LA17_28=='^') ) {s = 67;}
-
-                        else if ( (LA17_28=='/'||LA17_28==':'||LA17_28=='<'||LA17_28=='>'||LA17_28=='@') ) {s = 68;}
-
-                        else if ( ((LA17_28>='\u0000' && LA17_28<='\u001F')||LA17_28=='!'||(LA17_28>='#' && LA17_28<='\'')||(LA17_28>='*' && LA17_28<='+')||LA17_28==';'||LA17_28=='='||LA17_28=='?'||(LA17_28>='[' && LA17_28<=']')||LA17_28=='`'||(LA17_28>='{' && LA17_28<='\uFFFF')) ) {s = 69;}
-
-                        else if ( (LA17_28==' '||(LA17_28>='(' && LA17_28<=')')||LA17_28==','||LA17_28=='.') ) {s = 70;}
-
-                        else s = 31;
+                        else if ( ((LA17_68>='\u0000' && LA17_68<='\u001F')||LA17_68=='!'||(LA17_68>='#' && LA17_68<='\'')||(LA17_68>='*' && LA17_68<='+')||LA17_68==';'||LA17_68=='='||LA17_68=='?'||(LA17_68>='[' && LA17_68<='^')||LA17_68=='`'||(LA17_68>='{' && LA17_68<='\uFFFF')) ) {s = 69;}
 
                         if ( s>=0 ) return s;
                         break;

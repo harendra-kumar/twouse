@@ -753,6 +753,11 @@ public class Owl2fsPrinter implements de.uniko.isweb.emftext.owl2fs.owl2fs.resou
 			}
 			printCountingMap.put("axiomAnnotations",0);
 		}
+		//////////////DEFINITION PART BEGINS (CompoundDefinition):
+		print_de_uniko_isweb_emftext_owl2fs_owl2fs_Declaration_0(element, localtab, out, printCountingMap);
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print("(");
+		out.print(" ");
 		//////////////DEFINITION PART BEGINS (Containment):
 		count = printCountingMap.get("entity");
 		if (count > 0) {
@@ -765,6 +770,64 @@ public class Owl2fsPrinter implements de.uniko.isweb.emftext.owl2fs.owl2fs.resou
 		//////////////DEFINITION PART BEGINS (CsString):
 		out.print(")");
 		out.print(" ");
+		//////////////DEFINITION PART BEGINS (CsString):
+		out.print(")");
+		out.print(" ");
+	}
+	public void print_de_uniko_isweb_emftext_owl2fs_owl2fs_Declaration_0(de.uniko.isweb.emftext.owl2fs.owl2fs.Declaration element, java.lang.String outertab, java.io.PrintWriter out, java.util.Map<java.lang.String, java.lang.Integer> printCountingMap){
+		int alt = -1;
+		alt=0;
+		int matches=		0;
+		int tempMatchCount;
+		tempMatchCount=		0;
+		if (tempMatchCount > matches) {
+			alt = 1;
+			matches = tempMatchCount;
+		}
+		tempMatchCount=		0;
+		if (tempMatchCount > matches) {
+			alt = 2;
+			matches = tempMatchCount;
+		}
+		tempMatchCount=		0;
+		if (tempMatchCount > matches) {
+			alt = 3;
+			matches = tempMatchCount;
+		}
+		tempMatchCount=		0;
+		if (tempMatchCount > matches) {
+			alt = 4;
+			matches = tempMatchCount;
+		}
+		switch(alt) {
+			case 1:			{
+				//////////////DEFINITION PART BEGINS (CsString):
+				out.print("Datatype");
+				out.print(" ");
+			}
+			break;
+			case 2:			{
+				//////////////DEFINITION PART BEGINS (CsString):
+				out.print("ObjectProperty");
+				out.print(" ");
+			}
+			break;
+			case 3:			{
+				//////////////DEFINITION PART BEGINS (CsString):
+				out.print("DataProperty");
+				out.print(" ");
+			}
+			break;
+			case 4:			{
+				//////////////DEFINITION PART BEGINS (CsString):
+				out.print("Individual");
+				out.print(" ");
+			}
+			break;
+			default:			//////////////DEFINITION PART BEGINS (CsString):
+			out.print("Class");
+			out.print(" ");
+		}
 	}
 	
 	public void print_de_uniko_isweb_emftext_owl2fs_owl2fs_Class(de.uniko.isweb.emftext.owl2fs.owl2fs.Class element, java.lang.String outertab, java.io.PrintWriter out) {

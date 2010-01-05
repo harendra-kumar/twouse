@@ -30,7 +30,7 @@
 	<extension point="org.eclipse.ui.newWizards">
 		<category id="org.emftext.runtime.ui.EMFTextFileCategory" name="EMFText File">
 		</category>
-		<wizard category="de.uniko.isweb.twouse.branding.category.twouse" icon="/icons/default_new_icon.gif" class="de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.ui.Owl2fsNewFileWizard" id="de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.ui.Owl2fsNewFileWizard" name="OWL2 Ontology (Functional Syntax)">
+		<wizard category="org.emftext.runtime.ui.EMFTextFileCategory" icon="/icons/default_new_icon.gif" class="de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.ui.Owl2fsNewFileWizard" id="de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.ui.Owl2fsNewFileWizard" name="EMFText .owl2fs file">
 		</wizard>
 	</extension>
 	

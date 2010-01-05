@@ -226,7 +226,7 @@ RULES {
 	Ontology::= "Ontology" "(" ontologyURI[FULLIRI] versionURI[DIRTYIRI]? ( "Import" "(" importedOntologies ")" )* ontologyAnnotations* axioms* ")";  // "Ontology"  "{" ( "ontologyAnnotations"  ":" ontologyAnnotations | "axioms"  ":" axioms | "importedOntologies"  ":" importedOntologies | "expressions"  ":" expressions | "ontologyURI"  ":" ontologyURI | "versionURI"  ":" versionURI['"','"'] | "packages"  ":" packages  )* "}"  ;
 	
 	//Axiom begin
-	Declaration::= "Declaration" "(" axiomAnnotations* entity ")";  // isFunctional[]?isReflexive[]?isInverseFunctional[]?isIrreflexive[]?isSymmetric[]?isTransitive[]?isAsysmmetric[]? "Declaration"  "{" ( "axiomAnnotations"  ":" axiomAnnotations | "entity"  ":" entity  )* "}"  ;
+	Declaration::= "Declaration" "(" axiomAnnotations* ( "Class" | "Datatype" | "ObjectProperty" | "DataProperty" | "Individual" ) "(" entity ")" ")";  // isFunctional[]?isReflexive[]?isInverseFunctional[]?isIrreflexive[]?isSymmetric[]?isTransitive[]?isAsysmmetric[]? "Declaration"  "{" ( "axiomAnnotations"  ":" axiomAnnotations | "entity"  ":" entity  )* "}"  ;
 	
 	//Entities begin
 	Class::= entityURI;  // "Class"  "{" ( "entityURI"  ":" entityURI | "owningTemplateParameter"  ":" owningTemplateParameter[]| "templateParameter"  ":" templateParameter[] )* "}"  ;

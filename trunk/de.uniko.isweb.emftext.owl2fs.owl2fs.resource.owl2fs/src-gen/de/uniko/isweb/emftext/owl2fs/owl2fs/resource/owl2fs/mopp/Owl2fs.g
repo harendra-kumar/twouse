@@ -484,7 +484,7 @@ options {
 				break;
 			}
 		}
-		int followSetID = 362;
+		int followSetID = 370;
 		int i;
 		for (i = tokenIndexOfLastCompleteElement; i < tokenStream.size(); i++) {
 			org.antlr.runtime.CommonToken nextToken = (org.antlr.runtime.CommonToken) tokenStream.get(i);
@@ -759,107 +759,114 @@ options {
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_107 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_108 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_109 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_110 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_111 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.eINSTANCE.getFacetConstantPair().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.FACET_CONSTANT_PAIR__FACET), "DIRTYIRI");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_112 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_113 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_114 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_115 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_110 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("Class");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_111 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("Datatype");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_112 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("ObjectProperty");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_113 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("DataProperty");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_114 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("Individual");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_115 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_116 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_117 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_118 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_118 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.eINSTANCE.getFacetConstantPair().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.FACET_CONSTANT_PAIR__FACET), "DIRTYIRI");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_119 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_120 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_121 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_122 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_123 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("^^");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_124 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_125 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_126 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_127 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_128 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_123 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_124 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_125 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_126 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_127 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_128 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_129 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_130 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_131 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_130 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("^^");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_131 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_132 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_133 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_134 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_135 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_136 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_136 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_137 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_138 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_139 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.eINSTANCE.getObjectMinCardinality().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.OBJECT_MIN_CARDINALITY__CARDINALITY), "INTEGER");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_138 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_139 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_140 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_141 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.eINSTANCE.getObjectMaxCardinality().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.OBJECT_MAX_CARDINALITY__CARDINALITY), "INTEGER");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_141 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_142 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_143 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.eINSTANCE.getObjectExactCardinality().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.OBJECT_EXACT_CARDINALITY__CARDINALITY), "INTEGER");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_143 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_144 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_145 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_146 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_146 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.eINSTANCE.getObjectMinCardinality().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.OBJECT_MIN_CARDINALITY__CARDINALITY), "INTEGER");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_147 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_148 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.eINSTANCE.getDataMinCardinality().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.DATA_MIN_CARDINALITY__CARDINALITY), "INTEGER");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_148 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.eINSTANCE.getObjectMaxCardinality().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.OBJECT_MAX_CARDINALITY__CARDINALITY), "INTEGER");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_149 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_150 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.eINSTANCE.getDataMaxCardinality().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.DATA_MAX_CARDINALITY__CARDINALITY), "INTEGER");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_150 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.eINSTANCE.getObjectExactCardinality().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.OBJECT_EXACT_CARDINALITY__CARDINALITY), "INTEGER");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_151 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_152 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.eINSTANCE.getDataExactCardinality().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.DATA_EXACT_CARDINALITY__CARDINALITY), "INTEGER");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_152 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_153 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_154 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_155 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_156 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_157 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_158 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_159 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_160 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_161 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_162 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_163 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_164 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_165 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_166 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_167 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_154 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_155 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.eINSTANCE.getDataMinCardinality().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.DATA_MIN_CARDINALITY__CARDINALITY), "INTEGER");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_156 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_157 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.eINSTANCE.getDataMaxCardinality().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.DATA_MAX_CARDINALITY__CARDINALITY), "INTEGER");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_158 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_159 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.eINSTANCE.getDataExactCardinality().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.DATA_EXACT_CARDINALITY__CARDINALITY), "INTEGER");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_160 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_161 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_162 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_163 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_164 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_165 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_166 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_167 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_168 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_169 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_170 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_171 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_169 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_170 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_171 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_172 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_173 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_173 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_174 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_175 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_176 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_177 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_177 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_178 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_179 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_179 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_180 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_181 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_181 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_182 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_183 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_183 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_184 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_185 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_186 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_186 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_187 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_188 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_189 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_190 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_191 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_188 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_189 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_190 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_191 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_192 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_193 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_193 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_194 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_195 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_196 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_197 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_198 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_199 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_200 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_200 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_201 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_202 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_203 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_204 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("AnnotationProperty");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_205 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("Datatype");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_206 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("ObjectProperty");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_207 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("Class");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_208 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("NamedIndividual");
-	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_209 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("DataProperty");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_202 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_203 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_204 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_205 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_206 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_207 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_208 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_209 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString(")");
 	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_210 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_211 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("AnnotationProperty");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_212 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("Datatype");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_213 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("ObjectProperty");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_214 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("Class");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_215 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("NamedIndividual");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_216 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("DataProperty");
+	private final static de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.IOwl2fsExpectedElement TERMINAL_217 = new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedCsString("(");
 	
 	public static void wire0() {
 		TERMINAL_1.addFollower(TERMINAL_2);
@@ -1054,67 +1061,78 @@ options {
 		TERMINAL_109.addFollower(TERMINAL_70);
 		TERMINAL_109.addFollower(TERMINAL_71);
 		TERMINAL_109.addFollower(TERMINAL_72);
-		TERMINAL_109.addFollower(TERMINAL_1);
-		TERMINAL_109.addFollower(TERMINAL_43);
-		TERMINAL_2.addFollower(TERMINAL_73);
-		TERMINAL_2.addFollower(TERMINAL_74);
-		TERMINAL_2.addFollower(TERMINAL_75);
-		TERMINAL_2.addFollower(TERMINAL_76);
-		TERMINAL_2.addFollower(TERMINAL_77);
-		TERMINAL_2.addFollower(TERMINAL_78);
-		TERMINAL_2.addFollower(TERMINAL_79);
-		TERMINAL_2.addFollower(TERMINAL_80);
-		TERMINAL_2.addFollower(TERMINAL_81);
-		TERMINAL_2.addFollower(TERMINAL_82);
-		TERMINAL_2.addFollower(TERMINAL_83);
-		TERMINAL_2.addFollower(TERMINAL_84);
-		TERMINAL_2.addFollower(TERMINAL_85);
-		TERMINAL_2.addFollower(TERMINAL_86);
-		TERMINAL_2.addFollower(TERMINAL_87);
-		TERMINAL_2.addFollower(TERMINAL_88);
-		TERMINAL_2.addFollower(TERMINAL_89);
-		TERMINAL_2.addFollower(TERMINAL_90);
-		TERMINAL_2.addFollower(TERMINAL_91);
-		TERMINAL_2.addFollower(TERMINAL_92);
-		TERMINAL_2.addFollower(TERMINAL_93);
-		TERMINAL_2.addFollower(TERMINAL_94);
-		TERMINAL_2.addFollower(TERMINAL_95);
-		TERMINAL_2.addFollower(TERMINAL_96);
-		TERMINAL_2.addFollower(TERMINAL_97);
-		TERMINAL_2.addFollower(TERMINAL_98);
-		TERMINAL_2.addFollower(TERMINAL_99);
-		TERMINAL_2.addFollower(TERMINAL_100);
-		TERMINAL_2.addFollower(TERMINAL_101);
-		TERMINAL_2.addFollower(TERMINAL_102);
-		TERMINAL_2.addFollower(TERMINAL_103);
-		TERMINAL_2.addFollower(TERMINAL_104);
-		TERMINAL_2.addFollower(TERMINAL_105);
-		TERMINAL_2.addFollower(TERMINAL_106);
+		TERMINAL_109.addFollower(TERMINAL_110);
+		TERMINAL_109.addFollower(TERMINAL_111);
+		TERMINAL_109.addFollower(TERMINAL_112);
+		TERMINAL_109.addFollower(TERMINAL_113);
+		TERMINAL_109.addFollower(TERMINAL_114);
+		TERMINAL_110.addFollower(TERMINAL_115);
+		TERMINAL_111.addFollower(TERMINAL_115);
+		TERMINAL_112.addFollower(TERMINAL_115);
+		TERMINAL_113.addFollower(TERMINAL_115);
+		TERMINAL_114.addFollower(TERMINAL_115);
+		TERMINAL_115.addFollower(TERMINAL_1);
+		TERMINAL_115.addFollower(TERMINAL_43);
+		TERMINAL_2.addFollower(TERMINAL_116);
+		TERMINAL_116.addFollower(TERMINAL_73);
+		TERMINAL_116.addFollower(TERMINAL_74);
+		TERMINAL_116.addFollower(TERMINAL_75);
+		TERMINAL_116.addFollower(TERMINAL_76);
+		TERMINAL_116.addFollower(TERMINAL_77);
+		TERMINAL_116.addFollower(TERMINAL_78);
+		TERMINAL_116.addFollower(TERMINAL_79);
+		TERMINAL_116.addFollower(TERMINAL_80);
+		TERMINAL_116.addFollower(TERMINAL_81);
+		TERMINAL_116.addFollower(TERMINAL_82);
+		TERMINAL_116.addFollower(TERMINAL_83);
+		TERMINAL_116.addFollower(TERMINAL_84);
+		TERMINAL_116.addFollower(TERMINAL_85);
+		TERMINAL_116.addFollower(TERMINAL_86);
+		TERMINAL_116.addFollower(TERMINAL_87);
+		TERMINAL_116.addFollower(TERMINAL_88);
+		TERMINAL_116.addFollower(TERMINAL_89);
+		TERMINAL_116.addFollower(TERMINAL_90);
+		TERMINAL_116.addFollower(TERMINAL_91);
+		TERMINAL_116.addFollower(TERMINAL_92);
+		TERMINAL_116.addFollower(TERMINAL_93);
+		TERMINAL_116.addFollower(TERMINAL_94);
+		TERMINAL_116.addFollower(TERMINAL_95);
+		TERMINAL_116.addFollower(TERMINAL_96);
+		TERMINAL_116.addFollower(TERMINAL_97);
+		TERMINAL_116.addFollower(TERMINAL_98);
+		TERMINAL_116.addFollower(TERMINAL_99);
+		TERMINAL_116.addFollower(TERMINAL_100);
+		TERMINAL_116.addFollower(TERMINAL_101);
+		TERMINAL_116.addFollower(TERMINAL_102);
+		TERMINAL_116.addFollower(TERMINAL_103);
+		TERMINAL_116.addFollower(TERMINAL_104);
+		TERMINAL_116.addFollower(TERMINAL_105);
+		TERMINAL_116.addFollower(TERMINAL_106);
 		TERMINAL_43.addFollower(TERMINAL_2);
 		TERMINAL_43.addFollower(TERMINAL_47);
-		TERMINAL_43.addFollower(TERMINAL_110);
-		TERMINAL_43.addFollower(TERMINAL_111);
-		TERMINAL_43.addFollower(TERMINAL_112);
-		TERMINAL_43.addFollower(TERMINAL_113);
-		TERMINAL_43.addFollower(TERMINAL_114);
-		TERMINAL_43.addFollower(TERMINAL_115);
-		TERMINAL_43.addFollower(TERMINAL_116);
 		TERMINAL_43.addFollower(TERMINAL_117);
 		TERMINAL_43.addFollower(TERMINAL_118);
+		TERMINAL_43.addFollower(TERMINAL_119);
+		TERMINAL_43.addFollower(TERMINAL_120);
+		TERMINAL_43.addFollower(TERMINAL_121);
+		TERMINAL_43.addFollower(TERMINAL_122);
+		TERMINAL_43.addFollower(TERMINAL_123);
+		TERMINAL_43.addFollower(TERMINAL_124);
+		TERMINAL_43.addFollower(TERMINAL_125);
 		TERMINAL_43.addFollower(TERMINAL_48);
 		TERMINAL_43.addFollower(TERMINAL_49);
 		TERMINAL_43.addFollower(TERMINAL_50);
-		TERMINAL_43.addFollower(TERMINAL_119);
+		TERMINAL_43.addFollower(TERMINAL_126);
 		TERMINAL_43.addFollower(TERMINAL_31);
 		TERMINAL_33.addFollower(TERMINAL_1);
 		TERMINAL_33.addFollower(TERMINAL_33);
 		TERMINAL_33.addFollower(TERMINAL_52);
-		TERMINAL_33.addFollower(TERMINAL_122);
+		TERMINAL_33.addFollower(TERMINAL_129);
 		TERMINAL_33.addFollower(TERMINAL_47);
-		TERMINAL_47.addFollower(TERMINAL_123);
-		TERMINAL_123.addFollower(TERMINAL_43);
-		TERMINAL_35.addFollower(TERMINAL_124);
-		TERMINAL_124.addFollower(TERMINAL_1);
+		TERMINAL_47.addFollower(TERMINAL_130);
+		TERMINAL_130.addFollower(TERMINAL_43);
+		TERMINAL_35.addFollower(TERMINAL_131);
+		TERMINAL_131.addFollower(TERMINAL_1);
 		TERMINAL_32.addFollower(TERMINAL_1);
 		TERMINAL_32.addFollower(TERMINAL_3);
 		TERMINAL_32.addFollower(TERMINAL_4);
@@ -1146,153 +1164,153 @@ options {
 		TERMINAL_32.addFollower(TERMINAL_40);
 		TERMINAL_32.addFollower(TERMINAL_41);
 		TERMINAL_32.addFollower(TERMINAL_42);
-		TERMINAL_32.addFollower(TERMINAL_120);
-		TERMINAL_44.addFollower(TERMINAL_125);
-		TERMINAL_125.addFollower(TERMINAL_43);
-		TERMINAL_125.addFollower(TERMINAL_44);
-		TERMINAL_125.addFollower(TERMINAL_45);
-		TERMINAL_125.addFollower(TERMINAL_46);
-		TERMINAL_116.addFollower(TERMINAL_116);
-		TERMINAL_116.addFollower(TERMINAL_117);
-		TERMINAL_116.addFollower(TERMINAL_118);
-		TERMINAL_116.addFollower(TERMINAL_48);
-		TERMINAL_116.addFollower(TERMINAL_49);
-		TERMINAL_116.addFollower(TERMINAL_50);
-		TERMINAL_116.addFollower(TERMINAL_119);
-		TERMINAL_45.addFollower(TERMINAL_126);
-		TERMINAL_126.addFollower(TERMINAL_47);
-		TERMINAL_110.addFollower(TERMINAL_116);
-		TERMINAL_110.addFollower(TERMINAL_117);
-		TERMINAL_110.addFollower(TERMINAL_118);
-		TERMINAL_110.addFollower(TERMINAL_48);
-		TERMINAL_110.addFollower(TERMINAL_49);
-		TERMINAL_110.addFollower(TERMINAL_50);
-		TERMINAL_110.addFollower(TERMINAL_119);
-		TERMINAL_46.addFollower(TERMINAL_127);
-		TERMINAL_127.addFollower(TERMINAL_43);
-		TERMINAL_112.addFollower(TERMINAL_116);
-		TERMINAL_112.addFollower(TERMINAL_117);
-		TERMINAL_112.addFollower(TERMINAL_118);
-		TERMINAL_112.addFollower(TERMINAL_48);
-		TERMINAL_112.addFollower(TERMINAL_49);
-		TERMINAL_112.addFollower(TERMINAL_50);
-		TERMINAL_112.addFollower(TERMINAL_119);
-		TERMINAL_111.addFollower(TERMINAL_47);
-		TERMINAL_3.addFollower(TERMINAL_128);
-		TERMINAL_128.addFollower(TERMINAL_1);
-		TERMINAL_128.addFollower(TERMINAL_3);
-		TERMINAL_128.addFollower(TERMINAL_4);
-		TERMINAL_128.addFollower(TERMINAL_5);
-		TERMINAL_128.addFollower(TERMINAL_6);
-		TERMINAL_128.addFollower(TERMINAL_7);
-		TERMINAL_128.addFollower(TERMINAL_8);
-		TERMINAL_128.addFollower(TERMINAL_9);
-		TERMINAL_128.addFollower(TERMINAL_10);
-		TERMINAL_128.addFollower(TERMINAL_11);
-		TERMINAL_128.addFollower(TERMINAL_12);
-		TERMINAL_128.addFollower(TERMINAL_13);
-		TERMINAL_128.addFollower(TERMINAL_14);
-		TERMINAL_128.addFollower(TERMINAL_15);
-		TERMINAL_128.addFollower(TERMINAL_16);
-		TERMINAL_128.addFollower(TERMINAL_17);
-		TERMINAL_128.addFollower(TERMINAL_18);
-		TERMINAL_128.addFollower(TERMINAL_19);
-		TERMINAL_129.addFollower(TERMINAL_1);
-		TERMINAL_129.addFollower(TERMINAL_3);
-		TERMINAL_129.addFollower(TERMINAL_4);
-		TERMINAL_129.addFollower(TERMINAL_5);
-		TERMINAL_129.addFollower(TERMINAL_6);
-		TERMINAL_129.addFollower(TERMINAL_7);
-		TERMINAL_129.addFollower(TERMINAL_8);
-		TERMINAL_129.addFollower(TERMINAL_9);
-		TERMINAL_129.addFollower(TERMINAL_10);
-		TERMINAL_129.addFollower(TERMINAL_11);
-		TERMINAL_129.addFollower(TERMINAL_12);
-		TERMINAL_129.addFollower(TERMINAL_13);
-		TERMINAL_129.addFollower(TERMINAL_14);
-		TERMINAL_129.addFollower(TERMINAL_15);
-		TERMINAL_129.addFollower(TERMINAL_16);
-		TERMINAL_129.addFollower(TERMINAL_17);
-		TERMINAL_129.addFollower(TERMINAL_18);
-		TERMINAL_129.addFollower(TERMINAL_19);
-		TERMINAL_129.addFollower(TERMINAL_20);
-		TERMINAL_129.addFollower(TERMINAL_21);
-		TERMINAL_129.addFollower(TERMINAL_22);
-		TERMINAL_129.addFollower(TERMINAL_23);
-		TERMINAL_129.addFollower(TERMINAL_24);
-		TERMINAL_129.addFollower(TERMINAL_25);
-		TERMINAL_129.addFollower(TERMINAL_26);
-		TERMINAL_129.addFollower(TERMINAL_27);
-		TERMINAL_129.addFollower(TERMINAL_28);
-		TERMINAL_129.addFollower(TERMINAL_29);
-		TERMINAL_129.addFollower(TERMINAL_30);
-		TERMINAL_4.addFollower(TERMINAL_130);
-		TERMINAL_130.addFollower(TERMINAL_1);
-		TERMINAL_130.addFollower(TERMINAL_3);
-		TERMINAL_130.addFollower(TERMINAL_4);
-		TERMINAL_130.addFollower(TERMINAL_5);
-		TERMINAL_130.addFollower(TERMINAL_6);
-		TERMINAL_130.addFollower(TERMINAL_7);
-		TERMINAL_130.addFollower(TERMINAL_8);
-		TERMINAL_130.addFollower(TERMINAL_9);
-		TERMINAL_130.addFollower(TERMINAL_10);
-		TERMINAL_130.addFollower(TERMINAL_11);
-		TERMINAL_130.addFollower(TERMINAL_12);
-		TERMINAL_130.addFollower(TERMINAL_13);
-		TERMINAL_130.addFollower(TERMINAL_14);
-		TERMINAL_130.addFollower(TERMINAL_15);
-		TERMINAL_130.addFollower(TERMINAL_16);
-		TERMINAL_130.addFollower(TERMINAL_17);
-		TERMINAL_130.addFollower(TERMINAL_18);
-		TERMINAL_130.addFollower(TERMINAL_19);
-		TERMINAL_131.addFollower(TERMINAL_1);
-		TERMINAL_131.addFollower(TERMINAL_3);
-		TERMINAL_131.addFollower(TERMINAL_4);
-		TERMINAL_131.addFollower(TERMINAL_5);
-		TERMINAL_131.addFollower(TERMINAL_6);
-		TERMINAL_131.addFollower(TERMINAL_7);
-		TERMINAL_131.addFollower(TERMINAL_8);
-		TERMINAL_131.addFollower(TERMINAL_9);
-		TERMINAL_131.addFollower(TERMINAL_10);
-		TERMINAL_131.addFollower(TERMINAL_11);
-		TERMINAL_131.addFollower(TERMINAL_12);
-		TERMINAL_131.addFollower(TERMINAL_13);
-		TERMINAL_131.addFollower(TERMINAL_14);
-		TERMINAL_131.addFollower(TERMINAL_15);
-		TERMINAL_131.addFollower(TERMINAL_16);
-		TERMINAL_131.addFollower(TERMINAL_17);
-		TERMINAL_131.addFollower(TERMINAL_18);
-		TERMINAL_131.addFollower(TERMINAL_19);
-		TERMINAL_131.addFollower(TERMINAL_20);
-		TERMINAL_131.addFollower(TERMINAL_21);
-		TERMINAL_131.addFollower(TERMINAL_22);
-		TERMINAL_131.addFollower(TERMINAL_23);
-		TERMINAL_131.addFollower(TERMINAL_24);
-		TERMINAL_131.addFollower(TERMINAL_25);
-		TERMINAL_131.addFollower(TERMINAL_26);
-		TERMINAL_131.addFollower(TERMINAL_27);
-		TERMINAL_131.addFollower(TERMINAL_28);
-		TERMINAL_131.addFollower(TERMINAL_29);
-		TERMINAL_131.addFollower(TERMINAL_30);
-		TERMINAL_5.addFollower(TERMINAL_132);
-		TERMINAL_132.addFollower(TERMINAL_1);
-		TERMINAL_132.addFollower(TERMINAL_3);
-		TERMINAL_132.addFollower(TERMINAL_4);
-		TERMINAL_132.addFollower(TERMINAL_5);
-		TERMINAL_132.addFollower(TERMINAL_6);
-		TERMINAL_132.addFollower(TERMINAL_7);
-		TERMINAL_132.addFollower(TERMINAL_8);
-		TERMINAL_132.addFollower(TERMINAL_9);
-		TERMINAL_132.addFollower(TERMINAL_10);
-		TERMINAL_132.addFollower(TERMINAL_11);
-		TERMINAL_132.addFollower(TERMINAL_12);
-		TERMINAL_132.addFollower(TERMINAL_13);
-		TERMINAL_132.addFollower(TERMINAL_14);
-		TERMINAL_132.addFollower(TERMINAL_15);
-		TERMINAL_132.addFollower(TERMINAL_16);
-		TERMINAL_132.addFollower(TERMINAL_17);
-		TERMINAL_132.addFollower(TERMINAL_18);
-		TERMINAL_132.addFollower(TERMINAL_19);
+		TERMINAL_32.addFollower(TERMINAL_127);
+		TERMINAL_44.addFollower(TERMINAL_132);
+		TERMINAL_132.addFollower(TERMINAL_43);
+		TERMINAL_132.addFollower(TERMINAL_44);
+		TERMINAL_132.addFollower(TERMINAL_45);
+		TERMINAL_132.addFollower(TERMINAL_46);
+		TERMINAL_123.addFollower(TERMINAL_123);
+		TERMINAL_123.addFollower(TERMINAL_124);
+		TERMINAL_123.addFollower(TERMINAL_125);
+		TERMINAL_123.addFollower(TERMINAL_48);
+		TERMINAL_123.addFollower(TERMINAL_49);
+		TERMINAL_123.addFollower(TERMINAL_50);
+		TERMINAL_123.addFollower(TERMINAL_126);
+		TERMINAL_45.addFollower(TERMINAL_133);
+		TERMINAL_133.addFollower(TERMINAL_47);
+		TERMINAL_117.addFollower(TERMINAL_123);
+		TERMINAL_117.addFollower(TERMINAL_124);
+		TERMINAL_117.addFollower(TERMINAL_125);
+		TERMINAL_117.addFollower(TERMINAL_48);
+		TERMINAL_117.addFollower(TERMINAL_49);
+		TERMINAL_117.addFollower(TERMINAL_50);
+		TERMINAL_117.addFollower(TERMINAL_126);
+		TERMINAL_46.addFollower(TERMINAL_134);
+		TERMINAL_134.addFollower(TERMINAL_43);
+		TERMINAL_119.addFollower(TERMINAL_123);
+		TERMINAL_119.addFollower(TERMINAL_124);
+		TERMINAL_119.addFollower(TERMINAL_125);
+		TERMINAL_119.addFollower(TERMINAL_48);
+		TERMINAL_119.addFollower(TERMINAL_49);
+		TERMINAL_119.addFollower(TERMINAL_50);
+		TERMINAL_119.addFollower(TERMINAL_126);
+		TERMINAL_118.addFollower(TERMINAL_47);
+		TERMINAL_3.addFollower(TERMINAL_135);
+		TERMINAL_135.addFollower(TERMINAL_1);
+		TERMINAL_135.addFollower(TERMINAL_3);
+		TERMINAL_135.addFollower(TERMINAL_4);
+		TERMINAL_135.addFollower(TERMINAL_5);
+		TERMINAL_135.addFollower(TERMINAL_6);
+		TERMINAL_135.addFollower(TERMINAL_7);
+		TERMINAL_135.addFollower(TERMINAL_8);
+		TERMINAL_135.addFollower(TERMINAL_9);
+		TERMINAL_135.addFollower(TERMINAL_10);
+		TERMINAL_135.addFollower(TERMINAL_11);
+		TERMINAL_135.addFollower(TERMINAL_12);
+		TERMINAL_135.addFollower(TERMINAL_13);
+		TERMINAL_135.addFollower(TERMINAL_14);
+		TERMINAL_135.addFollower(TERMINAL_15);
+		TERMINAL_135.addFollower(TERMINAL_16);
+		TERMINAL_135.addFollower(TERMINAL_17);
+		TERMINAL_135.addFollower(TERMINAL_18);
+		TERMINAL_135.addFollower(TERMINAL_19);
+		TERMINAL_136.addFollower(TERMINAL_1);
+		TERMINAL_136.addFollower(TERMINAL_3);
+		TERMINAL_136.addFollower(TERMINAL_4);
+		TERMINAL_136.addFollower(TERMINAL_5);
+		TERMINAL_136.addFollower(TERMINAL_6);
+		TERMINAL_136.addFollower(TERMINAL_7);
+		TERMINAL_136.addFollower(TERMINAL_8);
+		TERMINAL_136.addFollower(TERMINAL_9);
+		TERMINAL_136.addFollower(TERMINAL_10);
+		TERMINAL_136.addFollower(TERMINAL_11);
+		TERMINAL_136.addFollower(TERMINAL_12);
+		TERMINAL_136.addFollower(TERMINAL_13);
+		TERMINAL_136.addFollower(TERMINAL_14);
+		TERMINAL_136.addFollower(TERMINAL_15);
+		TERMINAL_136.addFollower(TERMINAL_16);
+		TERMINAL_136.addFollower(TERMINAL_17);
+		TERMINAL_136.addFollower(TERMINAL_18);
+		TERMINAL_136.addFollower(TERMINAL_19);
+		TERMINAL_136.addFollower(TERMINAL_20);
+		TERMINAL_136.addFollower(TERMINAL_21);
+		TERMINAL_136.addFollower(TERMINAL_22);
+		TERMINAL_136.addFollower(TERMINAL_23);
+		TERMINAL_136.addFollower(TERMINAL_24);
+		TERMINAL_136.addFollower(TERMINAL_25);
+		TERMINAL_136.addFollower(TERMINAL_26);
+		TERMINAL_136.addFollower(TERMINAL_27);
+		TERMINAL_136.addFollower(TERMINAL_28);
+		TERMINAL_136.addFollower(TERMINAL_29);
+		TERMINAL_136.addFollower(TERMINAL_30);
+		TERMINAL_4.addFollower(TERMINAL_137);
+		TERMINAL_137.addFollower(TERMINAL_1);
+		TERMINAL_137.addFollower(TERMINAL_3);
+		TERMINAL_137.addFollower(TERMINAL_4);
+		TERMINAL_137.addFollower(TERMINAL_5);
+		TERMINAL_137.addFollower(TERMINAL_6);
+		TERMINAL_137.addFollower(TERMINAL_7);
+		TERMINAL_137.addFollower(TERMINAL_8);
+		TERMINAL_137.addFollower(TERMINAL_9);
+		TERMINAL_137.addFollower(TERMINAL_10);
+		TERMINAL_137.addFollower(TERMINAL_11);
+		TERMINAL_137.addFollower(TERMINAL_12);
+		TERMINAL_137.addFollower(TERMINAL_13);
+		TERMINAL_137.addFollower(TERMINAL_14);
+		TERMINAL_137.addFollower(TERMINAL_15);
+		TERMINAL_137.addFollower(TERMINAL_16);
+		TERMINAL_137.addFollower(TERMINAL_17);
+		TERMINAL_137.addFollower(TERMINAL_18);
+		TERMINAL_137.addFollower(TERMINAL_19);
+		TERMINAL_138.addFollower(TERMINAL_1);
+		TERMINAL_138.addFollower(TERMINAL_3);
+		TERMINAL_138.addFollower(TERMINAL_4);
+		TERMINAL_138.addFollower(TERMINAL_5);
+		TERMINAL_138.addFollower(TERMINAL_6);
+		TERMINAL_138.addFollower(TERMINAL_7);
+		TERMINAL_138.addFollower(TERMINAL_8);
+		TERMINAL_138.addFollower(TERMINAL_9);
+		TERMINAL_138.addFollower(TERMINAL_10);
+		TERMINAL_138.addFollower(TERMINAL_11);
+		TERMINAL_138.addFollower(TERMINAL_12);
+		TERMINAL_138.addFollower(TERMINAL_13);
+		TERMINAL_138.addFollower(TERMINAL_14);
+		TERMINAL_138.addFollower(TERMINAL_15);
+		TERMINAL_138.addFollower(TERMINAL_16);
+		TERMINAL_138.addFollower(TERMINAL_17);
+		TERMINAL_138.addFollower(TERMINAL_18);
+		TERMINAL_138.addFollower(TERMINAL_19);
+		TERMINAL_138.addFollower(TERMINAL_20);
+		TERMINAL_138.addFollower(TERMINAL_21);
+		TERMINAL_138.addFollower(TERMINAL_22);
+		TERMINAL_138.addFollower(TERMINAL_23);
+		TERMINAL_138.addFollower(TERMINAL_24);
+		TERMINAL_138.addFollower(TERMINAL_25);
+		TERMINAL_138.addFollower(TERMINAL_26);
+		TERMINAL_138.addFollower(TERMINAL_27);
+		TERMINAL_138.addFollower(TERMINAL_28);
+		TERMINAL_138.addFollower(TERMINAL_29);
+		TERMINAL_138.addFollower(TERMINAL_30);
+		TERMINAL_5.addFollower(TERMINAL_139);
+		TERMINAL_139.addFollower(TERMINAL_1);
+		TERMINAL_139.addFollower(TERMINAL_3);
+		TERMINAL_139.addFollower(TERMINAL_4);
+		TERMINAL_139.addFollower(TERMINAL_5);
+		TERMINAL_139.addFollower(TERMINAL_6);
+		TERMINAL_139.addFollower(TERMINAL_7);
+		TERMINAL_139.addFollower(TERMINAL_8);
+		TERMINAL_139.addFollower(TERMINAL_9);
+		TERMINAL_139.addFollower(TERMINAL_10);
+		TERMINAL_139.addFollower(TERMINAL_11);
+		TERMINAL_139.addFollower(TERMINAL_12);
+		TERMINAL_139.addFollower(TERMINAL_13);
+		TERMINAL_139.addFollower(TERMINAL_14);
+		TERMINAL_139.addFollower(TERMINAL_15);
+		TERMINAL_139.addFollower(TERMINAL_16);
+		TERMINAL_139.addFollower(TERMINAL_17);
+		TERMINAL_139.addFollower(TERMINAL_18);
+		TERMINAL_139.addFollower(TERMINAL_19);
 		TERMINAL_20.addFollower(TERMINAL_1);
 		TERMINAL_20.addFollower(TERMINAL_3);
 		TERMINAL_20.addFollower(TERMINAL_4);
@@ -1322,9 +1340,9 @@ options {
 		TERMINAL_20.addFollower(TERMINAL_28);
 		TERMINAL_20.addFollower(TERMINAL_29);
 		TERMINAL_20.addFollower(TERMINAL_30);
-		TERMINAL_6.addFollower(TERMINAL_133);
-		TERMINAL_133.addFollower(TERMINAL_1);
-		TERMINAL_133.addFollower(TERMINAL_33);
+		TERMINAL_6.addFollower(TERMINAL_140);
+		TERMINAL_140.addFollower(TERMINAL_1);
+		TERMINAL_140.addFollower(TERMINAL_33);
 		TERMINAL_52.addFollower(TERMINAL_1);
 		TERMINAL_52.addFollower(TERMINAL_3);
 		TERMINAL_52.addFollower(TERMINAL_4);
@@ -1354,9 +1372,9 @@ options {
 		TERMINAL_52.addFollower(TERMINAL_28);
 		TERMINAL_52.addFollower(TERMINAL_29);
 		TERMINAL_52.addFollower(TERMINAL_30);
-		TERMINAL_7.addFollower(TERMINAL_134);
-		TERMINAL_134.addFollower(TERMINAL_1);
-		TERMINAL_134.addFollower(TERMINAL_35);
+		TERMINAL_7.addFollower(TERMINAL_141);
+		TERMINAL_141.addFollower(TERMINAL_1);
+		TERMINAL_141.addFollower(TERMINAL_35);
 		TERMINAL_21.addFollower(TERMINAL_1);
 		TERMINAL_21.addFollower(TERMINAL_3);
 		TERMINAL_21.addFollower(TERMINAL_4);
@@ -1386,9 +1404,9 @@ options {
 		TERMINAL_21.addFollower(TERMINAL_28);
 		TERMINAL_21.addFollower(TERMINAL_29);
 		TERMINAL_21.addFollower(TERMINAL_30);
-		TERMINAL_8.addFollower(TERMINAL_135);
-		TERMINAL_135.addFollower(TERMINAL_1);
-		TERMINAL_135.addFollower(TERMINAL_35);
+		TERMINAL_8.addFollower(TERMINAL_142);
+		TERMINAL_142.addFollower(TERMINAL_1);
+		TERMINAL_142.addFollower(TERMINAL_35);
 		TERMINAL_22.addFollower(TERMINAL_1);
 		TERMINAL_22.addFollower(TERMINAL_3);
 		TERMINAL_22.addFollower(TERMINAL_4);
@@ -1418,41 +1436,41 @@ options {
 		TERMINAL_22.addFollower(TERMINAL_28);
 		TERMINAL_22.addFollower(TERMINAL_29);
 		TERMINAL_22.addFollower(TERMINAL_30);
-		TERMINAL_9.addFollower(TERMINAL_136);
-		TERMINAL_136.addFollower(TERMINAL_1);
-		TERMINAL_136.addFollower(TERMINAL_35);
-		TERMINAL_122.addFollower(TERMINAL_1);
-		TERMINAL_122.addFollower(TERMINAL_3);
-		TERMINAL_122.addFollower(TERMINAL_4);
-		TERMINAL_122.addFollower(TERMINAL_5);
-		TERMINAL_122.addFollower(TERMINAL_6);
-		TERMINAL_122.addFollower(TERMINAL_7);
-		TERMINAL_122.addFollower(TERMINAL_8);
-		TERMINAL_122.addFollower(TERMINAL_9);
-		TERMINAL_122.addFollower(TERMINAL_10);
-		TERMINAL_122.addFollower(TERMINAL_11);
-		TERMINAL_122.addFollower(TERMINAL_12);
-		TERMINAL_122.addFollower(TERMINAL_13);
-		TERMINAL_122.addFollower(TERMINAL_14);
-		TERMINAL_122.addFollower(TERMINAL_15);
-		TERMINAL_122.addFollower(TERMINAL_16);
-		TERMINAL_122.addFollower(TERMINAL_17);
-		TERMINAL_122.addFollower(TERMINAL_18);
-		TERMINAL_122.addFollower(TERMINAL_19);
-		TERMINAL_122.addFollower(TERMINAL_20);
-		TERMINAL_122.addFollower(TERMINAL_21);
-		TERMINAL_122.addFollower(TERMINAL_22);
-		TERMINAL_122.addFollower(TERMINAL_23);
-		TERMINAL_122.addFollower(TERMINAL_24);
-		TERMINAL_122.addFollower(TERMINAL_25);
-		TERMINAL_122.addFollower(TERMINAL_26);
-		TERMINAL_122.addFollower(TERMINAL_27);
-		TERMINAL_122.addFollower(TERMINAL_28);
-		TERMINAL_122.addFollower(TERMINAL_29);
-		TERMINAL_122.addFollower(TERMINAL_30);
-		TERMINAL_10.addFollower(TERMINAL_137);
-		TERMINAL_137.addFollower(TERMINAL_1);
-		TERMINAL_137.addFollower(TERMINAL_35);
+		TERMINAL_9.addFollower(TERMINAL_143);
+		TERMINAL_143.addFollower(TERMINAL_1);
+		TERMINAL_143.addFollower(TERMINAL_35);
+		TERMINAL_129.addFollower(TERMINAL_1);
+		TERMINAL_129.addFollower(TERMINAL_3);
+		TERMINAL_129.addFollower(TERMINAL_4);
+		TERMINAL_129.addFollower(TERMINAL_5);
+		TERMINAL_129.addFollower(TERMINAL_6);
+		TERMINAL_129.addFollower(TERMINAL_7);
+		TERMINAL_129.addFollower(TERMINAL_8);
+		TERMINAL_129.addFollower(TERMINAL_9);
+		TERMINAL_129.addFollower(TERMINAL_10);
+		TERMINAL_129.addFollower(TERMINAL_11);
+		TERMINAL_129.addFollower(TERMINAL_12);
+		TERMINAL_129.addFollower(TERMINAL_13);
+		TERMINAL_129.addFollower(TERMINAL_14);
+		TERMINAL_129.addFollower(TERMINAL_15);
+		TERMINAL_129.addFollower(TERMINAL_16);
+		TERMINAL_129.addFollower(TERMINAL_17);
+		TERMINAL_129.addFollower(TERMINAL_18);
+		TERMINAL_129.addFollower(TERMINAL_19);
+		TERMINAL_129.addFollower(TERMINAL_20);
+		TERMINAL_129.addFollower(TERMINAL_21);
+		TERMINAL_129.addFollower(TERMINAL_22);
+		TERMINAL_129.addFollower(TERMINAL_23);
+		TERMINAL_129.addFollower(TERMINAL_24);
+		TERMINAL_129.addFollower(TERMINAL_25);
+		TERMINAL_129.addFollower(TERMINAL_26);
+		TERMINAL_129.addFollower(TERMINAL_27);
+		TERMINAL_129.addFollower(TERMINAL_28);
+		TERMINAL_129.addFollower(TERMINAL_29);
+		TERMINAL_129.addFollower(TERMINAL_30);
+		TERMINAL_10.addFollower(TERMINAL_144);
+		TERMINAL_144.addFollower(TERMINAL_1);
+		TERMINAL_144.addFollower(TERMINAL_35);
 		TERMINAL_34.addFollower(TERMINAL_1);
 		TERMINAL_34.addFollower(TERMINAL_3);
 		TERMINAL_34.addFollower(TERMINAL_4);
@@ -1482,10 +1500,10 @@ options {
 		TERMINAL_34.addFollower(TERMINAL_28);
 		TERMINAL_34.addFollower(TERMINAL_29);
 		TERMINAL_34.addFollower(TERMINAL_30);
-		TERMINAL_11.addFollower(TERMINAL_138);
-		TERMINAL_138.addFollower(TERMINAL_139);
-		TERMINAL_139.addFollower(TERMINAL_1);
-		TERMINAL_139.addFollower(TERMINAL_35);
+		TERMINAL_11.addFollower(TERMINAL_145);
+		TERMINAL_145.addFollower(TERMINAL_146);
+		TERMINAL_146.addFollower(TERMINAL_1);
+		TERMINAL_146.addFollower(TERMINAL_35);
 		TERMINAL_23.addFollower(TERMINAL_1);
 		TERMINAL_23.addFollower(TERMINAL_3);
 		TERMINAL_23.addFollower(TERMINAL_4);
@@ -1515,10 +1533,10 @@ options {
 		TERMINAL_23.addFollower(TERMINAL_28);
 		TERMINAL_23.addFollower(TERMINAL_29);
 		TERMINAL_23.addFollower(TERMINAL_30);
-		TERMINAL_12.addFollower(TERMINAL_140);
-		TERMINAL_140.addFollower(TERMINAL_141);
-		TERMINAL_141.addFollower(TERMINAL_1);
-		TERMINAL_141.addFollower(TERMINAL_35);
+		TERMINAL_12.addFollower(TERMINAL_147);
+		TERMINAL_147.addFollower(TERMINAL_148);
+		TERMINAL_148.addFollower(TERMINAL_1);
+		TERMINAL_148.addFollower(TERMINAL_35);
 		TERMINAL_24.addFollower(TERMINAL_1);
 		TERMINAL_24.addFollower(TERMINAL_3);
 		TERMINAL_24.addFollower(TERMINAL_4);
@@ -1548,10 +1566,10 @@ options {
 		TERMINAL_24.addFollower(TERMINAL_28);
 		TERMINAL_24.addFollower(TERMINAL_29);
 		TERMINAL_24.addFollower(TERMINAL_30);
-		TERMINAL_13.addFollower(TERMINAL_142);
-		TERMINAL_142.addFollower(TERMINAL_143);
-		TERMINAL_143.addFollower(TERMINAL_1);
-		TERMINAL_143.addFollower(TERMINAL_35);
+		TERMINAL_13.addFollower(TERMINAL_149);
+		TERMINAL_149.addFollower(TERMINAL_150);
+		TERMINAL_150.addFollower(TERMINAL_1);
+		TERMINAL_150.addFollower(TERMINAL_35);
 		TERMINAL_25.addFollower(TERMINAL_1);
 		TERMINAL_25.addFollower(TERMINAL_3);
 		TERMINAL_25.addFollower(TERMINAL_4);
@@ -1581,102 +1599,102 @@ options {
 		TERMINAL_25.addFollower(TERMINAL_28);
 		TERMINAL_25.addFollower(TERMINAL_29);
 		TERMINAL_25.addFollower(TERMINAL_30);
-		TERMINAL_14.addFollower(TERMINAL_144);
-		TERMINAL_144.addFollower(TERMINAL_1);
-		TERMINAL_117.addFollower(TERMINAL_1);
-		TERMINAL_117.addFollower(TERMINAL_3);
-		TERMINAL_117.addFollower(TERMINAL_4);
-		TERMINAL_117.addFollower(TERMINAL_5);
-		TERMINAL_117.addFollower(TERMINAL_6);
-		TERMINAL_117.addFollower(TERMINAL_7);
-		TERMINAL_117.addFollower(TERMINAL_8);
-		TERMINAL_117.addFollower(TERMINAL_9);
-		TERMINAL_117.addFollower(TERMINAL_10);
-		TERMINAL_117.addFollower(TERMINAL_11);
-		TERMINAL_117.addFollower(TERMINAL_12);
-		TERMINAL_117.addFollower(TERMINAL_13);
-		TERMINAL_117.addFollower(TERMINAL_14);
-		TERMINAL_117.addFollower(TERMINAL_15);
-		TERMINAL_117.addFollower(TERMINAL_16);
-		TERMINAL_117.addFollower(TERMINAL_17);
-		TERMINAL_117.addFollower(TERMINAL_18);
-		TERMINAL_117.addFollower(TERMINAL_19);
-		TERMINAL_117.addFollower(TERMINAL_20);
-		TERMINAL_117.addFollower(TERMINAL_21);
-		TERMINAL_117.addFollower(TERMINAL_22);
-		TERMINAL_117.addFollower(TERMINAL_23);
-		TERMINAL_117.addFollower(TERMINAL_24);
-		TERMINAL_117.addFollower(TERMINAL_25);
-		TERMINAL_117.addFollower(TERMINAL_26);
-		TERMINAL_117.addFollower(TERMINAL_27);
-		TERMINAL_117.addFollower(TERMINAL_28);
-		TERMINAL_117.addFollower(TERMINAL_29);
-		TERMINAL_117.addFollower(TERMINAL_30);
-		TERMINAL_15.addFollower(TERMINAL_145);
-		TERMINAL_145.addFollower(TERMINAL_1);
-		TERMINAL_118.addFollower(TERMINAL_1);
-		TERMINAL_118.addFollower(TERMINAL_3);
-		TERMINAL_118.addFollower(TERMINAL_4);
-		TERMINAL_118.addFollower(TERMINAL_5);
-		TERMINAL_118.addFollower(TERMINAL_6);
-		TERMINAL_118.addFollower(TERMINAL_7);
-		TERMINAL_118.addFollower(TERMINAL_8);
-		TERMINAL_118.addFollower(TERMINAL_9);
-		TERMINAL_118.addFollower(TERMINAL_10);
-		TERMINAL_118.addFollower(TERMINAL_11);
-		TERMINAL_118.addFollower(TERMINAL_12);
-		TERMINAL_118.addFollower(TERMINAL_13);
-		TERMINAL_118.addFollower(TERMINAL_14);
-		TERMINAL_118.addFollower(TERMINAL_15);
-		TERMINAL_118.addFollower(TERMINAL_16);
-		TERMINAL_118.addFollower(TERMINAL_17);
-		TERMINAL_118.addFollower(TERMINAL_18);
-		TERMINAL_118.addFollower(TERMINAL_19);
-		TERMINAL_118.addFollower(TERMINAL_20);
-		TERMINAL_118.addFollower(TERMINAL_21);
-		TERMINAL_118.addFollower(TERMINAL_22);
-		TERMINAL_118.addFollower(TERMINAL_23);
-		TERMINAL_118.addFollower(TERMINAL_24);
-		TERMINAL_118.addFollower(TERMINAL_25);
-		TERMINAL_118.addFollower(TERMINAL_26);
-		TERMINAL_118.addFollower(TERMINAL_27);
-		TERMINAL_118.addFollower(TERMINAL_28);
-		TERMINAL_118.addFollower(TERMINAL_29);
-		TERMINAL_118.addFollower(TERMINAL_30);
-		TERMINAL_16.addFollower(TERMINAL_146);
-		TERMINAL_146.addFollower(TERMINAL_1);
-		TERMINAL_113.addFollower(TERMINAL_1);
-		TERMINAL_113.addFollower(TERMINAL_3);
-		TERMINAL_113.addFollower(TERMINAL_4);
-		TERMINAL_113.addFollower(TERMINAL_5);
-		TERMINAL_113.addFollower(TERMINAL_6);
-		TERMINAL_113.addFollower(TERMINAL_7);
-		TERMINAL_113.addFollower(TERMINAL_8);
-		TERMINAL_113.addFollower(TERMINAL_9);
-		TERMINAL_113.addFollower(TERMINAL_10);
-		TERMINAL_113.addFollower(TERMINAL_11);
-		TERMINAL_113.addFollower(TERMINAL_12);
-		TERMINAL_113.addFollower(TERMINAL_13);
-		TERMINAL_113.addFollower(TERMINAL_14);
-		TERMINAL_113.addFollower(TERMINAL_15);
-		TERMINAL_113.addFollower(TERMINAL_16);
-		TERMINAL_113.addFollower(TERMINAL_17);
-		TERMINAL_113.addFollower(TERMINAL_18);
-		TERMINAL_113.addFollower(TERMINAL_19);
-		TERMINAL_113.addFollower(TERMINAL_20);
-		TERMINAL_113.addFollower(TERMINAL_21);
-		TERMINAL_113.addFollower(TERMINAL_22);
-		TERMINAL_113.addFollower(TERMINAL_23);
-		TERMINAL_113.addFollower(TERMINAL_24);
-		TERMINAL_113.addFollower(TERMINAL_25);
-		TERMINAL_113.addFollower(TERMINAL_26);
-		TERMINAL_113.addFollower(TERMINAL_27);
-		TERMINAL_113.addFollower(TERMINAL_28);
-		TERMINAL_113.addFollower(TERMINAL_29);
-		TERMINAL_113.addFollower(TERMINAL_30);
-		TERMINAL_17.addFollower(TERMINAL_147);
-		TERMINAL_147.addFollower(TERMINAL_148);
-		TERMINAL_148.addFollower(TERMINAL_1);
+		TERMINAL_14.addFollower(TERMINAL_151);
+		TERMINAL_151.addFollower(TERMINAL_1);
+		TERMINAL_124.addFollower(TERMINAL_1);
+		TERMINAL_124.addFollower(TERMINAL_3);
+		TERMINAL_124.addFollower(TERMINAL_4);
+		TERMINAL_124.addFollower(TERMINAL_5);
+		TERMINAL_124.addFollower(TERMINAL_6);
+		TERMINAL_124.addFollower(TERMINAL_7);
+		TERMINAL_124.addFollower(TERMINAL_8);
+		TERMINAL_124.addFollower(TERMINAL_9);
+		TERMINAL_124.addFollower(TERMINAL_10);
+		TERMINAL_124.addFollower(TERMINAL_11);
+		TERMINAL_124.addFollower(TERMINAL_12);
+		TERMINAL_124.addFollower(TERMINAL_13);
+		TERMINAL_124.addFollower(TERMINAL_14);
+		TERMINAL_124.addFollower(TERMINAL_15);
+		TERMINAL_124.addFollower(TERMINAL_16);
+		TERMINAL_124.addFollower(TERMINAL_17);
+		TERMINAL_124.addFollower(TERMINAL_18);
+		TERMINAL_124.addFollower(TERMINAL_19);
+		TERMINAL_124.addFollower(TERMINAL_20);
+		TERMINAL_124.addFollower(TERMINAL_21);
+		TERMINAL_124.addFollower(TERMINAL_22);
+		TERMINAL_124.addFollower(TERMINAL_23);
+		TERMINAL_124.addFollower(TERMINAL_24);
+		TERMINAL_124.addFollower(TERMINAL_25);
+		TERMINAL_124.addFollower(TERMINAL_26);
+		TERMINAL_124.addFollower(TERMINAL_27);
+		TERMINAL_124.addFollower(TERMINAL_28);
+		TERMINAL_124.addFollower(TERMINAL_29);
+		TERMINAL_124.addFollower(TERMINAL_30);
+		TERMINAL_15.addFollower(TERMINAL_152);
+		TERMINAL_152.addFollower(TERMINAL_1);
+		TERMINAL_125.addFollower(TERMINAL_1);
+		TERMINAL_125.addFollower(TERMINAL_3);
+		TERMINAL_125.addFollower(TERMINAL_4);
+		TERMINAL_125.addFollower(TERMINAL_5);
+		TERMINAL_125.addFollower(TERMINAL_6);
+		TERMINAL_125.addFollower(TERMINAL_7);
+		TERMINAL_125.addFollower(TERMINAL_8);
+		TERMINAL_125.addFollower(TERMINAL_9);
+		TERMINAL_125.addFollower(TERMINAL_10);
+		TERMINAL_125.addFollower(TERMINAL_11);
+		TERMINAL_125.addFollower(TERMINAL_12);
+		TERMINAL_125.addFollower(TERMINAL_13);
+		TERMINAL_125.addFollower(TERMINAL_14);
+		TERMINAL_125.addFollower(TERMINAL_15);
+		TERMINAL_125.addFollower(TERMINAL_16);
+		TERMINAL_125.addFollower(TERMINAL_17);
+		TERMINAL_125.addFollower(TERMINAL_18);
+		TERMINAL_125.addFollower(TERMINAL_19);
+		TERMINAL_125.addFollower(TERMINAL_20);
+		TERMINAL_125.addFollower(TERMINAL_21);
+		TERMINAL_125.addFollower(TERMINAL_22);
+		TERMINAL_125.addFollower(TERMINAL_23);
+		TERMINAL_125.addFollower(TERMINAL_24);
+		TERMINAL_125.addFollower(TERMINAL_25);
+		TERMINAL_125.addFollower(TERMINAL_26);
+		TERMINAL_125.addFollower(TERMINAL_27);
+		TERMINAL_125.addFollower(TERMINAL_28);
+		TERMINAL_125.addFollower(TERMINAL_29);
+		TERMINAL_125.addFollower(TERMINAL_30);
+		TERMINAL_16.addFollower(TERMINAL_153);
+		TERMINAL_153.addFollower(TERMINAL_1);
+		TERMINAL_120.addFollower(TERMINAL_1);
+		TERMINAL_120.addFollower(TERMINAL_3);
+		TERMINAL_120.addFollower(TERMINAL_4);
+		TERMINAL_120.addFollower(TERMINAL_5);
+		TERMINAL_120.addFollower(TERMINAL_6);
+		TERMINAL_120.addFollower(TERMINAL_7);
+		TERMINAL_120.addFollower(TERMINAL_8);
+		TERMINAL_120.addFollower(TERMINAL_9);
+		TERMINAL_120.addFollower(TERMINAL_10);
+		TERMINAL_120.addFollower(TERMINAL_11);
+		TERMINAL_120.addFollower(TERMINAL_12);
+		TERMINAL_120.addFollower(TERMINAL_13);
+		TERMINAL_120.addFollower(TERMINAL_14);
+		TERMINAL_120.addFollower(TERMINAL_15);
+		TERMINAL_120.addFollower(TERMINAL_16);
+		TERMINAL_120.addFollower(TERMINAL_17);
+		TERMINAL_120.addFollower(TERMINAL_18);
+		TERMINAL_120.addFollower(TERMINAL_19);
+		TERMINAL_120.addFollower(TERMINAL_20);
+		TERMINAL_120.addFollower(TERMINAL_21);
+		TERMINAL_120.addFollower(TERMINAL_22);
+		TERMINAL_120.addFollower(TERMINAL_23);
+		TERMINAL_120.addFollower(TERMINAL_24);
+		TERMINAL_120.addFollower(TERMINAL_25);
+		TERMINAL_120.addFollower(TERMINAL_26);
+		TERMINAL_120.addFollower(TERMINAL_27);
+		TERMINAL_120.addFollower(TERMINAL_28);
+		TERMINAL_120.addFollower(TERMINAL_29);
+		TERMINAL_120.addFollower(TERMINAL_30);
+		TERMINAL_17.addFollower(TERMINAL_154);
+		TERMINAL_154.addFollower(TERMINAL_155);
+		TERMINAL_155.addFollower(TERMINAL_1);
 		TERMINAL_48.addFollower(TERMINAL_1);
 		TERMINAL_48.addFollower(TERMINAL_3);
 		TERMINAL_48.addFollower(TERMINAL_4);
@@ -1706,9 +1724,11 @@ options {
 		TERMINAL_48.addFollower(TERMINAL_28);
 		TERMINAL_48.addFollower(TERMINAL_29);
 		TERMINAL_48.addFollower(TERMINAL_30);
-		TERMINAL_18.addFollower(TERMINAL_149);
-		TERMINAL_149.addFollower(TERMINAL_150);
-		TERMINAL_150.addFollower(TERMINAL_1);
+		TERMINAL_18.addFollower(TERMINAL_156);
+		TERMINAL_156.addFollower(TERMINAL_157);
+		TERMINAL_157.addFollower(TERMINAL_1);
+	}
+	public static void wire1() {
 		TERMINAL_49.addFollower(TERMINAL_1);
 		TERMINAL_49.addFollower(TERMINAL_3);
 		TERMINAL_49.addFollower(TERMINAL_4);
@@ -1738,9 +1758,9 @@ options {
 		TERMINAL_49.addFollower(TERMINAL_28);
 		TERMINAL_49.addFollower(TERMINAL_29);
 		TERMINAL_49.addFollower(TERMINAL_30);
-		TERMINAL_19.addFollower(TERMINAL_151);
-		TERMINAL_151.addFollower(TERMINAL_152);
-		TERMINAL_152.addFollower(TERMINAL_1);
+		TERMINAL_19.addFollower(TERMINAL_158);
+		TERMINAL_158.addFollower(TERMINAL_159);
+		TERMINAL_159.addFollower(TERMINAL_1);
 		TERMINAL_50.addFollower(TERMINAL_1);
 		TERMINAL_50.addFollower(TERMINAL_3);
 		TERMINAL_50.addFollower(TERMINAL_4);
@@ -1770,341 +1790,339 @@ options {
 		TERMINAL_50.addFollower(TERMINAL_28);
 		TERMINAL_50.addFollower(TERMINAL_29);
 		TERMINAL_50.addFollower(TERMINAL_30);
-		TERMINAL_74.addFollower(TERMINAL_153);
-		TERMINAL_153.addFollower(TERMINAL_70);
-		TERMINAL_153.addFollower(TERMINAL_71);
-		TERMINAL_153.addFollower(TERMINAL_72);
-		TERMINAL_153.addFollower(TERMINAL_1);
-		TERMINAL_153.addFollower(TERMINAL_3);
-		TERMINAL_153.addFollower(TERMINAL_4);
-		TERMINAL_153.addFollower(TERMINAL_5);
-		TERMINAL_153.addFollower(TERMINAL_6);
-		TERMINAL_153.addFollower(TERMINAL_7);
-		TERMINAL_153.addFollower(TERMINAL_8);
-		TERMINAL_153.addFollower(TERMINAL_9);
-		TERMINAL_153.addFollower(TERMINAL_10);
-		TERMINAL_153.addFollower(TERMINAL_11);
-		TERMINAL_153.addFollower(TERMINAL_12);
-		TERMINAL_153.addFollower(TERMINAL_13);
-		TERMINAL_153.addFollower(TERMINAL_14);
-		TERMINAL_153.addFollower(TERMINAL_15);
-		TERMINAL_153.addFollower(TERMINAL_16);
-		TERMINAL_153.addFollower(TERMINAL_17);
-		TERMINAL_153.addFollower(TERMINAL_18);
-		TERMINAL_153.addFollower(TERMINAL_19);
-	}
-	public static void wire1() {
-		TERMINAL_154.addFollower(TERMINAL_73);
-		TERMINAL_154.addFollower(TERMINAL_74);
-		TERMINAL_154.addFollower(TERMINAL_75);
-		TERMINAL_154.addFollower(TERMINAL_76);
-		TERMINAL_154.addFollower(TERMINAL_77);
-		TERMINAL_154.addFollower(TERMINAL_78);
-		TERMINAL_154.addFollower(TERMINAL_79);
-		TERMINAL_154.addFollower(TERMINAL_80);
-		TERMINAL_154.addFollower(TERMINAL_81);
-		TERMINAL_154.addFollower(TERMINAL_82);
-		TERMINAL_154.addFollower(TERMINAL_83);
-		TERMINAL_154.addFollower(TERMINAL_84);
-		TERMINAL_154.addFollower(TERMINAL_85);
-		TERMINAL_154.addFollower(TERMINAL_86);
-		TERMINAL_154.addFollower(TERMINAL_87);
-		TERMINAL_154.addFollower(TERMINAL_88);
-		TERMINAL_154.addFollower(TERMINAL_89);
-		TERMINAL_154.addFollower(TERMINAL_90);
-		TERMINAL_154.addFollower(TERMINAL_91);
-		TERMINAL_154.addFollower(TERMINAL_92);
-		TERMINAL_154.addFollower(TERMINAL_93);
-		TERMINAL_154.addFollower(TERMINAL_94);
-		TERMINAL_154.addFollower(TERMINAL_95);
-		TERMINAL_154.addFollower(TERMINAL_96);
-		TERMINAL_154.addFollower(TERMINAL_97);
-		TERMINAL_154.addFollower(TERMINAL_98);
-		TERMINAL_154.addFollower(TERMINAL_99);
-		TERMINAL_154.addFollower(TERMINAL_100);
-		TERMINAL_154.addFollower(TERMINAL_101);
-		TERMINAL_154.addFollower(TERMINAL_102);
-		TERMINAL_154.addFollower(TERMINAL_103);
-		TERMINAL_154.addFollower(TERMINAL_104);
-		TERMINAL_154.addFollower(TERMINAL_105);
-		TERMINAL_154.addFollower(TERMINAL_106);
-		TERMINAL_75.addFollower(TERMINAL_155);
-		TERMINAL_155.addFollower(TERMINAL_70);
-		TERMINAL_155.addFollower(TERMINAL_71);
-		TERMINAL_155.addFollower(TERMINAL_72);
-		TERMINAL_155.addFollower(TERMINAL_1);
-		TERMINAL_155.addFollower(TERMINAL_3);
-		TERMINAL_155.addFollower(TERMINAL_4);
-		TERMINAL_155.addFollower(TERMINAL_5);
-		TERMINAL_155.addFollower(TERMINAL_6);
-		TERMINAL_155.addFollower(TERMINAL_7);
-		TERMINAL_155.addFollower(TERMINAL_8);
-		TERMINAL_155.addFollower(TERMINAL_9);
-		TERMINAL_155.addFollower(TERMINAL_10);
-		TERMINAL_155.addFollower(TERMINAL_11);
-		TERMINAL_155.addFollower(TERMINAL_12);
-		TERMINAL_155.addFollower(TERMINAL_13);
-		TERMINAL_155.addFollower(TERMINAL_14);
-		TERMINAL_155.addFollower(TERMINAL_15);
-		TERMINAL_155.addFollower(TERMINAL_16);
-		TERMINAL_155.addFollower(TERMINAL_17);
-		TERMINAL_155.addFollower(TERMINAL_18);
-		TERMINAL_155.addFollower(TERMINAL_19);
-		TERMINAL_156.addFollower(TERMINAL_73);
-		TERMINAL_156.addFollower(TERMINAL_74);
-		TERMINAL_156.addFollower(TERMINAL_75);
-		TERMINAL_156.addFollower(TERMINAL_76);
-		TERMINAL_156.addFollower(TERMINAL_77);
-		TERMINAL_156.addFollower(TERMINAL_78);
-		TERMINAL_156.addFollower(TERMINAL_79);
-		TERMINAL_156.addFollower(TERMINAL_80);
-		TERMINAL_156.addFollower(TERMINAL_81);
-		TERMINAL_156.addFollower(TERMINAL_82);
-		TERMINAL_156.addFollower(TERMINAL_83);
-		TERMINAL_156.addFollower(TERMINAL_84);
-		TERMINAL_156.addFollower(TERMINAL_85);
-		TERMINAL_156.addFollower(TERMINAL_86);
-		TERMINAL_156.addFollower(TERMINAL_87);
-		TERMINAL_156.addFollower(TERMINAL_88);
-		TERMINAL_156.addFollower(TERMINAL_89);
-		TERMINAL_156.addFollower(TERMINAL_90);
-		TERMINAL_156.addFollower(TERMINAL_91);
-		TERMINAL_156.addFollower(TERMINAL_92);
-		TERMINAL_156.addFollower(TERMINAL_93);
-		TERMINAL_156.addFollower(TERMINAL_94);
-		TERMINAL_156.addFollower(TERMINAL_95);
-		TERMINAL_156.addFollower(TERMINAL_96);
-		TERMINAL_156.addFollower(TERMINAL_97);
-		TERMINAL_156.addFollower(TERMINAL_98);
-		TERMINAL_156.addFollower(TERMINAL_99);
-		TERMINAL_156.addFollower(TERMINAL_100);
-		TERMINAL_156.addFollower(TERMINAL_101);
-		TERMINAL_156.addFollower(TERMINAL_102);
-		TERMINAL_156.addFollower(TERMINAL_103);
-		TERMINAL_156.addFollower(TERMINAL_104);
-		TERMINAL_156.addFollower(TERMINAL_105);
-		TERMINAL_156.addFollower(TERMINAL_106);
-		TERMINAL_76.addFollower(TERMINAL_157);
-		TERMINAL_157.addFollower(TERMINAL_70);
-		TERMINAL_157.addFollower(TERMINAL_71);
-		TERMINAL_157.addFollower(TERMINAL_72);
-		TERMINAL_157.addFollower(TERMINAL_1);
-		TERMINAL_157.addFollower(TERMINAL_3);
-		TERMINAL_157.addFollower(TERMINAL_4);
-		TERMINAL_157.addFollower(TERMINAL_5);
-		TERMINAL_157.addFollower(TERMINAL_6);
-		TERMINAL_157.addFollower(TERMINAL_7);
-		TERMINAL_157.addFollower(TERMINAL_8);
-		TERMINAL_157.addFollower(TERMINAL_9);
-		TERMINAL_157.addFollower(TERMINAL_10);
-		TERMINAL_157.addFollower(TERMINAL_11);
-		TERMINAL_157.addFollower(TERMINAL_12);
-		TERMINAL_157.addFollower(TERMINAL_13);
-		TERMINAL_157.addFollower(TERMINAL_14);
-		TERMINAL_157.addFollower(TERMINAL_15);
-		TERMINAL_157.addFollower(TERMINAL_16);
-		TERMINAL_157.addFollower(TERMINAL_17);
-		TERMINAL_157.addFollower(TERMINAL_18);
-		TERMINAL_157.addFollower(TERMINAL_19);
-		TERMINAL_158.addFollower(TERMINAL_73);
-		TERMINAL_158.addFollower(TERMINAL_74);
-		TERMINAL_158.addFollower(TERMINAL_75);
-		TERMINAL_158.addFollower(TERMINAL_76);
-		TERMINAL_158.addFollower(TERMINAL_77);
-		TERMINAL_158.addFollower(TERMINAL_78);
-		TERMINAL_158.addFollower(TERMINAL_79);
-		TERMINAL_158.addFollower(TERMINAL_80);
-		TERMINAL_158.addFollower(TERMINAL_81);
-		TERMINAL_158.addFollower(TERMINAL_82);
-		TERMINAL_158.addFollower(TERMINAL_83);
-		TERMINAL_158.addFollower(TERMINAL_84);
-		TERMINAL_158.addFollower(TERMINAL_85);
-		TERMINAL_158.addFollower(TERMINAL_86);
-		TERMINAL_158.addFollower(TERMINAL_87);
-		TERMINAL_158.addFollower(TERMINAL_88);
-		TERMINAL_158.addFollower(TERMINAL_89);
-		TERMINAL_158.addFollower(TERMINAL_90);
-		TERMINAL_158.addFollower(TERMINAL_91);
-		TERMINAL_158.addFollower(TERMINAL_92);
-		TERMINAL_158.addFollower(TERMINAL_93);
-		TERMINAL_158.addFollower(TERMINAL_94);
-		TERMINAL_158.addFollower(TERMINAL_95);
-		TERMINAL_158.addFollower(TERMINAL_96);
-		TERMINAL_158.addFollower(TERMINAL_97);
-		TERMINAL_158.addFollower(TERMINAL_98);
-		TERMINAL_158.addFollower(TERMINAL_99);
-		TERMINAL_158.addFollower(TERMINAL_100);
-		TERMINAL_158.addFollower(TERMINAL_101);
-		TERMINAL_158.addFollower(TERMINAL_102);
-		TERMINAL_158.addFollower(TERMINAL_103);
-		TERMINAL_158.addFollower(TERMINAL_104);
-		TERMINAL_158.addFollower(TERMINAL_105);
-		TERMINAL_158.addFollower(TERMINAL_106);
-		TERMINAL_77.addFollower(TERMINAL_159);
-		TERMINAL_159.addFollower(TERMINAL_70);
-		TERMINAL_159.addFollower(TERMINAL_71);
-		TERMINAL_159.addFollower(TERMINAL_72);
-		TERMINAL_159.addFollower(TERMINAL_1);
-		TERMINAL_160.addFollower(TERMINAL_73);
-		TERMINAL_160.addFollower(TERMINAL_74);
-		TERMINAL_160.addFollower(TERMINAL_75);
-		TERMINAL_160.addFollower(TERMINAL_76);
-		TERMINAL_160.addFollower(TERMINAL_77);
-		TERMINAL_160.addFollower(TERMINAL_78);
-		TERMINAL_160.addFollower(TERMINAL_79);
-		TERMINAL_160.addFollower(TERMINAL_80);
-		TERMINAL_160.addFollower(TERMINAL_81);
-		TERMINAL_160.addFollower(TERMINAL_82);
-		TERMINAL_160.addFollower(TERMINAL_83);
-		TERMINAL_160.addFollower(TERMINAL_84);
-		TERMINAL_160.addFollower(TERMINAL_85);
-		TERMINAL_160.addFollower(TERMINAL_86);
-		TERMINAL_160.addFollower(TERMINAL_87);
-		TERMINAL_160.addFollower(TERMINAL_88);
-		TERMINAL_160.addFollower(TERMINAL_89);
-		TERMINAL_160.addFollower(TERMINAL_90);
-		TERMINAL_160.addFollower(TERMINAL_91);
-		TERMINAL_160.addFollower(TERMINAL_92);
-		TERMINAL_160.addFollower(TERMINAL_93);
-		TERMINAL_160.addFollower(TERMINAL_94);
-		TERMINAL_160.addFollower(TERMINAL_95);
-		TERMINAL_160.addFollower(TERMINAL_96);
-		TERMINAL_160.addFollower(TERMINAL_97);
-		TERMINAL_160.addFollower(TERMINAL_98);
-		TERMINAL_160.addFollower(TERMINAL_99);
-		TERMINAL_160.addFollower(TERMINAL_100);
-		TERMINAL_160.addFollower(TERMINAL_101);
-		TERMINAL_160.addFollower(TERMINAL_102);
-		TERMINAL_160.addFollower(TERMINAL_103);
-		TERMINAL_160.addFollower(TERMINAL_104);
-		TERMINAL_160.addFollower(TERMINAL_105);
-		TERMINAL_160.addFollower(TERMINAL_106);
-		TERMINAL_78.addFollower(TERMINAL_161);
-		TERMINAL_161.addFollower(TERMINAL_70);
-		TERMINAL_161.addFollower(TERMINAL_71);
-		TERMINAL_161.addFollower(TERMINAL_72);
-		TERMINAL_161.addFollower(TERMINAL_1);
-		TERMINAL_161.addFollower(TERMINAL_35);
-		TERMINAL_162.addFollower(TERMINAL_73);
-		TERMINAL_162.addFollower(TERMINAL_74);
-		TERMINAL_162.addFollower(TERMINAL_75);
-		TERMINAL_162.addFollower(TERMINAL_76);
-		TERMINAL_162.addFollower(TERMINAL_77);
-		TERMINAL_162.addFollower(TERMINAL_78);
-		TERMINAL_162.addFollower(TERMINAL_79);
-		TERMINAL_162.addFollower(TERMINAL_80);
-		TERMINAL_162.addFollower(TERMINAL_81);
-		TERMINAL_162.addFollower(TERMINAL_82);
-		TERMINAL_162.addFollower(TERMINAL_83);
-		TERMINAL_162.addFollower(TERMINAL_84);
-		TERMINAL_162.addFollower(TERMINAL_85);
-		TERMINAL_162.addFollower(TERMINAL_86);
-		TERMINAL_162.addFollower(TERMINAL_87);
-		TERMINAL_162.addFollower(TERMINAL_88);
-		TERMINAL_162.addFollower(TERMINAL_89);
-		TERMINAL_162.addFollower(TERMINAL_90);
-		TERMINAL_162.addFollower(TERMINAL_91);
-		TERMINAL_162.addFollower(TERMINAL_92);
-		TERMINAL_162.addFollower(TERMINAL_93);
-		TERMINAL_162.addFollower(TERMINAL_94);
-		TERMINAL_162.addFollower(TERMINAL_95);
-		TERMINAL_162.addFollower(TERMINAL_96);
-		TERMINAL_162.addFollower(TERMINAL_97);
-		TERMINAL_162.addFollower(TERMINAL_98);
-		TERMINAL_162.addFollower(TERMINAL_99);
-		TERMINAL_162.addFollower(TERMINAL_100);
-		TERMINAL_162.addFollower(TERMINAL_101);
-		TERMINAL_162.addFollower(TERMINAL_102);
-		TERMINAL_162.addFollower(TERMINAL_103);
-		TERMINAL_162.addFollower(TERMINAL_104);
-		TERMINAL_162.addFollower(TERMINAL_105);
-		TERMINAL_162.addFollower(TERMINAL_106);
-		TERMINAL_79.addFollower(TERMINAL_163);
-		TERMINAL_163.addFollower(TERMINAL_70);
-		TERMINAL_163.addFollower(TERMINAL_71);
-		TERMINAL_163.addFollower(TERMINAL_72);
-		TERMINAL_163.addFollower(TERMINAL_1);
-		TERMINAL_163.addFollower(TERMINAL_35);
-		TERMINAL_164.addFollower(TERMINAL_73);
-		TERMINAL_164.addFollower(TERMINAL_74);
-		TERMINAL_164.addFollower(TERMINAL_75);
-		TERMINAL_164.addFollower(TERMINAL_76);
-		TERMINAL_164.addFollower(TERMINAL_77);
-		TERMINAL_164.addFollower(TERMINAL_78);
-		TERMINAL_164.addFollower(TERMINAL_79);
-		TERMINAL_164.addFollower(TERMINAL_80);
-		TERMINAL_164.addFollower(TERMINAL_81);
-		TERMINAL_164.addFollower(TERMINAL_82);
-		TERMINAL_164.addFollower(TERMINAL_83);
-		TERMINAL_164.addFollower(TERMINAL_84);
-		TERMINAL_164.addFollower(TERMINAL_85);
-		TERMINAL_164.addFollower(TERMINAL_86);
-		TERMINAL_164.addFollower(TERMINAL_87);
-		TERMINAL_164.addFollower(TERMINAL_88);
-		TERMINAL_164.addFollower(TERMINAL_89);
-		TERMINAL_164.addFollower(TERMINAL_90);
-		TERMINAL_164.addFollower(TERMINAL_91);
-		TERMINAL_164.addFollower(TERMINAL_92);
-		TERMINAL_164.addFollower(TERMINAL_93);
-		TERMINAL_164.addFollower(TERMINAL_94);
-		TERMINAL_164.addFollower(TERMINAL_95);
-		TERMINAL_164.addFollower(TERMINAL_96);
-		TERMINAL_164.addFollower(TERMINAL_97);
-		TERMINAL_164.addFollower(TERMINAL_98);
-		TERMINAL_164.addFollower(TERMINAL_99);
-		TERMINAL_164.addFollower(TERMINAL_100);
-		TERMINAL_164.addFollower(TERMINAL_101);
-		TERMINAL_164.addFollower(TERMINAL_102);
-		TERMINAL_164.addFollower(TERMINAL_103);
-		TERMINAL_164.addFollower(TERMINAL_104);
-		TERMINAL_164.addFollower(TERMINAL_105);
-		TERMINAL_164.addFollower(TERMINAL_106);
-		TERMINAL_80.addFollower(TERMINAL_165);
-		TERMINAL_165.addFollower(TERMINAL_70);
-		TERMINAL_165.addFollower(TERMINAL_71);
-		TERMINAL_165.addFollower(TERMINAL_72);
-		TERMINAL_165.addFollower(TERMINAL_1);
-		TERMINAL_165.addFollower(TERMINAL_35);
-		TERMINAL_166.addFollower(TERMINAL_73);
-		TERMINAL_166.addFollower(TERMINAL_74);
-		TERMINAL_166.addFollower(TERMINAL_75);
-		TERMINAL_166.addFollower(TERMINAL_76);
-		TERMINAL_166.addFollower(TERMINAL_77);
-		TERMINAL_166.addFollower(TERMINAL_78);
-		TERMINAL_166.addFollower(TERMINAL_79);
-		TERMINAL_166.addFollower(TERMINAL_80);
-		TERMINAL_166.addFollower(TERMINAL_81);
-		TERMINAL_166.addFollower(TERMINAL_82);
-		TERMINAL_166.addFollower(TERMINAL_83);
-		TERMINAL_166.addFollower(TERMINAL_84);
-		TERMINAL_166.addFollower(TERMINAL_85);
-		TERMINAL_166.addFollower(TERMINAL_86);
-		TERMINAL_166.addFollower(TERMINAL_87);
-		TERMINAL_166.addFollower(TERMINAL_88);
-		TERMINAL_166.addFollower(TERMINAL_89);
-		TERMINAL_166.addFollower(TERMINAL_90);
-		TERMINAL_166.addFollower(TERMINAL_91);
-		TERMINAL_166.addFollower(TERMINAL_92);
-		TERMINAL_166.addFollower(TERMINAL_93);
-		TERMINAL_166.addFollower(TERMINAL_94);
-		TERMINAL_166.addFollower(TERMINAL_95);
-		TERMINAL_166.addFollower(TERMINAL_96);
-		TERMINAL_166.addFollower(TERMINAL_97);
-		TERMINAL_166.addFollower(TERMINAL_98);
-		TERMINAL_166.addFollower(TERMINAL_99);
-		TERMINAL_166.addFollower(TERMINAL_100);
-		TERMINAL_166.addFollower(TERMINAL_101);
-		TERMINAL_166.addFollower(TERMINAL_102);
-		TERMINAL_166.addFollower(TERMINAL_103);
-		TERMINAL_166.addFollower(TERMINAL_104);
-		TERMINAL_166.addFollower(TERMINAL_105);
-		TERMINAL_166.addFollower(TERMINAL_106);
-		TERMINAL_81.addFollower(TERMINAL_167);
-		TERMINAL_167.addFollower(TERMINAL_70);
-		TERMINAL_167.addFollower(TERMINAL_71);
-		TERMINAL_167.addFollower(TERMINAL_72);
-		TERMINAL_167.addFollower(TERMINAL_1);
-		TERMINAL_167.addFollower(TERMINAL_35);
+		TERMINAL_74.addFollower(TERMINAL_160);
+		TERMINAL_160.addFollower(TERMINAL_70);
+		TERMINAL_160.addFollower(TERMINAL_71);
+		TERMINAL_160.addFollower(TERMINAL_72);
+		TERMINAL_160.addFollower(TERMINAL_1);
+		TERMINAL_160.addFollower(TERMINAL_3);
+		TERMINAL_160.addFollower(TERMINAL_4);
+		TERMINAL_160.addFollower(TERMINAL_5);
+		TERMINAL_160.addFollower(TERMINAL_6);
+		TERMINAL_160.addFollower(TERMINAL_7);
+		TERMINAL_160.addFollower(TERMINAL_8);
+		TERMINAL_160.addFollower(TERMINAL_9);
+		TERMINAL_160.addFollower(TERMINAL_10);
+		TERMINAL_160.addFollower(TERMINAL_11);
+		TERMINAL_160.addFollower(TERMINAL_12);
+		TERMINAL_160.addFollower(TERMINAL_13);
+		TERMINAL_160.addFollower(TERMINAL_14);
+		TERMINAL_160.addFollower(TERMINAL_15);
+		TERMINAL_160.addFollower(TERMINAL_16);
+		TERMINAL_160.addFollower(TERMINAL_17);
+		TERMINAL_160.addFollower(TERMINAL_18);
+		TERMINAL_160.addFollower(TERMINAL_19);
+		TERMINAL_161.addFollower(TERMINAL_73);
+		TERMINAL_161.addFollower(TERMINAL_74);
+		TERMINAL_161.addFollower(TERMINAL_75);
+		TERMINAL_161.addFollower(TERMINAL_76);
+		TERMINAL_161.addFollower(TERMINAL_77);
+		TERMINAL_161.addFollower(TERMINAL_78);
+		TERMINAL_161.addFollower(TERMINAL_79);
+		TERMINAL_161.addFollower(TERMINAL_80);
+		TERMINAL_161.addFollower(TERMINAL_81);
+		TERMINAL_161.addFollower(TERMINAL_82);
+		TERMINAL_161.addFollower(TERMINAL_83);
+		TERMINAL_161.addFollower(TERMINAL_84);
+		TERMINAL_161.addFollower(TERMINAL_85);
+		TERMINAL_161.addFollower(TERMINAL_86);
+		TERMINAL_161.addFollower(TERMINAL_87);
+		TERMINAL_161.addFollower(TERMINAL_88);
+		TERMINAL_161.addFollower(TERMINAL_89);
+		TERMINAL_161.addFollower(TERMINAL_90);
+		TERMINAL_161.addFollower(TERMINAL_91);
+		TERMINAL_161.addFollower(TERMINAL_92);
+		TERMINAL_161.addFollower(TERMINAL_93);
+		TERMINAL_161.addFollower(TERMINAL_94);
+		TERMINAL_161.addFollower(TERMINAL_95);
+		TERMINAL_161.addFollower(TERMINAL_96);
+		TERMINAL_161.addFollower(TERMINAL_97);
+		TERMINAL_161.addFollower(TERMINAL_98);
+		TERMINAL_161.addFollower(TERMINAL_99);
+		TERMINAL_161.addFollower(TERMINAL_100);
+		TERMINAL_161.addFollower(TERMINAL_101);
+		TERMINAL_161.addFollower(TERMINAL_102);
+		TERMINAL_161.addFollower(TERMINAL_103);
+		TERMINAL_161.addFollower(TERMINAL_104);
+		TERMINAL_161.addFollower(TERMINAL_105);
+		TERMINAL_161.addFollower(TERMINAL_106);
+		TERMINAL_75.addFollower(TERMINAL_162);
+		TERMINAL_162.addFollower(TERMINAL_70);
+		TERMINAL_162.addFollower(TERMINAL_71);
+		TERMINAL_162.addFollower(TERMINAL_72);
+		TERMINAL_162.addFollower(TERMINAL_1);
+		TERMINAL_162.addFollower(TERMINAL_3);
+		TERMINAL_162.addFollower(TERMINAL_4);
+		TERMINAL_162.addFollower(TERMINAL_5);
+		TERMINAL_162.addFollower(TERMINAL_6);
+		TERMINAL_162.addFollower(TERMINAL_7);
+		TERMINAL_162.addFollower(TERMINAL_8);
+		TERMINAL_162.addFollower(TERMINAL_9);
+		TERMINAL_162.addFollower(TERMINAL_10);
+		TERMINAL_162.addFollower(TERMINAL_11);
+		TERMINAL_162.addFollower(TERMINAL_12);
+		TERMINAL_162.addFollower(TERMINAL_13);
+		TERMINAL_162.addFollower(TERMINAL_14);
+		TERMINAL_162.addFollower(TERMINAL_15);
+		TERMINAL_162.addFollower(TERMINAL_16);
+		TERMINAL_162.addFollower(TERMINAL_17);
+		TERMINAL_162.addFollower(TERMINAL_18);
+		TERMINAL_162.addFollower(TERMINAL_19);
+		TERMINAL_163.addFollower(TERMINAL_73);
+		TERMINAL_163.addFollower(TERMINAL_74);
+		TERMINAL_163.addFollower(TERMINAL_75);
+		TERMINAL_163.addFollower(TERMINAL_76);
+		TERMINAL_163.addFollower(TERMINAL_77);
+		TERMINAL_163.addFollower(TERMINAL_78);
+		TERMINAL_163.addFollower(TERMINAL_79);
+		TERMINAL_163.addFollower(TERMINAL_80);
+		TERMINAL_163.addFollower(TERMINAL_81);
+		TERMINAL_163.addFollower(TERMINAL_82);
+		TERMINAL_163.addFollower(TERMINAL_83);
+		TERMINAL_163.addFollower(TERMINAL_84);
+		TERMINAL_163.addFollower(TERMINAL_85);
+		TERMINAL_163.addFollower(TERMINAL_86);
+		TERMINAL_163.addFollower(TERMINAL_87);
+		TERMINAL_163.addFollower(TERMINAL_88);
+		TERMINAL_163.addFollower(TERMINAL_89);
+		TERMINAL_163.addFollower(TERMINAL_90);
+		TERMINAL_163.addFollower(TERMINAL_91);
+		TERMINAL_163.addFollower(TERMINAL_92);
+		TERMINAL_163.addFollower(TERMINAL_93);
+		TERMINAL_163.addFollower(TERMINAL_94);
+		TERMINAL_163.addFollower(TERMINAL_95);
+		TERMINAL_163.addFollower(TERMINAL_96);
+		TERMINAL_163.addFollower(TERMINAL_97);
+		TERMINAL_163.addFollower(TERMINAL_98);
+		TERMINAL_163.addFollower(TERMINAL_99);
+		TERMINAL_163.addFollower(TERMINAL_100);
+		TERMINAL_163.addFollower(TERMINAL_101);
+		TERMINAL_163.addFollower(TERMINAL_102);
+		TERMINAL_163.addFollower(TERMINAL_103);
+		TERMINAL_163.addFollower(TERMINAL_104);
+		TERMINAL_163.addFollower(TERMINAL_105);
+		TERMINAL_163.addFollower(TERMINAL_106);
+		TERMINAL_76.addFollower(TERMINAL_164);
+		TERMINAL_164.addFollower(TERMINAL_70);
+		TERMINAL_164.addFollower(TERMINAL_71);
+		TERMINAL_164.addFollower(TERMINAL_72);
+		TERMINAL_164.addFollower(TERMINAL_1);
+		TERMINAL_164.addFollower(TERMINAL_3);
+		TERMINAL_164.addFollower(TERMINAL_4);
+		TERMINAL_164.addFollower(TERMINAL_5);
+		TERMINAL_164.addFollower(TERMINAL_6);
+		TERMINAL_164.addFollower(TERMINAL_7);
+		TERMINAL_164.addFollower(TERMINAL_8);
+		TERMINAL_164.addFollower(TERMINAL_9);
+		TERMINAL_164.addFollower(TERMINAL_10);
+		TERMINAL_164.addFollower(TERMINAL_11);
+		TERMINAL_164.addFollower(TERMINAL_12);
+		TERMINAL_164.addFollower(TERMINAL_13);
+		TERMINAL_164.addFollower(TERMINAL_14);
+		TERMINAL_164.addFollower(TERMINAL_15);
+		TERMINAL_164.addFollower(TERMINAL_16);
+		TERMINAL_164.addFollower(TERMINAL_17);
+		TERMINAL_164.addFollower(TERMINAL_18);
+		TERMINAL_164.addFollower(TERMINAL_19);
+		TERMINAL_165.addFollower(TERMINAL_73);
+		TERMINAL_165.addFollower(TERMINAL_74);
+		TERMINAL_165.addFollower(TERMINAL_75);
+		TERMINAL_165.addFollower(TERMINAL_76);
+		TERMINAL_165.addFollower(TERMINAL_77);
+		TERMINAL_165.addFollower(TERMINAL_78);
+		TERMINAL_165.addFollower(TERMINAL_79);
+		TERMINAL_165.addFollower(TERMINAL_80);
+		TERMINAL_165.addFollower(TERMINAL_81);
+		TERMINAL_165.addFollower(TERMINAL_82);
+		TERMINAL_165.addFollower(TERMINAL_83);
+		TERMINAL_165.addFollower(TERMINAL_84);
+		TERMINAL_165.addFollower(TERMINAL_85);
+		TERMINAL_165.addFollower(TERMINAL_86);
+		TERMINAL_165.addFollower(TERMINAL_87);
+		TERMINAL_165.addFollower(TERMINAL_88);
+		TERMINAL_165.addFollower(TERMINAL_89);
+		TERMINAL_165.addFollower(TERMINAL_90);
+		TERMINAL_165.addFollower(TERMINAL_91);
+		TERMINAL_165.addFollower(TERMINAL_92);
+		TERMINAL_165.addFollower(TERMINAL_93);
+		TERMINAL_165.addFollower(TERMINAL_94);
+		TERMINAL_165.addFollower(TERMINAL_95);
+		TERMINAL_165.addFollower(TERMINAL_96);
+		TERMINAL_165.addFollower(TERMINAL_97);
+		TERMINAL_165.addFollower(TERMINAL_98);
+		TERMINAL_165.addFollower(TERMINAL_99);
+		TERMINAL_165.addFollower(TERMINAL_100);
+		TERMINAL_165.addFollower(TERMINAL_101);
+		TERMINAL_165.addFollower(TERMINAL_102);
+		TERMINAL_165.addFollower(TERMINAL_103);
+		TERMINAL_165.addFollower(TERMINAL_104);
+		TERMINAL_165.addFollower(TERMINAL_105);
+		TERMINAL_165.addFollower(TERMINAL_106);
+		TERMINAL_77.addFollower(TERMINAL_166);
+		TERMINAL_166.addFollower(TERMINAL_70);
+		TERMINAL_166.addFollower(TERMINAL_71);
+		TERMINAL_166.addFollower(TERMINAL_72);
+		TERMINAL_166.addFollower(TERMINAL_1);
+		TERMINAL_167.addFollower(TERMINAL_73);
+		TERMINAL_167.addFollower(TERMINAL_74);
+		TERMINAL_167.addFollower(TERMINAL_75);
+		TERMINAL_167.addFollower(TERMINAL_76);
+		TERMINAL_167.addFollower(TERMINAL_77);
+		TERMINAL_167.addFollower(TERMINAL_78);
+		TERMINAL_167.addFollower(TERMINAL_79);
+		TERMINAL_167.addFollower(TERMINAL_80);
+		TERMINAL_167.addFollower(TERMINAL_81);
+		TERMINAL_167.addFollower(TERMINAL_82);
+		TERMINAL_167.addFollower(TERMINAL_83);
+		TERMINAL_167.addFollower(TERMINAL_84);
+		TERMINAL_167.addFollower(TERMINAL_85);
+		TERMINAL_167.addFollower(TERMINAL_86);
+		TERMINAL_167.addFollower(TERMINAL_87);
+		TERMINAL_167.addFollower(TERMINAL_88);
+		TERMINAL_167.addFollower(TERMINAL_89);
+		TERMINAL_167.addFollower(TERMINAL_90);
+		TERMINAL_167.addFollower(TERMINAL_91);
+		TERMINAL_167.addFollower(TERMINAL_92);
+		TERMINAL_167.addFollower(TERMINAL_93);
+		TERMINAL_167.addFollower(TERMINAL_94);
+		TERMINAL_167.addFollower(TERMINAL_95);
+		TERMINAL_167.addFollower(TERMINAL_96);
+		TERMINAL_167.addFollower(TERMINAL_97);
+		TERMINAL_167.addFollower(TERMINAL_98);
+		TERMINAL_167.addFollower(TERMINAL_99);
+		TERMINAL_167.addFollower(TERMINAL_100);
+		TERMINAL_167.addFollower(TERMINAL_101);
+		TERMINAL_167.addFollower(TERMINAL_102);
+		TERMINAL_167.addFollower(TERMINAL_103);
+		TERMINAL_167.addFollower(TERMINAL_104);
+		TERMINAL_167.addFollower(TERMINAL_105);
+		TERMINAL_167.addFollower(TERMINAL_106);
+		TERMINAL_78.addFollower(TERMINAL_168);
+		TERMINAL_168.addFollower(TERMINAL_70);
+		TERMINAL_168.addFollower(TERMINAL_71);
+		TERMINAL_168.addFollower(TERMINAL_72);
+		TERMINAL_168.addFollower(TERMINAL_1);
+		TERMINAL_168.addFollower(TERMINAL_35);
+		TERMINAL_169.addFollower(TERMINAL_73);
+		TERMINAL_169.addFollower(TERMINAL_74);
+		TERMINAL_169.addFollower(TERMINAL_75);
+		TERMINAL_169.addFollower(TERMINAL_76);
+		TERMINAL_169.addFollower(TERMINAL_77);
+		TERMINAL_169.addFollower(TERMINAL_78);
+		TERMINAL_169.addFollower(TERMINAL_79);
+		TERMINAL_169.addFollower(TERMINAL_80);
+		TERMINAL_169.addFollower(TERMINAL_81);
+		TERMINAL_169.addFollower(TERMINAL_82);
+		TERMINAL_169.addFollower(TERMINAL_83);
+		TERMINAL_169.addFollower(TERMINAL_84);
+		TERMINAL_169.addFollower(TERMINAL_85);
+		TERMINAL_169.addFollower(TERMINAL_86);
+		TERMINAL_169.addFollower(TERMINAL_87);
+		TERMINAL_169.addFollower(TERMINAL_88);
+		TERMINAL_169.addFollower(TERMINAL_89);
+		TERMINAL_169.addFollower(TERMINAL_90);
+		TERMINAL_169.addFollower(TERMINAL_91);
+		TERMINAL_169.addFollower(TERMINAL_92);
+		TERMINAL_169.addFollower(TERMINAL_93);
+		TERMINAL_169.addFollower(TERMINAL_94);
+		TERMINAL_169.addFollower(TERMINAL_95);
+		TERMINAL_169.addFollower(TERMINAL_96);
+		TERMINAL_169.addFollower(TERMINAL_97);
+		TERMINAL_169.addFollower(TERMINAL_98);
+		TERMINAL_169.addFollower(TERMINAL_99);
+		TERMINAL_169.addFollower(TERMINAL_100);
+		TERMINAL_169.addFollower(TERMINAL_101);
+		TERMINAL_169.addFollower(TERMINAL_102);
+		TERMINAL_169.addFollower(TERMINAL_103);
+		TERMINAL_169.addFollower(TERMINAL_104);
+		TERMINAL_169.addFollower(TERMINAL_105);
+		TERMINAL_169.addFollower(TERMINAL_106);
+		TERMINAL_79.addFollower(TERMINAL_170);
+		TERMINAL_170.addFollower(TERMINAL_70);
+		TERMINAL_170.addFollower(TERMINAL_71);
+		TERMINAL_170.addFollower(TERMINAL_72);
+		TERMINAL_170.addFollower(TERMINAL_1);
+		TERMINAL_170.addFollower(TERMINAL_35);
+		TERMINAL_171.addFollower(TERMINAL_73);
+		TERMINAL_171.addFollower(TERMINAL_74);
+		TERMINAL_171.addFollower(TERMINAL_75);
+		TERMINAL_171.addFollower(TERMINAL_76);
+		TERMINAL_171.addFollower(TERMINAL_77);
+		TERMINAL_171.addFollower(TERMINAL_78);
+		TERMINAL_171.addFollower(TERMINAL_79);
+		TERMINAL_171.addFollower(TERMINAL_80);
+		TERMINAL_171.addFollower(TERMINAL_81);
+		TERMINAL_171.addFollower(TERMINAL_82);
+		TERMINAL_171.addFollower(TERMINAL_83);
+		TERMINAL_171.addFollower(TERMINAL_84);
+		TERMINAL_171.addFollower(TERMINAL_85);
+		TERMINAL_171.addFollower(TERMINAL_86);
+		TERMINAL_171.addFollower(TERMINAL_87);
+		TERMINAL_171.addFollower(TERMINAL_88);
+		TERMINAL_171.addFollower(TERMINAL_89);
+		TERMINAL_171.addFollower(TERMINAL_90);
+		TERMINAL_171.addFollower(TERMINAL_91);
+		TERMINAL_171.addFollower(TERMINAL_92);
+		TERMINAL_171.addFollower(TERMINAL_93);
+		TERMINAL_171.addFollower(TERMINAL_94);
+		TERMINAL_171.addFollower(TERMINAL_95);
+		TERMINAL_171.addFollower(TERMINAL_96);
+		TERMINAL_171.addFollower(TERMINAL_97);
+		TERMINAL_171.addFollower(TERMINAL_98);
+		TERMINAL_171.addFollower(TERMINAL_99);
+		TERMINAL_171.addFollower(TERMINAL_100);
+		TERMINAL_171.addFollower(TERMINAL_101);
+		TERMINAL_171.addFollower(TERMINAL_102);
+		TERMINAL_171.addFollower(TERMINAL_103);
+		TERMINAL_171.addFollower(TERMINAL_104);
+		TERMINAL_171.addFollower(TERMINAL_105);
+		TERMINAL_171.addFollower(TERMINAL_106);
+		TERMINAL_80.addFollower(TERMINAL_172);
+		TERMINAL_172.addFollower(TERMINAL_70);
+		TERMINAL_172.addFollower(TERMINAL_71);
+		TERMINAL_172.addFollower(TERMINAL_72);
+		TERMINAL_172.addFollower(TERMINAL_1);
+		TERMINAL_172.addFollower(TERMINAL_35);
+		TERMINAL_173.addFollower(TERMINAL_73);
+		TERMINAL_173.addFollower(TERMINAL_74);
+		TERMINAL_173.addFollower(TERMINAL_75);
+		TERMINAL_173.addFollower(TERMINAL_76);
+		TERMINAL_173.addFollower(TERMINAL_77);
+		TERMINAL_173.addFollower(TERMINAL_78);
+		TERMINAL_173.addFollower(TERMINAL_79);
+		TERMINAL_173.addFollower(TERMINAL_80);
+		TERMINAL_173.addFollower(TERMINAL_81);
+		TERMINAL_173.addFollower(TERMINAL_82);
+		TERMINAL_173.addFollower(TERMINAL_83);
+		TERMINAL_173.addFollower(TERMINAL_84);
+		TERMINAL_173.addFollower(TERMINAL_85);
+		TERMINAL_173.addFollower(TERMINAL_86);
+		TERMINAL_173.addFollower(TERMINAL_87);
+		TERMINAL_173.addFollower(TERMINAL_88);
+		TERMINAL_173.addFollower(TERMINAL_89);
+		TERMINAL_173.addFollower(TERMINAL_90);
+		TERMINAL_173.addFollower(TERMINAL_91);
+		TERMINAL_173.addFollower(TERMINAL_92);
+		TERMINAL_173.addFollower(TERMINAL_93);
+		TERMINAL_173.addFollower(TERMINAL_94);
+		TERMINAL_173.addFollower(TERMINAL_95);
+		TERMINAL_173.addFollower(TERMINAL_96);
+		TERMINAL_173.addFollower(TERMINAL_97);
+		TERMINAL_173.addFollower(TERMINAL_98);
+		TERMINAL_173.addFollower(TERMINAL_99);
+		TERMINAL_173.addFollower(TERMINAL_100);
+		TERMINAL_173.addFollower(TERMINAL_101);
+		TERMINAL_173.addFollower(TERMINAL_102);
+		TERMINAL_173.addFollower(TERMINAL_103);
+		TERMINAL_173.addFollower(TERMINAL_104);
+		TERMINAL_173.addFollower(TERMINAL_105);
+		TERMINAL_173.addFollower(TERMINAL_106);
+		TERMINAL_81.addFollower(TERMINAL_174);
+		TERMINAL_174.addFollower(TERMINAL_70);
+		TERMINAL_174.addFollower(TERMINAL_71);
+		TERMINAL_174.addFollower(TERMINAL_72);
+		TERMINAL_174.addFollower(TERMINAL_1);
+		TERMINAL_174.addFollower(TERMINAL_35);
 		TERMINAL_26.addFollower(TERMINAL_73);
 		TERMINAL_26.addFollower(TERMINAL_74);
 		TERMINAL_26.addFollower(TERMINAL_75);
@@ -2139,12 +2157,12 @@ options {
 		TERMINAL_26.addFollower(TERMINAL_104);
 		TERMINAL_26.addFollower(TERMINAL_105);
 		TERMINAL_26.addFollower(TERMINAL_106);
-		TERMINAL_82.addFollower(TERMINAL_168);
-		TERMINAL_168.addFollower(TERMINAL_70);
-		TERMINAL_168.addFollower(TERMINAL_71);
-		TERMINAL_168.addFollower(TERMINAL_72);
-		TERMINAL_168.addFollower(TERMINAL_1);
-		TERMINAL_168.addFollower(TERMINAL_35);
+		TERMINAL_82.addFollower(TERMINAL_175);
+		TERMINAL_175.addFollower(TERMINAL_70);
+		TERMINAL_175.addFollower(TERMINAL_71);
+		TERMINAL_175.addFollower(TERMINAL_72);
+		TERMINAL_175.addFollower(TERMINAL_1);
+		TERMINAL_175.addFollower(TERMINAL_35);
 		TERMINAL_27.addFollower(TERMINAL_73);
 		TERMINAL_27.addFollower(TERMINAL_74);
 		TERMINAL_27.addFollower(TERMINAL_75);
@@ -2179,52 +2197,52 @@ options {
 		TERMINAL_27.addFollower(TERMINAL_104);
 		TERMINAL_27.addFollower(TERMINAL_105);
 		TERMINAL_27.addFollower(TERMINAL_106);
-		TERMINAL_83.addFollower(TERMINAL_169);
-		TERMINAL_169.addFollower(TERMINAL_70);
-		TERMINAL_169.addFollower(TERMINAL_71);
-		TERMINAL_169.addFollower(TERMINAL_72);
-		TERMINAL_169.addFollower(TERMINAL_1);
-		TERMINAL_169.addFollower(TERMINAL_35);
-		TERMINAL_170.addFollower(TERMINAL_73);
-		TERMINAL_170.addFollower(TERMINAL_74);
-		TERMINAL_170.addFollower(TERMINAL_75);
-		TERMINAL_170.addFollower(TERMINAL_76);
-		TERMINAL_170.addFollower(TERMINAL_77);
-		TERMINAL_170.addFollower(TERMINAL_78);
-		TERMINAL_170.addFollower(TERMINAL_79);
-		TERMINAL_170.addFollower(TERMINAL_80);
-		TERMINAL_170.addFollower(TERMINAL_81);
-		TERMINAL_170.addFollower(TERMINAL_82);
-		TERMINAL_170.addFollower(TERMINAL_83);
-		TERMINAL_170.addFollower(TERMINAL_84);
-		TERMINAL_170.addFollower(TERMINAL_85);
-		TERMINAL_170.addFollower(TERMINAL_86);
-		TERMINAL_170.addFollower(TERMINAL_87);
-		TERMINAL_170.addFollower(TERMINAL_88);
-		TERMINAL_170.addFollower(TERMINAL_89);
-		TERMINAL_170.addFollower(TERMINAL_90);
-		TERMINAL_170.addFollower(TERMINAL_91);
-		TERMINAL_170.addFollower(TERMINAL_92);
-		TERMINAL_170.addFollower(TERMINAL_93);
-		TERMINAL_170.addFollower(TERMINAL_94);
-		TERMINAL_170.addFollower(TERMINAL_95);
-		TERMINAL_170.addFollower(TERMINAL_96);
-		TERMINAL_170.addFollower(TERMINAL_97);
-		TERMINAL_170.addFollower(TERMINAL_98);
-		TERMINAL_170.addFollower(TERMINAL_99);
-		TERMINAL_170.addFollower(TERMINAL_100);
-		TERMINAL_170.addFollower(TERMINAL_101);
-		TERMINAL_170.addFollower(TERMINAL_102);
-		TERMINAL_170.addFollower(TERMINAL_103);
-		TERMINAL_170.addFollower(TERMINAL_104);
-		TERMINAL_170.addFollower(TERMINAL_105);
-		TERMINAL_170.addFollower(TERMINAL_106);
-		TERMINAL_84.addFollower(TERMINAL_171);
-		TERMINAL_171.addFollower(TERMINAL_70);
-		TERMINAL_171.addFollower(TERMINAL_71);
-		TERMINAL_171.addFollower(TERMINAL_72);
-		TERMINAL_171.addFollower(TERMINAL_1);
-		TERMINAL_171.addFollower(TERMINAL_35);
+		TERMINAL_83.addFollower(TERMINAL_176);
+		TERMINAL_176.addFollower(TERMINAL_70);
+		TERMINAL_176.addFollower(TERMINAL_71);
+		TERMINAL_176.addFollower(TERMINAL_72);
+		TERMINAL_176.addFollower(TERMINAL_1);
+		TERMINAL_176.addFollower(TERMINAL_35);
+		TERMINAL_177.addFollower(TERMINAL_73);
+		TERMINAL_177.addFollower(TERMINAL_74);
+		TERMINAL_177.addFollower(TERMINAL_75);
+		TERMINAL_177.addFollower(TERMINAL_76);
+		TERMINAL_177.addFollower(TERMINAL_77);
+		TERMINAL_177.addFollower(TERMINAL_78);
+		TERMINAL_177.addFollower(TERMINAL_79);
+		TERMINAL_177.addFollower(TERMINAL_80);
+		TERMINAL_177.addFollower(TERMINAL_81);
+		TERMINAL_177.addFollower(TERMINAL_82);
+		TERMINAL_177.addFollower(TERMINAL_83);
+		TERMINAL_177.addFollower(TERMINAL_84);
+		TERMINAL_177.addFollower(TERMINAL_85);
+		TERMINAL_177.addFollower(TERMINAL_86);
+		TERMINAL_177.addFollower(TERMINAL_87);
+		TERMINAL_177.addFollower(TERMINAL_88);
+		TERMINAL_177.addFollower(TERMINAL_89);
+		TERMINAL_177.addFollower(TERMINAL_90);
+		TERMINAL_177.addFollower(TERMINAL_91);
+		TERMINAL_177.addFollower(TERMINAL_92);
+		TERMINAL_177.addFollower(TERMINAL_93);
+		TERMINAL_177.addFollower(TERMINAL_94);
+		TERMINAL_177.addFollower(TERMINAL_95);
+		TERMINAL_177.addFollower(TERMINAL_96);
+		TERMINAL_177.addFollower(TERMINAL_97);
+		TERMINAL_177.addFollower(TERMINAL_98);
+		TERMINAL_177.addFollower(TERMINAL_99);
+		TERMINAL_177.addFollower(TERMINAL_100);
+		TERMINAL_177.addFollower(TERMINAL_101);
+		TERMINAL_177.addFollower(TERMINAL_102);
+		TERMINAL_177.addFollower(TERMINAL_103);
+		TERMINAL_177.addFollower(TERMINAL_104);
+		TERMINAL_177.addFollower(TERMINAL_105);
+		TERMINAL_177.addFollower(TERMINAL_106);
+		TERMINAL_84.addFollower(TERMINAL_178);
+		TERMINAL_178.addFollower(TERMINAL_70);
+		TERMINAL_178.addFollower(TERMINAL_71);
+		TERMINAL_178.addFollower(TERMINAL_72);
+		TERMINAL_178.addFollower(TERMINAL_1);
+		TERMINAL_178.addFollower(TERMINAL_35);
 		TERMINAL_36.addFollower(TERMINAL_73);
 		TERMINAL_36.addFollower(TERMINAL_74);
 		TERMINAL_36.addFollower(TERMINAL_75);
@@ -2259,12 +2277,12 @@ options {
 		TERMINAL_36.addFollower(TERMINAL_104);
 		TERMINAL_36.addFollower(TERMINAL_105);
 		TERMINAL_36.addFollower(TERMINAL_106);
-		TERMINAL_85.addFollower(TERMINAL_172);
-		TERMINAL_172.addFollower(TERMINAL_70);
-		TERMINAL_172.addFollower(TERMINAL_71);
-		TERMINAL_172.addFollower(TERMINAL_72);
-		TERMINAL_172.addFollower(TERMINAL_1);
-		TERMINAL_172.addFollower(TERMINAL_35);
+		TERMINAL_85.addFollower(TERMINAL_179);
+		TERMINAL_179.addFollower(TERMINAL_70);
+		TERMINAL_179.addFollower(TERMINAL_71);
+		TERMINAL_179.addFollower(TERMINAL_72);
+		TERMINAL_179.addFollower(TERMINAL_1);
+		TERMINAL_179.addFollower(TERMINAL_35);
 		TERMINAL_37.addFollower(TERMINAL_73);
 		TERMINAL_37.addFollower(TERMINAL_74);
 		TERMINAL_37.addFollower(TERMINAL_75);
@@ -2299,12 +2317,12 @@ options {
 		TERMINAL_37.addFollower(TERMINAL_104);
 		TERMINAL_37.addFollower(TERMINAL_105);
 		TERMINAL_37.addFollower(TERMINAL_106);
-		TERMINAL_86.addFollower(TERMINAL_173);
-		TERMINAL_173.addFollower(TERMINAL_70);
-		TERMINAL_173.addFollower(TERMINAL_71);
-		TERMINAL_173.addFollower(TERMINAL_72);
-		TERMINAL_173.addFollower(TERMINAL_1);
-		TERMINAL_173.addFollower(TERMINAL_35);
+		TERMINAL_86.addFollower(TERMINAL_180);
+		TERMINAL_180.addFollower(TERMINAL_70);
+		TERMINAL_180.addFollower(TERMINAL_71);
+		TERMINAL_180.addFollower(TERMINAL_72);
+		TERMINAL_180.addFollower(TERMINAL_1);
+		TERMINAL_180.addFollower(TERMINAL_35);
 		TERMINAL_38.addFollower(TERMINAL_73);
 		TERMINAL_38.addFollower(TERMINAL_74);
 		TERMINAL_38.addFollower(TERMINAL_75);
@@ -2339,12 +2357,12 @@ options {
 		TERMINAL_38.addFollower(TERMINAL_104);
 		TERMINAL_38.addFollower(TERMINAL_105);
 		TERMINAL_38.addFollower(TERMINAL_106);
-		TERMINAL_87.addFollower(TERMINAL_174);
-		TERMINAL_174.addFollower(TERMINAL_70);
-		TERMINAL_174.addFollower(TERMINAL_71);
-		TERMINAL_174.addFollower(TERMINAL_72);
-		TERMINAL_174.addFollower(TERMINAL_1);
-		TERMINAL_174.addFollower(TERMINAL_35);
+		TERMINAL_87.addFollower(TERMINAL_181);
+		TERMINAL_181.addFollower(TERMINAL_70);
+		TERMINAL_181.addFollower(TERMINAL_71);
+		TERMINAL_181.addFollower(TERMINAL_72);
+		TERMINAL_181.addFollower(TERMINAL_1);
+		TERMINAL_181.addFollower(TERMINAL_35);
 		TERMINAL_39.addFollower(TERMINAL_73);
 		TERMINAL_39.addFollower(TERMINAL_74);
 		TERMINAL_39.addFollower(TERMINAL_75);
@@ -2379,12 +2397,12 @@ options {
 		TERMINAL_39.addFollower(TERMINAL_104);
 		TERMINAL_39.addFollower(TERMINAL_105);
 		TERMINAL_39.addFollower(TERMINAL_106);
-		TERMINAL_88.addFollower(TERMINAL_175);
-		TERMINAL_175.addFollower(TERMINAL_70);
-		TERMINAL_175.addFollower(TERMINAL_71);
-		TERMINAL_175.addFollower(TERMINAL_72);
-		TERMINAL_175.addFollower(TERMINAL_1);
-		TERMINAL_175.addFollower(TERMINAL_35);
+		TERMINAL_88.addFollower(TERMINAL_182);
+		TERMINAL_182.addFollower(TERMINAL_70);
+		TERMINAL_182.addFollower(TERMINAL_71);
+		TERMINAL_182.addFollower(TERMINAL_72);
+		TERMINAL_182.addFollower(TERMINAL_1);
+		TERMINAL_182.addFollower(TERMINAL_35);
 		TERMINAL_40.addFollower(TERMINAL_73);
 		TERMINAL_40.addFollower(TERMINAL_74);
 		TERMINAL_40.addFollower(TERMINAL_75);
@@ -2419,12 +2437,12 @@ options {
 		TERMINAL_40.addFollower(TERMINAL_104);
 		TERMINAL_40.addFollower(TERMINAL_105);
 		TERMINAL_40.addFollower(TERMINAL_106);
-		TERMINAL_89.addFollower(TERMINAL_176);
-		TERMINAL_176.addFollower(TERMINAL_70);
-		TERMINAL_176.addFollower(TERMINAL_71);
-		TERMINAL_176.addFollower(TERMINAL_72);
-		TERMINAL_176.addFollower(TERMINAL_1);
-		TERMINAL_176.addFollower(TERMINAL_35);
+		TERMINAL_89.addFollower(TERMINAL_183);
+		TERMINAL_183.addFollower(TERMINAL_70);
+		TERMINAL_183.addFollower(TERMINAL_71);
+		TERMINAL_183.addFollower(TERMINAL_72);
+		TERMINAL_183.addFollower(TERMINAL_1);
+		TERMINAL_183.addFollower(TERMINAL_35);
 		TERMINAL_41.addFollower(TERMINAL_73);
 		TERMINAL_41.addFollower(TERMINAL_74);
 		TERMINAL_41.addFollower(TERMINAL_75);
@@ -2459,12 +2477,12 @@ options {
 		TERMINAL_41.addFollower(TERMINAL_104);
 		TERMINAL_41.addFollower(TERMINAL_105);
 		TERMINAL_41.addFollower(TERMINAL_106);
-		TERMINAL_90.addFollower(TERMINAL_177);
-		TERMINAL_177.addFollower(TERMINAL_70);
-		TERMINAL_177.addFollower(TERMINAL_71);
-		TERMINAL_177.addFollower(TERMINAL_72);
-		TERMINAL_177.addFollower(TERMINAL_1);
-		TERMINAL_177.addFollower(TERMINAL_35);
+		TERMINAL_90.addFollower(TERMINAL_184);
+		TERMINAL_184.addFollower(TERMINAL_70);
+		TERMINAL_184.addFollower(TERMINAL_71);
+		TERMINAL_184.addFollower(TERMINAL_72);
+		TERMINAL_184.addFollower(TERMINAL_1);
+		TERMINAL_184.addFollower(TERMINAL_35);
 		TERMINAL_42.addFollower(TERMINAL_73);
 		TERMINAL_42.addFollower(TERMINAL_74);
 		TERMINAL_42.addFollower(TERMINAL_75);
@@ -2499,128 +2517,128 @@ options {
 		TERMINAL_42.addFollower(TERMINAL_104);
 		TERMINAL_42.addFollower(TERMINAL_105);
 		TERMINAL_42.addFollower(TERMINAL_106);
-		TERMINAL_91.addFollower(TERMINAL_178);
-		TERMINAL_178.addFollower(TERMINAL_70);
-		TERMINAL_178.addFollower(TERMINAL_71);
-		TERMINAL_178.addFollower(TERMINAL_72);
-		TERMINAL_178.addFollower(TERMINAL_1);
-		TERMINAL_179.addFollower(TERMINAL_73);
-		TERMINAL_179.addFollower(TERMINAL_74);
-		TERMINAL_179.addFollower(TERMINAL_75);
-		TERMINAL_179.addFollower(TERMINAL_76);
-		TERMINAL_179.addFollower(TERMINAL_77);
-		TERMINAL_179.addFollower(TERMINAL_78);
-		TERMINAL_179.addFollower(TERMINAL_79);
-		TERMINAL_179.addFollower(TERMINAL_80);
-		TERMINAL_179.addFollower(TERMINAL_81);
-		TERMINAL_179.addFollower(TERMINAL_82);
-		TERMINAL_179.addFollower(TERMINAL_83);
-		TERMINAL_179.addFollower(TERMINAL_84);
-		TERMINAL_179.addFollower(TERMINAL_85);
-		TERMINAL_179.addFollower(TERMINAL_86);
-		TERMINAL_179.addFollower(TERMINAL_87);
-		TERMINAL_179.addFollower(TERMINAL_88);
-		TERMINAL_179.addFollower(TERMINAL_89);
-		TERMINAL_179.addFollower(TERMINAL_90);
-		TERMINAL_179.addFollower(TERMINAL_91);
-		TERMINAL_179.addFollower(TERMINAL_92);
-		TERMINAL_179.addFollower(TERMINAL_93);
-		TERMINAL_179.addFollower(TERMINAL_94);
-		TERMINAL_179.addFollower(TERMINAL_95);
-		TERMINAL_179.addFollower(TERMINAL_96);
-		TERMINAL_179.addFollower(TERMINAL_97);
-		TERMINAL_179.addFollower(TERMINAL_98);
-		TERMINAL_179.addFollower(TERMINAL_99);
-		TERMINAL_179.addFollower(TERMINAL_100);
-		TERMINAL_179.addFollower(TERMINAL_101);
-		TERMINAL_179.addFollower(TERMINAL_102);
-		TERMINAL_179.addFollower(TERMINAL_103);
-		TERMINAL_179.addFollower(TERMINAL_104);
-		TERMINAL_179.addFollower(TERMINAL_105);
-		TERMINAL_179.addFollower(TERMINAL_106);
-		TERMINAL_92.addFollower(TERMINAL_180);
-		TERMINAL_180.addFollower(TERMINAL_70);
-		TERMINAL_180.addFollower(TERMINAL_71);
-		TERMINAL_180.addFollower(TERMINAL_72);
-		TERMINAL_180.addFollower(TERMINAL_1);
-		TERMINAL_181.addFollower(TERMINAL_73);
-		TERMINAL_181.addFollower(TERMINAL_74);
-		TERMINAL_181.addFollower(TERMINAL_75);
-		TERMINAL_181.addFollower(TERMINAL_76);
-		TERMINAL_181.addFollower(TERMINAL_77);
-		TERMINAL_181.addFollower(TERMINAL_78);
-		TERMINAL_181.addFollower(TERMINAL_79);
-		TERMINAL_181.addFollower(TERMINAL_80);
-		TERMINAL_181.addFollower(TERMINAL_81);
-		TERMINAL_181.addFollower(TERMINAL_82);
-		TERMINAL_181.addFollower(TERMINAL_83);
-		TERMINAL_181.addFollower(TERMINAL_84);
-		TERMINAL_181.addFollower(TERMINAL_85);
-		TERMINAL_181.addFollower(TERMINAL_86);
-		TERMINAL_181.addFollower(TERMINAL_87);
-		TERMINAL_181.addFollower(TERMINAL_88);
-		TERMINAL_181.addFollower(TERMINAL_89);
-		TERMINAL_181.addFollower(TERMINAL_90);
-		TERMINAL_181.addFollower(TERMINAL_91);
-		TERMINAL_181.addFollower(TERMINAL_92);
-		TERMINAL_181.addFollower(TERMINAL_93);
-		TERMINAL_181.addFollower(TERMINAL_94);
-		TERMINAL_181.addFollower(TERMINAL_95);
-		TERMINAL_181.addFollower(TERMINAL_96);
-		TERMINAL_181.addFollower(TERMINAL_97);
-		TERMINAL_181.addFollower(TERMINAL_98);
-		TERMINAL_181.addFollower(TERMINAL_99);
-		TERMINAL_181.addFollower(TERMINAL_100);
-		TERMINAL_181.addFollower(TERMINAL_101);
-		TERMINAL_181.addFollower(TERMINAL_102);
-		TERMINAL_181.addFollower(TERMINAL_103);
-		TERMINAL_181.addFollower(TERMINAL_104);
-		TERMINAL_181.addFollower(TERMINAL_105);
-		TERMINAL_181.addFollower(TERMINAL_106);
-		TERMINAL_93.addFollower(TERMINAL_182);
-		TERMINAL_182.addFollower(TERMINAL_70);
-		TERMINAL_182.addFollower(TERMINAL_71);
-		TERMINAL_182.addFollower(TERMINAL_72);
-		TERMINAL_182.addFollower(TERMINAL_1);
-		TERMINAL_183.addFollower(TERMINAL_73);
-		TERMINAL_183.addFollower(TERMINAL_74);
-		TERMINAL_183.addFollower(TERMINAL_75);
-		TERMINAL_183.addFollower(TERMINAL_76);
-		TERMINAL_183.addFollower(TERMINAL_77);
-		TERMINAL_183.addFollower(TERMINAL_78);
-		TERMINAL_183.addFollower(TERMINAL_79);
-		TERMINAL_183.addFollower(TERMINAL_80);
-		TERMINAL_183.addFollower(TERMINAL_81);
-		TERMINAL_183.addFollower(TERMINAL_82);
-		TERMINAL_183.addFollower(TERMINAL_83);
-		TERMINAL_183.addFollower(TERMINAL_84);
-		TERMINAL_183.addFollower(TERMINAL_85);
-		TERMINAL_183.addFollower(TERMINAL_86);
-		TERMINAL_183.addFollower(TERMINAL_87);
-		TERMINAL_183.addFollower(TERMINAL_88);
-		TERMINAL_183.addFollower(TERMINAL_89);
-		TERMINAL_183.addFollower(TERMINAL_90);
-		TERMINAL_183.addFollower(TERMINAL_91);
-		TERMINAL_183.addFollower(TERMINAL_92);
-		TERMINAL_183.addFollower(TERMINAL_93);
-		TERMINAL_183.addFollower(TERMINAL_94);
-		TERMINAL_183.addFollower(TERMINAL_95);
-		TERMINAL_183.addFollower(TERMINAL_96);
-		TERMINAL_183.addFollower(TERMINAL_97);
-		TERMINAL_183.addFollower(TERMINAL_98);
-		TERMINAL_183.addFollower(TERMINAL_99);
-		TERMINAL_183.addFollower(TERMINAL_100);
-		TERMINAL_183.addFollower(TERMINAL_101);
-		TERMINAL_183.addFollower(TERMINAL_102);
-		TERMINAL_183.addFollower(TERMINAL_103);
-		TERMINAL_183.addFollower(TERMINAL_104);
-		TERMINAL_183.addFollower(TERMINAL_105);
-		TERMINAL_183.addFollower(TERMINAL_106);
-		TERMINAL_94.addFollower(TERMINAL_184);
-		TERMINAL_184.addFollower(TERMINAL_70);
-		TERMINAL_184.addFollower(TERMINAL_71);
-		TERMINAL_184.addFollower(TERMINAL_72);
-		TERMINAL_184.addFollower(TERMINAL_1);
+		TERMINAL_91.addFollower(TERMINAL_185);
+		TERMINAL_185.addFollower(TERMINAL_70);
+		TERMINAL_185.addFollower(TERMINAL_71);
+		TERMINAL_185.addFollower(TERMINAL_72);
+		TERMINAL_185.addFollower(TERMINAL_1);
+		TERMINAL_186.addFollower(TERMINAL_73);
+		TERMINAL_186.addFollower(TERMINAL_74);
+		TERMINAL_186.addFollower(TERMINAL_75);
+		TERMINAL_186.addFollower(TERMINAL_76);
+		TERMINAL_186.addFollower(TERMINAL_77);
+		TERMINAL_186.addFollower(TERMINAL_78);
+		TERMINAL_186.addFollower(TERMINAL_79);
+		TERMINAL_186.addFollower(TERMINAL_80);
+		TERMINAL_186.addFollower(TERMINAL_81);
+		TERMINAL_186.addFollower(TERMINAL_82);
+		TERMINAL_186.addFollower(TERMINAL_83);
+		TERMINAL_186.addFollower(TERMINAL_84);
+		TERMINAL_186.addFollower(TERMINAL_85);
+		TERMINAL_186.addFollower(TERMINAL_86);
+		TERMINAL_186.addFollower(TERMINAL_87);
+		TERMINAL_186.addFollower(TERMINAL_88);
+		TERMINAL_186.addFollower(TERMINAL_89);
+		TERMINAL_186.addFollower(TERMINAL_90);
+		TERMINAL_186.addFollower(TERMINAL_91);
+		TERMINAL_186.addFollower(TERMINAL_92);
+		TERMINAL_186.addFollower(TERMINAL_93);
+		TERMINAL_186.addFollower(TERMINAL_94);
+		TERMINAL_186.addFollower(TERMINAL_95);
+		TERMINAL_186.addFollower(TERMINAL_96);
+		TERMINAL_186.addFollower(TERMINAL_97);
+		TERMINAL_186.addFollower(TERMINAL_98);
+		TERMINAL_186.addFollower(TERMINAL_99);
+		TERMINAL_186.addFollower(TERMINAL_100);
+		TERMINAL_186.addFollower(TERMINAL_101);
+		TERMINAL_186.addFollower(TERMINAL_102);
+		TERMINAL_186.addFollower(TERMINAL_103);
+		TERMINAL_186.addFollower(TERMINAL_104);
+		TERMINAL_186.addFollower(TERMINAL_105);
+		TERMINAL_186.addFollower(TERMINAL_106);
+		TERMINAL_92.addFollower(TERMINAL_187);
+		TERMINAL_187.addFollower(TERMINAL_70);
+		TERMINAL_187.addFollower(TERMINAL_71);
+		TERMINAL_187.addFollower(TERMINAL_72);
+		TERMINAL_187.addFollower(TERMINAL_1);
+		TERMINAL_188.addFollower(TERMINAL_73);
+		TERMINAL_188.addFollower(TERMINAL_74);
+		TERMINAL_188.addFollower(TERMINAL_75);
+		TERMINAL_188.addFollower(TERMINAL_76);
+		TERMINAL_188.addFollower(TERMINAL_77);
+		TERMINAL_188.addFollower(TERMINAL_78);
+		TERMINAL_188.addFollower(TERMINAL_79);
+		TERMINAL_188.addFollower(TERMINAL_80);
+		TERMINAL_188.addFollower(TERMINAL_81);
+		TERMINAL_188.addFollower(TERMINAL_82);
+		TERMINAL_188.addFollower(TERMINAL_83);
+		TERMINAL_188.addFollower(TERMINAL_84);
+		TERMINAL_188.addFollower(TERMINAL_85);
+		TERMINAL_188.addFollower(TERMINAL_86);
+		TERMINAL_188.addFollower(TERMINAL_87);
+		TERMINAL_188.addFollower(TERMINAL_88);
+		TERMINAL_188.addFollower(TERMINAL_89);
+		TERMINAL_188.addFollower(TERMINAL_90);
+		TERMINAL_188.addFollower(TERMINAL_91);
+		TERMINAL_188.addFollower(TERMINAL_92);
+		TERMINAL_188.addFollower(TERMINAL_93);
+		TERMINAL_188.addFollower(TERMINAL_94);
+		TERMINAL_188.addFollower(TERMINAL_95);
+		TERMINAL_188.addFollower(TERMINAL_96);
+		TERMINAL_188.addFollower(TERMINAL_97);
+		TERMINAL_188.addFollower(TERMINAL_98);
+		TERMINAL_188.addFollower(TERMINAL_99);
+		TERMINAL_188.addFollower(TERMINAL_100);
+		TERMINAL_188.addFollower(TERMINAL_101);
+		TERMINAL_188.addFollower(TERMINAL_102);
+		TERMINAL_188.addFollower(TERMINAL_103);
+		TERMINAL_188.addFollower(TERMINAL_104);
+		TERMINAL_188.addFollower(TERMINAL_105);
+		TERMINAL_188.addFollower(TERMINAL_106);
+		TERMINAL_93.addFollower(TERMINAL_189);
+		TERMINAL_189.addFollower(TERMINAL_70);
+		TERMINAL_189.addFollower(TERMINAL_71);
+		TERMINAL_189.addFollower(TERMINAL_72);
+		TERMINAL_189.addFollower(TERMINAL_1);
+		TERMINAL_190.addFollower(TERMINAL_73);
+		TERMINAL_190.addFollower(TERMINAL_74);
+		TERMINAL_190.addFollower(TERMINAL_75);
+		TERMINAL_190.addFollower(TERMINAL_76);
+		TERMINAL_190.addFollower(TERMINAL_77);
+		TERMINAL_190.addFollower(TERMINAL_78);
+		TERMINAL_190.addFollower(TERMINAL_79);
+		TERMINAL_190.addFollower(TERMINAL_80);
+		TERMINAL_190.addFollower(TERMINAL_81);
+		TERMINAL_190.addFollower(TERMINAL_82);
+		TERMINAL_190.addFollower(TERMINAL_83);
+		TERMINAL_190.addFollower(TERMINAL_84);
+		TERMINAL_190.addFollower(TERMINAL_85);
+		TERMINAL_190.addFollower(TERMINAL_86);
+		TERMINAL_190.addFollower(TERMINAL_87);
+		TERMINAL_190.addFollower(TERMINAL_88);
+		TERMINAL_190.addFollower(TERMINAL_89);
+		TERMINAL_190.addFollower(TERMINAL_90);
+		TERMINAL_190.addFollower(TERMINAL_91);
+		TERMINAL_190.addFollower(TERMINAL_92);
+		TERMINAL_190.addFollower(TERMINAL_93);
+		TERMINAL_190.addFollower(TERMINAL_94);
+		TERMINAL_190.addFollower(TERMINAL_95);
+		TERMINAL_190.addFollower(TERMINAL_96);
+		TERMINAL_190.addFollower(TERMINAL_97);
+		TERMINAL_190.addFollower(TERMINAL_98);
+		TERMINAL_190.addFollower(TERMINAL_99);
+		TERMINAL_190.addFollower(TERMINAL_100);
+		TERMINAL_190.addFollower(TERMINAL_101);
+		TERMINAL_190.addFollower(TERMINAL_102);
+		TERMINAL_190.addFollower(TERMINAL_103);
+		TERMINAL_190.addFollower(TERMINAL_104);
+		TERMINAL_190.addFollower(TERMINAL_105);
+		TERMINAL_190.addFollower(TERMINAL_106);
+		TERMINAL_94.addFollower(TERMINAL_191);
+		TERMINAL_191.addFollower(TERMINAL_70);
+		TERMINAL_191.addFollower(TERMINAL_71);
+		TERMINAL_191.addFollower(TERMINAL_72);
+		TERMINAL_191.addFollower(TERMINAL_1);
 		TERMINAL_28.addFollower(TERMINAL_73);
 		TERMINAL_28.addFollower(TERMINAL_74);
 		TERMINAL_28.addFollower(TERMINAL_75);
@@ -2655,50 +2673,50 @@ options {
 		TERMINAL_28.addFollower(TERMINAL_104);
 		TERMINAL_28.addFollower(TERMINAL_105);
 		TERMINAL_28.addFollower(TERMINAL_106);
-		TERMINAL_95.addFollower(TERMINAL_185);
-		TERMINAL_185.addFollower(TERMINAL_70);
-		TERMINAL_185.addFollower(TERMINAL_71);
-		TERMINAL_185.addFollower(TERMINAL_72);
-		TERMINAL_185.addFollower(TERMINAL_1);
-		TERMINAL_119.addFollower(TERMINAL_73);
-		TERMINAL_119.addFollower(TERMINAL_74);
-		TERMINAL_119.addFollower(TERMINAL_75);
-		TERMINAL_119.addFollower(TERMINAL_76);
-		TERMINAL_119.addFollower(TERMINAL_77);
-		TERMINAL_119.addFollower(TERMINAL_78);
-		TERMINAL_119.addFollower(TERMINAL_79);
-		TERMINAL_119.addFollower(TERMINAL_80);
-		TERMINAL_119.addFollower(TERMINAL_81);
-		TERMINAL_119.addFollower(TERMINAL_82);
-		TERMINAL_119.addFollower(TERMINAL_83);
-		TERMINAL_119.addFollower(TERMINAL_84);
-		TERMINAL_119.addFollower(TERMINAL_85);
-		TERMINAL_119.addFollower(TERMINAL_86);
-		TERMINAL_119.addFollower(TERMINAL_87);
-		TERMINAL_119.addFollower(TERMINAL_88);
-		TERMINAL_119.addFollower(TERMINAL_89);
-		TERMINAL_119.addFollower(TERMINAL_90);
-		TERMINAL_119.addFollower(TERMINAL_91);
-		TERMINAL_119.addFollower(TERMINAL_92);
-		TERMINAL_119.addFollower(TERMINAL_93);
-		TERMINAL_119.addFollower(TERMINAL_94);
-		TERMINAL_119.addFollower(TERMINAL_95);
-		TERMINAL_119.addFollower(TERMINAL_96);
-		TERMINAL_119.addFollower(TERMINAL_97);
-		TERMINAL_119.addFollower(TERMINAL_98);
-		TERMINAL_119.addFollower(TERMINAL_99);
-		TERMINAL_119.addFollower(TERMINAL_100);
-		TERMINAL_119.addFollower(TERMINAL_101);
-		TERMINAL_119.addFollower(TERMINAL_102);
-		TERMINAL_119.addFollower(TERMINAL_103);
-		TERMINAL_119.addFollower(TERMINAL_104);
-		TERMINAL_119.addFollower(TERMINAL_105);
-		TERMINAL_119.addFollower(TERMINAL_106);
-		TERMINAL_96.addFollower(TERMINAL_186);
-		TERMINAL_186.addFollower(TERMINAL_70);
-		TERMINAL_186.addFollower(TERMINAL_71);
-		TERMINAL_186.addFollower(TERMINAL_72);
-		TERMINAL_186.addFollower(TERMINAL_1);
+		TERMINAL_95.addFollower(TERMINAL_192);
+		TERMINAL_192.addFollower(TERMINAL_70);
+		TERMINAL_192.addFollower(TERMINAL_71);
+		TERMINAL_192.addFollower(TERMINAL_72);
+		TERMINAL_192.addFollower(TERMINAL_1);
+		TERMINAL_126.addFollower(TERMINAL_73);
+		TERMINAL_126.addFollower(TERMINAL_74);
+		TERMINAL_126.addFollower(TERMINAL_75);
+		TERMINAL_126.addFollower(TERMINAL_76);
+		TERMINAL_126.addFollower(TERMINAL_77);
+		TERMINAL_126.addFollower(TERMINAL_78);
+		TERMINAL_126.addFollower(TERMINAL_79);
+		TERMINAL_126.addFollower(TERMINAL_80);
+		TERMINAL_126.addFollower(TERMINAL_81);
+		TERMINAL_126.addFollower(TERMINAL_82);
+		TERMINAL_126.addFollower(TERMINAL_83);
+		TERMINAL_126.addFollower(TERMINAL_84);
+		TERMINAL_126.addFollower(TERMINAL_85);
+		TERMINAL_126.addFollower(TERMINAL_86);
+		TERMINAL_126.addFollower(TERMINAL_87);
+		TERMINAL_126.addFollower(TERMINAL_88);
+		TERMINAL_126.addFollower(TERMINAL_89);
+		TERMINAL_126.addFollower(TERMINAL_90);
+		TERMINAL_126.addFollower(TERMINAL_91);
+		TERMINAL_126.addFollower(TERMINAL_92);
+		TERMINAL_126.addFollower(TERMINAL_93);
+		TERMINAL_126.addFollower(TERMINAL_94);
+		TERMINAL_126.addFollower(TERMINAL_95);
+		TERMINAL_126.addFollower(TERMINAL_96);
+		TERMINAL_126.addFollower(TERMINAL_97);
+		TERMINAL_126.addFollower(TERMINAL_98);
+		TERMINAL_126.addFollower(TERMINAL_99);
+		TERMINAL_126.addFollower(TERMINAL_100);
+		TERMINAL_126.addFollower(TERMINAL_101);
+		TERMINAL_126.addFollower(TERMINAL_102);
+		TERMINAL_126.addFollower(TERMINAL_103);
+		TERMINAL_126.addFollower(TERMINAL_104);
+		TERMINAL_126.addFollower(TERMINAL_105);
+		TERMINAL_126.addFollower(TERMINAL_106);
+		TERMINAL_96.addFollower(TERMINAL_193);
+		TERMINAL_193.addFollower(TERMINAL_70);
+		TERMINAL_193.addFollower(TERMINAL_71);
+		TERMINAL_193.addFollower(TERMINAL_72);
+		TERMINAL_193.addFollower(TERMINAL_1);
 		TERMINAL_51.addFollower(TERMINAL_73);
 		TERMINAL_51.addFollower(TERMINAL_74);
 		TERMINAL_51.addFollower(TERMINAL_75);
@@ -2733,192 +2751,35 @@ options {
 		TERMINAL_51.addFollower(TERMINAL_104);
 		TERMINAL_51.addFollower(TERMINAL_105);
 		TERMINAL_51.addFollower(TERMINAL_106);
-		TERMINAL_97.addFollower(TERMINAL_187);
-		TERMINAL_187.addFollower(TERMINAL_70);
-		TERMINAL_187.addFollower(TERMINAL_71);
-		TERMINAL_187.addFollower(TERMINAL_72);
-		TERMINAL_187.addFollower(TERMINAL_1);
-		TERMINAL_187.addFollower(TERMINAL_3);
-		TERMINAL_187.addFollower(TERMINAL_4);
-		TERMINAL_187.addFollower(TERMINAL_5);
-		TERMINAL_187.addFollower(TERMINAL_6);
-		TERMINAL_187.addFollower(TERMINAL_7);
-		TERMINAL_187.addFollower(TERMINAL_8);
-		TERMINAL_187.addFollower(TERMINAL_9);
-		TERMINAL_187.addFollower(TERMINAL_10);
-		TERMINAL_187.addFollower(TERMINAL_11);
-		TERMINAL_187.addFollower(TERMINAL_12);
-		TERMINAL_187.addFollower(TERMINAL_13);
-		TERMINAL_187.addFollower(TERMINAL_14);
-		TERMINAL_187.addFollower(TERMINAL_15);
-		TERMINAL_187.addFollower(TERMINAL_16);
-		TERMINAL_187.addFollower(TERMINAL_17);
-		TERMINAL_187.addFollower(TERMINAL_18);
-		TERMINAL_187.addFollower(TERMINAL_19);
-		TERMINAL_29.addFollower(TERMINAL_1);
-		TERMINAL_29.addFollower(TERMINAL_35);
-		TERMINAL_29.addFollower(TERMINAL_120);
-		TERMINAL_120.addFollower(TERMINAL_188);
-		TERMINAL_188.addFollower(TERMINAL_1);
-		TERMINAL_188.addFollower(TERMINAL_121);
-		TERMINAL_121.addFollower(TERMINAL_189);
-		TERMINAL_189.addFollower(TERMINAL_73);
-		TERMINAL_189.addFollower(TERMINAL_74);
-		TERMINAL_189.addFollower(TERMINAL_75);
-		TERMINAL_189.addFollower(TERMINAL_76);
-		TERMINAL_189.addFollower(TERMINAL_77);
-		TERMINAL_189.addFollower(TERMINAL_78);
-		TERMINAL_189.addFollower(TERMINAL_79);
-		TERMINAL_189.addFollower(TERMINAL_80);
-		TERMINAL_189.addFollower(TERMINAL_81);
-		TERMINAL_189.addFollower(TERMINAL_82);
-		TERMINAL_189.addFollower(TERMINAL_83);
-		TERMINAL_189.addFollower(TERMINAL_84);
-		TERMINAL_189.addFollower(TERMINAL_85);
-		TERMINAL_189.addFollower(TERMINAL_86);
-		TERMINAL_189.addFollower(TERMINAL_87);
-		TERMINAL_189.addFollower(TERMINAL_88);
-		TERMINAL_189.addFollower(TERMINAL_89);
-		TERMINAL_189.addFollower(TERMINAL_90);
-		TERMINAL_189.addFollower(TERMINAL_91);
-		TERMINAL_189.addFollower(TERMINAL_92);
-		TERMINAL_189.addFollower(TERMINAL_93);
-		TERMINAL_189.addFollower(TERMINAL_94);
-		TERMINAL_189.addFollower(TERMINAL_95);
-		TERMINAL_189.addFollower(TERMINAL_96);
-		TERMINAL_189.addFollower(TERMINAL_97);
-		TERMINAL_189.addFollower(TERMINAL_98);
-		TERMINAL_189.addFollower(TERMINAL_99);
-		TERMINAL_189.addFollower(TERMINAL_100);
-		TERMINAL_189.addFollower(TERMINAL_101);
-		TERMINAL_189.addFollower(TERMINAL_102);
-		TERMINAL_189.addFollower(TERMINAL_103);
-		TERMINAL_189.addFollower(TERMINAL_104);
-		TERMINAL_189.addFollower(TERMINAL_105);
-		TERMINAL_189.addFollower(TERMINAL_106);
-		TERMINAL_98.addFollower(TERMINAL_190);
-		TERMINAL_190.addFollower(TERMINAL_70);
-		TERMINAL_190.addFollower(TERMINAL_71);
-		TERMINAL_190.addFollower(TERMINAL_72);
-		TERMINAL_190.addFollower(TERMINAL_1);
-		TERMINAL_191.addFollower(TERMINAL_73);
-		TERMINAL_191.addFollower(TERMINAL_74);
-		TERMINAL_191.addFollower(TERMINAL_75);
-		TERMINAL_191.addFollower(TERMINAL_76);
-		TERMINAL_191.addFollower(TERMINAL_77);
-		TERMINAL_191.addFollower(TERMINAL_78);
-		TERMINAL_191.addFollower(TERMINAL_79);
-		TERMINAL_191.addFollower(TERMINAL_80);
-		TERMINAL_191.addFollower(TERMINAL_81);
-		TERMINAL_191.addFollower(TERMINAL_82);
-		TERMINAL_191.addFollower(TERMINAL_83);
-		TERMINAL_191.addFollower(TERMINAL_84);
-		TERMINAL_191.addFollower(TERMINAL_85);
-		TERMINAL_191.addFollower(TERMINAL_86);
-		TERMINAL_191.addFollower(TERMINAL_87);
-		TERMINAL_191.addFollower(TERMINAL_88);
-		TERMINAL_191.addFollower(TERMINAL_89);
-		TERMINAL_191.addFollower(TERMINAL_90);
-		TERMINAL_191.addFollower(TERMINAL_91);
-		TERMINAL_191.addFollower(TERMINAL_92);
-		TERMINAL_191.addFollower(TERMINAL_93);
-		TERMINAL_191.addFollower(TERMINAL_94);
-		TERMINAL_191.addFollower(TERMINAL_95);
-		TERMINAL_191.addFollower(TERMINAL_96);
-		TERMINAL_191.addFollower(TERMINAL_97);
-		TERMINAL_191.addFollower(TERMINAL_98);
-		TERMINAL_191.addFollower(TERMINAL_99);
-		TERMINAL_191.addFollower(TERMINAL_100);
-		TERMINAL_191.addFollower(TERMINAL_101);
-		TERMINAL_191.addFollower(TERMINAL_102);
-		TERMINAL_191.addFollower(TERMINAL_103);
-		TERMINAL_191.addFollower(TERMINAL_104);
-		TERMINAL_191.addFollower(TERMINAL_105);
-		TERMINAL_191.addFollower(TERMINAL_106);
-		TERMINAL_99.addFollower(TERMINAL_192);
-		TERMINAL_192.addFollower(TERMINAL_70);
-		TERMINAL_192.addFollower(TERMINAL_71);
-		TERMINAL_192.addFollower(TERMINAL_72);
-		TERMINAL_192.addFollower(TERMINAL_1);
-		TERMINAL_193.addFollower(TERMINAL_73);
-		TERMINAL_193.addFollower(TERMINAL_74);
-		TERMINAL_193.addFollower(TERMINAL_75);
-		TERMINAL_193.addFollower(TERMINAL_76);
-		TERMINAL_193.addFollower(TERMINAL_77);
-		TERMINAL_193.addFollower(TERMINAL_78);
-		TERMINAL_193.addFollower(TERMINAL_79);
-		TERMINAL_193.addFollower(TERMINAL_80);
-		TERMINAL_193.addFollower(TERMINAL_81);
-		TERMINAL_193.addFollower(TERMINAL_82);
-		TERMINAL_193.addFollower(TERMINAL_83);
-		TERMINAL_193.addFollower(TERMINAL_84);
-		TERMINAL_193.addFollower(TERMINAL_85);
-		TERMINAL_193.addFollower(TERMINAL_86);
-		TERMINAL_193.addFollower(TERMINAL_87);
-		TERMINAL_193.addFollower(TERMINAL_88);
-		TERMINAL_193.addFollower(TERMINAL_89);
-		TERMINAL_193.addFollower(TERMINAL_90);
-		TERMINAL_193.addFollower(TERMINAL_91);
-		TERMINAL_193.addFollower(TERMINAL_92);
-		TERMINAL_193.addFollower(TERMINAL_93);
-		TERMINAL_193.addFollower(TERMINAL_94);
-		TERMINAL_193.addFollower(TERMINAL_95);
-		TERMINAL_193.addFollower(TERMINAL_96);
-		TERMINAL_193.addFollower(TERMINAL_97);
-		TERMINAL_193.addFollower(TERMINAL_98);
-		TERMINAL_193.addFollower(TERMINAL_99);
-		TERMINAL_193.addFollower(TERMINAL_100);
-		TERMINAL_193.addFollower(TERMINAL_101);
-		TERMINAL_193.addFollower(TERMINAL_102);
-		TERMINAL_193.addFollower(TERMINAL_103);
-		TERMINAL_193.addFollower(TERMINAL_104);
-		TERMINAL_193.addFollower(TERMINAL_105);
-		TERMINAL_193.addFollower(TERMINAL_106);
-		TERMINAL_100.addFollower(TERMINAL_194);
+		TERMINAL_97.addFollower(TERMINAL_194);
 		TERMINAL_194.addFollower(TERMINAL_70);
 		TERMINAL_194.addFollower(TERMINAL_71);
 		TERMINAL_194.addFollower(TERMINAL_72);
 		TERMINAL_194.addFollower(TERMINAL_1);
-		TERMINAL_30.addFollower(TERMINAL_73);
-		TERMINAL_30.addFollower(TERMINAL_74);
-		TERMINAL_30.addFollower(TERMINAL_75);
-		TERMINAL_30.addFollower(TERMINAL_76);
-		TERMINAL_30.addFollower(TERMINAL_77);
-		TERMINAL_30.addFollower(TERMINAL_78);
-		TERMINAL_30.addFollower(TERMINAL_79);
-		TERMINAL_30.addFollower(TERMINAL_80);
-		TERMINAL_30.addFollower(TERMINAL_81);
-		TERMINAL_30.addFollower(TERMINAL_82);
-		TERMINAL_30.addFollower(TERMINAL_83);
-		TERMINAL_30.addFollower(TERMINAL_84);
-		TERMINAL_30.addFollower(TERMINAL_85);
-		TERMINAL_30.addFollower(TERMINAL_86);
-		TERMINAL_30.addFollower(TERMINAL_87);
-		TERMINAL_30.addFollower(TERMINAL_88);
-		TERMINAL_30.addFollower(TERMINAL_89);
-		TERMINAL_30.addFollower(TERMINAL_90);
-		TERMINAL_30.addFollower(TERMINAL_91);
-		TERMINAL_30.addFollower(TERMINAL_92);
-		TERMINAL_30.addFollower(TERMINAL_93);
-		TERMINAL_30.addFollower(TERMINAL_94);
-		TERMINAL_30.addFollower(TERMINAL_95);
-		TERMINAL_30.addFollower(TERMINAL_96);
-		TERMINAL_30.addFollower(TERMINAL_97);
-		TERMINAL_30.addFollower(TERMINAL_98);
-		TERMINAL_30.addFollower(TERMINAL_99);
-		TERMINAL_30.addFollower(TERMINAL_100);
-		TERMINAL_30.addFollower(TERMINAL_101);
-		TERMINAL_30.addFollower(TERMINAL_102);
-		TERMINAL_30.addFollower(TERMINAL_103);
-		TERMINAL_30.addFollower(TERMINAL_104);
-		TERMINAL_30.addFollower(TERMINAL_105);
-		TERMINAL_30.addFollower(TERMINAL_106);
-		TERMINAL_101.addFollower(TERMINAL_195);
-		TERMINAL_195.addFollower(TERMINAL_70);
-		TERMINAL_195.addFollower(TERMINAL_71);
-		TERMINAL_195.addFollower(TERMINAL_72);
+		TERMINAL_194.addFollower(TERMINAL_3);
+		TERMINAL_194.addFollower(TERMINAL_4);
+		TERMINAL_194.addFollower(TERMINAL_5);
+		TERMINAL_194.addFollower(TERMINAL_6);
+		TERMINAL_194.addFollower(TERMINAL_7);
+		TERMINAL_194.addFollower(TERMINAL_8);
+		TERMINAL_194.addFollower(TERMINAL_9);
+		TERMINAL_194.addFollower(TERMINAL_10);
+		TERMINAL_194.addFollower(TERMINAL_11);
+		TERMINAL_194.addFollower(TERMINAL_12);
+		TERMINAL_194.addFollower(TERMINAL_13);
+		TERMINAL_194.addFollower(TERMINAL_14);
+		TERMINAL_194.addFollower(TERMINAL_15);
+		TERMINAL_194.addFollower(TERMINAL_16);
+		TERMINAL_194.addFollower(TERMINAL_17);
+		TERMINAL_194.addFollower(TERMINAL_18);
+		TERMINAL_194.addFollower(TERMINAL_19);
+		TERMINAL_29.addFollower(TERMINAL_1);
+		TERMINAL_29.addFollower(TERMINAL_35);
+		TERMINAL_29.addFollower(TERMINAL_127);
+		TERMINAL_127.addFollower(TERMINAL_195);
 		TERMINAL_195.addFollower(TERMINAL_1);
-		TERMINAL_195.addFollower(TERMINAL_35);
+		TERMINAL_195.addFollower(TERMINAL_128);
+		TERMINAL_128.addFollower(TERMINAL_196);
 		TERMINAL_196.addFollower(TERMINAL_73);
 		TERMINAL_196.addFollower(TERMINAL_74);
 		TERMINAL_196.addFollower(TERMINAL_75);
@@ -2953,12 +2814,11 @@ options {
 		TERMINAL_196.addFollower(TERMINAL_104);
 		TERMINAL_196.addFollower(TERMINAL_105);
 		TERMINAL_196.addFollower(TERMINAL_106);
-		TERMINAL_102.addFollower(TERMINAL_197);
+		TERMINAL_98.addFollower(TERMINAL_197);
 		TERMINAL_197.addFollower(TERMINAL_70);
 		TERMINAL_197.addFollower(TERMINAL_71);
 		TERMINAL_197.addFollower(TERMINAL_72);
 		TERMINAL_197.addFollower(TERMINAL_1);
-		TERMINAL_197.addFollower(TERMINAL_35);
 		TERMINAL_198.addFollower(TERMINAL_73);
 		TERMINAL_198.addFollower(TERMINAL_74);
 		TERMINAL_198.addFollower(TERMINAL_75);
@@ -2993,88 +2853,248 @@ options {
 		TERMINAL_198.addFollower(TERMINAL_104);
 		TERMINAL_198.addFollower(TERMINAL_105);
 		TERMINAL_198.addFollower(TERMINAL_106);
-		TERMINAL_103.addFollower(TERMINAL_199);
+		TERMINAL_99.addFollower(TERMINAL_199);
 		TERMINAL_199.addFollower(TERMINAL_70);
 		TERMINAL_199.addFollower(TERMINAL_71);
 		TERMINAL_199.addFollower(TERMINAL_72);
 		TERMINAL_199.addFollower(TERMINAL_1);
-		TERMINAL_114.addFollower(TERMINAL_73);
-		TERMINAL_114.addFollower(TERMINAL_74);
-		TERMINAL_114.addFollower(TERMINAL_75);
-		TERMINAL_114.addFollower(TERMINAL_76);
-		TERMINAL_114.addFollower(TERMINAL_77);
-		TERMINAL_114.addFollower(TERMINAL_78);
-		TERMINAL_114.addFollower(TERMINAL_79);
-		TERMINAL_114.addFollower(TERMINAL_80);
-		TERMINAL_114.addFollower(TERMINAL_81);
-		TERMINAL_114.addFollower(TERMINAL_82);
-		TERMINAL_114.addFollower(TERMINAL_83);
-		TERMINAL_114.addFollower(TERMINAL_84);
-		TERMINAL_114.addFollower(TERMINAL_85);
-		TERMINAL_114.addFollower(TERMINAL_86);
-		TERMINAL_114.addFollower(TERMINAL_87);
-		TERMINAL_114.addFollower(TERMINAL_88);
-		TERMINAL_114.addFollower(TERMINAL_89);
-		TERMINAL_114.addFollower(TERMINAL_90);
-		TERMINAL_114.addFollower(TERMINAL_91);
-		TERMINAL_114.addFollower(TERMINAL_92);
-		TERMINAL_114.addFollower(TERMINAL_93);
-		TERMINAL_114.addFollower(TERMINAL_94);
-		TERMINAL_114.addFollower(TERMINAL_95);
-		TERMINAL_114.addFollower(TERMINAL_96);
-		TERMINAL_114.addFollower(TERMINAL_97);
-		TERMINAL_114.addFollower(TERMINAL_98);
-		TERMINAL_114.addFollower(TERMINAL_99);
-		TERMINAL_114.addFollower(TERMINAL_100);
-		TERMINAL_114.addFollower(TERMINAL_101);
-		TERMINAL_114.addFollower(TERMINAL_102);
-		TERMINAL_114.addFollower(TERMINAL_103);
-		TERMINAL_114.addFollower(TERMINAL_104);
-		TERMINAL_114.addFollower(TERMINAL_105);
-		TERMINAL_114.addFollower(TERMINAL_106);
-		TERMINAL_104.addFollower(TERMINAL_200);
-		TERMINAL_200.addFollower(TERMINAL_70);
-		TERMINAL_200.addFollower(TERMINAL_71);
-		TERMINAL_200.addFollower(TERMINAL_72);
-		TERMINAL_200.addFollower(TERMINAL_1);
-		TERMINAL_115.addFollower(TERMINAL_73);
-		TERMINAL_115.addFollower(TERMINAL_74);
-		TERMINAL_115.addFollower(TERMINAL_75);
-		TERMINAL_115.addFollower(TERMINAL_76);
-		TERMINAL_115.addFollower(TERMINAL_77);
-		TERMINAL_115.addFollower(TERMINAL_78);
-		TERMINAL_115.addFollower(TERMINAL_79);
-		TERMINAL_115.addFollower(TERMINAL_80);
-		TERMINAL_115.addFollower(TERMINAL_81);
-		TERMINAL_115.addFollower(TERMINAL_82);
-		TERMINAL_115.addFollower(TERMINAL_83);
-		TERMINAL_115.addFollower(TERMINAL_84);
-		TERMINAL_115.addFollower(TERMINAL_85);
-		TERMINAL_115.addFollower(TERMINAL_86);
-		TERMINAL_115.addFollower(TERMINAL_87);
-		TERMINAL_115.addFollower(TERMINAL_88);
-		TERMINAL_115.addFollower(TERMINAL_89);
-		TERMINAL_115.addFollower(TERMINAL_90);
-		TERMINAL_115.addFollower(TERMINAL_91);
-		TERMINAL_115.addFollower(TERMINAL_92);
-		TERMINAL_115.addFollower(TERMINAL_93);
-		TERMINAL_115.addFollower(TERMINAL_94);
-		TERMINAL_115.addFollower(TERMINAL_95);
-		TERMINAL_115.addFollower(TERMINAL_96);
-		TERMINAL_115.addFollower(TERMINAL_97);
-		TERMINAL_115.addFollower(TERMINAL_98);
-		TERMINAL_115.addFollower(TERMINAL_99);
-		TERMINAL_115.addFollower(TERMINAL_100);
-		TERMINAL_115.addFollower(TERMINAL_101);
-		TERMINAL_115.addFollower(TERMINAL_102);
-		TERMINAL_115.addFollower(TERMINAL_103);
-		TERMINAL_115.addFollower(TERMINAL_104);
-		TERMINAL_115.addFollower(TERMINAL_105);
-		TERMINAL_115.addFollower(TERMINAL_106);
-		TERMINAL_70.addFollower(TERMINAL_201);
-		TERMINAL_71.addFollower(TERMINAL_201);
-		TERMINAL_72.addFollower(TERMINAL_201);
+		TERMINAL_200.addFollower(TERMINAL_73);
+		TERMINAL_200.addFollower(TERMINAL_74);
+		TERMINAL_200.addFollower(TERMINAL_75);
+		TERMINAL_200.addFollower(TERMINAL_76);
+		TERMINAL_200.addFollower(TERMINAL_77);
+		TERMINAL_200.addFollower(TERMINAL_78);
+		TERMINAL_200.addFollower(TERMINAL_79);
+		TERMINAL_200.addFollower(TERMINAL_80);
+		TERMINAL_200.addFollower(TERMINAL_81);
+		TERMINAL_200.addFollower(TERMINAL_82);
+		TERMINAL_200.addFollower(TERMINAL_83);
+		TERMINAL_200.addFollower(TERMINAL_84);
+		TERMINAL_200.addFollower(TERMINAL_85);
+		TERMINAL_200.addFollower(TERMINAL_86);
+		TERMINAL_200.addFollower(TERMINAL_87);
+		TERMINAL_200.addFollower(TERMINAL_88);
+		TERMINAL_200.addFollower(TERMINAL_89);
+		TERMINAL_200.addFollower(TERMINAL_90);
+		TERMINAL_200.addFollower(TERMINAL_91);
+		TERMINAL_200.addFollower(TERMINAL_92);
+		TERMINAL_200.addFollower(TERMINAL_93);
+		TERMINAL_200.addFollower(TERMINAL_94);
+		TERMINAL_200.addFollower(TERMINAL_95);
+		TERMINAL_200.addFollower(TERMINAL_96);
+		TERMINAL_200.addFollower(TERMINAL_97);
+		TERMINAL_200.addFollower(TERMINAL_98);
+		TERMINAL_200.addFollower(TERMINAL_99);
+		TERMINAL_200.addFollower(TERMINAL_100);
+		TERMINAL_200.addFollower(TERMINAL_101);
+		TERMINAL_200.addFollower(TERMINAL_102);
+		TERMINAL_200.addFollower(TERMINAL_103);
+		TERMINAL_200.addFollower(TERMINAL_104);
+		TERMINAL_200.addFollower(TERMINAL_105);
+		TERMINAL_200.addFollower(TERMINAL_106);
+		TERMINAL_100.addFollower(TERMINAL_201);
+		TERMINAL_201.addFollower(TERMINAL_70);
+		TERMINAL_201.addFollower(TERMINAL_71);
+		TERMINAL_201.addFollower(TERMINAL_72);
 		TERMINAL_201.addFollower(TERMINAL_1);
+		TERMINAL_30.addFollower(TERMINAL_73);
+		TERMINAL_30.addFollower(TERMINAL_74);
+		TERMINAL_30.addFollower(TERMINAL_75);
+		TERMINAL_30.addFollower(TERMINAL_76);
+		TERMINAL_30.addFollower(TERMINAL_77);
+		TERMINAL_30.addFollower(TERMINAL_78);
+		TERMINAL_30.addFollower(TERMINAL_79);
+		TERMINAL_30.addFollower(TERMINAL_80);
+		TERMINAL_30.addFollower(TERMINAL_81);
+		TERMINAL_30.addFollower(TERMINAL_82);
+		TERMINAL_30.addFollower(TERMINAL_83);
+		TERMINAL_30.addFollower(TERMINAL_84);
+		TERMINAL_30.addFollower(TERMINAL_85);
+		TERMINAL_30.addFollower(TERMINAL_86);
+		TERMINAL_30.addFollower(TERMINAL_87);
+		TERMINAL_30.addFollower(TERMINAL_88);
+		TERMINAL_30.addFollower(TERMINAL_89);
+		TERMINAL_30.addFollower(TERMINAL_90);
+		TERMINAL_30.addFollower(TERMINAL_91);
+		TERMINAL_30.addFollower(TERMINAL_92);
+		TERMINAL_30.addFollower(TERMINAL_93);
+		TERMINAL_30.addFollower(TERMINAL_94);
+		TERMINAL_30.addFollower(TERMINAL_95);
+		TERMINAL_30.addFollower(TERMINAL_96);
+		TERMINAL_30.addFollower(TERMINAL_97);
+		TERMINAL_30.addFollower(TERMINAL_98);
+		TERMINAL_30.addFollower(TERMINAL_99);
+		TERMINAL_30.addFollower(TERMINAL_100);
+		TERMINAL_30.addFollower(TERMINAL_101);
+		TERMINAL_30.addFollower(TERMINAL_102);
+		TERMINAL_30.addFollower(TERMINAL_103);
+		TERMINAL_30.addFollower(TERMINAL_104);
+		TERMINAL_30.addFollower(TERMINAL_105);
+		TERMINAL_30.addFollower(TERMINAL_106);
+		TERMINAL_101.addFollower(TERMINAL_202);
+		TERMINAL_202.addFollower(TERMINAL_70);
+		TERMINAL_202.addFollower(TERMINAL_71);
+		TERMINAL_202.addFollower(TERMINAL_72);
+		TERMINAL_202.addFollower(TERMINAL_1);
+		TERMINAL_202.addFollower(TERMINAL_35);
+		TERMINAL_203.addFollower(TERMINAL_73);
+		TERMINAL_203.addFollower(TERMINAL_74);
+		TERMINAL_203.addFollower(TERMINAL_75);
+		TERMINAL_203.addFollower(TERMINAL_76);
+		TERMINAL_203.addFollower(TERMINAL_77);
+		TERMINAL_203.addFollower(TERMINAL_78);
+		TERMINAL_203.addFollower(TERMINAL_79);
+		TERMINAL_203.addFollower(TERMINAL_80);
+		TERMINAL_203.addFollower(TERMINAL_81);
+		TERMINAL_203.addFollower(TERMINAL_82);
+		TERMINAL_203.addFollower(TERMINAL_83);
+		TERMINAL_203.addFollower(TERMINAL_84);
+		TERMINAL_203.addFollower(TERMINAL_85);
+		TERMINAL_203.addFollower(TERMINAL_86);
+		TERMINAL_203.addFollower(TERMINAL_87);
+		TERMINAL_203.addFollower(TERMINAL_88);
+		TERMINAL_203.addFollower(TERMINAL_89);
+		TERMINAL_203.addFollower(TERMINAL_90);
+		TERMINAL_203.addFollower(TERMINAL_91);
+		TERMINAL_203.addFollower(TERMINAL_92);
+		TERMINAL_203.addFollower(TERMINAL_93);
+		TERMINAL_203.addFollower(TERMINAL_94);
+		TERMINAL_203.addFollower(TERMINAL_95);
+		TERMINAL_203.addFollower(TERMINAL_96);
+		TERMINAL_203.addFollower(TERMINAL_97);
+		TERMINAL_203.addFollower(TERMINAL_98);
+		TERMINAL_203.addFollower(TERMINAL_99);
+		TERMINAL_203.addFollower(TERMINAL_100);
+		TERMINAL_203.addFollower(TERMINAL_101);
+		TERMINAL_203.addFollower(TERMINAL_102);
+		TERMINAL_203.addFollower(TERMINAL_103);
+		TERMINAL_203.addFollower(TERMINAL_104);
+		TERMINAL_203.addFollower(TERMINAL_105);
+		TERMINAL_203.addFollower(TERMINAL_106);
+		TERMINAL_102.addFollower(TERMINAL_204);
+		TERMINAL_204.addFollower(TERMINAL_70);
+		TERMINAL_204.addFollower(TERMINAL_71);
+		TERMINAL_204.addFollower(TERMINAL_72);
+		TERMINAL_204.addFollower(TERMINAL_1);
+		TERMINAL_204.addFollower(TERMINAL_35);
+		TERMINAL_205.addFollower(TERMINAL_73);
+		TERMINAL_205.addFollower(TERMINAL_74);
+		TERMINAL_205.addFollower(TERMINAL_75);
+		TERMINAL_205.addFollower(TERMINAL_76);
+		TERMINAL_205.addFollower(TERMINAL_77);
+		TERMINAL_205.addFollower(TERMINAL_78);
+		TERMINAL_205.addFollower(TERMINAL_79);
+		TERMINAL_205.addFollower(TERMINAL_80);
+		TERMINAL_205.addFollower(TERMINAL_81);
+		TERMINAL_205.addFollower(TERMINAL_82);
+		TERMINAL_205.addFollower(TERMINAL_83);
+		TERMINAL_205.addFollower(TERMINAL_84);
+		TERMINAL_205.addFollower(TERMINAL_85);
+		TERMINAL_205.addFollower(TERMINAL_86);
+		TERMINAL_205.addFollower(TERMINAL_87);
+		TERMINAL_205.addFollower(TERMINAL_88);
+		TERMINAL_205.addFollower(TERMINAL_89);
+		TERMINAL_205.addFollower(TERMINAL_90);
+		TERMINAL_205.addFollower(TERMINAL_91);
+		TERMINAL_205.addFollower(TERMINAL_92);
+		TERMINAL_205.addFollower(TERMINAL_93);
+		TERMINAL_205.addFollower(TERMINAL_94);
+		TERMINAL_205.addFollower(TERMINAL_95);
+		TERMINAL_205.addFollower(TERMINAL_96);
+		TERMINAL_205.addFollower(TERMINAL_97);
+		TERMINAL_205.addFollower(TERMINAL_98);
+		TERMINAL_205.addFollower(TERMINAL_99);
+		TERMINAL_205.addFollower(TERMINAL_100);
+		TERMINAL_205.addFollower(TERMINAL_101);
+		TERMINAL_205.addFollower(TERMINAL_102);
+		TERMINAL_205.addFollower(TERMINAL_103);
+		TERMINAL_205.addFollower(TERMINAL_104);
+		TERMINAL_205.addFollower(TERMINAL_105);
+		TERMINAL_205.addFollower(TERMINAL_106);
+		TERMINAL_103.addFollower(TERMINAL_206);
+		TERMINAL_206.addFollower(TERMINAL_70);
+		TERMINAL_206.addFollower(TERMINAL_71);
+		TERMINAL_206.addFollower(TERMINAL_72);
+		TERMINAL_206.addFollower(TERMINAL_1);
+		TERMINAL_121.addFollower(TERMINAL_73);
+		TERMINAL_121.addFollower(TERMINAL_74);
+		TERMINAL_121.addFollower(TERMINAL_75);
+		TERMINAL_121.addFollower(TERMINAL_76);
+		TERMINAL_121.addFollower(TERMINAL_77);
+		TERMINAL_121.addFollower(TERMINAL_78);
+		TERMINAL_121.addFollower(TERMINAL_79);
+		TERMINAL_121.addFollower(TERMINAL_80);
+		TERMINAL_121.addFollower(TERMINAL_81);
+		TERMINAL_121.addFollower(TERMINAL_82);
+		TERMINAL_121.addFollower(TERMINAL_83);
+		TERMINAL_121.addFollower(TERMINAL_84);
+		TERMINAL_121.addFollower(TERMINAL_85);
+		TERMINAL_121.addFollower(TERMINAL_86);
+		TERMINAL_121.addFollower(TERMINAL_87);
+		TERMINAL_121.addFollower(TERMINAL_88);
+		TERMINAL_121.addFollower(TERMINAL_89);
+		TERMINAL_121.addFollower(TERMINAL_90);
+		TERMINAL_121.addFollower(TERMINAL_91);
+		TERMINAL_121.addFollower(TERMINAL_92);
+		TERMINAL_121.addFollower(TERMINAL_93);
+		TERMINAL_121.addFollower(TERMINAL_94);
+		TERMINAL_121.addFollower(TERMINAL_95);
+		TERMINAL_121.addFollower(TERMINAL_96);
+		TERMINAL_121.addFollower(TERMINAL_97);
+		TERMINAL_121.addFollower(TERMINAL_98);
+		TERMINAL_121.addFollower(TERMINAL_99);
+		TERMINAL_121.addFollower(TERMINAL_100);
+		TERMINAL_121.addFollower(TERMINAL_101);
+		TERMINAL_121.addFollower(TERMINAL_102);
+		TERMINAL_121.addFollower(TERMINAL_103);
+		TERMINAL_121.addFollower(TERMINAL_104);
+		TERMINAL_121.addFollower(TERMINAL_105);
+		TERMINAL_121.addFollower(TERMINAL_106);
+		TERMINAL_104.addFollower(TERMINAL_207);
+	}
+	public static void wire2() {
+		TERMINAL_207.addFollower(TERMINAL_70);
+		TERMINAL_207.addFollower(TERMINAL_71);
+		TERMINAL_207.addFollower(TERMINAL_72);
+		TERMINAL_207.addFollower(TERMINAL_1);
+		TERMINAL_122.addFollower(TERMINAL_73);
+		TERMINAL_122.addFollower(TERMINAL_74);
+		TERMINAL_122.addFollower(TERMINAL_75);
+		TERMINAL_122.addFollower(TERMINAL_76);
+		TERMINAL_122.addFollower(TERMINAL_77);
+		TERMINAL_122.addFollower(TERMINAL_78);
+		TERMINAL_122.addFollower(TERMINAL_79);
+		TERMINAL_122.addFollower(TERMINAL_80);
+		TERMINAL_122.addFollower(TERMINAL_81);
+		TERMINAL_122.addFollower(TERMINAL_82);
+		TERMINAL_122.addFollower(TERMINAL_83);
+		TERMINAL_122.addFollower(TERMINAL_84);
+		TERMINAL_122.addFollower(TERMINAL_85);
+		TERMINAL_122.addFollower(TERMINAL_86);
+		TERMINAL_122.addFollower(TERMINAL_87);
+		TERMINAL_122.addFollower(TERMINAL_88);
+		TERMINAL_122.addFollower(TERMINAL_89);
+		TERMINAL_122.addFollower(TERMINAL_90);
+		TERMINAL_122.addFollower(TERMINAL_91);
+		TERMINAL_122.addFollower(TERMINAL_92);
+		TERMINAL_122.addFollower(TERMINAL_93);
+		TERMINAL_122.addFollower(TERMINAL_94);
+		TERMINAL_122.addFollower(TERMINAL_95);
+		TERMINAL_122.addFollower(TERMINAL_96);
+		TERMINAL_122.addFollower(TERMINAL_97);
+		TERMINAL_122.addFollower(TERMINAL_98);
+		TERMINAL_122.addFollower(TERMINAL_99);
+		TERMINAL_122.addFollower(TERMINAL_100);
+		TERMINAL_122.addFollower(TERMINAL_101);
+		TERMINAL_122.addFollower(TERMINAL_102);
+		TERMINAL_122.addFollower(TERMINAL_103);
+		TERMINAL_122.addFollower(TERMINAL_104);
+		TERMINAL_122.addFollower(TERMINAL_105);
+		TERMINAL_122.addFollower(TERMINAL_106);
+		TERMINAL_70.addFollower(TERMINAL_208);
+		TERMINAL_71.addFollower(TERMINAL_208);
+		TERMINAL_72.addFollower(TERMINAL_208);
+		TERMINAL_208.addFollower(TERMINAL_1);
 		TERMINAL_53.addFollower(TERMINAL_70);
 		TERMINAL_53.addFollower(TERMINAL_71);
 		TERMINAL_53.addFollower(TERMINAL_72);
@@ -3112,8 +3132,12 @@ options {
 		TERMINAL_53.addFollower(TERMINAL_104);
 		TERMINAL_53.addFollower(TERMINAL_105);
 		TERMINAL_53.addFollower(TERMINAL_106);
+		TERMINAL_53.addFollower(TERMINAL_110);
+		TERMINAL_53.addFollower(TERMINAL_111);
+		TERMINAL_53.addFollower(TERMINAL_112);
+		TERMINAL_53.addFollower(TERMINAL_113);
+		TERMINAL_53.addFollower(TERMINAL_114);
 		TERMINAL_53.addFollower(TERMINAL_1);
-		TERMINAL_53.addFollower(TERMINAL_43);
 		TERMINAL_53.addFollower(TERMINAL_3);
 		TERMINAL_53.addFollower(TERMINAL_4);
 		TERMINAL_53.addFollower(TERMINAL_5);
@@ -3132,61 +3156,59 @@ options {
 		TERMINAL_53.addFollower(TERMINAL_18);
 		TERMINAL_53.addFollower(TERMINAL_19);
 		TERMINAL_53.addFollower(TERMINAL_35);
-		TERMINAL_53.addFollower(TERMINAL_202);
-	}
-	public static void wire2() {
-		TERMINAL_105.addFollower(TERMINAL_203);
-		TERMINAL_203.addFollower(TERMINAL_204);
-		TERMINAL_203.addFollower(TERMINAL_205);
-		TERMINAL_203.addFollower(TERMINAL_206);
-		TERMINAL_203.addFollower(TERMINAL_207);
-		TERMINAL_203.addFollower(TERMINAL_208);
-		TERMINAL_203.addFollower(TERMINAL_209);
-		TERMINAL_204.addFollower(TERMINAL_210);
-		TERMINAL_205.addFollower(TERMINAL_210);
-		TERMINAL_206.addFollower(TERMINAL_210);
-		TERMINAL_207.addFollower(TERMINAL_210);
-		TERMINAL_208.addFollower(TERMINAL_210);
-		TERMINAL_209.addFollower(TERMINAL_210);
-		TERMINAL_210.addFollower(TERMINAL_1);
-		TERMINAL_210.addFollower(TERMINAL_43);
+		TERMINAL_53.addFollower(TERMINAL_209);
+		TERMINAL_105.addFollower(TERMINAL_210);
+		TERMINAL_210.addFollower(TERMINAL_211);
+		TERMINAL_210.addFollower(TERMINAL_212);
+		TERMINAL_210.addFollower(TERMINAL_213);
+		TERMINAL_210.addFollower(TERMINAL_214);
+		TERMINAL_210.addFollower(TERMINAL_215);
+		TERMINAL_210.addFollower(TERMINAL_216);
+		TERMINAL_211.addFollower(TERMINAL_217);
+		TERMINAL_212.addFollower(TERMINAL_217);
+		TERMINAL_213.addFollower(TERMINAL_217);
+		TERMINAL_214.addFollower(TERMINAL_217);
+		TERMINAL_215.addFollower(TERMINAL_217);
+		TERMINAL_216.addFollower(TERMINAL_217);
+		TERMINAL_217.addFollower(TERMINAL_1);
+		TERMINAL_217.addFollower(TERMINAL_43);
 		TERMINAL_31.addFollower(TERMINAL_70);
 		TERMINAL_31.addFollower(TERMINAL_71);
 		TERMINAL_31.addFollower(TERMINAL_72);
-		TERMINAL_202.addFollower(TERMINAL_73);
-		TERMINAL_202.addFollower(TERMINAL_74);
-		TERMINAL_202.addFollower(TERMINAL_75);
-		TERMINAL_202.addFollower(TERMINAL_76);
-		TERMINAL_202.addFollower(TERMINAL_77);
-		TERMINAL_202.addFollower(TERMINAL_78);
-		TERMINAL_202.addFollower(TERMINAL_79);
-		TERMINAL_202.addFollower(TERMINAL_80);
-		TERMINAL_202.addFollower(TERMINAL_81);
-		TERMINAL_202.addFollower(TERMINAL_82);
-		TERMINAL_202.addFollower(TERMINAL_83);
-		TERMINAL_202.addFollower(TERMINAL_84);
-		TERMINAL_202.addFollower(TERMINAL_85);
-		TERMINAL_202.addFollower(TERMINAL_86);
-		TERMINAL_202.addFollower(TERMINAL_87);
-		TERMINAL_202.addFollower(TERMINAL_88);
-		TERMINAL_202.addFollower(TERMINAL_89);
-		TERMINAL_202.addFollower(TERMINAL_90);
-		TERMINAL_202.addFollower(TERMINAL_91);
-		TERMINAL_202.addFollower(TERMINAL_92);
-		TERMINAL_202.addFollower(TERMINAL_93);
-		TERMINAL_202.addFollower(TERMINAL_94);
-		TERMINAL_202.addFollower(TERMINAL_95);
-		TERMINAL_202.addFollower(TERMINAL_96);
-		TERMINAL_202.addFollower(TERMINAL_97);
-		TERMINAL_202.addFollower(TERMINAL_98);
-		TERMINAL_202.addFollower(TERMINAL_99);
-		TERMINAL_202.addFollower(TERMINAL_100);
-		TERMINAL_202.addFollower(TERMINAL_101);
-		TERMINAL_202.addFollower(TERMINAL_102);
-		TERMINAL_202.addFollower(TERMINAL_103);
-		TERMINAL_202.addFollower(TERMINAL_104);
-		TERMINAL_202.addFollower(TERMINAL_105);
-		TERMINAL_202.addFollower(TERMINAL_106);
+		TERMINAL_209.addFollower(TERMINAL_73);
+		TERMINAL_209.addFollower(TERMINAL_74);
+		TERMINAL_209.addFollower(TERMINAL_75);
+		TERMINAL_209.addFollower(TERMINAL_76);
+		TERMINAL_209.addFollower(TERMINAL_77);
+		TERMINAL_209.addFollower(TERMINAL_78);
+		TERMINAL_209.addFollower(TERMINAL_79);
+		TERMINAL_209.addFollower(TERMINAL_80);
+		TERMINAL_209.addFollower(TERMINAL_81);
+		TERMINAL_209.addFollower(TERMINAL_82);
+		TERMINAL_209.addFollower(TERMINAL_83);
+		TERMINAL_209.addFollower(TERMINAL_84);
+		TERMINAL_209.addFollower(TERMINAL_85);
+		TERMINAL_209.addFollower(TERMINAL_86);
+		TERMINAL_209.addFollower(TERMINAL_87);
+		TERMINAL_209.addFollower(TERMINAL_88);
+		TERMINAL_209.addFollower(TERMINAL_89);
+		TERMINAL_209.addFollower(TERMINAL_90);
+		TERMINAL_209.addFollower(TERMINAL_91);
+		TERMINAL_209.addFollower(TERMINAL_92);
+		TERMINAL_209.addFollower(TERMINAL_93);
+		TERMINAL_209.addFollower(TERMINAL_94);
+		TERMINAL_209.addFollower(TERMINAL_95);
+		TERMINAL_209.addFollower(TERMINAL_96);
+		TERMINAL_209.addFollower(TERMINAL_97);
+		TERMINAL_209.addFollower(TERMINAL_98);
+		TERMINAL_209.addFollower(TERMINAL_99);
+		TERMINAL_209.addFollower(TERMINAL_100);
+		TERMINAL_209.addFollower(TERMINAL_101);
+		TERMINAL_209.addFollower(TERMINAL_102);
+		TERMINAL_209.addFollower(TERMINAL_103);
+		TERMINAL_209.addFollower(TERMINAL_104);
+		TERMINAL_209.addFollower(TERMINAL_105);
+		TERMINAL_209.addFollower(TERMINAL_106);
 	}
 	// wire the terminals
 	static {
@@ -4093,8 +4115,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Declaration returns [de.uniko.isweb.e
 		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 32));
 		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 32));
 		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 32));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 32));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 32));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_110, 32));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_111, 32));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_112, 32));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_113, 32));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_114, 32));
 	}
 	
 	(
@@ -4121,75 +4146,174 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Declaration returns [de.uniko.isweb.e
 		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 33));
 		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 33));
 		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 33));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 33));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 33));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_110, 33));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_111, 33));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_112, 33));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_113, 33));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_114, 33));
 	}
 	
 	(
-		a3_0 = parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Entity		{
+		a3 = 'Class' {
+			if (element == null) {
+				element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createDeclaration();
+			}
+			collectHiddenTokens(element);
+			copyLocalizationInfos((org.antlr.runtime.CommonToken)a3, element);
+		}
+		{
+			// expected elements (follow set)
+			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_115, 34));
+		}
+		
+		
+		|		a4 = 'Datatype' {
+			if (element == null) {
+				element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createDeclaration();
+			}
+			collectHiddenTokens(element);
+			copyLocalizationInfos((org.antlr.runtime.CommonToken)a4, element);
+		}
+		{
+			// expected elements (follow set)
+			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_115, 35));
+		}
+		
+		
+		|		a5 = 'ObjectProperty' {
+			if (element == null) {
+				element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createDeclaration();
+			}
+			collectHiddenTokens(element);
+			copyLocalizationInfos((org.antlr.runtime.CommonToken)a5, element);
+		}
+		{
+			// expected elements (follow set)
+			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_115, 36));
+		}
+		
+		
+		|		a6 = 'DataProperty' {
+			if (element == null) {
+				element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createDeclaration();
+			}
+			collectHiddenTokens(element);
+			copyLocalizationInfos((org.antlr.runtime.CommonToken)a6, element);
+		}
+		{
+			// expected elements (follow set)
+			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_115, 37));
+		}
+		
+		
+		|		a7 = 'Individual' {
+			if (element == null) {
+				element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createDeclaration();
+			}
+			collectHiddenTokens(element);
+			copyLocalizationInfos((org.antlr.runtime.CommonToken)a7, element);
+		}
+		{
+			// expected elements (follow set)
+			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_115, 38));
+		}
+		
+	)
+	{
+		// expected elements (follow set)
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_115, 39));
+	}
+	
+	a8 = '(' {
+		if (element == null) {
+			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createDeclaration();
+		}
+		collectHiddenTokens(element);
+		copyLocalizationInfos((org.antlr.runtime.CommonToken)a8, element);
+	}
+	{
+		// expected elements (follow set)
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 40));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 40));
+	}
+	
+	(
+		a9_0 = parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Entity		{
 			if (terminateParsing) {
 				throw new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsTerminateParsingException();
 			}
 			if (element == null) {
 				element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createDeclaration();
 			}
-			if (a3_0 != null) {
-				if (a3_0 != null) {
-					element.eSet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.DECLARATION__ENTITY), a3_0);
-					completedElement(a3_0);
+			if (a9_0 != null) {
+				if (a9_0 != null) {
+					element.eSet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.DECLARATION__ENTITY), a9_0);
+					completedElement(a9_0);
 				}
 				collectHiddenTokens(element);
-				copyLocalizationInfos(a3_0, element); 			}
+				copyLocalizationInfos(a9_0, element); 			}
 		}
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_2, 34));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_2, 41));
 	}
 	
-	a4 = ')' {
+	a10 = ')' {
 		if (element == null) {
 			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createDeclaration();
 		}
 		collectHiddenTokens(element);
-		copyLocalizationInfos((org.antlr.runtime.CommonToken)a4, element);
+		copyLocalizationInfos((org.antlr.runtime.CommonToken)a10, element);
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 35));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 35));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_116, 42));
+	}
+	
+	a11 = ')' {
+		if (element == null) {
+			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createDeclaration();
+		}
+		collectHiddenTokens(element);
+		copyLocalizationInfos((org.antlr.runtime.CommonToken)a11, element);
+	}
+	{
+		// expected elements (follow set)
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 43));
 	}
 	
 ;
@@ -4217,37 +4341,37 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Class returns [de.uniko.isweb.emftext
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_2, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 36));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_31, 36));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_2, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_31, 44));
 	}
 	
 ;
@@ -4286,22 +4410,22 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Datatype returns [de.uniko.isweb.emft
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_2, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_110, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_111, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_112, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_113, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_114, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_115, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_116, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_117, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_118, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_48, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_49, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_50, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_119, 37));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_31, 37));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_2, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_117, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_118, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_119, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_120, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_121, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_122, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_123, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_124, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_125, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_48, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_49, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_50, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_126, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_31, 45));
 	}
 	
 ;
@@ -4329,41 +4453,41 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectProperty returns [de.uniko.iswe
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_2, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_32, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_34, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_36, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_37, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_38, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_39, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_40, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_41, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_42, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_120, 38));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_31, 38));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_2, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_32, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_34, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_36, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_37, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_38, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_39, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_40, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_41, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_42, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_127, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_31, 46));
 	}
 	
 ;
@@ -4391,37 +4515,37 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataProperty returns [de.uniko.isweb.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_2, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_48, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_49, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_50, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_51, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_121, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 39));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_31, 39));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_2, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_48, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_49, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_50, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_51, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_128, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_31, 47));
 	}
 	
 ;
@@ -4449,30 +4573,30 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NamedIndividual returns [de.uniko.isw
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_2, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_52, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_122, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 40));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_31, 40));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_2, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_52, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_129, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_31, 48));
 	}
 	
 ;
@@ -4511,11 +4635,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_AnonymousIndividual returns [de.uniko
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 41));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 41));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_52, 41));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_122, 41));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 41));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 49));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 49));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_52, 49));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_129, 49));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 49));
 	}
 	
 ;
@@ -4554,7 +4678,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Literal returns [de.uniko.isweb.emfte
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_123, 42));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_130, 50));
 	}
 	
 	a1 = '^^' {
@@ -4566,7 +4690,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Literal returns [de.uniko.isweb.emfte
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 43));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 51));
 	}
 	
 	(
@@ -4588,13 +4712,13 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Literal returns [de.uniko.isweb.emfte
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 44));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_110, 44));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_111, 44));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_112, 44));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_113, 44));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_114, 44));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_115, 44));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 52));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_117, 52));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_118, 52));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_119, 52));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_120, 52));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_121, 52));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_122, 52));
 	}
 	
 ;
@@ -4612,7 +4736,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseObjectProperty returns [de.uni
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_124, 45));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_131, 53));
 	}
 	
 	a1 = '(' {
@@ -4624,7 +4748,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseObjectProperty returns [de.uni
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 46));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 54));
 	}
 	
 	(
@@ -4646,7 +4770,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseObjectProperty returns [de.uni
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_32, 47));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_32, 55));
 	}
 	
 	a3 = ')' {
@@ -4658,38 +4782,38 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseObjectProperty returns [de.uni
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_34, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_36, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_37, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_38, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_39, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_40, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_41, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_42, 48));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_120, 48));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_34, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_36, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_37, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_38, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_39, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_40, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_41, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_42, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_127, 56));
 	}
 	
 ;
@@ -4707,7 +4831,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataComplementOf returns [de.uniko.is
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_125, 49));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_132, 57));
 	}
 	
 	a1 = '(' {
@@ -4719,10 +4843,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataComplementOf returns [de.uniko.is
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 50));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 50));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 50));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 50));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 58));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 58));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 58));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 58));
 	}
 	
 	(
@@ -4744,7 +4868,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataComplementOf returns [de.uniko.is
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_116, 51));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_123, 59));
 	}
 	
 	a3 = ')' {
@@ -4756,13 +4880,13 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataComplementOf returns [de.uniko.is
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_116, 52));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_117, 52));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_118, 52));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_48, 52));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_49, 52));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_50, 52));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_119, 52));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_123, 60));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_124, 60));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_125, 60));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_48, 60));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_49, 60));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_50, 60));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_126, 60));
 	}
 	
 ;
@@ -4780,7 +4904,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataOneOf returns [de.uniko.isweb.emf
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_126, 53));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_133, 61));
 	}
 	
 	a1 = '(' {
@@ -4792,7 +4916,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataOneOf returns [de.uniko.isweb.emf
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 54));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 62));
 	}
 	
 	(
@@ -4816,8 +4940,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataOneOf returns [de.uniko.isweb.emf
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 55));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_110, 55));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 63));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_117, 63));
 	}
 	
 	a3 = ')' {
@@ -4829,13 +4953,13 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataOneOf returns [de.uniko.isweb.emf
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_116, 56));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_117, 56));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_118, 56));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_48, 56));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_49, 56));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_50, 56));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_119, 56));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_123, 64));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_124, 64));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_125, 64));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_48, 64));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_49, 64));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_50, 64));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_126, 64));
 	}
 	
 ;
@@ -4853,7 +4977,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DatatypeRestriction returns [de.uniko
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_127, 57));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_134, 65));
 	}
 	
 	a1 = '(' {
@@ -4865,7 +4989,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DatatypeRestriction returns [de.uniko
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 58));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 66));
 	}
 	
 	(
@@ -4887,7 +5011,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DatatypeRestriction returns [de.uniko
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_111, 59));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_118, 67));
 	}
 	
 	(
@@ -4911,8 +5035,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DatatypeRestriction returns [de.uniko
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_111, 60));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_112, 60));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_118, 68));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_119, 68));
 	}
 	
 	a4 = ')' {
@@ -4924,13 +5048,13 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DatatypeRestriction returns [de.uniko
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_116, 61));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_117, 61));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_118, 61));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_48, 61));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_49, 61));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_50, 61));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_119, 61));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_123, 69));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_124, 69));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_125, 69));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_48, 69));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_49, 69));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_50, 69));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_126, 69));
 	}
 	
 ;
@@ -4969,7 +5093,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_FacetConstantPair returns [de.uniko.i
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 62));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 70));
 	}
 	
 	(
@@ -4991,8 +5115,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_FacetConstantPair returns [de.uniko.i
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_111, 63));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_112, 63));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_118, 71));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_119, 71));
 	}
 	
 ;
@@ -5010,7 +5134,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectIntersectionOf returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_128, 64));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_135, 72));
 	}
 	
 	a1 = '(' {
@@ -5022,24 +5146,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectIntersectionOf returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 65));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 65));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 73));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 73));
 	}
 	
 	(
@@ -5061,24 +5185,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectIntersectionOf returns [de.unik
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 66));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 66));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 74));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 74));
 	}
 	
 	(
@@ -5102,25 +5226,25 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectIntersectionOf returns [de.unik
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 67));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_129, 67));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 75));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_136, 75));
 	}
 	
 	a4 = ')' {
@@ -5132,35 +5256,35 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectIntersectionOf returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 68));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 68));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 76));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 76));
 	}
 	
 ;
@@ -5178,7 +5302,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectUnionOf returns [de.uniko.isweb
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_130, 69));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_137, 77));
 	}
 	
 	a1 = '(' {
@@ -5190,24 +5314,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectUnionOf returns [de.uniko.isweb
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 70));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 70));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 78));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 78));
 	}
 	
 	(
@@ -5229,24 +5353,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectUnionOf returns [de.uniko.isweb
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 71));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 71));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 79));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 79));
 	}
 	
 	(
@@ -5270,25 +5394,25 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectUnionOf returns [de.uniko.isweb
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 72));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_131, 72));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 80));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_138, 80));
 	}
 	
 	a4 = ')' {
@@ -5297,212 +5421,6 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectUnionOf returns [de.uniko.isweb
 		}
 		collectHiddenTokens(element);
 		copyLocalizationInfos((org.antlr.runtime.CommonToken)a4, element);
-	}
-	{
-		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 73));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 73));
-	}
-	
-;
-
-parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectComplementOf returns [de.uniko.isweb.emftext.owl2fs.owl2fs.ObjectComplementOf element = null]
-@init{
-}
-:
-	a0 = 'ObjectComplementOf' {
-		if (element == null) {
-			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectComplementOf();
-		}
-		collectHiddenTokens(element);
-		copyLocalizationInfos((org.antlr.runtime.CommonToken)a0, element);
-	}
-	{
-		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_132, 74));
-	}
-	
-	a1 = '(' {
-		if (element == null) {
-			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectComplementOf();
-		}
-		collectHiddenTokens(element);
-		copyLocalizationInfos((org.antlr.runtime.CommonToken)a1, element);
-	}
-	{
-		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 75));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 75));
-	}
-	
-	(
-		a2_0 = parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ClassExpression		{
-			if (terminateParsing) {
-				throw new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsTerminateParsingException();
-			}
-			if (element == null) {
-				element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectComplementOf();
-			}
-			if (a2_0 != null) {
-				if (a2_0 != null) {
-					element.eSet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.OBJECT_COMPLEMENT_OF__CLASS_EXPRESSION), a2_0);
-					completedElement(a2_0);
-				}
-				collectHiddenTokens(element);
-				copyLocalizationInfos(a2_0, element); 			}
-		}
-	)
-	{
-		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 76));
-	}
-	
-	a3 = ')' {
-		if (element == null) {
-			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectComplementOf();
-		}
-		collectHiddenTokens(element);
-		copyLocalizationInfos((org.antlr.runtime.CommonToken)a3, element);
-	}
-	{
-		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 77));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 77));
-	}
-	
-;
-
-parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectOneOf returns [de.uniko.isweb.emftext.owl2fs.owl2fs.ObjectOneOf element = null]
-@init{
-}
-:
-	a0 = 'ObjectOneOf' {
-		if (element == null) {
-			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectOneOf();
-		}
-		collectHiddenTokens(element);
-		copyLocalizationInfos((org.antlr.runtime.CommonToken)a0, element);
-	}
-	{
-		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_133, 78));
-	}
-	
-	a1 = '(' {
-		if (element == null) {
-			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectOneOf();
-		}
-		collectHiddenTokens(element);
-		copyLocalizationInfos((org.antlr.runtime.CommonToken)a1, element);
-	}
-	{
-		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 79));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 79));
-	}
-	
-	(
-		(
-			a2_0 = parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Individual			{
-				if (terminateParsing) {
-					throw new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsTerminateParsingException();
-				}
-				if (element == null) {
-					element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectOneOf();
-				}
-				if (a2_0 != null) {
-					if (a2_0 != null) {
-						addObjectToList(element, de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.OBJECT_ONE_OF__INDIVIDUALS, a2_0);
-						completedElement(a2_0);
-					}
-					collectHiddenTokens(element);
-					copyLocalizationInfos(a2_0, element); 				}
-			}
-		)
-		
-	)+	{
-		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 80));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 80));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_52, 80));
-	}
-	
-	a3 = ')' {
-		if (element == null) {
-			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectOneOf();
-		}
-		collectHiddenTokens(element);
-		copyLocalizationInfos((org.antlr.runtime.CommonToken)a3, element);
 	}
 	{
 		// expected elements (follow set)
@@ -5539,6 +5457,212 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectOneOf returns [de.uniko.isweb.e
 	
 ;
 
+parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectComplementOf returns [de.uniko.isweb.emftext.owl2fs.owl2fs.ObjectComplementOf element = null]
+@init{
+}
+:
+	a0 = 'ObjectComplementOf' {
+		if (element == null) {
+			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectComplementOf();
+		}
+		collectHiddenTokens(element);
+		copyLocalizationInfos((org.antlr.runtime.CommonToken)a0, element);
+	}
+	{
+		// expected elements (follow set)
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_139, 82));
+	}
+	
+	a1 = '(' {
+		if (element == null) {
+			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectComplementOf();
+		}
+		collectHiddenTokens(element);
+		copyLocalizationInfos((org.antlr.runtime.CommonToken)a1, element);
+	}
+	{
+		// expected elements (follow set)
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 83));
+	}
+	
+	(
+		a2_0 = parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ClassExpression		{
+			if (terminateParsing) {
+				throw new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsTerminateParsingException();
+			}
+			if (element == null) {
+				element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectComplementOf();
+			}
+			if (a2_0 != null) {
+				if (a2_0 != null) {
+					element.eSet(element.eClass().getEStructuralFeature(de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.OBJECT_COMPLEMENT_OF__CLASS_EXPRESSION), a2_0);
+					completedElement(a2_0);
+				}
+				collectHiddenTokens(element);
+				copyLocalizationInfos(a2_0, element); 			}
+		}
+	)
+	{
+		// expected elements (follow set)
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 84));
+	}
+	
+	a3 = ')' {
+		if (element == null) {
+			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectComplementOf();
+		}
+		collectHiddenTokens(element);
+		copyLocalizationInfos((org.antlr.runtime.CommonToken)a3, element);
+	}
+	{
+		// expected elements (follow set)
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 85));
+	}
+	
+;
+
+parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectOneOf returns [de.uniko.isweb.emftext.owl2fs.owl2fs.ObjectOneOf element = null]
+@init{
+}
+:
+	a0 = 'ObjectOneOf' {
+		if (element == null) {
+			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectOneOf();
+		}
+		collectHiddenTokens(element);
+		copyLocalizationInfos((org.antlr.runtime.CommonToken)a0, element);
+	}
+	{
+		// expected elements (follow set)
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_140, 86));
+	}
+	
+	a1 = '(' {
+		if (element == null) {
+			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectOneOf();
+		}
+		collectHiddenTokens(element);
+		copyLocalizationInfos((org.antlr.runtime.CommonToken)a1, element);
+	}
+	{
+		// expected elements (follow set)
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 87));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 87));
+	}
+	
+	(
+		(
+			a2_0 = parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Individual			{
+				if (terminateParsing) {
+					throw new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsTerminateParsingException();
+				}
+				if (element == null) {
+					element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectOneOf();
+				}
+				if (a2_0 != null) {
+					if (a2_0 != null) {
+						addObjectToList(element, de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsPackage.OBJECT_ONE_OF__INDIVIDUALS, a2_0);
+						completedElement(a2_0);
+					}
+					collectHiddenTokens(element);
+					copyLocalizationInfos(a2_0, element); 				}
+			}
+		)
+		
+	)+	{
+		// expected elements (follow set)
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 88));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 88));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_52, 88));
+	}
+	
+	a3 = ')' {
+		if (element == null) {
+			element = de.uniko.isweb.emftext.owl2fs.owl2fs.Owl2fsFactory.eINSTANCE.createObjectOneOf();
+		}
+		collectHiddenTokens(element);
+		copyLocalizationInfos((org.antlr.runtime.CommonToken)a3, element);
+	}
+	{
+		// expected elements (follow set)
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 89));
+	}
+	
+;
+
 parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectSomeValuesFrom returns [de.uniko.isweb.emftext.owl2fs.owl2fs.ObjectSomeValuesFrom element = null]
 @init{
 }
@@ -5552,7 +5676,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectSomeValuesFrom returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_134, 82));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_141, 90));
 	}
 	
 	a1 = '(' {
@@ -5564,8 +5688,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectSomeValuesFrom returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 83));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 83));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 91));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 91));
 	}
 	
 	(
@@ -5587,24 +5711,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectSomeValuesFrom returns [de.unik
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 84));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 84));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 92));
 	}
 	
 	(
@@ -5626,7 +5750,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectSomeValuesFrom returns [de.unik
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 85));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 93));
 	}
 	
 	a4 = ')' {
@@ -5638,35 +5762,35 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectSomeValuesFrom returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 86));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 86));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 94));
 	}
 	
 ;
@@ -5684,7 +5808,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectAllValuesFrom returns [de.uniko
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_135, 87));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_142, 95));
 	}
 	
 	a1 = '(' {
@@ -5696,8 +5820,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectAllValuesFrom returns [de.uniko
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 88));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 88));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 96));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 96));
 	}
 	
 	(
@@ -5719,24 +5843,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectAllValuesFrom returns [de.uniko
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 89));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 89));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 97));
 	}
 	
 	(
@@ -5758,7 +5882,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectAllValuesFrom returns [de.uniko
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 90));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 98));
 	}
 	
 	a4 = ')' {
@@ -5770,35 +5894,35 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectAllValuesFrom returns [de.uniko
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 91));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 91));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 99));
 	}
 	
 ;
@@ -5816,7 +5940,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectHasValue returns [de.uniko.iswe
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_136, 92));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_143, 100));
 	}
 	
 	a1 = '(' {
@@ -5828,8 +5952,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectHasValue returns [de.uniko.iswe
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 93));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 93));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 101));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 101));
 	}
 	
 	(
@@ -5851,8 +5975,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectHasValue returns [de.uniko.iswe
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 94));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 94));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 102));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 102));
 	}
 	
 	(
@@ -5874,7 +5998,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectHasValue returns [de.uniko.iswe
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_122, 95));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_129, 103));
 	}
 	
 	a4 = ')' {
@@ -5886,35 +6010,35 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectHasValue returns [de.uniko.iswe
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 96));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 96));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 104));
 	}
 	
 ;
@@ -5932,7 +6056,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectExistsSelf returns [de.uniko.is
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_137, 97));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_144, 105));
 	}
 	
 	a1 = '(' {
@@ -5944,8 +6068,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectExistsSelf returns [de.uniko.is
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 98));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 98));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 106));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 106));
 	}
 	
 	(
@@ -5967,7 +6091,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectExistsSelf returns [de.uniko.is
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_34, 99));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_34, 107));
 	}
 	
 	a3 = ')' {
@@ -5979,35 +6103,35 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectExistsSelf returns [de.uniko.is
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 100));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 100));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 108));
 	}
 	
 ;
@@ -6025,7 +6149,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectMinCardinality returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_138, 101));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_145, 109));
 	}
 	
 	a1 = '(' {
@@ -6037,7 +6161,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectMinCardinality returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_139, 102));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_146, 110));
 	}
 	
 	(
@@ -6070,8 +6194,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectMinCardinality returns [de.unik
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 103));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 103));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 111));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 111));
 	}
 	
 	(
@@ -6093,25 +6217,25 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectMinCardinality returns [de.unik
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 104));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 104));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 112));
 	}
 	
 	(
@@ -6135,7 +6259,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectMinCardinality returns [de.unik
 		
 	)?	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 105));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 113));
 	}
 	
 	a5 = ')' {
@@ -6147,35 +6271,35 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectMinCardinality returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 106));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 106));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 114));
 	}
 	
 ;
@@ -6193,7 +6317,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectMaxCardinality returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_140, 107));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_147, 115));
 	}
 	
 	a1 = '(' {
@@ -6205,7 +6329,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectMaxCardinality returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_141, 108));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_148, 116));
 	}
 	
 	(
@@ -6238,8 +6362,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectMaxCardinality returns [de.unik
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 109));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 109));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 117));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 117));
 	}
 	
 	(
@@ -6261,25 +6385,25 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectMaxCardinality returns [de.unik
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 110));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 110));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 118));
 	}
 	
 	(
@@ -6303,7 +6427,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectMaxCardinality returns [de.unik
 		
 	)?	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 111));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 119));
 	}
 	
 	a5 = ')' {
@@ -6315,35 +6439,35 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectMaxCardinality returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 112));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 112));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 120));
 	}
 	
 ;
@@ -6361,7 +6485,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectExactCardinality returns [de.un
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_142, 113));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_149, 121));
 	}
 	
 	a1 = '(' {
@@ -6373,7 +6497,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectExactCardinality returns [de.un
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_143, 114));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_150, 122));
 	}
 	
 	(
@@ -6406,8 +6530,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectExactCardinality returns [de.un
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 115));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 115));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 123));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 123));
 	}
 	
 	(
@@ -6429,25 +6553,25 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectExactCardinality returns [de.un
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 116));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 116));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 124));
 	}
 	
 	(
@@ -6471,7 +6595,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectExactCardinality returns [de.un
 		
 	)?	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 117));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 125));
 	}
 	
 	a5 = ')' {
@@ -6483,35 +6607,35 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectExactCardinality returns [de.un
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 118));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 118));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 126));
 	}
 	
 ;
@@ -6529,7 +6653,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataSomeValuesFrom returns [de.uniko.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_144, 119));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_151, 127));
 	}
 	
 	a1 = '(' {
@@ -6541,7 +6665,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataSomeValuesFrom returns [de.uniko.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 120));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 128));
 	}
 	
 	(
@@ -6563,10 +6687,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataSomeValuesFrom returns [de.uniko.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 121));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 121));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 121));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 121));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 129));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 129));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 129));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 129));
 	}
 	
 	(
@@ -6588,7 +6712,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataSomeValuesFrom returns [de.uniko.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_117, 122));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_124, 130));
 	}
 	
 	a4 = ')' {
@@ -6600,35 +6724,35 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataSomeValuesFrom returns [de.uniko.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 123));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 123));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 131));
 	}
 	
 ;
@@ -6646,7 +6770,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataAllValuesFrom returns [de.uniko.i
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_145, 124));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_152, 132));
 	}
 	
 	a1 = '(' {
@@ -6658,7 +6782,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataAllValuesFrom returns [de.uniko.i
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 125));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 133));
 	}
 	
 	(
@@ -6680,10 +6804,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataAllValuesFrom returns [de.uniko.i
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 126));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 126));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 126));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 126));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 134));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 134));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 134));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 134));
 	}
 	
 	(
@@ -6705,7 +6829,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataAllValuesFrom returns [de.uniko.i
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_118, 127));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_125, 135));
 	}
 	
 	a4 = ')' {
@@ -6717,35 +6841,35 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataAllValuesFrom returns [de.uniko.i
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 128));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 128));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 136));
 	}
 	
 ;
@@ -6763,7 +6887,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataHasValue returns [de.uniko.isweb.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_146, 129));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_153, 137));
 	}
 	
 	a1 = '(' {
@@ -6775,7 +6899,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataHasValue returns [de.uniko.isweb.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 130));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 138));
 	}
 	
 	(
@@ -6797,7 +6921,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataHasValue returns [de.uniko.isweb.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 131));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 139));
 	}
 	
 	(
@@ -6819,7 +6943,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataHasValue returns [de.uniko.isweb.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_113, 132));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_120, 140));
 	}
 	
 	a4 = ')' {
@@ -6831,35 +6955,35 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataHasValue returns [de.uniko.isweb.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 133));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 133));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 141));
 	}
 	
 ;
@@ -6877,7 +7001,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataMinCardinality returns [de.uniko.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_147, 134));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_154, 142));
 	}
 	
 	a1 = '(' {
@@ -6889,7 +7013,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataMinCardinality returns [de.uniko.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_148, 135));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_155, 143));
 	}
 	
 	(
@@ -6922,7 +7046,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataMinCardinality returns [de.uniko.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 136));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 144));
 	}
 	
 	(
@@ -6944,11 +7068,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataMinCardinality returns [de.uniko.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 137));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 137));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 137));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 137));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_48, 137));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 145));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 145));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 145));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 145));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_48, 145));
 	}
 	
 	(
@@ -6972,7 +7096,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataMinCardinality returns [de.uniko.
 		
 	)?	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_48, 138));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_48, 146));
 	}
 	
 	a5 = ')' {
@@ -6984,35 +7108,35 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataMinCardinality returns [de.uniko.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 139));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 139));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 147));
 	}
 	
 ;
@@ -7030,7 +7154,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataMaxCardinality returns [de.uniko.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_149, 140));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_156, 148));
 	}
 	
 	a1 = '(' {
@@ -7042,7 +7166,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataMaxCardinality returns [de.uniko.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_150, 141));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_157, 149));
 	}
 	
 	(
@@ -7075,7 +7199,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataMaxCardinality returns [de.uniko.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 142));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 150));
 	}
 	
 	(
@@ -7097,11 +7221,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataMaxCardinality returns [de.uniko.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 143));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 143));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 143));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 143));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_49, 143));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 151));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 151));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 151));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 151));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_49, 151));
 	}
 	
 	(
@@ -7125,7 +7249,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataMaxCardinality returns [de.uniko.
 		
 	)?	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_49, 144));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_49, 152));
 	}
 	
 	a5 = ')' {
@@ -7137,35 +7261,35 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataMaxCardinality returns [de.uniko.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 145));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 145));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 153));
 	}
 	
 ;
@@ -7183,7 +7307,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataExactCardinality returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_151, 146));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_158, 154));
 	}
 	
 	a1 = '(' {
@@ -7195,7 +7319,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataExactCardinality returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_152, 147));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_159, 155));
 	}
 	
 	(
@@ -7228,7 +7352,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataExactCardinality returns [de.unik
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 148));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 156));
 	}
 	
 	(
@@ -7250,11 +7374,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataExactCardinality returns [de.unik
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 149));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 149));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 149));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 149));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_50, 149));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 157));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 157));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 157));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 157));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_50, 157));
 	}
 	
 	(
@@ -7278,7 +7402,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataExactCardinality returns [de.unik
 		
 	)?	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_50, 150));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_50, 158));
 	}
 	
 	a5 = ')' {
@@ -7290,35 +7414,35 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataExactCardinality returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 151));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 151));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_20, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_21, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_22, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_23, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_24, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_25, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 159));
 	}
 	
 ;
@@ -7336,7 +7460,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubClassOf returns [de.uniko.isweb.em
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_153, 152));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_160, 160));
 	}
 	
 	a1 = '(' {
@@ -7348,27 +7472,27 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubClassOf returns [de.uniko.isweb.em
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 153));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 153));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 161));
 	}
 	
 	(
@@ -7392,27 +7516,27 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubClassOf returns [de.uniko.isweb.em
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 154));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 154));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 162));
 	}
 	
 	(
@@ -7434,24 +7558,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubClassOf returns [de.uniko.isweb.em
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 155));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 155));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 163));
 	}
 	
 	(
@@ -7473,7 +7597,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubClassOf returns [de.uniko.isweb.em
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_154, 156));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_161, 164));
 	}
 	
 	a5 = ')' {
@@ -7485,40 +7609,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubClassOf returns [de.uniko.isweb.em
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 157));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 157));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 165));
 	}
 	
 ;
@@ -7536,7 +7660,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentClasses returns [de.uniko.i
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_155, 158));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_162, 166));
 	}
 	
 	a1 = '(' {
@@ -7548,27 +7672,27 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentClasses returns [de.uniko.i
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 159));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 159));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 167));
 	}
 	
 	(
@@ -7592,27 +7716,27 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentClasses returns [de.uniko.i
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 160));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 160));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 168));
 	}
 	
 	(
@@ -7634,24 +7758,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentClasses returns [de.uniko.i
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 161));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 161));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 169));
 	}
 	
 	(
@@ -7675,25 +7799,25 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentClasses returns [de.uniko.i
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 162));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_156, 162));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_163, 170));
 	}
 	
 	a5 = ')' {
@@ -7705,40 +7829,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentClasses returns [de.uniko.i
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 163));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 163));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 171));
 	}
 	
 ;
@@ -7756,7 +7880,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointClasses returns [de.uniko.isw
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_157, 164));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_164, 172));
 	}
 	
 	a1 = '(' {
@@ -7768,27 +7892,27 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointClasses returns [de.uniko.isw
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 165));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 165));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 173));
 	}
 	
 	(
@@ -7812,27 +7936,27 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointClasses returns [de.uniko.isw
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 166));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 166));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 174));
 	}
 	
 	(
@@ -7854,24 +7978,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointClasses returns [de.uniko.isw
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 167));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 167));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 175));
 	}
 	
 	(
@@ -7895,25 +8019,25 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointClasses returns [de.uniko.isw
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 168));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_158, 168));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_165, 176));
 	}
 	
 	a5 = ')' {
@@ -7925,40 +8049,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointClasses returns [de.uniko.isw
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 169));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 169));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 177));
 	}
 	
 ;
@@ -7976,7 +8100,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointUnion returns [de.uniko.isweb
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_159, 170));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_166, 178));
 	}
 	
 	a1 = '(' {
@@ -7988,10 +8112,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointUnion returns [de.uniko.isweb
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 171));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 171));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 171));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 171));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 179));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 179));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 179));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 179));
 	}
 	
 	(
@@ -8015,10 +8139,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointUnion returns [de.uniko.isweb
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 172));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 172));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 172));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 172));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 180));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 180));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 180));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 180));
 	}
 	
 	(
@@ -8040,24 +8164,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointUnion returns [de.uniko.isweb
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 173));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 173));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 181));
 	}
 	
 	(
@@ -8079,24 +8203,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointUnion returns [de.uniko.isweb
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 174));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 174));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 182));
 	}
 	
 	(
@@ -8120,25 +8244,25 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointUnion returns [de.uniko.isweb
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 175));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_160, 175));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_167, 183));
 	}
 	
 	a6 = ')' {
@@ -8150,40 +8274,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointUnion returns [de.uniko.isweb
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 176));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 176));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 184));
 	}
 	
 ;
@@ -8201,7 +8325,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubObjectPropertyOf returns [de.uniko
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_161, 177));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_168, 185));
 	}
 	
 	a1 = '(' {
@@ -8213,11 +8337,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubObjectPropertyOf returns [de.uniko
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 178));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 178));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 178));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 178));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 178));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 186));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 186));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 186));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 186));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 186));
 	}
 	
 	(
@@ -8241,11 +8365,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubObjectPropertyOf returns [de.uniko
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 179));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 179));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 179));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 179));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 179));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 187));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 187));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 187));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 187));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 187));
 	}
 	
 	(
@@ -8267,8 +8391,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubObjectPropertyOf returns [de.uniko
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 180));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 180));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 188));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 188));
 	}
 	
 	(
@@ -8290,7 +8414,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubObjectPropertyOf returns [de.uniko
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_162, 181));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_169, 189));
 	}
 	
 	a5 = ')' {
@@ -8302,40 +8426,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubObjectPropertyOf returns [de.uniko
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 182));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 182));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 190));
 	}
 	
 ;
@@ -8353,7 +8477,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentObjectProperties returns [d
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_163, 183));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_170, 191));
 	}
 	
 	a1 = '(' {
@@ -8365,11 +8489,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentObjectProperties returns [d
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 184));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 184));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 184));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 184));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 184));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 192));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 192));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 192));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 192));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 192));
 	}
 	
 	(
@@ -8393,11 +8517,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentObjectProperties returns [d
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 185));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 185));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 185));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 185));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 185));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 193));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 193));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 193));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 193));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 193));
 	}
 	
 	(
@@ -8419,8 +8543,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentObjectProperties returns [d
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 186));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 186));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 194));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 194));
 	}
 	
 	(
@@ -8444,9 +8568,9 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentObjectProperties returns [d
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 187));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 187));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_164, 187));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 195));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 195));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_171, 195));
 	}
 	
 	a5 = ')' {
@@ -8458,40 +8582,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentObjectProperties returns [d
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 188));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 188));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 196));
 	}
 	
 ;
@@ -8509,7 +8633,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointObjectProperties returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_165, 189));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_172, 197));
 	}
 	
 	a1 = '(' {
@@ -8521,11 +8645,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointObjectProperties returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 190));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 190));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 190));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 190));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 190));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 198));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 198));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 198));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 198));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 198));
 	}
 	
 	(
@@ -8549,11 +8673,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointObjectProperties returns [de.
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 191));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 191));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 191));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 191));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 191));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 199));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 199));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 199));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 199));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 199));
 	}
 	
 	(
@@ -8575,8 +8699,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointObjectProperties returns [de.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 192));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 192));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 200));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 200));
 	}
 	
 	(
@@ -8600,9 +8724,9 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointObjectProperties returns [de.
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 193));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 193));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_166, 193));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 201));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 201));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_173, 201));
 	}
 	
 	a5 = ')' {
@@ -8614,40 +8738,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointObjectProperties returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 194));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 194));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 202));
 	}
 	
 ;
@@ -8665,7 +8789,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyDomain returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_167, 195));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_174, 203));
 	}
 	
 	a1 = '(' {
@@ -8677,11 +8801,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyDomain returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 196));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 196));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 196));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 196));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 196));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 204));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 204));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 204));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 204));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 204));
 	}
 	
 	(
@@ -8705,11 +8829,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyDomain returns [de.unik
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 197));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 197));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 197));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 197));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 197));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 205));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 205));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 205));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 205));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 205));
 	}
 	
 	(
@@ -8731,24 +8855,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyDomain returns [de.unik
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 198));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 198));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 206));
 	}
 	
 	(
@@ -8770,7 +8894,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyDomain returns [de.unik
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 199));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_26, 207));
 	}
 	
 	a5 = ')' {
@@ -8782,40 +8906,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyDomain returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 200));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 200));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 208));
 	}
 	
 ;
@@ -8833,7 +8957,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyRange returns [de.uniko
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_168, 201));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_175, 209));
 	}
 	
 	a1 = '(' {
@@ -8845,11 +8969,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyRange returns [de.uniko
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 202));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 202));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 202));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 202));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 202));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 210));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 210));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 210));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 210));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 210));
 	}
 	
 	(
@@ -8873,11 +8997,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyRange returns [de.uniko
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 203));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 203));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 203));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 203));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 203));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 211));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 211));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 211));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 211));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 211));
 	}
 	
 	(
@@ -8899,24 +9023,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyRange returns [de.uniko
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 204));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 204));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 212));
 	}
 	
 	(
@@ -8938,7 +9062,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyRange returns [de.uniko
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 205));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_27, 213));
 	}
 	
 	a5 = ')' {
@@ -8950,40 +9074,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyRange returns [de.uniko
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 206));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 206));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 214));
 	}
 	
 ;
@@ -9001,7 +9125,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseObjectProperties returns [de.u
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_169, 207));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_176, 215));
 	}
 	
 	a1 = '(' {
@@ -9013,11 +9137,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseObjectProperties returns [de.u
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 208));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 208));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 208));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 208));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 208));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 216));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 216));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 216));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 216));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 216));
 	}
 	
 	(
@@ -9041,11 +9165,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseObjectProperties returns [de.u
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 209));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 209));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 209));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 209));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 209));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 217));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 217));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 217));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 217));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 217));
 	}
 	
 	(
@@ -9067,8 +9191,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseObjectProperties returns [de.u
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 210));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 210));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 218));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 218));
 	}
 	
 	(
@@ -9090,7 +9214,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseObjectProperties returns [de.u
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_170, 211));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_177, 219));
 	}
 	
 	a5 = ')' {
@@ -9102,40 +9226,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseObjectProperties returns [de.u
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 212));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 212));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 220));
 	}
 	
 ;
@@ -9153,7 +9277,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_FunctionalObjectProperty returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_171, 213));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_178, 221));
 	}
 	
 	a1 = '(' {
@@ -9165,11 +9289,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_FunctionalObjectProperty returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 214));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 214));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 214));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 214));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 214));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 222));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 222));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 222));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 222));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 222));
 	}
 	
 	(
@@ -9193,11 +9317,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_FunctionalObjectProperty returns [de.
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 215));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 215));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 215));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 215));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 215));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 223));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 223));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 223));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 223));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 223));
 	}
 	
 	(
@@ -9219,7 +9343,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_FunctionalObjectProperty returns [de.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_36, 216));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_36, 224));
 	}
 	
 	a4 = ')' {
@@ -9231,40 +9355,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_FunctionalObjectProperty returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 217));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 217));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 225));
 	}
 	
 ;
@@ -9282,7 +9406,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseFunctionalObjectProperty retur
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_172, 218));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_179, 226));
 	}
 	
 	a1 = '(' {
@@ -9294,11 +9418,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseFunctionalObjectProperty retur
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 219));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 219));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 219));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 219));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 219));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 227));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 227));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 227));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 227));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 227));
 	}
 	
 	(
@@ -9322,11 +9446,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseFunctionalObjectProperty retur
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 220));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 220));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 220));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 220));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 220));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 228));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 228));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 228));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 228));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 228));
 	}
 	
 	(
@@ -9348,7 +9472,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseFunctionalObjectProperty retur
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_37, 221));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_37, 229));
 	}
 	
 	a4 = ')' {
@@ -9360,40 +9484,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_InverseFunctionalObjectProperty retur
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 222));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 222));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 230));
 	}
 	
 ;
@@ -9411,7 +9535,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ReflexiveObjectProperty returns [de.u
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_173, 223));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_180, 231));
 	}
 	
 	a1 = '(' {
@@ -9423,11 +9547,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ReflexiveObjectProperty returns [de.u
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 224));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 224));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 224));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 224));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 224));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 232));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 232));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 232));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 232));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 232));
 	}
 	
 	(
@@ -9451,11 +9575,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ReflexiveObjectProperty returns [de.u
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 225));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 225));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 225));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 225));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 225));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 233));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 233));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 233));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 233));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 233));
 	}
 	
 	(
@@ -9477,7 +9601,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ReflexiveObjectProperty returns [de.u
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_38, 226));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_38, 234));
 	}
 	
 	a4 = ')' {
@@ -9489,40 +9613,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ReflexiveObjectProperty returns [de.u
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 227));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 227));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 235));
 	}
 	
 ;
@@ -9540,7 +9664,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_IrreflexiveObjectProperty returns [de
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_174, 228));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_181, 236));
 	}
 	
 	a1 = '(' {
@@ -9552,11 +9676,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_IrreflexiveObjectProperty returns [de
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 229));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 229));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 229));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 229));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 229));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 237));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 237));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 237));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 237));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 237));
 	}
 	
 	(
@@ -9580,11 +9704,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_IrreflexiveObjectProperty returns [de
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 230));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 230));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 230));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 230));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 230));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 238));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 238));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 238));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 238));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 238));
 	}
 	
 	(
@@ -9606,7 +9730,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_IrreflexiveObjectProperty returns [de
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_39, 231));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_39, 239));
 	}
 	
 	a4 = ')' {
@@ -9618,40 +9742,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_IrreflexiveObjectProperty returns [de
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 232));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 232));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 240));
 	}
 	
 ;
@@ -9669,7 +9793,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SymmetricObjectProperty returns [de.u
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_175, 233));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_182, 241));
 	}
 	
 	a1 = '(' {
@@ -9681,11 +9805,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SymmetricObjectProperty returns [de.u
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 234));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 234));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 234));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 234));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 234));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 242));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 242));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 242));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 242));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 242));
 	}
 	
 	(
@@ -9709,11 +9833,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SymmetricObjectProperty returns [de.u
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 235));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 235));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 235));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 235));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 235));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 243));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 243));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 243));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 243));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 243));
 	}
 	
 	(
@@ -9735,7 +9859,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SymmetricObjectProperty returns [de.u
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_40, 236));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_40, 244));
 	}
 	
 	a4 = ')' {
@@ -9747,40 +9871,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SymmetricObjectProperty returns [de.u
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 237));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 237));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 245));
 	}
 	
 ;
@@ -9798,7 +9922,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_AsymmetricObjectProperty returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_176, 238));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_183, 246));
 	}
 	
 	a1 = '(' {
@@ -9810,11 +9934,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_AsymmetricObjectProperty returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 239));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 239));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 239));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 239));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 239));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 247));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 247));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 247));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 247));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 247));
 	}
 	
 	(
@@ -9838,11 +9962,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_AsymmetricObjectProperty returns [de.
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 240));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 240));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 240));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 240));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 240));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 248));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 248));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 248));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 248));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 248));
 	}
 	
 	(
@@ -9864,7 +9988,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_AsymmetricObjectProperty returns [de.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_41, 241));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_41, 249));
 	}
 	
 	a4 = ')' {
@@ -9876,40 +10000,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_AsymmetricObjectProperty returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 242));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 242));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 250));
 	}
 	
 ;
@@ -9927,7 +10051,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_TransitiveObjectProperty returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_177, 243));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_184, 251));
 	}
 	
 	a1 = '(' {
@@ -9939,11 +10063,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_TransitiveObjectProperty returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 244));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 244));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 244));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 244));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 244));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 252));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 252));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 252));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 252));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 252));
 	}
 	
 	(
@@ -9967,11 +10091,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_TransitiveObjectProperty returns [de.
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 245));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 245));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 245));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 245));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 245));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 253));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 253));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 253));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 253));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 253));
 	}
 	
 	(
@@ -9993,7 +10117,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_TransitiveObjectProperty returns [de.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_42, 246));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_42, 254));
 	}
 	
 	a4 = ')' {
@@ -10005,40 +10129,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_TransitiveObjectProperty returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 247));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 247));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 255));
 	}
 	
 ;
@@ -10056,7 +10180,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubDataPropertyOf returns [de.uniko.i
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_178, 248));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_185, 256));
 	}
 	
 	a1 = '(' {
@@ -10068,10 +10192,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubDataPropertyOf returns [de.uniko.i
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 249));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 249));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 249));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 249));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 257));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 257));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 257));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 257));
 	}
 	
 	(
@@ -10095,10 +10219,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubDataPropertyOf returns [de.uniko.i
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 250));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 250));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 250));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 250));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 258));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 258));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 258));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 258));
 	}
 	
 	(
@@ -10120,7 +10244,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubDataPropertyOf returns [de.uniko.i
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 251));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 259));
 	}
 	
 	(
@@ -10142,7 +10266,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubDataPropertyOf returns [de.uniko.i
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_179, 252));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_186, 260));
 	}
 	
 	a5 = ')' {
@@ -10154,40 +10278,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SubDataPropertyOf returns [de.uniko.i
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 253));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 253));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 261));
 	}
 	
 ;
@@ -10205,7 +10329,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentDataProperties returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_180, 254));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_187, 262));
 	}
 	
 	a1 = '(' {
@@ -10217,10 +10341,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentDataProperties returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 255));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 255));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 255));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 255));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 263));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 263));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 263));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 263));
 	}
 	
 	(
@@ -10244,10 +10368,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentDataProperties returns [de.
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 256));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 256));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 256));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 256));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 264));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 264));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 264));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 264));
 	}
 	
 	(
@@ -10269,7 +10393,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentDataProperties returns [de.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 257));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 265));
 	}
 	
 	(
@@ -10293,8 +10417,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentDataProperties returns [de.
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 258));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_181, 258));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 266));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_188, 266));
 	}
 	
 	a5 = ')' {
@@ -10306,40 +10430,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EquivalentDataProperties returns [de.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 259));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 259));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 267));
 	}
 	
 ;
@@ -10357,7 +10481,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointDataProperties returns [de.un
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_182, 260));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_189, 268));
 	}
 	
 	a1 = '(' {
@@ -10369,10 +10493,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointDataProperties returns [de.un
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 261));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 261));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 261));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 261));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 269));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 269));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 269));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 269));
 	}
 	
 	(
@@ -10396,10 +10520,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointDataProperties returns [de.un
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 262));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 262));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 262));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 262));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 270));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 270));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 270));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 270));
 	}
 	
 	(
@@ -10421,7 +10545,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointDataProperties returns [de.un
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 263));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 271));
 	}
 	
 	(
@@ -10445,8 +10569,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointDataProperties returns [de.un
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 264));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_183, 264));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 272));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_190, 272));
 	}
 	
 	a5 = ')' {
@@ -10458,40 +10582,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DisjointDataProperties returns [de.un
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 265));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 265));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 273));
 	}
 	
 ;
@@ -10509,7 +10633,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyDomain returns [de.uniko.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_184, 266));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_191, 274));
 	}
 	
 	a1 = '(' {
@@ -10521,10 +10645,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyDomain returns [de.uniko.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 267));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 267));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 267));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 267));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 275));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 275));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 275));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 275));
 	}
 	
 	(
@@ -10548,10 +10672,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyDomain returns [de.uniko.
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 268));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 268));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 268));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 268));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 276));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 276));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 276));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 276));
 	}
 	
 	(
@@ -10573,24 +10697,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyDomain returns [de.uniko.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 269));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 269));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 277));
 	}
 	
 	(
@@ -10612,7 +10736,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyDomain returns [de.uniko.
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 270));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_28, 278));
 	}
 	
 	a5 = ')' {
@@ -10624,40 +10748,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyDomain returns [de.uniko.
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 271));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 271));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 279));
 	}
 	
 ;
@@ -10675,7 +10799,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyRange returns [de.uniko.i
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_185, 272));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_192, 280));
 	}
 	
 	a1 = '(' {
@@ -10687,10 +10811,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyRange returns [de.uniko.i
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 273));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 273));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 273));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 273));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 281));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 281));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 281));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 281));
 	}
 	
 	(
@@ -10714,10 +10838,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyRange returns [de.uniko.i
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 274));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 274));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 274));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 274));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 282));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 282));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 282));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 282));
 	}
 	
 	(
@@ -10739,10 +10863,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyRange returns [de.uniko.i
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 275));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 275));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 275));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 275));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 283));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_44, 283));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_45, 283));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_46, 283));
 	}
 	
 	(
@@ -10764,7 +10888,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyRange returns [de.uniko.i
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_119, 276));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_126, 284));
 	}
 	
 	a5 = ')' {
@@ -10776,40 +10900,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyRange returns [de.uniko.i
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 277));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 277));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 285));
 	}
 	
 ;
@@ -10827,7 +10951,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_FunctionalDataProperty returns [de.un
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_186, 278));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_193, 286));
 	}
 	
 	a1 = '(' {
@@ -10839,10 +10963,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_FunctionalDataProperty returns [de.un
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 279));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 279));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 279));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 279));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 287));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 287));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 287));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 287));
 	}
 	
 	(
@@ -10866,10 +10990,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_FunctionalDataProperty returns [de.un
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 280));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 280));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 280));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 280));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 288));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 288));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 288));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 288));
 	}
 	
 	(
@@ -10891,7 +11015,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_FunctionalDataProperty returns [de.un
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_51, 281));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_51, 289));
 	}
 	
 	a4 = ')' {
@@ -10903,40 +11027,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_FunctionalDataProperty returns [de.un
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 282));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 282));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 290));
 	}
 	
 ;
@@ -10954,7 +11078,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_KeyFor returns [de.uniko.isweb.emftex
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_187, 283));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_194, 291));
 	}
 	
 	a1 = '(' {
@@ -10966,27 +11090,27 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_KeyFor returns [de.uniko.isweb.emftex
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 284));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 284));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 292));
 	}
 	
 	(
@@ -11010,27 +11134,27 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_KeyFor returns [de.uniko.isweb.emftex
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 285));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 285));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 293));
 	}
 	
 	(
@@ -11052,7 +11176,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_KeyFor returns [de.uniko.isweb.emftex
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 286));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_29, 294));
 	}
 	
 	a4 = '(' {
@@ -11064,9 +11188,9 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_KeyFor returns [de.uniko.isweb.emftex
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 287));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 287));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_120, 287));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 295));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 295));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_127, 295));
 	}
 	
 	(
@@ -11090,9 +11214,9 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_KeyFor returns [de.uniko.isweb.emftex
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 288));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 288));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_120, 288));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 296));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 296));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_127, 296));
 	}
 	
 	a6 = ')' {
@@ -11104,7 +11228,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_KeyFor returns [de.uniko.isweb.emftex
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_188, 289));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_195, 297));
 	}
 	
 	a7 = '(' {
@@ -11116,8 +11240,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_KeyFor returns [de.uniko.isweb.emftex
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 290));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_121, 290));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 298));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_128, 298));
 	}
 	
 	(
@@ -11141,8 +11265,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_KeyFor returns [de.uniko.isweb.emftex
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 291));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_121, 291));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 299));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_128, 299));
 	}
 	
 	a9 = ')' {
@@ -11154,7 +11278,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_KeyFor returns [de.uniko.isweb.emftex
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_189, 292));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_196, 300));
 	}
 	
 	a10 = ')' {
@@ -11166,40 +11290,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_KeyFor returns [de.uniko.isweb.emftex
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 293));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 293));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 301));
 	}
 	
 ;
@@ -11217,7 +11341,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SameIndividual returns [de.uniko.iswe
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_190, 294));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_197, 302));
 	}
 	
 	a1 = '(' {
@@ -11229,10 +11353,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SameIndividual returns [de.uniko.iswe
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 295));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 295));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 295));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 295));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 303));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 303));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 303));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 303));
 	}
 	
 	(
@@ -11256,10 +11380,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SameIndividual returns [de.uniko.iswe
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 296));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 296));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 296));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 296));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 304));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 304));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 304));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 304));
 	}
 	
 	(
@@ -11281,7 +11405,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SameIndividual returns [de.uniko.iswe
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 297));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 305));
 	}
 	
 	(
@@ -11305,8 +11429,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SameIndividual returns [de.uniko.iswe
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 298));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_191, 298));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 306));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_198, 306));
 	}
 	
 	a5 = ')' {
@@ -11318,40 +11442,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_SameIndividual returns [de.uniko.iswe
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 299));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 299));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 307));
 	}
 	
 ;
@@ -11369,7 +11493,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DifferentIndividuals returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_192, 300));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_199, 308));
 	}
 	
 	a1 = '(' {
@@ -11381,10 +11505,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DifferentIndividuals returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 301));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 301));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 301));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 301));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 309));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 309));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 309));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 309));
 	}
 	
 	(
@@ -11408,10 +11532,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DifferentIndividuals returns [de.unik
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 302));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 302));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 302));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 302));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 310));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 310));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 310));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 310));
 	}
 	
 	(
@@ -11433,7 +11557,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DifferentIndividuals returns [de.unik
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 303));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 311));
 	}
 	
 	(
@@ -11457,8 +11581,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DifferentIndividuals returns [de.unik
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 304));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_193, 304));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 312));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_200, 312));
 	}
 	
 	a5 = ')' {
@@ -11470,40 +11594,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DifferentIndividuals returns [de.unik
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 305));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 305));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 313));
 	}
 	
 ;
@@ -11521,7 +11645,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ClassAssertion returns [de.uniko.iswe
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_194, 306));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_201, 314));
 	}
 	
 	a1 = '(' {
@@ -11533,10 +11657,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ClassAssertion returns [de.uniko.iswe
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 307));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 307));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 307));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 307));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 315));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 315));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 315));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 315));
 	}
 	
 	(
@@ -11560,10 +11684,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ClassAssertion returns [de.uniko.iswe
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 308));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 308));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 308));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 308));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 316));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 316));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 316));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 316));
 	}
 	
 	(
@@ -11585,24 +11709,24 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ClassAssertion returns [de.uniko.iswe
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 309));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 309));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 317));
 	}
 	
 	(
@@ -11624,7 +11748,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ClassAssertion returns [de.uniko.iswe
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 310));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_30, 318));
 	}
 	
 	a5 = ')' {
@@ -11636,40 +11760,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ClassAssertion returns [de.uniko.iswe
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 311));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 311));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 319));
 	}
 	
 ;
@@ -11687,7 +11811,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyAssertion returns [de.u
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_195, 312));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_202, 320));
 	}
 	
 	a1 = '(' {
@@ -11699,11 +11823,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyAssertion returns [de.u
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 313));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 313));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 313));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 313));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 313));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 321));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 321));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 321));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 321));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 321));
 	}
 	
 	(
@@ -11727,11 +11851,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyAssertion returns [de.u
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 314));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 314));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 314));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 314));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 314));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 322));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 322));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 322));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 322));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 322));
 	}
 	
 	(
@@ -11753,8 +11877,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyAssertion returns [de.u
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 315));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 315));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 323));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 323));
 	}
 	
 	(
@@ -11776,8 +11900,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyAssertion returns [de.u
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 316));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 316));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 324));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 324));
 	}
 	
 	(
@@ -11799,7 +11923,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyAssertion returns [de.u
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_196, 317));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_203, 325));
 	}
 	
 	a6 = ')' {
@@ -11811,40 +11935,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_ObjectPropertyAssertion returns [de.u
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 318));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 318));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 326));
 	}
 	
 ;
@@ -11862,7 +11986,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NegativeObjectPropertyAssertion retur
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_197, 319));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_204, 327));
 	}
 	
 	a1 = '(' {
@@ -11874,11 +11998,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NegativeObjectPropertyAssertion retur
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 320));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 320));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 320));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 320));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 320));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 328));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 328));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 328));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 328));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 328));
 	}
 	
 	(
@@ -11902,11 +12026,11 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NegativeObjectPropertyAssertion retur
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 321));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 321));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 321));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 321));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 321));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 329));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 329));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 329));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 329));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 329));
 	}
 	
 	(
@@ -11928,8 +12052,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NegativeObjectPropertyAssertion retur
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 322));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 322));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 330));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 330));
 	}
 	
 	(
@@ -11951,8 +12075,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NegativeObjectPropertyAssertion retur
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 323));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 323));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 331));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 331));
 	}
 	
 	(
@@ -11974,7 +12098,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NegativeObjectPropertyAssertion retur
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_198, 324));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_205, 332));
 	}
 	
 	a6 = ')' {
@@ -11986,40 +12110,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NegativeObjectPropertyAssertion retur
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 325));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 325));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 333));
 	}
 	
 ;
@@ -12037,7 +12161,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyAssertion returns [de.uni
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_199, 326));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_206, 334));
 	}
 	
 	a1 = '(' {
@@ -12049,10 +12173,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyAssertion returns [de.uni
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 327));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 327));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 327));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 327));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 335));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 335));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 335));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 335));
 	}
 	
 	(
@@ -12076,10 +12200,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyAssertion returns [de.uni
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 328));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 328));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 328));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 328));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 336));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 336));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 336));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 336));
 	}
 	
 	(
@@ -12101,8 +12225,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyAssertion returns [de.uni
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 329));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 329));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 337));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 337));
 	}
 	
 	(
@@ -12124,7 +12248,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyAssertion returns [de.uni
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 330));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 338));
 	}
 	
 	(
@@ -12146,7 +12270,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyAssertion returns [de.uni
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_114, 331));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_121, 339));
 	}
 	
 	a6 = ')' {
@@ -12158,40 +12282,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_DataPropertyAssertion returns [de.uni
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 332));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 332));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 340));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 340));
 	}
 	
 ;
@@ -12209,7 +12333,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NegativeDataPropertyAssertion returns
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_200, 333));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_207, 341));
 	}
 	
 	a1 = '(' {
@@ -12221,10 +12345,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NegativeDataPropertyAssertion returns
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 334));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 334));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 334));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 334));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 342));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 342));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 342));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 342));
 	}
 	
 	(
@@ -12248,10 +12372,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NegativeDataPropertyAssertion returns
 		
 	)*	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 335));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 335));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 335));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 335));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 343));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 343));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 343));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 343));
 	}
 	
 	(
@@ -12273,8 +12397,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NegativeDataPropertyAssertion returns
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 336));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 336));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 344));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_33, 344));
 	}
 	
 	(
@@ -12296,7 +12420,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NegativeDataPropertyAssertion returns
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 337));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_47, 345));
 	}
 	
 	(
@@ -12318,7 +12442,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NegativeDataPropertyAssertion returns
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_115, 338));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_122, 346));
 	}
 	
 	a6 = ')' {
@@ -12330,40 +12454,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_NegativeDataPropertyAssertion returns
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 339));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 339));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 347));
 	}
 	
 ;
@@ -12382,7 +12506,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Annotation returns [de.uniko.isweb.em
 		}
 		{
 			// expected elements (follow set)
-			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_201, 340));
+			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_208, 348));
 		}
 		
 		
@@ -12395,7 +12519,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Annotation returns [de.uniko.isweb.em
 		}
 		{
 			// expected elements (follow set)
-			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_201, 341));
+			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_208, 349));
 		}
 		
 		
@@ -12408,13 +12532,13 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Annotation returns [de.uniko.isweb.em
 		}
 		{
 			// expected elements (follow set)
-			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_201, 342));
+			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_208, 350));
 		}
 		
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_201, 343));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_208, 351));
 	}
 	
 	a3 = '(' {
@@ -12426,7 +12550,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Annotation returns [de.uniko.isweb.em
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 344));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 352));
 	}
 	
 	(
@@ -12450,8 +12574,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Annotation returns [de.uniko.isweb.em
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 345));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_53, 345));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 353));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_53, 353));
 	}
 	
 	a5 = ')' {
@@ -12463,64 +12587,68 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_Annotation returns [de.uniko.isweb.em
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 346));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_202, 346));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_110, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_111, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_112, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_113, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_114, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_3, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_4, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_5, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_6, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_7, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_8, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_9, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_10, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_11, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_12, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_13, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_14, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_15, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_16, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_17, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_18, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_19, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_35, 354));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_209, 354));
 	}
 	
 ;
@@ -12550,10 +12678,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_AnnotationProperty returns [de.uniko.
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 347));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_2, 347));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_53, 347));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_31, 347));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 355));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_2, 355));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_53, 355));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_31, 355));
 	}
 	
 ;
@@ -12571,7 +12699,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EntityAnnotation returns [de.uniko.is
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_203, 348));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_210, 356));
 	}
 	
 	a1 = '(' {
@@ -12583,12 +12711,12 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EntityAnnotation returns [de.uniko.is
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_204, 349));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_205, 349));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_206, 349));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_207, 349));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_208, 349));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_209, 349));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_211, 357));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_212, 357));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_213, 357));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_214, 357));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_215, 357));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_216, 357));
 	}
 	
 	(
@@ -12601,7 +12729,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EntityAnnotation returns [de.uniko.is
 		}
 		{
 			// expected elements (follow set)
-			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_210, 350));
+			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_217, 358));
 		}
 		
 		
@@ -12614,7 +12742,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EntityAnnotation returns [de.uniko.is
 		}
 		{
 			// expected elements (follow set)
-			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_210, 351));
+			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_217, 359));
 		}
 		
 		
@@ -12627,7 +12755,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EntityAnnotation returns [de.uniko.is
 		}
 		{
 			// expected elements (follow set)
-			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_210, 352));
+			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_217, 360));
 		}
 		
 		
@@ -12640,7 +12768,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EntityAnnotation returns [de.uniko.is
 		}
 		{
 			// expected elements (follow set)
-			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_210, 353));
+			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_217, 361));
 		}
 		
 		
@@ -12653,7 +12781,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EntityAnnotation returns [de.uniko.is
 		}
 		{
 			// expected elements (follow set)
-			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_210, 354));
+			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_217, 362));
 		}
 		
 		
@@ -12666,13 +12794,13 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EntityAnnotation returns [de.uniko.is
 		}
 		{
 			// expected elements (follow set)
-			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_210, 355));
+			addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_217, 363));
 		}
 		
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_210, 356));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_217, 364));
 	}
 	
 	a8 = '(' {
@@ -12684,8 +12812,8 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EntityAnnotation returns [de.uniko.is
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 357));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 357));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_1, 365));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_43, 365));
 	}
 	
 	(
@@ -12707,7 +12835,7 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EntityAnnotation returns [de.uniko.is
 	)
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_31, 358));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_31, 366));
 	}
 	
 	a10 = ')' {
@@ -12719,9 +12847,9 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EntityAnnotation returns [de.uniko.is
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 359));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 359));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 359));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 367));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 367));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 367));
 	}
 	
 	(
@@ -12745,10 +12873,10 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EntityAnnotation returns [de.uniko.is
 		
 	)+	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 360));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 360));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 360));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_202, 360));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_70, 368));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_71, 368));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_72, 368));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_209, 368));
 	}
 	
 	a12 = ')' {
@@ -12760,40 +12888,40 @@ parse_de_uniko_isweb_emftext_owl2fs_owl2fs_EntityAnnotation returns [de.uniko.is
 	}
 	{
 		// expected elements (follow set)
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 361));
-		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 361));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_73, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_74, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_75, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_76, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_77, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_78, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_79, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_80, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_81, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_82, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_83, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_84, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_85, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_86, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_87, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_88, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_89, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_90, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_91, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_92, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_93, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_94, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_95, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_96, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_97, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_98, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_99, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_100, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_101, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_102, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_103, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_104, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_105, 369));
+		addExpectedElement(new de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs.mopp.Owl2fsExpectedTerminal(TERMINAL_106, 369));
 	}
 	
 ;

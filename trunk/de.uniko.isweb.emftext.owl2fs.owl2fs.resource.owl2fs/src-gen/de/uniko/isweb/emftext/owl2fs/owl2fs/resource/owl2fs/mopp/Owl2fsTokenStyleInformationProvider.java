@@ -593,6 +593,9 @@ public class Owl2fsTokenStyleInformationProvider {
 		if ("Import".equals(tokenName)) {
 			return new TokenStyleImpl(new int[] {0x80, 0x00, 0x55}, true, false, false, false);
 		}
+		if ("Individual".equals(tokenName)) {
+			return new TokenStyleImpl(new int[] {0x80, 0x00, 0x55}, true, false, false, false);
+		}
 		if ("ObjectInverseOf".equals(tokenName)) {
 			return new TokenStyleImpl(new int[] {0x80, 0x00, 0x55}, true, false, false, false);
 		}
