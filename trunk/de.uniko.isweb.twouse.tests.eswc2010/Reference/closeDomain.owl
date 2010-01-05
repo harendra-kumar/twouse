@@ -4,10 +4,10 @@
 <!DOCTYPE rdf:RDF [
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY Ontology1261152793434 "http://Ontology1261152793434.owl#" >
     <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY Ontology1261152793434 "http://Ontology1261152793434.owl#" >
 ]>
 
 
@@ -37,25 +37,9 @@
     <!-- http://Ontology1261152793434.owl#hasEngine -->
 
     <owl:ObjectProperty rdf:about="#hasEngine">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
         <rdfs:range rdf:resource="#Engine"/>
         <rdfs:domain rdf:resource="#Vehicle"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://Ontology1261152793434.owl#hasEngineClosed -->
-
-    <owl:ObjectProperty rdf:about="#hasEngineClosed">
-        <rdfs:domain rdf:resource="#Car"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="#Hybrid"/>
-                    <rdf:Description rdf:about="#Diesel"/>
-                    <rdf:Description rdf:about="#Petrol"/>
-                </owl:oneOf>
-            </owl:Class>
-        </rdfs:range>
     </owl:ObjectProperty>
     
 
@@ -94,13 +78,7 @@
                 <owl:complementOf>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="#hasEngine"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:oneOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="#Hybrid"/>
-                                </owl:oneOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
+                        <owl:hasValue rdf:resource="#Diesel"/>
                     </owl:Restriction>
                 </owl:complementOf>
             </owl:Class>
@@ -110,13 +88,7 @@
                 <owl:complementOf>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="#hasEngine"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:oneOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="#Diesel"/>
-                                </owl:oneOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
+                        <owl:hasValue rdf:resource="#Hybrid"/>
                     </owl:Restriction>
                 </owl:complementOf>
             </owl:Class>
@@ -137,6 +109,12 @@
     
 
 
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -150,10 +128,10 @@
 
     <!-- http://Ontology1261152793434.owl#Alfa -->
 
-    <Car rdf:about="#Alfa">
-        <rdf:type rdf:resource="&owl;Thing"/>
+    <owl:Thing rdf:about="#Alfa">
+        <rdf:type rdf:resource="#Car"/>
         <hasEngine rdf:resource="#Petrol"/>
-    </Car>
+    </owl:Thing>
     
 
 
@@ -175,12 +153,12 @@
     
 
 
-    <!-- http://Ontology1261152793434.owl#MB -->
+    <!-- http://Ontology1261152793434.owl#Mercedes -->
 
-    <owl:Thing rdf:about="#MB">
-        <rdf:type rdf:resource="#Car"/>
+    <Car rdf:about="#Mercedes">
+        <rdf:type rdf:resource="&owl;Thing"/>
         <hasEngine rdf:resource="#Diesel"/>
-    </owl:Thing>
+    </Car>
     
 
 
@@ -192,9 +170,9 @@
 
     <!-- http://Ontology1261152793434.owl#Spider -->
 
-    <Convertible rdf:about="#Spider">
-        <rdf:type rdf:resource="&owl;Thing"/>
-    </Convertible>
+    <owl:Thing rdf:about="#Spider">
+        <rdf:type rdf:resource="#Convertible"/>
+    </owl:Thing>
     
 
 
