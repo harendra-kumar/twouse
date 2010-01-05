@@ -2,8 +2,8 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: EMFText Parser Plugin: owl2fs
 Bundle-SymbolicName: de.uniko.isweb.emftext.owl2fs.owl2fs.resource.owl2fs;singleton:=true
-Bundle-Version: 1.0.0.qualifier
-Bundle-Vendor: WeST University of Koblenz-Landau
+Bundle-Version: 1.0.0
+Bundle-Vendor: Software Technology Group - TU Dresden Germany
 Require-Bundle: org.eclipse.core.resources,
   org.emftext.access;resolution:=optional,
   org.eclipse.emf,
