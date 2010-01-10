@@ -11,7 +11,7 @@ This page shows the complete grammar for SPARQLAS.
 
 *lexical* := _a nonempty finite sequence of alphanumeric characters enclosed in a pair of " (U+22) characters_
 
-*variable* := _a nonempty finite sequence of alphanumeric characters starting with a ? (U+3F) character_
+*variable* := _a nonempty finite sequence of alphanumeric characters starting with either a ? (U+3F) character or a $ (U+24) character
 
 *nodeID* := _a finite sequence of characters matching the BLANK_NODE_LABEL production of [http://www.w3.org/TR/2008/REC-rdf-sparql-query-20080115/ SPARQL]_
 
