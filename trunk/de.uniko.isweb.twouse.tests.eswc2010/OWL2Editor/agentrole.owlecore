@@ -86,7 +86,7 @@
     </axioms>
     <axioms xsi:type="owl2:Declaration">
       <entity xsi:type="owl2:NamedIndividual">
-        <entityURI value="Anthony Kiedis"/>
+        <entityURI value="AnthonyKiedis"/>
       </entity>
     </axioms>
     <axioms xsi:type="owl2:Declaration">
