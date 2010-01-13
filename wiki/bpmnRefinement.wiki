@@ -1,0 +1,31 @@
+#summary The general idea of BPMN process refinement using Ontologies
+
+= BPMN Process Refinement =
+
+An abstract BPMN process is refined into a more specific process which
+is a more fine-grained representation of the process.
+There are different kinds of refinement like horizontal or vertical refinements.
+A specific process model is a valid refinement of the abstract model
+if no refinement condition is violated.
+
+The refinement is validated using ontologies and DL reasoning.
+The abstract and specific process is transformed to an OWL DL ontology
+which is called the refinement ontology.
+Reasoning service indicates whether the specific process
+is an valid or invalid refinement of the abstract process.
+
+
+
+== Abstract BPMN Process Model ==
+
+[http://twouse.googlecode.com/svn/wiki/images/BPMN_Abstract.png]
+
+== Specific BPMN Process Model ==
+
+[http://twouse.googlecode.com/svn/wiki/images/BPMN_Specific.png]
+
+
+
+
+
+
