@@ -8,7 +8,7 @@
     <packages PackageUri="Car Ontology">
       <templateBinding signature="//@ontology/@packages.1/@ownedTemplateSignature">
         <parameterSubstitution actual="//@ontology/@packages.0/@axioms.3/@entity" formal="//@ontology/@packages.1/@ownedTemplateSignature/@ownedParameter.0"/>
-        <parameterSubstitution/>
+        <parameterSubstitution actual="//@ontology/@packages.0/@expressions.3" formal="//@ontology/@packages.1/@ownedTemplateSignature/@ownedParameter.1"/>
       </templateBinding>
       <expressions xsi:type="owl2:ObjectSomeValuesFrom" classExpression="//@ontology/@packages.0/@axioms.3/@entity" objectPropertyExpression="//@ontology/@packages.0/@axioms.4/@entity"/>
       <expressions xsi:type="owl2:ObjectComplementOf" classExpression="//@ontology/@packages.0/@expressions.4"/>
@@ -64,26 +64,39 @@
         </entity>
       </axioms>
       <axioms xsi:type="owl2:ClassAssertion" individual="//@ontology/@packages.0/@axioms.14/@entity" classExpression="//@ontology/@packages.0/@axioms.0/@entity"/>
-      <axioms xsi:type="owl2:ObjectPropertyAssertion" objectPropertyExpression="//@ontology/@packages.0/@axioms.4/@entity" sourceIndividual="//@ontology/@packages.0/@axioms.14/@entity" targetIndividual="//@ontology/@packages.0/@axioms.17/@entity"/>
+      <axioms xsi:type="owl2:ObjectPropertyAssertion" objectPropertyExpression="//@ontology/@packages.0/@axioms.4/@entity" sourceIndividual="//@ontology/@packages.0/@axioms.19/@entity" targetIndividual="//@ontology/@packages.0/@axioms.10/@entity"/>
       <axioms xsi:type="owl2:Declaration">
         <entity xsi:type="owl2:NamedIndividual">
           <entityURI value="Petrol"/>
         </entity>
       </axioms>
+      <axioms xsi:type="owl2:Declaration">
+        <entity xsi:type="owl2:NamedIndividual">
+          <entityURI value="Mercedes"/>
+        </entity>
+      </axioms>
+      <axioms xsi:type="owl2:Declaration">
+        <entity xsi:type="owl2:NamedIndividual">
+          <entityURI value="Toyota"/>
+        </entity>
+      </axioms>
+      <axioms xsi:type="owl2:ObjectPropertyAssertion" objectPropertyExpression="//@ontology/@packages.0/@axioms.4/@entity" sourceIndividual="//@ontology/@packages.0/@axioms.18/@entity" targetIndividual="//@ontology/@packages.0/@axioms.9/@entity"/>
     </packages>
     <packages PackageUri="Closed-domain">
       <ownedTemplateSignature>
-        <ownedParameter xsi:type="owl2:ClassifierTemplateParameter" parameteredElement="//@ontology/@packages.1/@axioms.2/@entity"/>
+        <ownedParameter xsi:type="owl2:ClassifierTemplateParameter" parameteredElement="//@ontology/@packages.1/@axioms.1/@entity" parameterSubstitution="//@ontology/@packages.0/@templateBinding.0/@parameterSubstitution.0"/>
+        <ownedParameter xsi:type="owl2:ClassifierTemplateParameter" parameteredElement="//@ontology/@packages.1/@expressions.0" parameterSubstitution="//@ontology/@packages.0/@templateBinding.0/@parameterSubstitution.1"/>
       </ownedTemplateSignature>
-      <expressions xsi:type="owl2:ObjectOneOf"/>
+      <expressions xsi:type="owl2:ObjectOneOf" templateParameter="//@ontology/@packages.1/@ownedTemplateSignature/@ownedParameter.1"/>
       <axioms xsi:type="owl2:Rule" name="Individuals different from each other">
         <hasAntecedent name="swrl:Antecedent">
-          <containsAtoms xsi:type="owl2:ClassAtom" hasPredicateSymbol="//@ontology/@packages.1/@axioms.2/@entity" hasTerm="//@ontology/@packages.1/@axioms.0/@swrlVariables.2"/>
-          <containsAtoms xsi:type="owl2:ClassAtom" hasPredicateSymbol="//@ontology/@packages.1/@axioms.2/@entity" hasTerm="//@ontology/@packages.1/@axioms.0/@swrlVariables.4"/>
+          <containsAtoms xsi:type="owl2:ClassAtom" hasPredicateSymbol="//@ontology/@packages.1/@axioms.1/@entity" hasTerm="//@ontology/@packages.1/@axioms.0/@swrlVariables.2"/>
+          <containsAtoms xsi:type="owl2:ClassAtom" hasPredicateSymbol="//@ontology/@packages.1/@axioms.1/@entity" hasTerm="//@ontology/@packages.1/@axioms.0/@swrlVariables.4"/>
+          <containsAtoms xsi:type="owl2:DifferentIndividualsAtom" atomTarget="//@ontology/@packages.1/@axioms.0/@hasAntecedent/@containsAtoms.1" atomSource="//@ontology/@packages.1/@axioms.0/@hasAntecedent/@containsAtoms.0"/>
         </hasAntecedent>
         <hasConsequent name="swrl:Consequent">
-          <containsAtoms xsi:type="owl2:ClassAtom" hasPredicateSymbol="//@ontology/@packages.1/@axioms.2/@entity" hasTerm="//@ontology/@packages.1/@axioms.0/@swrlVariables.0"/>
-          <containsAtoms xsi:type="owl2:ClassAtom" hasPredicateSymbol="//@ontology/@packages.1/@axioms.2/@entity" hasTerm="//@ontology/@packages.1/@axioms.0/@swrlVariables.1"/>
+          <containsAtoms xsi:type="owl2:ClassAtom" hasPredicateSymbol="//@ontology/@packages.1/@axioms.1/@entity" hasTerm="//@ontology/@packages.1/@axioms.0/@swrlVariables.0"/>
+          <containsAtoms xsi:type="owl2:ClassAtom" hasPredicateSymbol="//@ontology/@packages.1/@axioms.1/@entity" hasTerm="//@ontology/@packages.1/@axioms.0/@swrlVariables.1"/>
         </hasConsequent>
         <swrlVariables xsi:type="owl2:IndividualVariable" name="x"/>
         <swrlVariables xsi:type="owl2:IndividualVariable" name="y"/>
@@ -91,13 +104,12 @@
         <swrlVariables xsi:type="owl2:DataVariable" name="Connect"/>
         <swrlVariables xsi:type="owl2:IndividualVariable" name="y"/>
       </axioms>
-      <axioms xsi:type="owl2:DifferentIndividuals"/>
       <axioms xsi:type="owl2:Declaration">
         <entity xsi:type="owl2:Class" templateParameter="//@ontology/@packages.1/@ownedTemplateSignature/@ownedParameter.0">
           <entityURI value="X"/>
         </entity>
       </axioms>
-      <axioms xsi:type="owl2:EquivalentClasses" equivalentClassExpressions="//@ontology/@packages.1/@axioms.2/@entity //@ontology/@packages.1/@expressions.0"/>
+      <axioms xsi:type="owl2:EquivalentClasses" equivalentClassExpressions="//@ontology/@packages.1/@axioms.1/@entity //@ontology/@packages.1/@expressions.0"/>
     </packages>
   </ontology>
 </owl2:OntologyDocument>
