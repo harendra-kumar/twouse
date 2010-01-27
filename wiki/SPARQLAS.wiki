@@ -1,6 +1,6 @@
-#summary SPARQL-DL concrete syntax for writing DL queries.
+#summary SPARQL-DL Functional Syntax.
 
-= Introduction =
+= SPARQL-DL Functional Syntax =
 
 SPARQLAS is our implementation of the SPARQL-DL abstract syntax for writing description Logic queries. With SPARQLAS, users write queries faster than using SPARQL, since they do not have to care about mapping OWL to RDF graphs.
 
