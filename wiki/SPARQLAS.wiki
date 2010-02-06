@@ -1,4 +1,5 @@
 #summary SPARQL-DL Functional Syntax.
+#sidebar TwoUseSide
 
 = SPARQL-DL Functional Syntax =
 
