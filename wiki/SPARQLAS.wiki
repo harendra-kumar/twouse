@@ -1,25 +1,34 @@
-#summary SPARQL-DL Functional Syntax.
+#summary SPARQL-DL with OWL Functional Syntax.
+#labels Featured
 
-= SPARQL-DL Functional Syntax =
+= SPARQL-DL with OWL Functional Syntax =
 
-SPARQLAS is our implementation of the SPARQL-DL abstract syntax for writing description Logic queries. With SPARQLAS, users write queries faster than using SPARQL, since they do not have to care about mapping OWL to RDF graphs.
+SPARQLAS is our implementation of the SPARQL-DL abstract syntax for writing OWL queries. With SPARQLAS, users write queries faster than using SPARQL, since they do not have to care about mapping OWL to RDF graphs. 
 
 = Details =
 
 SPARQLAS queries are automatically translated into SPARQL queries that can be executed using a query engine and reasoner with support to OWL entailment regime, like [http://clarkparsia.com/pellet/ pellet].
 
-Click here to see [SPARQLQuery how to execute SPARQL queries using the twouse toolkit].
+== Try it!==
 
-Click here to see [SPARQLASExamples examples of SPARQLAS queries].
+ * Online: [http://twouse.west.uni-koblenz.de/services/sparqlas2sparql.php Try it online now]. 
 
-Clicke here to see the [SPARQLASGrammar complete SPARQLAS grammar]. 
+ * TwoUse Toolkit: SPARQLAS is part of the [InstallationTwoUse TwoUse Toolkit installation]. [SPARQLQuery See how to execute SPARQL queries using the twouse toolkit].
 
-SPARQLAS is part of the [InstallationTwoUse TwoUse Toolkit installation].
+== Integrate it in your application == 
+
+ * Web Service: Translating SPARQLAS into SPARQL is available as web service under http://twouse.west.uni-koblenz.de:8080/services/sparqlas2sparql?wsdl .
+
+ * Standalone: The standalone bundle for java is available on 
+
+== Examples ==
+
+ * [SPARQLASExamples A catalogue with examples of SPARQLAS queries using the pizza ontology].
+
+ * [SPARQLASGrammar complete SPARQLAS grammar]. 
+
+== Using SPARQLAS in TwoUse Toolkit ==
 
 http://twouse.googlecode.com/svn/wiki/images/sparqlas.png
 
 http://twouse.googlecode.com/svn/wiki/images/sparqlas1.png
-
-= Examples =
-
-[SPARQLASExamples A catalogue with examples of SPARQLAS queries using the pizza ontology].
