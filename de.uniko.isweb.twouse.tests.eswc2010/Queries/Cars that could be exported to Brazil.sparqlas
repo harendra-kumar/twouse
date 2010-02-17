@@ -2,10 +2,11 @@ Namespace ( = <http://Ontology1261152793434.owl#> )
 Namespace (q1 = <http://CarsWithMotorsAllowedInEurope#> )
 Namespace (q2 = <http://CarsWithMotorsAllowedInBrazil#> )
 
-Query ( 
-//	Bind (q1:c ?car)
-//	Bind (q2:c ?car)
-
-	Type ( ?c And ( Car Some ( hasEngine OneOf ( Hybrid Gas ) ) ) ) 
-    Type ( ?c And ( Car Some ( hasEngine OneOf ( Hybrid Gas Diesel ) ) ) ) 
+Query ( <asf>
+	Import (<file:///C:/svn-client/intern/twouse-google/trunk/de.uniko.isweb.twouse.tests.eswc2010/Queries/Cars%20with%20Motors%20allowed%20in%20Brazil.sparqlas#> )
+	Import (<file:///C:/svn-client/intern/twouse-google/trunk/de.uniko.isweb.twouse.tests.eswc2010/Queries/Cars%20with%20Motors%20allowed%20in%20Europe.sparqlas#> )
+	Bind ((q1:c ?car))
+	Bind ((q2:c ?car))
+//	Type ( ?c ObjectIntersectionOf ( Car ObjectSomeValuesFrom ( hasEngine ObjectOneOf ( Hybrid Gas ) ) ) ) 
+//  Type ( ?c ObjectIntersectionOf ( Car ObjectSomeValuesFrom ( hasEngine ObjectOneOf ( Hybrid Gas Diesel ) ) ) ) 
 )  
