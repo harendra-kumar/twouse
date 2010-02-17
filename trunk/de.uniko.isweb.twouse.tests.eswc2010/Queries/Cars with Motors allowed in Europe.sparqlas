@@ -1,5 +1,7 @@
 Namespace ( = <http://Ontology1261152793434.owl#> ) 
 
-Query ( 
-//	Parameters (Type(?c owl:Thing))
-Type ( ?c And ( Car Some ( hasEngine OneOf ( Hybrid Gas Diesel ) ) ) ) ) 
+Query ( <http://CarsWithMotorsAllowedInEurope#>
+	Parameter (?c)
+	Parameter (Car)
+	Type ( ?c ObjectIntersectionOf ( Car ObjectSomeValuesFrom ( hasEngine ObjectOneOf ( Hybrid Gas Diesel) ) ) ) 
+)
