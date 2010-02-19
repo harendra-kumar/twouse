@@ -16,9 +16,9 @@
   <axioms xsi:type="owl2:ClassAssertion" individual="//@packages.1/@axioms.4/@entity" classExpression="//@packages.1/@axioms.1/@entity"/>
   <packages PackageUri="AgentRole">
     <ownedTemplateSignature>
-      <ownedParameter xsi:type="owl2:ClassifierTemplateParameter" parameteredElement="//@packages.0/@axioms.3/@entity"/>
-      <ownedParameter xsi:type="owl2:ClassifierTemplateParameter" parameteredElement="//@packages.0/@axioms.2/@entity"/>
-      <ownedParameter xsi:type="owl2:ClassifierTemplateParameter" parameteredElement="//@packages.0/@axioms.7/@entity"/>
+      <ownedParameter xsi:type="owl2:ClassifierTemplateParameter" parameteredElement="//@packages.0/@axioms.3/@entity" parameterSubstitution="//@packages.1/@templateBinding.0/@parameterSubstitution.1"/>
+      <ownedParameter xsi:type="owl2:ClassifierTemplateParameter" parameteredElement="//@packages.0/@axioms.2/@entity" parameterSubstitution="//@packages.1/@templateBinding.0/@parameterSubstitution.0"/>
+      <ownedParameter xsi:type="owl2:ClassifierTemplateParameter" parameteredElement="//@packages.0/@axioms.7/@entity" parameterSubstitution="//@packages.1/@templateBinding.0/@parameterSubstitution.2"/>
     </ownedTemplateSignature>
     <expressions xsi:type="owl2:ObjectAllValuesFrom" classExpression="//@packages.0/@axioms.3/@entity" objectPropertyExpression="//@packages.0/@axioms.7/@entity"/>
     <axioms xsi:type="owl2:Declaration">
