@@ -18,13 +18,33 @@ is an valid or invalid refinement of the abstract process.
 
 == Abstract BPMN Process Model ==
 
-[http://twouse.googlecode.com/svn/wiki/images/BPMN_Abstract.png]
+[http://twouse.googlecode.com/svn/wiki/images/bpmn2owl/abs.jpg]
 
 == Specific BPMN Process Model ==
 
-[http://twouse.googlecode.com/svn/wiki/images/BPMN_Specific.png]
+[http://twouse.googlecode.com/svn/wiki/images/bpmn2owl/spc_c.jpg]
 
+== Select Abstract and Specific Model ==
 
+[http://twouse.googlecode.com/svn/wiki/images/bpmn2owl/load_abs.jpg]
+
+[http://twouse.googlecode.com/svn/wiki/images/bpmn2owl/load_spec.jpg]
+
+== Resulting Ontology = 
+
+[http://twouse.googlecode.com/svn/wiki/images/bpmn2owl/ont_correct.jpg]
+
+== Specific Incorrect BPMN Process Model == 
+
+[http://twouse.googlecode.com/svn/wiki/images/bpmn2owl/spc_inc.jpg]
+
+== Resulting Status Message ==
+
+[http://twouse.googlecode.com/svn/wiki/images/bpmn2owl/msg_incorrect.jpg]
+
+== Resulting Ontology == 
+
+[http://twouse.googlecode.com/svn/wiki/images/bpmn2owl/ont_incorrect.jpg]
 
 
 
