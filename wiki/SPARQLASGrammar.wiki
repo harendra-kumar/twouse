@@ -36,7 +36,11 @@ This page shows the complete grammar for SPARQLAS.
 
 <br/>
 
-*Query* := 'Query' '(' `[` *IRI* `]` `{` *Atom* `}` ')'
+*Query* := 'Query' '(' `[` *QueryIRI* `]` `{` 'Import' '(' *ImportIRI* ')' `}` `{` *Atom* `}` ')'
+
+*QueryIRI* := *fullIRI*
+
+*ImportIRI* := *fullIRI*
 
 
 <br/>
