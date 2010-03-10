@@ -82,11 +82,13 @@ This page shows the complete grammar for SPARQLAS.
 
 <br/>
 
-*Assertion* := *!ClassAssertion* | *!ObjectPropertyAssertion* | *!DataPropertyAssertion* | *!NegativeObjectPropertyAssertion* | *!NegativeDataPropertyAssertion* | *!SameIndividual* | *!DifferentIndividuals*
+*Assertion* := *!ClassAssertion* | *!DirectType* | *!ObjectPropertyAssertion* | *!DataPropertyAssertion* | *!NegativeObjectPropertyAssertion* | *!NegativeDataPropertyAssertion* | *!SameIndividual* | *!DifferentIndividuals*
 
 <br/>
 
 *!ClassAssertion* := `(` '!ClassAssertion' | 'Type' `)` '(' *Individual* *!ClassExpression* ')'
+
+*!DirectType* := '!DirectType' '(' *Individual* *!ClassExpression* ')'
 
 *!ObjectPropertyAssertion* := `(` '!ObjectPropertyAssertion' | '!PropertyValue' `)` '(' *!SourceIndividual* *!ObjectPropertyExpression* *!TargetIndividual* ')'
 
@@ -108,24 +110,34 @@ This page shows the complete grammar for SPARQLAS.
 
 *!TargetValue* := *Literal*
 
-*Literal* := *!NamedLiteral* | *!LiteralVariable*
+*Literal* := *!LiteralVariable* | *!NamedLiteral*
 
 
 <br/>
 
-*!ClassAtom* := *!SubClassOf* | *!EquivalentClasses* | *!DisjointClasses*
+*!ClassAtom* := *!SubClassOf* | *!DirectSubClassOf* | *!StrictSubClassOf* | *!EquivalentClasses* | *!DisjointClasses* | *!DisjointUnion*
 
 <br/>
 
 *!SubClassOf* := '!SubClassOf' '(' *!SubClassExpression* *!SuperClassExpression* ')'
 
+*!DirectSubClassOf* := '!DirectSubClassOf' '(' *!SubClassExpression* *!SuperClassExpression* ')'
+
+*!StrictSubClassOf* := '!StrictSubClassOf' '(' *!SubClassExpression* *!SuperClassExpression* ')'
+
 *!EquivalentClasses* := `(` '!EquivalentClasses' | '!EquivalentTo' `)` '(' *!ClassExpression* *!ClassExpression* `{` *!ClassExpression* `}` ')'
 
 *!DisjointClasses* := `(` '!DisjointClasses' | '!DisjointWith' `)` '(' *!ClassExpression* *!ClassExpression* `{` *!ClassExpression* `}` ')'
 
+*!DisjointUnion* := '!DisjointUnion' '(' *!DisjointClass* *!DisjointClassExpression* *!DisjointClassExpression* `{` *!DisjointClassExpression* `}` ')'
+
 *!SubClassExpression* := *!ClassExpression*
 
 *!SuperClassExpression* := *!ClassExpression*
+
+*!DisjointClass* := *!ClassVariable* | *Class*
+
+*!DisjointClassExpression* := *!ClassExpression*
 
 
 <br/>
