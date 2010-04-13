@@ -29,18 +29,35 @@ This page shows the complete grammar for SPARQLAS.
 
 <br/>
 
-*!OntologyDocument* := `{` *!PrefixDefinition* `}` *Query*
+*!OntologyDocument* := `[` *QueryIRI* `]` `{` *Import* `}` `{` *!PrefixDefinition* `}` *Query*
+
+*QueryIRI* := 'IRI' '(' *fullIRI* ')'
+
+*Import* := 'Import' '(' *fullIRI* ')'
 
 *!PrefixDefinition* := 'Namespace' '(' `[` *prefix* `]` '=' *fullIRI* ')'
 
 
 <br/>
 
-*Query* := 'Query' '(' `[` *QueryIRI* `]` `{` 'Import' '(' *ImportIRI* ')' `}` `{` *Atom* `}` ')'
+*Query* := *!SelectQuery* | *!ConstructQuery* | *!AskQuery* | *!DescribeQuery*
 
-*QueryIRI* := *fullIRI*
 
-*ImportIRI* := *fullIRI*
+<br/>
+
+*!SelectQuery* := 'Select' 'Where' '(' `{` *Atom* `}` ')'
+
+*!ConstructQuery* := 'Construct' '(' `{` *!ConstructAtom* `}` ')' 'Where' '(' `{` *!WhereAtom* `}` ')'
+
+*!AskQuery* := 'Ask' 'Where' '(' `{` *Atom* `}` ')'
+
+*!DescribeQuery* := 'Describe' *DescribeIRI* | 'Describe' 'Where' '(' `{` *Atom* `}` ')'
+
+*!ConstructAtom* := *Atom*
+
+*!WhereAtom* := *Atom*
+
+*DescribeIRI* := *fullIRI*
 
 
 <br/>
