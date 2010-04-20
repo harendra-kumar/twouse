@@ -1,0 +1,15 @@
+#summary Examples used in the paper submitted to ESWC2010
+
+= Introduction =
+
+Please follow this tutorial to reproduce the results described in the paper submitted to the ESWC2010
+
+1. [InstallationTwoUse Download and install TwoUse Toolkit]
+
+2. [http://twouse.googlecode.com/svn/trunk/de.uniko.isweb.twouse.tests.eswc2010 Download and import the project eswc2010] into your workspace
+
+3. Try to transform the example into OWL: 
+
+  * [UMLProfiled4OWLSample Transform UML2 file with OWL Profile into OWL2]
+  * [OWL2GraphicalEditorExample Transform OWL2 Graphical Diagram into OWL2]
+  * [SPARQLAS Execute SPARQL-DL Abstract Syntax Queries]
