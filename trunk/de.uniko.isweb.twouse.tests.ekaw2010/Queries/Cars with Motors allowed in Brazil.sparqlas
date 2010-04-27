@@ -1,7 +1,0 @@
-Namespace ( = <http://Ontology1261152793434.owl#> ) 
-
-Query ( <http://CarsWithMotorsAllowedInBrazil#>
-	Parameter (?c)
-	Parameter (Car)
-	Type ( ?c ObjectIntersectionOf ( Car ObjectSomeValuesFrom ( hasEngine ObjectOneOf ( Hybrid Gas ) ) ) ) 
-) 
