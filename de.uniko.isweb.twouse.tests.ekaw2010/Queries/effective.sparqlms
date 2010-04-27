@@ -1,0 +1,4 @@
+ Namespace: <http://Ontology1261152793434.owl#>
+ Select 
+ Where:
+	?x type (Group and hasStyle some {Rock, Blues, Country})
