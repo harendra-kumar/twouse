@@ -1,10 +1,9 @@
-#summary An Ontology-based Approach for Enabling Linked Data Capabilities to MOF Compliant Models.
+#summary Informations about paper submission
 
 = Introduction =
 
 This page provides information about the paper.
 
+ * [models20101 Metamodel Constraint Validation in Software Product Lines]
 
-= Evaluation Details =
-
-We have evaluated our approach in two parts. Firstly, we validate the requirements . Secondly, we apply our approach in the model-driven development process of our project. 
+ * [models20102 An Ontology-based Approach for Enabling Linked Data Capabilities to MOF Compliant Models.]
