@@ -2,7 +2,7 @@
 
 = Introduction =
 
-This page provides information about the paper.
+This page provides information about the following papers:
 
  * [models20101 Metamodel Constraint Validation in Software Product Lines]
 
