@@ -1,13 +1,10 @@
-#summary One-sentence summary of this page.
+#summary An Ontology-based Approach for Enabling Linked Data Capabilities to MOF Compliant Models.
 
 = Introduction =
 
-Add your content here.
+This page provides information about the paper.
 
 
-= Details =
+= Evaluation Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+We have evaluated our approach in two parts. Firstly, we validate the requirements . Secondly, we apply our approach in the model-driven development process of our project. 
