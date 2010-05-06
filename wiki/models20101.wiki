@@ -15,6 +15,18 @@ between classes. Models are represented in the ABox. The ABox contains
 individuals (instances of classes from the TBox) and relations between these
 individuals by using the properties which are defined in the TBox.
 
+The transformatoin is based on a mapping from Ecore to OWL.
+This (structural) mapping form Ecore-based metamodels and models to OWL
+is general. In our approach, we transform the following metamodels and
+models to OWL (TBox and ABox):
+
+   *  BPMN model with the corresponding metamodel
+   *  Feature model and metamodel
+   *  Mapping and mapping metamodel 
+
+Afterwards, we combine these three ontologies to one ontology in order to allow
+a joint reasoning and validation.
+
 OWLizer is part of the TwoUse Toolkit:
 
    * Install the TwoUse Toolkit: http://code.google.com/p/twouse/wiki/InstallationTwoUse
