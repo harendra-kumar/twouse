@@ -1,13 +1,37 @@
-#summary One-sentence summary of this page.
+#summary Metamodel Constraint Validation in Software Product Lines
 
 = Introduction =
 
-Add your content here.
+On this page, we provide some links, data and instructions for our submitted
+paper *Metamodel Constraint Validation in Software Product Lines*
 
 
-= Details =
+= OWLizer =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+The OWLizer transforms Ecore-based metamodels and their conforming models
+into an ontology TBox (Terminological Box) and ABox (Assertional Box).
+The metamodels is represented in the TBox, describing classes and relations
+between classes. Models are represented in the ABox. The ABox contains
+individuals (instances of classes from the TBox) and relations between these
+individuals by using the properties which are defined in the TBox.
+
+OWLizer is part of the TwoUse Toolkit:
+
+   * Install the TwoUse Toolkit: http://code.google.com/p/twouse/wiki/InstallationTwoUse
+   * Use the OWLizer Plugin to transform the model to OWL
+
+= Feature Mapper =
+
+The FeatureMapper is a tool to combine Software Product Line Engineering and
+Model Driven Engineering:
+   * http://featuremapper.org/
+
+= Validation =
+
+For the second part of the validation (functional requirements) we used a questionnaire
+and asked experts about the usability of our approach.
+    * The questionnaire can be found here: http://userpages.uni-koblenz.de/~parreiras/research/ 
+
+= Data =
+
+We provide the follwoing example ontologies for problem, solution and mapping models:
