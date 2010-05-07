@@ -22,7 +22,7 @@ models to OWL (TBox and ABox):
 
    *  BPMN model with the corresponding metamodel
    *  Feature model and metamodel
-   *  Mapping and mapping metamodel 
+   *  Mapping model and mapping metamodel 
 
 Afterwards, we combine these three ontologies to one ontology in order to allow
 a joint reasoning and validation.
@@ -30,25 +30,28 @@ a joint reasoning and validation.
 OWLizer is part of the TwoUse Toolkit:
 
    * Install the TwoUse Toolkit: http://code.google.com/p/twouse/wiki/InstallationTwoUse
-   * Use the OWLizer Plugin to transform the model to OWL
+   * Use the OWLizer Plug-In to transform the model to OWL
 
 = Feature Mapper =
 
 The Feature Mapper is a tool to combine Software Product Line Engineering and
 Model Driven Engineering:
    * http://featuremapper.org/
+
 The Feature Mapper is available as Eclipse Plug-in.
 
+
 = Evaluation =
+
 
 == Proof-Of-Concept - Validation Requirements (VR1 - VR3) ==
 
 The solution space model (BPMN Model), the feature model and the mapping model
-for the TravelAgency example are available in the following SVN repository:
+for the Travel-Agency example are available in the following SVN repository:
 [http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010]
 The feature model and the mapping model is created with the Feature Mapper.
 
-The ontology for the TravelAgency, containing feature, mapping and solution models
+The ontology for the Travel-Agency, containing feature, mapping and solution models
 is available in the following repository:
 
 
