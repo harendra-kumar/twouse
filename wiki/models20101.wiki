@@ -38,12 +38,22 @@ The Feature Mapper is a tool to combine Software Product Line Engineering and
 Model Driven Engineering:
    * http://featuremapper.org/
 
-= Validation =
+= Evaluation =
 
-For the second part of the validation (functional requirements), we used a questionnaire
+== Proof-Of-Concept - Validation Requirements (VR1 - VR3)
+
+For the model validation, we use the open-source reasoners Pellet and FACT++ that can be
+used either via an API or as plug-in for Ontology Editors like Protege.
+
+    * Pellet Reasoner: http://clarkparsia.com/pellet/
+    * FACT++ Reasoner: http://owl.man.ac.uk/factplusplus/
+    * Protege OWL-Ontology Editor: http://protege.stanford.edu/
+
+We provide the follwoing example ontologies for problem, solution and mapping models:
+
+== Basic Functional Requirements (BR1 - BR5) Evaluation  ==
+
+For the second part of the evaluation (functional requirements), we used a questionnaire
 and asked experts about the usability of our approach.
     * The questionnaire can be found here: http://userpages.uni-koblenz.de/~parreiras/research/ 
 
-= Data =
-
-We provide the follwoing example ontologies for problem, solution and mapping models:
