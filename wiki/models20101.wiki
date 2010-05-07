@@ -52,7 +52,9 @@ for the Travel-Agency example are available in the following SVN repository:
 The feature model and the mapping model is created with the Feature Mapper.
 
 The ontology for the Travel-Agency, containing feature, mapping and solution models
-is available in the following repository:
+is available in the following repository. In this example, the individuals are 
+renamed with meaningful names like the activity or feature name for an easier 
+understanding.
 
 
 For the model validation, we use the open-source reasoners Pellet and FACT++ that can be
