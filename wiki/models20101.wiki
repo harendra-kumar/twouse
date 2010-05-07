@@ -37,10 +37,20 @@ OWLizer is part of the TwoUse Toolkit:
 The Feature Mapper is a tool to combine Software Product Line Engineering and
 Model Driven Engineering:
    * http://featuremapper.org/
+The Feature Mapper is available as Eclipse Plug-in.
 
 = Evaluation =
 
-== Proof-Of-Concept - Validation Requirements (VR1 - VR3)
+== Proof-Of-Concept - Validation Requirements (VR1 - VR3) ==
+
+The solution space model (BPMN Model), the feature model and the mapping model
+for the TravelAgency example are available in the following SVN repository:
+[http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010]
+The feature model and the mapping model is created with the Feature Mapper.
+
+The ontology for the TravelAgency, containing feature, mapping and solution models
+is available in the following repository:
+
 
 For the model validation, we use the open-source reasoners Pellet and FACT++ that can be
 used either via an API or as plug-in for Ontology Editors like Protege.
@@ -49,11 +59,9 @@ used either via an API or as plug-in for Ontology Editors like Protege.
     * FACT++ Reasoner: http://owl.man.ac.uk/factplusplus/
     * Protege OWL-Ontology Editor: http://protege.stanford.edu/
 
-We provide the follwoing example ontologies for problem, solution and mapping models:
 
 == Basic Functional Requirements (BR1 - BR5) Evaluation  ==
 
 For the second part of the evaluation (functional requirements), we used a questionnaire
 and asked experts about the usability of our approach.
     * The questionnaire can be found here: http://userpages.uni-koblenz.de/~parreiras/research/ 
-
