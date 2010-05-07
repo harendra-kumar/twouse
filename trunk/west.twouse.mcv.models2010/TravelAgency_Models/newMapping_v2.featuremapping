@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ASCII"?>
+<featuremapping:FeatureMappingModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:featuremapping="http://www.tudresden.de/featuremapping" composerID="org.featuremapper.interpreter.emf.interpreter">
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="TravelAgency_v2.bpmn#_w2lLEVBpEd-NG5kY61r-Jw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="TravelAgency_v2.feature#Personal"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="TravelAgency_v2.bpmn#_mmKEIlBpEd-NG5kY61r-Jw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="TravelAgency_v2.feature#Post"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="TravelAgency_v2.bpmn#_qhYjkVBpEd-NG5kY61r-Jw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="TravelAgency_v2.feature#Collection"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="TravelAgency_v2.bpmn#_mmKEIFBpEd-NG5kY61r-Jw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="TravelAgency_v2.feature#Delivery"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="TravelAgency_v2.bpmn#_55hdIVBnEd-CjJhqOyZBzw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="TravelAgency_v2.feature#Payment"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="TravelAgency_v2.bpmn#_DU2IEVBoEd-CjJhqOyZBzw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="TravelAgency_v2.feature#FraudDetection"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="TravelAgency_v2.bpmn#_BaeGEVBoEd-CjJhqOyZBzw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="TravelAgency_v2.feature#Cheque"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="TravelAgency_v2.bpmn#__5usEVBnEd-CjJhqOyZBzw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="TravelAgency_v2.feature#Cash"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="TravelAgency_v2.bpmn#_55iEMVBnEd-CjJhqOyZBzw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="TravelAgency_v2.feature#CreditCard"/>
+    </term>
+  </mappings>
+  <featureModel>
+    <value href="TravelAgency_v2.feature#/"/>
+  </featureModel>
+  <solutionModels>
+    <value href="TravelAgency_v2.bpmn#_ynZ6YVBnEd-CjJhqOyZBzw"/>
+  </solutionModels>
+</featuremapping:FeatureMappingModel>

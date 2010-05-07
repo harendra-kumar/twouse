@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:bpmn="http://stp.eclipse.org/bpmn" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_yndkwFBnEd-CjJhqOyZBzw" type="Bpmn" name="TravelAgency_v2.bpmn_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_ynn80FBnEd-CjJhqOyZBzw" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ynoj4FBnEd-CjJhqOyZBzw" type="4008"/>
+    <children xmi:type="notation:Node" xmi:id="_ynpK8FBnEd-CjJhqOyZBzw" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_55ox4FBnEd-CjJhqOyZBzw" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_55qnEFBnEd-CjJhqOyZBzw" type="4006"/>
+        <children xmi:type="notation:Node" xmi:id="_55r1MFBnEd-CjJhqOyZBzw" type="5002">
+          <children xmi:type="notation:Node" xmi:id="_55wtsFBnEd-CjJhqOyZBzw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_55xUwFBnEd-CjJhqOyZBzw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_55wtsVBnEd-CjJhqOyZBzw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_55wtslBnEd-CjJhqOyZBzw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_55wts1BnEd-CjJhqOyZBzw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_55wttFBnEd-CjJhqOyZBzw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_55iEMVBnEd-CjJhqOyZBzw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_55wttVBnEd-CjJhqOyZBzw" x="283" y="23" width="113" height="34"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_9U9pQFBnEd-CjJhqOyZBzw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_9U-3YFBnEd-CjJhqOyZBzw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_9U9pQVBnEd-CjJhqOyZBzw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_9U9pQlBnEd-CjJhqOyZBzw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_9U9pQ1BnEd-CjJhqOyZBzw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_9U9pRFBnEd-CjJhqOyZBzw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_9U27kVBnEd-CjJhqOyZBzw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9U9pRVBnEd-CjJhqOyZBzw" x="283" y="59" width="109" height="28"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__5whQFBnEd-CjJhqOyZBzw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="__5xIUFBnEd-CjJhqOyZBzw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="__5whQVBnEd-CjJhqOyZBzw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="__5whQlBnEd-CjJhqOyZBzw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="__5whQ1BnEd-CjJhqOyZBzw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="__5whRFBnEd-CjJhqOyZBzw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#__5usEVBnEd-CjJhqOyZBzw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__5whRVBnEd-CjJhqOyZBzw" x="283" y="92" width="109" height="29"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_BagiUFBoEd-CjJhqOyZBzw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_BahwcFBoEd-CjJhqOyZBzw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_BagiUVBoEd-CjJhqOyZBzw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_BagiUlBoEd-CjJhqOyZBzw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_BagiU1BoEd-CjJhqOyZBzw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_BagiVFBoEd-CjJhqOyZBzw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_BaeGEVBoEd-CjJhqOyZBzw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BagiVVBoEd-CjJhqOyZBzw" x="283" y="129" width="105" height="33"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_DU3WMFBoEd-CjJhqOyZBzw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_DU4kUFBoEd-CjJhqOyZBzw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_DU3WMVBoEd-CjJhqOyZBzw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_DU3WMlBoEd-CjJhqOyZBzw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_DU3WM1BoEd-CjJhqOyZBzw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_DU3WNFBoEd-CjJhqOyZBzw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_DU2IEVBoEd-CjJhqOyZBzw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DU3WNVBoEd-CjJhqOyZBzw" x="285" y="216" width="105" height="28"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_KByhMFBoEd-CjJhqOyZBzw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_KBzvUFBoEd-CjJhqOyZBzw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_KByhMVBoEd-CjJhqOyZBzw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_KByhMlBoEd-CjJhqOyZBzw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_KByhM1BoEd-CjJhqOyZBzw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_KByhNFBoEd-CjJhqOyZBzw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_KBxTEVBoEd-CjJhqOyZBzw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KByhNVBoEd-CjJhqOyZBzw" x="463" y="80"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_LbllsFBoEd-CjJhqOyZBzw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_LbmMwFBoEd-CjJhqOyZBzw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_LbllsVBoEd-CjJhqOyZBzw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_LbllslBoEd-CjJhqOyZBzw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_Lblls1BoEd-CjJhqOyZBzw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_LblltFBoEd-CjJhqOyZBzw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_LbkXkVBoEd-CjJhqOyZBzw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LblltVBoEd-CjJhqOyZBzw" x="151" y="67"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_jSskwFBoEd-VR6CBNugA1g" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_jSty4FBoEd-VR6CBNugA1g" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_jSskwVBoEd-VR6CBNugA1g" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_jSskwlBoEd-VR6CBNugA1g"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_jSskw1BoEd-VR6CBNugA1g"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_jSskxFBoEd-VR6CBNugA1g" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_jSODoVBoEd-VR6CBNugA1g"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jStL0FBoEd-VR6CBNugA1g" x="573" y="80"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_m6ZEMFBoEd-VR6CBNugA1g" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_m6aSUFBoEd-VR6CBNugA1g" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_m6ZEMVBoEd-VR6CBNugA1g" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_m6ZEMlBoEd-VR6CBNugA1g"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_m6ZEM1BoEd-VR6CBNugA1g"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_m6ZENFBoEd-VR6CBNugA1g" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_m6X2EVBoEd-VR6CBNugA1g"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m6ZENVBoEd-VR6CBNugA1g" x="68" y="67"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_c_jWQFBpEd-NG5kY61r-Jw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_c_lLcFBpEd-NG5kY61r-Jw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_c_jWQVBpEd-NG5kY61r-Jw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_c_jWQlBpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_c_j9UFBpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_c_j9UVBpEd-NG5kY61r-Jw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_c_hhEVBpEd-NG5kY61r-Jw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c_j9UlBpEd-NG5kY61r-Jw" x="8" y="77"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_iHFQwFBpEd-NG5kY61r-Jw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_iHF30FBpEd-NG5kY61r-Jw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_iHFQwVBpEd-NG5kY61r-Jw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_iHFQwlBpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_iHFQw1BpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_iHFQxFBpEd-NG5kY61r-Jw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_iHDbkVBpEd-NG5kY61r-Jw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iHFQxVBpEd-NG5kY61r-Jw" x="646" y="90"/>
+          </children>
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_55r1MVBnEd-CjJhqOyZBzw"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_55r1MlBnEd-CjJhqOyZBzw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_55r1M1BnEd-CjJhqOyZBzw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_55tDUFBnEd-CjJhqOyZBzw" type="5003">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_55tDUVBnEd-CjJhqOyZBzw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_55tDUlBnEd-CjJhqOyZBzw"/>
+        </children>
+        <styles xmi:type="notation:FontStyle" xmi:id="_55ox4VBnEd-CjJhqOyZBzw" fontName="Arial"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_55ox4lBnEd-CjJhqOyZBzw"/>
+        <styles xmi:type="notation:FillStyle" xmi:id="_55ox41BnEd-CjJhqOyZBzw"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_55ox5FBnEd-CjJhqOyZBzw" lineColor="0"/>
+        <element xmi:type="bpmn:SubProcess" href="TravelAgency_v2.bpmn#_55hdIVBnEd-CjJhqOyZBzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_55ox5VBnEd-CjJhqOyZBzw" x="134" y="3" width="702" height="272"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_cnjtAFBpEd-NG5kY61r-Jw" type="2001">
+        <children xmi:type="notation:Node" xmi:id="_cnk7IFBpEd-NG5kY61r-Jw" type="4001"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_cnjtAVBpEd-NG5kY61r-Jw" fontName="Arial"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_cnjtAlBpEd-NG5kY61r-Jw"/>
+        <styles xmi:type="notation:FillStyle" xmi:id="_cnjtA1BpEd-NG5kY61r-Jw"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_cnjtBFBpEd-NG5kY61r-Jw" lineColor="0"/>
+        <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_cm93IVBpEd-NG5kY61r-Jw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cnjtBVBpEd-NG5kY61r-Jw" x="24" y="97"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_mmNHcFBpEd-NG5kY61r-Jw" type="2002">
+        <children xmi:type="notation:Node" xmi:id="_mmO8oFBpEd-NG5kY61r-Jw" type="4006"/>
+        <children xmi:type="notation:Node" xmi:id="_mmQx0FBpEd-NG5kY61r-Jw" type="5002">
+          <children xmi:type="notation:Node" xmi:id="_mmW4cFBpEd-NG5kY61r-Jw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_mmXfg1BpEd-NG5kY61r-Jw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_mmW4cVBpEd-NG5kY61r-Jw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_mmW4clBpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_mmXfgFBpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_mmXfgVBpEd-NG5kY61r-Jw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_mmKEIlBpEd-NG5kY61r-Jw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mmXfglBpEd-NG5kY61r-Jw" x="232" y="30" width="114" height="48"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qhaYwFBpEd-NG5kY61r-Jw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_qhbm4FBpEd-NG5kY61r-Jw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_qhaYwVBpEd-NG5kY61r-Jw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_qhaYwlBpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_qhaYw1BpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_qhaYxFBpEd-NG5kY61r-Jw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_qhYjkVBpEd-NG5kY61r-Jw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qhaYxVBpEd-NG5kY61r-Jw" x="235" y="82" height="44"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_w2nAQFBpEd-NG5kY61r-Jw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_w2oOYFBpEd-NG5kY61r-Jw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_w2nAQVBpEd-NG5kY61r-Jw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_w2nAQlBpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_w2nAQ1BpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_w2nARFBpEd-NG5kY61r-Jw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_w2lLEVBpEd-NG5kY61r-Jw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w2nARVBpEd-NG5kY61r-Jw" x="235" y="142" width="114" height="36"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_y-G4QFBpEd-NG5kY61r-Jw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_y-ItcFBpEd-NG5kY61r-Jw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_y-G4QVBpEd-NG5kY61r-Jw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_y-G4QlBpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_y-G4Q1BpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_y-G4RFBpEd-NG5kY61r-Jw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_y-FDEVBpEd-NG5kY61r-Jw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y-G4RVBpEd-NG5kY61r-Jw" x="161" y="208" width="115" height="33"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_03kUQFBpEd-NG5kY61r-Jw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_03liYFBpEd-NG5kY61r-Jw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_03kUQVBpEd-NG5kY61r-Jw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_03kUQlBpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_03kUQ1BpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_03kURFBpEd-NG5kY61r-Jw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_03ifEVBpEd-NG5kY61r-Jw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_03kURVBpEd-NG5kY61r-Jw" x="335" y="210" width="146" height="29"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4E82QFBpEd-NG5kY61r-Jw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_4E9dUFBpEd-NG5kY61r-Jw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_4E82QVBpEd-NG5kY61r-Jw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_4E82QlBpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_4E82Q1BpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_4E82RFBpEd-NG5kY61r-Jw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_4E7BEVBpEd-NG5kY61r-Jw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4E82RVBpEd-NG5kY61r-Jw" x="126" y="82"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4yyzsFBpEd-NG5kY61r-Jw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_4y0B0FBpEd-NG5kY61r-Jw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_4yyzsVBpEd-NG5kY61r-Jw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_4yyzslBpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_4yyzs1BpEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_4yyztFBpEd-NG5kY61r-Jw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_4yxlkVBpEd-NG5kY61r-Jw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4yyztVBpEd-NG5kY61r-Jw" x="427" y="82"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_EI0QwFBqEd-NG5kY61r-Jw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_EI1e4FBqEd-NG5kY61r-Jw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_EI0QwVBqEd-NG5kY61r-Jw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_EI0QwlBqEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_EI0Qw1BqEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_EI0QxFBqEd-NG5kY61r-Jw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_EIybkVBqEd-NG5kY61r-Jw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EI0QxVBqEd-NG5kY61r-Jw" x="55" y="121"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HZZQsFBqEd-NG5kY61r-Jw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_HZae0FBqEd-NG5kY61r-Jw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_HZZQsVBqEd-NG5kY61r-Jw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_HZZQslBqEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_HZZQs1BqEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_HZZQtFBqEd-NG5kY61r-Jw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_HZYCkVBqEd-NG5kY61r-Jw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HZZQtVBqEd-NG5kY61r-Jw" x="513" y="121"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_OpCHMFBqEd-NG5kY61r-Jw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_OpDVUFBqEd-NG5kY61r-Jw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_OpCHMVBqEd-NG5kY61r-Jw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_OpCHMlBqEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_OpCHM1BqEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_OpCHNFBqEd-NG5kY61r-Jw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_OpA5EVBqEd-NG5kY61r-Jw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OpCHNVBqEd-NG5kY61r-Jw" x="584" y="131"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_R612MFBqEd-NG5kY61r-Jw" type="2001">
+            <children xmi:type="notation:Node" xmi:id="_R63EUFBqEd-NG5kY61r-Jw" type="4001"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_R612MVBqEd-NG5kY61r-Jw" fontName="Arial"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_R612MlBqEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:FillStyle" xmi:id="_R612M1BqEd-NG5kY61r-Jw"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_R612NFBqEd-NG5kY61r-Jw" lineColor="0"/>
+            <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_R60oEVBqEd-NG5kY61r-Jw"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R612NVBqEd-NG5kY61r-Jw" x="4" y="131"/>
+          </children>
+          <styles xmi:type="notation:DrawerStyle" xmi:id="_mmRY4FBpEd-NG5kY61r-Jw"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_mmRY4VBpEd-NG5kY61r-Jw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_mmRY4lBpEd-NG5kY61r-Jw"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_mmSnAFBpEd-NG5kY61r-Jw" type="5003">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_mmSnAVBpEd-NG5kY61r-Jw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_mmSnAlBpEd-NG5kY61r-Jw"/>
+        </children>
+        <styles xmi:type="notation:FontStyle" xmi:id="_mmNHcVBpEd-NG5kY61r-Jw" fontName="Arial"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_mmNHclBpEd-NG5kY61r-Jw"/>
+        <styles xmi:type="notation:FillStyle" xmi:id="_mmNHc1BpEd-NG5kY61r-Jw"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_mmNHdFBpEd-NG5kY61r-Jw" lineColor="0"/>
+        <element xmi:type="bpmn:SubProcess" href="TravelAgency_v2.bpmn#_mmKEIFBpEd-NG5kY61r-Jw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mmNHdVBpEd-NG5kY61r-Jw" x="910" width="633" height="307"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_WPkawFBqEd-NG5kY61r-Jw" type="2001">
+        <children xmi:type="notation:Node" xmi:id="_WPlo4FBqEd-NG5kY61r-Jw" type="4001"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_WPkawVBqEd-NG5kY61r-Jw" fontName="Arial"/>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_WPkawlBqEd-NG5kY61r-Jw"/>
+        <styles xmi:type="notation:FillStyle" xmi:id="_WPkaw1BqEd-NG5kY61r-Jw"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_WPkaxFBqEd-NG5kY61r-Jw" lineColor="0"/>
+        <element xmi:type="bpmn:Activity" href="TravelAgency_v2.bpmn#_WPilkVBqEd-NG5kY61r-Jw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WPkaxVBqEd-NG5kY61r-Jw" x="1605" y="122"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ynpK8VBnEd-CjJhqOyZBzw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ynpK8lBnEd-CjJhqOyZBzw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ynpK81BnEd-CjJhqOyZBzw"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ynn80VBnEd-CjJhqOyZBzw" fontName="Arial"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_ynn80lBnEd-CjJhqOyZBzw"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_ynn801BnEd-CjJhqOyZBzw" fillColor="16771304"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_ynn81FBnEd-CjJhqOyZBzw" lineColor="11119017"/>
+    <element xmi:type="bpmn:Pool" href="TravelAgency_v2.bpmn#_ynk5gVBnEd-CjJhqOyZBzw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ynpyAFBnEd-CjJhqOyZBzw" x="16" y="16" width="1977" height="319"/>
+  </children>
+  <styles xmi:type="notation:PageStyle" xmi:id="_yndkwVBnEd-CjJhqOyZBzw"/>
+  <styles xmi:type="notation:GuideStyle" xmi:id="_yndkwlBnEd-CjJhqOyZBzw"/>
+  <styles xmi:type="notation:DescriptionStyle" xmi:id="_yndkw1BnEd-CjJhqOyZBzw"/>
+  <element xmi:type="bpmn:BpmnDiagram" href="TravelAgency_v2.bpmn#_ynZ6YVBnEd-CjJhqOyZBzw"/>
+  <edges xmi:type="notation:Edge" xmi:id="_Kq2FQFBoEd-CjJhqOyZBzw" type="3001" source="_55wtsFBnEd-CjJhqOyZBzw" target="_KByhMFBoEd-CjJhqOyZBzw">
+    <children xmi:type="notation:Node" xmi:id="_Kq4hgFBoEd-CjJhqOyZBzw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_Kq4hgVBoEd-CjJhqOyZBzw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_Kq4hglBoEd-CjJhqOyZBzw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Kq4hg1BoEd-CjJhqOyZBzw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_Kq2FQVBoEd-CjJhqOyZBzw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Kq2FQlBoEd-CjJhqOyZBzw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_Kq2FQ1BoEd-CjJhqOyZBzw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_KqwlsVBoEd-CjJhqOyZBzw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Kq2FRFBoEd-CjJhqOyZBzw" points="[27, 15, -102, -52]$[105, 68, -24, 1]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_NM050FBoEd-CjJhqOyZBzw" type="3001" source="_LbllsFBoEd-CjJhqOyZBzw" target="_55wtsFBnEd-CjJhqOyZBzw">
+    <children xmi:type="notation:Node" xmi:id="_NM1g4FBoEd-CjJhqOyZBzw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_NM1g4VBoEd-CjJhqOyZBzw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_NM1g4lBoEd-CjJhqOyZBzw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NM1g41BoEd-CjJhqOyZBzw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_NM050VBoEd-CjJhqOyZBzw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_NM050lBoEd-CjJhqOyZBzw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_NM0501BoEd-CjJhqOyZBzw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_NMzEoVBoEd-CjJhqOyZBzw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NM051FBoEd-CjJhqOyZBzw" points="[13, -12, -118, 55]$[77, -73, -54, -6]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_OgruYFBoEd-CjJhqOyZBzw" type="3001" source="_9U9pQFBnEd-CjJhqOyZBzw" target="_KByhMFBoEd-CjJhqOyZBzw">
+    <children xmi:type="notation:Node" xmi:id="_OgsVcFBoEd-CjJhqOyZBzw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_OgsVcVBoEd-CjJhqOyZBzw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_OgsVclBoEd-CjJhqOyZBzw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OgsVc1BoEd-CjJhqOyZBzw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_OgruYVBoEd-CjJhqOyZBzw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_OgruYlBoEd-CjJhqOyZBzw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_OgruY1BoEd-CjJhqOyZBzw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_Ogp5MVBoEd-CjJhqOyZBzw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OgruZFBoEd-CjJhqOyZBzw" points="[53, -10, -78, -44]$[113, 26, -18, -8]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_PzokAFBoEd-CjJhqOyZBzw" type="3001" source="_LbllsFBoEd-CjJhqOyZBzw" target="__5whQFBnEd-CjJhqOyZBzw">
+    <children xmi:type="notation:Node" xmi:id="_PzpLEFBoEd-CjJhqOyZBzw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_PzpLEVBoEd-CjJhqOyZBzw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_PzpLElBoEd-CjJhqOyZBzw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PzpLE1BoEd-CjJhqOyZBzw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_PzokAVBoEd-CjJhqOyZBzw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_PzokAlBoEd-CjJhqOyZBzw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_PzokA1BoEd-CjJhqOyZBzw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_Pzk5oVBoEd-CjJhqOyZBzw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PzokBFBoEd-CjJhqOyZBzw" points="[0, -1, -52, 0]$[52, -1, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_cpQLkFBoEd-VR6CBNugA1g" type="3001" source="_LbllsFBoEd-CjJhqOyZBzw" target="_9U9pQFBnEd-CjJhqOyZBzw">
+    <children xmi:type="notation:Node" xmi:id="_cpVrIFBoEd-VR6CBNugA1g" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_cpVrIVBoEd-VR6CBNugA1g" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_cpVrIlBoEd-VR6CBNugA1g" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_cpWSMFBoEd-VR6CBNugA1g" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_cpQLkVBoEd-VR6CBNugA1g" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_cpQLklBoEd-VR6CBNugA1g" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_cpQLk1BoEd-VR6CBNugA1g" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_cpI20FBoEd-VR6CBNugA1g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cpQLlFBoEd-VR6CBNugA1g" points="[17, -8, -112, 26]$[77, -44, -52, -10]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_dis8EFBoEd-VR6CBNugA1g" type="3001" source="_LbllsFBoEd-CjJhqOyZBzw" target="_BagiUFBoEd-CjJhqOyZBzw">
+    <children xmi:type="notation:Node" xmi:id="_ditjIFBoEd-VR6CBNugA1g" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_ditjIVBoEd-VR6CBNugA1g" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_ditjIlBoEd-VR6CBNugA1g" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ditjI1BoEd-VR6CBNugA1g" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_dis8EVBoEd-VR6CBNugA1g" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_dis8ElBoEd-VR6CBNugA1g" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_dis8E1BoEd-VR6CBNugA1g" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_disVAVBoEd-VR6CBNugA1g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dis8FFBoEd-VR6CBNugA1g" points="[17, 7, -110, -31]$[82, 53, -45, 15]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_erw14FBoEd-VR6CBNugA1g" type="3001" source="_BagiUFBoEd-CjJhqOyZBzw" target="_KByhMFBoEd-CjJhqOyZBzw">
+    <children xmi:type="notation:Node" xmi:id="_eryEAFBoEd-VR6CBNugA1g" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_eryEAVBoEd-VR6CBNugA1g" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_eryEAlBoEd-VR6CBNugA1g" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eryEA1BoEd-VR6CBNugA1g" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_erw14VBoEd-VR6CBNugA1g" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_erxc8FBoEd-VR6CBNugA1g" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_erxc8VBoEd-VR6CBNugA1g" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_eruZoVBoEd-VR6CBNugA1g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_erxc8lBoEd-VR6CBNugA1g" points="[51, -9, -104, 29]$[171, -29, 16, 9]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_fK0JYFBoEd-VR6CBNugA1g" type="3001" source="__5whQFBnEd-CjJhqOyZBzw" target="_KByhMFBoEd-CjJhqOyZBzw">
+    <children xmi:type="notation:Node" xmi:id="_fK1XgFBoEd-VR6CBNugA1g" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_fK1XgVBoEd-VR6CBNugA1g" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_fK1XglBoEd-VR6CBNugA1g" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fK1Xg1BoEd-VR6CBNugA1g" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_fK0JYVBoEd-VR6CBNugA1g" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fK0JYlBoEd-VR6CBNugA1g" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_fK0JY1BoEd-VR6CBNugA1g" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_fKyUMVBoEd-VR6CBNugA1g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fK0JZFBoEd-VR6CBNugA1g" points="[53, -3, -100, -4]$[163, -14, 10, -15]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_rPNIUFBoEd-VR6CBNugA1g" type="3001" source="_DU3WMFBoEd-CjJhqOyZBzw" target="_jSskwFBoEd-VR6CBNugA1g">
+    <children xmi:type="notation:Node" xmi:id="_rPNvYFBoEd-VR6CBNugA1g" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_rPOWcFBoEd-VR6CBNugA1g" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_rPOWcVBoEd-VR6CBNugA1g" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rPOWclBoEd-VR6CBNugA1g" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_rPNIUVBoEd-VR6CBNugA1g" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_rPNIUlBoEd-VR6CBNugA1g" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_rPNIU1BoEd-VR6CBNugA1g" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_rPLTIVBoEd-VR6CBNugA1g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rPNIVFBoEd-VR6CBNugA1g" points="[33, -12, -230, 82]$[245, -87, -18, 7]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_r8co0FBoEd-VR6CBNugA1g" type="3001" source="_KByhMFBoEd-CjJhqOyZBzw" target="_jSskwFBoEd-VR6CBNugA1g">
+    <children xmi:type="notation:Node" xmi:id="_r8dP4FBoEd-VR6CBNugA1g" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_r8dP4VBoEd-VR6CBNugA1g" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_r8dP4lBoEd-VR6CBNugA1g" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_r8dP41BoEd-VR6CBNugA1g" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_r8co0VBoEd-VR6CBNugA1g" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_r8co0lBoEd-VR6CBNugA1g" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_r8co01BoEd-VR6CBNugA1g" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_r8azoVBoEd-VR6CBNugA1g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_r8co1FBoEd-VR6CBNugA1g" points="[20, 4, -90, -25]$[135, 29, 25, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_x23Y0FBoEd-VR6CBNugA1g" type="3001" source="_m6ZEMFBoEd-VR6CBNugA1g" target="_LbllsFBoEd-CjJhqOyZBzw">
+    <children xmi:type="notation:Node" xmi:id="_x23_4FBoEd-VR6CBNugA1g" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_x23_4VBoEd-VR6CBNugA1g" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_x23_4lBoEd-VR6CBNugA1g" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_x23_41BoEd-VR6CBNugA1g" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_x23Y0VBoEd-VR6CBNugA1g" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_x23Y0lBoEd-VR6CBNugA1g" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_x23Y01BoEd-VR6CBNugA1g" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_x21joVBoEd-VR6CBNugA1g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x23Y1FBoEd-VR6CBNugA1g" points="[23, -2, -60, -2]$[97, -11, 14, -11]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_yjkt0FBoEd-VR6CBNugA1g" type="3001" source="_m6ZEMFBoEd-VR6CBNugA1g" target="_DU3WMFBoEd-CjJhqOyZBzw">
+    <children xmi:type="notation:Node" xmi:id="_yjl78FBoEd-VR6CBNugA1g" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_yjl78VBoEd-VR6CBNugA1g" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_yjl78lBoEd-VR6CBNugA1g" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_yjl781BoEd-VR6CBNugA1g" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_yjkt0VBoEd-VR6CBNugA1g" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_yjkt0lBoEd-VR6CBNugA1g" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_yjkt01BoEd-VR6CBNugA1g" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_yji4oVBoEd-VR6CBNugA1g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yjkt1FBoEd-VR6CBNugA1g" points="[15, 9, -227, -127]$[222, 148, -20, 12]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_eo22YFBpEd-NG5kY61r-Jw" type="3001" source="_c_jWQFBpEd-NG5kY61r-Jw" target="_m6ZEMFBoEd-VR6CBNugA1g">
+    <children xmi:type="notation:Node" xmi:id="_eo55sFBpEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_eo55sVBpEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_eo55slBpEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eo55s1BpEd-NG5kY61r-Jw" y="40"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_eo22YVBpEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eo22YlBpEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_eo22Y1BpEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_eowvwVBpEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eo22ZFBpEd-NG5kY61r-Jw" points="[15, -2, -55, -2]$[93, -2, 23, -2]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_fdqXcFBpEd-NG5kY61r-Jw" type="3001" source="_cnjtAFBpEd-NG5kY61r-Jw" target="_55ox4FBnEd-CjJhqOyZBzw">
+    <children xmi:type="notation:Node" xmi:id="_fdq-gFBpEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_fdq-gVBpEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_fdq-glBpEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fdq-g1BpEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_fdqXcVBpEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fdqXclBpEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_fdqXc1BpEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_fdn7MVBpEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fdqXdFBpEd-NG5kY61r-Jw" points="[15, 1, -402, -24]$[95, 11, -322, -14]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_i5rLUFBpEd-NG5kY61r-Jw" type="3001" source="_jSskwFBoEd-VR6CBNugA1g" target="_iHFQwFBpEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_i5sZcFBpEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_i5sZcVBpEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_i5sZclBpEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_i5sZc1BpEd-NG5kY61r-Jw" y="40"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_i5rLUVBpEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_i5rLUlBpEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_i5rLU1BpEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_i5pWIVBpEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i5rLVFBpEd-NG5kY61r-Jw" points="[23, -2, -40, -2]$[54, -15, -9, -15]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_5ql-YFBpEd-NG5kY61r-Jw" type="3001" source="_4E82QFBpEd-NG5kY61r-Jw" target="_mmW4cFBpEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_5qmlcFBpEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_5qmlcVBpEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_5qmlclBpEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5qmlc1BpEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_5ql-YVBpEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5ql-YlBpEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_5ql-Y1BpEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_5qjiIVBpEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5ql-ZFBpEd-NG5kY61r-Jw" points="[14, -11, -122, 44]$[81, -69, -55, -14]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_6AVk4FBpEd-NG5kY61r-Jw" type="3001" source="_4E82QFBpEd-NG5kY61r-Jw" target="_qhaYwFBpEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_6AWL8FBpEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_6AWL8VBpEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_6AWL8lBpEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6AWL81BpEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_6AVk4VBpEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_6AVk4lBpEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_6AVk41BpEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_6ATvsFBpEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6AVk5FBpEd-NG5kY61r-Jw" points="[23, -2, -114, 3]$[84, -5, -53, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_6XrG0FBpEd-NG5kY61r-Jw" type="3001" source="_4E82QFBpEd-NG5kY61r-Jw" target="_w2nAQFBpEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_6Xrt4FBpEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_6Xrt4VBpEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_6Xrt4lBpEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6Xrt41BpEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_6XrG0VBpEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_6XrG0lBpEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_6XrG01BpEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_6XpRoVBpEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6XrG1FBpEd-NG5kY61r-Jw" points="[16, 8, -123, -43]$[84, 62, -55, 11]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_60b7UFBpEd-NG5kY61r-Jw" type="3001" source="_mmW4cFBpEd-NG5kY61r-Jw" target="_4yyzsFBpEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_60ciYFBpEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_60ciYVBpEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_60ciYlBpEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_60ciY1BpEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_60b7UVBpEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_60b7UlBpEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_60b7U1BpEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_60aGIVBpEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_60b7VFBpEd-NG5kY61r-Jw" points="[55, 14, -110, -41]$[182, 47, 17, -8]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7aXS4FBpEd-NG5kY61r-Jw" type="3001" source="_qhaYwFBpEd-NG5kY61r-Jw" target="_4yyzsFBpEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_7aX58FBpEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_7aX58VBpEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_7aX58lBpEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7aX581BpEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_7aXS4VBpEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7aXS4lBpEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_7aXS41BpEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_7aU2oVBpEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7aXS5FBpEd-NG5kY61r-Jw" points="[54, -2, -110, -7]$[148, -5, -16, -10]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7-mBUFBpEd-NG5kY61r-Jw" type="3001" source="_w2nAQFBpEd-NG5kY61r-Jw" target="_4yyzsFBpEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_7-moYFBpEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_7-nPcFBpEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_7-nPcVBpEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7-nPclBpEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_7-mBUVBpEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7-mBUlBpEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_7-mBU1BpEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_7-kMIVBpEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7-mBVFBpEd-NG5kY61r-Jw" points="[55, -15, -107, 36]$[154, -34, -8, 17]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_KgsY0FBqEd-NG5kY61r-Jw" type="3001" source="_EI0QwFBqEd-NG5kY61r-Jw" target="_y-G4QFBpEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_Kgs_4FBqEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_Kgs_4VBqEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_Kgs_4lBqEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Kgs_41BqEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_KgsY0VBqEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KgsY0lBqEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_KgsY01BqEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_KgqjoVBqEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KgsY1FBqEd-NG5kY61r-Jw" points="[13, 11, -123, -65]$[81, 76, -55, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_LFd50FBqEd-NG5kY61r-Jw" type="3001" source="_EI0QwFBqEd-NG5kY61r-Jw" target="_4E82QFBpEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_LFeg4FBqEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_LFeg4VBqEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_LFeg4lBqEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LFeg41BqEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_LFd50VBqEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LFd50lBqEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_LFd501BqEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_LFcEoVBqEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LFd51FBqEd-NG5kY61r-Jw" points="[14, -11, -57, 28]$[48, -41, -23, -2]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_LrKA0FBqEd-NG5kY61r-Jw" type="3001" source="_03kUQFBpEd-NG5kY61r-Jw" target="_HZZQsFBqEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_LrKn4FBqEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_LrKn4VBqEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_LrKn4lBqEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LrKn41BqEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_LrKA0VBqEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LrKA0lBqEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_LrKA01BqEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_LrILoVBqEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LrKA1FBqEd-NG5kY61r-Jw" points="[19, -12, -113, 64]$[109, -74, -23, 2]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_MD87UFBqEd-NG5kY61r-Jw" type="3001" source="_4yyzsFBpEd-NG5kY61r-Jw" target="_HZZQsFBqEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_MD-JcFBqEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_MD-JcVBqEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_MD-JclBqEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MD-Jc1BqEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_MD87UVBqEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MD87UlBqEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_MD87U1BqEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_MD7GIVBqEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MD87VFBqEd-NG5kY61r-Jw" points="[18, 6, -68, -33]$[73, 26, -13, -13]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_MixlUFBqEd-NG5kY61r-Jw" type="3001" source="_y-G4QFBpEd-NG5kY61r-Jw" target="_03kUQFBpEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_MiyMYFBqEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_MiyMYVBqEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_MiyMYlBqEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MiyMY1BqEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_MixlUVBqEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MixlUlBqEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_MixlU1BqEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_MivwIVBqEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MixlVFBqEd-NG5kY61r-Jw" points="[56, -2, -134, -2]$[119, -5, -71, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_PgEc4FBqEd-NG5kY61r-Jw" type="3001" source="_HZZQsFBqEd-NG5kY61r-Jw" target="_OpCHMFBqEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_PgFrAFBqEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_PgFrAVBqEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_PgFrAlBqEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PgFrA1BqEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_PgEc4VBqEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_PgEc4lBqEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_PgEc41BqEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_PgCAoVBqEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PgEc5FBqEd-NG5kY61r-Jw" points="[23, -2, -38, -2]$[46, -6, -15, -6]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Sa52UFBqEd-NG5kY61r-Jw" type="3001" source="_R612MFBqEd-NG5kY61r-Jw" target="_EI0QwFBqEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_Sa6dYFBqEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_Sa6dYVBqEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_Sa6dYlBqEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Sa7EcFBqEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_Sa52UVBqEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Sa52UlBqEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_Sa52U1BqEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_Sa4BIVBqEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Sa52VFBqEd-NG5kY61r-Jw" points="[15, -2, -46, -2]$[43, -8, -18, -8]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_T6bvYFBqEd-NG5kY61r-Jw" type="3001" source="_55ox4FBnEd-CjJhqOyZBzw" target="_mmNHcFBpEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_T6cWcFBqEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_T6cWcVBqEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_T6cWclBqEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_T6cWc1BqEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_T6bvYVBqEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_T6bvYlBqEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_T6bvY1BqEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_T6ZTIVBqEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_T6bvZFBqEd-NG5kY61r-Jw" points="[349, -21, -392, -21]$[427, -26, -314, -26]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_YdayYFBqEd-NG5kY61r-Jw" type="3001" source="_mmNHcFBpEd-NG5kY61r-Jw" target="_WPkawFBqEd-NG5kY61r-Jw">
+    <children xmi:type="notation:Node" xmi:id="_YdcAgFBqEd-NG5kY61r-Jw" type="4012">
+      <styles xmi:type="notation:FillStyle" xmi:id="_YdcAgVBqEd-NG5kY61r-Jw" fillColor="16776959"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_YdcAglBqEd-NG5kY61r-Jw" lineColor="16776959"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_YdcAg1BqEd-NG5kY61r-Jw" y="-10"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_YdayYVBqEd-NG5kY61r-Jw" routing="Rectilinear" smoothness="Normal" closestDistance="true"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_YdayYlBqEd-NG5kY61r-Jw" fontName="Arial"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_YdayY1BqEd-NG5kY61r-Jw" lineColor="0"/>
+    <element xmi:type="bpmn:SequenceEdge" href="TravelAgency_v2.bpmn#_YdYWIVBqEd-NG5kY61r-Jw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YdayZFBqEd-NG5kY61r-Jw" points="[315, -7, -81, -7]$[388, -15, -8, -15]"/>
+  </edges>
+</notation:Diagram>
