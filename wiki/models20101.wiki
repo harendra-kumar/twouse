@@ -30,7 +30,7 @@ a joint reasoning and validation.
 OWLizer is part of the TwoUse Toolkit:
 
    * Install the TwoUse Toolkit: http://code.google.com/p/twouse/wiki/InstallationTwoUse
-   * Use the OWLizer Plug-In to transform the model to OWL
+   * Use the OWLizer Plug-In to transform the model and metamodel to OWL
 
 = Feature Mapper =
 
