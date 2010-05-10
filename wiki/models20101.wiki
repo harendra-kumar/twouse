@@ -56,6 +56,19 @@ is available in the following repository. In this example, the individuals are
 renamed with meaningful names like the activity or feature name for an easier 
 understanding.
 
+    * Travel-Agency Ontology - valid: all activities and features are valid mapped
+      [http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010.ontology/Merged_closed_valid.10.owl]
+    * Travel-Agency Ontology - invalid: InvalidReference (invalid mapped activity in the solution space (activity Notification is not mapped - mapped activity Insurance is
+invalid mapped (InvalidReference) due to missing predecessor
+      [http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010.ontology/Merged_closed_invalid.11.InvalidReference.owl]
+     * Travel-Agency Ontology - invalid: InvalidContainment (invalid mapped activity
+       in the solution space)  activity Delivery (subprocess) is not mapped, hence all
+       activities in the subprocess are invalid (InvalidContainment)
+      [http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010/ontology/Merged_closed_invalid.12.InvalidContainment.owl]
+     * Travel-Agency Ontology - invalid: InvalidFeature (invalid mapped feature in the problem space/feature model) Feature Notification is modelled as mandatory but not
+       mapped. Hence, its mapped parent feature Delivery is invalid mapped (InvalidFeature)
+       [http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010/ontology/Merged_closed_invalid.13.InvalidFeature.owl]
+
 
 For the model validation, we use the open-source reasoners Pellet and FACT++ that can be
 used either via an API or as plug-in for Ontology Editors like Protege.
