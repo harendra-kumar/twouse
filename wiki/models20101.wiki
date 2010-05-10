@@ -58,15 +58,20 @@ understanding.
 
     * Travel-Agency Ontology - valid: all activities and features are valid mapped
       [http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010.ontology/Merged_closed_valid.10.owl]
-    * Travel-Agency Ontology - invalid: InvalidReference (invalid mapped activity in the solution space (activity Notification is not mapped - mapped activity Insurance is
-invalid mapped (InvalidReference) due to missing predecessor
+    * Travel-Agency Ontology - invalid: Invalid-Reference
+      (invalid mapped activity in the solution space): Activity Notification is not
+       mapped. Hence, the mapped activity Insurance is invalid mapped
+      (Invalid-Reference) due to the missing predecessor.
       [http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010.ontology/Merged_closed_invalid.11.InvalidReference.owl]
-     * Travel-Agency Ontology - invalid: InvalidContainment (invalid mapped activity
-       in the solution space)  activity Delivery (subprocess) is not mapped, hence all
-       activities in the subprocess are invalid (InvalidContainment)
+     * Travel-Agency Ontology - invalid: Invalid-Containment
+      (invalid mapped activity in the solution space)
+      Activity Delivery (subprocess) is not mapped, hence all
+       activities in the subprocess are invalid (Invalid-Containment)
       [http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010/ontology/Merged_closed_invalid.12.InvalidContainment.owl]
-     * Travel-Agency Ontology - invalid: InvalidFeature (invalid mapped feature in the problem space/feature model) Feature Notification is modelled as mandatory but not
-       mapped. Hence, its mapped parent feature Delivery is invalid mapped (InvalidFeature)
+     * Travel-Agency Ontology - invalid: Invalid-Feature
+       (invalid mapped feature in the problem space/feature model)
+       The feature Notification is modelled as mandatory but not
+       mapped. Hence, its mapped parent feature Delivery is invalid mapped (Invalid-Feature)
        [http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010/ontology/Merged_closed_invalid.13.InvalidFeature.owl]
 
 
