@@ -63,10 +63,10 @@ understanding.
       [http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010.ontology/Merged_InvalidReference.owl]
 
      * Travel-Agency Ontology - invalid: Invalid-Containment (invalid mapped activity in the solution space) Activity Delivery (subprocess) is not mapped, hence all activities in the subprocess are invalid (Invalid-Containment)
-      [http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010/ontology/Merged_InvalidContainment.owl]
+      [http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010.ontology/Merged_InvalidContainment.owl]
 
      * Travel-Agency Ontology - invalid: Invalid-Feature (invalid mapped feature in the problem space/feature model) The feature Notification is modelled as mandatory but not    mapped. Hence, its mapped parent feature Delivery is invalid mapped (Invalid-Feature)
-      [http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010/ontology/Merged_InvalidFeature.owl]
+      [http://twouse.googlecode.com/svn/trunk/west.twouse.mcv.models2010.ontology/Merged_InvalidFeature.owl]
 
 
 For the model validation, we use the open-source reasoners Pellet and FACT++ that can be
