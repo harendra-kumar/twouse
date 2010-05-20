@@ -3,10 +3,10 @@
 == Road Map ==
 
 
-  * Graphically [UMLProfiled4OWLSample model OWL ontologies] and [UMLProfileOWLRules OWL safe rules] using OMG UML Profile for OWL and UML Profile for SWRL.
-  * Graphically [OWL2GraphicalEditor model OWL ontologies] and [OWL2Rules OWL Safe Rules] using the TwoUse Graphical Editor.
-  * [OntologyTemplates Graphically model and store ontology design patterns as templates].
-  * [OWL2OWL Transform your graphical models to OWL2 functional syntax]
-  * [SPARQLQuery Write and safe SPARQL queries using the SPARQL Editor with syntax highlight].
-  * [OWL2FunctionalSyntax Specify and safe OWL ontologies using the OWL2 functional syntax with syntax highlight]. 
-  * Write queries using [SPARQLAS SPARQL-DL Functional Syntax]
+  # Import UML class diagrams or Ecore metamodels into OWL
+  # Graphically [UMLProfiled4OWLSample model OWL ontologies] and [UMLProfileOWLRules OWL safe rules] using OMG UML Profile for OWL and UML Profile for SWRL.
+  # Graphically [OWL2GraphicalEditor model OWL ontologies] and [OWL2Rules OWL Safe Rules] using the TwoUse Graphical Editor.
+  # [OntologyTemplates Graphically model and store ontology design patterns as templates].
+  # [OWL2OWL Transform your graphical models to OWL2 functional syntax]
+  # [OWL2FunctionalSyntax Specify and safe OWL ontologies using the OWL2 functional syntax with syntax highlight]. 
+  # Write queries using [SPARQLAS SPARQL-DL Functional Syntax]
