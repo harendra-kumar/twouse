@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_M7MhEDdrEd-1K-xB6Ypylw" activeDiagram="_FQhf4FMAEd-pjKlf8lScOQ">
+  <model href="Hotel.uml#_w8IxIM37EdqwVrslYOdUDA"/>
+  <diagrams xmi:id="_M7MhETdrEd-1K-xB6Ypylw" position="0,0" size="100,100" name="Hotel" viewport="0,0">
+    <property xmi:id="_M7fcADdrEd-1K-xB6Ypylw" key="pageFormatName" value="A4"/>
+    <property xmi:id="_M7fcATdrEd-1K-xB6Ypylw" key="diagramWidth" value="840"/>
+    <property xmi:id="_M7fcAjdrEd-1K-xB6Ypylw" key="diagramHeight" value="1188"/>
+    <property xmi:id="_M7fcAzdrEd-1K-xB6Ypylw" key="pageMarginName" value="Small Margin"/>
+    <property xmi:id="_M7fcBDdrEd-1K-xB6Ypylw" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_M7fcBTdrEd-1K-xB6Ypylw" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_M7fcBjdrEd-1K-xB6Ypylw" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_M7fcBzdrEd-1K-xB6Ypylw" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_M7fcCDdrEd-1K-xB6Ypylw" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_M7MhEjdrEd-1K-xB6Ypylw" presentation="org.topcased.modeler.uml.classdiagram">
+      <element href="Hotel.uml#_w8IxIM37EdqwVrslYOdUDA"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_17IpUDdrEd-1K-xB6Ypylw" position="139,127" size="152,-1">
+      <anchorage xmi:id="_u7kkQDdtEd-1K-xB6Ypylw" graphEdge="_u7kkQjdtEd-1K-xB6Ypylw"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_17IpUTdrEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_1743QDdrEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_17IpUjdrEd-1K-xB6Ypylw">
+        <property xmi:id="_17IpUzdrEd-1K-xB6Ypylw" key="eStructuralFeatureID" value="37"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_17IpVDdrEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_1743QDdrEd-1K-xB6Ypylw"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_17IpVTdrEd-1K-xB6Ypylw">
+        <property xmi:id="_17IpVjdrEd-1K-xB6Ypylw" key="eStructuralFeatureID" value="47 50 "/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_17IpVzdrEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_1743QDdrEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_8sK4QDdrEd-1K-xB6Ypylw" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_8sK4QTdrEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_8sK4QjdrEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_3wQ-8DdrEd-1K-xB6Ypylw" position="365,142" size="187,-1">
+      <anchorage xmi:id="_vP_VEDdtEd-1K-xB6Ypylw" graphEdge="_vP_VEjdtEd-1K-xB6Ypylw"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3wQ-8TdrEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_3wQ--DdrEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_3wQ-8jdrEd-1K-xB6Ypylw">
+        <property xmi:id="_3wQ-8zdrEd-1K-xB6Ypylw" key="eStructuralFeatureID" value="37"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3wQ-9DdrEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_3wQ--DdrEd-1K-xB6Ypylw"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_3wQ-9TdrEd-1K-xB6Ypylw">
+        <property xmi:id="_3wQ-9jdrEd-1K-xB6Ypylw" key="eStructuralFeatureID" value="47 50 "/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_3wQ-9zdrEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_3wQ--DdrEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_5jvuwDdrEd-1K-xB6Ypylw" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_5jvuwTdrEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_5jvuwjdrEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_6gPzQDdrEd-1K-xB6Ypylw" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_6gPzQTdrEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_6gPzQjdrEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_mZ23UDdsEd-1K-xB6Ypylw" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_mZ23UTdsEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_mZ23UjdsEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_hSoe0DdsEd-1K-xB6Ypylw" position="131,238" size="115,-1">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hSoe0TdsEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_hSoe2DdsEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_hSoe0jdsEd-1K-xB6Ypylw">
+        <property xmi:id="_hSoe0zdsEd-1K-xB6Ypylw" key="eStructuralFeatureID" value="37"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hSoe1DdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_hSoe2DdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_hSoe1TdsEd-1K-xB6Ypylw">
+        <property xmi:id="_hSoe1jdsEd-1K-xB6Ypylw" key="eStructuralFeatureID" value="47 50 "/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hSoe1zdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_hSoe2DdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_k26d4DdsEd-1K-xB6Ypylw" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_k26d4TdsEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_k26d4jdsEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_JnNV4DdtEd-1K-xB6Ypylw" position="435,270" size="140,-1">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_JnNV4TdtEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_JnNV6DdtEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_JnNV4jdtEd-1K-xB6Ypylw">
+        <property xmi:id="_JnNV4zdtEd-1K-xB6Ypylw" key="eStructuralFeatureID" value="37"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_JnNV5DdtEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_JnNV6DdtEd-1K-xB6Ypylw"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_JnNV5TdtEd-1K-xB6Ypylw">
+        <property xmi:id="_JnNV5jdtEd-1K-xB6Ypylw" key="eStructuralFeatureID" value="47 50 "/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_JnNV5zdtEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_JnNV6DdtEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_Ll4CADdtEd-1K-xB6Ypylw" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ll4CATdtEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_Ll4CAjdtEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_pr2XEDdtEd-1K-xB6Ypylw" position="145,34" size="100,-1">
+      <anchorage xmi:id="_u7kkQTdtEd-1K-xB6Ypylw" graphEdge="_u7kkQjdtEd-1K-xB6Ypylw"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_pr2XETdtEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_pr2XGDdtEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_pr2XEjdtEd-1K-xB6Ypylw">
+        <property xmi:id="_pr2XEzdtEd-1K-xB6Ypylw" key="eStructuralFeatureID" value="37"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_pr2XFDdtEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_pr2XGDdtEd-1K-xB6Ypylw"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_pr2XFTdtEd-1K-xB6Ypylw">
+        <property xmi:id="_pr2XFjdtEd-1K-xB6Ypylw" key="eStructuralFeatureID" value="47 50 "/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_pr2XFzdtEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_pr2XGDdtEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_wT8FYTdtEd-1K-xB6Ypylw" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_wT8FYjdtEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_wT8FYDdtEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_p3BsUDdtEd-1K-xB6Ypylw" position="464,36" size="100,-1">
+      <anchorage xmi:id="_vP_VETdtEd-1K-xB6Ypylw" graphEdge="_vP_VEjdtEd-1K-xB6Ypylw"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_p3BsUTdtEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_p3BsWDdtEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_p3BsUjdtEd-1K-xB6Ypylw">
+        <property xmi:id="_p3BsUzdtEd-1K-xB6Ypylw" key="eStructuralFeatureID" value="37"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_p3BsVDdtEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_p3BsWDdtEd-1K-xB6Ypylw"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_p3BsVTdtEd-1K-xB6Ypylw">
+        <property xmi:id="_p3BsVjdtEd-1K-xB6Ypylw" key="eStructuralFeatureID" value="47 50 "/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_p3BsVzdtEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_p3BsWDdtEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_yvDc8jdtEd-1K-xB6Ypylw" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yvDc8zdtEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_yvDc8DdtEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_yvDc9DdtEd-1K-xB6Ypylw" position="0,0" size="-1,-1">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yvDc9TdtEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_yvDc8TdtEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_u7kkQjdtEd-1K-xB6Ypylw" anchor="_u7kkQDdtEd-1K-xB6Ypylw _u7kkQTdtEd-1K-xB6Ypylw">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_u7kkQzdtEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_u7kkRTdtEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_u7kkRDdtEd-1K-xB6Ypylw" id="stereotypeEdgeObject"/>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_vP_VEjdtEd-1K-xB6Ypylw" anchor="_vP_VEDdtEd-1K-xB6Ypylw _vP_VETdtEd-1K-xB6Ypylw">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_vP_VEzdtEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_vP_VFTdtEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_vP_VFDdtEd-1K-xB6Ypylw" id="stereotypeEdgeObject"/>
+    </contained>
+  </diagrams>
+  <diagrams xmi:id="_OP1YwDdrEd-1K-xB6Ypylw" position="0,0" size="100,100" name="Hotel1" viewport="0,0">
+    <property xmi:id="_OQITsDdrEd-1K-xB6Ypylw" key="pageFormatName" value="A4"/>
+    <property xmi:id="_OQITsTdrEd-1K-xB6Ypylw" key="diagramWidth" value="840"/>
+    <property xmi:id="_OQITsjdrEd-1K-xB6Ypylw" key="diagramHeight" value="1188"/>
+    <property xmi:id="_OQITszdrEd-1K-xB6Ypylw" key="pageMarginName" value="Small Margin"/>
+    <property xmi:id="_OQITtDdrEd-1K-xB6Ypylw" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_OQITtTdrEd-1K-xB6Ypylw" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_OQITtjdrEd-1K-xB6Ypylw" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_OQITtzdrEd-1K-xB6Ypylw" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_OQITuDdrEd-1K-xB6Ypylw" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_OP1YwTdrEd-1K-xB6Ypylw" presentation="org.topcased.modeler.uml.usecasediagram">
+      <element href="Hotel.uml#_w8IxIM37EdqwVrslYOdUDA"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_OhHWADdrEd-1K-xB6Ypylw" position="215,143" size="120,80">
+      <anchorage xmi:id="_SJkqcDdrEd-1K-xB6Ypylw" graphEdge="_SJkqcjdrEd-1K-xB6Ypylw _WJbLMTdrEd-1K-xB6Ypylw _hgwP0TdrEd-1K-xB6Ypylw"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_OhHWATdrEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_OhRHADdrEd-1K-xB6Ypylw"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_QsvgEDdrEd-1K-xB6Ypylw" position="436,119" size="120,80">
+      <anchorage xmi:id="_SJkqcTdrEd-1K-xB6Ypylw" graphEdge="_SJkqcjdrEd-1K-xB6Ypylw _sBY9ATdrEd-1K-xB6Ypylw"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_QsvgETdrEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_QsvgEjdrEd-1K-xB6Ypylw"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_SJkqcjdrEd-1K-xB6Ypylw" anchor="_SJkqcDdrEd-1K-xB6Ypylw _SJkqcTdrEd-1K-xB6Ypylw">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_SJkqczdrEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_SJkqdTdrEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_SJkqdDdrEd-1K-xB6Ypylw" id="nameEdgeObject" offset="5,-37"/>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_UHyqoDdrEd-1K-xB6Ypylw" position="222,18" size="120,80">
+      <anchorage xmi:id="_WJbLMDdrEd-1K-xB6Ypylw" graphEdge="_WJbLMTdrEd-1K-xB6Ypylw"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_UHyqoTdrEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_UHyqojdrEd-1K-xB6Ypylw"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_WJbLMTdrEd-1K-xB6Ypylw" anchor="_SJkqcDdrEd-1K-xB6Ypylw _WJbLMDdrEd-1K-xB6Ypylw">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_WJbLMjdrEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_WJbLNDdrEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_WJbLMzdrEd-1K-xB6Ypylw" id="stereotypeEdgeObject"/>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_aHVyQDdrEd-1K-xB6Ypylw" position="21,117" size="80,80">
+      <anchorage xmi:id="_hgwP0DdrEd-1K-xB6Ypylw" graphEdge="_hgwP0TdrEd-1K-xB6Ypylw"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_aHVyQTdrEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_aKel0DdrEd-1K-xB6Ypylw"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_hgwP0TdrEd-1K-xB6Ypylw" anchor="_hgwP0DdrEd-1K-xB6Ypylw _SJkqcDdrEd-1K-xB6Ypylw">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hgwP0jdrEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_hgwP1zdrEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_hgwP0zdrEd-1K-xB6Ypylw" visible="false" id="srcCountEdgeObject" uDistance="10" vDistance="-10"/>
+      <contained xsi:type="di:EdgeObjectUV" xmi:id="_hgwP1DdrEd-1K-xB6Ypylw" visible="false" id="targetCountEdgeObject" uDistance="10" vDistance="-10"/>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_hgwP1TdrEd-1K-xB6Ypylw" id="nameEdgeObject" offset="1,81"/>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_hgwP1jdrEd-1K-xB6Ypylw" id="stereotypeEdgeObject" offset="0,-10"/>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_pGrfYDdrEd-1K-xB6Ypylw" position="281,282" size="120,80">
+      <anchorage xmi:id="_sBY9ADdrEd-1K-xB6Ypylw" graphEdge="_sBY9ATdrEd-1K-xB6Ypylw"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_pGrfYTdrEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_pGrfYjdrEd-1K-xB6Ypylw"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_qdQQwDdrEd-1K-xB6Ypylw" position="107,306" size="80,80">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_qdQQwTdrEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_qdQQwjdrEd-1K-xB6Ypylw"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphEdge" xmi:id="_sBY9ATdrEd-1K-xB6Ypylw" anchor="_sBY9ADdrEd-1K-xB6Ypylw _SJkqcTdrEd-1K-xB6Ypylw">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_sBY9AjdrEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_sBY9BDdrEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:EdgeObjectOffset" xmi:id="_sBY9AzdrEd-1K-xB6Ypylw" id="nameEdgeObject"/>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_q_xnoDduEd-1K-xB6Ypylw" position="477,283" size="120,80">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_q_xnoTduEd-1K-xB6Ypylw" presentation="default">
+        <element href="Hotel.uml#_q_xnojduEd-1K-xB6Ypylw"/>
+      </semanticModel>
+    </contained>
+  </diagrams>
+  <diagrams xmi:id="_iYWVMFMBEd-pjKlf8lScOQ" position="0,0" size="100,100" name="Hotel2" viewport="0,0">
+    <property xmi:id="_iY4gsFMBEd-pjKlf8lScOQ" key="pageFormatName" value="A4"/>
+    <property xmi:id="_iY4gsVMBEd-pjKlf8lScOQ" key="diagramWidth" value="840"/>
+    <property xmi:id="_iY4gslMBEd-pjKlf8lScOQ" key="diagramHeight" value="1188"/>
+    <property xmi:id="_iY4gs1MBEd-pjKlf8lScOQ" key="pageMarginName" value="Small Margin"/>
+    <property xmi:id="_iY4gtFMBEd-pjKlf8lScOQ" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_iY4gtVMBEd-pjKlf8lScOQ" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_iY4gtlMBEd-pjKlf8lScOQ" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_iY4gt1MBEd-pjKlf8lScOQ" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_iY4guFMBEd-pjKlf8lScOQ" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_iYWVMVMBEd-pjKlf8lScOQ" presentation="org.topcased.modeler.uml.classdiagram">
+      <element href="Hotel.uml#_w8IxIM37EdqwVrslYOdUDA"/>
+    </semanticModel>
+    <contained xsi:type="di:GraphNode" xmi:id="_iwfvcFMBEd-pjKlf8lScOQ" position="263,102" size="87,50">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_iwfvcVMBEd-pjKlf8lScOQ" presentation="default">
+        <element href="Hotel.uml#_iwqHgFMBEd-pjKlf8lScOQ"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_j7fi8FMBEd-pjKlf8lScOQ" position="383,90" size="99,50">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_j7fi8VMBEd-pjKlf8lScOQ" presentation="default">
+        <element href="Hotel.uml#_j7gKAFMBEd-pjKlf8lScOQ"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_k04CAFMBEd-pjKlf8lScOQ" position="131,90" size="63,50">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_k04CAVMBEd-pjKlf8lScOQ" presentation="default">
+        <element href="Hotel.uml#_k04pEFMBEd-pjKlf8lScOQ"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_n4EGMFMBEd-pjKlf8lScOQ" position="395,198" size="102,50">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_n4EGMVMBEd-pjKlf8lScOQ" presentation="default">
+        <element href="Hotel.uml#_n4EtQFMBEd-pjKlf8lScOQ"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_2Cx4cFMBEd-pjKlf8lScOQ" position="119,198" size="106,50">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_2Cx4cVMBEd-pjKlf8lScOQ" presentation="default">
+        <element href="Hotel.uml#_2CzGkFMBEd-pjKlf8lScOQ"/>
+      </semanticModel>
+    </contained>
+    <contained xsi:type="di:GraphNode" xmi:id="_21Na8FMBEd-pjKlf8lScOQ" position="251,198" size="96,50">
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_21OCAFMBEd-pjKlf8lScOQ" presentation="default">
+        <element href="Hotel.uml#_21OpEFMBEd-pjKlf8lScOQ"/>
+      </semanticModel>
+    </contained>
+  </diagrams>
+  <subdiagrams xmi:id="_xAuk0TdrEd-1K-xB6Ypylw">
+    <model href="Hotel.uml#_xAuk0DdrEd-1K-xB6Ypylw"/>
+    <diagrams xmi:id="_xAuk0jdrEd-1K-xB6Ypylw" position="0,0" size="100,100" name="Reserve Room" viewport="0,0">
+      <property xmi:id="_xBBfwDdrEd-1K-xB6Ypylw" key="pageFormatName" value="A4"/>
+      <property xmi:id="_xBBfwTdrEd-1K-xB6Ypylw" key="diagramWidth" value="840"/>
+      <property xmi:id="_xBBfwjdrEd-1K-xB6Ypylw" key="diagramHeight" value="1188"/>
+      <property xmi:id="_xBBfwzdrEd-1K-xB6Ypylw" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_xBBfxDdrEd-1K-xB6Ypylw" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_xBBfxTdrEd-1K-xB6Ypylw" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_xBBfxjdrEd-1K-xB6Ypylw" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_xBBfxzdrEd-1K-xB6Ypylw" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_xBBfyDdrEd-1K-xB6Ypylw" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_xAuk0zdrEd-1K-xB6Ypylw" presentation="org.topcased.modeler.uml.sequencediagram">
+        <element href="Hotel.uml#_xAuk0DdrEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_yOW1kDdrEd-1K-xB6Ypylw" position="6,40" size="141,160">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_yOW1kTdrEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_yOW1kjdrEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_Dx6L4DdsEd-1K-xB6Ypylw" position="40,71" size="20,50">
+          <anchorage xmi:id="_FPe9IDdsEd-1K-xB6Ypylw" position="9,24" graphEdge="_FPe9IjdsEd-1K-xB6Ypylw"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Dx6L4TdsEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_Dx6L4jdsEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_Bg7AsDdsEd-1K-xB6Ypylw" position="174,40" size="221,196">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Bg7AsTdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_Bg7AsjdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_DflFwDdsEd-1K-xB6Ypylw" position="40,71" size="20,86">
+          <anchorage xmi:id="_FPe9ITdsEd-1K-xB6Ypylw" position="10,24" graphEdge="_FPe9IjdsEd-1K-xB6Ypylw"/>
+          <anchorage xmi:id="_GCvmEDdsEd-1K-xB6Ypylw" position="15,24" graphEdge="_GC5XETdsEd-1K-xB6Ypylw"/>
+          <anchorage xmi:id="_GhcUQDdsEd-1K-xB6Ypylw" position="12,61" graphEdge="_GhcUQjdsEd-1K-xB6Ypylw"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_DflFwTdsEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_DflFwjdsEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_ByM98DdsEd-1K-xB6Ypylw" position="477,40" size="121,209">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ByM98TdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_ByM98jdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_EIjxUDdsEd-1K-xB6Ypylw" position="40,86" size="20,84">
+          <anchorage xmi:id="_GC5XEDdsEd-1K-xB6Ypylw" position="7,9" graphEdge="_GC5XETdsEd-1K-xB6Ypylw"/>
+          <anchorage xmi:id="_GhcUQTdsEd-1K-xB6Ypylw" position="7,46" graphEdge="_GhcUQjdsEd-1K-xB6Ypylw"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_EIjxUTdsEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_EIjxUjdsEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_FPe9IjdsEd-1K-xB6Ypylw" anchor="_FPe9IDdsEd-1K-xB6Ypylw _FPe9ITdsEd-1K-xB6Ypylw">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FPe9IzdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_FPe9KDdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_FPe9JDdsEd-1K-xB6Ypylw" id="nameEdgeObject" offset="0,-10"/>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_GC5XETdsEd-1K-xB6Ypylw" anchor="_GCvmEDdsEd-1K-xB6Ypylw _GC5XEDdsEd-1K-xB6Ypylw">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_GC5XEjdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_GC5XFzdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_GC5XEzdsEd-1K-xB6Ypylw" id="nameEdgeObject" offset="0,-10"/>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_GhcUQjdsEd-1K-xB6Ypylw" anchor="_GhcUQDdsEd-1K-xB6Ypylw _GhcUQTdsEd-1K-xB6Ypylw">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_GhcUQzdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_GhmFQzdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_GhcURDdsEd-1K-xB6Ypylw" id="nameEdgeObject" offset="0,-10"/>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+  <subdiagrams xmi:id="_UutrQTdsEd-1K-xB6Ypylw">
+    <model href="Hotel.uml#_UutrQDdsEd-1K-xB6Ypylw"/>
+    <diagrams xmi:id="_UutrQjdsEd-1K-xB6Ypylw" position="0,0" size="100,100" name="Ckeck In Customer" viewport="0,4">
+      <property xmi:id="_UvKXMDdsEd-1K-xB6Ypylw" key="pageFormatName" value="A4"/>
+      <property xmi:id="_UvKXMTdsEd-1K-xB6Ypylw" key="diagramWidth" value="840"/>
+      <property xmi:id="_UvKXMjdsEd-1K-xB6Ypylw" key="diagramHeight" value="1188"/>
+      <property xmi:id="_UvKXMzdsEd-1K-xB6Ypylw" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_UvKXNDdsEd-1K-xB6Ypylw" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_UvKXNTdsEd-1K-xB6Ypylw" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_UvKXNjdsEd-1K-xB6Ypylw" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_UvKXNzdsEd-1K-xB6Ypylw" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_UvKXODdsEd-1K-xB6Ypylw" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_UutrQzdsEd-1K-xB6Ypylw" presentation="org.topcased.modeler.uml.sequencediagram">
+        <element href="Hotel.uml#_UutrQDdsEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_rG3ZADdsEd-1K-xB6Ypylw" position="74,40" size="100,300">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_rG3ZATdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_rG3ZAjdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_uRqhEDdsEd-1K-xB6Ypylw" position="40,73" size="20,50">
+          <anchorage xmi:id="_v8gSQDdsEd-1K-xB6Ypylw" position="15,28" graphEdge="_v8gSQjdsEd-1K-xB6Ypylw"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_uRqhETdsEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_uRqhEjdsEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_rPqIoDdsEd-1K-xB6Ypylw" position="241,40" size="100,300">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_rPqIoTdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_rPqIojdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_urAOIDdsEd-1K-xB6Ypylw" position="40,90" size="20,108">
+          <anchorage xmi:id="_v8gSQTdsEd-1K-xB6Ypylw" position="9,11" graphEdge="_v8gSQjdsEd-1K-xB6Ypylw"/>
+          <anchorage xmi:id="_wfYV0DdsEd-1K-xB6Ypylw" position="13,39" graphEdge="_wfYV0jdsEd-1K-xB6Ypylw"/>
+          <anchorage xmi:id="_zC1xEDdsEd-1K-xB6Ypylw" position="12,77" graphEdge="_zC1xEjdsEd-1K-xB6Ypylw"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_urAOITdsEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_urAOIjdsEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_rdg-cDdsEd-1K-xB6Ypylw" position="432,40" size="100,300">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_rdg-cTdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_rdg-cjdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_u6gCsDdsEd-1K-xB6Ypylw" position="40,108" size="20,104">
+          <anchorage xmi:id="_wfYV0TdsEd-1K-xB6Ypylw" position="13,21" graphEdge="_wfYV0jdsEd-1K-xB6Ypylw"/>
+          <anchorage xmi:id="_zC1xETdsEd-1K-xB6Ypylw" position="14,59" graphEdge="_zC1xEjdsEd-1K-xB6Ypylw"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_u6gCsTdsEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_u6gCsjdsEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_v8gSQjdsEd-1K-xB6Ypylw" anchor="_v8gSQDdsEd-1K-xB6Ypylw _v8gSQTdsEd-1K-xB6Ypylw">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_v8gSQzdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_v8gSSDdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_v8gSRDdsEd-1K-xB6Ypylw" id="nameEdgeObject" offset="0,-10"/>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_wfYV0jdsEd-1K-xB6Ypylw" anchor="_wfYV0DdsEd-1K-xB6Ypylw _wfYV0TdsEd-1K-xB6Ypylw">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_wfYV0zdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_wfhfwjdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_wfYV1DdsEd-1K-xB6Ypylw" id="nameEdgeObject" offset="0,-10"/>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_zC1xEjdsEd-1K-xB6Ypylw" anchor="_zC1xEDdsEd-1K-xB6Ypylw _zC1xETdsEd-1K-xB6Ypylw">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_zC1xEzdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_zC1xGDdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_zC1xFDdsEd-1K-xB6Ypylw" id="nameEdgeObject" offset="0,-10"/>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+  <subdiagrams xmi:id="_5ZWAITdsEd-1K-xB6Ypylw">
+    <model href="Hotel.uml#_5ZWAIDdsEd-1K-xB6Ypylw"/>
+    <diagrams xmi:id="_5ZWAIjdsEd-1K-xB6Ypylw" position="0,0" size="100,100" name="Check Room Details" viewport="0,4">
+      <property xmi:id="_5Z8dEDdsEd-1K-xB6Ypylw" key="pageFormatName" value="A4"/>
+      <property xmi:id="_5Z8dETdsEd-1K-xB6Ypylw" key="diagramWidth" value="840"/>
+      <property xmi:id="_5Z8dEjdsEd-1K-xB6Ypylw" key="diagramHeight" value="1188"/>
+      <property xmi:id="_5Z8dEzdsEd-1K-xB6Ypylw" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_5Z8dFDdsEd-1K-xB6Ypylw" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_5Z8dFTdsEd-1K-xB6Ypylw" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_5Z8dFjdsEd-1K-xB6Ypylw" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_5Z8dFzdsEd-1K-xB6Ypylw" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_5Z8dGDdsEd-1K-xB6Ypylw" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_5ZWAIzdsEd-1K-xB6Ypylw" presentation="org.topcased.modeler.uml.sequencediagram">
+        <element href="Hotel.uml#_5ZWAIDdsEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_9TYz0DdsEd-1K-xB6Ypylw" position="17,40" size="141,149">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_9TYz0TdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_9TYz0jdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_-85IQDdsEd-1K-xB6Ypylw" position="40,60" size="20,50">
+          <anchorage xmi:id="_BEV88DdtEd-1K-xB6Ypylw" position="5,25" graphEdge="_BEV88jdtEd-1K-xB6Ypylw"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_-85IQTdsEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_-85IQjdsEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_9ceeYDdsEd-1K-xB6Ypylw" position="205,40" size="207,215">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_9ceeYTdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_9ceeYjdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="__OBUgDdsEd-1K-xB6Ypylw" position="40,71" size="20,105">
+          <anchorage xmi:id="_BEV88TdtEd-1K-xB6Ypylw" position="10,14" graphEdge="_BEV88jdtEd-1K-xB6Ypylw"/>
+          <anchorage xmi:id="_EQfI0DdtEd-1K-xB6Ypylw" position="12,58" graphEdge="_EQfI0jdtEd-1K-xB6Ypylw"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__OBUgTdsEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#__OBUgjdsEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_98XfYDdsEd-1K-xB6Ypylw" position="444,40" size="121,204">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_98XfYTdsEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_98XfYjdsEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="__eag8DdsEd-1K-xB6Ypylw" position="40,75" size="20,90">
+          <anchorage xmi:id="_EQfI0TdtEd-1K-xB6Ypylw" position="9,54" graphEdge="_EQfI0jdtEd-1K-xB6Ypylw"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__eag8TdsEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#__eag8jdsEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_BEV88jdtEd-1K-xB6Ypylw" anchor="_BEV88DdtEd-1K-xB6Ypylw _BEV88TdtEd-1K-xB6Ypylw">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_BEV88zdtEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_BEfG4DdtEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_BEV89DdtEd-1K-xB6Ypylw" id="nameEdgeObject" offset="0,-10"/>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_EQfI0jdtEd-1K-xB6Ypylw" anchor="_EQfI0DdtEd-1K-xB6Ypylw _EQfI0TdtEd-1K-xB6Ypylw">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_EQfI0zdtEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_EQfI2DdtEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_EQfI1DdtEd-1K-xB6Ypylw" id="nameEdgeObject" offset="0,-10"/>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+  <subdiagrams xmi:id="_nJH7oTdtEd-1K-xB6Ypylw">
+    <model href="Hotel.uml#_nJH7oDdtEd-1K-xB6Ypylw"/>
+    <diagrams xmi:id="_nJRsoDdtEd-1K-xB6Ypylw" position="0,0" size="100,100" name="Reserve Facility" viewport="0,4">
+      <property xmi:id="_nJ3igDdtEd-1K-xB6Ypylw" key="pageFormatName" value="A4"/>
+      <property xmi:id="_nJ3igTdtEd-1K-xB6Ypylw" key="diagramWidth" value="840"/>
+      <property xmi:id="_nJ3igjdtEd-1K-xB6Ypylw" key="diagramHeight" value="1188"/>
+      <property xmi:id="_nJ3igzdtEd-1K-xB6Ypylw" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_nJ3ihDdtEd-1K-xB6Ypylw" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_nJ3ihTdtEd-1K-xB6Ypylw" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_nJ3ihjdtEd-1K-xB6Ypylw" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_nJ3ihzdtEd-1K-xB6Ypylw" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_nJ3iiDdtEd-1K-xB6Ypylw" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_nJRsoTdtEd-1K-xB6Ypylw" presentation="org.topcased.modeler.uml.sequencediagram">
+        <element href="Hotel.uml#_nJH7oDdtEd-1K-xB6Ypylw"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_-VulIDdtEd-1K-xB6Ypylw" position="22,40" size="141,142">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_-VulITdtEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_-VulIjdtEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_CuxB8DduEd-1K-xB6Ypylw" position="60,53" size="20,60">
+          <anchorage xmi:id="_EKZ5gDduEd-1K-xB6Ypylw" position="13,24" graphEdge="_EKZ5gjduEd-1K-xB6Ypylw"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_CuxB8TduEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_CuxB8jduEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="__MRLkDdtEd-1K-xB6Ypylw" position="205,40" size="226,163">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__MRLkTdtEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#__MRLkjdtEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_DAfrIDduEd-1K-xB6Ypylw" position="103,74" size="20,60">
+          <anchorage xmi:id="_EKZ5gTduEd-1K-xB6Ypylw" position="12,3" graphEdge="_EKZ5gjduEd-1K-xB6Ypylw"/>
+          <anchorage xmi:id="_ElrgQDduEd-1K-xB6Ypylw" position="15,21" graphEdge="_ElrgQjduEd-1K-xB6Ypylw"/>
+          <anchorage xmi:id="_FEXnYDduEd-1K-xB6Ypylw" position="18,49" graphEdge="_FEXnYjduEd-1K-xB6Ypylw"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_DAfrITduEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_DAfrIjduEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="__bxAIDdtEd-1K-xB6Ypylw" position="459,40" size="126,177">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="__bxAITdtEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#__bxAIjdtEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_DXl8gDduEd-1K-xB6Ypylw" position="53,88" size="20,60">
+          <anchorage xmi:id="_ElrgQTduEd-1K-xB6Ypylw" position="15,7" graphEdge="_ElrgQjduEd-1K-xB6Ypylw"/>
+          <anchorage xmi:id="_FEXnYTduEd-1K-xB6Ypylw" position="7,35" graphEdge="_FEXnYjduEd-1K-xB6Ypylw"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_DXl8gTduEd-1K-xB6Ypylw" presentation="default">
+            <element href="Hotel.uml#_DXl8gjduEd-1K-xB6Ypylw"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_EKZ5gjduEd-1K-xB6Ypylw" anchor="_EKZ5gDduEd-1K-xB6Ypylw _EKZ5gTduEd-1K-xB6Ypylw">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_EKZ5gzduEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_EKZ5iDduEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_EKZ5hDduEd-1K-xB6Ypylw" id="nameEdgeObject" offset="0,-10"/>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_ElrgQjduEd-1K-xB6Ypylw" anchor="_ElrgQDduEd-1K-xB6Ypylw _ElrgQTduEd-1K-xB6Ypylw">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ElrgQzduEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_ElrgSDduEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_ElrgRDduEd-1K-xB6Ypylw" id="nameEdgeObject" offset="0,-10"/>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_FEXnYjduEd-1K-xB6Ypylw" anchor="_FEXnYDduEd-1K-xB6Ypylw _FEXnYTduEd-1K-xB6Ypylw">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FEXnYzduEd-1K-xB6Ypylw" presentation="default">
+          <element href="Hotel.uml#_FEXnaDduEd-1K-xB6Ypylw"/>
+        </semanticModel>
+        <contained xsi:type="di:EdgeObjectOffset" xmi:id="_FEXnZDduEd-1K-xB6Ypylw" id="nameEdgeObject" offset="0,-10"/>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+  <subdiagrams xmi:id="_FQayMFMAEd-pjKlf8lScOQ">
+    <model href="Hotel.uml#_FQY9AFMAEd-pjKlf8lScOQ"/>
+    <diagrams xmi:id="_FQhf4FMAEd-pjKlf8lScOQ" position="0,0" size="100,100" name="Hotel2" viewport="0,0">
+      <property xmi:id="_FRbe0FMAEd-pjKlf8lScOQ" key="pageFormatName" value="A4"/>
+      <property xmi:id="_FRcF4FMAEd-pjKlf8lScOQ" key="diagramWidth" value="840"/>
+      <property xmi:id="_FRcF4VMAEd-pjKlf8lScOQ" key="diagramHeight" value="1188"/>
+      <property xmi:id="_FRcF4lMAEd-pjKlf8lScOQ" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_FRcF41MAEd-pjKlf8lScOQ" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_FRcF5FMAEd-pjKlf8lScOQ" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_FRcF5VMAEd-pjKlf8lScOQ" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_FRcF5lMAEd-pjKlf8lScOQ" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_FRcF51MAEd-pjKlf8lScOQ" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FQiG8FMAEd-pjKlf8lScOQ" presentation="org.topcased.modeler.uml.componentdiagram">
+        <element href="Hotel.uml#_FQY9AFMAEd-pjKlf8lScOQ"/>
+      </semanticModel>
+      <contained xsi:type="di:GraphNode" xmi:id="_FqPncFMAEd-pjKlf8lScOQ" position="371,284" size="200,90">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_FqPncVMAEd-pjKlf8lScOQ" presentation="default">
+          <element href="Hotel.uml#_Fqb0sFMAEd-pjKlf8lScOQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_Rg_L8FMAEd-pjKlf8lScOQ" position="20,47" size="-1,-1">
+          <property xmi:id="_Rg_L8VMAEd-pjKlf8lScOQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_YWqqUFMAEd-pjKlf8lScOQ" graphEdge="_YWsfgFMAEd-pjKlf8lScOQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Rg_L8lMAEd-pjKlf8lScOQ" presentation="default">
+            <element href="Hotel.uml#_Rg_zAFMAEd-pjKlf8lScOQ"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_GtJ18FMAEd-pjKlf8lScOQ" position="577,220" size="200,90">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_GtJ18VMAEd-pjKlf8lScOQ" presentation="default">
+          <element href="Hotel.uml#_GtLEEFMAEd-pjKlf8lScOQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_Q3fjAFMAEd-pjKlf8lScOQ" position="6,49" size="-1,-1">
+          <property xmi:id="_Q3fjAVMAEd-pjKlf8lScOQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_YzqIUFMAEd-pjKlf8lScOQ" graphEdge="_YzrWcFMAEd-pjKlf8lScOQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Q3fjAlMAEd-pjKlf8lScOQ" presentation="default">
+            <element href="Hotel.uml#_Q3imUFMAEd-pjKlf8lScOQ"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_Is9KgFMAEd-pjKlf8lScOQ" position="484,107" size="200,90">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Is9KgVMAEd-pjKlf8lScOQ" presentation="default">
+          <element href="Hotel.uml#_Is9xkFMAEd-pjKlf8lScOQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_SFm78FMAEd-pjKlf8lScOQ" position="24,56" size="-1,-1">
+          <property xmi:id="_SFm78VMAEd-pjKlf8lScOQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_ZMYKUFMAEd-pjKlf8lScOQ" graphEdge="_ZMYxYFMAEd-pjKlf8lScOQ _mM5aUFMAEd-pjKlf8lScOQ _n_q_gFMAEd-pjKlf8lScOQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_SFm78lMAEd-pjKlf8lScOQ" presentation="default">
+            <element href="Hotel.uml#_SFnjAFMAEd-pjKlf8lScOQ"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_KOhq8FMAEd-pjKlf8lScOQ" position="130,117" size="200,90">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_KOhq8VMAEd-pjKlf8lScOQ" presentation="default">
+          <element href="Hotel.uml#_KOiSAFMAEd-pjKlf8lScOQ"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_S8x0gFMAEd-pjKlf8lScOQ" position="20,47" size="-1,-1">
+          <property xmi:id="_S8x0gVMAEd-pjKlf8lScOQ" key="portPosition" value="1"/>
+          <anchorage xmi:id="_Zk4w8FMAEd-pjKlf8lScOQ" graphEdge="_Zk5_EFMAEd-pjKlf8lScOQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_S8x0glMAEd-pjKlf8lScOQ" presentation="default">
+            <element href="Hotel.uml#_S8ybkFMAEd-pjKlf8lScOQ"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_hq2LcFMAEd-pjKlf8lScOQ" position="175,54" size="-1,-1">
+          <property xmi:id="_hq2LcVMAEd-pjKlf8lScOQ" key="portPosition" value="4"/>
+          <anchorage xmi:id="_iVRBcFMAEd-pjKlf8lScOQ" graphEdge="_iVRogFMAEd-pjKlf8lScOQ"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hq2LclMAEd-pjKlf8lScOQ" presentation="default">
+            <element href="Hotel.uml#_hq2ygFMAEd-pjKlf8lScOQ"/>
+          </semanticModel>
+        </contained>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_PHLb8FMAEd-pjKlf8lScOQ" position="503,210" size="-1,-1">
+        <anchorage xmi:id="_YzqIUVMAEd-pjKlf8lScOQ" graphEdge="_YzrWcFMAEd-pjKlf8lScOQ _mM5aUFMAEd-pjKlf8lScOQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_PHLb8VMAEd-pjKlf8lScOQ" presentation="default">
+          <element href="Hotel.uml#_PHY3UFMAEd-pjKlf8lScOQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_UMHVcFMAEd-pjKlf8lScOQ" position="298,257" size="-1,-1">
+        <anchorage xmi:id="_YWqqUVMAEd-pjKlf8lScOQ" graphEdge="_YWsfgFMAEd-pjKlf8lScOQ _n_q_gFMAEd-pjKlf8lScOQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_UMHVcVMAEd-pjKlf8lScOQ" presentation="default">
+          <element href="Hotel.uml#_UMH8gFMAEd-pjKlf8lScOQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_V5I38FMAEd-pjKlf8lScOQ" position="409,143" size="-1,-1">
+        <anchorage xmi:id="_ZMYKUVMAEd-pjKlf8lScOQ" graphEdge="_ZMYxYFMAEd-pjKlf8lScOQ _iVRogFMAEd-pjKlf8lScOQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_V5I38VMAEd-pjKlf8lScOQ" presentation="default">
+          <element href="Hotel.uml#_V5JfAFMAEd-pjKlf8lScOQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphNode" xmi:id="_WK2TAFMAEd-pjKlf8lScOQ" position="45,177" size="-1,-1">
+        <anchorage xmi:id="_Zk4w8VMAEd-pjKlf8lScOQ" graphEdge="_Zk5_EFMAEd-pjKlf8lScOQ"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_WK2TAVMAEd-pjKlf8lScOQ" presentation="default">
+          <element href="Hotel.uml#_WK26EFMAEd-pjKlf8lScOQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_YWsfgFMAEd-pjKlf8lScOQ" anchor="_YWqqUFMAEd-pjKlf8lScOQ _YWqqUVMAEd-pjKlf8lScOQ">
+        <semanticModel xsi:type="di:SimpleSemanticModelElement" xmi:id="_YWttoFMAEd-pjKlf8lScOQ" presentation="default" typeInfo="InterfaceRealization"/>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_YzrWcFMAEd-pjKlf8lScOQ" anchor="_YzqIUFMAEd-pjKlf8lScOQ _YzqIUVMAEd-pjKlf8lScOQ">
+        <semanticModel xsi:type="di:SimpleSemanticModelElement" xmi:id="_YzrWclMAEd-pjKlf8lScOQ" presentation="default" typeInfo="InterfaceRealization"/>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_ZMYxYFMAEd-pjKlf8lScOQ" anchor="_ZMYKUFMAEd-pjKlf8lScOQ _ZMYKUVMAEd-pjKlf8lScOQ">
+        <semanticModel xsi:type="di:SimpleSemanticModelElement" xmi:id="_ZMZYcFMAEd-pjKlf8lScOQ" presentation="default" typeInfo="InterfaceRealization"/>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_Zk5_EFMAEd-pjKlf8lScOQ" anchor="_Zk4w8FMAEd-pjKlf8lScOQ _Zk4w8VMAEd-pjKlf8lScOQ">
+        <semanticModel xsi:type="di:SimpleSemanticModelElement" xmi:id="_Zk5_ElMAEd-pjKlf8lScOQ" presentation="default" typeInfo="InterfaceRealization"/>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_iVRogFMAEd-pjKlf8lScOQ" anchor="_iVRBcFMAEd-pjKlf8lScOQ _ZMYKUVMAEd-pjKlf8lScOQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_iVRogVMAEd-pjKlf8lScOQ" presentation="default">
+          <element href="Hotel.uml#_iVSPkFMAEd-pjKlf8lScOQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_mM5aUFMAEd-pjKlf8lScOQ" anchor="_ZMYKUFMAEd-pjKlf8lScOQ _YzqIUVMAEd-pjKlf8lScOQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_mM5aUVMAEd-pjKlf8lScOQ" presentation="default">
+          <element href="Hotel.uml#_mM6BYFMAEd-pjKlf8lScOQ"/>
+        </semanticModel>
+      </contained>
+      <contained xsi:type="di:GraphEdge" xmi:id="_n_q_gFMAEd-pjKlf8lScOQ" anchor="_ZMYKUFMAEd-pjKlf8lScOQ _YWqqUVMAEd-pjKlf8lScOQ">
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_n_q_gVMAEd-pjKlf8lScOQ" presentation="default">
+          <element href="Hotel.uml#_n_q_glMAEd-pjKlf8lScOQ"/>
+        </semanticModel>
+      </contained>
+    </diagrams>
+  </subdiagrams>
+</diagrams:Diagrams>

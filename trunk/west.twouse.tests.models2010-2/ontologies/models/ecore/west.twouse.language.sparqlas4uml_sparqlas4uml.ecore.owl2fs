@@ -1,0 +1,331 @@
+Namespace ( rdfs=<http://www.w3.org/2000/01/rdf-schema#> ) 
+Namespace ( owl=<http://www.w3.org/2002/07/owl#> ) 
+Namespace ( rdf=<http://www.w3.org/1999/02/22-rdf-syntax-ns#> ) 
+Namespace ( xsd=<http://www.w3.org/2001/XMLSchema#> ) 
+Namespace ( owl2xml=<http://www.w3.org/2006/12/owl2-xml#> ) 
+Namespace ( ecore=<http://www.eclipse.org/emf/2002/Ecore#> ) 
+Namespace (  =<http://www.eclipse.org/emf/2002/Ecore#> ) 
+
+Ontology ( <http://www.eclipse.org/emf/2002/Ecore> 
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EAttribute> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EAttribute> <http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EAttribute.iD> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EAttribute.eAttributeType> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EAnnotation> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EAnnotation> <http://www.eclipse.org/emf/2002/Ecore#EModelElement> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EAnnotation.source> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EAnnotation.details> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EAnnotation.eModelElement> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EAnnotation.eModelElement> <http://www.eclipse.org/emf/2002/Ecore#EModelElement.eAnnotations> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EAnnotation.contents> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EAnnotation.references> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EClass> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EClass> <http://www.eclipse.org/emf/2002/Ecore#EClassifier> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.abstract> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.interface> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eSuperTypes> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eOperations> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eOperations> <http://www.eclipse.org/emf/2002/Ecore#EOperation.eContainingClass> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eAllAttributes> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eAllReferences> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eReferences> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eAttributes> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eAllContainments> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eAllOperations> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eAllStructuralFeatures> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eAllSuperTypes> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eIDAttribute> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eStructuralFeatures> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eStructuralFeatures> <http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature.eContainingClass> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eGenericSuperTypes> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClass.eAllGenericSuperTypes> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EClassifier> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EClassifier> <http://www.eclipse.org/emf/2002/Ecore#ENamedElement> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClassifier.instanceClassName> ) ) 
+	
+	ObjectPropertyDomain ( <http://www.eclipse.org/emf/2002/Ecore#instanceClass> <http://www.eclipse.org/emf/2002/Ecore#EClassifier> ) 
+	
+	ObjectPropertyRange ( <http://www.eclipse.org/emf/2002/Ecore#instanceClass> <http://www.eclipse.org/emf/2002/Ecore#EJavaClass> ) 
+	
+	FunctionalObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#instanceClass> ) 
+	
+	ObjectPropertyDomain ( <http://www.eclipse.org/emf/2002/Ecore#defaultValue> <http://www.eclipse.org/emf/2002/Ecore#EClassifier> ) 
+	
+	ObjectPropertyRange ( <http://www.eclipse.org/emf/2002/Ecore#defaultValue> <http://www.eclipse.org/emf/2002/Ecore#EJavaObject> ) 
+	
+	FunctionalObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#defaultValue> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClassifier.instanceTypeName> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClassifier.ePackage> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EClassifier.ePackage> <http://www.eclipse.org/emf/2002/Ecore#EPackage.eClassifiers> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EClassifier.eTypeParameters> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EDataType> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EDataType> <http://www.eclipse.org/emf/2002/Ecore#EClassifier> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EDataType.serializable> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EEnum> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EEnum> <http://www.eclipse.org/emf/2002/Ecore#EDataType> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EEnum.eLiterals> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EEnum.eLiterals> <http://www.eclipse.org/emf/2002/Ecore#EEnumLiteral.eEnum> ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EEnumLiteral> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EEnumLiteral> <http://www.eclipse.org/emf/2002/Ecore#ENamedElement> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EEnumLiteral.value> ) ) 
+	
+	ObjectPropertyDomain ( <http://www.eclipse.org/emf/2002/Ecore#instance> <http://www.eclipse.org/emf/2002/Ecore#EEnumLiteral> ) 
+	
+	ObjectPropertyRange ( <http://www.eclipse.org/emf/2002/Ecore#instance> <http://www.eclipse.org/emf/2002/Ecore#EEnumerator> ) 
+	
+	FunctionalObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#instance> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EEnumLiteral.literal> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EEnumLiteral.eEnum> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EEnumLiteral.eEnum> <http://www.eclipse.org/emf/2002/Ecore#EEnum.eLiterals> ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EFactory> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EFactory> <http://www.eclipse.org/emf/2002/Ecore#EModelElement> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EFactory.ePackage> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EFactory.ePackage> <http://www.eclipse.org/emf/2002/Ecore#EPackage.eFactoryInstance> ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EModelElement> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EModelElement> <http://www.eclipse.org/emf/2002/Ecore#EObject> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EModelElement.eAnnotations> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EModelElement.eAnnotations> <http://www.eclipse.org/emf/2002/Ecore#EAnnotation.eModelElement> ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#ENamedElement> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#ENamedElement> <http://www.eclipse.org/emf/2002/Ecore#EModelElement> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#ENamedElement.name> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EObject> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EOperation> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EOperation> <http://www.eclipse.org/emf/2002/Ecore#ETypedElement> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EOperation.eContainingClass> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EOperation.eContainingClass> <http://www.eclipse.org/emf/2002/Ecore#EClass.eOperations> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EOperation.eTypeParameters> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EOperation.eParameters> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EOperation.eParameters> <http://www.eclipse.org/emf/2002/Ecore#EParameter.eOperation> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EOperation.eExceptions> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EOperation.eGenericExceptions> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EPackage> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EPackage> <http://www.eclipse.org/emf/2002/Ecore#ENamedElement> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EPackage.nsURI> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EPackage.nsPrefix> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EPackage.eFactoryInstance> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EPackage.eFactoryInstance> <http://www.eclipse.org/emf/2002/Ecore#EFactory.ePackage> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EPackage.eClassifiers> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EPackage.eClassifiers> <http://www.eclipse.org/emf/2002/Ecore#EClassifier.ePackage> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EPackage.eSubpackages> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EPackage.eSubpackages> <http://www.eclipse.org/emf/2002/Ecore#EPackage.eSuperPackage> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EPackage.eSuperPackage> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EPackage.eSuperPackage> <http://www.eclipse.org/emf/2002/Ecore#EPackage.eSubpackages> ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EParameter> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EParameter> <http://www.eclipse.org/emf/2002/Ecore#ETypedElement> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EParameter.eOperation> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EParameter.eOperation> <http://www.eclipse.org/emf/2002/Ecore#EOperation.eParameters> ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EReference> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EReference> <http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EReference.containment> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EReference.container> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EReference.resolveProxies> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EReference.eOpposite> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EReference.eReferenceType> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EReference.eKeys> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature> <http://www.eclipse.org/emf/2002/Ecore#ETypedElement> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature.changeable> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature.volatile> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature.transient> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature.defaultValueLiteral> ) ) 
+	
+	ObjectPropertyDomain ( <http://www.eclipse.org/emf/2002/Ecore#defaultValue> <http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature> ) 
+	
+	ObjectPropertyRange ( <http://www.eclipse.org/emf/2002/Ecore#defaultValue> <http://www.eclipse.org/emf/2002/Ecore#EJavaObject> ) 
+	
+	FunctionalObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#defaultValue> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature.unsettable> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature.derived> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature.eContainingClass> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/Ecore#EStructuralFeature.eContainingClass> <http://www.eclipse.org/emf/2002/Ecore#EClass.eStructuralFeatures> ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#ETypedElement> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#ETypedElement> <http://www.eclipse.org/emf/2002/Ecore#ENamedElement> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#ETypedElement.ordered> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#ETypedElement.unique> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#ETypedElement.lowerBound> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#ETypedElement.upperBound> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#ETypedElement.many> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#ETypedElement.required> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#ETypedElement.eType> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#ETypedElement.eGenericType> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EStringToStringMapEntry> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EStringToStringMapEntry.key> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/Ecore#EStringToStringMapEntry.value> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#EGenericType> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#EGenericType> <http://www.eclipse.org/emf/2002/Ecore#EObject> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EGenericType.eUpperBound> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EGenericType.eTypeArguments> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EGenericType.eRawType> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EGenericType.eLowerBound> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EGenericType.eTypeParameter> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#EGenericType.eClassifier> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/Ecore#ETypeParameter> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/Ecore#ETypeParameter> <http://www.eclipse.org/emf/2002/Ecore#ENamedElement> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/Ecore#ETypeParameter.eBounds> ) ) 
+	
+	ClassAssertion ( <http://www.eclipse.org/emf/2002/Ecore#eid_17985192> <http://www.eclipse.org/emf/2002/Ecore#EPackage> ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/Ecore#ENamedElement.name> <http://www.eclipse.org/emf/2002/Ecore#eid_17985192> "sparqlas4uml"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/Ecore#EPackage.nsURI> <http://www.eclipse.org/emf/2002/Ecore#eid_17985192> "http://west.uni-koblenz.de/sparqlas4uml"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/Ecore#EPackage.nsPrefix> <http://www.eclipse.org/emf/2002/Ecore#eid_17985192> "sparqlas4uml"^^xsd:string ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/Ecore#EPackage.eFactoryInstance> <http://www.eclipse.org/emf/2002/Ecore#eid_17985192> <http://www.eclipse.org/emf/2002/Ecore#eid_18799416> ) 
+	
+	ClassAssertion ( <http://www.eclipse.org/emf/2002/Ecore#eid_13262863> <http://www.eclipse.org/emf/2002/Ecore#EClass> ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/Ecore#ENamedElement.name> <http://www.eclipse.org/emf/2002/Ecore#eid_13262863> "QueryOperation"^^xsd:string ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/Ecore#EClassifier.ePackage> <http://www.eclipse.org/emf/2002/Ecore#eid_13262863> <http://www.eclipse.org/emf/2002/Ecore#eid_17985192> ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/Ecore#EClass.abstract> <http://www.eclipse.org/emf/2002/Ecore#eid_13262863> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/Ecore#EClass.interface> <http://www.eclipse.org/emf/2002/Ecore#eid_13262863> "false"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.eclipse.org/emf/2002/Ecore#eid_14264428> <http://www.eclipse.org/emf/2002/Ecore#EGenericType> ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/Ecore#EGenericType.eRawType> <http://www.eclipse.org/emf/2002/Ecore#eid_14264428> <http://www.eclipse.org/emf/2002/Ecore#eid_28702322> ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/Ecore#EGenericType.eClassifier> <http://www.eclipse.org/emf/2002/Ecore#eid_14264428> <http://www.eclipse.org/emf/2002/Ecore#eid_28702322> ) 
+	
+	ClassAssertion ( <http://www.eclipse.org/emf/2002/Ecore#eid_29386652> <http://www.eclipse.org/emf/2002/Ecore#EGenericType> ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/Ecore#EGenericType.eRawType> <http://www.eclipse.org/emf/2002/Ecore#eid_29386652> <http://www.eclipse.org/emf/2002/Ecore#eid_15688998> ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/Ecore#EGenericType.eClassifier> <http://www.eclipse.org/emf/2002/Ecore#eid_29386652> <http://www.eclipse.org/emf/2002/Ecore#eid_15688998> ) 
+	
+	ClassAssertion ( <http://www.eclipse.org/emf/2002/Ecore#eid_18799416> <http://www.eclipse.org/emf/2002/Ecore#EFactory> ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/Ecore#EFactory.ePackage> <http://www.eclipse.org/emf/2002/Ecore#eid_18799416> <http://www.eclipse.org/emf/2002/Ecore#eid_17985192> ) 
+	) 

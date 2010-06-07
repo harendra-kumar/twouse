@@ -1,0 +1,16 @@
+Namespace ( somePref = <someValue> ) 
+
+Ontology ( <someOntologyURI> 
+
+	EquivalentClasses (uml:Activity bpmn:BpmnDiagram)
+	EquivalentClasses (uml:OpaqueAction ObjectSomeValuesFrom (bpmn:activityType bpmn:Task))
+	EquivalentClasses (uml:ActivityEdge bpmn:MessageEdge)
+	IrreflexiveObjectProperty (uml:general)
+	TransitiveObjectProperty (uml:general)
+	SubObjectPropertyOf( SubObjectPropertyChain (bpmn:incomingEdges bpmn:source) bpmn:ancestorActivities) 	
+	SubObjectPropertyOf( SubObjectPropertyChain (uml:incoming uml:source) uml:ancestorNodes)
+    SubObjectPropertyOf( SubObjectPropertyChain (uml:include uml:addition) uml:includeUseCases) 	
+    SubObjectPropertyOf( SubObjectPropertyChain (ObjectInverseOf(uml:addition) uml:includingCase) uml:includingUseCases) 	
+	EquivalentObjectProperties (uml:ancestorNodes bpmn:ancestorActivities)
+
+) 

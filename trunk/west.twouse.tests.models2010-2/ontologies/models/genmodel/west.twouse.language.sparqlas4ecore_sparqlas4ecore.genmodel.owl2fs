@@ -1,0 +1,689 @@
+Namespace ( rdfs=<http://www.w3.org/2000/01/rdf-schema#> ) 
+Namespace ( owl=<http://www.w3.org/2002/07/owl#> ) 
+Namespace ( rdf=<http://www.w3.org/1999/02/22-rdf-syntax-ns#> ) 
+Namespace ( xsd=<http://www.w3.org/2001/XMLSchema#> ) 
+Namespace ( owl2xml=<http://www.w3.org/2006/12/owl2-xml#> ) 
+Namespace ( genmodel=<http://www.eclipse.org/emf/2002/GenModel#> ) 
+Namespace (  =<http://www.eclipse.org/emf/2002/GenModel#> ) 
+
+Ontology ( <http://www.eclipse.org/emf/2002/GenModel> 
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/GenModel#GenModel> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/GenModel#GenModel> <http://www.eclipse.org/emf/2002/GenModel#GenBase> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.copyrightText> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.modelDirectory> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.creationCommands> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.creationIcons> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.creationSubmenus> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.editDirectory> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.editorDirectory> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.modelPluginID> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.templateDirectory> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.runtimeJar> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.foreignModel> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.dynamicTemplates> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.redirection> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.forceOverwrite> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.nonExternalizedStringTag> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.modelName> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.modelPluginClass> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.editPluginClass> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.editorPluginClass> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.updateClasspath> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.generateSchema> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.nonNLSMarkers> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.staticPackages> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.modelPluginVariables> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.rootExtendsInterface> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.rootExtendsClass> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.rootImplementsInterface> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressEMFTypes> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressEMFMetaData> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressEMFModelTags> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressInterfaces> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.featureMapWrapperInterface> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.featureMapWrapperInternalInterface> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.featureMapWrapperClass> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.runtimeCompatibility> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.richClientPlatform> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.reflectiveDelegation> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.codeFormatting> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.testsDirectory> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.testSuiteClass> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.booleanFlagsField> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.booleanFlagsReservedBits> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.importerID> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.bundleManifest> ) ) 
+	
+	ObjectPropertyDomain ( <http://www.eclipse.org/emf/2002/GenModel#featureDelegation> <http://www.eclipse.org/emf/2002/GenModel#GenModel> ) 
+	
+	ObjectPropertyRange ( <http://www.eclipse.org/emf/2002/GenModel#featureDelegation> <http://www.eclipse.org/emf/2002/GenModel#GenDelegationKind> ) 
+	
+	FunctionalObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#featureDelegation> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.containmentProxies> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.minimalReflectiveMethods> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressContainment> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressNotification> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.arrayAccessors> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressUnsettable> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.facadeHelperClass> ) ) 
+	
+	ObjectPropertyDomain ( <http://www.eclipse.org/emf/2002/GenModel#complianceLevel> <http://www.eclipse.org/emf/2002/GenModel#GenModel> ) 
+	
+	ObjectPropertyRange ( <http://www.eclipse.org/emf/2002/GenModel#complianceLevel> <http://www.eclipse.org/emf/2002/GenModel#GenJDKLevel> ) 
+	
+	FunctionalObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#complianceLevel> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressGenModelAnnotations> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.copyrightFields> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.binaryCompatibleReflectiveMethods> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.publicConstructors> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.templatePluginVariables> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.providerRootExtendsClass> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.editPluginID> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.editPluginVariables> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.editorPluginID> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.editorPluginVariables> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.testsPluginID> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.testsPluginVariables> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.optimizedHasChildren> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.tableProviders> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.colorProviders> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.fontProviders> ) ) 
+	
+	ObjectPropertyDomain ( <http://www.eclipse.org/emf/2002/GenModel#runtimeVersion> <http://www.eclipse.org/emf/2002/GenModel#GenModel> ) 
+	
+	ObjectPropertyRange ( <http://www.eclipse.org/emf/2002/GenModel#runtimeVersion> <http://www.eclipse.org/emf/2002/GenModel#GenRuntimeVersion> ) 
+	
+	FunctionalObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#runtimeVersion> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.language> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.packedEnums> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.interfaceNamePattern> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.classNamePattern> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.genPackages> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.genPackages> <http://www.eclipse.org/emf/2002/GenModel#GenPackage.genModel> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.usedGenPackages> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage> <http://www.eclipse.org/emf/2002/GenModel#GenBase> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.prefix> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.basePackage> ) ) 
+	
+	ObjectPropertyDomain ( <http://www.eclipse.org/emf/2002/GenModel#resource> <http://www.eclipse.org/emf/2002/GenModel#GenPackage> ) 
+	
+	ObjectPropertyRange ( <http://www.eclipse.org/emf/2002/GenModel#resource> <http://www.eclipse.org/emf/2002/GenModel#GenResourceKind> ) 
+	
+	FunctionalObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#resource> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.disposableProviderFactory> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.adapterFactory> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.loadInitialization> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.interfacePackageSuffix> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.metaDataPackageSuffix> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.classPackageSuffix> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.utilityPackageSuffix> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.providerPackageSuffix> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.presentationPackageSuffix> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.testsPackageSuffix> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.generateExampleClass> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.literalsInterface> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.dataTypeConverters> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.multipleEditorPages> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.generateModelWizard> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.extensibleProviderFactory> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.childCreationExtenders> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.contentTypeIdentifier> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.fileExtensions> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.ecorePackage> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.genModel> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.genModel> <http://www.eclipse.org/emf/2002/GenModel#GenModel.genPackages> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.genEnums> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.genDataTypes> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.genClasses> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.nestedGenPackages> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.genClassifiers> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.genClassifiers> <http://www.eclipse.org/emf/2002/GenModel#GenClassifier.genPackage> ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/GenModel#GenClass> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/GenModel#GenClass> <http://www.eclipse.org/emf/2002/GenModel#GenClassifier> ) 
+	
+	ObjectPropertyDomain ( <http://www.eclipse.org/emf/2002/GenModel#provider> <http://www.eclipse.org/emf/2002/GenModel#GenClass> ) 
+	
+	ObjectPropertyRange ( <http://www.eclipse.org/emf/2002/GenModel#provider> <http://www.eclipse.org/emf/2002/GenModel#GenProviderKind> ) 
+	
+	FunctionalObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#provider> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenClass.image> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenClass.dynamic> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenClass.ecoreClass> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenClass.genFeatures> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/GenModel#GenClass.genFeatures> <http://www.eclipse.org/emf/2002/GenModel#GenFeature.genClass> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenClass.genOperations> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/GenModel#GenClass.genOperations> <http://www.eclipse.org/emf/2002/GenModel#GenOperation.genClass> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenClass.labelFeature> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/GenModel#GenFeature> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/GenModel#GenFeature> <http://www.eclipse.org/emf/2002/GenModel#GenTypedElement> ) 
+	
+	ObjectPropertyDomain ( <http://www.eclipse.org/emf/2002/GenModel#property> <http://www.eclipse.org/emf/2002/GenModel#GenFeature> ) 
+	
+	ObjectPropertyRange ( <http://www.eclipse.org/emf/2002/GenModel#property> <http://www.eclipse.org/emf/2002/GenModel#GenPropertyKind> ) 
+	
+	FunctionalObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#property> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenFeature.notify> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenFeature.children> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenFeature.createChild> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenFeature.propertyCategory> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenFeature.propertyFilterFlags> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenFeature.propertyDescription> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenFeature.propertyMultiLine> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenFeature.propertySortChoices> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenFeature.genClass> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/GenModel#GenFeature.genClass> <http://www.eclipse.org/emf/2002/GenModel#GenClass.genFeatures> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenFeature.ecoreFeature> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/GenModel#GenBase> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenBase.genAnnotations> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/GenModel#GenBase.genAnnotations> <http://www.eclipse.org/emf/2002/GenModel#GenAnnotation.genBase> ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/GenModel#GenEnum> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/GenModel#GenEnum> <http://www.eclipse.org/emf/2002/GenModel#GenDataType> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenEnum.typeSafeEnumCompatible> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenEnum.ecoreEnum> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenEnum.genEnumLiterals> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/GenModel#GenEnum.genEnumLiterals> <http://www.eclipse.org/emf/2002/GenModel#GenEnumLiteral.genEnum> ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/GenModel#GenEnumLiteral> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/GenModel#GenEnumLiteral> <http://www.eclipse.org/emf/2002/GenModel#GenBase> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenEnumLiteral.genEnum> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/GenModel#GenEnumLiteral.genEnum> <http://www.eclipse.org/emf/2002/GenModel#GenEnum.genEnumLiterals> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenEnumLiteral.ecoreEnumLiteral> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/GenModel#GenClassifier> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/GenModel#GenClassifier> <http://www.eclipse.org/emf/2002/GenModel#GenBase> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenClassifier.genPackage> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/GenModel#GenClassifier.genPackage> <http://www.eclipse.org/emf/2002/GenModel#GenPackage.genClassifiers> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenClassifier.genTypeParameters> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/GenModel#GenDataType> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/GenModel#GenDataType> <http://www.eclipse.org/emf/2002/GenModel#GenClassifier> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenDataType.ecoreDataType> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/GenModel#GenOperation> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/GenModel#GenOperation> <http://www.eclipse.org/emf/2002/GenModel#GenTypedElement> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenOperation.genClass> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/GenModel#GenOperation.genClass> <http://www.eclipse.org/emf/2002/GenModel#GenClass.genOperations> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenOperation.ecoreOperation> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenOperation.genParameters> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/GenModel#GenOperation.genParameters> <http://www.eclipse.org/emf/2002/GenModel#GenParameter.genOperation> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenOperation.genTypeParameters> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/GenModel#GenParameter> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/GenModel#GenParameter> <http://www.eclipse.org/emf/2002/GenModel#GenTypedElement> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenParameter.genOperation> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/GenModel#GenParameter.genOperation> <http://www.eclipse.org/emf/2002/GenModel#GenOperation.genParameters> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenParameter.ecoreParameter> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/GenModel#GenTypedElement> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/GenModel#GenTypedElement> <http://www.eclipse.org/emf/2002/GenModel#GenBase> ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/GenModel#GenAnnotation> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/GenModel#GenAnnotation> <http://www.eclipse.org/emf/2002/GenModel#GenBase> ) 
+	
+	Declaration ( DataProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenAnnotation.source> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenAnnotation.details> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenAnnotation.genBase> ) ) 
+	
+	InverseObjectProperties ( <http://www.eclipse.org/emf/2002/GenModel#GenAnnotation.genBase> <http://www.eclipse.org/emf/2002/GenModel#GenBase.genAnnotations> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenAnnotation.references> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenAnnotation.contents> ) ) 
+	
+	Declaration ( Class ( <http://www.eclipse.org/emf/2002/GenModel#GenTypeParameter> ) ) 
+	
+	SubClassOf ( <http://www.eclipse.org/emf/2002/GenModel#GenTypeParameter> <http://www.eclipse.org/emf/2002/GenModel#GenBase> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.eclipse.org/emf/2002/GenModel#GenTypeParameter.ecoreTypeParameter> ) ) 
+	
+	EquivalentClasses ( <http://www.eclipse.org/emf/2002/GenModel#GenProviderKind> ObjectOneOf ( <http://www.eclipse.org/emf/2002/GenModel#Singleton> <http://www.eclipse.org/emf/2002/GenModel#Stateful> <http://www.eclipse.org/emf/2002/GenModel#None> ) 
+	) 
+	
+	EquivalentClasses ( <http://www.eclipse.org/emf/2002/GenModel#GenPropertyKind> ObjectOneOf ( <http://www.eclipse.org/emf/2002/GenModel#Editable> <http://www.eclipse.org/emf/2002/GenModel#Readonly> <http://www.eclipse.org/emf/2002/GenModel#None> ) 
+	) 
+	
+	EquivalentClasses ( <http://www.eclipse.org/emf/2002/GenModel#GenResourceKind> ObjectOneOf ( <http://www.eclipse.org/emf/2002/GenModel#None> <http://www.eclipse.org/emf/2002/GenModel#Basic> <http://www.eclipse.org/emf/2002/GenModel#XMI> <http://www.eclipse.org/emf/2002/GenModel#XML> ) 
+	) 
+	
+	EquivalentClasses ( <http://www.eclipse.org/emf/2002/GenModel#GenDelegationKind> ObjectOneOf ( <http://www.eclipse.org/emf/2002/GenModel#None> <http://www.eclipse.org/emf/2002/GenModel#Reflective> <http://www.eclipse.org/emf/2002/GenModel#Virtual> <http://www.eclipse.org/emf/2002/GenModel#Dynamic> ) 
+	) 
+	
+	EquivalentClasses ( <http://www.eclipse.org/emf/2002/GenModel#GenJDKLevel> ObjectOneOf ( <http://www.eclipse.org/emf/2002/GenModel#1.4> <http://www.eclipse.org/emf/2002/GenModel#5.0> <http://www.eclipse.org/emf/2002/GenModel#6.0> ) 
+	) 
+	
+	EquivalentClasses ( <http://www.eclipse.org/emf/2002/GenModel#GenRuntimeVersion> ObjectOneOf ( <http://www.eclipse.org/emf/2002/GenModel#2.2> <http://www.eclipse.org/emf/2002/GenModel#2.3> <http://www.eclipse.org/emf/2002/GenModel#2.4> <http://www.eclipse.org/emf/2002/GenModel#2.5> ) 
+	) 
+	
+	ClassAssertion ( <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> <http://www.eclipse.org/emf/2002/GenModel#GenModel> ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.modelDirectory> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "/west.twouse.language.sparqlas4ecore/src"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.creationCommands> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.creationIcons> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.creationSubmenus> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.editDirectory> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "/west.twouse.language.sparqlas4ecore.edit/src"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.editorDirectory> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "/west.twouse.language.sparqlas4ecore.editor/src"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.modelPluginID> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "west.twouse.language.sparqlas4ecore"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.runtimeJar> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.dynamicTemplates> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.forceOverwrite> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.modelName> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "sparqlas4ecore"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.editPluginClass> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "west.twouse.language.sparqlas4ecore.provider.sparqlas4ecoreEditPlugin"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.editorPluginClass> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "west.twouse.language.sparqlas4ecore.presentation.sparqlas4ecoreEditorPlugin"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.updateClasspath> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.generateSchema> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.nonNLSMarkers> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.rootExtendsInterface> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "org.eclipse.emf.ecore.EObject"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.rootExtendsClass> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "org.eclipse.emf.ecore.impl.EObjectImpl"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressEMFTypes> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressEMFMetaData> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressEMFModelTags> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressInterfaces> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.runtimeCompatibility> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.richClientPlatform> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.reflectiveDelegation> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.codeFormatting> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.testsDirectory> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "/west.twouse.language.sparqlas4ecore.tests/src"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.testSuiteClass> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "west.twouse.language.sparqlas4ecore.tests.sparqlas4ecoreAllTests"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.booleanFlagsReservedBits> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "-1"^^xsd:int ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.importerID> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "org.eclipse.emf.importer.ecore"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.bundleManifest> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "true"^^xsd:boolean ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#featureDelegation> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> <http://www.eclipse.org/emf/2002/GenModel#None> ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.containmentProxies> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.minimalReflectiveMethods> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressContainment> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressNotification> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.arrayAccessors> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressUnsettable> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.facadeHelperClass> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "org.eclipse.emf.codegen.merge.java.facade.ast.ASTFacadeHelper"^^xsd:string ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#complianceLevel> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> <http://www.eclipse.org/emf/2002/GenModel#6.0> ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.suppressGenModelAnnotations> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.copyrightFields> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.binaryCompatibleReflectiveMethods> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.publicConstructors> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.editPluginID> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "west.twouse.language.sparqlas4ecore.edit"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.editorPluginID> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "west.twouse.language.sparqlas4ecore.editor"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.testsPluginID> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "west.twouse.language.sparqlas4ecore.tests"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.optimizedHasChildren> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.tableProviders> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.colorProviders> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.fontProviders> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#runtimeVersion> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> <http://www.eclipse.org/emf/2002/GenModel#2.5> ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenModel.packedEnums> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> "false"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> <http://www.eclipse.org/emf/2002/GenModel#GenPackage> ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.prefix> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "sparqlas4ecore"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.basePackage> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "west.twouse.language"^^xsd:string ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#resource> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> <http://www.eclipse.org/emf/2002/GenModel#None> ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.disposableProviderFactory> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.adapterFactory> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.loadInitialization> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.interfacePackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> ""^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.metaDataPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> ""^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.classPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "impl"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.utilityPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "util"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.providerPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "provider"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.presentationPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "presentation"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.testsPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "tests"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.generateExampleClass> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.literalsInterface> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.dataTypeConverters> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.multipleEditorPages> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.generateModelWizard> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.extensibleProviderFactory> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.childCreationExtenders> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.fileExtensions> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> "sparqlas4ecore"^^xsd:string ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.ecorePackage> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> <http://www.eclipse.org/emf/2002/GenModel#eid_27106418> ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.genModel> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> <http://www.eclipse.org/emf/2002/GenModel#eid_29158597> ) 
+	
+	ClassAssertion ( <http://www.eclipse.org/emf/2002/GenModel#eid_9054778> <http://www.eclipse.org/emf/2002/GenModel#GenClass> ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenClassifier.genPackage> <http://www.eclipse.org/emf/2002/GenModel#eid_9054778> <http://www.eclipse.org/emf/2002/GenModel#eid_6064848> ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#provider> <http://www.eclipse.org/emf/2002/GenModel#eid_9054778> <http://www.eclipse.org/emf/2002/GenModel#Singleton> ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenClass.image> <http://www.eclipse.org/emf/2002/GenModel#eid_9054778> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenClass.dynamic> <http://www.eclipse.org/emf/2002/GenModel#eid_9054778> "false"^^xsd:boolean ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenClass.ecoreClass> <http://www.eclipse.org/emf/2002/GenModel#eid_9054778> <http://www.eclipse.org/emf/2002/GenModel#eid_14313462> ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenClass.labelFeature> <http://www.eclipse.org/emf/2002/GenModel#eid_9054778> <http://www.eclipse.org/emf/2002/GenModel#eid_23815288> ) 
+	
+	ClassAssertion ( <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> <http://www.eclipse.org/emf/2002/GenModel#GenPackage> ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.prefix> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "Ecore"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.basePackage> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "org.eclipse.emf"^^xsd:string ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#resource> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> <http://www.eclipse.org/emf/2002/GenModel#None> ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.disposableProviderFactory> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.adapterFactory> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.loadInitialization> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.interfacePackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> ""^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.metaDataPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> ""^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.classPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "impl"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.utilityPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "util"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.providerPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "provider"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.presentationPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "presentation"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.testsPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "tests"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.generateExampleClass> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.literalsInterface> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.dataTypeConverters> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.multipleEditorPages> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.generateModelWizard> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.extensibleProviderFactory> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.childCreationExtenders> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.contentTypeIdentifier> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "org.eclipse.emf.ecore"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.fileExtensions> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> "ecore"^^xsd:string ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.ecorePackage> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> <http://www.eclipse.org/emf/2002/GenModel#eid_7062861> ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.genModel> <http://www.eclipse.org/emf/2002/GenModel#eid_26281756> <http://www.eclipse.org/emf/2002/GenModel#eid_6944105> ) 
+	
+	ClassAssertion ( <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> <http://www.eclipse.org/emf/2002/GenModel#GenPackage> ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.prefix> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "Sparqlas"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.basePackage> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "west.twouse.language"^^xsd:string ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#resource> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> <http://www.eclipse.org/emf/2002/GenModel#None> ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.disposableProviderFactory> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.adapterFactory> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.loadInitialization> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.interfacePackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> ""^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.metaDataPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> ""^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.classPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "impl"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.utilityPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "util"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.providerPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "provider"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.presentationPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "presentation"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.testsPackageSuffix> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "tests"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.generateExampleClass> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.literalsInterface> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.dataTypeConverters> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.multipleEditorPages> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.generateModelWizard> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.extensibleProviderFactory> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.childCreationExtenders> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.fileExtensions> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> "sparqlas"^^xsd:string ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.ecorePackage> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> <http://www.eclipse.org/emf/2002/GenModel#eid_23485726> ) 
+	
+	ObjectPropertyAssertion ( <http://www.eclipse.org/emf/2002/GenModel#GenPackage.genModel> <http://www.eclipse.org/emf/2002/GenModel#eid_7264595> <http://www.eclipse.org/emf/2002/GenModel#eid_25040887> ) 
+	) 

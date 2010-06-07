@@ -1,0 +1,10 @@
+Namespace: <http://www.semanticweb.org/ontologies/2010/3/Ontology1272308092383.owl#> 
+
+Select 
+ Where:
+    _:q NamedElement.name "Querying"^^xsd:string
+    _:q includeUseCases ?uc
+    ?uc ownedBehavior ?act
+    ?act node ?node
+    ?node type OpaqueAction
+    ?node name ?name 

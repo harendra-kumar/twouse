@@ -1,0 +1,1483 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.rdfcoder.org/2007/1.0/" > 
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:eNS_URI">
+    <j.0:attribute_value>CONSTANT_String[8](string_index = 14)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getQueryIRI">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getQueryIRI.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eGet.jparameter:i">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jattribute:queryOperationEClass">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EClass"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__EGENERIC_TYPE">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 9)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jmethod:getQueryOperation">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jmethod:getQueryOperation.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>1</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQueryIRI.jparameter:notificationchain">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:NotificationChain</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getQueryIRI.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas.jclass:IRI</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:defaultCase.jparameter:eobject">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EObject</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:eNS_PREFIX">
+    <j.0:attribute_value>CONSTANT_String[8](string_index = 11)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__ETYPE_PARAMETERS">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 11)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createENamedElementAdapter.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseENamedElement.jparameter:enamedelement">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:ENamedElement</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseEOperation.jparameter:eoperation">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EOperation</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseQueryOperation.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseQueryOperation.jparameter:queryoperation"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:defaultCase">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:defaultCase.jsignature:_12"/>
+    <j.0:has_modifiers>8</j.0:has_modifiers>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:defaultCase.jsignature:_7"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:getPackage">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:getPackage.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:setPrefix">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:setPrefix.jsignature:_2"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl">
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jattribute:queryIRI"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getImport"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQuery"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jattribute:query"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jattribute:prefixDefinition"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eGet"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eStaticClass"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.language.sparqlas4ecore/src/west/twouse/language/sparqlas4ecore/impl/QueryOperationImpl.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eDerivedStructuralFeatureID"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:setQuery"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.impl.jclass:EOperationImpl"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getQueryIRI"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jattribute:import_"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getQuery"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eBaseStructuralFeatureID"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eUnset"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:setQueryIRI"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQueryIRI"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eSet"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eIsSet"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getPrefixDefinition"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jconstructor:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eInverseRemove"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:wrapPackage">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:wrapPackage.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eDerivedStructuralFeatureID">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eDerivedStructuralFeatureID.jsignature:_16"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jinterface:sparqlas4ecorePackage$Literals">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage$Literals.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage$Literals.jattribute:QUERY_OPERATION"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jinterface:sparqlas4ecorePackage$Literals"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:createPackageContents.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createEObjectAdapter.jsignature:_9">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:setQueryIRI.jparameter:iri">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas.jclass:IRI</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__EEXCEPTIONS">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 13)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jinterface:sparqlas4ecoreFactory">
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jinterface:EObject"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jinterface:sparqlas4ecoreFactory"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory.jattribute:eINSTANCE"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jinterface:EFactory"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jinterface:EModelElement"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory.jmethod:getsparqlas4ecorePackage"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JInterface"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jinterface:Notifier"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory.jmethod:createQueryOperation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:initializePackageContents">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:initializePackageContents.jsignature:_6"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eIsSet.jparameter:i">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getImport.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:EList</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="asset:">
+    <j.0:library_date>2010_05_02__15_15_22</j.0:library_date>
+    <j.0:library_location>/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.language.sparqlas4ecore/bin</j.0:library_location>
+    <j.0:contains_library rdf:resource="asset:"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseENamedElement.jsignature:_11">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseENamedElement.jparameter:enamedelement"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEOperation.jparameter:eoperation">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EOperation</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:createQueryOperation.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:QueryOperation</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jattribute:modelSwitch">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:isFactoryForType.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:isFactoryForType.jparameter:o"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jattribute:modelPackage">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch.jparameter:eobject"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch.jparameter:eclass"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseEModelElement.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseEModelElement.jparameter:emodelelement"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:defaultCase.jparameter:eobject">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EObject</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util">
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseENamedElement.jparameter:enamedelement">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:ENamedElement</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseOntologyDocument">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseOntologyDocument.jsignature:_9"/>
+    <j.0:has_modifiers>8</j.0:has_modifiers>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseOntologyDocument.jsignature:_6"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createAdapter">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createAdapter.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getPrefixDefinition">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getPrefixDefinition.jsignature:_6"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch.jparameter:eobject"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEModelElement"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseOntologyDocument"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jattribute:this$0"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseETypedElement"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseENamedElement"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jconstructor:_0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseQueryOperation"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:defaultCase"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEOperation"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.language.sparqlas4ecore/src/west/twouse/language/sparqlas4ecore/util/sparqlas4ecoreAdapterFactory$1.java"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eInverseRemove.jparameter:notificationchain">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:NotificationChain</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eSet.jsignature:_12">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eSet.jparameter:o"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eSet.jparameter:i"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:setQuery.jparameter:query">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas.jclass:Query</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eStaticClass">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eStaticClass.jsignature:_1"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:eINSTANCE">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:setPrefix"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:wrapPackage"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jconstructor:_0"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.language.sparqlas4ecore/src/west/twouse/language/sparqlas4ecore/util/EcoreSparqlasWrapper.java"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__ORDERED">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 2)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseETypedElement.jparameter:etypedelement">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:ETypedElement</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:wrapPackage.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:EList</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:wrapPackage.jparameter:epackage"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:setQuery.jsignature:_9">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:setQuery.jparameter:query"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseOntologyDocument">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseOntologyDocument.jsignature:_9"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jattribute:isInited">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:boolean"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseQueryOperation"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseEOperation"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseETypedElement"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jconstructor:_0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:defaultCase"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseEModelElement"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseENamedElement"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.language.sparqlas4ecore/src/west/twouse/language/sparqlas4ecore/util/sparqlas4ecoreSwitch.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jattribute:modelPackage"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseOntologyDocument"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:&lt;init&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEOperation.jsignature:_14">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEOperation.jparameter:eoperation"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eSet">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eSet.jsignature:_12"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseETypedElement">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseETypedElement.jsignature:_7"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eDerivedStructuralFeatureID.jsignature:_16">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eDerivedStructuralFeatureID.jparameter:class"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eDerivedStructuralFeatureID.jparameter:i"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createEModelElementAdapter.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createETypedElementAdapter">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createETypedElementAdapter.jsignature:_6"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createEOperationAdapter.jsignature:_7">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createOntologyDocumentAdapter">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createOntologyDocumentAdapter.jsignature:_8"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eSet.jparameter:i">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseOntologyDocument.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseOntologyDocument.jparameter:ontologydocument"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:create.jparameter:eclass">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EClass</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eDerivedStructuralFeatureID.jparameter:class">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Class</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory.jmethod:createQueryOperation.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:QueryOperation</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseENamedElement">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseENamedElement.jsignature:_11"/>
+    <j.0:has_modifiers>8</j.0:has_modifiers>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseENamedElement.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jparameter:sparqlas4ecoreadapterfactory"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEModelElement.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEModelElement.jparameter:emodelelement"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getImport">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getImport.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__ETYPE">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 8)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__EPARAMETERS">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 12)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch.jparameter:eobject"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch.jparameter:i"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:init">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:init.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eInverseRemove.jparameter:i">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:&lt;init&gt;.jparameter:sparqlas4ecoreadapterfactory">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEOperation">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEOperation.jsignature:_14"/>
+    <j.0:has_modifiers>8</j.0:has_modifiers>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEOperation.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl">
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQuery.jsignature:_8">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:NotificationChain</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQuery.jparameter:notificationchain"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQuery.jparameter:query"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jattribute:isInitialized">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:boolean"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage$Literals.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch.jsignature:_3"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch.jsignature:_2"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__LOWER_BOUND">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 4)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory.jattribute:eINSTANCE">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:getsparqlas4ecorePackage.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory.jmethod:getsparqlas4ecorePackage.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEOperation.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEOperation.jparameter:eoperation"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQueryIRI">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQueryIRI.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQuery.jparameter:notificationchain">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:NotificationChain</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION_FEATURE_COUNT">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 19)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:init">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:init.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch.jparameter:i">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:defaultCase.jsignature:_10">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:defaultCase.jparameter:eobject"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:getQueryOperation">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:getQueryOperation.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseETypedElement.jparameter:etypedelement">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:ETypedElement</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:initializePackageContents.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jattribute:import_">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:EList"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch.jparameter:eobject">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EObject</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createOntologyDocumentAdapter"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.impl.jclass:AdapterFactoryImpl"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createQueryOperationAdapter"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.language.sparqlas4ecore/src/west/twouse/language/sparqlas4ecore/util/sparqlas4ecoreAdapterFactory.java"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:isFactoryForType"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createENamedElementAdapter"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createEOperationAdapter"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jconstructor:_0"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jattribute:modelPackage"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createETypedElementAdapter"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jinterface:AdapterFactory"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createEModelElementAdapter"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jattribute:modelSwitch"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createEObjectAdapter"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createAdapter"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseOntologyDocument.jparameter:ontologydocument">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas.jclass:OntologyDocument</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jconstructor:_0">
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseQueryOperation.jsignature:_13">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseQueryOperation.jparameter:queryoperation"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createQueryOperationAdapter">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createQueryOperationAdapter.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eSet.jparameter:o">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jinterface:QueryOperation">
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jinterface:QueryOperation"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas.jinterface:OntologyDocument"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jinterface:ETypedElement"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jinterface:EOperation"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jinterface:EObject"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jinterface:ENamedElement"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jinterface:EModelElement"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jinterface:Notifier"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:&lt;init&gt;.jparameter:sparqlas4ecoreadapterfactory"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:setQueryIRI">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:setQueryIRI.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseENamedElement">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseENamedElement.jsignature:_6"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jmethod:getQueryOperation.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EClass</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eUnset.jsignature:_13">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eUnset.jparameter:i"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eInverseRemove.jparameter:internaleobject">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:InternalEObject</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jattribute:prefixDefinition">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:EList"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createAdapter.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createAdapter.jparameter:notifier"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:defaultCase">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:defaultCase.jsignature:_10"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseOntologyDocument.jsignature:_9">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseOntologyDocument.jparameter:ontologydocument"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseETypedElement.jsignature:_10">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseETypedElement.jparameter:etypedelement"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eIsSet.jsignature:_14">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eIsSet.jparameter:i"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQuery.jparameter:query">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas.jclass:Query</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eGet.jparameter:b">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createAdapter.jparameter:notifier">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Notifier</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:defaultCase.jsignature:_7">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:defaultCase.jparameter:eobject"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseQueryOperation.jparameter:queryoperation">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:QueryOperation</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseENamedElement.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseENamedElement.jparameter:enamedelement"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:create.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EObject</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:create.jparameter:eclass"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseQueryOperation">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseQueryOperation.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEModelElement">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEModelElement.jsignature:_8"/>
+    <j.0:has_modifiers>8</j.0:has_modifiers>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEModelElement.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQueryIRI.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:NotificationChain</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQueryIRI.jparameter:notificationchain"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQueryIRI.jparameter:iri"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseETypedElement.jsignature:_7">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseETypedElement.jparameter:etypedelement"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory.jmethod:getsparqlas4ecorePackage">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory.jmethod:getsparqlas4ecorePackage.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>1</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__MANY">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 6)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQuery">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQuery.jsignature:_8"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseQueryOperation.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseQueryOperation.jparameter:queryoperation"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eUnset">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eUnset.jsignature:_13"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getQuery">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getQuery.jsignature:_7"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__ECONTAINING_CLASS">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 10)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:getsparqlas4ecorePackage">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:getsparqlas4ecorePackage.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jattribute:queryIRI">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas.jclass:IRI"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__REQUIRED">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 7)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 0)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eGet">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eGet.jsignature:_11"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseEOperation.jsignature:_8">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseEOperation.jparameter:eoperation"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jattribute:query">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas.jclass:Query"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:createPackageContents">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:createPackageContents.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__NAME">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 1)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:getQueryOperation.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EClass</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:defaultCase.jsignature:_12">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:defaultCase.jparameter:eobject"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__EANNOTATIONS">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 0)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createEModelElementAdapter">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createEModelElementAdapter.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__QUERY">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 18)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jmethod:getsparqlas4ecoreFactory">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jmethod:getsparqlas4ecoreFactory.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>1</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseOntologyDocument.jsignature:_9">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseOntologyDocument.jparameter:ontologydocument"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseEModelElement.jparameter:emodelelement">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EModelElement</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eInverseRemove.jsignature:_10">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:NotificationChain</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eInverseRemove.jparameter:notificationchain"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eInverseRemove.jparameter:i"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eInverseRemove.jparameter:internaleobject"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseQueryOperation">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseQueryOperation.jsignature:_13"/>
+    <j.0:has_modifiers>8</j.0:has_modifiers>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseQueryOperation.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseENamedElement.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseENamedElement.jparameter:enamedelement"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util"/>
+    <j.0:contains_interface rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jinterface:sparqlas4ecoreFactory"/>
+    <j.0:contains_interface rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jinterface:sparqlas4ecorePackage$Literals"/>
+    <j.0:contains_interface rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jinterface:QueryOperation"/>
+    <j.0:contains_interface rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jinterface:sparqlas4ecorePackage"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jconstructor:_1">
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:setPrefix.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas.jclass:PrefixDefinition</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:setPrefix.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:setQuery">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:setQuery.jsignature:_9"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl">
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.impl.jclass:EPackageImpl"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jattribute:isInited"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:getQueryOperation"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.language.sparqlas4ecore/src/west/twouse/language/sparqlas4ecore/impl/sparqlas4ecorePackageImpl.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:init"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jattribute:queryOperationEClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:initializePackageContents"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jconstructor:_1"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jattribute:isCreated"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:&lt;init&gt;"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:getsparqlas4ecoreFactory"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jattribute:isInitialized"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:createPackageContents"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__UPPER_BOUND">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 5)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eBaseStructuralFeatureID.jparameter:class">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Class</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:basicSetQueryIRI.jparameter:iri">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas.jclass:IRI</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:init.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:createQueryOperation">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:createQueryOperation.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:getPackage.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jmethod:getsparqlas4ecoreFactory.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEModelElement.jparameter:emodelelement">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EModelElement</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:create">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:create.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eInverseRemove">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eInverseRemove.jsignature:_10"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createEOperationAdapter">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createEOperationAdapter.jsignature:_7"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eIsSet">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eIsSet.jsignature:_14"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eGet.jsignature:_11">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eGet.jparameter:b2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eGet.jparameter:b"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eGet.jparameter:i"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage$Literals.jattribute:QUERY_OPERATION">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EClass"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createQueryOperationAdapter.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.impl.jclass:EFactoryImpl"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:create"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:getPackage"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:createQueryOperation"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:init"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:&lt;init&gt;"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.language.sparqlas4ecore/src/west/twouse/language/sparqlas4ecore/impl/sparqlas4ecoreFactoryImpl.java"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:getsparqlas4ecorePackage"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jconstructor:_1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:setQueryIRI.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:setQueryIRI.jparameter:iri"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__IMPORT">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 16)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__QUERY_IRI">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 15)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:setPrefix.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:EcoreSparqlasWrapper.jmethod:wrapPackage.jparameter:epackage">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EPackage</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createETypedElementAdapter.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getPrefixDefinition.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:EList</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseQueryOperation.jparameter:queryoperation">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:QueryOperation</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory.jmethod:createQueryOperation">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory.jmethod:createQueryOperation.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>1</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseEOperation">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseEOperation.jsignature:_8"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:init.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseOntologyDocument.jparameter:ontologydocument">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas.jclass:OntologyDocument</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:eNAME">
+    <j.0:attribute_value>CONSTANT_String[8](string_index = 11)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createEObjectAdapter">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createEObjectAdapter.jsignature:_9"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__UNIQUE">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 3)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jattribute:modelPackage">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eBaseStructuralFeatureID">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eBaseStructuralFeatureID.jsignature:_15"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEModelElement.jsignature:_8">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseEModelElement.jparameter:emodelelement"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:getQuery.jsignature:_7">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas.jclass:Query</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:isFactoryForType.jparameter:o">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createOntologyDocumentAdapter.jsignature:_8">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:getsparqlas4ecoreFactory">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:getsparqlas4ecoreFactory.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecoreFactoryImpl.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eGet.jparameter:b2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:isFactoryForType">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:isFactoryForType.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eBaseStructuralFeatureID.jsignature:_15">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eBaseStructuralFeatureID.jparameter:class"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eBaseStructuralFeatureID.jparameter:i"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createENamedElementAdapter">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory.jmethod:createENamedElementAdapter.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jattribute:isCreated">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:boolean"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eDerivedStructuralFeatureID.jparameter:i">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseETypedElement.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:Adapter</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseETypedElement.jparameter:etypedelement"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseETypedElement">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseETypedElement.jsignature:_10"/>
+    <j.0:has_modifiers>8</j.0:has_modifiers>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jmethod:caseETypedElement.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eUnset.jparameter:i">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jinterface:sparqlas4ecorePackage">
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:eNS_PREFIX"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__ORDERED"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__EGENERIC_EXCEPTIONS"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__ETYPE_PARAMETERS"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__MANY"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__EPARAMETERS"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jinterface:EPackage"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jinterface:Notifier"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jinterface:ENamedElement"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:eNS_URI"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jinterface:EModelElement"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__NAME"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__PREFIX_DEFINITION"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jinterface:sparqlas4ecorePackage"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JInterface"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__IMPORT"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__EEXCEPTIONS"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__LOWER_BOUND"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__QUERY_IRI"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__REQUIRED"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__ETYPE"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jmethod:getQueryOperation"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__UNIQUE"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__EGENERIC_TYPE"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__UPPER_BOUND"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:eNAME"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jmethod:getsparqlas4ecoreFactory"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jinterface:EObject"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__EANNOTATIONS"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:eINSTANCE"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__ECONTAINING_CLASS"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__QUERY"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION_FEATURE_COUNT"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:doSwitch.jparameter:eclass">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EClass</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseEModelElement">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreSwitch.jmethod:caseEModelElement.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage$Literals.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage$Literals.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__PREFIX_DEFINITION">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 17)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecorePackage.jattribute:QUERY_OPERATION__EGENERIC_EXCEPTIONS">
+    <j.0:attribute_value>CONSTANT_Integer[3](bytes = 14)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory$1.jparameter:sparqlas4ecoreadapterfactory">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.util.jclass:sparqlas4ecoreAdapterFactory</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eStaticClass.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EClass</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:sparqlas4ecorePackageImpl.jmethod:getsparqlas4ecoreFactory.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.jclass:sparqlas4ecoreFactory</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.sparqlas4ecore.impl.jclass:QueryOperationImpl.jmethod:eBaseStructuralFeatureID.jparameter:i">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+</rdf:RDF>

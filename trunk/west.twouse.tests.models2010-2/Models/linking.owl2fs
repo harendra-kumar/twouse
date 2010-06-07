@@ -1,0 +1,15 @@
+Namespace (  =<http://www.example.org/#> ) 
+Ontology ( <http://www.example.org/>
+Import (<http://www.eclipse.org/uml2/3.0.0/UML>) 
+Import ( <http://www.emftext.org/java> ) 
+Import ( <http://www.emftext.org/mf> ) 
+Import ( <http://stp.eclipse.org/bpmn> ) 
+
+ EquivalentClasses (uml:Activity bpmn:BpmnDiagram)
+ EquivalentClasses (uml:ActivityNode bpmn:Vertex)
+ EquivalentClasses (uml:OpaqueAction ObjectSomeValuesFrom (bpmn:activityType bpmn:Task))
+ EquivalentDataProperties (uml:name bpmn:name)
+ SameIndividual (uml:west.twouse.reasoner srs:west.twouse.reasoner)
+ SameIndividual (mf:west.twouse.reasoner srs:west.twouse.reasoner)
+ SameIndividual (uml:ReasoningServices srs:ReasoningServices)
+ )

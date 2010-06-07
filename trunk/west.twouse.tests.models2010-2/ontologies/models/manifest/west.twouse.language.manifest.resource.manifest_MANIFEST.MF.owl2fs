@@ -1,0 +1,493 @@
+Namespace ( rdfs=<http://www.w3.org/2000/01/rdf-schema#> ) 
+Namespace ( owl=<http://www.w3.org/2002/07/owl#> ) 
+Namespace ( rdf=<http://www.w3.org/1999/02/22-rdf-syntax-ns#> ) 
+Namespace ( xsd=<http://www.w3.org/2001/XMLSchema#> ) 
+Namespace ( owl2xml=<http://www.w3.org/2006/12/owl2-xml#> ) 
+Namespace ( MF=<http://west.uni-koblenz.de/MF#> ) 
+Namespace (  =<http://west.uni-koblenz.de/MF#> ) 
+
+Ontology ( <http://west.uni-koblenz.de/MF> 
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#NamedElement> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#NamedElement.id> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#Parameter> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#Directive> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#Directive> <http://west.uni-koblenz.de/MF#Parameter> ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#Directive.token> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#Directive.argument> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#Attribute> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#Attribute> <http://west.uni-koblenz.de/MF#Parameter> ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#Attribute.token> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#Attribute.argument> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#Entry> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Entry.path> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Entry.parameter> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#PathExtended> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#PathExtended.path> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#Path> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#Path> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#Manifest> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#Manifest.manifestVersion> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleActivationPolicy> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleActivator> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleCategory> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleClassPath> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleContactAddress> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleCopyright> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleDescription> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleDocURL> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleIcon> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleLicense> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleLocalization> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleManifestVersion> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleName> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleNativeCode> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleRequiredExecutionEnvironment> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleSymbolicName> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleUpdateLocation> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleVendor> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.bundleVersion> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.dynamicImportPackage> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.exportPackage> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.fragmentHost> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.importPackage> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.requireBundle> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.eclipseLazyStart> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.importBundle> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.importLibrary> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.includeResource> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.moduleScope> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.moduleType> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.privatePackage> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.webContextPath> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.webDispatcherServletUrlPatterns> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Manifest.webFilterMappings> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleActivationPolicy> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#BundleActivationPolicy.directive> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleActivator> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#BundleActivator> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleCategory> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#BundleCategory.category> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleClassPath> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#BundleClassPath.entry> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleContactAddress> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#BundleContactAddress> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleCopyright> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#BundleCopyright> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleDescription> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#BundleDescription> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleDocURL> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#BundleDocURL> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleIcon> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#BundleIcon.url> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#BundleIcon.size> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleLicense> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#BundleLicense.license> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#License> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#License.name> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#License.licenseAttr> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#LicenseAttr> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#Description> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#Description> <http://west.uni-koblenz.de/MF#LicenseAttr> ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#Description.description> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#Link> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#Link> <http://west.uni-koblenz.de/MF#LicenseAttr> ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#Link.url> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleLocalization> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#BundleLocalization> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleManifestVersion> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#BundleManifestVersion> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleName> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#BundleName> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleNativeCode> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#BundleNativeCode.optional> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#BundleNativeCode.nativeCode> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#NativeCode> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#NativeCode.path> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#NativeCode.parameter> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleRequiredExecutionEnvironment> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#BundleRequiredExecutionEnvironment.eeName> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleSymbolicName> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#BundleSymbolicName.symbolicName> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#BundleSymbolicName.parameter> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleUpdateLocation> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#BundleUpdateLocation> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleVendor> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#BundleVendor> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#BundleVersion> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#BundleVersion.major> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#BundleVersion.minor> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#BundleVersion.micro> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#BundleVersion.qualifier> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#DynamicImportPackage> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#DynamicImportPackage.dynamicDescription> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#DynamicDescription> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#DynamicDescription.wildcardName> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#DynamicDescription.parameter> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#WildcardName> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#WildcardName.packageName> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#PackageName> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#PackageName> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#ExportPackage> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#ExportPackage.export> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#Export> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Export.packageName> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Export.parameter> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#FragmentHost> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#FragmentHost.symbolicName> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#FragmentHost.parameter> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#ImportPackage> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#ImportPackage.import> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#Import> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Import.packageName> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#Import.parameter> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#RequireBundle> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#RequireBundle.requireBundleDescription> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.parameter> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#EclipseLazyStart> ) ) 
+	
+	Declaration ( DataProperty ( <http://west.uni-koblenz.de/MF#EclipseLazyStart.value> ) ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#ImportBundle> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#ImportBundle> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#ImportLibrary> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#ImportLibrary> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#IncludeResource> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#IncludeResource> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#ModuleScope> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#ModuleScope> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#ModuleType> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#ModuleType> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#PrivatePackage> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#PrivatePackage> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#WebContextPath> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#WebContextPath> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#WebDispatcherServletUrlPatterns> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#WebDispatcherServletUrlPatterns> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	Declaration ( Class ( <http://west.uni-koblenz.de/MF#WebFilterMappings> ) ) 
+	
+	SubClassOf ( <http://west.uni-koblenz.de/MF#WebFilterMappings> <http://west.uni-koblenz.de/MF#NamedElement> ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_20688198> <http://west.uni-koblenz.de/MF#Manifest> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#Manifest.manifestVersion> <http://west.uni-koblenz.de/MF#eid_20688198> "1.0"^^xsd:string ) 
+	
+	ObjectPropertyAssertion ( <http://west.uni-koblenz.de/MF#Manifest.bundleActivationPolicy> <http://west.uni-koblenz.de/MF#eid_20688198> <http://west.uni-koblenz.de/MF#eid_10369257> ) 
+	
+	ObjectPropertyAssertion ( <http://west.uni-koblenz.de/MF#Manifest.bundleActivator> <http://west.uni-koblenz.de/MF#eid_20688198> <http://west.uni-koblenz.de/MF#eid_19778130> ) 
+	
+	ObjectPropertyAssertion ( <http://west.uni-koblenz.de/MF#Manifest.bundleManifestVersion> <http://west.uni-koblenz.de/MF#eid_20688198> <http://west.uni-koblenz.de/MF#eid_15532694> ) 
+	
+	ObjectPropertyAssertion ( <http://west.uni-koblenz.de/MF#Manifest.bundleName> <http://west.uni-koblenz.de/MF#eid_20688198> <http://west.uni-koblenz.de/MF#eid_4513522> ) 
+	
+	ObjectPropertyAssertion ( <http://west.uni-koblenz.de/MF#Manifest.bundleRequiredExecutionEnvironment> <http://west.uni-koblenz.de/MF#eid_20688198> <http://west.uni-koblenz.de/MF#eid_27946820> ) 
+	
+	ObjectPropertyAssertion ( <http://west.uni-koblenz.de/MF#Manifest.bundleSymbolicName> <http://west.uni-koblenz.de/MF#eid_20688198> <http://west.uni-koblenz.de/MF#eid_25751120> ) 
+	
+	ObjectPropertyAssertion ( <http://west.uni-koblenz.de/MF#Manifest.bundleVendor> <http://west.uni-koblenz.de/MF#eid_20688198> <http://west.uni-koblenz.de/MF#eid_33256555> ) 
+	
+	ObjectPropertyAssertion ( <http://west.uni-koblenz.de/MF#Manifest.bundleVersion> <http://west.uni-koblenz.de/MF#eid_20688198> <http://west.uni-koblenz.de/MF#eid_25169300> ) 
+	
+	ObjectPropertyAssertion ( <http://west.uni-koblenz.de/MF#Manifest.exportPackage> <http://west.uni-koblenz.de/MF#eid_20688198> <http://west.uni-koblenz.de/MF#eid_7276377> ) 
+	
+	ObjectPropertyAssertion ( <http://west.uni-koblenz.de/MF#Manifest.requireBundle> <http://west.uni-koblenz.de/MF#eid_20688198> <http://west.uni-koblenz.de/MF#eid_26753149> ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_10369257> <http://west.uni-koblenz.de/MF#BundleActivationPolicy> ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_19778130> <http://west.uni-koblenz.de/MF#BundleActivator> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#NamedElement.id> <http://west.uni-koblenz.de/MF#eid_19778130> "west.twouse.language.manifest.resource.manifest.mopp.MFPlugin"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_15532694> <http://west.uni-koblenz.de/MF#BundleManifestVersion> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#NamedElement.id> <http://west.uni-koblenz.de/MF#eid_15532694> "2"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_4513522> <http://west.uni-koblenz.de/MF#BundleName> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#NamedElement.id> <http://west.uni-koblenz.de/MF#eid_4513522> "MF"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_27946820> <http://west.uni-koblenz.de/MF#BundleRequiredExecutionEnvironment> ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_25751120> <http://west.uni-koblenz.de/MF#BundleSymbolicName> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#BundleSymbolicName.symbolicName> <http://west.uni-koblenz.de/MF#eid_25751120> "west.twouse.language.manifest.resource.manifest"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_14020609> <http://west.uni-koblenz.de/MF#Attribute> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#Attribute.token> <http://west.uni-koblenz.de/MF#eid_14020609> "singleton:"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#Attribute.argument> <http://west.uni-koblenz.de/MF#eid_14020609> "true"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_33256555> <http://west.uni-koblenz.de/MF#BundleVendor> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#NamedElement.id> <http://west.uni-koblenz.de/MF#eid_33256555> "Germany"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_25169300> <http://west.uni-koblenz.de/MF#BundleVersion> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#BundleVersion.major> <http://west.uni-koblenz.de/MF#eid_25169300> "0"^^xsd:int ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#BundleVersion.minor> <http://west.uni-koblenz.de/MF#eid_25169300> "0"^^xsd:int ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#BundleVersion.micro> <http://west.uni-koblenz.de/MF#eid_25169300> "0"^^xsd:int ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#BundleVersion.qualifier> <http://west.uni-koblenz.de/MF#eid_25169300> "1.0.0"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_7276377> <http://west.uni-koblenz.de/MF#ExportPackage> ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_26640087> <http://west.uni-koblenz.de/MF#Export> ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_21727016> <http://west.uni-koblenz.de/MF#PackageName> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#NamedElement.id> <http://west.uni-koblenz.de/MF#eid_21727016> "west.twouse.language.manifest.resource.manifest"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_31423343> <http://west.uni-koblenz.de/MF#Export> ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_23166745> <http://west.uni-koblenz.de/MF#PackageName> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#NamedElement.id> <http://west.uni-koblenz.de/MF#eid_23166745> "west.twouse.language.manifest.resource.manifest.mopp"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_1145679> <http://west.uni-koblenz.de/MF#Export> ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_18934454> <http://west.uni-koblenz.de/MF#PackageName> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#NamedElement.id> <http://west.uni-koblenz.de/MF#eid_18934454> "west.twouse.language.manifest.resource.manifest.ui"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_8222776> <http://west.uni-koblenz.de/MF#Export> ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_28753445> <http://west.uni-koblenz.de/MF#PackageName> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#NamedElement.id> <http://west.uni-koblenz.de/MF#eid_28753445> "west.twouse.language.manifest.resource.manifest.util"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_25002792> <http://west.uni-koblenz.de/MF#Export> ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_23060551> <http://west.uni-koblenz.de/MF#PackageName> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#NamedElement.id> <http://west.uni-koblenz.de/MF#eid_23060551> "west.twouse.language.manifest.resource.manifest.analysis"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_26753149> <http://west.uni-koblenz.de/MF#RequireBundle> ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_10788490> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_10788490> "org.eclipse.core.resources"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_27566185> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_27566185> "org.emftext.access"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_18835714> <http://west.uni-koblenz.de/MF#Attribute> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#Attribute.token> <http://west.uni-koblenz.de/MF#eid_18835714> "resolution:"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#Attribute.argument> <http://west.uni-koblenz.de/MF#eid_18835714> "optional"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_19343573> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_19343573> "org.eclipse.emf"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_32110365> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_32110365> "org.eclipse.emf.codegen.ecore"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_22984141> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_22984141> "org.eclipse.emf.ecore"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_15847287> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_15847287> "org.eclipse.emf.ecore.edit"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_23830150> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_23830150> "org.eclipse.emf.edit.ui"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_7643752> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_7643752> "org.eclipse.emf.workspace"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_22180267> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_22180267> "org.eclipse.jface"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_27576472> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_27576472> "org.eclipse.jface.text"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_23965041> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_23965041> "org.eclipse.ui"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_26612735> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_26612735> "org.eclipse.ui.editors"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_33215063> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_33215063> "org.eclipse.ui.ide"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_487845> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_487845> "org.eclipse.ui.views"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_11940803> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_11940803> "org.emftext.commons.antlr3_1_1"^^xsd:string ) 
+	
+	ClassAssertion ( <http://west.uni-koblenz.de/MF#eid_18585> <http://west.uni-koblenz.de/MF#RequireBundleDescription> ) 
+	
+	DataPropertyAssertion ( <http://west.uni-koblenz.de/MF#RequireBundleDescription.symbolicName> <http://west.uni-koblenz.de/MF#eid_18585> "west.twouse.language.manifest"^^xsd:string ) 
+	) 

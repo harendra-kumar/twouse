@@ -1,0 +1,968 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.rdfcoder.org/2007/1.0/" > 
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$2.jsignature:_14">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$2.jparameter:inferredclasshierarchy"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getElements.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getElements.jparameter:o"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:dispose">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:dispose.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyActivated.jsignature:_9">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyActivated.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyActivated.jparameter:owlontologymanager"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyActivated.jparameter:owlreasoner"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getChildren.jparameter:o">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:getText.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:getText.jparameter:o"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:fillContextMenu.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:fillContextMenu.jparameter:imenumanager"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$0">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$0.jsignature:_12"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyActivated">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyActivated.jsignature:_9"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:stop.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:stop.jparameter:bundlecontext"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:fillContextMenu.jparameter:imenumanager">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IMenuManager</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:isLabelProperty"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:getImage"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:getText"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:removeListener"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jattribute:owlClassImage"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:addListener"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jinterface:IBaseLabelProvider"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:&lt;init&gt;"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.inferredclasshierarchy/src/west/twouse/ui/views/inferredclasshierarchy/InferredClassHierarchy$OWLClassLabelProvider.java"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jattribute:this$0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:dispose"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jconstructor:_1"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jinterface:ILabelProvider"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jattribute:iconInputStream"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:&lt;init&gt;.jparameter:inferredclasshierarchy"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jmethod:&lt;init&gt;.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:getImage.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.graphics.jclass:Image</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:getImage.jparameter:o"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:actionExplainUnsatisfiability">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:Action"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:fillContextMenu">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:fillContextMenu.jsignature:_6"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jmethod:menuAboutToShow.jparameter:imenumanager">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IMenuManager</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$1.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:dispose.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:start.jparameter:bundlecontext">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.osgi.framework.jclass:BundleContext</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy">
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IWorkbenchPart2"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:ontProvider"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IWorkbenchPart"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$2"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jconstructor:_0"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:owlOntologyPath"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:parent"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyActivated"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IViewPart"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:ontData"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IPersistable"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.part.jinterface:IWorkbenchPartOrientation"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:fillContextMenu"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:commPlatform"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:dispose"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$1"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.backend.ontology.jinterface:IOntologyObserver"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyContentChanged"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:setFocus"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$4"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.part.jclass:ViewPart"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:createPartControl"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:showOntologyHierarchy"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:treeViewer"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:actionExplainUnsatisfiability"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.runtime.jinterface:IExecutableExtension"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IWorkbenchPart3"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyDeactivated"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$0"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:manager"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.inferredclasshierarchy/src/west/twouse/ui/views/inferredclasshierarchy/InferredClassHierarchy.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:makeActions"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.runtime.jinterface:IAdaptable"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:getSelectedClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$3"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:hookContextMenu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$0.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:&lt;init&gt;.jparameter:inferredclasshierarchy"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyActivated.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:&lt;init&gt;.jsignature:_7">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:&lt;init&gt;.jparameter:inferredclasshierarchy$owlclasscontentprovider"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:&lt;init&gt;.jparameter:inferredclasshierarchy"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:owlOntologyPath">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jmethod:&lt;init&gt;.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jconstructor:_7">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jparameter:inferredclasshierarchy$owlclasscontentprovider"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jparameter:inferredclasshierarchy"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyContentChanged.jparameter:owlreasoner">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.inference.jclass:OWLReasoner</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$1.jsignature:_13">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$1.jparameter:inferredclasshierarchy"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyContentChanged.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:ontProvider">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.backend.ontology.jclass:OntologyProvider"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jmethod:selectionChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jmethod:selectionChanged.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyContentChanged.jsignature:_10">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyContentChanged.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyContentChanged.jparameter:owlontologymanager"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyContentChanged.jparameter:owlreasoner"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jparameter:inferredclasshierarchy"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$4.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:getSelectedClass.jsignature:_8">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getParent.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getParent.jparameter:o"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jmethod:&lt;init&gt;.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:removeListener.jparameter:ilabelproviderlistener">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ILabelProviderListener</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jmethod:&lt;init&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jattribute:this$0"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.inferredclasshierarchy/src/west/twouse/ui/views/inferredclasshierarchy/InferredClassHierarchy$1.java"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jconstructor:_0"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jinterface:ISelectionChangedListener"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jmethod:selectionChanged"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jattribute:rootElementShown">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:boolean"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:hasChildren.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:hasChildren.jparameter:o"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:getSelectedClass">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:getSelectedClass.jsignature:_8"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getElements">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getElements.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jconstructor:_1">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jparameter:inferredclasshierarchy"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="asset:">
+    <j.0:library_date>2010_05_02__15_15_42</j.0:library_date>
+    <j.0:library_location>/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.inferredclasshierarchy/bin</j.0:library_location>
+    <j.0:contains_library rdf:resource="asset:"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyDeactivated.jparameter:owlontologymanager">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLOntologyManager</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:hookContextMenu">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:hookContextMenu.jsignature:_7"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyDeactivated.jsignature:_11">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyDeactivated.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyDeactivated.jparameter:owlontologymanager"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyDeactivated.jparameter:owlreasoner"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyContentChanged.jparameter:owlontologymanager">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLOntologyManager</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:isLabelProperty.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:isLabelProperty.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:isLabelProperty.jparameter:o"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jattribute:iconInputStream">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.io.jclass:InputStream"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:isLabelProperty.jparameter:o">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator">
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jattribute:PLUGIN_ID"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.osgi.framework.jinterface:BundleActivator"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jconstructor:_0"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:getDefault"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jattribute:plugin"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.inferredclasshierarchy/src/west/twouse/ui/views/inferredclasshierarchy/Activator.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:stop"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.plugin.jclass:AbstractUIPlugin"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:start"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:getText">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:getText.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jmethod:selectionChanged.jparameter:selectionchangedevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:SelectionChangedEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:addListener.jparameter:ilabelproviderlistener">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ILabelProviderListener</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider">
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jinterface:IContentProvider"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jinterface:IStructuredContentProvider"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:inputChanged"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.inferredclasshierarchy/src/west/twouse/ui/views/inferredclasshierarchy/InferredClassHierarchy$OWLClassContentProvider.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getElements"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getParent"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jconstructor:_7"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jconstructor:_0"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jinterface:ITreeContentProvider"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jattribute:rootElementShown"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:dispose"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jattribute:this$0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:hasChildren"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getChildren"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getChildren.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getChildren.jparameter:o"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:getDefault.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:dispose">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:dispose.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:hookContextMenu.jsignature:_7">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jmethod:menuAboutToShow">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jmethod:menuAboutToShow.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jmethod:menuAboutToShow.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jmethod:menuAboutToShow.jparameter:imenumanager"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:dispose">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:dispose.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyDeactivated.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:setFocus.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getParent">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getParent.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jattribute:plugin">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$4.jsignature:_16">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$4.jparameter:imenumanager"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$4.jparameter:inferredclasshierarchy"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:&lt;init&gt;.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyDeactivated">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyDeactivated.jsignature:_11"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyDeactivated.jparameter:owlreasoner">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.inference.jclass:OWLReasoner</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jparameter:inferredclasshierarchy"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:removeListener.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:removeListener.jparameter:ilabelproviderlistener"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:dispose.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:showOntologyHierarchy.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jattribute:PLUGIN_ID">
+    <j.0:attribute_value>CONSTANT_String[8](string_index = 9)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:addListener">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:addListener.jsignature:_6"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:getImage.jparameter:o">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:dispose.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jattribute:owlClassImage">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.graphics.jclass:Image"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:inputChanged.jparameter:viewer">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:Viewer</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jmethod:&lt;init&gt;.jparameter:inferredclasshierarchy"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:stop">
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Exception"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:stop.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3">
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jinterface:IMenuListener"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jconstructor:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jattribute:this$0"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.inferredclasshierarchy/src/west/twouse/ui/views/inferredclasshierarchy/InferredClassHierarchy$3.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jmethod:menuAboutToShow"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$3">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$3.jsignature:_15"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jmethod:selectionChanged.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jmethod:selectionChanged.jparameter:selectionchangedevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getParent.jparameter:o">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:showOntologyHierarchy">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:showOntologyHierarchy.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jmethod:run.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyActivated.jparameter:owlreasoner">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.inference.jclass:OWLReasoner</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jparameter:inferredclasshierarchy"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:inputChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:inputChanged.jsignature:_6"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:&lt;init&gt;.jparameter:inferredclasshierarchy$owlclasscontentprovider">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:addListener.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:addListener.jparameter:ilabelproviderlistener"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:manager">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLOntologyManager"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:parent">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:&lt;init&gt;.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:hasChildren.jparameter:o">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy">
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$4">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$4.jsignature:_16"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$0.jsignature:_12">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.backend.ontology.jclass:OntologyData</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$0.jparameter:inferredclasshierarchy"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:start">
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Exception"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:start.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2">
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:Action"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jmethod:&lt;init&gt;"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.inferredclasshierarchy/src/west/twouse/ui/views/inferredclasshierarchy/InferredClassHierarchy$2.java"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jconstructor:_0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jmethod:run"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jinterface:IAction"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jattribute:this$0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jmethod:&lt;init&gt;.jparameter:inferredclasshierarchy"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:stop.jparameter:bundlecontext">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.osgi.framework.jclass:BundleContext</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:createPartControl.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:createPartControl.jparameter:composite"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:inputChanged.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:inputChanged.jparameter:o2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:inputChanged.jparameter:o"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:inputChanged.jparameter:viewer"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:getDefault">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:getDefault.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyContentChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyContentChanged.jsignature:_10"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$2.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:hasChildren">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:hasChildren.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$3.jparameter:inferredclasshierarchy">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getElements.jparameter:o">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:isLabelProperty.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:getText.jparameter:o">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:start.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:Activator.jmethod:start.jparameter:bundlecontext"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:createPartControl.jparameter:composite">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$3.jmethod:&lt;init&gt;.jparameter:inferredclasshierarchy"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$1">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$1.jsignature:_13"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:ontologyActivated.jparameter:owlontologymanager">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLOntologyManager</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:isLabelProperty">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:isLabelProperty.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getChildren">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:getChildren.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:getImage">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:getImage.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:makeActions">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:makeActions.jsignature:_5"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:removeListener">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassLabelProvider.jmethod:removeListener.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:inputChanged.jparameter:o">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:inputChanged.jparameter:o2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:ontData">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.backend.ontology.jclass:OntologyData"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$3.jsignature:_15">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLOntologyManager</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$3.jparameter:inferredclasshierarchy"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:setFocus">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:setFocus.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jparameter:inferredclasshierarchy"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:commPlatform">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:createPartControl">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:createPartControl.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jparameter:inferredclasshierarchy$owlclasscontentprovider">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$4.jparameter:imenumanager">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IMenuManager</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jattribute:treeViewer">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:TreeViewer"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jmethod:run">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$2.jmethod:run.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:makeActions.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:&lt;init&gt;.jsignature:_7"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$OWLClassContentProvider.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$2">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy.jmethod:access$2.jsignature:_14"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.inferredclasshierarchy.jclass:InferredClassHierarchy$1.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+</rdf:RDF>

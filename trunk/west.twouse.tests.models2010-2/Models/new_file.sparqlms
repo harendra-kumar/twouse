@@ -1,0 +1,8 @@
+Namespace: uml  <http://www.eclipse.org/uml2/3.0.0/UML#>
+Namespace: srs  <http://west.uni-koblenz.de/SRS#>
+Namespace: mf  <http://west.uni-koblenz.de/EclipseManifest#>
+Select 
+Where: ?component mf:name "west.twouse.reasoner"^^xsd:string
+        ?component srs:requirement ?requirement
+        ?requirement srs:useCase ?uc
+        ?uc uml:name ?name

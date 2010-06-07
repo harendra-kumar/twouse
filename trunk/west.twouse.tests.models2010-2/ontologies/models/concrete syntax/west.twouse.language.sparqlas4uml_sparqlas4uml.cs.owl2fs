@@ -1,0 +1,2126 @@
+Namespace ( rdfs=<http://www.w3.org/2000/01/rdf-schema#> ) 
+Namespace ( owl=<http://www.w3.org/2002/07/owl#> ) 
+Namespace ( rdf=<http://www.w3.org/1999/02/22-rdf-syntax-ns#> ) 
+Namespace ( xsd=<http://www.w3.org/2001/XMLSchema#> ) 
+Namespace ( owl2xml=<http://www.w3.org/2006/12/owl2-xml#> ) 
+Namespace ( org.emftext.sdk.concretesyntax=<http://www.emftext.org/sdk/concretesyntax#> ) 
+Namespace (  =<http://www.emftext.org/sdk/concretesyntax#> ) 
+
+Ontology ( <http://www.emftext.org/sdk/concretesyntax> 
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#GenPackageDependentElement> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#GenPackageDependentElement.packageLocationHint> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#GenPackageDependentElement.package> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax> <http://www.emftext.org/sdk/concretesyntax#GenPackageDependentElement> ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax> <http://www.emftext.org/sdk/concretesyntax#Annotable> ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.name> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.modifier> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.startSymbols> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.activeStartSymbols> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.activeTokens> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.allStartSymbols> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.imports> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.options> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.tokens> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.syntheticTokens> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.tokenStyles> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.allTokenStyles> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.allTokenDirectives> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.rules> ) ) 
+	
+	InverseObjectProperties ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.rules> <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.allRules> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#Import> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#Import> <http://www.emftext.org/sdk/concretesyntax#GenPackageDependentElement> ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#Import.prefix> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#Import.csLocationHint> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#Import.concreteSyntax> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#Rule> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#Rule> <http://www.emftext.org/sdk/concretesyntax#Annotable> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> ) ) 
+	
+	InverseObjectProperties ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.rules> ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#Choice> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#Choice.options> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#Sequence> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#Sequence.parts> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#Definition> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#CardinalityDefinition> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#CardinalityDefinition> <http://www.emftext.org/sdk/concretesyntax#Definition> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#CardinalityDefinition.cardinality> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#Terminal> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#Terminal> <http://www.emftext.org/sdk/concretesyntax#CardinalityDefinition> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#Terminal.feature> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#CsString> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#CsString> <http://www.emftext.org/sdk/concretesyntax#Definition> ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#CsString.value> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#WhiteSpaces> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#WhiteSpaces> <http://www.emftext.org/sdk/concretesyntax#Definition> ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#WhiteSpaces.amount> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#LineBreak> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#LineBreak> <http://www.emftext.org/sdk/concretesyntax#Definition> ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#LineBreak.tab> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#Cardinality> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#PLUS> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#PLUS> <http://www.emftext.org/sdk/concretesyntax#Cardinality> ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#STAR> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#STAR> <http://www.emftext.org/sdk/concretesyntax#Cardinality> ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#QUESTIONMARK> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#QUESTIONMARK> <http://www.emftext.org/sdk/concretesyntax#Cardinality> ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#CompoundDefinition> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#CompoundDefinition> <http://www.emftext.org/sdk/concretesyntax#CardinalityDefinition> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#CompoundDefinition.definitions> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#TokenDirective> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition> <http://www.emftext.org/sdk/concretesyntax#TokenDirective> ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.attributeName> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.attributeReferences> ) ) 
+	
+	InverseObjectProperties ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.attributeReferences> <http://www.emftext.org/sdk/concretesyntax#Placeholder.token> ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#NormalToken> <http://www.emftext.org/sdk/concretesyntax#TokenDefinition> ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#NormalToken> <http://www.emftext.org/sdk/concretesyntax#Annotable> ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#QuotedToken> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#QuotedToken> <http://www.emftext.org/sdk/concretesyntax#TokenDefinition> ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#QuotedToken.prefix> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#QuotedToken.suffix> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#QuotedToken.escapeCharacter> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#TokenPriorityDirective> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#TokenPriorityDirective> <http://www.emftext.org/sdk/concretesyntax#TokenDirective> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#TokenPriorityDirective.token> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#Containment> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#Containment> <http://www.emftext.org/sdk/concretesyntax#Terminal> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#Containment.types> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#Placeholder> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#Placeholder> <http://www.emftext.org/sdk/concretesyntax#Terminal> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#Placeholder.token> ) ) 
+	
+	InverseObjectProperties ( <http://www.emftext.org/sdk/concretesyntax#Placeholder.token> <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.attributeReferences> ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#PlaceholderUsingSpecifiedToken> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#PlaceholderUsingSpecifiedToken> <http://www.emftext.org/sdk/concretesyntax#Placeholder> ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#PlaceholderUsingDefaultToken> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#PlaceholderUsingDefaultToken> <http://www.emftext.org/sdk/concretesyntax#Placeholder> ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#PlaceholderInQuotes> ) ) 
+	
+	SubClassOf ( <http://www.emftext.org/sdk/concretesyntax#PlaceholderInQuotes> <http://www.emftext.org/sdk/concretesyntax#Placeholder> ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#PlaceholderInQuotes.prefix> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#PlaceholderInQuotes.suffix> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#PlaceholderInQuotes.escapeCharacter> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#Option> ) ) 
+	
+	ObjectPropertyDomain ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#Option> ) 
+	
+	ObjectPropertyRange ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#OptionTypes> ) 
+	
+	FunctionalObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#type> ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#Option.value> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#Abstract> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> ) ) 
+	
+	ObjectPropertyDomain ( <http://www.emftext.org/sdk/concretesyntax#fontStyles> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	ObjectPropertyRange ( <http://www.emftext.org/sdk/concretesyntax#fontStyles> <http://www.emftext.org/sdk/concretesyntax#FontStyle> ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#Annotation> ) ) 
+	
+	ObjectPropertyDomain ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#Annotation> ) 
+	
+	ObjectPropertyRange ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#AnnotationType> ) 
+	
+	FunctionalObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#type> ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#Annotation.parameters> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#Annotable> ) ) 
+	
+	Declaration ( ObjectProperty ( <http://www.emftext.org/sdk/concretesyntax#Annotable.annotations> ) ) 
+	
+	Declaration ( Class ( <http://www.emftext.org/sdk/concretesyntax#KeyValuePair> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#KeyValuePair.key> ) ) 
+	
+	Declaration ( DataProperty ( <http://www.emftext.org/sdk/concretesyntax#KeyValuePair.value> ) ) 
+	
+	EquivalentClasses ( <http://www.emftext.org/sdk/concretesyntax#OptionTypes> ObjectOneOf ( <http://www.emftext.org/sdk/concretesyntax#generateTestAction> <http://www.emftext.org/sdk/concretesyntax#generateCodeFromGeneratorModel> <http://www.emftext.org/sdk/concretesyntax#overridePluginXML> <http://www.emftext.org/sdk/concretesyntax#overrideManifest> <http://www.emftext.org/sdk/concretesyntax#overrideParser> <http://www.emftext.org/sdk/concretesyntax#overrideTokenResolvers> <http://www.emftext.org/sdk/concretesyntax#overrideReferenceResolvers> <http://www.emftext.org/sdk/concretesyntax#overrideReferenceResolverSwitch> <http://www.emftext.org/sdk/concretesyntax#overrideTokenResolverFactory> <http://www.emftext.org/sdk/concretesyntax#overridePrinter> <http://www.emftext.org/sdk/concretesyntax#backtracking> <http://www.emftext.org/sdk/concretesyntax#memoize> <http://www.emftext.org/sdk/concretesyntax#autofixSimpleLeftrecursion> <http://www.emftext.org/sdk/concretesyntax#forceEOF> <http://www.emftext.org/sdk/concretesyntax#defaultTokenName> <http://www.emftext.org/sdk/concretesyntax#usePredefinedTokens> <http://www.emftext.org/sdk/concretesyntax#tokenspace> <http://www.emftext.org/sdk/concretesyntax#reloadGeneratorModel> <http://www.emftext.org/sdk/concretesyntax#overrideClasspath> <http://www.emftext.org/sdk/concretesyntax#overrideProjectFile> <http://www.emftext.org/sdk/concretesyntax#overrideTextResource> <http://www.emftext.org/sdk/concretesyntax#overrideResourceFactory> <http://www.emftext.org/sdk/concretesyntax#overrideNewFileWizard> <http://www.emftext.org/sdk/concretesyntax#parserGenerator> <http://www.emftext.org/sdk/concretesyntax#srcFolder> <http://www.emftext.org/sdk/concretesyntax#basePackage> <http://www.emftext.org/sdk/concretesyntax#resourcePluginID> <http://www.emftext.org/sdk/concretesyntax#overrideBuildProperties> <http://www.emftext.org/sdk/concretesyntax#overrideMetaInformation> <http://www.emftext.org/sdk/concretesyntax#overrideDefaultResolverDelegate> <http://www.emftext.org/sdk/concretesyntax#overrideProblemClass> <http://www.emftext.org/sdk/concretesyntax#overrideScanner> <http://www.emftext.org/sdk/concretesyntax#overrideContextDependentURIFragment> <http://www.emftext.org/sdk/concretesyntax#overrideContextDependentURIFragmentFactory> <http://www.emftext.org/sdk/concretesyntax#overrideDelegatingResolveResult> <http://www.emftext.org/sdk/concretesyntax#overrideDummyEObject> <http://www.emftext.org/sdk/concretesyntax#overrideElementMapping> <http://www.emftext.org/sdk/concretesyntax#overrideFuzzyResolveResult> <http://www.emftext.org/sdk/concretesyntax#overrideDefaultTokenResolver> <http://www.emftext.org/sdk/concretesyntax#overrideLocationMap> <http://www.emftext.org/sdk/concretesyntax#overrideReferenceResolveResult> <http://www.emftext.org/sdk/concretesyntax#overrideTokenResolveResult> <http://www.emftext.org/sdk/concretesyntax#overrideURIMapping> <http://www.emftext.org/sdk/concretesyntax#overrideHoverTextProvider> <http://www.emftext.org/sdk/concretesyntax#overrideParseResult> <http://www.emftext.org/sdk/concretesyntax#overrideAntlrTokenHelper> <http://www.emftext.org/sdk/concretesyntax#overrideBracketSet> <http://www.emftext.org/sdk/concretesyntax#overrideBrowserInformationControl> <http://www.emftext.org/sdk/concretesyntax#overrideCodeFoldingManager> <http://www.emftext.org/sdk/concretesyntax#overrideColorManager> <http://www.emftext.org/sdk/concretesyntax#overrideCompletionProcessor> <http://www.emftext.org/sdk/concretesyntax#overrideParsingStrategy> <http://www.emftext.org/sdk/concretesyntax#overrideDocBrowserInformationControlInput> <http://www.emftext.org/sdk/concretesyntax#overrideEditorConfiguration> <http://www.emftext.org/sdk/concretesyntax#overrideEditor> <http://www.emftext.org/sdk/concretesyntax#overrideEObjectSelection> <http://www.emftext.org/sdk/concretesyntax#overrideHighlighting> <http://www.emftext.org/sdk/concretesyntax#overrideHTMLPrinter> <http://www.emftext.org/sdk/concretesyntax#overrideHyperlink> <http://www.emftext.org/sdk/concretesyntax#overrideHyperlinkDetector> <http://www.emftext.org/sdk/concretesyntax#overrideMarkerHelper> <http://www.emftext.org/sdk/concretesyntax#overrideOccurrence> <http://www.emftext.org/sdk/concretesyntax#overrideOutlinePage> <http://www.emftext.org/sdk/concretesyntax#overrideOutlinePageTreeViewer> <http://www.emftext.org/sdk/concretesyntax#overridePluginActivator> <http://www.emftext.org/sdk/concretesyntax#overridePositionCategory> <http://www.emftext.org/sdk/concretesyntax#overridePositionHelper> <http://www.emftext.org/sdk/concretesyntax#overridePropertySheetPage> <http://www.emftext.org/sdk/concretesyntax#overrideTextHover> <http://www.emftext.org/sdk/concretesyntax#overrideTokenScanner> <http://www.emftext.org/sdk/concretesyntax#overrideBracketPreferencePage> <http://www.emftext.org/sdk/concretesyntax#overridePreferenceConstants> <http://www.emftext.org/sdk/concretesyntax#overrideOccurencePreferencePage> <http://www.emftext.org/sdk/concretesyntax#overridePixelConverter> <http://www.emftext.org/sdk/concretesyntax#overridePreferenceInitializer> <http://www.emftext.org/sdk/concretesyntax#overrideSyntaxColoringHelper> <http://www.emftext.org/sdk/concretesyntax#overrideSyntaxColoringPreferencePage> <http://www.emftext.org/sdk/concretesyntax#overrideIInputStreamProcessorProvider> <http://www.emftext.org/sdk/concretesyntax#overrideInputStreamProcessor> <http://www.emftext.org/sdk/concretesyntax#overrideIOptionProvider> <http://www.emftext.org/sdk/concretesyntax#overrideIOptions> <http://www.emftext.org/sdk/concretesyntax#overrideIResourcePostProcessor> <http://www.emftext.org/sdk/concretesyntax#overrideIResourcePostProcessorProvider> <http://www.emftext.org/sdk/concretesyntax#overrideIBracketPair> <http://www.emftext.org/sdk/concretesyntax#overrideICommand> <http://www.emftext.org/sdk/concretesyntax#overrideIConfigurable> <http://www.emftext.org/sdk/concretesyntax#overrideIContextDependentURIFragment> <http://www.emftext.org/sdk/concretesyntax#overrideIContextDependentURIFragmentFactory> <http://www.emftext.org/sdk/concretesyntax#overrideIElementMapping> <http://www.emftext.org/sdk/concretesyntax#overrideIExpectedElement> <http://www.emftext.org/sdk/concretesyntax#overrideIHoverTextProvider> <http://www.emftext.org/sdk/concretesyntax#overrideILocationMap> <http://www.emftext.org/sdk/concretesyntax#overrideIParseResult> <http://www.emftext.org/sdk/concretesyntax#overrideIProblem> <http://www.emftext.org/sdk/concretesyntax#overrideIReferenceMapping> <http://www.emftext.org/sdk/concretesyntax#overrideIReferenceResolver> <http://www.emftext.org/sdk/concretesyntax#overrideIReferenceResolveResult> <http://www.emftext.org/sdk/concretesyntax#overrideIReferenceResolverSwitch> <http://www.emftext.org/sdk/concretesyntax#overrideITextDiagnostic> <http://www.emftext.org/sdk/concretesyntax#overrideITextParser> <http://www.emftext.org/sdk/concretesyntax#overrideITextPrinter> <http://www.emftext.org/sdk/concretesyntax#overrideITextResource> <http://www.emftext.org/sdk/concretesyntax#overrideIMetaInformation> <http://www.emftext.org/sdk/concretesyntax#overrideITextResourcePluginPart> <http://www.emftext.org/sdk/concretesyntax#overrideITextScanner> <http://www.emftext.org/sdk/concretesyntax#overrideITextToken> <http://www.emftext.org/sdk/concretesyntax#overrideITokenResolver> <http://www.emftext.org/sdk/concretesyntax#overrideITokenResolveResult> <http://www.emftext.org/sdk/concretesyntax#overrideITokenResolverFactory> <http://www.emftext.org/sdk/concretesyntax#overrideITokenStyle> <http://www.emftext.org/sdk/concretesyntax#overrideIURIMapping> <http://www.emftext.org/sdk/concretesyntax#overrideEProblemType> <http://www.emftext.org/sdk/concretesyntax#overrideCodeCompletionHelper> <http://www.emftext.org/sdk/concretesyntax#overrideExpectedCsString> <http://www.emftext.org/sdk/concretesyntax#overrideExpectedStructuralFeature> <http://www.emftext.org/sdk/concretesyntax#overrideCastUtil> <http://www.emftext.org/sdk/concretesyntax#overrideCopiedEList> <http://www.emftext.org/sdk/concretesyntax#overrideCopiedEObjectInternalEList> <http://www.emftext.org/sdk/concretesyntax#overrideEClassUtil> <http://www.emftext.org/sdk/concretesyntax#overrideEObjectUtil> <http://www.emftext.org/sdk/concretesyntax#overrideListUtil> <http://www.emftext.org/sdk/concretesyntax#overrideMapUtil> <http://www.emftext.org/sdk/concretesyntax#overrideMinimalModelHelper> <http://www.emftext.org/sdk/concretesyntax#overrideResourceUtil> <http://www.emftext.org/sdk/concretesyntax#overrideStreamUtil> <http://www.emftext.org/sdk/concretesyntax#overrideStringUtil> <http://www.emftext.org/sdk/concretesyntax#overrideTextResourceUtil> <http://www.emftext.org/sdk/concretesyntax#overrideUnicodeConverter> <http://www.emftext.org/sdk/concretesyntax#overrideAbstractExpectedElement> <http://www.emftext.org/sdk/concretesyntax#overrideNewFileWizardPage> <http://www.emftext.org/sdk/concretesyntax#overrideIBackgroundParsingListener> <http://www.emftext.org/sdk/concretesyntax#overrideTerminateParsingException> <http://www.emftext.org/sdk/concretesyntax#overrideUnexpectedContentTypeException> <http://www.emftext.org/sdk/concretesyntax#overrideTextToken> <http://www.emftext.org/sdk/concretesyntax#srcGenFolder> <http://www.emftext.org/sdk/concretesyntax#overrideDefaultLoadOptionsExtensionPointSchema> <http://www.emftext.org/sdk/concretesyntax#overrideAdditionalExtensionParserExtensionPointSchema> <http://www.emftext.org/sdk/concretesyntax#overrideResourceFactoryDelegator> <http://www.emftext.org/sdk/concretesyntax#baseResourcePlugin> <http://www.emftext.org/sdk/concretesyntax#overridePreferencePage> <http://www.emftext.org/sdk/concretesyntax#antlrPluginID> <http://www.emftext.org/sdk/concretesyntax#overrideAntlrPlugin> <http://www.emftext.org/sdk/concretesyntax#overrideTokenStyleInformationProvider> <http://www.emftext.org/sdk/concretesyntax#overrideFoldingInformationProvider> <http://www.emftext.org/sdk/concretesyntax#overrideBracketInformationProvider> <http://www.emftext.org/sdk/concretesyntax#overrideSyntaxCoverageInformationProvider> <http://www.emftext.org/sdk/concretesyntax#saveChangedResourcesOnly> <http://www.emftext.org/sdk/concretesyntax#overrideNewFileContentProvider> <http://www.emftext.org/sdk/concretesyntax#licenceHeader> <http://www.emftext.org/sdk/concretesyntax#overrideExpectedTerminal> <http://www.emftext.org/sdk/concretesyntax#overrideCompletionProposal> <http://www.emftext.org/sdk/concretesyntax#overrideBuilder> <http://www.emftext.org/sdk/concretesyntax#overrideBuilderAdapter> <http://www.emftext.org/sdk/concretesyntax#overrideIBuilder> <http://www.emftext.org/sdk/concretesyntax#overrideNature> <http://www.emftext.org/sdk/concretesyntax#disableBuilder> ) 
+	) 
+	
+	EquivalentClasses ( <http://www.emftext.org/sdk/concretesyntax#FontStyle> ObjectOneOf ( <http://www.emftext.org/sdk/concretesyntax#BOLD> <http://www.emftext.org/sdk/concretesyntax#ITALIC> <http://www.emftext.org/sdk/concretesyntax#STRIKETHROUGH> <http://www.emftext.org/sdk/concretesyntax#UNDERLINE> ) 
+	) 
+	
+	EquivalentClasses ( <http://www.emftext.org/sdk/concretesyntax#AnnotationType> ObjectOneOf ( <http://www.emftext.org/sdk/concretesyntax#Override> <http://www.emftext.org/sdk/concretesyntax#SuppressWarnings> <http://www.emftext.org/sdk/concretesyntax#Foldable> ) 
+	) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_17670367> <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackageDependentElement.package> <http://www.emftext.org/sdk/concretesyntax#eid_17670367> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#ConcreteSyntax.name> <http://www.emftext.org/sdk/concretesyntax#eid_17670367> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_29874667> <http://www.emftext.org/sdk/concretesyntax#Import> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackageDependentElement.package> <http://www.emftext.org/sdk/concretesyntax#eid_29874667> <http://www.emftext.org/sdk/concretesyntax#eid_11283982> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Import.prefix> <http://www.emftext.org/sdk/concretesyntax#eid_29874667> "test"^^xsd:string ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Import.concreteSyntax> <http://www.emftext.org/sdk/concretesyntax#eid_29874667> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Import.csLocationHint> <http://www.emftext.org/sdk/concretesyntax#eid_29874667> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_2935595> <http://www.emftext.org/sdk/concretesyntax#Option> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#eid_2935595> <http://www.emftext.org/sdk/concretesyntax#defaultTokenName> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Option.value> <http://www.emftext.org/sdk/concretesyntax#eid_2935595> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_13533299> <http://www.emftext.org/sdk/concretesyntax#Option> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#eid_13533299> <http://www.emftext.org/sdk/concretesyntax#licenceHeader> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Option.value> <http://www.emftext.org/sdk/concretesyntax#eid_13533299> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_22221029> <http://www.emftext.org/sdk/concretesyntax#Option> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#eid_22221029> <http://www.emftext.org/sdk/concretesyntax#generateCodeFromGeneratorModel> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Option.value> <http://www.emftext.org/sdk/concretesyntax#eid_22221029> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_8021123> <http://www.emftext.org/sdk/concretesyntax#Option> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#eid_8021123> <http://www.emftext.org/sdk/concretesyntax#reloadGeneratorModel> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Option.value> <http://www.emftext.org/sdk/concretesyntax#eid_8021123> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_22861504> <http://www.emftext.org/sdk/concretesyntax#Option> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#eid_22861504> <http://www.emftext.org/sdk/concretesyntax#tokenspace> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Option.value> <http://www.emftext.org/sdk/concretesyntax#eid_22861504> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_1513619> <http://www.emftext.org/sdk/concretesyntax#Option> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#eid_1513619> <http://www.emftext.org/sdk/concretesyntax#usePredefinedTokens> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Option.value> <http://www.emftext.org/sdk/concretesyntax#eid_1513619> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_5140341> <http://www.emftext.org/sdk/concretesyntax#Option> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#eid_5140341> <http://www.emftext.org/sdk/concretesyntax#overridePluginXML> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Option.value> <http://www.emftext.org/sdk/concretesyntax#eid_5140341> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_24603784> <http://www.emftext.org/sdk/concretesyntax#Option> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#eid_24603784> <http://www.emftext.org/sdk/concretesyntax#overrideManifest> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Option.value> <http://www.emftext.org/sdk/concretesyntax#eid_24603784> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_24539697> <http://www.emftext.org/sdk/concretesyntax#Option> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#eid_24539697> <http://www.emftext.org/sdk/concretesyntax#overrideBuildProperties> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Option.value> <http://www.emftext.org/sdk/concretesyntax#eid_24539697> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_21174200> <http://www.emftext.org/sdk/concretesyntax#Option> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#eid_21174200> <http://www.emftext.org/sdk/concretesyntax#overrideClasspath> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Option.value> <http://www.emftext.org/sdk/concretesyntax#eid_21174200> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_30041861> <http://www.emftext.org/sdk/concretesyntax#Option> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#eid_30041861> <http://www.emftext.org/sdk/concretesyntax#overrideProjectFile> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Option.value> <http://www.emftext.org/sdk/concretesyntax#eid_30041861> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_20026323> <http://www.emftext.org/sdk/concretesyntax#Option> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#eid_20026323> <http://www.emftext.org/sdk/concretesyntax#resourcePluginID> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Option.value> <http://www.emftext.org/sdk/concretesyntax#eid_20026323> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_31463635> <http://www.emftext.org/sdk/concretesyntax#Option> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#type> <http://www.emftext.org/sdk/concretesyntax#eid_31463635> <http://www.emftext.org/sdk/concretesyntax#basePackage> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Option.value> <http://www.emftext.org/sdk/concretesyntax#eid_31463635> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_25021904> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_25021904> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_25021904> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_5446306> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_5446306> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_5446306> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_33130496> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_33130496> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_33130496> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_22006387> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_22006387> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_22006387> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_24407744> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_24407744> <http://www.emftext.org/sdk/concretesyntax#eid_125133> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_24407744> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_24407744> <http://www.emftext.org/sdk/concretesyntax#eid_17670367> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_125133> <http://www.emftext.org/sdk/concretesyntax#Choice> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_14709911> <http://www.emftext.org/sdk/concretesyntax#Sequence> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_30426085> <http://www.emftext.org/sdk/concretesyntax#CompoundDefinition> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#CardinalityDefinition.cardinality> <http://www.emftext.org/sdk/concretesyntax#eid_30426085> <http://www.emftext.org/sdk/concretesyntax#eid_32189731> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#CompoundDefinition.definitions> <http://www.emftext.org/sdk/concretesyntax#eid_30426085> <http://www.emftext.org/sdk/concretesyntax#eid_6929616> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_32189731> <http://www.emftext.org/sdk/concretesyntax#QUESTIONMARK> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_6929616> <http://www.emftext.org/sdk/concretesyntax#Choice> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_10666735> <http://www.emftext.org/sdk/concretesyntax#Sequence> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_1677657> <http://www.emftext.org/sdk/concretesyntax#CsString> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#CsString.value> <http://www.emftext.org/sdk/concretesyntax#eid_1677657> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_28049988> <http://www.emftext.org/sdk/concretesyntax#CsString> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#CsString.value> <http://www.emftext.org/sdk/concretesyntax#eid_28049988> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_29947548> <http://www.emftext.org/sdk/concretesyntax#Containment> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Terminal.feature> <http://www.emftext.org/sdk/concretesyntax#eid_29947548> <http://www.emftext.org/sdk/concretesyntax#eid_19551494> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_30276955> <http://www.emftext.org/sdk/concretesyntax#CsString> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#CsString.value> <http://www.emftext.org/sdk/concretesyntax#eid_30276955> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_11837398> <http://www.emftext.org/sdk/concretesyntax#LineBreak> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#LineBreak.tab> <http://www.emftext.org/sdk/concretesyntax#eid_11837398> "0"^^xsd:int ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_422730> <http://www.emftext.org/sdk/concretesyntax#CompoundDefinition> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#CardinalityDefinition.cardinality> <http://www.emftext.org/sdk/concretesyntax#eid_422730> <http://www.emftext.org/sdk/concretesyntax#eid_4510114> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#CompoundDefinition.definitions> <http://www.emftext.org/sdk/concretesyntax#eid_422730> <http://www.emftext.org/sdk/concretesyntax#eid_1062382> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_4510114> <http://www.emftext.org/sdk/concretesyntax#STAR> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_1062382> <http://www.emftext.org/sdk/concretesyntax#Choice> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_23129485> <http://www.emftext.org/sdk/concretesyntax#Sequence> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_24838749> <http://www.emftext.org/sdk/concretesyntax#Containment> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Terminal.feature> <http://www.emftext.org/sdk/concretesyntax#eid_24838749> <http://www.emftext.org/sdk/concretesyntax#eid_3410911> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_9163795> <http://www.emftext.org/sdk/concretesyntax#LineBreak> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#LineBreak.tab> <http://www.emftext.org/sdk/concretesyntax#eid_9163795> "0"^^xsd:int ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_2024145> <http://www.emftext.org/sdk/concretesyntax#CompoundDefinition> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#CardinalityDefinition.cardinality> <http://www.emftext.org/sdk/concretesyntax#eid_2024145> <http://www.emftext.org/sdk/concretesyntax#eid_8780160> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#CompoundDefinition.definitions> <http://www.emftext.org/sdk/concretesyntax#eid_2024145> <http://www.emftext.org/sdk/concretesyntax#eid_2280474> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_8780160> <http://www.emftext.org/sdk/concretesyntax#STAR> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_2280474> <http://www.emftext.org/sdk/concretesyntax#Choice> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_13077736> <http://www.emftext.org/sdk/concretesyntax#Sequence> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_29170404> <http://www.emftext.org/sdk/concretesyntax#Containment> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Terminal.feature> <http://www.emftext.org/sdk/concretesyntax#eid_29170404> <http://www.emftext.org/sdk/concretesyntax#eid_16220539> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_15985756> <http://www.emftext.org/sdk/concretesyntax#LineBreak> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#LineBreak.tab> <http://www.emftext.org/sdk/concretesyntax#eid_15985756> "0"^^xsd:int ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_29321401> <http://www.emftext.org/sdk/concretesyntax#Containment> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Terminal.feature> <http://www.emftext.org/sdk/concretesyntax#eid_29321401> <http://www.emftext.org/sdk/concretesyntax#eid_22393794> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_1577871> <http://www.emftext.org/sdk/concretesyntax#GenPackage> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.prefix> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.basePackage> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "test"^^xsd:string ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#resource> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> <http://www.emftext.org/sdk/concretesyntax#XML> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.disposableProviderFactory> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.adapterFactory> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.loadInitialization> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.interfacePackageSuffix> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> ""^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.metaDataPackageSuffix> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> ""^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.classPackageSuffix> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.utilityPackageSuffix> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.providerPackageSuffix> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.presentationPackageSuffix> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.testsPackageSuffix> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.generateExampleClass> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.literalsInterface> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.dataTypeConverters> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.multipleEditorPages> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.generateModelWizard> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.extensibleProviderFactory> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.childCreationExtenders> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.fileExtensions> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> "test"^^xsd:string ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.ecorePackage> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> <http://www.emftext.org/sdk/concretesyntax#eid_19412237> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenPackage.genModel> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> <http://www.emftext.org/sdk/concretesyntax#eid_11741619> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#GenClass> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClassifier.genPackage> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#provider> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#Singleton> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.image> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.dynamic> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> "false"^^xsd:boolean ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.ecoreClass> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#eid_23353531> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.labelFeature> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#eid_7781285> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#GenClass> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClassifier.genPackage> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#provider> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#Singleton> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.image> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.dynamic> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> "false"^^xsd:boolean ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.ecoreClass> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#eid_23353531> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.labelFeature> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#eid_7781285> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_24952721> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_24952721> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_24952721> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_24952721> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_24952721> "false"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_17100360> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_17100360> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_17100360> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_17100360> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_17100360> "false"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_12044250> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_12044250> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_12044250> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_12044250> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_12044250> "false"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_27382060> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_27382060> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_27382060> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_27382060> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_27382060> "true"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_11252218> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_11252218> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_11252218> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_11252218> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_11252218> "false"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_3260291> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_3260291> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_3260291> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_3260291> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_3260291> "true"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_1334436> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_1334436> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_1334436> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_1334436> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_1334436> "true"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_13507124> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_13507124> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_13507124> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_13507124> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_13507124> "true"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_18512511> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_18512511> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_18512511> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_18512511> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_18512511> "true"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_23081118> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_23081118> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_23081118> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_23081118> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_23081118> "true"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#GenClass> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClassifier.genPackage> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#eid_1577871> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#provider> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#Singleton> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.image> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.dynamic> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> "false"^^xsd:boolean ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.ecoreClass> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#eid_23353531> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.labelFeature> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> <http://www.emftext.org/sdk/concretesyntax#eid_7781285> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_23439915> <http://www.emftext.org/sdk/concretesyntax#GenClass> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClassifier.genPackage> <http://www.emftext.org/sdk/concretesyntax#eid_23439915> <http://www.emftext.org/sdk/concretesyntax#eid_11283982> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#provider> <http://www.emftext.org/sdk/concretesyntax#eid_23439915> <http://www.emftext.org/sdk/concretesyntax#Singleton> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.image> <http://www.emftext.org/sdk/concretesyntax#eid_23439915> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.dynamic> <http://www.emftext.org/sdk/concretesyntax#eid_23439915> "false"^^xsd:boolean ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#GenClass.ecoreClass> <http://www.emftext.org/sdk/concretesyntax#eid_23439915> <http://www.emftext.org/sdk/concretesyntax#eid_12738099> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_25021904> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_25021904> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_25021904> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_5446306> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_5446306> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_5446306> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_33130496> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_33130496> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_33130496> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_22006387> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_22006387> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_22006387> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_1574659> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_1574659> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_1574659> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_24416378> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_24416378> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_24416378> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_28917096> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_28917096> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_28917096> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_7254841> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_7254841> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_7254841> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_28872317> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_28872317> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_28872317> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_26396932> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_26396932> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_26396932> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_30107140> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_30107140> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_30107140> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_9873695> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_9873695> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_9873695> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_20536469> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_20536469> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_20536469> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_15551293> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_15551293> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_15551293> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_15118602> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_15118602> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_15118602> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_24201372> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_24201372> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_24201372> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_5646506> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_5646506> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_5646506> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_8906608> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_8906608> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_8906608> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_7047714> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_7047714> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_7047714> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_3794272> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_3794272> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_3794272> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_16913985> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_16913985> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_16913985> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_212829> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_212829> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_212829> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_20255616> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_20255616> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_20255616> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_26428256> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_26428256> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_26428256> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_19692656> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_19692656> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_19692656> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_27116709> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_27116709> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_27116709> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_14237415> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_14237415> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_14237415> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_11589140> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_11589140> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_11589140> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_28769024> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_28769024> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_28769024> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_1629351> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_1629351> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_1629351> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_4093110> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_4093110> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_4093110> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_6327857> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_6327857> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_6327857> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_18309720> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_18309720> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_18309720> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_3777502> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_3777502> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_3777502> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_3501303> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_3501303> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_3501303> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_25496008> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_25496008> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_25496008> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_21326034> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_21326034> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_21326034> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_31777230> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_31777230> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_31777230> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_27570398> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_27570398> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_27570398> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_22542619> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_22542619> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_22542619> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_10720966> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_10720966> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_10720966> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_33532863> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_33532863> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_33532863> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_6605375> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_6605375> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_6605375> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_18490538> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_18490538> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_18490538> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_22894103> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_22894103> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_22894103> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_12519131> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_12519131> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_12519131> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_22760093> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_22760093> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_22760093> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_8362893> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_8362893> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_8362893> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_29189641> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_29189641> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_29189641> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_24506190> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_24506190> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_24506190> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_28441092> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_28441092> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_28441092> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_26565120> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_26565120> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_26565120> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_4708784> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_4708784> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_4708784> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_19192573> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_19192573> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_19192573> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_10823421> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_10823421> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_10823421> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_10673302> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_10673302> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_10673302> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_4199102> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_4199102> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_4199102> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_9352607> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_9352607> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_9352607> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_20313524> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_20313524> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_20313524> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_26617625> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_26617625> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_26617625> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_14752178> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_14752178> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_14752178> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_6165854> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_6165854> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_6165854> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_13427987> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_13427987> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_13427987> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_30633443> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_30633443> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_30633443> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_30637856> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_30637856> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_30637856> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_4148316> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_4148316> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_4148316> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_28197557> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_28197557> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_28197557> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_27112027> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_27112027> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_27112027> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_2654592> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_2654592> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_2654592> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_21896040> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_21896040> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_21896040> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_15293171> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_15293171> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_15293171> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_5388076> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_5388076> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_5388076> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_27547918> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_27547918> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_27547918> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_13808456> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_13808456> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_13808456> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_16283619> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_16283619> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_16283619> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_8844096> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_8844096> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_8844096> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_30146940> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_30146940> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_30146940> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_7700504> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_7700504> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_7700504> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_2937331> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_2937331> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_2937331> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_9156869> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_9156869> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_9156869> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_18884545> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_18884545> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_18884545> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_1180664> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_1180664> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_1180664> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_12756847> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_12756847> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_12756847> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_25076024> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_25076024> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_25076024> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_9075421> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_9075421> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_9075421> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_25718407> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_25718407> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_25718407> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_1083868> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_1083868> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_1083868> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_30068128> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_30068128> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_30068128> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_25286600> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_25286600> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_25286600> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_25020086> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_25020086> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_25020086> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_8454278> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_8454278> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_8454278> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_21588475> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_21588475> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_21588475> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_13434156> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_13434156> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_13434156> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_91008> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_91008> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_91008> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_19626743> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_19626743> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_19626743> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_26614486> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_26614486> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_26614486> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_29101243> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_29101243> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_29101243> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_15196536> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_15196536> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_15196536> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_25411586> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_25411586> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_25411586> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_11728735> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_11728735> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_11728735> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_26121446> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_26121446> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_26121446> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_30512421> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_30512421> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_30512421> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_9888072> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_9888072> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_9888072> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_27286270> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_27286270> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_27286270> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_11925312> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_11925312> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_11925312> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_27981> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_27981> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_27981> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_522760> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_522760> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_522760> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_28322410> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_28322410> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_28322410> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_11578517> <http://www.emftext.org/sdk/concretesyntax#TokenStyle> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.tokenName> <http://www.emftext.org/sdk/concretesyntax#eid_11578517> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenStyle.rgb> <http://www.emftext.org/sdk/concretesyntax#eid_11578517> "test"^^xsd:string ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_24952721> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_24952721> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_24952721> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_24952721> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_24952721> "false"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_17100360> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_17100360> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_17100360> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_17100360> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_17100360> "false"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_12044250> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_12044250> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_12044250> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_12044250> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_12044250> "false"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_27382060> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_27382060> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_27382060> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_27382060> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_27382060> "true"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_11252218> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_11252218> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_11252218> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_11252218> "true"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_11252218> "false"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_3260291> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_3260291> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_3260291> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_3260291> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_3260291> "true"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_1334436> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_1334436> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_1334436> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_1334436> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_1334436> "true"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_13507124> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_13507124> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_13507124> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_13507124> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_13507124> "true"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_18512511> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_18512511> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_18512511> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_18512511> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_18512511> "true"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_23081118> <http://www.emftext.org/sdk/concretesyntax#NormalToken> ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.name> <http://www.emftext.org/sdk/concretesyntax#eid_23081118> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.regex> <http://www.emftext.org/sdk/concretesyntax#eid_23081118> "test"^^xsd:string ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.hidden> <http://www.emftext.org/sdk/concretesyntax#eid_23081118> "false"^^xsd:boolean ) 
+	
+	DataPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#TokenDefinition.used> <http://www.emftext.org/sdk/concretesyntax#eid_23081118> "true"^^xsd:boolean ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_24407744> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_24407744> <http://www.emftext.org/sdk/concretesyntax#eid_125133> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_24407744> <http://www.emftext.org/sdk/concretesyntax#eid_12944373> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_24407744> <http://www.emftext.org/sdk/concretesyntax#eid_17670367> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_8106783> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_8106783> <http://www.emftext.org/sdk/concretesyntax#eid_10621065> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_8106783> <http://www.emftext.org/sdk/concretesyntax#eid_27091995> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_8106783> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_32222032> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_32222032> <http://www.emftext.org/sdk/concretesyntax#eid_14722808> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_32222032> <http://www.emftext.org/sdk/concretesyntax#eid_1517937> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_32222032> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_15868359> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_15868359> <http://www.emftext.org/sdk/concretesyntax#eid_21807653> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_15868359> <http://www.emftext.org/sdk/concretesyntax#eid_23439915> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_15868359> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_6175223> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_6175223> <http://www.emftext.org/sdk/concretesyntax#eid_31433358> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_6175223> <http://www.emftext.org/sdk/concretesyntax#eid_25619908> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_6175223> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_19485450> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_19485450> <http://www.emftext.org/sdk/concretesyntax#eid_22335679> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_19485450> <http://www.emftext.org/sdk/concretesyntax#eid_23329885> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_19485450> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_22331333> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_22331333> <http://www.emftext.org/sdk/concretesyntax#eid_32759464> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_22331333> <http://www.emftext.org/sdk/concretesyntax#eid_28506638> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_22331333> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_27195650> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_27195650> <http://www.emftext.org/sdk/concretesyntax#eid_21750386> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_27195650> <http://www.emftext.org/sdk/concretesyntax#eid_20886568> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_27195650> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_16764130> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_16764130> <http://www.emftext.org/sdk/concretesyntax#eid_21338925> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_16764130> <http://www.emftext.org/sdk/concretesyntax#eid_27647992> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_16764130> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_13548152> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_13548152> <http://www.emftext.org/sdk/concretesyntax#eid_22546165> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_13548152> <http://www.emftext.org/sdk/concretesyntax#eid_18039241> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_13548152> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_3195018> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_3195018> <http://www.emftext.org/sdk/concretesyntax#eid_18025015> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_3195018> <http://www.emftext.org/sdk/concretesyntax#eid_16479204> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_3195018> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_17015937> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_17015937> <http://www.emftext.org/sdk/concretesyntax#eid_19092358> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_17015937> <http://www.emftext.org/sdk/concretesyntax#eid_5786241> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_17015937> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_4228364> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_4228364> <http://www.emftext.org/sdk/concretesyntax#eid_33467927> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_4228364> <http://www.emftext.org/sdk/concretesyntax#eid_8609909> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_4228364> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_22512300> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_22512300> <http://www.emftext.org/sdk/concretesyntax#eid_5822346> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_22512300> <http://www.emftext.org/sdk/concretesyntax#eid_20035361> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_22512300> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_11448444> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_11448444> <http://www.emftext.org/sdk/concretesyntax#eid_21203699> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_11448444> <http://www.emftext.org/sdk/concretesyntax#eid_15590252> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_11448444> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_22504045> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_22504045> <http://www.emftext.org/sdk/concretesyntax#eid_24208831> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_22504045> <http://www.emftext.org/sdk/concretesyntax#eid_4978871> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_22504045> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_30350825> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_30350825> <http://www.emftext.org/sdk/concretesyntax#eid_12422600> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_30350825> <http://www.emftext.org/sdk/concretesyntax#eid_28699878> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_30350825> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_10975261> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_10975261> <http://www.emftext.org/sdk/concretesyntax#eid_18994411> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_10975261> <http://www.emftext.org/sdk/concretesyntax#eid_13893972> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_10975261> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_2211069> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_2211069> <http://www.emftext.org/sdk/concretesyntax#eid_5539503> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_2211069> <http://www.emftext.org/sdk/concretesyntax#eid_10701264> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_2211069> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_22437585> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_22437585> <http://www.emftext.org/sdk/concretesyntax#eid_20498856> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_22437585> <http://www.emftext.org/sdk/concretesyntax#eid_17286025> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_22437585> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_20928011> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_20928011> <http://www.emftext.org/sdk/concretesyntax#eid_18797620> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_20928011> <http://www.emftext.org/sdk/concretesyntax#eid_11957407> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_20928011> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_16636125> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_16636125> <http://www.emftext.org/sdk/concretesyntax#eid_17207302> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_16636125> <http://www.emftext.org/sdk/concretesyntax#eid_7712634> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_16636125> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_31036700> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_31036700> <http://www.emftext.org/sdk/concretesyntax#eid_10989174> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_31036700> <http://www.emftext.org/sdk/concretesyntax#eid_30938789> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_31036700> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_11457977> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_11457977> <http://www.emftext.org/sdk/concretesyntax#eid_14083726> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_11457977> <http://www.emftext.org/sdk/concretesyntax#eid_28763399> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_11457977> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_12235683> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_12235683> <http://www.emftext.org/sdk/concretesyntax#eid_25785077> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_12235683> <http://www.emftext.org/sdk/concretesyntax#eid_7749595> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_12235683> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_14305838> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_14305838> <http://www.emftext.org/sdk/concretesyntax#eid_30840069> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_14305838> <http://www.emftext.org/sdk/concretesyntax#eid_22707077> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_14305838> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_13731446> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_13731446> <http://www.emftext.org/sdk/concretesyntax#eid_2962404> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_13731446> <http://www.emftext.org/sdk/concretesyntax#eid_23290806> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_13731446> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_27905596> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_27905596> <http://www.emftext.org/sdk/concretesyntax#eid_14012985> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_27905596> <http://www.emftext.org/sdk/concretesyntax#eid_2586305> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_27905596> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_31244157> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_31244157> <http://www.emftext.org/sdk/concretesyntax#eid_31421433> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_31244157> <http://www.emftext.org/sdk/concretesyntax#eid_15044755> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_31244157> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_20387516> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_20387516> <http://www.emftext.org/sdk/concretesyntax#eid_8974044> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_20387516> <http://www.emftext.org/sdk/concretesyntax#eid_1321321> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_20387516> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_33150937> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_33150937> <http://www.emftext.org/sdk/concretesyntax#eid_4267363> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_33150937> <http://www.emftext.org/sdk/concretesyntax#eid_27963818> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_33150937> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_15753254> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_15753254> <http://www.emftext.org/sdk/concretesyntax#eid_18485685> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_15753254> <http://www.emftext.org/sdk/concretesyntax#eid_24521055> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_15753254> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_8427566> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_8427566> <http://www.emftext.org/sdk/concretesyntax#eid_14808860> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_8427566> <http://www.emftext.org/sdk/concretesyntax#eid_9845631> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_8427566> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_19290092> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_19290092> <http://www.emftext.org/sdk/concretesyntax#eid_17243828> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_19290092> <http://www.emftext.org/sdk/concretesyntax#eid_5158524> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_19290092> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_7391823> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_7391823> <http://www.emftext.org/sdk/concretesyntax#eid_8257468> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_7391823> <http://www.emftext.org/sdk/concretesyntax#eid_28227395> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_7391823> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_2150270> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_2150270> <http://www.emftext.org/sdk/concretesyntax#eid_23941875> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_2150270> <http://www.emftext.org/sdk/concretesyntax#eid_25268369> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_2150270> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_6347919> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_6347919> <http://www.emftext.org/sdk/concretesyntax#eid_9652584> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_6347919> <http://www.emftext.org/sdk/concretesyntax#eid_20601820> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_6347919> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_28856651> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_28856651> <http://www.emftext.org/sdk/concretesyntax#eid_9434518> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_28856651> <http://www.emftext.org/sdk/concretesyntax#eid_6606668> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_28856651> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_21258152> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_21258152> <http://www.emftext.org/sdk/concretesyntax#eid_4897082> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_21258152> <http://www.emftext.org/sdk/concretesyntax#eid_6668608> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_21258152> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_29795988> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_29795988> <http://www.emftext.org/sdk/concretesyntax#eid_8137140> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_29795988> <http://www.emftext.org/sdk/concretesyntax#eid_7499181> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_29795988> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_26618188> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_26618188> <http://www.emftext.org/sdk/concretesyntax#eid_15622111> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_26618188> <http://www.emftext.org/sdk/concretesyntax#eid_8292735> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_26618188> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_30950296> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_30950296> <http://www.emftext.org/sdk/concretesyntax#eid_10981321> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_30950296> <http://www.emftext.org/sdk/concretesyntax#eid_24448466> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_30950296> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_13697687> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_13697687> <http://www.emftext.org/sdk/concretesyntax#eid_6718621> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_13697687> <http://www.emftext.org/sdk/concretesyntax#eid_31364432> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_13697687> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_9213963> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_9213963> <http://www.emftext.org/sdk/concretesyntax#eid_2108371> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_9213963> <http://www.emftext.org/sdk/concretesyntax#eid_1890552> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_9213963> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_1916473> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_1916473> <http://www.emftext.org/sdk/concretesyntax#eid_9349199> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_1916473> <http://www.emftext.org/sdk/concretesyntax#eid_32031088> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_1916473> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_30151748> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_30151748> <http://www.emftext.org/sdk/concretesyntax#eid_26986520> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_30151748> <http://www.emftext.org/sdk/concretesyntax#eid_32753144> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_30151748> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_7186082> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_7186082> <http://www.emftext.org/sdk/concretesyntax#eid_23420159> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_7186082> <http://www.emftext.org/sdk/concretesyntax#eid_21644746> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_7186082> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_29129338> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_29129338> <http://www.emftext.org/sdk/concretesyntax#eid_7647248> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_29129338> <http://www.emftext.org/sdk/concretesyntax#eid_19650455> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_29129338> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_13836816> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_13836816> <http://www.emftext.org/sdk/concretesyntax#eid_10366934> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_13836816> <http://www.emftext.org/sdk/concretesyntax#eid_22478382> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_13836816> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_22450450> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_22450450> <http://www.emftext.org/sdk/concretesyntax#eid_21291605> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_22450450> <http://www.emftext.org/sdk/concretesyntax#eid_23027469> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_22450450> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_23552270> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_23552270> <http://www.emftext.org/sdk/concretesyntax#eid_14987400> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_23552270> <http://www.emftext.org/sdk/concretesyntax#eid_5862691> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_23552270> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_117458> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_117458> <http://www.emftext.org/sdk/concretesyntax#eid_17340432> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_117458> <http://www.emftext.org/sdk/concretesyntax#eid_18448198> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_117458> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_20413020> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_20413020> <http://www.emftext.org/sdk/concretesyntax#eid_21937824> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_20413020> <http://www.emftext.org/sdk/concretesyntax#eid_15924593> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_20413020> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_12913000> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_12913000> <http://www.emftext.org/sdk/concretesyntax#eid_9164675> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_12913000> <http://www.emftext.org/sdk/concretesyntax#eid_14485306> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_12913000> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_15860946> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_15860946> <http://www.emftext.org/sdk/concretesyntax#eid_15182991> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_15860946> <http://www.emftext.org/sdk/concretesyntax#eid_17137834> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_15860946> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_32639432> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_32639432> <http://www.emftext.org/sdk/concretesyntax#eid_25604329> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_32639432> <http://www.emftext.org/sdk/concretesyntax#eid_33433411> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_32639432> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_29937754> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_29937754> <http://www.emftext.org/sdk/concretesyntax#eid_26038947> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_29937754> <http://www.emftext.org/sdk/concretesyntax#eid_15960615> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_29937754> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_19683440> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_19683440> <http://www.emftext.org/sdk/concretesyntax#eid_16182288> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_19683440> <http://www.emftext.org/sdk/concretesyntax#eid_15927809> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_19683440> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_17054474> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_17054474> <http://www.emftext.org/sdk/concretesyntax#eid_1283333> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_17054474> <http://www.emftext.org/sdk/concretesyntax#eid_1439834> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_17054474> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_27034760> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_27034760> <http://www.emftext.org/sdk/concretesyntax#eid_434830> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_27034760> <http://www.emftext.org/sdk/concretesyntax#eid_6549566> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_27034760> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_26889462> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_26889462> <http://www.emftext.org/sdk/concretesyntax#eid_8692520> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_26889462> <http://www.emftext.org/sdk/concretesyntax#eid_20033034> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_26889462> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_32750140> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_32750140> <http://www.emftext.org/sdk/concretesyntax#eid_3036721> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_32750140> <http://www.emftext.org/sdk/concretesyntax#eid_10034532> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_32750140> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_1887990> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_1887990> <http://www.emftext.org/sdk/concretesyntax#eid_29172891> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_1887990> <http://www.emftext.org/sdk/concretesyntax#eid_5818876> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_1887990> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_11426496> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_11426496> <http://www.emftext.org/sdk/concretesyntax#eid_12558640> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_11426496> <http://www.emftext.org/sdk/concretesyntax#eid_20245159> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_11426496> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_15699216> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_15699216> <http://www.emftext.org/sdk/concretesyntax#eid_74361> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_15699216> <http://www.emftext.org/sdk/concretesyntax#eid_18449092> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_15699216> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_8286049> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_8286049> <http://www.emftext.org/sdk/concretesyntax#eid_6896706> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_8286049> <http://www.emftext.org/sdk/concretesyntax#eid_30942960> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_8286049> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_15939647> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_15939647> <http://www.emftext.org/sdk/concretesyntax#eid_32501299> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_15939647> <http://www.emftext.org/sdk/concretesyntax#eid_31751280> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_15939647> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_16748725> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_16748725> <http://www.emftext.org/sdk/concretesyntax#eid_675746> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_16748725> <http://www.emftext.org/sdk/concretesyntax#eid_27632688> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_16748725> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_15869738> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_15869738> <http://www.emftext.org/sdk/concretesyntax#eid_29954480> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_15869738> <http://www.emftext.org/sdk/concretesyntax#eid_30541917> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_15869738> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_27817267> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_27817267> <http://www.emftext.org/sdk/concretesyntax#eid_20339875> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_27817267> <http://www.emftext.org/sdk/concretesyntax#eid_2314541> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_27817267> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_33295206> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_33295206> <http://www.emftext.org/sdk/concretesyntax#eid_20323376> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_33295206> <http://www.emftext.org/sdk/concretesyntax#eid_10907331> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_33295206> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_24421990> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_24421990> <http://www.emftext.org/sdk/concretesyntax#eid_3546316> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_24421990> <http://www.emftext.org/sdk/concretesyntax#eid_11650711> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_24421990> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_10267059> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_10267059> <http://www.emftext.org/sdk/concretesyntax#eid_31103918> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_10267059> <http://www.emftext.org/sdk/concretesyntax#eid_23398864> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_10267059> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_19064183> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_19064183> <http://www.emftext.org/sdk/concretesyntax#eid_20203426> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_19064183> <http://www.emftext.org/sdk/concretesyntax#eid_6776471> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_19064183> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_21699288> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_21699288> <http://www.emftext.org/sdk/concretesyntax#eid_32999826> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_21699288> <http://www.emftext.org/sdk/concretesyntax#eid_14157744> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_21699288> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_6885594> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_6885594> <http://www.emftext.org/sdk/concretesyntax#eid_28952657> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_6885594> <http://www.emftext.org/sdk/concretesyntax#eid_12826181> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_6885594> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_947217> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_947217> <http://www.emftext.org/sdk/concretesyntax#eid_24188137> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_947217> <http://www.emftext.org/sdk/concretesyntax#eid_25091390> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_947217> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_18085572> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_18085572> <http://www.emftext.org/sdk/concretesyntax#eid_23868204> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_18085572> <http://www.emftext.org/sdk/concretesyntax#eid_31760233> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_18085572> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_9674456> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_9674456> <http://www.emftext.org/sdk/concretesyntax#eid_12546030> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_9674456> <http://www.emftext.org/sdk/concretesyntax#eid_10347780> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_9674456> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_5077721> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_5077721> <http://www.emftext.org/sdk/concretesyntax#eid_5476875> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_5077721> <http://www.emftext.org/sdk/concretesyntax#eid_2519585> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_5077721> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_10042221> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_10042221> <http://www.emftext.org/sdk/concretesyntax#eid_18830601> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_10042221> <http://www.emftext.org/sdk/concretesyntax#eid_986374> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_10042221> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_511681> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_511681> <http://www.emftext.org/sdk/concretesyntax#eid_7057471> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_511681> <http://www.emftext.org/sdk/concretesyntax#eid_25329142> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_511681> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_2496> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_2496> <http://www.emftext.org/sdk/concretesyntax#eid_12153101> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_2496> <http://www.emftext.org/sdk/concretesyntax#eid_2102356> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_2496> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_11352047> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_11352047> <http://www.emftext.org/sdk/concretesyntax#eid_6254384> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_11352047> <http://www.emftext.org/sdk/concretesyntax#eid_26357662> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_11352047> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_24963518> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_24963518> <http://www.emftext.org/sdk/concretesyntax#eid_21325906> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_24963518> <http://www.emftext.org/sdk/concretesyntax#eid_1938130> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_24963518> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_29626459> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_29626459> <http://www.emftext.org/sdk/concretesyntax#eid_12321825> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_29626459> <http://www.emftext.org/sdk/concretesyntax#eid_7623630> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_29626459> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_28515625> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_28515625> <http://www.emftext.org/sdk/concretesyntax#eid_31436341> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_28515625> <http://www.emftext.org/sdk/concretesyntax#eid_19531770> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_28515625> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	
+	ClassAssertion ( <http://www.emftext.org/sdk/concretesyntax#eid_2501888> <http://www.emftext.org/sdk/concretesyntax#Rule> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.definition> <http://www.emftext.org/sdk/concretesyntax#eid_2501888> <http://www.emftext.org/sdk/concretesyntax#eid_5453760> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.metaclass> <http://www.emftext.org/sdk/concretesyntax#eid_2501888> <http://www.emftext.org/sdk/concretesyntax#eid_7453438> ) 
+	
+	ObjectPropertyAssertion ( <http://www.emftext.org/sdk/concretesyntax#Rule.syntax> <http://www.emftext.org/sdk/concretesyntax#eid_2501888> <http://www.emftext.org/sdk/concretesyntax#eid_15037230> ) 
+	) 

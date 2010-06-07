@@ -1,0 +1,1447 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.rdfcoder.org/2007/1.0/" > 
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction">
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/de.uniko.isweb.twouse.trans/src/de/uniko/isweb/twouse/trans/actions/OWLValidateAction.java"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jattribute:fileOk"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:validate"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jattribute:selectedObjects"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:run"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:validateFile"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:Action"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jattribute:eclipseResourcesUtil"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jattribute:resource"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:handleDiagnostic"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jinterface:IAction"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jconstructor:_0"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jattribute:domain"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:&lt;init&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jattribute:file"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:getFile.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:access$0">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:access$0.jsignature:_2"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:run.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:run.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jmethod:&lt;init&gt;.jparameter:diagnostic"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jmethod:&lt;init&gt;.jparameter:iprogressmonitor"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jmethod:&lt;init&gt;.jparameter:owlvalidateaction$1"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jmethod:&lt;init&gt;.jparameter:map">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Map</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jmethod:run">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jmethod:run.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:asmXMLURL">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.net.jclass:URL"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jattribute:domain">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.edit.domain.jclass:EditingDomain"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jparameter:owlvalidateaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:getFile.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:getFile.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:composeMessage">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:composeMessage.jsignature:_4"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:setActivePart.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jparameter:iprogressmonitor">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.runtime.jclass:IProgressMonitor</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:getStringValue.jparameter:eobject">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EObject</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jattribute:resource">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.resource.jclass:Resource"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jmethod:run">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jmethod:run.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:&lt;init&gt;.jparameter:iprogressmonitor">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.runtime.jclass:IProgressMonitor</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:run.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:convertText.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:convertText.jparameter:b"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:convertText.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jparameter:map">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Map</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:validateFile.jparameter:resource">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.resource.jclass:Resource</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:injector">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IInjector"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jattribute:eclipseResourcesUtil">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jattribute:fileOk">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Boolean"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jattribute:rqasMetamodel">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IReferenceModel"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:selectionChanged.jparameter:iselection">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ISelection</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:handleDiagnostic">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:handleDiagnostic.jsignature:_4"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:&lt;init&gt;.jparameter:shell"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:&lt;init&gt;.jparameter:owlvalidateaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:validate">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:validate.jsignature:_3"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="asset:">
+    <j.0:library_date>2010_05_02__15_15_10</j.0:library_date>
+    <j.0:library_location>/home/vita/uni/bachelor/twousestatistics/plugins/de.uniko.isweb.twouse.trans/bin</j.0:library_location>
+    <j.0:contains_library rdf:resource="asset:"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:validate.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:Diagnostic</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:validate.jparameter:iprogressmonitor"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jparameter:shell"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jparameter:owlvalidateaction"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:selectionChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:selectionChanged.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:getObjectLabel.jparameter:eobject">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EObject</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jattribute:currentSelection">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ISelection"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:run">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:run.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:selectionChanged.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:openContentStream.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:run">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:run.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:setActivePart">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:setActivePart.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jparameter:imodel">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IModel</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jmethod:&lt;init&gt;.jparameter:diagnostic">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:Diagnostic</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:xmlMetamodel">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IReferenceModel"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:selectionChanged.jparameter:iselection">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ISelection</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jparameter:map"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jparameter:outputstream"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jparameter:imodel"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:getMarkerID.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions">
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:&lt;init&gt;.jparameter:owlvalidateaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jattribute:val$out">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.io.jclass:OutputStream"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:serializeContent.jparameter:printstream">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.io.jclass:PrintStream</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:validate.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:validate.jparameter:map"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:validate.jparameter:diagnosticchain"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:validate.jparameter:eobject"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:validate.jparameter:eclass"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:&lt;init&gt;.jparameter:adapterfactory">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:AdapterFactory</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:transform.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:transform.jparameter:ifile"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jmethod:&lt;init&gt;.jparameter:iprogressmonitor">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.runtime.jclass:IProgressMonitor</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:transformUmlToOwlRDFXML.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:setActivePart">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:setActivePart.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:asmURL">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.net.jclass:URL"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:convertText.jparameter:b">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jparameter:outputstream">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.io.jclass:OutputStream</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:transformUmlToOwlRDFXML.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:transformUmlToOwlRDFXML.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:transformUmlToOwlRDFXML.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jparameter:iprogressmonitor">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.runtime.jclass:IProgressMonitor</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:getFile">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:getFile.jsignature:_4"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jparameter:map"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jparameter:imodel"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jattribute:selectedObjects">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:List"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:selectionChanged.jparameter:iselection">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ISelection</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1">
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jinterface:Runnable"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jconstructor:_0"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jattribute:val$parameters"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Thread"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jattribute:val$xmlModel"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jattribute:val$out"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/de.uniko.isweb.twouse.trans/src/de/uniko/isweb/twouse/trans/actions/UMLProfiled2OWLAction$1.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jmethod:run"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil">
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/de.uniko.isweb.twouse.trans/src/de/uniko/isweb/twouse/trans/actions/OWLValidateAction$EclipseResourcesUtil.java"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.edit.ui.util.jclass:EditUIMarkerHelper"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jconstructor:_0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:createMarkers"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:getWorkspaceModifyOperation"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:composeMessage"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:adjustMarker"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:getMarkerID"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:currentSelection">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ISelection"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jattribute:file">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.resources.jclass:IFile"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction">
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/de.uniko.isweb.twouse.trans/src/de/uniko/isweb/twouse/trans/actions/UMLModel2OWLIndividualsAction.java"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IObjectActionDelegate"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jattribute:uml2ind"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:selectionChanged"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jconstructor:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IActionDelegate"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:getFile"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jattribute:file"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:setActivePart"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:run"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:adjustMarker.jparameter:diagnostic">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:Diagnostic</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:createMarkers.jparameter:iresource">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.resources.jclass:IResource</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:selectionChanged.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:selectionChanged.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:selectionChanged.jparameter:iselection"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:selectionChanged.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:&lt;init&gt;.jparameter:owlvalidateaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:selectionChanged.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:run">
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:InterruptedException"/>
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.reflect.jclass:InvocationTargetException"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:run.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:adjustMarker">
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.runtime.jclass:CoreException"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:adjustMarker.jsignature:_5"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:serializeContent">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:serializeContent.jsignature:_4"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:&lt;init&gt;.jparameter:iprogressmonitor"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:&lt;init&gt;.jparameter:adapterfactory"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:&lt;init&gt;.jparameter:owlvalidateaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:getWorkspaceModifyOperation">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:getWorkspaceModifyOperation.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jattribute:rqMetamodel">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IReferenceModel"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:convertText">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:convertText.jsignature:_6"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jattribute:val$diagnostic">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:Diagnostic"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:setActivePart.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:setActivePart.jparameter:iworkbenchpart"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:setActivePart.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:validateFile">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:validateFile.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:getWorkspaceModifyOperation.jparameter:irunnablewithprogress">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.operation.jclass:IRunnableWithProgress</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jattribute:this$1">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:getMarkerID">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:getMarkerID.jsignature:_2"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jattribute:shell">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Shell"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jparameter:owlvalidateaction$1">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:createMarkers.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:createMarkers.jparameter:diagnostic"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:createMarkers.jparameter:iresource"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:validate">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:validate.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:getStringValue.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:getStringValue.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:getStringValue.jparameter:eobject"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jparameter:diagnostic"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jparameter:iprogressmonitor"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jparameter:owlvalidateaction$1"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:transformUmlToOwlRDFXML">
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Exception"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:transformUmlToOwlRDFXML.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jmethod:&lt;init&gt;"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/de.uniko.isweb.twouse.trans/src/de/uniko/isweb/twouse/trans/actions/OWLValidateAction$1$1.java"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jinterface:Runnable"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jmethod:run"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jconstructor:_0"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jattribute:val$progressMonitor"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jattribute:val$diagnostic"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jattribute:this$1"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:setActivePart">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:setActivePart.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jattribute:injector">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IInjector"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jattribute:val$progressMonitor">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.runtime.jclass:IProgressMonitor"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:adjustMarker.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:adjustMarker.jparameter:diagnostic2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:adjustMarker.jparameter:diagnostic"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:adjustMarker.jparameter:imarker"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:validate.jparameter:iprogressmonitor">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.runtime.jclass:IProgressMonitor</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:run.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:run.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jparameter:imodel"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:access$0">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:access$0.jsignature:_7"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:selectionChanged.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:selectionChanged.jparameter:iselection"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:selectionChanged.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:createMarkers">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:createMarkers.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:setActivePart.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:setActivePart.jparameter:iworkbenchpart"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:setActivePart.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jparameter:owlvalidateaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:extractor">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IExtractor"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:selectionChanged.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:run.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jparameter:imodel">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IModel</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:owlMetamodel">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IReferenceModel"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:transform.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:transform.jparameter:ifile"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction">
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IActionDelegate"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:xmlMetamodel"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:run"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IObjectActionDelegate"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jconstructor:_1"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:asmURL"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:owlMetamodel"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:xmlextractor"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:extractor"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:transform"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:transformUmlToOwlRDFXML"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:injector"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/de.uniko.isweb.twouse.trans/src/de/uniko/isweb/twouse/trans/actions/UMLProfiled2OWLAction.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:&lt;init&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:asmXMLURL"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:bundle"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:currentSelection"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:umlMetamodel"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:setActivePart"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:access$0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:selectionChanged"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:adjustMarker.jparameter:diagnostic2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:Diagnostic</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:composeMessage.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:composeMessage.jparameter:diagnostic2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:composeMessage.jparameter:diagnostic"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:getObjectLabel">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:getObjectLabel.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:getStringValue.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:setActivePart.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jattribute:val$parameters">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Map"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor">
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:serializeContent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/de.uniko.isweb.twouse.trans/src/de/uniko/isweb/twouse/trans/utils/XMLExtractor.java"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jconstructor:_0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:getStringValue"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:convertText"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:&lt;init&gt;"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:transformUmlToOwlRDFXML.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:serializeContent.jparameter:emfmodel">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.emf.jclass:EMFModel</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jparameter:outputstream">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.io.jclass:OutputStream</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:setActivePart.jparameter:iworkbenchpart">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPart</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jattribute:val$shell">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Shell"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jparameter:shell">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Shell</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:umlMetamodel">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IReferenceModel"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:run.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:run.jparameter:iprogressmonitor"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:setActivePart.jparameter:iworkbenchpart">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPart</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils">
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:setActivePart.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:setActivePart.jparameter:iworkbenchpart"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:setActivePart.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:convertText.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:selectionChanged.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:selectionChanged.jparameter:iselection"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:selectionChanged.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:run">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:run.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:setActivePart.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:validateFile.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Boolean</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:validateFile.jparameter:ifile"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:validateFile.jparameter:resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jattribute:asmURL">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.net.jclass:URL"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jparameter:map"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jparameter:imodel"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jparameter:outputstream"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:transform.jparameter:ifile">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.resources.jclass:IFile</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:openContentStream">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:openContentStream.jsignature:_4"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jmethod:&lt;init&gt;.jparameter:imodel">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IModel</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:run.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:run.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:composeMessage.jparameter:diagnostic">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:Diagnostic</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:selectionChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:selectionChanged.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:validate.jparameter:eobject">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EObject</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action">
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/de.uniko.isweb.twouse.trans/src/de/uniko/isweb/twouse/trans/actions/OWL2OWL2Action.java"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jattribute:shell"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:setActivePart"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jconstructor:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:openContentStream"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:&lt;init&gt;"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IActionDelegate"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IObjectActionDelegate"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:run"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:selectionChanged"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jattribute:selection"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:serializeContent.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:serializeContent.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:serializeContent.jparameter:printstream"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:serializeContent.jparameter:emfmodel"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:serializeContent.jparameter:eobject"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:getWorkspaceModifyOperation.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.operation.jclass:IRunnableWithProgress</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:getWorkspaceModifyOperation.jparameter:irunnablewithprogress"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:selectionChanged.jparameter:iselection">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ISelection</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:serializeContent.jparameter:eobject">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EObject</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:setActivePart">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:setActivePart.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jparameter:iprogressmonitor"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jparameter:adapterfactory"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jparameter:owlvalidateaction"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:bundle">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.osgi.framework.jclass:Bundle"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:access$0.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:access$0.jparameter:owlvalidateaction$1"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jmethod:run.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:serializeContent.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:&lt;init&gt;.jparameter:shell">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Shell</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:setActivePart.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:transform">
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Exception"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:transform.jsignature:_4"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:validateFile.jparameter:ifile">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.resources.jclass:IFile</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jparameter:adapterfactory">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:AdapterFactory</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:run.jparameter:iprogressmonitor">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.runtime.jclass:IProgressMonitor</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:run.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:handleDiagnostic.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:handleDiagnostic.jparameter:diagnostic"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jparameter:diagnostic">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:Diagnostic</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2">
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:&lt;init&gt;"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jinterface:EValidator"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jattribute:this$0"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.util.jclass:Diagnostician"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jinterface:EValidator$SubstitutionLabelProvider"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jattribute:val$progressMonitor"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/de.uniko.isweb.twouse.trans/src/de/uniko/isweb/twouse/trans/actions/OWLValidateAction$2.java"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jattribute:val$adapterFactory"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:validate"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:getObjectLabel"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jconstructor:_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:access$0.jsignature:_7">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IExtractor</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:getStringValue">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:getStringValue.jsignature:_5"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jattribute:file">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.resources.jclass:IFile"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:validate.jparameter:diagnosticchain">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:DiagnosticChain</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:access$0.jparameter:owlvalidateaction$1">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:transform.jparameter:ifile">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.resources.jclass:IFile</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:selectionChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:selectionChanged.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:selectionChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:selectionChanged.jsignature:_6"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:openContentStream.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.io.jclass:InputStream</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:openContentStream.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:setActivePart.jparameter:iworkbenchpart">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPart</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction">
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jattribute:injector"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:run"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:setActivePart"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:selectionChanged"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jattribute:rqasMetamodel"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jattribute:extractor"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:&lt;init&gt;"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:&lt;clinit&gt;"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IObjectActionDelegate"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jattribute:asmURL"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jattribute:rqMetamodel"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jconstructor:_1"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jattribute:bundle"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:transform"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/de.uniko.isweb.twouse.trans/src/de/uniko/isweb/twouse/trans/actions/SPARQLASAction.java"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IActionDelegate"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jattribute:currentSelection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jattribute:bundle">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.osgi.framework.jclass:Bundle"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:validate.jparameter:map">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Map</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:selectionChanged.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:selectionChanged.jparameter:iselection"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jmethod:selectionChanged.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jsignature:_3"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jsignature:_2"/>
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:ATLCoreException"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:composeMessage.jparameter:diagnostic2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:Diagnostic</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWL2OWL2Action.jattribute:selection">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ISelection"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:setActivePart.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:setActivePart.jparameter:iworkbenchpart"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jmethod:setActivePart.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils.jclass:XMLExtractor.jmethod:extract.jparameter:map">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Map</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jattribute:val$adapterFactory">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.notify.jclass:AdapterFactory"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jattribute:xmlextractor">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IExtractor"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.utils"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:run.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jmethod:&lt;init&gt;.jparameter:outputstream">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.io.jclass:OutputStream</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:run.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:run.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:run">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:run.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:adjustMarker.jparameter:imarker">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.resources.jclass:IMarker</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$EclipseResourcesUtil.jmethod:createMarkers.jparameter:diagnostic">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:Diagnostic</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jmethod:&lt;init&gt;.jparameter:map"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jmethod:&lt;init&gt;.jparameter:imodel"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jmethod:&lt;init&gt;.jparameter:outputstream"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jmethod:&lt;init&gt;.jparameter:owlvalidateaction$1">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:getObjectLabel.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:getObjectLabel.jparameter:eobject"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1">
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:access$0"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/de.uniko.isweb.twouse.trans/src/de/uniko/isweb/twouse/trans/actions/OWLValidateAction$1.java"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jattribute:this$0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jconstructor:_0"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.operation.jinterface:IRunnableWithProgress"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jmethod:run"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1.jattribute:val$shell"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:setActivePart.jparameter:iworkbenchpart">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPart</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jattribute:uml2ind">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.backend.ontology.transformations.uml.jclass:UMLModel2OWLIndividuals"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction$1.jattribute:val$xmlModel">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IModel"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction.jmethod:handleDiagnostic.jparameter:diagnostic">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:Diagnostic</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:run.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jmethod:validate.jparameter:eclass">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.jclass:EClass</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:SPARQLASAction.jattribute:extractor">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.m2m.atl.core.jclass:IExtractor"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:transform">
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Exception"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLProfiled2OWLAction.jmethod:transform.jsignature:_4"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$1$1.jmethod:run.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:OWLValidateAction$2.jattribute:val$progressMonitor">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.runtime.jclass:IProgressMonitor"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:run">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:de.uniko.isweb.twouse.trans.actions.jclass:UMLModel2OWLIndividualsAction.jmethod:run.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+</rdf:RDF>
