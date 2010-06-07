@@ -1,0 +1,703 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.rdfcoder.org/2007/1.0/" > 
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractReferencedDescriptions.jsignature:_10">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractReferencedDescriptions.jparameter:set2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractReferencedDescriptions.jparameter:set"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:getInstance.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:run.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:run.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jattribute:selectedFile">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.resources.jclass:IFile"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diff.jparameter:owlclass2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLClass</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jattribute:shell">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Shell"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:run">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:run.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:manager">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLOntologyManager"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:getFile.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:run">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:run.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:run.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractReferencedDescriptions">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractReferencedDescriptions.jsignature:_10"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:run.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:getRefactoredFile">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:getRefactoredFile.jsignature:_5"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:generalize">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:generalize.jsignature:_7"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:setActivePart.jparameter:iworkbenchpart">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPart</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractReferencedDescriptions.jparameter:set2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Set</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:start.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:classExtraction.jsignature:_12">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractReferencedDescriptions.jparameter:set">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Set</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:pushDownAttributes">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:pushDownAttributes.jsignature:_14"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:refactorings">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:refactorings.jsignature:_7"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:subsumed.jparameter:set2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Set</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jattribute:ref">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diff.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Set</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diff.jparameter:owlclass2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diff.jparameter:owlclass"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jattribute:ref">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractSuperClass.jsignature:_16">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:setActivePart">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:setActivePart.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:selectionChanged.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:common">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:common.jsignature:_8"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:startv2">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:startv2.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:refactorings.jsignature:_7">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:refactorings.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:refactorings.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="asset:">
+    <j.0:library_date>2010_05_02__15_15_34</j.0:library_date>
+    <j.0:library_location>/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.refactoring/bin</j.0:library_location>
+    <j.0:contains_library rdf:resource="asset:"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:start.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:start.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:start.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:factory">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLDataFactory"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractReferencedClasses.jparameter:set">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Set</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diffAndExtract">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diffAndExtract.jsignature:_6"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:subsumed.jparameter:set">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Set</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:instance">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:getRefactoredFile.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:selectionChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:selectionChanged.jsignature:_6"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:stateCharts.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:setActivePart.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:selectionChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:selectionChanged.jsignature:_6"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractReferencedClasses.jsignature:_9">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Set</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractReferencedClasses.jparameter:set"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:selectionChanged.jparameter:iselection">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ISelection</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:stateCharts">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:stateCharts.jsignature:_7"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:selectionChanged.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:selectionChanged.jparameter:iselection"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:selectionChanged.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:subsumed">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:subsumed.jsignature:_11"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:selectionChanged.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:selectionChanged.jparameter:iselection"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:selectionChanged.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:selectionChanged.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:stateChartRefactoring.jsignature:_18">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:start">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:start.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:generalize.jparameter:set">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Set</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:stateCharts.jsignature:_7">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:stateCharts.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:stateCharts.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:getFile">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:getFile.jsignature:_4"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diff">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diff.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:getFile">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:getFile.jsignature:_4"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jattribute:selectedFile">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.resources.jclass:IFile"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:setActivePart.jparameter:iworkbenchpart">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPart</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:generalize.jsignature:_7">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:generalize.jparameter:set"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:moveAttributes.jsignature:_13">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:ontologyURI">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.net.jclass:URI"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:setActivePart.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:setActivePart.jparameter:iworkbenchpart"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:setActivePart.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractSubClass.jsignature:_17">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:classExtraction">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:classExtraction.jsignature:_12"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:start.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diffAndExtract.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Set</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diffAndExtract.jparameter:owlclass2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diffAndExtract.jparameter:owlclass"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:getRefactoredFile.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:getInstance">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:getInstance.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:stateCharts.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractReferencedClasses">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractReferencedClasses.jsignature:_9"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:startv2.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:startv2.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:startv2.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:&lt;init&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jattribute:ref"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:run"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:stateCharts"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jattribute:selectedFile"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:getRefactoredFile"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jattribute:shell"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IActionDelegate"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IObjectActionDelegate"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.refactoring/src/west/twouse/refactoring/ui/stateChartAction.java"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:selectionChanged"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:getFile"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jconstructor:_1"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:setActivePart"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:pushDownAttributes.jsignature:_14">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring">
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:manager"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:ontologyURI2"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractSuperClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:generalize"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:stateChartRefactoring"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:subsumed"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:moveAttributes"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:ontology"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:ontology2"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diff"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:reasoner"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:getInstance"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:pushDownAttributes"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:start"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:startv2"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diffAndExtract"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:ontologyURI"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:classExtraction"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractReferencedDescriptions"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractSubClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:factory"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:instance"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jconstructor:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.refactoring/src/west/twouse/refactoring/Refactoring.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:pullUpAttributes"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractReferencedClasses"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:common"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:setActivePart.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:stateChartRefactoring">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:stateChartRefactoring.jsignature:_18"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:setActivePart">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:setActivePart.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:getFile.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diff.jparameter:owlclass">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLClass</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:refactorings.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:subsumed.jsignature:_11">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:subsumed.jparameter:set2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:subsumed.jparameter:set"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:setActivePart.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:setActivePart.jparameter:iworkbenchpart"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:setActivePart.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:pullUpAttributes.jsignature:_15">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:refactorings.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:common.jparameter:owlclass">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLClass</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:pullUpAttributes">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:pullUpAttributes.jsignature:_15"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:getRefactoredFile">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:getRefactoredFile.jsignature:_5"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractSubClass">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractSubClass.jsignature:_17"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:common.jsignature:_8">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Set</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:common.jparameter:owlclass2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:common.jparameter:owlclass"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractSuperClass">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:extractSuperClass.jsignature:_16"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:ontology2">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLOntology"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction">
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IObjectActionDelegate"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.refactoring/src/west/twouse/refactoring/ui/RefactoringAction.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:&lt;init&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jattribute:ref"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:selectionChanged"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jattribute:shell"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IActionDelegate"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:getFile"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jconstructor:_1"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jattribute:selectedFile"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:setActivePart"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:getRefactoredFile"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:refactorings"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:run"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:common.jparameter:owlclass2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLClass</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diffAndExtract.jparameter:owlclass2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLClass</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:ontology">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLOntology"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:ontologyURI2">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.net.jclass:URI"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:diffAndExtract.jparameter:owlclass">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLClass</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jattribute:reasoner">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.mindswap.pellet.owlapi.jclass:Reasoner"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui">
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jattribute:shell">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Shell"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:run.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:RefactoringAction.jmethod:run.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:startv2.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui.jclass:stateChartAction.jmethod:selectionChanged.jparameter:iselection">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ISelection</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:moveAttributes">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:moveAttributes.jsignature:_13"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.ui"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.refactoring.jclass:Refactoring.jmethod:startv2.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+</rdf:RDF>

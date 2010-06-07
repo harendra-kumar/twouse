@@ -1,0 +1,1529 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.rdfcoder.org/2007/1.0/" > 
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jconstructor:_3">
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$2.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:getDefault">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:getDefault.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:hidePropertiesTabItem">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:hidePropertiesTabItem.jsignature:_17"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setNoCurrentOntology">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setNoCurrentOntology.jsignature:_20"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jparameter:entitybrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:executeDLQuery.jsignature:_8">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:executeDLQuery.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:commPlatform">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:executeDLQuery">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:executeDLQuery.jsignature:_8"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$2">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$2.jsignature:_24"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:classesTabDisposed">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:boolean"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:addDLQueryObserver.jparameter:ientitybrowserobserver">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:IEntityBrowserObserver</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jmethod:&lt;init&gt;.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:addDLQueryObserver"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jattribute:queryObserverList"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:removeDLQueryObserver"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:executeDLQuery"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:getCommPlatformInstance"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jconstructor:_3"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:&lt;clinit&gt;"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.entitybrowser/src/west/twouse/ui/views/entitybrowser/commplatform/CommPlatform.java"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jattribute:commPlatform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:executeDLQuery.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jparameter:entitybrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:getCommPlatformInstance">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:getCommPlatformInstance.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>68</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator">
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.osgi.framework.jinterface:BundleActivator"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:start"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jconstructor:_0"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.plugin.jclass:AbstractUIPlugin"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.entitybrowser/src/west/twouse/ui/views/entitybrowser/Activator.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:&lt;init&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jattribute:PLUGIN_ID"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jattribute:plugin"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:getDefault"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:stop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jmethod:&lt;init&gt;.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:IEntityBrowserObserver.jmethod:dlQueryChanged.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jparameter:entitybrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listTypes">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:getCommPlatformInstance.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jmethod:widgetSelected.jparameter:selectionevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$4.jsignature:_26">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$4.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$1">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$1.jsignature:_23"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setInfoOfList">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setInfoOfList.jsignature:_7"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:showIndividualsTabItem.jsignature:_12">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:executeDLQuery.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:executeDLQuery.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupEquivalentClasses">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Group"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:start">
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Exception"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:start.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$6.jsignature:_28">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$6.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listEquivalentClasses">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyActivated">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyActivated.jsignature:_21"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupInstTypes">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Group"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$0">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$0.jsignature:_22"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jmethod:&lt;init&gt;.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="asset:">
+    <j.0:library_date>2010_05_02__15_15_10</j.0:library_date>
+    <j.0:library_location>/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.entitybrowser/bin</j.0:library_location>
+    <j.0:contains_library rdf:resource="asset:"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setInfoOfList.jparameter:list">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jmethod:modifyText.jparameter:modifyevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:ModifyEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:dlQueryChanged.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jmethod:widgetSelected">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jmethod:widgetSelected.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:removeDLQueryObserver.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:removeDLQueryObserver.jparameter:ientitybrowserobserver"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jmethod:widgetSelected.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jmethod:widgetSelected.jparameter:selectionevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:reasoner">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.inference.jclass:OWLReasoner"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createPartControl.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createPartControl.jparameter:composite"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$1.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jmethod:&lt;init&gt;.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jparameter:entitybrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:hideClassesTabItem">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:hideClassesTabItem.jsignature:_16"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:showIndividualsTabItem">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:showIndividualsTabItem.jsignature:_12"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$4.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupInstProperties">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Group"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createClassesTab.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listInstProperties">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setNoCurrentOntology.jsignature:_20">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:hideIndividualsTabItem.jsignature:_15">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser">
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jmethod:&lt;init&gt;.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$6">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$6.jsignature:_28"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:&lt;init&gt;.jsignature:_3"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$1.jsignature:_23">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$1.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$1.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:showClassesTabItem">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:showClassesTabItem.jsignature:_13"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jmethod:widgetSelected.jparameter:selectionevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:addDLQueryObserver.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:addDLQueryObserver.jparameter:ientitybrowserobserver"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:compIndividuals">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jmethod:widgetSelected.jparameter:selectionevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setFocus">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setFocus.jsignature:_9"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jmethod:widgetSelected.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jmethod:widgetSelected.jparameter:selectionevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createPropertiesTab">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createPropertiesTab.jsignature:_4"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setFocus.jsignature:_9">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$5">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$5.jsignature:_27"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createDLQueryPart.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createDLQueryPart.jparameter:composite"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyActivated.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyActivated.jparameter:owlreasoner">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.inference.jclass:OWLReasoner</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:tabIndividuals">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:TabItem"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:&lt;init&gt;.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:removeDLQueryObserver">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:removeDLQueryObserver.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listProperties">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:getDefault.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:start.jparameter:bundlecontext">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.osgi.framework.jclass:BundleContext</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:individualsTabDisposed">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:boolean"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:tabClasses">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:TabItem"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jmethod:&lt;init&gt;.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$4">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$4.jsignature:_26"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:showPropertiesTabItem">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:showPropertiesTabItem.jsignature:_14"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:manager">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLOntologyManager"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:ontologyPath">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jmethod:&lt;init&gt;.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jmethod:widgetSelected.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jmethod:widgetSelected.jparameter:selectionevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9">
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jconstructor:_0"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.internal.jinterface:SWTEventListener"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jinterface:EventListener"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jinterface:SelectionListener"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.entitybrowser/src/west/twouse/ui/views/entitybrowser/EntityBrowser$9.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jmethod:widgetSelected"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionAdapter"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jmethod:&lt;init&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jattribute:this$0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jattribute:commPlatform">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jmethod:modifyText.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jmethod:modifyText.jparameter:modifyevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupProperties">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Group"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:propertiesTabDisposed">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:boolean"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createPropertiesTab.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jmethod:modifyText">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jmethod:modifyText.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$8.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jmethod:widgetSelected">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jmethod:widgetSelected.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:start.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:start.jparameter:bundlecontext"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:dispose">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:dispose.jsignature:_11"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$3">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$3.jsignature:_25"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupIndividuals">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Group"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyContentChanged.jparameter:owlontologymanager">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLOntologyManager</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupDlQuery">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Group"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8">
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jattribute:this$0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jmethod:&lt;init&gt;"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionAdapter"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.entitybrowser/src/west/twouse/ui/views/entitybrowser/EntityBrowser$8.java"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jconstructor:_0"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jinterface:EventListener"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jinterface:SelectionListener"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jmethod:widgetSelected"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.internal.jinterface:SWTEventListener"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jmethod:keyPressed.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jmethod:keyPressed.jparameter:keyevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyActivated.jparameter:owlontologymanager">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLOntologyManager</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createPartControl.jparameter:composite">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyDeactivated">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyDeactivated.jsignature:_19"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jmethod:&lt;init&gt;.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jparameter:entitybrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jparameter:entitybrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyContentChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyContentChanged.jsignature:_18"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$3.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:dispose"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:hidePropertiesTabItem"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$5"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listSuperClasses"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:showIndividualsTabItem"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createClassesTab"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createDLQueryPart"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:individualsTabDisposed"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyDeactivated"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$3"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyActivated"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:dlQueryChanged"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupDlQuery"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:tabIndividuals"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:tabProperties"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:hideIndividualsTabItem"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$0"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupIndividuals"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupSuperClasses"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:tabClasses"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createindividualsTab"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupInstProperties"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listTypes"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:tabFolder"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listEquivalentClasses"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$6"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.entitybrowser/src/west/twouse/ui/views/entitybrowser/EntityBrowser.java"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:defaultNamespaceManager"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$4"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:propertiesTabDisposed"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:buttonSearch"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupProperties"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setNoCurrentOntology"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createPartControl"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:&lt;init&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:compIndividuals"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$7"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:showPropertiesTabItem"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupEquivalentIndividuals"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:compProperties"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createPropertiesTab"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listIndividuals"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyContentChanged"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$1"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setInfoOfList"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:executeDLQuery"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:manager"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.part.jclass:ViewPart"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:classesTabDisposed"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:reasoner"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listSubClasses"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:hideClassesTabItem"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listInstProperties"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:textDLQuery"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setFocus"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:ontHandler"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:ontData"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$8"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listProperties"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupSubClasses"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupEquivalentClasses"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jconstructor:_0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:showClassesTabItem"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:compClasses"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$2"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:clearAll"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listEquivalentIndividuals"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:commPlatform"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:ontologyPath"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupInstTypes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jmethod:widgetSelected.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jmethod:widgetSelected.jparameter:selectionevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:showClassesTabItem.jsignature:_13">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyContentChanged.jparameter:owlreasoner">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.inference.jclass:OWLReasoner</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jmethod:widgetSelected">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jmethod:widgetSelected.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jmethod:widgetSelected">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jmethod:widgetSelected.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createindividualsTab">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createindividualsTab.jsignature:_5"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:compProperties">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:ontHandler">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.backend.ontology.jclass:OntologyProvider"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jmethod:&lt;init&gt;.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$2.jsignature:_24">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Button</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$2.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupSuperClasses">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Group"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jmethod:&lt;init&gt;.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jmethod:&lt;init&gt;.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jmethod:widgetSelected.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jmethod:widgetSelected.jparameter:selectionevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:hidePropertiesTabItem.jsignature:_17">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6">
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.internal.jinterface:SWTEventListener"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.entitybrowser/src/west/twouse/ui/views/entitybrowser/EntityBrowser$6.java"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jinterface:SelectionListener"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jconstructor:_0"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionAdapter"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jattribute:this$0"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jmethod:widgetSelected"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jinterface:EventListener"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jmethod:&lt;init&gt;"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createindividualsTab.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:dlQueryChanged.jsignature:_10">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:dlQueryChanged.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createPartControl">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createPartControl.jsignature:_6"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jmethod:&lt;init&gt;.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:stop.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:stop.jparameter:bundlecontext"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:tabProperties">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:TabItem"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupSubClasses">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Group"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jparameter:entitybrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jmethod:keyPressed.jparameter:keyevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:KeyEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:dispose.jsignature:_11">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jmethod:&lt;init&gt;"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionAdapter"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.entitybrowser/src/west/twouse/ui/views/entitybrowser/EntityBrowser$7.java"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.internal.jinterface:SWTEventListener"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jattribute:this$0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jmethod:widgetSelected"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jinterface:EventListener"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jconstructor:_0"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jinterface:SelectionListener"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:executeDLQuery">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:executeDLQuery.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listSubClasses">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jattribute:PLUGIN_ID">
+    <j.0:attribute_value>CONSTANT_String[8](string_index = 9)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$8.jsignature:_30">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$8.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listEquivalentIndividuals">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:compClasses">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listSuperClasses">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:listIndividuals">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:stop.jparameter:bundlecontext">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.osgi.framework.jclass:BundleContext</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4">
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jattribute:this$0"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jinterface:SelectionListener"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jmethod:widgetSelected"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jconstructor:_0"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionAdapter"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.entitybrowser/src/west/twouse/ui/views/entitybrowser/EntityBrowser$4.java"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jinterface:EventListener"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.internal.jinterface:SWTEventListener"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$7.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$8">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$8.jsignature:_30"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jparameter:entitybrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createDLQueryPart.jparameter:composite">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:clearAll.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jattribute:queryObserverList">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:ArrayList"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setInfoOfList.jsignature:_7">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setInfoOfList.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setInfoOfList.jparameter:list"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jmethod:widgetSelected.jparameter:selectionevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:defaultNamespaceManager">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.util.jclass:DefaultNamespaceManager"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$5.jsignature:_27">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$5.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createClassesTab">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createClassesTab.jsignature:_3"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$6.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$4.jmethod:widgetSelected.jparameter:selectionevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:executeDLQuery.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5">
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionAdapter"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jmethod:widgetSelected"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.internal.jinterface:SWTEventListener"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jattribute:this$0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jmethod:&lt;init&gt;"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.entitybrowser/src/west/twouse/ui/views/entitybrowser/EntityBrowser$5.java"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jinterface:EventListener"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jinterface:SelectionListener"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jconstructor:_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jmethod:&lt;init&gt;.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:setInfoOfList.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$7">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$7.jsignature:_29"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jmethod:widgetSelected.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jmethod:widgetSelected.jparameter:selectionevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyDeactivated.jparameter:owlreasoner">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.inference.jclass:OWLReasoner</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyContentChanged.jsignature:_18">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyContentChanged.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyContentChanged.jparameter:owlontologymanager"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyContentChanged.jparameter:owlreasoner"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$0.jsignature:_22">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Text</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$0.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$1.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jattribute:plugin">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jinterface:IEntityBrowserObserver">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:IEntityBrowserObserver.jmethod:dlQueryChanged"/>
+    <j.0:extends_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jinterface:IEntityBrowserObserver"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JInterface"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:hideIndividualsTabItem">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:hideIndividualsTabItem.jsignature:_15"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jmethod:widgetSelected">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jmethod:widgetSelected.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$5.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:IEntityBrowserObserver.jmethod:dlQueryChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:IEntityBrowserObserver.jmethod:dlQueryChanged.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>1</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jmethod:&lt;init&gt;"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.internal.jinterface:SWTEventListener"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jconstructor:_0"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jinterface:EventListener"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jmethod:modifyText"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.entitybrowser/src/west/twouse/ui/views/entitybrowser/EntityBrowser$2.java"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jattribute:this$0"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jinterface:ModifyListener"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:textDLQuery">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Text"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:ontData">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.backend.ontology.jclass:OntologyData"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jmethod:widgetSelected">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jmethod:widgetSelected.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyActivated.jsignature:_21">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyActivated.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyActivated.jparameter:owlontologymanager"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyActivated.jparameter:owlreasoner"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jmethod:&lt;init&gt;.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:stop">
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Exception"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:Activator.jmethod:stop.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$7.jsignature:_29">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$7.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jmethod:widgetSelected.jparameter:selectionevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jmethod:&lt;init&gt;.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$7.jmethod:widgetSelected.jparameter:selectionevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:buttonSearch">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Button"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$3.jsignature:_25">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:List</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$3.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:clearAll">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:clearAll.jsignature:_1"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3">
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jattribute:this$0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jmethod:&lt;init&gt;"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jmethod:widgetSelected"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jinterface:SelectionListener"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionAdapter"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.internal.jinterface:SWTEventListener"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jconstructor:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.entitybrowser/src/west/twouse/ui/views/entitybrowser/EntityBrowser$3.java"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jinterface:EventListener"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jmethod:&lt;init&gt;.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jmethod:&lt;init&gt;.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jmethod:keyPressed">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jmethod:keyPressed.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$3.jparameter:entitybrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$2.jmethod:&lt;init&gt;.jparameter:entitybrowser"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:tabFolder">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:TabFolder"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:showPropertiesTabItem.jsignature:_14">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createDLQueryPart">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:createDLQueryPart.jsignature:_2"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyDeactivated.jparameter:owlontologymanager">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLOntologyManager</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jmethod:widgetSelected">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jmethod:widgetSelected.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:IEntityBrowserObserver.jmethod:dlQueryChanged.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:IEntityBrowserObserver.jmethod:dlQueryChanged.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:removeDLQueryObserver.jparameter:ientitybrowserobserver">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:IEntityBrowserObserver</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$5.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:hideClassesTabItem.jsignature:_16">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyContentChanged.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform">
+    <j.0:contains_interface rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jinterface:IEntityBrowserObserver"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:addDLQueryObserver">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:addDLQueryObserver.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyDeactivated.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$8.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyDeactivated.jsignature:_19">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyDeactivated.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyDeactivated.jparameter:owlontologymanager"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:ontologyDeactivated.jparameter:owlreasoner"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jmethod:widgetSelected.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jmethod:widgetSelected.jparameter:selectionevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.commplatform.jclass:CommPlatform.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:access$0.jparameter:entitybrowser">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$9.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1">
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jattribute:this$0"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jconstructor:_0"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.internal.jinterface:SWTEventListener"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jmethod:&lt;init&gt;"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$1.jmethod:keyPressed"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:KeyAdapter"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jinterface:KeyListener"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.entitybrowser/src/west/twouse/ui/views/entitybrowser/EntityBrowser$1.java"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jinterface:EventListener"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser$6.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jattribute:groupEquivalentIndividuals">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Group"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:dlQueryChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.entitybrowser.jclass:EntityBrowser.jmethod:dlQueryChanged.jsignature:_10"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+</rdf:RDF>

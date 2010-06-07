@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="ecorePrimitiveTypes"
+    nsURI="http:///ecorePrimitiveTypes.ecore" nsPrefix="ecorePrimitiveTypes">
+  <eClassifiers xsi:type="ecore:EDataType" name="EBigDecimal" instanceClassName="EBigDecimal"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EBigInteger" instanceClassName="EBigInteger"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EBooleanObject" instanceClassName="EBooleanObject"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EByte" instanceClassName="EByte"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EByteArray" instanceClassName="EByteArray"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EByteObject" instanceClassName="EByteObject"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EChar" instanceClassName="EChar"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="ECharacterObject" instanceClassName="ECharacterObject"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EDate" instanceClassName="EDate"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EDiagnosticChain" instanceClassName="EDiagnosticChain"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EDouble" instanceClassName="EDouble"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EDoubleObject" instanceClassName="EDoubleObject"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EeList" instanceClassName="EeList">
+    <eTypeParameters name="E"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="EEnumerator" instanceClassName="EEnumerator"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EFeatureMap" instanceClassName="EFeatureMap"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EFeatureMapEntry" instanceClassName="EFeatureMapEntry"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EFloat" instanceClassName="EFloat"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EFloatObject" instanceClassName="EFloatObject"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EInt" instanceClassName="EInt"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EIntegerObject" instanceClassName="EIntegerObject"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EJavaClass" instanceClassName="EJavaClass">
+    <eTypeParameters name="T"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="EJavaObject" instanceClassName="EJavaObject"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="ELong" instanceClassName="ELong"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="ELongObject" instanceClassName="ELongObject"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EMap" instanceClassName="EMap">
+    <eTypeParameters name="K"/>
+    <eTypeParameters name="V"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="EResource" instanceClassName="EResource"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EResourceSet" instanceClassName="EResourceSet"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EShort" instanceClassName="EShort"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EShortObject" instanceClassName="EShortObject"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="EString" instanceClassName="EString"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="ETreeIterator" instanceClassName="ETreeIterator">
+    <eTypeParameters name="E"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="EBoolean" instanceClassName="EBoolean"/>
+</ecore:EPackage>

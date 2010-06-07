@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="Hotel">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OhRHADdrEd-1K-xB6Ypylw" name="Reserve Room" classifierBehavior="_xAuk0DdrEd-1K-xB6Ypylw">
+      <generalization xmi:id="_WJbLNDdrEd-1K-xB6Ypylw" general="_UHyqojdrEd-1K-xB6Ypylw"/>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_xAuk0DdrEd-1K-xB6Ypylw" name="Reserve RoomDetail">
+        <ownedAttribute xmi:id="_zUPfkDdrEd-1K-xB6Ypylw" name="Property1" type="_aKel0DdrEd-1K-xB6Ypylw"/>
+        <ownedAttribute xmi:id="_CVX8cDdsEd-1K-xB6Ypylw" name="Property2" type="_3wQ--DdrEd-1K-xB6Ypylw"/>
+        <ownedAttribute xmi:id="_C665gDdsEd-1K-xB6Ypylw" name="Property3" type="_1743QDdrEd-1K-xB6Ypylw"/>
+        <ownedConnector xmi:id="_zUPfkTdrEd-1K-xB6Ypylw" name="Connector1">
+          <end xmi:id="_zUPfkjdrEd-1K-xB6Ypylw" role="_zUPfkDdrEd-1K-xB6Ypylw"/>
+          <end xmi:id="_CVX8cTdsEd-1K-xB6Ypylw" role="_CVX8cDdsEd-1K-xB6Ypylw"/>
+          <end xmi:id="_C665gTdsEd-1K-xB6Ypylw" role="_C665gDdsEd-1K-xB6Ypylw"/>
+        </ownedConnector>
+        <lifeline xmi:id="_yOW1kjdrEd-1K-xB6Ypylw" name="Lifeline1" represents="_zUPfkDdrEd-1K-xB6Ypylw" coveredBy="_FPe9JTdsEd-1K-xB6Ypylw _Dx6L4jdsEd-1K-xB6Ypylw"/>
+        <lifeline xmi:id="_Bg7AsjdsEd-1K-xB6Ypylw" name="Lifeline2" represents="_C665gDdsEd-1K-xB6Ypylw" coveredBy="_FPe9JjdsEd-1K-xB6Ypylw _GhmFQDdsEd-1K-xB6Ypylw _GC5XFDdsEd-1K-xB6Ypylw _DflFwjdsEd-1K-xB6Ypylw"/>
+        <lifeline xmi:id="_ByM98jdsEd-1K-xB6Ypylw" name="Lifeline3" represents="_CVX8cDdsEd-1K-xB6Ypylw" coveredBy="_GC5XFTdsEd-1K-xB6Ypylw _GhmFQTdsEd-1K-xB6Ypylw _EIjxUjdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GC5XFDdsEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification3" covered="_Bg7AsjdsEd-1K-xB6Ypylw" event="_GC5XFjdsEd-1K-xB6Ypylw" message="_GC5XFzdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GC5XFTdsEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification4" covered="_ByM98jdsEd-1K-xB6Ypylw" event="_GC5XFjdsEd-1K-xB6Ypylw" message="_GC5XFzdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FPe9JTdsEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification1" covered="_yOW1kjdrEd-1K-xB6Ypylw" event="_FPe9JzdsEd-1K-xB6Ypylw" message="_FPe9KDdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FPe9JjdsEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification2" covered="_Bg7AsjdsEd-1K-xB6Ypylw" event="_FPe9JzdsEd-1K-xB6Ypylw" message="_FPe9KDdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GhmFQDdsEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification5" covered="_Bg7AsjdsEd-1K-xB6Ypylw" event="_GhmFQjdsEd-1K-xB6Ypylw" message="_GhmFQzdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GhmFQTdsEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification6" covered="_ByM98jdsEd-1K-xB6Ypylw" event="_GhmFQjdsEd-1K-xB6Ypylw" message="_GhmFQzdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Dx6L4jdsEd-1K-xB6Ypylw" name="BehaviorExecutionSpecification2" covered="_yOW1kjdrEd-1K-xB6Ypylw" start="_FPe9JTdsEd-1K-xB6Ypylw" finish="_FPe9JTdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_DflFwjdsEd-1K-xB6Ypylw" name="BehaviorExecutionSpecification1" covered="_Bg7AsjdsEd-1K-xB6Ypylw" start="_FPe9JjdsEd-1K-xB6Ypylw" finish="_GhmFQDdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_EIjxUjdsEd-1K-xB6Ypylw" name="BehaviorExecutionSpecification3" covered="_ByM98jdsEd-1K-xB6Ypylw" start="_GC5XFTdsEd-1K-xB6Ypylw" finish="_GhmFQTdsEd-1K-xB6Ypylw"/>
+        <message xmi:id="_FPe9KDdsEd-1K-xB6Ypylw" name="makeReservation" receiveEvent="_FPe9JjdsEd-1K-xB6Ypylw" sendEvent="_FPe9JTdsEd-1K-xB6Ypylw"/>
+        <message xmi:id="_GC5XFzdsEd-1K-xB6Ypylw" name="retrieve" receiveEvent="_GC5XFTdsEd-1K-xB6Ypylw" sendEvent="_GC5XFDdsEd-1K-xB6Ypylw"/>
+        <message xmi:id="_GhmFQzdsEd-1K-xB6Ypylw" name="updateRoomAvailability" receiveEvent="_GhmFQTdsEd-1K-xB6Ypylw" sendEvent="_GhmFQDdsEd-1K-xB6Ypylw"/>
+      </ownedBehavior>
+      <include xmi:id="_SJkqdTdrEd-1K-xB6Ypylw" name="Include1" addition="_QsvgEjdrEd-1K-xB6Ypylw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_QsvgEjdrEd-1K-xB6Ypylw" name="Check Room Details" classifierBehavior="_5ZWAIDdsEd-1K-xB6Ypylw">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_5ZWAIDdsEd-1K-xB6Ypylw" name="Check Room DetailsDetail">
+        <ownedAttribute xmi:id="_FcCV8DdtEd-1K-xB6Ypylw" name="Property1" type="_aKel0DdrEd-1K-xB6Ypylw"/>
+        <ownedAttribute xmi:id="_H1Nz0DdtEd-1K-xB6Ypylw" name="Property2" type="_3wQ--DdrEd-1K-xB6Ypylw"/>
+        <ownedAttribute xmi:id="_Qja6EDdtEd-1K-xB6Ypylw" name="Property3" type="_JnNV6DdtEd-1K-xB6Ypylw"/>
+        <ownedConnector xmi:id="_FcCV8TdtEd-1K-xB6Ypylw" name="Connector1">
+          <end xmi:id="_FcCV8jdtEd-1K-xB6Ypylw" role="_FcCV8DdtEd-1K-xB6Ypylw"/>
+          <end xmi:id="_H1Nz0TdtEd-1K-xB6Ypylw" role="_H1Nz0DdtEd-1K-xB6Ypylw"/>
+          <end xmi:id="_Qja6ETdtEd-1K-xB6Ypylw" role="_Qja6EDdtEd-1K-xB6Ypylw"/>
+        </ownedConnector>
+        <lifeline xmi:id="_9TYz0jdsEd-1K-xB6Ypylw" name="Lifeline1" represents="_FcCV8DdtEd-1K-xB6Ypylw" coveredBy="_BEV89TdtEd-1K-xB6Ypylw _-85IQjdsEd-1K-xB6Ypylw"/>
+        <lifeline xmi:id="_9ceeYjdsEd-1K-xB6Ypylw" name="Lifeline2" represents="_Qja6EDdtEd-1K-xB6Ypylw" coveredBy="_BEV89jdtEd-1K-xB6Ypylw _EQfI1TdtEd-1K-xB6Ypylw __OBUgjdsEd-1K-xB6Ypylw"/>
+        <lifeline xmi:id="_98XfYjdsEd-1K-xB6Ypylw" name="Lifeline3" represents="_H1Nz0DdtEd-1K-xB6Ypylw" coveredBy="_EQfI1jdtEd-1K-xB6Ypylw __eag8jdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BEV89TdtEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification1" covered="_9TYz0jdsEd-1K-xB6Ypylw" event="_BEV89zdtEd-1K-xB6Ypylw" message="_BEfG4DdtEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BEV89jdtEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification2" covered="_9ceeYjdsEd-1K-xB6Ypylw" event="_BEV89zdtEd-1K-xB6Ypylw" message="_BEfG4DdtEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EQfI1TdtEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification3" covered="_9ceeYjdsEd-1K-xB6Ypylw" event="_EQfI1zdtEd-1K-xB6Ypylw" message="_EQfI2DdtEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EQfI1jdtEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification4" covered="_98XfYjdsEd-1K-xB6Ypylw" event="_EQfI1zdtEd-1K-xB6Ypylw" message="_EQfI2DdtEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_-85IQjdsEd-1K-xB6Ypylw" name="BehaviorExecutionSpecification1" covered="_9TYz0jdsEd-1K-xB6Ypylw" start="_BEV89TdtEd-1K-xB6Ypylw" finish="_BEV89TdtEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="__OBUgjdsEd-1K-xB6Ypylw" name="BehaviorExecutionSpecification2" covered="_9ceeYjdsEd-1K-xB6Ypylw" start="_BEV89jdtEd-1K-xB6Ypylw" finish="_EQfI1TdtEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="__eag8jdsEd-1K-xB6Ypylw" name="BehaviorExecutionSpecification3" covered="_98XfYjdsEd-1K-xB6Ypylw" start="_EQfI1jdtEd-1K-xB6Ypylw" finish="_EQfI1jdtEd-1K-xB6Ypylw"/>
+        <message xmi:id="_BEfG4DdtEd-1K-xB6Ypylw" name="retrieveRoom" receiveEvent="_BEV89jdtEd-1K-xB6Ypylw" sendEvent="_BEV89TdtEd-1K-xB6Ypylw"/>
+        <message xmi:id="_EQfI2DdtEd-1K-xB6Ypylw" name="retrieve" receiveEvent="_EQfI1jdtEd-1K-xB6Ypylw" sendEvent="_EQfI1TdtEd-1K-xB6Ypylw"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UHyqojdrEd-1K-xB6Ypylw" name="Reserve Facility" classifierBehavior="_nJH7oDdtEd-1K-xB6Ypylw">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_nJH7oDdtEd-1K-xB6Ypylw" name="Reserve FacilityDetail">
+        <ownedAttribute xmi:id="_AtkmQDduEd-1K-xB6Ypylw" name="Property1" type="_aKel0DdrEd-1K-xB6Ypylw"/>
+        <ownedAttribute xmi:id="_BrtpgDduEd-1K-xB6Ypylw" name="Property2" type="_pr2XGDdtEd-1K-xB6Ypylw"/>
+        <ownedAttribute xmi:id="_CW7JsDduEd-1K-xB6Ypylw" name="Property3" type="_p3BsWDdtEd-1K-xB6Ypylw"/>
+        <ownedConnector xmi:id="_AtkmQTduEd-1K-xB6Ypylw" name="Connector1">
+          <end xmi:id="_AtkmQjduEd-1K-xB6Ypylw" role="_AtkmQDduEd-1K-xB6Ypylw"/>
+          <end xmi:id="_BrtpgTduEd-1K-xB6Ypylw" role="_BrtpgDduEd-1K-xB6Ypylw"/>
+          <end xmi:id="_CW7JsTduEd-1K-xB6Ypylw" role="_CW7JsDduEd-1K-xB6Ypylw"/>
+        </ownedConnector>
+        <lifeline xmi:id="_-VulIjdtEd-1K-xB6Ypylw" name="Lifeline1" represents="_AtkmQDduEd-1K-xB6Ypylw" coveredBy="_EKZ5hTduEd-1K-xB6Ypylw _CuxB8jduEd-1K-xB6Ypylw"/>
+        <lifeline xmi:id="__MRLkjdtEd-1K-xB6Ypylw" name="Lifeline2" represents="_BrtpgDduEd-1K-xB6Ypylw" coveredBy="_EKZ5hjduEd-1K-xB6Ypylw _ElrgRTduEd-1K-xB6Ypylw _FEXnZTduEd-1K-xB6Ypylw _DAfrIjduEd-1K-xB6Ypylw"/>
+        <lifeline xmi:id="__bxAIjdtEd-1K-xB6Ypylw" name="Lifeline3" represents="_CW7JsDduEd-1K-xB6Ypylw" coveredBy="_ElrgRjduEd-1K-xB6Ypylw _FEXnZjduEd-1K-xB6Ypylw _DXl8gjduEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EKZ5hTduEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification1" covered="_-VulIjdtEd-1K-xB6Ypylw" event="_EKZ5hzduEd-1K-xB6Ypylw" message="_EKZ5iDduEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EKZ5hjduEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification2" covered="__MRLkjdtEd-1K-xB6Ypylw" event="_EKZ5hzduEd-1K-xB6Ypylw" message="_EKZ5iDduEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ElrgRTduEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification3" covered="__MRLkjdtEd-1K-xB6Ypylw" event="_ElrgRzduEd-1K-xB6Ypylw" message="_ElrgSDduEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ElrgRjduEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification4" covered="__bxAIjdtEd-1K-xB6Ypylw" event="_ElrgRzduEd-1K-xB6Ypylw" message="_ElrgSDduEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FEXnZTduEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification5" covered="__MRLkjdtEd-1K-xB6Ypylw" event="_FEXnZzduEd-1K-xB6Ypylw" message="_FEXnaDduEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FEXnZjduEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification6" covered="__bxAIjdtEd-1K-xB6Ypylw" event="_FEXnZzduEd-1K-xB6Ypylw" message="_FEXnaDduEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_CuxB8jduEd-1K-xB6Ypylw" name="BehaviorExecutionSpecification1" covered="_-VulIjdtEd-1K-xB6Ypylw" start="_EKZ5hTduEd-1K-xB6Ypylw" finish="_EKZ5hTduEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_DAfrIjduEd-1K-xB6Ypylw" name="BehaviorExecutionSpecification2" covered="__MRLkjdtEd-1K-xB6Ypylw" start="_EKZ5hjduEd-1K-xB6Ypylw" finish="_FEXnZTduEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_DXl8gjduEd-1K-xB6Ypylw" name="BehaviorExecutionSpecification3" covered="__bxAIjdtEd-1K-xB6Ypylw" start="_ElrgRjduEd-1K-xB6Ypylw" finish="_FEXnZjduEd-1K-xB6Ypylw"/>
+        <message xmi:id="_EKZ5iDduEd-1K-xB6Ypylw" name="makeReservation" receiveEvent="_EKZ5hjduEd-1K-xB6Ypylw" sendEvent="_EKZ5hTduEd-1K-xB6Ypylw"/>
+        <message xmi:id="_ElrgSDduEd-1K-xB6Ypylw" name="retrieve" receiveEvent="_ElrgRjduEd-1K-xB6Ypylw" sendEvent="_ElrgRTduEd-1K-xB6Ypylw"/>
+        <message xmi:id="_FEXnaDduEd-1K-xB6Ypylw" name="updateAvailability" receiveEvent="_FEXnZjduEd-1K-xB6Ypylw" sendEvent="_FEXnZTduEd-1K-xB6Ypylw"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_aKel0DdrEd-1K-xB6Ypylw" name="Customer"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_hgwP1zdrEd-1K-xB6Ypylw" name="A_&lt;customer>_&lt;reserve Room>" memberEnd="_hgwP2DdrEd-1K-xB6Ypylw _hgwP2zdrEd-1K-xB6Ypylw">
+      <ownedEnd xmi:id="_hgwP2DdrEd-1K-xB6Ypylw" name="customer" type="_aKel0DdrEd-1K-xB6Ypylw" association="_hgwP1zdrEd-1K-xB6Ypylw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hgwP2TdrEd-1K-xB6Ypylw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hgwP2jdrEd-1K-xB6Ypylw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_hgwP2zdrEd-1K-xB6Ypylw" name="reserve Room" type="_OhRHADdrEd-1K-xB6Ypylw" association="_hgwP1zdrEd-1K-xB6Ypylw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hgwP3DdrEd-1K-xB6Ypylw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hgwP3TdrEd-1K-xB6Ypylw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_pGrfYjdrEd-1K-xB6Ypylw" name="Ckeck In Customer" classifierBehavior="_UutrQDdsEd-1K-xB6Ypylw">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_UutrQDdsEd-1K-xB6Ypylw" name="Ckeck In CustomerDetail">
+        <ownedAttribute xmi:id="_sRXdQDdsEd-1K-xB6Ypylw" name="Property1" type="_aKel0DdrEd-1K-xB6Ypylw"/>
+        <ownedAttribute xmi:id="_tF-KADdsEd-1K-xB6Ypylw" name="Property2" type="_hSoe2DdsEd-1K-xB6Ypylw"/>
+        <ownedAttribute xmi:id="_t4LqEDdsEd-1K-xB6Ypylw" name="Property3" type="_3wQ--DdrEd-1K-xB6Ypylw"/>
+        <ownedConnector xmi:id="_sRXdQTdsEd-1K-xB6Ypylw" name="Connector1">
+          <end xmi:id="_sRXdQjdsEd-1K-xB6Ypylw" role="_sRXdQDdsEd-1K-xB6Ypylw"/>
+          <end xmi:id="_tF-KATdsEd-1K-xB6Ypylw" role="_tF-KADdsEd-1K-xB6Ypylw"/>
+          <end xmi:id="_t4LqETdsEd-1K-xB6Ypylw" role="_t4LqEDdsEd-1K-xB6Ypylw"/>
+        </ownedConnector>
+        <lifeline xmi:id="_rG3ZAjdsEd-1K-xB6Ypylw" name="Lifeline1" represents="_sRXdQDdsEd-1K-xB6Ypylw" coveredBy="_v8gSRTdsEd-1K-xB6Ypylw _uRqhEjdsEd-1K-xB6Ypylw"/>
+        <lifeline xmi:id="_rPqIojdsEd-1K-xB6Ypylw" name="Lifeline2" represents="_tF-KADdsEd-1K-xB6Ypylw" coveredBy="_v8gSRjdsEd-1K-xB6Ypylw _wfYV1TdsEd-1K-xB6Ypylw _zC1xFTdsEd-1K-xB6Ypylw _urAOIjdsEd-1K-xB6Ypylw"/>
+        <lifeline xmi:id="_rdg-cjdsEd-1K-xB6Ypylw" name="Lifeline3" represents="_t4LqEDdsEd-1K-xB6Ypylw" coveredBy="_wfhfwDdsEd-1K-xB6Ypylw _zC1xFjdsEd-1K-xB6Ypylw _u6gCsjdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_v8gSRTdsEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification1" covered="_rG3ZAjdsEd-1K-xB6Ypylw" event="_v8gSRzdsEd-1K-xB6Ypylw" message="_v8gSSDdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_v8gSRjdsEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification2" covered="_rPqIojdsEd-1K-xB6Ypylw" event="_v8gSRzdsEd-1K-xB6Ypylw" message="_v8gSSDdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wfYV1TdsEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification3" covered="_rPqIojdsEd-1K-xB6Ypylw" event="_wfhfwTdsEd-1K-xB6Ypylw" message="_wfhfwjdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wfhfwDdsEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification4" covered="_rdg-cjdsEd-1K-xB6Ypylw" event="_wfhfwTdsEd-1K-xB6Ypylw" message="_wfhfwjdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zC1xFTdsEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification5" covered="_rPqIojdsEd-1K-xB6Ypylw" event="_zC1xFzdsEd-1K-xB6Ypylw" message="_zC1xGDdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_zC1xFjdsEd-1K-xB6Ypylw" name="MessageOccurrenceSpecification6" covered="_rdg-cjdsEd-1K-xB6Ypylw" event="_zC1xFzdsEd-1K-xB6Ypylw" message="_zC1xGDdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_uRqhEjdsEd-1K-xB6Ypylw" name="BehaviorExecutionSpecification1" covered="_rG3ZAjdsEd-1K-xB6Ypylw" start="_v8gSRTdsEd-1K-xB6Ypylw" finish="_v8gSRTdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_urAOIjdsEd-1K-xB6Ypylw" name="BehaviorExecutionSpecification2" covered="_rPqIojdsEd-1K-xB6Ypylw" start="_v8gSRjdsEd-1K-xB6Ypylw" finish="_zC1xFTdsEd-1K-xB6Ypylw"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_u6gCsjdsEd-1K-xB6Ypylw" name="BehaviorExecutionSpecification3" covered="_rdg-cjdsEd-1K-xB6Ypylw" start="_wfhfwDdsEd-1K-xB6Ypylw" finish="_zC1xFjdsEd-1K-xB6Ypylw"/>
+        <message xmi:id="_v8gSSDdsEd-1K-xB6Ypylw" name="checkIn" receiveEvent="_v8gSRjdsEd-1K-xB6Ypylw" sendEvent="_v8gSRTdsEd-1K-xB6Ypylw"/>
+        <message xmi:id="_wfhfwjdsEd-1K-xB6Ypylw" name="retrieve" receiveEvent="_wfhfwDdsEd-1K-xB6Ypylw" sendEvent="_wfYV1TdsEd-1K-xB6Ypylw"/>
+        <message xmi:id="_zC1xGDdsEd-1K-xB6Ypylw" name="assignLodge" receiveEvent="_zC1xFjdsEd-1K-xB6Ypylw" sendEvent="_zC1xFTdsEd-1K-xB6Ypylw"/>
+      </ownedBehavior>
+      <include xmi:id="_sBY9BDdrEd-1K-xB6Ypylw" name="Include1" addition="_QsvgEjdrEd-1K-xB6Ypylw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_qdQQwjdrEd-1K-xB6Ypylw" name="Hotel Counter"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1743QDdrEd-1K-xB6Ypylw" name="ReserveRoomHandler">
+      <generalization xmi:id="_u7kkRTdtEd-1K-xB6Ypylw" general="_pr2XGDdtEd-1K-xB6Ypylw"/>
+      <ownedOperation xmi:id="_8sK4QjdrEd-1K-xB6Ypylw" name="makeReservation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3wQ--DdrEd-1K-xB6Ypylw" name="Room">
+      <generalization xmi:id="_vP_VFTdtEd-1K-xB6Ypylw" general="_p3BsWDdtEd-1K-xB6Ypylw"/>
+      <ownedOperation xmi:id="_5jvuwjdrEd-1K-xB6Ypylw" name="retrieve"/>
+      <ownedOperation xmi:id="_6gPzQjdrEd-1K-xB6Ypylw" name="updateAvailability"/>
+      <ownedOperation xmi:id="_mZ23UjdsEd-1K-xB6Ypylw" name="assignLodge"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_FPe9JzdsEd-1K-xB6Ypylw" name="CallEvent1" operation="_8sK4QjdrEd-1K-xB6Ypylw"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_GC5XFjdsEd-1K-xB6Ypylw" name="CallEvent2" operation="_5jvuwjdrEd-1K-xB6Ypylw"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_GhmFQjdsEd-1K-xB6Ypylw" name="CallEvent3" operation="_6gPzQjdrEd-1K-xB6Ypylw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hSoe2DdsEd-1K-xB6Ypylw" name="CheckInHandler">
+      <ownedOperation xmi:id="_k26d4jdsEd-1K-xB6Ypylw" name="checkIn"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_v8gSRzdsEd-1K-xB6Ypylw" name="CallEvent4" operation="_k26d4jdsEd-1K-xB6Ypylw"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_wfhfwTdsEd-1K-xB6Ypylw" name="CallEvent5" operation="_5jvuwjdrEd-1K-xB6Ypylw"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_zC1xFzdsEd-1K-xB6Ypylw" name="CallEvent6" operation="_mZ23UjdsEd-1K-xB6Ypylw"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_BEV89zdtEd-1K-xB6Ypylw" name="CallEvent7" operation="_Ll4CAjdtEd-1K-xB6Ypylw"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_EQfI1zdtEd-1K-xB6Ypylw" name="CallEvent8" operation="_5jvuwjdrEd-1K-xB6Ypylw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JnNV6DdtEd-1K-xB6Ypylw" name="CheckRoomHandler">
+      <ownedOperation xmi:id="_Ll4CAjdtEd-1K-xB6Ypylw" name="retrieveRoom"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pr2XGDdtEd-1K-xB6Ypylw" name="ReserveFacilityHandler" isAbstract="true">
+      <ownedOperation xmi:id="_wT8FYDdtEd-1K-xB6Ypylw" name="makeReservation" isAbstract="true"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_p3BsWDdtEd-1K-xB6Ypylw" name="Facility" isAbstract="true">
+      <ownedOperation xmi:id="_yvDc8DdtEd-1K-xB6Ypylw" name="updateAvailability" isAbstract="true"/>
+      <ownedOperation xmi:id="_yvDc8TdtEd-1K-xB6Ypylw" name="retrieve" isAbstract="true"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_EKZ5hzduEd-1K-xB6Ypylw" name="CallEvent9" operation="_wT8FYDdtEd-1K-xB6Ypylw"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_ElrgRzduEd-1K-xB6Ypylw" name="CallEvent10" operation="_yvDc8TdtEd-1K-xB6Ypylw"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_FEXnZzduEd-1K-xB6Ypylw" name="CallEvent11" operation="_yvDc8DdtEd-1K-xB6Ypylw"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_q_xnojduEd-1K-xB6Ypylw" name="Hotel management"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_FQY9AFMAEd-pjKlf8lScOQ">
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_Fqb0sFMAEd-pjKlf8lScOQ" name="Room">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_Rg_zAFMAEd-pjKlf8lScOQ" name="Port1" type="_UMH8gFMAEd-pjKlf8lScOQ" aggregation="composite"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_GtLEEFMAEd-pjKlf8lScOQ" name="Reservation">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_Q3imUFMAEd-pjKlf8lScOQ" name="Port1" type="_PHY3UFMAEd-pjKlf8lScOQ" aggregation="composite"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_Is9xkFMAEd-pjKlf8lScOQ" name="ReserveRoomHandler">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_SFnjAFMAEd-pjKlf8lScOQ" name="Port1" clientDependency="_mM6BYFMAEd-pjKlf8lScOQ _n_q_glMAEd-pjKlf8lScOQ" type="_V5JfAFMAEd-pjKlf8lScOQ" aggregation="composite"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_KOiSAFMAEd-pjKlf8lScOQ" name="ReserveRoomForm">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_S8ybkFMAEd-pjKlf8lScOQ" name="Port1" type="_WK26EFMAEd-pjKlf8lScOQ" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_hq2ygFMAEd-pjKlf8lScOQ" name="Port2" clientDependency="_iVSPkFMAEd-pjKlf8lScOQ" aggregation="composite"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_PHY3UFMAEd-pjKlf8lScOQ" name="IReservation"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_UMH8gFMAEd-pjKlf8lScOQ" name="IRoom"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_V5JfAFMAEd-pjKlf8lScOQ" name="IReservationHandler"/>
+      <nestedClassifier xmi:type="uml:Interface" xmi:id="_WK26EFMAEd-pjKlf8lScOQ" name="IReservationForm"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_iVSPkFMAEd-pjKlf8lScOQ" name="Usage3" supplier="_V5JfAFMAEd-pjKlf8lScOQ" client="_hq2ygFMAEd-pjKlf8lScOQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_mM6BYFMAEd-pjKlf8lScOQ" name="Usage1" supplier="_PHY3UFMAEd-pjKlf8lScOQ" client="_SFnjAFMAEd-pjKlf8lScOQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_n_q_glMAEd-pjKlf8lScOQ" name="Usage2" supplier="_UMH8gFMAEd-pjKlf8lScOQ" client="_SFnjAFMAEd-pjKlf8lScOQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_iwqHgFMBEd-pjKlf8lScOQ" name="customer"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_j7gKAFMBEd-pjKlf8lScOQ" name="reservation"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_k04pEFMBEd-pjKlf8lScOQ" name="room"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_n4EtQFMBEd-pjKlf8lScOQ" name="persistence"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_2CzGkFMBEd-pjKlf8lScOQ" name="presentation"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_21OpEFMBEd-pjKlf8lScOQ" name="distribution"/>
+  </packagedElement>
+</uml:Model>

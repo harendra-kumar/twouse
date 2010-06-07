@@ -1,0 +1,531 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.rdfcoder.org/2007/1.0/" > 
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:toGate.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:toGate.jparameter:bpmn2owl$flowobject"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:toGate.jparameter:vertex"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getPaths">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getPaths.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jmethod:&lt;init&gt;.jparameter:activity"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jmethod:&lt;init&gt;.jparameter:bpmn2owl"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jattribute:self">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:.jclass:Activity"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:run.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:run.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:getSpecificFile">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:getSpecificFile.jsignature:_3"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jattribute:instance">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl">
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jparameter:bpmn2owl">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:start.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:createOWLClass.jparameter:activity">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:.jclass:Activity</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getInstance.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jattribute:manager">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLOntologyManager"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jattribute:count">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jattribute:successors">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:EList"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:save">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:save.jsignature:_13"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:getAbstractFile">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:getAbstractFile.jsignature:_4"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:andToXor">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:andToXor.jsignature:_8"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:save.jsignature:_13">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:createOWLClass">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:createOWLClass.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:andToXor.jparameter:b">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jattribute:bpmn2owl">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jmethod:&lt;init&gt;.jparameter:bpmn2owl">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:deletePath">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:deletePath.jsignature:_6"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jattribute:ontologyURI">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.net.jclass:URI"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:andToXor.jsignature:_8">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:.jclass:BpmnDiagram</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:andToXor.jparameter:b"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:andToXor.jparameter:bpmndiagram"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:start.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jparameter:activity"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jparameter:bpmn2owl"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:selectionChanged.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:selectionChanged.jparameter:iselection"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:selectionChanged.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:valid">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:valid.jsignature:_12"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:start">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:start.jsignature:_11"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:valid.jsignature:_12">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Set</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:valid.jparameter:resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:processAbstract">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:processAbstract.jsignature:_9"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:selectionChanged.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:toGate.jparameter:bpmn2owl$flowobject">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jmethod:&lt;init&gt;.jparameter:activity">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:.jclass:Activity</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:processSpecific">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:processSpecific.jsignature:_10"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:deletePath.jparameter:activity">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:.jclass:Activity</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:processAbstract.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getPaths.jparameter:activity">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:.jclass:Activity</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:toGate">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:toGate.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getPaths.jparameter:i">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:fromGate.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:fromGate.jparameter:bpmn2owl$flowobject"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:fromGate.jparameter:vertex"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:setActivePart.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jattribute:factory">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLDataFactory"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:processSpecific.jsignature:_10">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.resource.jclass:Resource</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:processSpecific.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jattribute:resourceSet">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.resource.jclass:ResourceSet"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jconstructor:_0"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jattribute:bpmn2owl"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IObjectActionDelegate"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:run"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:selectionChanged"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:setActivePart"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:getSpecificFile"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:getAbstractFile"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:&lt;init&gt;"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IActionDelegate"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.bpmn2owl/src/west/twouse/bpmn2owl/BPMN2OWLAction.java"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getPaths.jparameter:elist">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:EList</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:setActivePart.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:setActivePart.jparameter:iworkbenchpart"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:setActivePart.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jattribute:predecessors">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:EList"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jattribute:ontology">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLOntology"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="asset:">
+    <j.0:library_date>2010_05_02__15_15_44</j.0:library_date>
+    <j.0:library_location>/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.bpmn2owl/bin</j.0:library_location>
+    <j.0:contains_library rdf:resource="asset:"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:getAbstractFile.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:fromGate.jparameter:bpmn2owl$flowobject">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:run.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:getSpecificFile.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:setActivePart.jparameter:iworkbenchpart">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPart</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:run">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:run.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:createOWLClass.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.semanticweb.owl.model.jclass:OWLClass</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:createOWLClass.jparameter:activity"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getPaths.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getPaths.jparameter:i"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getPaths.jparameter:activity"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getPaths.jparameter:elist2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getPaths.jparameter:elist"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:fromGate">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:fromGate.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:deletePath.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Set</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:deletePath.jparameter:set"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:deletePath.jparameter:activity"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:deletePath.jparameter:bpmndiagram"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:clearReferences.jsignature:_7">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:clearReferences.jparameter:set"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:processAbstract.jsignature:_9">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:processAbstract.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jparameter:activity">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:.jclass:Activity</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getInstance">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getInstance.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:selectionChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:selectionChanged.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jconstructor:_0"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.bpmn2owl/src/west/twouse/bpmn2owl/BPMN2OWL$flowObject.java"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jattribute:count"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jattribute:successors"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jattribute:this$0"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jattribute:predecessors"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jattribute:self"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jattribute:groups"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:deletePath.jparameter:set">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Set</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:clearReferences.jparameter:set">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Set</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:selectionChanged.jparameter:iselection">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ISelection</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:toGate"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jattribute:ontologyURI"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:start"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:processSpecific"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:deletePath"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:&lt;init&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jattribute:factory"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.bpmn2owl/src/west/twouse/bpmn2owl/BPMN2OWL.java"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jattribute:instance"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:processAbstract"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:valid"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:andToXor"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jconstructor:_0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:createOWLClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getInstance"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:fromGate"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jattribute:resourceSet"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getPaths"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jattribute:manager"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:clearReferences"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jattribute:ontology"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:save"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:start.jsignature:_11">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:start.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:start.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:getPaths.jparameter:elist2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:EList</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:processSpecific.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:setActivePart">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:setActivePart.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jconstructor:_0">
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:fromGate.jparameter:vertex">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:.jclass:Vertex</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:valid.jparameter:resource">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.ecore.resource.jclass:Resource</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:deletePath.jparameter:bpmndiagram">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:.jclass:BpmnDiagram</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:clearReferences">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:clearReferences.jsignature:_7"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWLAction.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jattribute:groups">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:EList"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL$flowObject.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:toGate.jparameter:vertex">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:.jclass:Vertex</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.bpmn2owl.jclass:BPMN2OWL.jmethod:andToXor.jparameter:bpmndiagram">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:.jclass:BpmnDiagram</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="twouse">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wzhtsAwmEd-uoOn5rZGzGg" name="Transform OWL Ecore to OWL RDF" classifierBehavior="_jlCwYQy5Ed-DEu7sKGmR1A">
+      <generalization xmi:id="_RfDIswwnEd-uoOn5rZGzGg" general="_P9WFYAwnEd-uoOn5rZGzGg"/>
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_jlCwYQy5Ed-DEu7sKGmR1A" name="Transform OWL Ecore to OWL RDFDetail">
+        <ownedAttribute xmi:id="_NakjgDdREd-1K-xB6Ypylw" name="Property1" type="_EtcbAAzCEd-DEu7sKGmR1A"/>
+        <ownedAttribute xmi:id="_N8ioIDdREd-1K-xB6Ypylw" name="Property2" type="_nQbFgi6xEd-iWO_3XctrdA"/>
+        <ownedConnector xmi:id="_NattcDdREd-1K-xB6Ypylw" name="Connector1">
+          <end xmi:id="_NattcTdREd-1K-xB6Ypylw" role="_NakjgDdREd-1K-xB6Ypylw"/>
+          <end xmi:id="_N8ioITdREd-1K-xB6Ypylw" role="_N8ioIDdREd-1K-xB6Ypylw"/>
+        </ownedConnector>
+        <lifeline xmi:id="_L9b3IDdREd-1K-xB6Ypylw" name="Lifeline1" represents="_NakjgDdREd-1K-xB6Ypylw"/>
+        <lifeline xmi:id="_MXXaEjdREd-1K-xB6Ypylw" name="Lifeline2" represents="_N8ioIDdREd-1K-xB6Ypylw"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_P9WFYAwnEd-uoOn5rZGzGg" name="Transform to OWL" classifierBehavior="_cMRfgTG6Ed-9yqPV8QnfGQ">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_cMRfgTG6Ed-9yqPV8QnfGQ" name="Transform to OWLDetail">
+        <lifeline xmi:id="_c3oJoDG6Ed-9yqPV8QnfGQ" name="Lifeline1" coveredBy="_gkHCcDG6Ed-9yqPV8QnfGQ _dkCjsDG6Ed-9yqPV8QnfGQ"/>
+        <lifeline xmi:id="_dNY-QjG6Ed-9yqPV8QnfGQ" name="Lifeline2" coveredBy="_gkHCcTG6Ed-9yqPV8QnfGQ _enY3EDG6Ed-9yqPV8QnfGQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gkHCcDG6Ed-9yqPV8QnfGQ" name="MessageOccurrenceSpecification1" covered="_c3oJoDG6Ed-9yqPV8QnfGQ" event="_gkHCcjG6Ed-9yqPV8QnfGQ" message="_gkHCczG6Ed-9yqPV8QnfGQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gkHCcTG6Ed-9yqPV8QnfGQ" name="MessageOccurrenceSpecification2" covered="_dNY-QjG6Ed-9yqPV8QnfGQ" event="_gkHCcjG6Ed-9yqPV8QnfGQ" message="_gkHCczG6Ed-9yqPV8QnfGQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_dkCjsDG6Ed-9yqPV8QnfGQ" name="BehaviorExecutionSpecification1" covered="_c3oJoDG6Ed-9yqPV8QnfGQ" start="_gkHCcDG6Ed-9yqPV8QnfGQ" finish="_gkHCcDG6Ed-9yqPV8QnfGQ"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_enY3EDG6Ed-9yqPV8QnfGQ" name="BehaviorExecutionSpecification2" covered="_dNY-QjG6Ed-9yqPV8QnfGQ" start="_gkHCcTG6Ed-9yqPV8QnfGQ" finish="_gkHCcTG6Ed-9yqPV8QnfGQ"/>
+        <message xmi:id="_gkHCczG6Ed-9yqPV8QnfGQ" name="Message1" receiveEvent="_gkHCcTG6Ed-9yqPV8QnfGQ" sendEvent="_gkHCcDG6Ed-9yqPV8QnfGQ"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_pR1UEAy5Ed-DEu7sKGmR1A" name="Transform UML to OWL">
+      <generalization xmi:id="_9kp3lAy6Ed-DEu7sKGmR1A" general="_P9WFYAwnEd-uoOn5rZGzGg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_srVmggy5Ed-DEu7sKGmR1A" name="Transform Ecore M+MM to OWL ABox + TBox" classifierBehavior="_qtTvYAzAEd-DEu7sKGmR1A">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_qtTvYAzAEd-DEu7sKGmR1A" name="Transform Ecore M+MM to OWL ABox + TBoxDetail">
+        <ownedAttribute xmi:id="_5FNpEAzAEd-DEu7sKGmR1A" name="Property1" type="_zq4WEAy6Ed-DEu7sKGmR1A"/>
+        <ownedAttribute xmi:id="_-bDsYQzAEd-DEu7sKGmR1A" name="Property2" type="_-bDsYAzAEd-DEu7sKGmR1A"/>
+        <ownedAttribute xmi:id="_DwW9IQzBEd-DEu7sKGmR1A" name="Property3" type="_DwW9IAzBEd-DEu7sKGmR1A"/>
+        <ownedConnector xmi:id="_5FYBIAzAEd-DEu7sKGmR1A" name="Connector1">
+          <end xmi:id="_5FkOYAzAEd-DEu7sKGmR1A" role="_5FNpEAzAEd-DEu7sKGmR1A"/>
+          <end xmi:id="_-bDsYgzAEd-DEu7sKGmR1A" role="_-bDsYQzAEd-DEu7sKGmR1A"/>
+          <end xmi:id="_DwYyUAzBEd-DEu7sKGmR1A" role="_DwW9IQzBEd-DEu7sKGmR1A"/>
+        </ownedConnector>
+        <lifeline xmi:id="_trwdgAzAEd-DEu7sKGmR1A" name="" represents="_5FNpEAzAEd-DEu7sKGmR1A" coveredBy="_KWs_AAzBEd-DEu7sKGmR1A _FIbjUAzBEd-DEu7sKGmR1A"/>
+        <lifeline xmi:id="_81D-8AzAEd-DEu7sKGmR1A" name="Lifeline1" represents="_-bDsYQzAEd-DEu7sKGmR1A" coveredBy="_MR2dEAzBEd-DEu7sKGmR1A _MR2dEQzBEd-DEu7sKGmR1A _Zhmb5QzBEd-DEu7sKGmR1A _KWuNIAzBEd-DEu7sKGmR1A _Fhx3cQzBEd-DEu7sKGmR1A"/>
+        <lifeline xmi:id="__Jh78AzAEd-DEu7sKGmR1A" name="Lifeline2" represents="_DwW9IQzBEd-DEu7sKGmR1A" coveredBy="_ZhoREAzBEd-DEu7sKGmR1A _F3NU4gzBEd-DEu7sKGmR1A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KWs_AAzBEd-DEu7sKGmR1A" name="MessageOccurrenceSpecification1" covered="_trwdgAzAEd-DEu7sKGmR1A" event="_KWuNIQzBEd-DEu7sKGmR1A" message="_KWuNIgzBEd-DEu7sKGmR1A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KWuNIAzBEd-DEu7sKGmR1A" name="MessageOccurrenceSpecification2" covered="_81D-8AzAEd-DEu7sKGmR1A" event="_KWuNIQzBEd-DEu7sKGmR1A" message="_KWuNIgzBEd-DEu7sKGmR1A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MR2dEAzBEd-DEu7sKGmR1A" name="MessageOccurrenceSpecification3" covered="_81D-8AzAEd-DEu7sKGmR1A" event="_MR2dEgzBEd-DEu7sKGmR1A" message="_MR2dEwzBEd-DEu7sKGmR1A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_MR2dEQzBEd-DEu7sKGmR1A" name="MessageOccurrenceSpecification4" covered="_81D-8AzAEd-DEu7sKGmR1A" event="_MR2dEgzBEd-DEu7sKGmR1A" message="_MR2dEwzBEd-DEu7sKGmR1A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Zhmb5QzBEd-DEu7sKGmR1A" name="MessageOccurrenceSpecification5" covered="_81D-8AzAEd-DEu7sKGmR1A" event="_ZhoREQzBEd-DEu7sKGmR1A" message="_ZhoREgzBEd-DEu7sKGmR1A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZhoREAzBEd-DEu7sKGmR1A" name="MessageOccurrenceSpecification6" covered="__Jh78AzAEd-DEu7sKGmR1A" event="_ZhoREQzBEd-DEu7sKGmR1A" message="_ZhoREgzBEd-DEu7sKGmR1A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_FIbjUAzBEd-DEu7sKGmR1A" name="BehaviorExecutionSpecification1" covered="_trwdgAzAEd-DEu7sKGmR1A" start="_KWs_AAzBEd-DEu7sKGmR1A" finish="_KWs_AAzBEd-DEu7sKGmR1A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Fhx3cQzBEd-DEu7sKGmR1A" name="BehaviorExecutionSpecification2" covered="_81D-8AzAEd-DEu7sKGmR1A" start="_KWuNIAzBEd-DEu7sKGmR1A" finish="_Zhmb5QzBEd-DEu7sKGmR1A"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_F3NU4gzBEd-DEu7sKGmR1A" name="BehaviorExecutionSpecification3" covered="__Jh78AzAEd-DEu7sKGmR1A" start="_ZhoREAzBEd-DEu7sKGmR1A" finish="_ZhoREAzBEd-DEu7sKGmR1A"/>
+        <message xmi:id="_KWuNIgzBEd-DEu7sKGmR1A" name="Message1" receiveEvent="_KWuNIAzBEd-DEu7sKGmR1A" sendEvent="_KWs_AAzBEd-DEu7sKGmR1A"/>
+        <message xmi:id="_MR2dEwzBEd-DEu7sKGmR1A" name="Message2" receiveEvent="_MR2dEQzBEd-DEu7sKGmR1A" sendEvent="_MR2dEAzBEd-DEu7sKGmR1A"/>
+        <message xmi:id="_ZhoREgzBEd-DEu7sKGmR1A" name="Message3" receiveEvent="_ZhoREAzBEd-DEu7sKGmR1A" sendEvent="_Zhmb5QzBEd-DEu7sKGmR1A"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zfGZUgy5Ed-DEu7sKGmR1A" name="Design OWL Ontology"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_8wHRsgy5Ed-DEu7sKGmR1A" name="Validate BPMN Model"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_zq4WEAy6Ed-DEu7sKGmR1A" name="Software Engineer"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_1kIWsgy6Ed-DEu7sKGmR1A" name="Ontology Engineer"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_KWuNIQzBEd-DEu7sKGmR1A" name="CallEvent1"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_MR2dEgzBEd-DEu7sKGmR1A" name="CallEvent2"/>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_ZhoREQzBEd-DEu7sKGmR1A" name="CallEvent3"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_594hAAzBEd-DEu7sKGmR1A" name="west.twouse.ui.contextmenus.owlizer">
+      <packagedElement xmi:type="uml:Class" xmi:id="_-bDsYAzAEd-DEu7sKGmR1A" name="OWLizerAction">
+        <ownedOperation xmi:id="_JfXR4AzCEd-DEu7sKGmR1A" name="run ">
+          <ownedParameter xmi:id="_MdLG0AzCEd-DEu7sKGmR1A" name="action"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_QqWR4gzCEd-DEu7sKGmR1A" name="transform"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_JTZREC6xEd-iWO_3XctrdA">
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_KEHjYi6xEd-iWO_3XctrdA" name="west.twouse.backend">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_gN6DAy7HEd-brJBPktfXNQ" name="Port1" clientDependency="_hMOP8i7IEd-brJBPktfXNQ" type="_ssR_WC6zEd-iWO_3XctrdA" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_iqOUcy7HEd-brJBPktfXNQ" name="Port2" clientDependency="_gRqsMi7IEd-brJBPktfXNQ" type="_uR55WC6zEd-iWO_3XctrdA" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_zE0MsC7JEd-brJBPktfXNQ" name="Port3" type="_jDKuCC7JEd-brJBPktfXNQ" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_XtbdcC7MEd-brJBPktfXNQ" name="Port4" type="_DwW9IAzBEd-DEu7sKGmR1A" aggregation="composite"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_W9Muoi6xEd-iWO_3XctrdA" name="org.mindswap.pellet">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_jGvTUy6xEd-iWO_3XctrdA" name="Port1" type="_9c_Y4C6yEd-iWO_3XctrdA" aggregation="composite"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_agLQsi6yEd-iWO_3XctrdA" name="west.twouse.ui.views.explanation">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_yzDeYy61Ed-brJBPktfXNQ" name="Port1" clientDependency="_cNo2Ey7IEd-brJBPktfXNQ _oedKoi7MEd-brJBPktfXNQ" type="_98X8OC61Ed-brJBPktfXNQ" aggregation="composite"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_U0rmIy61Ed-brJBPktfXNQ" name="west.twouse.ui.views.inferredclasshierarchy">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_XkD9gC61Ed-brJBPktfXNQ" name="Port1" clientDependency="_c2Umsi7IEd-brJBPktfXNQ _o9Tp0i7MEd-brJBPktfXNQ" type="_TclAOC60Ed-iWO_3XctrdA" aggregation="composite"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_nDu14i7IEd-brJBPktfXNQ" name="west.twouse.ui.contextmenus.owlizer">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_9OWogC7JEd-brJBPktfXNQ" name="Port1" clientDependency="_kW3DIy7MEd-brJBPktfXNQ" type="_-bDsYAzAEd-DEu7sKGmR1A" aggregation="composite"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Component" xmi:id="_u0Pk0i7IEd-brJBPktfXNQ" name="west.twouse.ui.menus.transform2owlfs">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_SHM0wy7MEd-brJBPktfXNQ" name="Port1" clientDependency="_jbZgcC7MEd-brJBPktfXNQ" type="_cYbe6C7KEd-brJBPktfXNQ" aggregation="composite"/>
+      </nestedClassifier>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_cNo2Ey7IEd-brJBPktfXNQ" name="Usage1" supplier="_nQbFgi6xEd-iWO_3XctrdA" client="_yzDeYy61Ed-brJBPktfXNQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_c2Umsi7IEd-brJBPktfXNQ" name="Usage2" supplier="_nQbFgi6xEd-iWO_3XctrdA" client="_XkD9gC61Ed-brJBPktfXNQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_gRqsMi7IEd-brJBPktfXNQ" name="Usage3" supplier="_nQbFgi6xEd-iWO_3XctrdA" client="_iqOUcy7HEd-brJBPktfXNQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_hMOP8i7IEd-brJBPktfXNQ" name="Usage4" supplier="_nQbFgi6xEd-iWO_3XctrdA" client="_gN6DAy7HEd-brJBPktfXNQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_jbZgcC7MEd-brJBPktfXNQ" name="Usage5" supplier="_ykLk0i7JEd-brJBPktfXNQ" client="_SHM0wy7MEd-brJBPktfXNQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_kW3DIy7MEd-brJBPktfXNQ" name="Usage6" supplier="_bG1CMi7MEd-brJBPktfXNQ" client="_9OWogC7JEd-brJBPktfXNQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_oedKoi7MEd-brJBPktfXNQ" name="Usage7" supplier="_Ex1S8i7IEd-brJBPktfXNQ" client="_yzDeYy61Ed-brJBPktfXNQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_o9Tp0i7MEd-brJBPktfXNQ" name="Usage8" supplier="_Wz7mci7IEd-brJBPktfXNQ" client="_XkD9gC61Ed-brJBPktfXNQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5eUj4i6yEd-iWO_3XctrdA" name="org.mindswap.pellet.owlapi">
+      <packagedElement xmi:type="uml:Class" xmi:id="_9c_Y4C6yEd-iWO_3XctrdA" name="Reasoner" clientDependency="_STmO0C7IEd-brJBPktfXNQ">
+        <interfaceRealization xmi:id="_STmO0C7IEd-brJBPktfXNQ" supplier="_nQbFgi6xEd-iWO_3XctrdA" client="_9c_Y4C6yEd-iWO_3XctrdA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_nQbFgi6xEd-iWO_3XctrdA" name="IReasoner"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WaZRoi6zEd-iWO_3XctrdA" name="west.twouse.backend.ontology">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZkvtyC6zEd-iWO_3XctrdA" name="OntologyCheck"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ssR_WC6zEd-iWO_3XctrdA" name="OntologyData" clientDependency="_Z9_HpC7IEd-brJBPktfXNQ">
+        <interfaceRealization xmi:id="_Z9_HpC7IEd-brJBPktfXNQ" supplier="_Wz7mci7IEd-brJBPktfXNQ" client="_ssR_WC6zEd-iWO_3XctrdA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uR55WC6zEd-iWO_3XctrdA" name="OntologyProvider" clientDependency="_Ys7IZC7IEd-brJBPktfXNQ">
+        <interfaceRealization xmi:id="_Ys7IZC7IEd-brJBPktfXNQ" supplier="_Ex1S8i7IEd-brJBPktfXNQ" client="_uR55WC6zEd-iWO_3XctrdA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_gTCIsC7JEd-brJBPktfXNQ" name="west.twouse.backend.ontology.transformations">
+        <packagedElement xmi:type="uml:Class" xmi:id="_jDKuCC7JEd-brJBPktfXNQ" name="Transformer" clientDependency="_1jXSwi7JEd-brJBPktfXNQ">
+          <interfaceRealization xmi:id="_1jXSwi7JEd-brJBPktfXNQ" supplier="_ykLk0i7JEd-brJBPktfXNQ" client="_jDKuCC7JEd-brJBPktfXNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="__akocC7JEd-brJBPktfXNQ" name="west.twouse.backend.ontology.transformations.owlizer">
+          <packagedElement xmi:type="uml:Class" xmi:id="_DwW9IAzBEd-DEu7sKGmR1A" name="OWLizerOpenDomain" clientDependency="_cwoRlC7MEd-brJBPktfXNQ">
+            <generalization xmi:id="_Fx9zEwzCEd-DEu7sKGmR1A" general="_EtcbAAzCEd-DEu7sKGmR1A"/>
+            <interfaceRealization xmi:id="_cwoRlC7MEd-brJBPktfXNQ" supplier="_bG1CMi7MEd-brJBPktfXNQ" client="_DwW9IAzBEd-DEu7sKGmR1A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_EtcbAAzCEd-DEu7sKGmR1A" name="OWLizer"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_bG1CMi7MEd-brJBPktfXNQ" name="IOWLizer"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ykLk0i7JEd-brJBPktfXNQ" name="ITransformer"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_Ex1S8i7IEd-brJBPktfXNQ" name="IOntologyProvider"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_Wz7mci7IEd-brJBPktfXNQ" name="IOntologyData"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_94cJUi6zEd-iWO_3XctrdA" name="west.twouse.ui.views.inferredclasshierarchy">
+      <packagedElement xmi:type="uml:Class" xmi:id="_TclAOC60Ed-iWO_3XctrdA" name="InferredClassHierarchy"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_5T1q0i61Ed-brJBPktfXNQ" name="west.twouse.ui.views.explanation">
+      <packagedElement xmi:type="uml:Class" xmi:id="_98X8OC61Ed-brJBPktfXNQ" name="ExplanationView"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_I5NGEi7KEd-brJBPktfXNQ" name="west.twouse.ui.menus.transform2owlfs">
+      <packagedElement xmi:type="uml:Class" xmi:id="_cYbe6C7KEd-brJBPktfXNQ" name="Transform2OwlFsHandler"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:CallEvent" xmi:id="_gkHCcjG6Ed-9yqPV8QnfGQ" name="CallEvent4"/>
+  </packagedElement>
+</uml:Model>

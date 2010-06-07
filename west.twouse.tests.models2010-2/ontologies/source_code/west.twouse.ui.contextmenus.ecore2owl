@@ -1,0 +1,218 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.rdfcoder.org/2007/1.0/" > 
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:setActivePart">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:setActivePart.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:&lt;init&gt;.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:selectionChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:selectionChanged.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="asset:">
+    <j.0:library_date>2010_05_02__15_15_22</j.0:library_date>
+    <j.0:library_location>/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.contextmenus.ecore2owl/bin</j.0:library_location>
+    <j.0:contains_library rdf:resource="asset:"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:setActivePart.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:setActivePart.jparameter:iworkbenchpart"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:setActivePart.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:selectionChanged.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:setActivePart.jparameter:iworkbenchpart">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPart</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jparameter:map"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jparameter:shell"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:&lt;init&gt;.jparameter:shell">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Shell</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:transform">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:transform.jsignature:_2"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:selectionChanged.jparameter:iselection">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ISelection</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:&lt;init&gt;.jparameter:map"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:&lt;init&gt;.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:&lt;init&gt;.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:&lt;init&gt;.jparameter:shell"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl">
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jattribute:selection">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ISelection"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:setActivePart.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:&lt;init&gt;.jparameter:map">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Map</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:run">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:run.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:createOptionAreas">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:createOptionAreas.jsignature:_1"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:run.jparameter:iaction">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.action.jclass:IAction</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jparameter:map">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:Map</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:createOptionAreas.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:createOptionAreas.jparameter:composite"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:transform.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.language.owl2fs.jclass:OntologyDocument</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:transform.jparameter:elist"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction">
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jattribute:selection"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:selectionChanged"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:run"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jconstructor:_0"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IObjectActionDelegate"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:&lt;init&gt;"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IActionDelegate"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:setActivePart"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:transform"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.contextmenus.ecore2owl/src/west/twouse/ui/contextmenus/ecore2owl/Ecore2OWLAction.java"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:createOptionAreas"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jconstructor:_0"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.window.jinterface:IShellProvider"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.backend.eclipseworkbench.dialogs.jclass:OptionsDialog"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.contextmenus.ecore2owl/src/west/twouse/ui/contextmenus/ecore2owl/Ecore2OWLOptionsDialog.java"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:run.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:run.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jparameter:shell">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Shell</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:&lt;init&gt;.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:selectionChanged.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:selectionChanged.jparameter:iselection"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:selectionChanged.jparameter:iaction"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLAction.jmethod:transform.jparameter:elist">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.emf.common.util.jclass:EList</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.contextmenus.ecore2owl.jclass:Ecore2OWLOptionsDialog.jmethod:createOptionAreas.jparameter:composite">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+</rdf:RDF>

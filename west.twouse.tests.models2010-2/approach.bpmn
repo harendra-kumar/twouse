@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:BpmnDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:bpmn="http://stp.eclipse.org/bpmn" xmi:id="_wHzuQPquEd6DOJ6uqo-HzQ" iD="_wHzHMPquEd6DOJ6uqo-HzQ">
+  <artifacts xmi:type="bpmn:DataObject" xmi:id="_-8-9UfqvEd6DOJ6uqo-HzQ" iD="_-8-9UPqvEd6DOJ6uqo-HzQ" name="uml.owl">
+    <associations xmi:type="bpmn:Association" xmi:id="_IofZUPqwEd6DOJ6uqo-HzQ" direction="To"/>
+  </artifacts>
+  <pools xmi:type="bpmn:Pool" xmi:id="_wIKTkfquEd6DOJ6uqo-HzQ" iD="_wIKTkPquEd6DOJ6uqo-HzQ" name="Developer">
+    <artifacts xmi:type="bpmn:DataObject" xmi:id="_ZCrJQfqvEd6DOJ6uqo-HzQ" iD="_ZCrJQPqvEd6DOJ6uqo-HzQ" name="uml.ecore">
+      <associations xmi:type="bpmn:Association" xmi:id="_DDNy4PqwEd6DOJ6uqo-HzQ" direction="To"/>
+      <associations xmi:type="bpmn:Association" xmi:id="_DrabUPqwEd6DOJ6uqo-HzQ" direction="From"/>
+    </artifacts>
+    <artifacts xmi:type="bpmn:DataObject" xmi:id="_bVijwfqvEd6DOJ6uqo-HzQ" iD="_bVijwPqvEd6DOJ6uqo-HzQ" name="uml.uml">
+      <associations xmi:type="bpmn:Association" xmi:id="_D9bYYPqwEd6DOJ6uqo-HzQ" direction="To"/>
+      <associations xmi:type="bpmn:Association" xmi:id="_ESUqUPqwEd6DOJ6uqo-HzQ" direction="From"/>
+      <associations xmi:type="bpmn:Association" xmi:id="_GO_LUPqwEd6DOJ6uqo-HzQ" direction="From"/>
+      <associations xmi:type="bpmn:Association" xmi:id="_KKJZUPqwEd6DOJ6uqo-HzQ" direction="From"/>
+    </artifacts>
+    <artifacts xmi:type="bpmn:DataObject" xmi:id="_hUE-wfqvEd6DOJ6uqo-HzQ" iD="_hUE-wPqvEd6DOJ6uqo-HzQ" name="UML Profile &#xD;&#xA;for OWL">
+      <associations xmi:type="bpmn:Association" xmi:id="_HJu8UPqwEd6DOJ6uqo-HzQ" direction="From"/>
+    </artifacts>
+    <vertices xmi:type="bpmn:Activity" xmi:id="_wIQaMPquEd6DOJ6uqo-HzQ" iD="_wIPzIPquEd6DOJ6uqo-HzQ" associations="_DDNy4PqwEd6DOJ6uqo-HzQ" outgoingEdges="_7IMsAfrOEd6DOJ6uqo-HzQ" incomingEdges="_D9-Z4frPEd6DOJ6uqo-HzQ" name="Develop Metamodel" activityType="Task"/>
+    <vertices xmi:type="bpmn:Activity" xmi:id="_U90zwfqvEd6DOJ6uqo-HzQ" iD="_U90zwPqvEd6DOJ6uqo-HzQ" associations="_DrabUPqwEd6DOJ6uqo-HzQ _D9bYYPqwEd6DOJ6uqo-HzQ" outgoingEdges="_7-9U4frOEd6DOJ6uqo-HzQ" incomingEdges="_7IMsAfrOEd6DOJ6uqo-HzQ" name="Ecore2UML"/>
+    <vertices xmi:type="bpmn:Activity" xmi:id="_eMfiwfqvEd6DOJ6uqo-HzQ" iD="_eMfiwPqvEd6DOJ6uqo-HzQ" associations="_ESUqUPqwEd6DOJ6uqo-HzQ _HJu8UPqwEd6DOJ6uqo-HzQ" outgoingEdges="_890J0frOEd6DOJ6uqo-HzQ" incomingEdges="_7-9U4frOEd6DOJ6uqo-HzQ" name="Annotate"/>
+    <vertices xmi:type="bpmn:Activity" xmi:id="_pIkOwfqvEd6DOJ6uqo-HzQ" iD="_pIkOwPqvEd6DOJ6uqo-HzQ" associations="_GO_LUPqwEd6DOJ6uqo-HzQ _IofZUPqwEd6DOJ6uqo-HzQ" incomingEdges="_890J0frOEd6DOJ6uqo-HzQ" name="UML2OWL">
+      <outgoingMessages xmi:type="bpmn:MessagingEdge" href="#_MCfC4frPEd6DOJ6uqo-HzQ"/>
+    </vertices>
+    <vertices xmi:type="bpmn:Activity" xmi:id="_DYWkUfrPEd6DOJ6uqo-HzQ" iD="_DYWkUPrPEd6DOJ6uqo-HzQ" outgoingEdges="_D9-Z4frPEd6DOJ6uqo-HzQ" activityType="EventStartEmpty"/>
+    <sequenceEdges xmi:type="bpmn:SequenceEdge" xmi:id="_7IMsAfrOEd6DOJ6uqo-HzQ" iD="_7IMsAPrOEd6DOJ6uqo-HzQ"/>
+    <sequenceEdges xmi:type="bpmn:SequenceEdge" xmi:id="_7-9U4frOEd6DOJ6uqo-HzQ" iD="_7-9U4PrOEd6DOJ6uqo-HzQ"/>
+    <sequenceEdges xmi:type="bpmn:SequenceEdge" xmi:id="_890J0frOEd6DOJ6uqo-HzQ" iD="_890J0PrOEd6DOJ6uqo-HzQ"/>
+    <sequenceEdges xmi:type="bpmn:SequenceEdge" xmi:id="_D9-Z4frPEd6DOJ6uqo-HzQ" iD="_D9-Z4PrPEd6DOJ6uqo-HzQ"/>
+  </pools>
+  <pools xmi:type="bpmn:Pool" xmi:id="_3jW50fquEd6DOJ6uqo-HzQ" iD="_3jW50PquEd6DOJ6uqo-HzQ" name="User">
+    <artifacts xmi:type="bpmn:DataObject" xmi:id="_25JpwfqvEd6DOJ6uqo-HzQ" iD="_25JpwPqvEd6DOJ6uqo-HzQ" name="running_exampel.uml">
+      <associations xmi:type="bpmn:Association" xmi:id="_Kqa00PqwEd6DOJ6uqo-HzQ" direction="From"/>
+      <associations xmi:type="bpmn:Association" xmi:id="_LAi10PqwEd6DOJ6uqo-HzQ" direction="To"/>
+    </artifacts>
+    <artifacts xmi:type="bpmn:DataObject" xmi:id="_qshjwfrOEd6DOJ6uqo-HzQ" iD="_qshjwPrOEd6DOJ6uqo-HzQ" name="running_example.owl">
+      <associations xmi:type="bpmn:Association" xmi:id="_xJm78PrOEd6DOJ6uqo-HzQ" direction="To"/>
+    </artifacts>
+    <vertices xmi:type="bpmn:Activity" xmi:id="_r5VtQfqvEd6DOJ6uqo-HzQ" iD="_r5VtQPqvEd6DOJ6uqo-HzQ" associations="_LAi10PqwEd6DOJ6uqo-HzQ" outgoingEdges="_-3b94frOEd6DOJ6uqo-HzQ" name="Develop Model">
+      <incomingMessages xmi:type="bpmn:MessagingEdge" href="#_MCfC4frPEd6DOJ6uqo-HzQ"/>
+    </vertices>
+    <vertices xmi:type="bpmn:Activity" xmi:id="_7MkmwfqvEd6DOJ6uqo-HzQ" iD="_7MkmwPqvEd6DOJ6uqo-HzQ" associations="_KKJZUPqwEd6DOJ6uqo-HzQ _Kqa00PqwEd6DOJ6uqo-HzQ _xJm78PrOEd6DOJ6uqo-HzQ" outgoingEdges="_BJQPgfrPEd6DOJ6uqo-HzQ" incomingEdges="_-3b94frOEd6DOJ6uqo-HzQ" name="Transform to OWL"/>
+    <vertices xmi:type="bpmn:Activity" xmi:id="_BJLXAfrPEd6DOJ6uqo-HzQ" iD="_BJLXAPrPEd6DOJ6uqo-HzQ" incomingEdges="_BJQPgfrPEd6DOJ6uqo-HzQ" activityType="EventEndEmpty"/>
+    <sequenceEdges xmi:type="bpmn:SequenceEdge" xmi:id="_-3b94frOEd6DOJ6uqo-HzQ" iD="_-3b94PrOEd6DOJ6uqo-HzQ"/>
+    <sequenceEdges xmi:type="bpmn:SequenceEdge" xmi:id="_BJQPgfrPEd6DOJ6uqo-HzQ" iD="_BJQPgPrPEd6DOJ6uqo-HzQ"/>
+  </pools>
+  <messages xmi:type="bpmn:MessagingEdge" xmi:id="_MCfC4frPEd6DOJ6uqo-HzQ" iD="_MCfC4PrPEd6DOJ6uqo-HzQ" source="_pIkOwfqvEd6DOJ6uqo-HzQ" target="_r5VtQfqvEd6DOJ6uqo-HzQ"/>
+</bpmn:BpmnDiagram>

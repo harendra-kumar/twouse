@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="DefaultName">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7DCZ4Fa9Ed-OfOy-oH_-gA" name="UseCase1">
+      <include xmi:id="_7uCetVa9Ed-OfOy-oH_-gA" name="Include1" addition="_7RUtgla9Ed-OfOy-oH_-gA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7RUtgla9Ed-OfOy-oH_-gA" name="UseCase2" classifierBehavior="_8b2m8Fa9Ed-OfOy-oH_-gA">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_8b2m8Fa9Ed-OfOy-oH_-gA" name="UseCase2Detail">
+        <node xmi:type="uml:OpaqueAction" xmi:id="_y7aWAla-Ed-OfOy-oH_-gA" name="OpaqueAction1"/>
+      </ownedBehavior>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

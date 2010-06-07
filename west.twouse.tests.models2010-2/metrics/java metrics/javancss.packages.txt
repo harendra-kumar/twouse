@@ -1,0 +1,153 @@
+Tue, May 04, 2010  12:04:13 Europe/Berlin
+
+Nr.   Classes Functions      NCSS  Javadocs Package
+  1         1         1        23         0 .
+  2         1         1        10         0 de.itemis.gmf.runtime.layout
+  3        10        36       435        12 de.uniko.isweb.twouse.trans.actions
+  4         1         6        87         7 de.uniko.isweb.twouse.trans.utils
+  5        37       356      1796       141 org.antlr.runtime
+  6        17       364      1623        54 org.antlr.runtime.debug
+  7         2        13        93         5 org.antlr.runtime.misc
+  8        33       324      1573       149 org.antlr.runtime.tree
+  9       148       646      2077       792 org.emftext.language.sparql
+ 10       146      1531     10087      1677 org.emftext.language.sparql.impl
+ 11        35       103       178         0 org.emftext.language.sparql.resource.sparql
+ 12        15        52       290         0 org.emftext.language.sparql.resource.sparql.analysis
+ 13        61       662     23709         1 org.emftext.language.sparql.resource.sparql.mopp
+ 14        90       424      3129         0 org.emftext.language.sparql.resource.sparql.ui
+ 15        13       105       653         0 org.emftext.language.sparql.resource.sparql.util
+ 16         3       442      2850       299 org.emftext.language.sparql.util
+ 17         1        10        42         8 org.neontoolkit.saiql
+ 18        14       187      1021       118 org.neontoolkit.saiql.base
+ 19        11        28        81        39 org.neontoolkit.saiql.exception
+ 20        44       156      1132       115 org.neontoolkit.saiql.grammar
+ 21         8       183      2963       117 org.neontoolkit.saiql.parser
+ 22         3         5        51         2 org.neontoolkit.saiql.util
+ 23         5        27       295        10 org.neontoolkit.saiql.views
+ 24         1         4        15         3 org.semanticweb.hermit
+ 25       127       776      2016       879 owl
+ 26       265      1639     10208      1904 owl.diagram.edit.commands
+ 27        75         5       179        80 owl.diagram.edit.helpers
+ 28      1116      7850     45620      7489 owl.diagram.edit.parts
+ 29       273       991     16102      1250 owl.diagram.edit.policies
+ 30         4        19       158        21 owl.diagram.expressions
+ 31        22       294      7159       287 owl.diagram.navigator
+ 32         4        43       341        47 owl.diagram.parsers
+ 33        61       966     10672       984 owl.diagram.part
+ 34         6         7        44        13 owl.diagram.preferences
+ 35        20       152      4625       164 owl.diagram.providers
+ 36         2        11        97        13 owl.diagram.sheet
+ 37       314       619      7467       933 owl.diagram.view.factories
+ 38       121      1654     11053      1769 owl.impl
+ 39        38       131      1131        91 owl.presentation
+ 40       124      1048      5474      1172 owl.provider
+ 41       124       601      1885       725 owl.tests
+ 42         3       367      2094       249 owl.util
+ 43         2       114       409         2 render.html
+ 44         1         4        17         3 west.twouse.backend
+ 45         9        58       374        35 west.twouse.backend.eclipseworkbench
+ 46         8        30       206         7 west.twouse.backend.eclipseworkbench.dialogs
+ 47         6        52       619        24 west.twouse.backend.ontology
+ 48         3        32       343         4 west.twouse.backend.ontology.cda
+ 49         2        10       164         2 west.twouse.backend.ontology.queryexecutions
+ 50         1        26       244        22 west.twouse.backend.ontology.transformations
+ 51         7       110      3102         5 west.twouse.backend.ontology.transformations.ecore
+ 52         1         2        28         1 west.twouse.backend.ontology.transformations.owl
+ 53         5        72       877         5 west.twouse.backend.ontology.transformations.owlizer
+ 54         2         6       142         2 west.twouse.backend.ontology.transformations.sparqlas
+ 55         5        35       775         9 west.twouse.backend.ontology.transformations.uml
+ 56         2         8       100         3 west.twouse.backend.other
+ 57         1         3        19         1 west.twouse.backend.standardization
+ 58         2         4       104         5 west.twouse.backend.util
+ 59         3        21       555         0 west.twouse.bpmn2owl
+ 60        56       319       828       375 west.twouse.language.MF
+ 61        55       624      4399       679 west.twouse.language.MF.impl
+ 62         3       169       734       117 west.twouse.language.MF.util
+ 63        35       103       178         0 west.twouse.language.manifest.resource.manifest
+ 64         4        19       180         0 west.twouse.language.manifest.resource.manifest.analysis
+ 65        59       528     17999         1 west.twouse.language.manifest.resource.manifest.mopp
+ 66        90       424      3129         0 west.twouse.language.manifest.resource.manifest.ui
+ 67        13       105       653         0 west.twouse.language.manifest.resource.manifest.util
+ 68       129       776      2013       896 west.twouse.language.owl2fs
+ 69       127      1711     12234      1838 west.twouse.language.owl2fs.impl
+ 70        36       105       182         0 west.twouse.language.owl2fs.resource.owl2fs
+ 71         9        34       230         0 west.twouse.language.owl2fs.resource.owl2fs.analysis
+ 72        65       610     22418         1 west.twouse.language.owl2fs.resource.owl2fs.mopp
+ 73        90       425      3137         0 west.twouse.language.owl2fs.resource.owl2fs.ui
+ 74        13       105       655         0 west.twouse.language.owl2fs.resource.owl2fs.util
+ 75         3       385      2218       261 west.twouse.language.owl2fs.util
+ 76       113       937      2540      1050 west.twouse.language.sparqlas
+ 77       111      1792     12387      1903 west.twouse.language.sparqlas.impl
+ 78        35       103       178         0 west.twouse.language.sparqlas.resource.sparqlas
+ 79         8        31       220         0 west.twouse.language.sparqlas.resource.sparqlas.analysis
+ 80        63       787     32649         1 west.twouse.language.sparqlas.resource.sparqlas.mopp
+ 81        90       424      3129         0 west.twouse.language.sparqlas.resource.sparqlas.ui
+ 82        13       105       653         0 west.twouse.language.sparqlas.resource.sparqlas.util
+ 83         6       662      3884       450 west.twouse.language.sparqlas.util
+ 84         4         4        44         8 west.twouse.language.sparqlas4ecore
+ 85         3        29       259        32 west.twouse.language.sparqlas4ecore.impl
+ 86        35       103       178         0 west.twouse.language.sparqlas4ecore.resource.sparqlas4ecore
+ 87         3         6       124         0 west.twouse.language.sparqlas4ecore.resource.sparqlas4ecore.actions
+ 88        14        55       268         0 west.twouse.language.sparqlas4ecore.resource.sparqlas4ecore.analysis
+ 89        64       797     33253         1 west.twouse.language.sparqlas4ecore.resource.sparqlas4ecore.mopp
+ 90        90       424      3131         0 west.twouse.language.sparqlas4ecore.resource.sparqlas4ecore.ui
+ 91        13       105       653         0 west.twouse.language.sparqlas4ecore.resource.sparqlas4ecore.util
+ 92         4        30       133        23 west.twouse.language.sparqlas4ecore.util
+ 93         4         4        89         8 west.twouse.language.sparqlas4uml
+ 94         3        29       259        32 west.twouse.language.sparqlas4uml.impl
+ 95        35       103       178         0 west.twouse.language.sparqlas4uml.resource.sparqlas4uml
+ 96         1         5       104         0 west.twouse.language.sparqlas4uml.resource.sparqlas4uml.actions
+ 97        14        55       268         0 west.twouse.language.sparqlas4uml.resource.sparqlas4uml.analysis
+ 98        64       797     33343         1 west.twouse.language.sparqlas4uml.resource.sparqlas4uml.mopp
+ 99        90       424      3129         0 west.twouse.language.sparqlas4uml.resource.sparqlas4uml.ui
+100        13       105       653         0 west.twouse.language.sparqlas4uml.resource.sparqlas4uml.util
+101         7        68       280        53 west.twouse.language.sparqlas4uml.util
+102       110       597      1528       707 west.twouse.language.sparqlms
+103       109      1444     10373      1553 west.twouse.language.sparqlms.impl
+104        36       105       182         0 west.twouse.language.sparqlms.resource.sparqlms
+105         9        34       230         0 west.twouse.language.sparqlms.resource.sparqlms.analysis
+106        76       895     40947         1 west.twouse.language.sparqlms.resource.sparqlms.mopp
+107        90       424      3129         0 west.twouse.language.sparqlms.resource.sparqlms.ui
+108        13       105       653         0 west.twouse.language.sparqlms.resource.sparqlms.util
+109         3       331      1942       225 west.twouse.language.sparqlms.util
+110         1        17       468         0 west.twouse.refactoring
+111         2        14       101         0 west.twouse.refactoring.ui
+112         1         4        15         3 west.twouse.ui.branding
+113         2         6        70         0 west.twouse.ui.contextmenus.ecore2owl
+114         2         7        39         3 west.twouse.ui.contextmenus.owlecore2owl
+115         4        14       188         0 west.twouse.ui.contextmenus.owlizer
+116         2         7        80         3 west.twouse.ui.contextmenus.querysubsumption
+117         3        10        63         3 west.twouse.ui.contextmenus.sparqlas2sparql
+118         2         8        43         6 west.twouse.ui.contextmenus.sparqlasqueryexecution
+119         2         8        43         6 west.twouse.ui.contextmenus.sparqlqueryexecution
+120         2         8        41         3 west.twouse.ui.contextmenus.transform2owlfs
+121         2         8        86         4 west.twouse.ui.contextmenus.transform2owlfs.cda
+122         2         8        41         3 west.twouse.ui.contextmenus.transform2owlrdfxml
+123         2         6        25         6 west.twouse.ui.menus.sparqlqueryexecution
+124         2         5        54         3 west.twouse.ui.menus.transform2owlfs
+125         2         6        55         6 west.twouse.ui.menus.transform2owlrdfxml
+126         1         4        15         3 west.twouse.ui.menus.transformsparqlas2sparql
+127         2         7        55         3 west.twouse.ui.perspectives.obsdevelopment
+128         2         7        50         3 west.twouse.ui.perspectives.ontologydev
+129         2         7        29         6 west.twouse.ui.toolbars.checkconsistency
+130         2         6        29         6 west.twouse.ui.toolbars.checkunsatisfiability
+131         2        11       155         6 west.twouse.ui.toolbars.executesparqlas4uml
+132         2         6        24         5 west.twouse.ui.toolbars.sparqlqueryexecution
+133        11        34       421         9 west.twouse.ui.views.entitybrowser
+134         2         6        20         0 west.twouse.ui.views.entitybrowser.commplatform
+135         8        26       315         3 west.twouse.ui.views.explanation
+136         7        32       206         3 west.twouse.ui.views.inferredclasshierarchy
+137        12        46       487        17 west.twouse.ui.views.sparqlas
+138         5        13        97         3 west.twouse.ui.wizards.examplewizards
+139         8         8        48         0 west.twouse.ui.wizards.examplewizards.examples
+140         1         2        47         0 west.twouse.ui.wizards.examplewizards.util
+141         6        15       167         3 west.twouse.ui.wizards.importwizards.importontologies
+    --------- --------- --------- ---------
+         5698     42153    454350     32084 Total
+
+ Packages   Classes Functions      NCSS  Javadocs | per
+-------------------------------------------------------------
+   141.00   5698.00  42153.00 454350.00  32084.00 | Project
+              40.41    298.96   3222.34    227.55 | Package
+                         7.40     79.74      5.63 | Class
+                                  10.78      0.76 | Function

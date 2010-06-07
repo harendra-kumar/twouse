@@ -1,0 +1,1651 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.rdfcoder.org/2007/1.0/" > 
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:&lt;init&gt;.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:widgetSelected">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:widgetSelected.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:&lt;init&gt;.jsignature:_3"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$5.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:&lt;init&gt;.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:&lt;init&gt;.jparameter:columnviewer"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:&lt;init&gt;.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:&lt;init&gt;.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:widgetDefaultSelected">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:widgetDefaultSelected.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:getValue">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:getValue.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:buttonChooseOntology">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Button"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createSparqlasViewer.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createSparqlasViewer.jparameter:composite"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createPartControl">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createPartControl.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageOpened.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageOpened.jparameter:iworkbenchpage"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jmethod:update.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jmethod:update.jparameter:viewercell"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:&lt;init&gt;.jparameter:sparqlvariableinformation$variabletype"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:&lt;init&gt;.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:&lt;init&gt;.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:executeNewSparqlasQuery.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:stop.jparameter:bundlecontext">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.osgi.framework.jclass:BundleContext</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:start">
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Exception"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:start.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partBroughtToTop">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partBroughtToTop.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jattribute:$SWITCH_TABLE$west$twouse$ui$views$sparqlas$SparqlVariableInformation$VariableType">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jattribute:tuple">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:executeNewSparqlasQuery.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:executeNewSparqlasQuery.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:columnValue">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:TableViewerColumn"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:&lt;init&gt;.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:executeNewSparqlasQuery">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:executeNewSparqlasQuery.jsignature:_4"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:getImageDescriptor.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.resource.jclass:ImageDescriptor</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:getImageDescriptor.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partClosed">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partClosed.jsignature:_6"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setVariableType.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setVariableType.jparameter:sparqlvariableinformation$variabletype"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jparameter:columnviewer">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ColumnViewer</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:ID">
+    <j.0:attribute_value>CONSTANT_String[8](string_index = 9)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:widgetSelected.jparameter:selectionevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:&lt;init&gt;.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:typeVariable">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:TableViewerColumn"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:&lt;init&gt;.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$1.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:&lt;init&gt;.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:resourceChanged">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:resourceChanged.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:&lt;init&gt;.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partDeactivated.jparameter:iworkbenchpart">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPart</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jconstructor:_3">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jparameter:sparqlasview$buttonontologyselectionlistener"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jparameter:sparqlasview"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation">
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setVariable"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setValue"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:getVariableType"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:getVariable"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setVariableType"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:&lt;init&gt;"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jattribute:variableType"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.sparqlas/src/west/twouse/ui/views/sparqlas/SparqlVariableInformation.java"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jconstructor:_0"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jattribute:value"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:getValue"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jattribute:variable"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:start.jparameter:bundlecontext">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.osgi.framework.jclass:BundleContext</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:&lt;init&gt;.jparameter:composite">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="asset:">
+    <j.0:library_date>2010_05_02__15_16_08</j.0:library_date>
+    <j.0:library_location>/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.sparqlas/bin</j.0:library_location>
+    <j.0:contains_library rdf:resource="asset:"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:$SWITCH_TABLE$west$twouse$ui$views$sparqlas$SparqlVariableInformation$VariableType.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jenumeration:SparqlVariableInformation$VariableType.jconstructor:_1">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jenumeration:SparqlVariableInformation$VariableType.jparameter:i"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jenumeration:SparqlVariableInformation$VariableType.jparameter:s"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createChooseOntologyPart.jparameter:composite">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:&lt;init&gt;.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jenumeration:SparqlVariableInformation$VariableType">
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jenumeration:SparqlVariableInformation$VariableType.jconstructor:_1"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jattribute:ENUM$VALUES"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:values"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:&lt;clinit&gt;"/>
+    <j.0:has_modifiers>66</j.0:has_modifiers>
+    <j.0:contains_element rdf:resource="jelement:INDIVIDUAL"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:valueOf"/>
+    <j.0:contains_element rdf:resource="jelement:OBJECTPROPERTY"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:&lt;init&gt;"/>
+    <j.0:contains_element rdf:resource="jelement:CLASS"/>
+    <j.0:contains_element rdf:resource="jelement:DATAPROPERTY"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JEnumeration"/>
+    <j.0:contains_element rdf:resource="jelement:LITERAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:valueOf.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partDeactivated.jsignature:_7">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partDeactivated.jparameter:iworkbenchpart"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:&lt;init&gt;.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:valueOf.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:valueOf.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1">
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jinterface:IBaseLabelProvider"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.sparqlas/src/west/twouse/ui/views/sparqlas/SparqlAsView$1.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jmethod:update"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jattribute:this$0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jmethod:&lt;init&gt;"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jconstructor:_0"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:CellLabelProvider"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jparameter:columnviewer"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jparameter:sparqlasview"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageActivated.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageActivated.jparameter:iworkbenchpage"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jmethod:update">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jmethod:update.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createPartControl.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createPartControl.jparameter:composite"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jmethod:&lt;init&gt;.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:widgetSelected">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:widgetSelected.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:start.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:start.jparameter:bundlecontext"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:&lt;init&gt;.jparameter:columnviewer">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ColumnViewer</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:currentSparqlasFile">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$2.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:values.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$0.jsignature:_10">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Text</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$0.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageClosed">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageClosed.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:widgetDefaultSelected.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:widgetDefaultSelected.jparameter:selectionevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jenumeration:SparqlVariableInformation$VariableType.jparameter:i">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:getCellEditor.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:CellEditor</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:getCellEditor.jparameter:o"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jattribute:ENUM$VALUES">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:setValue.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:setValue.jparameter:o2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:setValue.jparameter:o"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:&lt;init&gt;.jparameter:i"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:&lt;init&gt;.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:openDialogBox">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:openDialogBox.jsignature:_1"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:&lt;init&gt;.jparameter:sparqlasview$buttonontologyselectionlistener">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:widgetDefaultSelected.jparameter:selectionevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jattribute:value">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$3.jsignature:_13">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:TableViewer</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$3.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jparameter:composite">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:openDialogBox.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:openDialogBox.jparameter:control"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jparameter:sparqlvariableinformation">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jparameter:sparqlvariableinformation$variabletype"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jparameter:s"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageClosed.jparameter:iworkbenchpage">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPage</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:&lt;init&gt;.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jparameter:sparqlasview$resourcelistener">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:valueOf">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:valueOf.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jmethod:&lt;init&gt;.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageOpened.jparameter:iworkbenchpage">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPage</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:&lt;init&gt;.jparameter:sparqlvariableinformation"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:&lt;init&gt;.jparameter:composite"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:&lt;init&gt;.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jparameter:sparqlasview"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:getImageDescriptor.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:setValue">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:setValue.jsignature:_4"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createExecutionButton.jparameter:composite">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageClosed.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageClosed.jparameter:iworkbenchpage"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:setValue.jparameter:o2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:&lt;init&gt;.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partOpened.jsignature:_8">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partOpened.jparameter:iworkbenchpart"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setVariable">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setVariable.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$5.jsignature:_15">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$5.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$5.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:$SWITCH_TABLE$west$twouse$ui$views$sparqlas$SparqlVariableInformation$VariableType">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:$SWITCH_TABLE$west$twouse$ui$views$sparqlas$SparqlVariableInformation$VariableType.jsignature:_2"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:&lt;init&gt;.jparameter:sparqlvariableinformation$variabletype">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$0.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jconstructor:_3">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jparameter:sparqlasview$resourcelistener"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jparameter:sparqlasview"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:collectNamespaceDeclarations.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:ArrayList</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jmethod:&lt;init&gt;.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener">
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jconstructor:_0"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jinterface:EventListener"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:widgetSelected"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jconstructor:_3"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jinterface:SelectionListener"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:widgetDefaultSelected"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.sparqlas/src/west/twouse/ui/views/sparqlas/SparqlAsView$ButtonOntologySelectionListener.java"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.internal.jinterface:SWTEventListener"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jattribute:this$0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jattribute:$SWITCH_TABLE$west$twouse$ui$views$sparqlas$SparqlVariableInformation$VariableType">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jprimitive:int"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:&lt;init&gt;.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partClosed.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partClosed.jparameter:iworkbenchpart"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:&lt;init&gt;.jparameter:sparqlasview$pagepartlistener">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:openDialogBox.jparameter:control">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Control</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$4.jsignature:_14">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$4.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$4.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:&lt;init&gt;.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:&lt;init&gt;.jparameter:sparqlasview$resourcelistener"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:&lt;init&gt;.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:getValue.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:getValue.jparameter:o"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:update.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:update.jparameter:viewercell"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jparameter:sparqlasview"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partBroughtToTop.jsignature:_5">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partBroughtToTop.jparameter:iworkbenchpart"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partActivated.jparameter:iworkbenchpart">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPart</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partActivated">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partActivated.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:&lt;init&gt;.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:&lt;init&gt;.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$4.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:&lt;init&gt;.jsignature:_9"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:updateInput.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:updateInput.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jparameter:sparqlvariableinformation"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jparameter:composite"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jparameter:sparqlasview"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jmethod:update.jparameter:viewercell">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ViewerCell</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:getVariableType">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:getVariableType.jsignature:_6"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setVariableType">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setVariableType.jsignature:_5"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:&lt;init&gt;.jsignature:_9">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:&lt;init&gt;.jparameter:sparqlasview$pagepartlistener"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:&lt;init&gt;.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:stop">
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Exception"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:stop.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createSparqlasViewer.jparameter:composite">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jparameter:sparqlvariableinformation$variabletype">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:getVariableType.jsignature:_6">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:&lt;init&gt;.jparameter:i">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:buttonExecute">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Button"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:setValue.jparameter:o">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:update.jparameter:viewercell">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ViewerCell</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createChooseOntologyPart">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createChooseOntologyPart.jsignature:_2"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:collectNamespaceDeclarations">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:collectNamespaceDeclarations.jsignature:_5"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$3">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$3.jsignature:_13"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partActivated.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partActivated.jparameter:iworkbenchpart"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jattribute:currentSparqlasFile">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jparameter:sparqlasview$pagepartlistener">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jmethod:update.jparameter:viewercell">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:ViewerCell</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setVariable.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setVariable.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$1.jsignature:_11">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$1.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createSparqlasViewer">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createSparqlasViewer.jsignature:_6"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jattribute:plugin">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageActivated">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageActivated.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createExecutionButton.jsignature:_8">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createExecutionButton.jparameter:composite"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:columnVariable">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:TableViewerColumn"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:getValue.jparameter:o">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:getValue.jsignature:_4">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jattribute:variable">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createColumns.jparameter:tablecolumnlayout">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.layout.jclass:TableColumnLayout</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createColumns">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createColumns.jsignature:_7"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:$SWITCH_TABLE$west$twouse$ui$views$sparqlas$SparqlVariableInformation$VariableType">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:$SWITCH_TABLE$west$twouse$ui$views$sparqlas$SparqlVariableInformation$VariableType.jsignature:_2"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:stop.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:stop.jparameter:bundlecontext"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:getVariable">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:getVariable.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$2">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$2.jsignature:_12"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:getDefault">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:getDefault.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createChooseOntologyPart.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createChooseOntologyPart.jparameter:composite"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageActivated.jparameter:iworkbenchpage">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPage</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:&lt;init&gt;.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:&lt;init&gt;.jparameter:sparqlasview$buttonontologyselectionlistener"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:&lt;init&gt;.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:widgetDefaultSelected.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:widgetDefaultSelected.jparameter:selectionevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createPartControl.jparameter:composite">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor">
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jattribute:$SWITCH_TABLE$west$twouse$ui$views$sparqlas$SparqlVariableInformation$VariableType"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.sparqlas/src/west/twouse/ui/views/sparqlas/SparqlAsView$OwlDialogCellEditor.java"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jattribute:this$0"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jconstructor:_0"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:&lt;init&gt;"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jattribute:tuple"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:DialogCellEditor"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:openDialogBox"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:$SWITCH_TABLE$west$twouse$ui$views$sparqlas$SparqlVariableInformation$VariableType"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:canEdit.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:canEdit.jparameter:o"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jparameter:sparqlasview"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$5">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$5.jsignature:_15"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$4.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partClosed.jparameter:iworkbenchpart">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPart</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas">
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation"/>
+    <j.0:contains_enumeration rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jenumeration:SparqlVariableInformation$VariableType"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jparameter:sparqlasview"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:start"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:getDefault"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jattribute:plugin"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.osgi.framework.jinterface:BundleActivator"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.sparqlas/src/west/twouse/ui/views/sparqlas/Activator.java"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:stop"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jconstructor:_0"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jattribute:PLUGIN_ID"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.plugin.jclass:AbstractUIPlugin"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:getImageDescriptor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jparameter:sparqlasview"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:resourceChanged.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:resourceChanged.jparameter:iresourcechangeevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jenumeration:SparqlVariableInformation$VariableType.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:getVariable.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageOpened">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageOpened.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:getCellEditor.jparameter:o">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jmethod:&lt;init&gt;.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:getValue">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:getValue.jsignature:_3"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setVariable.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createColumns.jsignature:_7">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createColumns.jparameter:tablecolumnlayout"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:canEdit.jparameter:o">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$5.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$4">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$4.jsignature:_14"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:getImageDescriptor">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:getImageDescriptor.jsignature:_4"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:widgetSelected.jparameter:selectionevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:updateInput.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:widgetSelected.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:widgetSelected.jparameter:selectionevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:canEdit">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:canEdit.jsignature:_1"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jattribute:PLUGIN_ID">
+    <j.0:attribute_value>CONSTANT_String[8](string_index = 9)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2">
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:CellLabelProvider"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.sparqlas/src/west/twouse/ui/views/sparqlas/SparqlAsView$2.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:&lt;init&gt;"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jattribute:$SWITCH_TABLE$west$twouse$ui$views$sparqlas$SparqlVariableInformation$VariableType"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jattribute:this$0"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jconstructor:_0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:$SWITCH_TABLE$west$twouse$ui$views$sparqlas$SparqlVariableInformation$VariableType"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:update"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jinterface:IBaseLabelProvider"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:listSparqlVariableInformation">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jclass:ArrayList"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:&lt;init&gt;.jparameter:sparqlvariableinformation">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:visit">
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.runtime.jclass:CoreException"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:visit.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setValue.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:textOntology">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Text"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:update">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$2.jmethod:update.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partDeactivated">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partDeactivated.jsignature:_7"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$OwlDialogCellEditor.jmethod:$SWITCH_TABLE$west$twouse$ui$views$sparqlas$SparqlVariableInformation$VariableType.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:int</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:&lt;init&gt;.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setVariableType.jparameter:sparqlvariableinformation$variabletype">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:values">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:values.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jparameter:sparqlasview"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:&lt;init&gt;.jparameter:sparqlasview$resourcelistener">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:&lt;init&gt;.jsignature:_3"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jmethod:update">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jmethod:update.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:setFocus.jsignature:_9">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jmethod:&lt;init&gt;"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:CellLabelProvider"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jmethod:update"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.sparqlas/src/west/twouse/ui/views/sparqlas/SparqlAsView$3.java"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jattribute:this$0"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jinterface:IBaseLabelProvider"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$3.jconstructor:_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jattribute:variableType">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:NOVALUE">
+    <j.0:attribute_value>CONSTANT_String[8](string_index = 12)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator.jmethod:getDefault.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:Activator</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:visit.jparameter:iresourcedelta">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.resources.jclass:IResourceDelta</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:viewer">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:TableViewer"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$2.jsignature:_12">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Button</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$2.jparameter:sparqlasview"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:setFocus">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:setFocus.jsignature:_9"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jconstructor:_9">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jparameter:sparqlasview$pagepartlistener"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jparameter:sparqlasview"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jparameter:sparqlasview$buttonontologyselectionlistener">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partBroughtToTop.jparameter:iworkbenchpart">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPart</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:visit.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:visit.jparameter:iresourcedelta"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createExecutionButton">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createExecutionButton.jsignature:_8"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener">
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jconstructor:_3"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:resourceChanged"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:visit"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.sparqlas/src/west/twouse/ui/views/sparqlas/SparqlAsView$ResourceListener.java"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.resources.jinterface:IResourceChangeListener"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.resources.jinterface:IResourceDeltaVisitor"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jattribute:currentSparqlasFile"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jattribute:this$0"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jinterface:EventListener"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:&lt;init&gt;"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jconstructor:_0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$1">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$1.jsignature:_11"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4">
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jinterface:SelectionListener"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:widgetSelected"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jattribute:this$0"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:widgetDefaultSelected"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.internal.jinterface:SWTEventListener"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jconstructor:_0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:&lt;init&gt;"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jinterface:EventListener"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.sparqlas/src/west/twouse/ui/views/sparqlas/SparqlAsView$4.java"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation$VariableType.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$3.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:getCellEditor">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:getCellEditor.jsignature:_2"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener">
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.sparqlas/src/west/twouse/ui/views/sparqlas/SparqlAsView$PagePartListener.java"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IPageListener"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageClosed"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jattribute:this$0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partActivated"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jconstructor:_0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageOpened"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IPartListener"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partDeactivated"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partBroughtToTop"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:pageActivated"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partOpened"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jconstructor:_9"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partClosed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:workspace">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.resources.jclass:IWorkspace"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setValue.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setValue.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jparameter:sparqlasview">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partOpened.jparameter:iworkbenchpart">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbenchPart</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:&lt;init&gt;.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.sparqlas/src/west/twouse/ui/views/sparqlas/SparqlAsView$ValueEditingSupport.java"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:EditingSupport"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:getValue"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:&lt;init&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jattribute:this$0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:getCellEditor"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:canEdit"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jconstructor:_0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ValueEditingSupport.jmethod:setValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partOpened">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$PagePartListener.jmethod:partOpened.jsignature:_8"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:widgetSelected.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$4.jmethod:widgetSelected.jparameter:selectionevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:updateInput">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:updateInput.jsignature:_3"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createPartControl"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:ID"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IPersistable"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IWorkbenchPart2"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.part.jinterface:IWorkbenchPartOrientation"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.part.jclass:ViewPart"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createChooseOntologyPart"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jconstructor:_0"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:typeVariable"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$4"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$2"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.runtime.jinterface:IExecutableExtension"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:collectNamespaceDeclarations"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:textOntology"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$0"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:listSparqlVariableInformation"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:buttonExecute"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createExecutionButton"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.views.sparqlas/src/west/twouse/ui/views/sparqlas/SparqlAsView.java"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:columnVariable"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createColumns"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:viewer"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:setFocus"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:NOVALUE"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IWorkbenchPart3"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:columnValue"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:updateInput"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:createSparqlasViewer"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$5"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$3"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:currentSparqlasFile"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IViewPart"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IWorkbenchPart"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:workspace"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:executeNewSparqlasQuery"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jattribute:buttonChooseOntology"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$1"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.runtime.jinterface:IAdaptable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:widgetDefaultSelected.jparameter:selectionevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$0">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView.jmethod:access$0.jsignature:_10"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:widgetDefaultSelected">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jmethod:widgetDefaultSelected.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jmethod:update.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$1.jmethod:update.jparameter:viewercell"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ResourceListener.jmethod:resourceChanged.jparameter:iresourcechangeevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.core.resources.jclass:IResourceChangeEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlAsView$ButtonOntologySelectionListener.jparameter:sparqlasview"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setValue">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.views.sparqlas.jclass:SparqlVariableInformation.jmethod:setValue.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+</rdf:RDF>

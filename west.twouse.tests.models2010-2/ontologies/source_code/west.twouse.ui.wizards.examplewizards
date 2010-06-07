@@ -1,0 +1,896 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.0="http://www.rdfcoder.org/2007/1.0/" > 
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:access$0.jparameter:createexamplepage">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:getOutputFolder">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:getOutputFolder.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UMLClassDiagramWizard.jattribute:sources">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:OWL2OntologyTemplateWizard.jattribute:sources">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaEditorOntologyWizard.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaEditorOntologyWizard.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jattribute:containerText">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Text"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlWizard">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlWizard.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlWizard.jconstructor:_1"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlWizard.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlWizard.jattribute:sources"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/src/west/twouse/ui/wizards/examplewizards/examples/SparqlWizard.java"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jmethod:&lt;init&gt;.jparameter:createexamplepage"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:OWL2OntologyTemplateWizard.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:copyResourceToPath"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:getOutputFolder"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jconstructor:_0"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Object"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/src/west/twouse/ui/wizards/examplewizards/util/FileCopy.java"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:&lt;init&gt;.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleOWL2EditorWizard">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleOWL2EditorWizard.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleOWL2EditorWizard.jconstructor:_1"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleOWL2EditorWizard.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleOWL2EditorWizard.jattribute:sources"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/src/west/twouse/ui/wizards/examplewizards/examples/UncleOWL2EditorWizard.java"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlWizard.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlWizard.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:OWL2OntologyTemplateWizard">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:OWL2OntologyTemplateWizard.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:OWL2OntologyTemplateWizard.jconstructor:_1"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:OWL2OntologyTemplateWizard.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:OWL2OntologyTemplateWizard.jattribute:sources"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/src/west/twouse/ui/wizards/examplewizards/examples/OWL2OntologyTemplateWizard.java"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jparameter:createexamplepage"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jattribute:sources">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleOWL2EditorWizard.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jmethod:widgetSelected.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jmethod:widgetSelected.jparameter:selectionevent"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:copyResourceToPath.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaFunctionalWizard.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:copySources.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jattribute:folderLocation">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlWizard.jattribute:sources">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleUMLProfiled4SWRLWizard.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jconstructor:_0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:access$0"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jattribute:containerText"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jattribute:folderLocation"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.wizard.jclass:WizardPage"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.dialogs.jinterface:IMessageProvider"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:createControl"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.wizard.jinterface:IWizardPage"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.dialogs.jinterface:IDialogPage"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:getContainerPath"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/src/west/twouse/ui/wizards/examplewizards/CreateExamplePage.java"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:createControl.jparameter:composite">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Composite</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:start.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:start.jparameter:bundlecontext"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlASWizard.jattribute:sources">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UMLClassDiagramWizard.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jparameter:s3"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jparameter:s"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleOWL2EditorWizard.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:OWL2OntologyTemplateWizard.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:access$0">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:access$0.jsignature:_3"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaEditorOntologyWizard.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlWizard.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jattribute:folderLocation">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jparameter:s3"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jparameter:ss"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jmethod:&lt;init&gt;.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleOWL2EditorWizard.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleOWL2EditorWizard.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlASWizard.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlASWizard.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaEditorOntologyWizard.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jattribute:plugin">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="asset:">
+    <j.0:library_date>2010_05_02__15_15_14</j.0:library_date>
+    <j.0:library_location>/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/bin</j.0:library_location>
+    <j.0:contains_library rdf:resource="asset:"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:access$0.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.widgets.jclass:Text</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:access$0.jparameter:createexamplepage"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleOWL2EditorWizard.jattribute:sources">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jconstructor:_0">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaFunctionalWizard.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util">
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleUMLProfiled4SWRLWizard.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UMLClassDiagramWizard.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UMLClassDiagramWizard.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:createControl.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:createControl.jparameter:composite"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jattribute:PLUGIN_ID">
+    <j.0:attribute_value>CONSTANT_String[8](string_index = 9)</j.0:attribute_value>
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlASWizard">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlASWizard.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlASWizard.jconstructor:_1"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlASWizard.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlASWizard.jattribute:sources"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/src/west/twouse/ui/wizards/examplewizards/examples/SparqlASWizard.java"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlWizard.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:&lt;init&gt;.jparameter:s3">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:OWL2OntologyTemplateWizard.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:OWL2OntologyTemplateWizard.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:init.jparameter:iworkbench">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jclass:IWorkbench</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:copyResourceToPath">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:copyResourceToPath.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jattribute:folderLocation">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>protected</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage">
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.dialogs.jclass:WizardNewProjectCreationPage"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.dialogs.jinterface:IMessageProvider"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.dialogs.jinterface:IDialogPage"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/src/west/twouse/ui/wizards/examplewizards/CreateExampleProjectPage.java"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.wizard.jinterface:IWizardPage"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jattribute:folderLocation"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jconstructor:_0"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jmethod:&lt;init&gt;"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jmethod:&lt;init&gt;.jparameter:createexamplepage">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlASWizard.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:init">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:init.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1">
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.util.jinterface:EventListener"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jattribute:this$0"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.internal.jinterface:SWTEventListener"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jmethod:widgetSelected"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/src/west/twouse/ui/wizards/examplewizards/CreateExamplePage$1.java"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionAdapter"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jconstructor:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jinterface:SelectionListener"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:&lt;init&gt;.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator">
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.osgi.framework.jinterface:BundleActivator"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jattribute:PLUGIN_ID"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:getDefault"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:start"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:&lt;init&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jattribute:plugin"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/src/west/twouse/ui/wizards/examplewizards/Activator.java"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.plugin.jclass:AbstractUIPlugin"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:stop"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jconstructor:_0"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:copyResourceToPath.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleOWL2EditorWizard.jmethod:&lt;clinit&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jattribute:page">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jparameter:ss">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:copySources">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:copySources.jsignature:_2"/>
+    <j.0:has_visibility>private</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlASWizard.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaFunctionalWizard.jattribute:sources">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:init.jparameter:istructuredselection">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.viewers.jclass:IStructuredSelection</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:stop">
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Exception"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:stop.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples"/>
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlWizard.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleUMLProfiled4SWRLWizard.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleUMLProfiled4SWRLWizard.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:&lt;init&gt;.jparameter:s3"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:&lt;init&gt;.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:&lt;init&gt;.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlASWizard.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlASWizard.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:&lt;init&gt;.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UMLClassDiagramWizard.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UMLClassDiagramWizard.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UMLClassDiagramWizard.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:&lt;init&gt;.jparameter:s3"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:&lt;init&gt;.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:&lt;init&gt;.jparameter:s"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:&lt;init&gt;.jparameter:ss"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west">
+    <j.0:contains_package rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleUMLProfiled4SWRLWizard">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleUMLProfiled4SWRLWizard.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleUMLProfiled4SWRLWizard.jconstructor:_1"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleUMLProfiled4SWRLWizard.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleUMLProfiled4SWRLWizard.jattribute:sources"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/src/west/twouse/ui/wizards/examplewizards/examples/UncleUMLProfiled4SWRLWizard.java"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:&lt;init&gt;.jparameter:s3">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jattribute:this$0">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>2</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:getDefault">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:getDefault.jsignature:_3"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:OWL2OntologyTemplateWizard.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleOWL2EditorWizard.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleOWL2EditorWizard.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jparameter:s3">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:performFinish.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jparameter:s3">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlWizard.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlWizard.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UMLClassDiagramWizard">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UMLClassDiagramWizard.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UMLClassDiagramWizard.jconstructor:_1"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UMLClassDiagramWizard.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UMLClassDiagramWizard.jattribute:sources"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/src/west/twouse/ui/wizards/examplewizards/examples/UMLClassDiagramWizard.java"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaFunctionalWizard.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:copyResourceToPath.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:boolean</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:copyResourceToPath.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:copyResourceToPath.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:init.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:init.jparameter:istructuredselection"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:init.jparameter:iworkbench"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jmethod:&lt;init&gt;.jparameter:s3"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jmethod:&lt;init&gt;.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jmethod:&lt;init&gt;.jparameter:s"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaFunctionalWizard.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaFunctionalWizard.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:&lt;init&gt;.jparameter:s">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:getOutputFolder.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.util.jclass:FileCopy.jmethod:&lt;init&gt;.jsignature:_0">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples">
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleOWL2EditorWizard"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaEditorOntologyWizard"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlASWizard"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UMLClassDiagramWizard"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:OWL2OntologyTemplateWizard"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleUMLProfiled4SWRLWizard"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaFunctionalWizard"/>
+    <j.0:contains_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlWizard"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JPackage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jmethod:widgetSelected.jparameter:selectionevent">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.swt.events.jclass:SelectionEvent</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jparameter:s3">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard">
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:IWorkbenchWizard"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:performFinish"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jattribute:sources"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jattribute:page"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jconstructor:_0"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jattribute:folderLocation"/>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.ui.jinterface:INewWizard"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:implements_int rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.wizard.jinterface:IWizard"/>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/src/west/twouse/ui/wizards/examplewizards/ExampleWizard.java"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:&lt;init&gt;"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:copySources"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:org.eclipse.jface.wizard.jclass:Wizard"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:init"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:getContainerPath">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:getContainerPath.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaEditorOntologyWizard.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleUMLProfiled4SWRLWizard.jattribute:sources">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jmethod:widgetSelected">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jmethod:widgetSelected.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UMLClassDiagramWizard.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaFunctionalWizard">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaFunctionalWizard.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaFunctionalWizard.jconstructor:_1"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaFunctionalWizard.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaFunctionalWizard.jattribute:sources"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/src/west/twouse/ui/wizards/examplewizards/examples/PizzaFunctionalWizard.java"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:&lt;init&gt;.jparameter:ss">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:getContainerPath.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:&lt;init&gt;.jsignature:_0"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:createControl">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jmethod:createControl.jsignature:_2"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jmethod:&lt;init&gt;.jparameter:s3">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:stop.jsignature:_2">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:stop.jparameter:bundlecontext"/>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaEditorOntologyWizard.jattribute:sources">
+    <j.0:attribute_type rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>6</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JAttribute"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:getDefault.jsignature:_3">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:SparqlASWizard.jconstructor:_1">
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaFunctionalWizard.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaFunctionalWizard.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaEditorOntologyWizard.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaEditorOntologyWizard.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:start.jparameter:bundlecontext">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.osgi.framework.jclass:BundleContext</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleUMLProfiled4SWRLWizard.jmethod:&lt;clinit&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleUMLProfiled4SWRLWizard.jmethod:&lt;clinit&gt;.jsignature:_0"/>
+    <j.0:has_visibility>default</j.0:has_visibility>
+    <j.0:has_modifiers>4</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:start">
+    <j.0:throws rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:Exception"/>
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:start.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage$1.jparameter:createexamplepage">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaEditorOntologyWizard">
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaEditorOntologyWizard.jmethod:&lt;init&gt;"/>
+    <j.0:contains_contructor rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaEditorOntologyWizard.jconstructor:_1"/>
+    <j.0:contains_method rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaEditorOntologyWizard.jmethod:&lt;clinit&gt;"/>
+    <j.0:contains_attribute rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:PizzaEditorOntologyWizard.jattribute:sources"/>
+    <j.0:extends_class rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_location rdf:resource="file:/home/vita/uni/bachelor/twousestatistics/plugins/west.twouse.ui.wizards.examplewizards/src/west/twouse/ui/wizards/examplewizards/examples/PizzaEditorOntologyWizard.java"/>
+    <j.0:has_modifiers>64</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:OWL2OntologyTemplateWizard.jmethod:&lt;init&gt;">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:OWL2OntologyTemplateWizard.jmethod:&lt;init&gt;.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.examples.jclass:UncleUMLProfiled4SWRLWizard.jmethod:&lt;init&gt;.jsignature:_1">
+    <j.0:return_type>http://www.rdfcoder.org/2007/1.0#jprimitive:void</j.0:return_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JSignature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:performFinish">
+    <j.0:contains_signature rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:ExampleWizard.jmethod:performFinish.jsignature:_1"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JMethod"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jconstructor:_0">
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jparameter:s3"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jparameter:s2"/>
+    <j.0:contains_parameter rdf:resource="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExamplePage.jparameter:s"/>
+    <j.0:has_visibility>public</j.0:has_visibility>
+    <j.0:has_modifiers>0</j.0:has_modifiers>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JConstructor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:CreateExampleProjectPage.jmethod:&lt;init&gt;.jparameter:s2">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:java.lang.jclass:String</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.rdfcoder.org/2007/1.0#jpackage:west.twouse.ui.wizards.examplewizards.jclass:Activator.jmethod:stop.jparameter:bundlecontext">
+    <j.0:parameter_type>http://www.rdfcoder.org/2007/1.0#jpackage:org.osgi.framework.jclass:BundleContext</j.0:parameter_type>
+    <rdfs:subClassOf rdf:resource="http://www.rdfcoder.org/2007/1.0#JParameter"/>
+  </rdf:Description>
+</rdf:RDF>
