@@ -1,0 +1,4 @@
+Namespace: uml = <http://www.eclipse.org/uml2/3.0.0/UML#>
+ Select ?x
+ Where:
+    ?x type (UseCase and includeUseCase some UseCase)
