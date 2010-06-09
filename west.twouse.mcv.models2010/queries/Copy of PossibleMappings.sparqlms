@@ -1,0 +1,5 @@
+Namespace: <http://www.semanticweb.org/ontologies/2010/3/Ontology1272308092383.owl#> 
+
+Select 
+Where: 
+	(Mapping and feature some {?f} and element some {?e}) equivalentTo owl:Nothing  
