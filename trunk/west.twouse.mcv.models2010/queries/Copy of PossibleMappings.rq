@@ -1,0 +1,75 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX sparqldl: <http://pellet.owldl.com/ns/sdle#> 
+PREFIX : <http://www.semanticweb.org/ontologies/2010/3/Ontology1272308092383.owl#> 
+
+SELECT DISTINCT ?e ?f 
+WHERE { 
+	[ ] rdf:type owl:Class ; 
+	owl:intersectionOf [ 
+		rdf:first :Mapping ; 
+		rdf:rest [ 
+			rdf:first [ 
+				rdf:type owl:Restriction ; 
+				owl:onProperty :feature ; 
+				owl:someValuesFrom [ 
+					rdf:type owl:Class ; 
+					owl:oneOf [ 
+						rdf:first ?f ; 
+						rdf:rest rdf:nil 
+						] 
+					] 
+				] ; 
+			rdf:rest [ 
+				rdf:first [ 
+					rdf:type owl:Restriction ; 
+					owl:onProperty :element ; 
+					owl:someValuesFrom [ 
+						rdf:type owl:Class ; 
+						owl:oneOf [ 
+							rdf:first ?e ; 
+							rdf:rest rdf:nil 
+							] 
+						] 
+					] ; 
+				rdf:rest rdf:nil 
+				] 
+			] 
+		] ; 
+	owl:equivalentClass [ 
+		rdf:type owl:Class ; 
+		owl:intersectionOf [ 
+			rdf:first :Mapping ; 
+			rdf:rest [ 
+				rdf:first [ 
+					rdf:type owl:Restriction ; 
+					owl:onProperty :feature ; 
+					owl:someValuesFrom [ 
+						rdf:type owl:Class ; 
+						owl:oneOf [ 
+							rdf:first ?f ; 
+							rdf:rest rdf:nil 
+							] 
+						] 
+					] ; 
+				rdf:rest [ 
+					rdf:first [ 
+						rdf:type owl:Restriction ; 
+						owl:onProperty :element ; 
+						owl:someValuesFrom [ 
+							rdf:type owl:Class ; 
+							owl:oneOf [ 
+								rdf:first ?e ; 
+								rdf:rest rdf:nil 
+								] 
+							] 
+						] ; 
+					rdf:rest rdf:nil 
+					] 
+				] 
+			] 
+		] ; 
+	owl:equivalentClass owl:Nothing 
+	} 
