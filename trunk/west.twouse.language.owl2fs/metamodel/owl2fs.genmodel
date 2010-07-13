@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/west.twouse.language.owl2fs/src"
+    modelPluginID="west.twouse.language.owl2fs" modelName="Owl2fs" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>owl2fs.ecore</foreignModel>
+  <genPackages prefix="Owl2fs" basePackage="west.twouse.language" disposableProviderFactory="true"
+      ecorePackage="owl2fs.ecore#/">
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//IRI">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute owl2fs.ecore#//IRI/value"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//FullIRI"/>
+    <genClasses ecoreClass="owl2fs.ecore#//AbbreviatedIRI">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute owl2fs.ecore#//AbbreviatedIRI/prefix"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//OntologyDocument">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//OntologyDocument/ontology"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//OntologyDocument/prefixDefinition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//OntologyDocument/comment"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//PrefixDefinition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute owl2fs.ecore#//PrefixDefinition/pref"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//PrefixDefinition/namespace"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//Ontology">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Ontology/expressions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Ontology/packages"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Ontology/comment"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Ontology/ontologyIRI"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Ontology/versionIRI"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Ontology/directlyImportsDocuments"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Ontology/ontologyAnnotations"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Ontology/axioms"/>
+      <genOperations ecoreOperation="owl2fs.ecore#//Ontology/versionURIrequiresontologyURItobespecified">
+        <genParameters ecoreParameter="owl2fs.ecore#//Ontology/versionURIrequiresontologyURItobespecified/diagnostics"/>
+      </genOperations>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//Axiom"/>
+    <genClasses ecoreClass="owl2fs.ecore#//Comment">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute owl2fs.ecore#//Comment/comment"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//Declaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Declaration/entity"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ClassDeclaration"/>
+    <genClasses ecoreClass="owl2fs.ecore#//DatatypeDeclaration"/>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectPropertyDeclaration"/>
+    <genClasses ecoreClass="owl2fs.ecore#//DataPropertyDeclaration"/>
+    <genClasses ecoreClass="owl2fs.ecore#//AnnotationPropertyDeclaration"/>
+    <genClasses ecoreClass="owl2fs.ecore#//NamedIndividualDeclaration"/>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//Entity">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Entity/entityIRI"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//AnnotationSubject"/>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//AnnotationValue"/>
+    <genClasses ecoreClass="owl2fs.ecore#//Annotation">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Annotation/annotationAnnotations"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Annotation/annotationProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Annotation/annotationValue"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//AnnotationAxiom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//AnnotationAxiom/axiomAnnotations"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//AnnotationAssertion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//AnnotationAssertion/annotationProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//AnnotationAssertion/annotationSubject"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//AnnotationAssertion/annotationValue"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//SubAnnotationPropertyOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//SubAnnotationPropertyOf/subAnnotationProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//SubAnnotationPropertyOf/superAnnotationProperty"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//AnnotationPropertyDomain">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//AnnotationPropertyDomain/annotationProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//AnnotationPropertyDomain/iri"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//AnnotationPropertyRange">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//AnnotationPropertyRange/annotationProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//AnnotationPropertyRange/iri"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//AnnotationProperty"/>
+    <genClasses ecoreClass="owl2fs.ecore#//Class"/>
+    <genClasses ecoreClass="owl2fs.ecore#//DataProperty"/>
+    <genClasses ecoreClass="owl2fs.ecore#//Datatype"/>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectProperty"/>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//Individual"/>
+    <genClasses ecoreClass="owl2fs.ecore#//NamedIndividual"/>
+    <genClasses ecoreClass="owl2fs.ecore#//AnonymousIndividual">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute owl2fs.ecore#//AnonymousIndividual/nodeID"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//Literal">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute owl2fs.ecore#//Literal/lexicalValue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Literal/datatype"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute owl2fs.ecore#//Literal/languageTag"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//ObjectPropertyExpression"/>
+    <genClasses ecoreClass="owl2fs.ecore#//InverseObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//InverseObjectProperty/objectProperty"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//DataPropertyExpression"/>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//DataRange"/>
+    <genClasses ecoreClass="owl2fs.ecore#//DataIntersectionOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataIntersectionOf/dataRange"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DataUnionOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataUnionOf/dataRange"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DataComplementOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataComplementOf/dataRange"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DataOneOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataOneOf/constants"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DatatypeRestriction">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DatatypeRestriction/datatype"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DatatypeRestriction/restrictions"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//FacetConstraintPair">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//FacetConstraintPair/constant"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//FacetConstraintPair/facet"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//ClassExpression"/>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectIntersectionOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectIntersectionOf/classExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectUnionOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectUnionOf/classExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectComplementOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectComplementOf/classExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectOneOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectOneOf/individuals"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectSomeValuesFrom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectSomeValuesFrom/classExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectSomeValuesFrom/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectAllValuesFrom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectAllValuesFrom/classExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectAllValuesFrom/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectHasSelf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectHasSelf/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectHasValue">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectHasValue/objectPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectHasValue/individual"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectMinCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute owl2fs.ecore#//ObjectMinCardinality/cardinality"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectMinCardinality/classExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectMinCardinality/objectPropertyExpression"/>
+      <genOperations ecoreOperation="owl2fs.ecore#//ObjectMinCardinality/Thecardinalitymustbenonnegative">
+        <genParameters ecoreParameter="owl2fs.ecore#//ObjectMinCardinality/Thecardinalitymustbenonnegative/diagnostics"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectMaxCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute owl2fs.ecore#//ObjectMaxCardinality/cardinality"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectMaxCardinality/classExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectMaxCardinality/objectPropertyExpression"/>
+      <genOperations ecoreOperation="owl2fs.ecore#//ObjectMaxCardinality/Thecardinalitymustbenonnegative">
+        <genParameters ecoreParameter="owl2fs.ecore#//ObjectMaxCardinality/Thecardinalitymustbenonnegative/diagnostics"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectExactCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute owl2fs.ecore#//ObjectExactCardinality/cardinality"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectExactCardinality/classExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectExactCardinality/objectPropertyExpression"/>
+      <genOperations ecoreOperation="owl2fs.ecore#//ObjectExactCardinality/Thecardinalitymustbenonnegative">
+        <genParameters ecoreParameter="owl2fs.ecore#//ObjectExactCardinality/Thecardinalitymustbenonnegative/diagnostics"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DataSomeValuesFrom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataSomeValuesFrom/dataRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataSomeValuesFrom/dataPropertyExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DataAllValuesFrom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataAllValuesFrom/dataRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataAllValuesFrom/dataPropertyExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DataHasValue">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataHasValue/constant"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataHasValue/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DataMinCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute owl2fs.ecore#//DataMinCardinality/cardinality"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataMinCardinality/dataRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataMinCardinality/dataPropertyExpression"/>
+      <genOperations ecoreOperation="owl2fs.ecore#//DataMinCardinality/Thecardinalitymustbenonnegative">
+        <genParameters ecoreParameter="owl2fs.ecore#//DataMinCardinality/Thecardinalitymustbenonnegative/diagnostics"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DataMaxCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute owl2fs.ecore#//DataMaxCardinality/cardinality"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataMaxCardinality/dataRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataMaxCardinality/dataPropertyExpression"/>
+      <genOperations ecoreOperation="owl2fs.ecore#//DataMaxCardinality/Thecardinalitymustbenonnegative">
+        <genParameters ecoreParameter="owl2fs.ecore#//DataMaxCardinality/Thecardinalitymustbenonnegative/diagnostics"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DataExactCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute owl2fs.ecore#//DataExactCardinality/cardinality"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataExactCardinality/dataRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataExactCardinality/dataPropertyExpression"/>
+      <genOperations ecoreOperation="owl2fs.ecore#//DataExactCardinality/Thecardinalitymustbenonnegative">
+        <genParameters ecoreParameter="owl2fs.ecore#//DataExactCardinality/Thecardinalitymustbenonnegative/diagnostics"/>
+      </genOperations>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//ClassAxiom"/>
+    <genClasses ecoreClass="owl2fs.ecore#//SubClassOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//SubClassOf/subClassExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//SubClassOf/superClassExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//EquivalentClasses">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//EquivalentClasses/equivalentClassExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DisjointClasses">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DisjointClasses/disjointClassExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DisjointUnion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DisjointUnion/unionClass"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DisjointUnion/disjointClassExpressions"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//ObjectPropertyAxiom"/>
+    <genClasses ecoreClass="owl2fs.ecore#//SubObjectPropertyOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//SubObjectPropertyOf/subObjectPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//SubObjectPropertyOf/superObjectPropertyExpression"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//SubObjectPropertyExpression"/>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectPropertyChain">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectPropertyChain/objectPropertyExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//EquivalentObjectProperties">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//EquivalentObjectProperties/objectPropertyExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DisjointObjectProperties">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DisjointObjectProperties/objectPropertyExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectPropertyDomain">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectPropertyDomain/domain"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectPropertyDomain/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectPropertyRange">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectPropertyRange/range"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectPropertyRange/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//InverseObjectProperties">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//InverseObjectProperties/objectPropertyExpression1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//InverseObjectProperties/objectPropertyExpression2"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//FunctionalObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//FunctionalObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//InverseFunctionalObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//InverseFunctionalObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ReflexiveObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ReflexiveObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//IrreflexiveObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//IrreflexiveObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//SymmetricObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//SymmetricObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//AsymmetricObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//AsymmetricObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//TransitiveObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//TransitiveObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//DataPropertyAxiom"/>
+    <genClasses ecoreClass="owl2fs.ecore#//SubDataPropertyOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//SubDataPropertyOf/superDataPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//SubDataPropertyOf/subDataPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//EquivalentDataProperties">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//EquivalentDataProperties/dataPropertyExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DisjointDataProperties">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DisjointDataProperties/dataPropertyExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DataPropertyDomain">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataPropertyDomain/domain"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataPropertyDomain/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DataPropertyRange">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataPropertyRange/range"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataPropertyRange/dataPropertyExpression"/>
+      <genOperations ecoreOperation="owl2fs.ecore#//DataPropertyRange/Thedatarangemustbeofarityone">
+        <genParameters ecoreParameter="owl2fs.ecore#//DataPropertyRange/Thedatarangemustbeofarityone/diagnostics"/>
+      </genOperations>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//FunctionalDataProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//FunctionalDataProperty/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DatatypeDefinition">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DatatypeDefinition/datatype"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DatatypeDefinition/dataRange"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//HasKey">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//HasKey/classExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//HasKey/objectPropertyExpressions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//HasKey/dataPropertyExpressions"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//Assertion"/>
+    <genClasses ecoreClass="owl2fs.ecore#//SameIndividual">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//SameIndividual/sameIndividuals"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DifferentIndividuals">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DifferentIndividuals/differentIndividuals"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ClassAssertion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ClassAssertion/individual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ClassAssertion/classExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectPropertyAssertion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectPropertyAssertion/objectPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectPropertyAssertion/sourceIndividual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectPropertyAssertion/targetIndividual"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//NegativeObjectPropertyAssertion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//NegativeObjectPropertyAssertion/objectPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//NegativeObjectPropertyAssertion/sourceIndividual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//NegativeObjectPropertyAssertion/targetIndividual"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DataPropertyAssertion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataPropertyAssertion/dataPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataPropertyAssertion/targetValue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataPropertyAssertion/sourceIndividual"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//NegativeDataPropertyAssertion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//NegativeDataPropertyAssertion/dataPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//NegativeDataPropertyAssertion/targetValue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//NegativeDataPropertyAssertion/sourceIndividual"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//Rule"/>
+    <genClasses ecoreClass="owl2fs.ecore#//DLSafeRule">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DLSafeRule/annotation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DLSafeRule/bodyAtom"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DLSafeRule/headAtom"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//Atom"/>
+    <genClasses ecoreClass="owl2fs.ecore#//ClassAtom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ClassAtom/classExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ClassAtom/iArg"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DataRangeAtom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataRangeAtom/dataRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataRangeAtom/dArg"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ObjectPropertyAtom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectPropertyAtom/objectPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectPropertyAtom/iArg1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ObjectPropertyAtom/iArg2"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DataPropetyAtom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataPropetyAtom/dataProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataPropetyAtom/iArg"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DataPropetyAtom/dArg"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//BuiltInAtom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//BuiltInAtom/iri"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//BuiltInAtom/dArg"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//SameIndividualAtom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//SameIndividualAtom/iArg1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//SameIndividualAtom/iArg2"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DifferentIndividualsAtom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DifferentIndividualsAtom/iArg1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DifferentIndividualsAtom/iArg2"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//IArg"/>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//DArg"/>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//Variable">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Variable/iri"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DGRule">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DGRule/annotation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DGRule/bodyAtom"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DGRule/headAtom"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//DGAtom"/>
+    <genClasses ecoreClass="owl2fs.ecore#//DGAxiom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DGAxiom/annotation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DGAxiom/dgNodes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DGAxiom/dgEdges"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DGAxiom/mainClasses"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DGNodes">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DGNodes/nodeAssertion"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//NodeAssertion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//NodeAssertion/class"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//NodeAssertion/dgNode"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//DGEdges">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//DGEdges/edgeAssertion"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//EdgeAssertion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//EdgeAssertion/objectProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//EdgeAssertion/dgNode1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//EdgeAssertion/dgNode2"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//MainClasses">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//MainClasses/class"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="owl2fs.ecore#//Expression"/>
+    <genClasses ecoreClass="owl2fs.ecore#//TemplateParameter">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference owl2fs.ecore#//TemplateParameter/signature"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference owl2fs.ecore#//TemplateParameter/parameteredElement"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference owl2fs.ecore#//TemplateParameter/parameterSubstitution"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ParameterableElement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference owl2fs.ecore#//ParameterableElement/templateParameter"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//TemplateSignature">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//TemplateSignature/ownedParameter"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference owl2fs.ecore#//TemplateSignature/template"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//TemplateableElement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//TemplateableElement/ownedTemplateSignature"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//TemplateableElement/templateBinding"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//Package">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Package/expressions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//Package/axioms"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute owl2fs.ecore#//Package/PackageUri"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//ClassifierTemplateParameter"/>
+    <genClasses ecoreClass="owl2fs.ecore#//TemplateParameterSubstitution">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference owl2fs.ecore#//TemplateParameterSubstitution/actual"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference owl2fs.ecore#//TemplateParameterSubstitution/formal"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference owl2fs.ecore#//TemplateParameterSubstitution/templateBinding"/>
+    </genClasses>
+    <genClasses ecoreClass="owl2fs.ecore#//TemplateBinding">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference owl2fs.ecore#//TemplateBinding/parameterSubstitution"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference owl2fs.ecore#//TemplateBinding/boundElement"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference owl2fs.ecore#//TemplateBinding/signature"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
