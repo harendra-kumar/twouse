@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/west.twouse.language.sparqlas/src"
+    modelPluginID="west.twouse.language.sparqlas" modelName="Sparqlas" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>sparqlas.ecore</foreignModel>
+  <genPackages prefix="Sparqlas" basePackage="west.twouse.language" disposableProviderFactory="true"
+      ecorePackage="sparqlas.ecore#/">
+    <genClasses ecoreClass="sparqlas.ecore#//OntologyDocument">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//OntologyDocument/queryIRI"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//OntologyDocument/import"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//OntologyDocument/prefixDefinition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//OntologyDocument/query"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//Import">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//Import/importIRI"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//PrefixDefinition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute sparqlas.ecore#//PrefixDefinition/pref"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//PrefixDefinition/namespace"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//Query"/>
+    <genClasses ecoreClass="sparqlas.ecore#//SelectQuery">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//SelectQuery/atoms"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//SelectQuery/variables"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ConstructQuery">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ConstructQuery/constructAtoms"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ConstructQuery/whereAtoms"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//AskQuery">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//AskQuery/atoms"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DescribeQuery">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DescribeQuery/describeIRI"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DescribeQuery/atoms"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//IRI">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute sparqlas.ecore#//IRI/id"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//FullIRI"/>
+    <genClasses ecoreClass="sparqlas.ecore#//AbbreviatedIRI"/>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//Term"/>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//Variable">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute sparqlas.ecore#//Variable/symbol"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ClassVariable"/>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectPropertyVariable"/>
+    <genClasses ecoreClass="sparqlas.ecore#//DataPropertyVariable"/>
+    <genClasses ecoreClass="sparqlas.ecore#//IndividualVariable"/>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//Constant">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//Constant/constantIRI"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//Class"/>
+    <genClasses ecoreClass="sparqlas.ecore#//Datatype"/>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectProperty"/>
+    <genClasses ecoreClass="sparqlas.ecore#//DataProperty"/>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//Individual"/>
+    <genClasses ecoreClass="sparqlas.ecore#//NamedIndividual"/>
+    <genClasses ecoreClass="sparqlas.ecore#//AnonymousIndividual">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute sparqlas.ecore#//AnonymousIndividual/nodeID"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//AbstractLiteral"/>
+    <genClasses ecoreClass="sparqlas.ecore#//LiteralVariable"/>
+    <genClasses ecoreClass="sparqlas.ecore#//Literal">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute sparqlas.ecore#//Literal/lexicalForm"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//Literal/datatype"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//Expression"/>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//Atom"/>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//Assertion"/>
+    <genClasses ecoreClass="sparqlas.ecore#//ClassAssertion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ClassAssertion/individual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ClassAssertion/classExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectPropertyAssertion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectPropertyAssertion/sourceIndividual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectPropertyAssertion/targetIndividual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectPropertyAssertion/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DataPropertyAssertion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataPropertyAssertion/sourceIndividual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataPropertyAssertion/targetValue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataPropertyAssertion/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//NegativeObjectPropertyAssertion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//NegativeObjectPropertyAssertion/sourceIndividual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//NegativeObjectPropertyAssertion/targetIndividual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//NegativeObjectPropertyAssertion/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//NegativeDataPropertyAssertion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//NegativeDataPropertyAssertion/sourceIndividual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//NegativeDataPropertyAssertion/targetValue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//NegativeDataPropertyAssertion/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//SameIndividual">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//SameIndividual/individuals"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DifferentIndividuals">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DifferentIndividuals/individuals"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//ClassAtom"/>
+    <genClasses ecoreClass="sparqlas.ecore#//SubClassOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//SubClassOf/subClassExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//SubClassOf/superClassExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//EquivalentClasses">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//EquivalentClasses/classExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DisjointClasses">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DisjointClasses/classExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DisjointUnion">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DisjointUnion/class"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DisjointUnion/classVariable"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DisjointUnion/disjointClassExpressions"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//ClassExpression"/>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectUnionOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectUnionOf/classExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectComplementOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectComplementOf/classExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectOneOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectOneOf/individuals"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectIntersectionOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectIntersectionOf/classExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectAllValuesFrom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectAllValuesFrom/classExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectAllValuesFrom/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectSomeValuesFrom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectSomeValuesFrom/classExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectSomeValuesFrom/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectHasValue">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectHasValue/individual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectHasValue/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectMinCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute sparqlas.ecore#//ObjectMinCardinality/cardinality"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectMinCardinality/classExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectMinCardinality/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectMaxCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute sparqlas.ecore#//ObjectMaxCardinality/cardinality"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectMaxCardinality/classExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectMaxCardinality/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectExactCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute sparqlas.ecore#//ObjectExactCardinality/cardinality"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectExactCardinality/classExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectExactCardinality/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DataAllValuesFrom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataAllValuesFrom/dataRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataAllValuesFrom/dataPropertyExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DataSomeValuesFrom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataSomeValuesFrom/dataRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataSomeValuesFrom/dataPropertyExpressions"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DataHasValue">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataHasValue/literal"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataHasValue/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DataMinCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute sparqlas.ecore#//DataMinCardinality/cardinality"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataMinCardinality/dataRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataMinCardinality/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DataMaxCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute sparqlas.ecore#//DataMaxCardinality/cardinality"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataMaxCardinality/dataRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataMaxCardinality/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DataExactCardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute sparqlas.ecore#//DataExactCardinality/cardinality"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataExactCardinality/dataRange"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataExactCardinality/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//DataRange"/>
+    <genClasses ecoreClass="sparqlas.ecore#//DataUnionOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataUnionOf/dataRanges"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DataComplementOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataComplementOf/dataRange"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DataOneOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataOneOf/literals"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DataIntersectionOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataIntersectionOf/dataRanges"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DatatypeRestriction">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DatatypeRestriction/datatype"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DatatypeRestriction/restrictions"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//FacetRestriction">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//FacetRestriction/constrainingFacet"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//FacetRestriction/restrictionValue"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//ObjectPropertyAtom"/>
+    <genClasses ecoreClass="sparqlas.ecore#//SubObjectPropertyOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//SubObjectPropertyOf/subObjectPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//SubObjectPropertyOf/subObjectPropertyChain"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//SubObjectPropertyOf/superObjectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectPropertyChain">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectPropertyChain/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//EquivalentObjectProperties">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//EquivalentObjectProperties/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DisjointObjectProperties">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DisjointObjectProperties/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectPropertyDomain">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectPropertyDomain/objectPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectPropertyDomain/domain"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectPropertyRange">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectPropertyRange/objectPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectPropertyRange/range"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//InverseObjectPropertyAtom">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//InverseObjectPropertyAtom/objectPropertyExpression1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//InverseObjectPropertyAtom/objectPropertyExpression2"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//FunctionalObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//FunctionalObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//InverseFunctionalObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//InverseFunctionalObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ReflexiveObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ReflexiveObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//IrreflexiveObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//IrreflexiveObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//SymmetricObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//SymmetricObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//AsymmetricObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//AsymmetricObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//TransitiveObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//TransitiveObjectProperty/objectPropertyExpression"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//ObjectPropertyExpression"/>
+    <genClasses ecoreClass="sparqlas.ecore#//InverseObjectProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//InverseObjectProperty/objectProperty"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//DataPropertyAtom"/>
+    <genClasses ecoreClass="sparqlas.ecore#//SubDataPropertyOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//SubDataPropertyOf/subDataPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//SubDataPropertyOf/superDataPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//EquivalentDataProperties">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//EquivalentDataProperties/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DisjointDataProperties">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DisjointDataProperties/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DataPropertyDomain">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataPropertyDomain/dataPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataPropertyDomain/domain"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DataPropertyRange">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataPropertyRange/dataPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DataPropertyRange/range"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//FunctionalDataProperty">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//FunctionalDataProperty/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//DataPropertyExpression"/>
+    <genClasses ecoreClass="sparqlas.ecore#//HasKey">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//HasKey/classExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//HasKey/objectPropertyExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//HasKey/dataPropertyExpression"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//Declaration"/>
+    <genClasses ecoreClass="sparqlas.ecore#//ClassDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ClassDeclaration/class"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ClassDeclaration/classVariable"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//ObjectPropertyDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectPropertyDeclaration/objectProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//ObjectPropertyDeclaration/objectPropertyVariable"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DatatypePropertyDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DatatypePropertyDeclaration/datatypeProperty"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DatatypePropertyDeclaration/datatypePropertyVariable"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//IndividualDeclaration">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//IndividualDeclaration/individual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//IndividualDeclaration/individualVariable"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//TemplateParameter">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference sparqlas.ecore#//TemplateParameter/signature"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//TemplateParameter/parameteredElement"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference sparqlas.ecore#//TemplateParameter/parameterSubstitution"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//ParameterableElement">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference sparqlas.ecore#//ParameterableElement/templateParameter"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//TemplateSignature">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//TemplateSignature/ownedParameter"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference sparqlas.ecore#//TemplateSignature/template"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="sparqlas.ecore#//TemplateableElement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//TemplateableElement/ownedTemplateSignature"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//TemplateableElement/templateBinding"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//TemplateParameterSubstitution">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//TemplateParameterSubstitution/actual"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference sparqlas.ecore#//TemplateParameterSubstitution/templateBinding"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//TemplateParameterSubstitution/formal"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//TemplateBinding">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//TemplateBinding/parameterSubstitution"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference sparqlas.ecore#//TemplateBinding/boundElement"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//TemplateBinding/signature"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DirectClassAssertion">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DirectClassAssertion/individual"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DirectClassAssertion/classExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//DirectSubClassOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DirectSubClassOf/subClassExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//DirectSubClassOf/superClassExpression"/>
+    </genClasses>
+    <genClasses ecoreClass="sparqlas.ecore#//StrictSubClassOf">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//StrictSubClassOf/subClassExpression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference sparqlas.ecore#//StrictSubClassOf/superClassExpression"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
