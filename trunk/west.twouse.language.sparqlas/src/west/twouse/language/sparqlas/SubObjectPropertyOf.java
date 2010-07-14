@@ -25,34 +25,35 @@ package west.twouse.language.sparqlas;
  * @model
  * @generated
  */
-public interface SubObjectPropertyOf extends ObjectPropertyAtom {
-	/**
+public interface SubObjectPropertyOf extends ObjectPropertyAtom
+{
+  /**
    * Returns the value of the '<em><b>Sub Object Property Expression</b></em>' containment reference.
    * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Sub Object Property Expression</em>' containment reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
+   * <p>
+   * If the meaning of the '<em>Sub Object Property Expression</em>' containment reference isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
    * @return the value of the '<em>Sub Object Property Expression</em>' containment reference.
    * @see #setSubObjectPropertyExpression(ObjectPropertyExpression)
    * @see west.twouse.language.sparqlas.SparqlasPackage#getSubObjectPropertyOf_SubObjectPropertyExpression()
    * @model containment="true" ordered="false"
    * @generated
    */
-	ObjectPropertyExpression getSubObjectPropertyExpression();
+  ObjectPropertyExpression getSubObjectPropertyExpression();
 
-	/**
+  /**
    * Sets the value of the '{@link west.twouse.language.sparqlas.SubObjectPropertyOf#getSubObjectPropertyExpression <em>Sub Object Property Expression</em>}' containment reference.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @param value the new value of the '<em>Sub Object Property Expression</em>' containment reference.
    * @see #getSubObjectPropertyExpression()
    * @generated
    */
-	void setSubObjectPropertyExpression(ObjectPropertyExpression value);
+  void setSubObjectPropertyExpression(ObjectPropertyExpression value);
 
-	/**
+  /**
    * Returns the value of the '<em><b>Sub Object Property Chain</b></em>' containment reference.
    * <!-- begin-user-doc -->
    * <p>
@@ -81,27 +82,27 @@ public interface SubObjectPropertyOf extends ObjectPropertyAtom {
   /**
    * Returns the value of the '<em><b>Super Object Property Expression</b></em>' containment reference.
    * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Super Object Property Expression</em>' containment reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
+   * <p>
+   * If the meaning of the '<em>Super Object Property Expression</em>' containment reference isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
    * @return the value of the '<em>Super Object Property Expression</em>' containment reference.
    * @see #setSuperObjectPropertyExpression(ObjectPropertyExpression)
    * @see west.twouse.language.sparqlas.SparqlasPackage#getSubObjectPropertyOf_SuperObjectPropertyExpression()
    * @model containment="true" required="true"
    * @generated
    */
-	ObjectPropertyExpression getSuperObjectPropertyExpression();
+  ObjectPropertyExpression getSuperObjectPropertyExpression();
 
-	/**
+  /**
    * Sets the value of the '{@link west.twouse.language.sparqlas.SubObjectPropertyOf#getSuperObjectPropertyExpression <em>Super Object Property Expression</em>}' containment reference.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @param value the new value of the '<em>Super Object Property Expression</em>' containment reference.
    * @see #getSuperObjectPropertyExpression()
    * @generated
    */
-	void setSuperObjectPropertyExpression(ObjectPropertyExpression value);
+  void setSuperObjectPropertyExpression(ObjectPropertyExpression value);
 
 } // SubObjectPropertyOf

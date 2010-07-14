@@ -6,32 +6,34 @@
  */
 package west.twouse.language.sparqlas.resource.sparqlas.mopp;
 
-// A representation for a range in a document where a keyword (i.e.,
-// a static string) is expected.
+/**
+ * A representation for a range in a document where a keyword (i.e., a static
+ * string) is expected.
+ */
 public class SparqlasExpectedCsString extends west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasAbstractExpectedElement {
 	
-	private String value;
+	private west.twouse.language.sparqlas.resource.sparqlas.grammar.SparqlasKeyword keyword;
 	
-	public SparqlasExpectedCsString(String value) {
-		super();
-		this.value = value;
+	public SparqlasExpectedCsString(west.twouse.language.sparqlas.resource.sparqlas.grammar.SparqlasKeyword keyword) {
+		super(keyword.getMetaclass());
+		this.keyword = keyword;
 	}
 	
 	public String getValue() {
-		return value;
+		return keyword.getValue();
 	}
 	
 	public String getTokenName() {
-		return "'" + value + "'";
+		return "'" + getValue() + "'";
 	}
 	
 	public String toString() {
-		return "CsString \"" + value + "\"";
+		return "CsString \"" + getValue() + "\"";
 	}
 	
 	public boolean equals(Object o) {
 		if (o instanceof SparqlasExpectedCsString) {
-			return this.value.equals(((SparqlasExpectedCsString) o).value);
+			return getValue().equals(((SparqlasExpectedCsString) o).getValue());
 		}
 		return false;
 	}

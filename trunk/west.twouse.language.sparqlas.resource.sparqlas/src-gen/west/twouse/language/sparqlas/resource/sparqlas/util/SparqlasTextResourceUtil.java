@@ -6,8 +6,10 @@
  */
 package west.twouse.language.sparqlas.resource.sparqlas.util;
 
-// Class TextResourceUtil can be used to perform common tasks on text resources,
-// such as loading and saving resources, as well as, checking them for errors.
+/**
+ * Class TextResourceUtil can be used to perform common tasks on text resources,
+ * such as loading and saving resources, as well as, checking them for errors.
+ */
 public class SparqlasTextResourceUtil {
 	
 	public static west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasResource getResource(org.eclipse.core.resources.IFile file) {

@@ -17,5 +17,6 @@ package west.twouse.language.sparqlas;
  * @model
  * @generated
  */
-public interface NamedIndividual extends Individual, Constant {
+public interface NamedIndividual extends Individual, Constant
+{
 } // NamedIndividual

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+	<extension point="org.emftext.access.syntax.ui">
+		<metaInformationProvider class="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasUIMetaInformation" id="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasUIMetaInformation">
+		</metaInformationProvider>
+	</extension>
+	
+	<extension point="org.eclipse.ui.editors">
+		<editor class="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasEditor" contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor" extensions="sparqlas" icon="icons/editor_icon.gif" id="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasEditor" name="EMFText sparqlas Editor">
+		</editor>
+	</extension>
+	
+	<extension id="west.twouse.language.sparqlas.resource.sparqlas.ui.problem" name="EMFText Problem" point="org.eclipse.core.resources.markers">
+		<persistent value="true">
+		</persistent>
+		<super type="org.eclipse.core.resources.problemmarker">
+		</super>
+		<super type="org.eclipse.core.resources.textmarker">
+		</super>
+	</extension>
+	
+	<extension point="org.eclipse.core.runtime.preferences">
+		<initializer class="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasPreferenceInitializer">
+		</initializer>
+	</extension>
+	
+	<extension point="org.eclipse.ui.preferencePages">
+		<page name="Sparqlas Text Editor" id="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasPreferencePage" class="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasPreferencePage" category="org.eclipse.ui.preferencePages.GeneralTextEditor">
+		</page>
+		<page name="Syntax Coloring" id="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasSyntaxColoringPreferencePage" class="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasSyntaxColoringPreferencePage" category="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasPreferencePage">
+		</page>
+		<page name="Brackets" id="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasBracketPreferencePage" class="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasBracketPreferencePage" category="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasPreferencePage">
+		</page>
+		<page name="Occurrence" id="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasOccurrencePreferencePage" class="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasOccurrencePreferencePage" category="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasPreferencePage">
+		</page>
+	</extension>
+	
+	<extension point="org.eclipse.ui.newWizards">
+		<category id="org.emftext.runtime.ui.EMFTextFileCategory" name="EMFText File">
+		</category>
+		<wizard category="org.emftext.runtime.ui.EMFTextFileCategory" icon="/icons/default_new_icon.gif" class="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasNewFileWizard" id="west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasNewFileWizard" name="EMFText .sparqlas file">
+		</wizard>
+	</extension>
+	
+</plugin>

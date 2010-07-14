@@ -9,7 +9,6 @@ package west.twouse.language.sparqlas.impl;
 import org.eclipse.emf.ecore.EClass;
 
 import west.twouse.language.sparqlas.FullIRI;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 
 /**

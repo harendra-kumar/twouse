@@ -20,7 +20,6 @@ import org.eclipse.emf.ecore.util.InternalEList;
 
 import west.twouse.language.sparqlas.AbstractLiteral;
 import west.twouse.language.sparqlas.DataOneOf;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 
 /**

@@ -17,7 +17,6 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import west.twouse.language.sparqlas.ObjectProperty;
 import west.twouse.language.sparqlas.ObjectPropertyDeclaration;
 import west.twouse.language.sparqlas.ObjectPropertyVariable;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 
 /**

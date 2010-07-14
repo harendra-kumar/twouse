@@ -17,5 +17,6 @@ package west.twouse.language.sparqlas;
  * @model
  * @generated
  */
-public interface DataPropertyVariable extends Variable, DataPropertyExpression {
+public interface DataPropertyVariable extends Variable, DataPropertyExpression
+{
 } // DataPropertyVariable

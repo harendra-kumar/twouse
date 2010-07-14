@@ -6,23 +6,27 @@
  */
 package west.twouse.language.owl2fs.resource.owl2fs.mopp;
 
-// A representation for a range in a document where a terminal (i.e.,
-// a placeholder or a keyword) is expected.
-// The range is expressed using two integers denoting the start of the range
-// including hidden tokens (e.g., whitespace) and excluding those token 
-// (i.e., the part of the document containing the relevant characters).
+/**
+ * A representation for a range in a document where a terminal (i.e., a
+ * placeholder or a keyword) is expected. The range is expressed using two
+ * integers denoting the start of the range including hidden tokens (e.g.,
+ * whitespace) and excluding those token (i.e., the part of the document
+ * containing the relevant characters).
+ */
 public class Owl2fsExpectedTerminal {
 	
 	private int followSetID;
 	private west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsExpectedElement terminal;
 	private int startIncludingHiddenTokens;
 	private int startExcludingHiddenTokens;
-	private String prefix;
+	private java.lang.String prefix;
+	private org.eclipse.emf.ecore.EStructuralFeature[] containmentTrace;
 	
-	public Owl2fsExpectedTerminal(west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsExpectedElement terminal, int followSetID) {
+	public Owl2fsExpectedTerminal(west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsExpectedElement terminal, int followSetID, org.eclipse.emf.ecore.EStructuralFeature... containmentTrace) {
 		super();
 		this.terminal = terminal;
 		this.followSetID = followSetID;
+		this.containmentTrace = containmentTrace;
 	}
 	
 	public int getFollowSetID() {
@@ -33,11 +37,11 @@ public class Owl2fsExpectedTerminal {
 		return terminal;
 	}
 	
-	public String toString() {
+	public java.lang.String toString() {
 		return terminal == null ? "null" : terminal.toString();
 	}
 	
-	public boolean equals(Object o) {
+	public boolean equals(java.lang.Object o) {
 		return this.terminal.equals(((Owl2fsExpectedTerminal) o).terminal);
 	}
 	
@@ -56,12 +60,16 @@ public class Owl2fsExpectedTerminal {
 		return startExcludingHiddenTokens;
 	}
 	
-	public String getPrefix() {
+	public java.lang.String getPrefix() {
 		return prefix;
 	}
 	
-	public void setPrefix(String prefix) {
+	public void setPrefix(java.lang.String prefix) {
 		this.prefix = prefix;
+	}
+	
+	public org.eclipse.emf.ecore.EStructuralFeature[] getContainmentTrace() {
+		return containmentTrace;
 	}
 	
 }

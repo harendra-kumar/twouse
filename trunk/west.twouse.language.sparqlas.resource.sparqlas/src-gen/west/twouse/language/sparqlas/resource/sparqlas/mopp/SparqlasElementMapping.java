@@ -6,10 +6,13 @@
  */
 package west.twouse.language.sparqlas.resource.sparqlas.mopp;
 
-// A basic implementation of the IElementMapping interface.
-//
-// @param <ReferenceType> the type of the reference that can be mapped to
-//
+/**
+ * A basic implementation of the
+ * west.twouse.language.sparqlas.resource.sparqlas.ISparqlasElementMapping
+ * interface.
+ * 
+ * @param <ReferenceType> the type of the reference that can be mapped to
+ */
 public class SparqlasElementMapping<ReferenceType> implements west.twouse.language.sparqlas.resource.sparqlas.ISparqlasElementMapping<ReferenceType> {
 	
 	private final ReferenceType target;
@@ -34,4 +37,5 @@ public class SparqlasElementMapping<ReferenceType> implements west.twouse.langua
 	public String getWarning() {
 		return warning;
 	}
+	
 }

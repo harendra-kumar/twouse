@@ -25,7 +25,7 @@ public class SparqlasMetaInformation implements west.twouse.language.sparqlas.re
 	}
 	
 	public west.twouse.language.sparqlas.resource.sparqlas.ISparqlasTextPrinter createPrinter(java.io.OutputStream outputStream, west.twouse.language.sparqlas.resource.sparqlas.ISparqlasTextResource resource) {
-		return new west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasPrinter(outputStream, resource);
+		return new west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasPrinter2(outputStream, resource);
 	}
 	
 	public org.eclipse.emf.ecore.EClass[] getClassesWithSyntax() {
@@ -64,28 +64,12 @@ public class SparqlasMetaInformation implements west.twouse.language.sparqlas.re
 		return new west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasFoldingInformationProvider().getFoldableClasses();
 	}
 	
-	public west.twouse.language.sparqlas.resource.sparqlas.ISparqlasHoverTextProvider getHoverTextProvider() {
-		return new west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasHoverTextProvider();
-	}
-	
-	public west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasColorManager createColorManager() {
-		return new west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasColorManager();
-	}
-	
-	public org.eclipse.jface.text.rules.ITokenScanner createTokenScanner(west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasColorManager colorManager) {
-		return new west.twouse.language.sparqlas.resource.sparqlas.ui.SparqlasTokenScanner(colorManager);
-	}
-	
 	public org.eclipse.emf.ecore.resource.Resource.Factory createResourceFactory() {
 		return new west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasResourceFactory();
 	}
 	
 	public west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasNewFileContentProvider getNewFileContentProvider() {
 		return new west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasNewFileContentProvider();
-	}
-	
-	public west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasCodeCompletionHelper createCodeCompletionHelper() {
-		return new west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasCodeCompletionHelper();
 	}
 	
 }

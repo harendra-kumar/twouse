@@ -25,47 +25,48 @@ import org.eclipse.emf.common.util.EList;
  * @model
  * @generated
  */
-public interface DataSomeValuesFrom extends ClassExpression {
-	/**
+public interface DataSomeValuesFrom extends ClassExpression
+{
+  /**
    * Returns the value of the '<em><b>Data Range</b></em>' containment reference.
    * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Data Range</em>' containment reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
+   * <p>
+   * If the meaning of the '<em>Data Range</em>' containment reference isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
    * @return the value of the '<em>Data Range</em>' containment reference.
    * @see #setDataRange(DataRange)
    * @see west.twouse.language.sparqlas.SparqlasPackage#getDataSomeValuesFrom_DataRange()
    * @model containment="true" required="true"
    * @generated
    */
-	DataRange getDataRange();
+  DataRange getDataRange();
 
-	/**
+  /**
    * Sets the value of the '{@link west.twouse.language.sparqlas.DataSomeValuesFrom#getDataRange <em>Data Range</em>}' containment reference.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @param value the new value of the '<em>Data Range</em>' containment reference.
    * @see #getDataRange()
    * @generated
    */
-	void setDataRange(DataRange value);
+  void setDataRange(DataRange value);
 
-	/**
+  /**
    * Returns the value of the '<em><b>Data Property Expressions</b></em>' containment reference list.
    * The list contents are of type {@link west.twouse.language.sparqlas.DataPropertyExpression}.
    * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Data Property Expressions</em>' containment reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
+   * <p>
+   * If the meaning of the '<em>Data Property Expressions</em>' containment reference list isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
    * @return the value of the '<em>Data Property Expressions</em>' containment reference list.
    * @see west.twouse.language.sparqlas.SparqlasPackage#getDataSomeValuesFrom_DataPropertyExpressions()
    * @model containment="true" required="true"
    * @generated
    */
-	EList<DataPropertyExpression> getDataPropertyExpressions();
+  EList<DataPropertyExpression> getDataPropertyExpressions();
 
 } // DataSomeValuesFrom

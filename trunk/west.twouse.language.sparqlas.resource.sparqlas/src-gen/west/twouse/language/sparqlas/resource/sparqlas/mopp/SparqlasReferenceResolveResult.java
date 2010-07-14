@@ -6,11 +6,14 @@
  */
 package west.twouse.language.sparqlas.resource.sparqlas.mopp;
 
-// A basic implementation of IResolveResult interface
-// that collects mappings in a list.
-//
-// @param <ReferenceType> the type of the references that can be contained in this result
-//
+/**
+ * A basic implementation of the
+ * west.twouse.language.sparqlas.resource.sparqlas.ISparqlasReferenceResolveResult
+ * interface that collects mappings in a list.
+ * 
+ * @param <ReferenceType> the type of the references that can be contained in this
+ * result
+ */
 public class SparqlasReferenceResolveResult<ReferenceType> implements west.twouse.language.sparqlas.resource.sparqlas.ISparqlasReferenceResolveResult<ReferenceType> {
 	
 	private java.util.Collection<west.twouse.language.sparqlas.resource.sparqlas.ISparqlasReferenceMapping<ReferenceType>> mappings;

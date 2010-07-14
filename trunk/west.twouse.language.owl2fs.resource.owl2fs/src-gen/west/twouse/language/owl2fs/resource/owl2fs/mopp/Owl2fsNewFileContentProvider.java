@@ -1,3 +1,9 @@
+/**
+ * <copyright>
+ * </copyright>
+ *
+ * 
+ */
 package west.twouse.language.owl2fs.resource.owl2fs.mopp;
 
 public class Owl2fsNewFileContentProvider {
@@ -38,7 +44,7 @@ public class Owl2fsNewFileContentProvider {
 	}
 	
 	public west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsTextPrinter getPrinter(java.io.OutputStream outputStream) {
-		return new west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsPrinter(outputStream, new west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsResource());
+		return getMetaInformation().createPrinter(outputStream, new west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsResource());
 	}
 	
 }

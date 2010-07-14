@@ -24,21 +24,22 @@ import org.eclipse.emf.common.util.EList;
  * @model
  * @generated
  */
-public interface SameIndividual extends Assertion {
-	/**
+public interface SameIndividual extends Assertion
+{
+  /**
    * Returns the value of the '<em><b>Individuals</b></em>' containment reference list.
    * The list contents are of type {@link west.twouse.language.sparqlas.Individual}.
    * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Individuals</em>' containment reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
+   * <p>
+   * If the meaning of the '<em>Individuals</em>' containment reference list isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
    * @return the value of the '<em>Individuals</em>' containment reference list.
    * @see west.twouse.language.sparqlas.SparqlasPackage#getSameIndividual_Individuals()
    * @model containment="true" lower="2" ordered="false"
    * @generated
    */
-	EList<Individual> getIndividuals();
+  EList<Individual> getIndividuals();
 
 } // SameIndividual

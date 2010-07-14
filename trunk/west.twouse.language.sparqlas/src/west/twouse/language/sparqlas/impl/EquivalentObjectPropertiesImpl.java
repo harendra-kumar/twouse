@@ -20,7 +20,6 @@ import org.eclipse.emf.ecore.util.InternalEList;
 
 import west.twouse.language.sparqlas.EquivalentObjectProperties;
 import west.twouse.language.sparqlas.ObjectPropertyExpression;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 
 /**

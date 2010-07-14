@@ -17,5 +17,6 @@ package west.twouse.language.sparqlas;
  * @model
  * @generated
  */
-public interface Datatype extends Constant, DataRange {
+public interface Datatype extends Constant, DataRange
+{
 } // Datatype

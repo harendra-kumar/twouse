@@ -8,7 +8,6 @@ package west.twouse.language.sparqlas;
 
 import org.eclipse.emf.common.util.EList;
 
-
 /**
  * <!-- begin-user-doc -->
  * A representation of the model object '<em><b>Has Key</b></em>'.
@@ -60,7 +59,7 @@ public interface HasKey extends Atom
    * The list contents are of type {@link west.twouse.language.sparqlas.ObjectPropertyExpression}.
    * <!-- begin-user-doc -->
    * <p>
-   * If the meaning of the '<em>Object Property Expression</em>' containment reference isn't clear,
+   * If the meaning of the '<em>Object Property Expression</em>' containment reference list isn't clear,
    * there really should be more of a description here...
    * </p>
    * <!-- end-user-doc -->
@@ -76,7 +75,7 @@ public interface HasKey extends Atom
    * The list contents are of type {@link west.twouse.language.sparqlas.DataPropertyExpression}.
    * <!-- begin-user-doc -->
    * <p>
-   * If the meaning of the '<em>Data Property Expression</em>' containment reference isn't clear,
+   * If the meaning of the '<em>Data Property Expression</em>' containment reference list isn't clear,
    * there really should be more of a description here...
    * </p>
    * <!-- end-user-doc -->

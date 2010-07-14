@@ -27,7 +27,6 @@ import west.twouse.language.sparqlas.Import;
 import west.twouse.language.sparqlas.OntologyDocument;
 import west.twouse.language.sparqlas.PrefixDefinition;
 import west.twouse.language.sparqlas.Query;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 
 /**

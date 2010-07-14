@@ -18,7 +18,6 @@ import org.eclipse.emf.ecore.impl.EObjectImpl;
 import org.eclipse.emf.ecore.util.EcoreUtil;
 
 import west.twouse.language.sparqlas.ParameterableElement;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 import west.twouse.language.sparqlas.TemplateBinding;
 import west.twouse.language.sparqlas.TemplateParameterSubstitution;

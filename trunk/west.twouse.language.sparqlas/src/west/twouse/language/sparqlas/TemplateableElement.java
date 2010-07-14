@@ -27,16 +27,17 @@ import org.eclipse.emf.ecore.EObject;
  * @model abstract="true"
  * @generated
  */
-public interface TemplateableElement extends EObject {
-	/**
+public interface TemplateableElement extends EObject
+{
+  /**
    * Returns the value of the '<em><b>Owned Template Signature</b></em>' containment reference.
    * It is bidirectional and its opposite is '{@link west.twouse.language.sparqlas.TemplateSignature#getTemplate <em>Template</em>}'.
    * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Owned Template Signature</em>' containment reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
+   * <p>
+   * If the meaning of the '<em>Owned Template Signature</em>' containment reference isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
    * @return the value of the '<em>Owned Template Signature</em>' containment reference.
    * @see #setOwnedTemplateSignature(TemplateSignature)
    * @see west.twouse.language.sparqlas.SparqlasPackage#getTemplateableElement_OwnedTemplateSignature()
@@ -44,34 +45,34 @@ public interface TemplateableElement extends EObject {
    * @model opposite="template" containment="true"
    * @generated
    */
-	TemplateSignature getOwnedTemplateSignature();
+  TemplateSignature getOwnedTemplateSignature();
 
-	/**
+  /**
    * Sets the value of the '{@link west.twouse.language.sparqlas.TemplateableElement#getOwnedTemplateSignature <em>Owned Template Signature</em>}' containment reference.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @param value the new value of the '<em>Owned Template Signature</em>' containment reference.
    * @see #getOwnedTemplateSignature()
    * @generated
    */
-	void setOwnedTemplateSignature(TemplateSignature value);
+  void setOwnedTemplateSignature(TemplateSignature value);
 
-	/**
+  /**
    * Returns the value of the '<em><b>Template Binding</b></em>' containment reference list.
    * The list contents are of type {@link west.twouse.language.sparqlas.TemplateBinding}.
    * It is bidirectional and its opposite is '{@link west.twouse.language.sparqlas.TemplateBinding#getBoundElement <em>Bound Element</em>}'.
    * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Template Binding</em>' containment reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
+   * <p>
+   * If the meaning of the '<em>Template Binding</em>' containment reference list isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
    * @return the value of the '<em>Template Binding</em>' containment reference list.
    * @see west.twouse.language.sparqlas.SparqlasPackage#getTemplateableElement_TemplateBinding()
    * @see west.twouse.language.sparqlas.TemplateBinding#getBoundElement
    * @model opposite="boundElement" containment="true"
    * @generated
    */
-	EList<TemplateBinding> getTemplateBinding();
+  EList<TemplateBinding> getTemplateBinding();
 
 } // TemplateableElement

@@ -24,21 +24,22 @@ import org.eclipse.emf.common.util.EList;
  * @model
  * @generated
  */
-public interface ObjectOneOf extends ClassExpression {
-	/**
+public interface ObjectOneOf extends ClassExpression
+{
+  /**
    * Returns the value of the '<em><b>Individuals</b></em>' containment reference list.
    * The list contents are of type {@link west.twouse.language.sparqlas.Individual}.
    * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Individuals</em>' containment reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
+   * <p>
+   * If the meaning of the '<em>Individuals</em>' containment reference list isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
    * @return the value of the '<em>Individuals</em>' containment reference list.
    * @see west.twouse.language.sparqlas.SparqlasPackage#getObjectOneOf_Individuals()
    * @model containment="true" required="true" ordered="false"
    * @generated
    */
-	EList<Individual> getIndividuals();
+  EList<Individual> getIndividuals();
 
 } // ObjectOneOf

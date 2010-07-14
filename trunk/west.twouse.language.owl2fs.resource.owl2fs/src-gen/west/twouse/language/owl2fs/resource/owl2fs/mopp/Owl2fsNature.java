@@ -12,7 +12,9 @@ public class Owl2fsNature implements org.eclipse.core.resources.IProjectNature {
 	
 	private org.eclipse.core.resources.IProject project;
 	
-	// the IDs of all builders, IDs of additional builders can be added here
+	/**
+	 * the IDs of all builders, IDs of additional builders can be added here
+	 */
 	public final static String[] BUILDER_IDS = {west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsBuilderAdapter.BUILDER_ID};
 	
 	public static void activate(org.eclipse.core.resources.IProject project) {

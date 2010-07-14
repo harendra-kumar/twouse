@@ -117,7 +117,7 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 	private west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsLocationMap locationMap;
 	private int proxyCounter = 0;
 	private west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsTextParser parser;
-	private java.util.Map<java.lang.String, west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsContextDependentURIFragment<? extends org.eclipse.emf.ecore.EObject>> internalURIFragmentMap = new java.util.HashMap<java.lang.String, west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsContextDependentURIFragment<? extends org.eclipse.emf.ecore.EObject>>();
+	private java.util.Map<java.lang.String, west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsContextDependentURIFragment<? extends org.eclipse.emf.ecore.EObject>> internalURIFragmentMap = new java.util.LinkedHashMap<java.lang.String, west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsContextDependentURIFragment<? extends org.eclipse.emf.ecore.EObject>>();
 	
 	public Owl2fsResource() {
 		super();
@@ -152,8 +152,9 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 		west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsParseResult result = parser.parse();
 		clearState();
 		getContents().clear();
+		org.eclipse.emf.ecore.EObject root = null;
 		if (result != null) {
-			org.eclipse.emf.ecore.EObject root = result.getRoot();
+			root = result.getRoot();
 			if (root != null) {
 				getContents().add(root);
 			}
@@ -167,6 +168,9 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 		getReferenceResolverSwitch().setOptions(options);
 		if (getErrors().isEmpty()) {
 			runPostProcessors(options);
+			if (root != null) {
+				runValidators(root);
+			}
 		}
 	}
 	
@@ -187,7 +191,7 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 	}
 	
 	protected void doSave(java.io.OutputStream outputStream, java.util.Map<?,?> options) throws java.io.IOException {
-		west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsPrinter printer = new west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsPrinter(outputStream, this);
+		west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsTextPrinter printer = getMetaInformation().createPrinter(outputStream, this);
 		west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsReferenceResolverSwitch referenceResolverSwitch = getReferenceResolverSwitch();
 		referenceResolverSwitch.setOptions(options);
 		for(org.eclipse.emf.ecore.EObject root : getContents()) {
@@ -236,7 +240,7 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 			boolean wasResolvedBefore = uriFragment.isResolved();
 			west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsReferenceResolveResult<? extends org.eclipse.emf.ecore.EObject> result = uriFragment.resolve();
 			if (result == null) {
-				//the resolving did call itself
+				// the resolving did call itself
 				return null;
 			}
 			if (!wasResolvedBefore && !result.wasResolved()) {
@@ -245,16 +249,29 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 			} else if (!result.wasResolved()) {
 				return null;
 			} else {
-				//remove an error that might have been added by an earlier attempt
-				removeDiagnostics(uriFragment.getProxy(), getErrors());
-				//remove old warnings and attach new
-				removeDiagnostics(uriFragment.getProxy(), getWarnings());
-				attachWarnings(result, uriFragment.getProxy());
+				org.eclipse.emf.ecore.EObject proxy = uriFragment.getProxy();
+				// remove an error that might have been added by an earlier attempt
+				removeDiagnostics(proxy, getErrors());
+				// remove old warnings and attach new
+				removeDiagnostics(proxy, getWarnings());
+				attachWarnings(result, proxy);
 				west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsReferenceMapping<? extends org.eclipse.emf.ecore.EObject> mapping = result.getMappings().iterator().next();
-				return getResultElement(uriFragment, mapping, uriFragment.getProxy(), result.getErrorMessage());
+				org.eclipse.emf.ecore.EObject resultElement = getResultElement(uriFragment, mapping, proxy, result.getErrorMessage());
+				org.eclipse.emf.ecore.EObject container = uriFragment.getContainer();
+				replaceProxyInLayoutAdapters(container, proxy, resultElement);
+				return resultElement;
 			}
 		} else {
 			return super.getEObject(id);
+		}
+	}
+	
+	protected void replaceProxyInLayoutAdapters(org.eclipse.emf.ecore.EObject container, org.eclipse.emf.ecore.EObject proxy, org.eclipse.emf.ecore.EObject target) {
+		for (org.eclipse.emf.common.notify.Adapter adapter : container.eAdapters()) {
+			if (adapter instanceof west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsLayoutInformationAdapter) {
+				west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsLayoutInformationAdapter layoutInformationAdapter = (west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsLayoutInformationAdapter) adapter;
+				layoutInformationAdapter.replaceProxy(proxy, target);
+			}
 		}
 	}
 	
@@ -266,10 +283,11 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 				try {
 					result = this.getResourceSet().getEObject(uri, true);
 				} catch (java.lang.Exception e) {
-					//we can catch exceptions here, because EMF will try to resolve again and handle the exception
+					// we can catch exceptions here, because EMF will try to resolve again and handle
+					// the exception
 				}
 				if (result == null || result.eIsProxy()) {
-					//unable to resolve: attach error
+					// unable to resolve: attach error
 					if (errorMessage == null) {
 						assert(false);
 					} else {
@@ -285,7 +303,8 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 			org.eclipse.emf.ecore.EReference oppositeReference = uriFragment.getReference().getEOpposite();
 			if (!uriFragment.getReference().isContainment() && oppositeReference != null) {
 				if (reference.isMany()) {
-					org.eclipse.emf.ecore.util.EObjectWithInverseResolvingEList.ManyInverse<org.eclipse.emf.ecore.EObject> list = west.twouse.language.owl2fs.resource.owl2fs.util.Owl2fsCastUtil.cast(element.eGet(oppositeReference, false));										//avoids duplicate entries in the reference caused by adding to the oppositeReference 
+					org.eclipse.emf.ecore.util.EObjectWithInverseResolvingEList.ManyInverse<org.eclipse.emf.ecore.EObject> list = west.twouse.language.owl2fs.resource.owl2fs.util.Owl2fsCastUtil.cast(element.eGet(oppositeReference, false));										// avoids duplicate entries in the reference caused by adding to the
+					// oppositeReference
 					list.basicAdd(uriFragment.getContainer(),null);
 				} else {
 					uriFragment.getContainer().eSet(uriFragment.getReference(), element);
@@ -299,7 +318,7 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 	}
 	
 	private void removeDiagnostics(org.eclipse.emf.ecore.EObject proxy, java.util.List<org.eclipse.emf.ecore.resource.Resource.Diagnostic> diagnostics) {
-		// remove errors/warnings from resource
+		// remove all errors/warnings this resource
 		for (org.eclipse.emf.ecore.resource.Resource.Diagnostic errorCand : new org.eclipse.emf.common.util.BasicEList<org.eclipse.emf.ecore.resource.Resource.Diagnostic>(diagnostics)) {
 			if (errorCand instanceof west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsTextDiagnostic) {
 				if (((west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsTextDiagnostic) errorCand).wasCausedBy(proxy)) {
@@ -310,7 +329,7 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 	}
 	
 	private void attachErrors(west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsReferenceResolveResult<?> result, org.eclipse.emf.ecore.EObject proxy) {
-		// attach errors to resource
+		// attach errors to this resource
 		assert result != null;
 		final java.lang.String errorMessage = result.getErrorMessage();
 		if (errorMessage == null) {
@@ -334,7 +353,10 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 		}
 	}
 	
-	// Extends the super implementation by clearing all information about element positions.
+	/**
+	 * Extends the super implementation by clearing all information about element
+	 * positions.
+	 */
 	protected void doUnload() {
 		super.doUnload();
 		clearState();
@@ -371,9 +393,8 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 	}
 	
 	public void setURI(org.eclipse.emf.common.util.URI uri) {
-		//because of the context dependent proxy resolving it is 
-		//essential to resolve all proxies before the URI is changed
-		//which can cause loss of object identities
+		// because of the context dependent proxy resolving it is essential to resolve all
+		// proxies before the URI is changed which can cause loss of object identities
 		org.eclipse.emf.ecore.util.EcoreUtil.resolveAll(this);
 		super.setURI(uri);
 	}
@@ -428,16 +449,16 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 		return loadOptionsCopy;
 	}
 	
-	// Adds a new key,value pair to the list of options. If there
-	// is already an option with the same key, the two values are 
-	// collected in a list.
+	/**
+	 * Adds a new key,value pair to the list of options. If there is already an option
+	 * with the same key, the two values are collected in a list.
+	 */
 	private void addLoadOption(java.util.Map<java.lang.Object, java.lang.Object> options,java.lang.Object key, java.lang.Object value) {
 		// check if there is already an option set
 		if (options.containsKey(key)) {
 			java.lang.Object currentValue = options.get(key);
 			if (currentValue instanceof java.util.List<?>) {
-				// if the current value is a list, we add the new value to
-				// this list
+				// if the current value is a list, we add the new value to this list
 				java.util.List<?> currentValueAsList = (java.util.List<?>) currentValue;
 				java.util.List<java.lang.Object> currentValueAsObjectList = west.twouse.language.owl2fs.resource.owl2fs.util.Owl2fsListUtil.copySafelyToObjectList(currentValueAsList);
 				if (value instanceof java.util.Collection<?>) {
@@ -447,8 +468,8 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 				}
 				options.put(key, currentValueAsObjectList);
 			} else {
-				// if the current value is not a list, we create a fresh list
-				// and add both the old (current) and the new value to this list
+				// if the current value is not a list, we create a fresh list and add both the old
+				// (current) and the new value to this list
 				java.util.List<java.lang.Object> newValueList = new java.util.ArrayList<java.lang.Object>();
 				newValueList.add(currentValue);
 				if (value instanceof java.util.Collection<?>) {
@@ -463,9 +484,12 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 		}
 	}
 	
-	// Extends the super implementation by clearing all information about element positions.
+	/**
+	 * Extends the super implementation by clearing all information about element
+	 * positions.
+	 */
 	protected void clearState() {
-		//clear concrete syntax information
+		// clear concrete syntax information
 		resetLocationMap();
 		internalURIFragmentMap.clear();
 		getErrors().clear();
@@ -484,6 +508,50 @@ public class Owl2fsResource extends org.eclipse.emf.ecore.resource.impl.Resource
 	
 	public org.eclipse.emf.common.util.EList<org.eclipse.emf.ecore.resource.Resource.Diagnostic> getErrors() {
 		return new west.twouse.language.owl2fs.resource.owl2fs.util.Owl2fsCopiedEList<org.eclipse.emf.ecore.resource.Resource.Diagnostic>(super.getErrors());
+	}
+	
+	private void runValidators(org.eclipse.emf.ecore.EObject root) {
+		// checking constraints provided by EMF validator classes was disabled
+		// check EMF validation constraints
+		// EMF validation does not work if OSGi is not running
+		if (org.eclipse.core.runtime.Platform.isRunning()) {
+			// The EMF validation framework code throws a NPE if the validation plug-in is not
+			// loaded. This is a bug, which is fixed in the helios release. Nonetheless, we
+			// need to catch the exception here.
+			try {
+				org.eclipse.emf.validation.service.ModelValidationService service = org.eclipse.emf.validation.service.ModelValidationService.getInstance();
+				org.eclipse.emf.validation.service.IBatchValidator validator = (org.eclipse.emf.validation.service.IBatchValidator) service.newValidator(org.eclipse.emf.validation.model.EvaluationMode.BATCH);
+				validator.setIncludeLiveConstraints(true);
+				org.eclipse.core.runtime.IStatus status = validator.validate(root);
+				addStatus(status, root);
+			} catch (java.lang.Throwable t) {
+				west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsPlugin.logError("Exception while checking contraints provided by EMF validator classes.", t);
+			}
+		}
+	}
+	
+	private void addStatus(org.eclipse.core.runtime.IStatus status, org.eclipse.emf.ecore.EObject root) {
+		java.util.List<org.eclipse.emf.ecore.EObject> causes = new java.util.ArrayList<org.eclipse.emf.ecore.EObject>();
+		causes.add(root);
+		if (status instanceof org.eclipse.emf.validation.model.ConstraintStatus) {
+			org.eclipse.emf.validation.model.ConstraintStatus constraintStatus = (org.eclipse.emf.validation.model.ConstraintStatus) status;
+			java.util.Set<org.eclipse.emf.ecore.EObject> resultLocus = constraintStatus.getResultLocus();
+			causes.clear();
+			causes.addAll(resultLocus);
+		}
+		if (status.getSeverity() == org.eclipse.core.runtime.IStatus.ERROR) {
+			for (org.eclipse.emf.ecore.EObject cause : causes) {
+				addError(status.getMessage(), cause);
+			}
+		}
+		if (status.getSeverity() == org.eclipse.core.runtime.IStatus.WARNING) {
+			for (org.eclipse.emf.ecore.EObject cause : causes) {
+				addWarning(status.getMessage(), cause);
+			}
+		}
+		for (org.eclipse.core.runtime.IStatus child : status.getChildren()) {
+			addStatus(child, root);
+		}
 	}
 	
 }

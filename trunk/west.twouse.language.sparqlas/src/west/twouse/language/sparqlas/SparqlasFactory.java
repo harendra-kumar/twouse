@@ -16,25 +16,26 @@ import org.eclipse.emf.ecore.EFactory;
  * @see west.twouse.language.sparqlas.SparqlasPackage
  * @generated
  */
-public interface SparqlasFactory extends EFactory {
-	/**
+public interface SparqlasFactory extends EFactory
+{
+  /**
    * The singleton instance of the factory.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @generated
    */
-	SparqlasFactory eINSTANCE = west.twouse.language.sparqlas.impl.SparqlasFactoryImpl.init();
+  SparqlasFactory eINSTANCE = west.twouse.language.sparqlas.impl.SparqlasFactoryImpl.init();
 
-	/**
+  /**
    * Returns a new object of class '<em>Ontology Document</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Ontology Document</em>'.
    * @generated
    */
-	OntologyDocument createOntologyDocument();
+  OntologyDocument createOntologyDocument();
 
-	/**
+  /**
    * Returns a new object of class '<em>Import</em>'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -46,13 +47,13 @@ public interface SparqlasFactory extends EFactory {
   /**
    * Returns a new object of class '<em>Prefix Definition</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Prefix Definition</em>'.
    * @generated
    */
-	PrefixDefinition createPrefixDefinition();
+  PrefixDefinition createPrefixDefinition();
 
-	/**
+  /**
    * Returns a new object of class '<em>Select Query</em>'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -91,22 +92,22 @@ public interface SparqlasFactory extends EFactory {
   /**
    * Returns a new object of class '<em>Full IRI</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Full IRI</em>'.
    * @generated
    */
-	FullIRI createFullIRI();
+  FullIRI createFullIRI();
 
-	/**
+  /**
    * Returns a new object of class '<em>Abbreviated IRI</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Abbreviated IRI</em>'.
    * @generated
    */
-	AbbreviatedIRI createAbbreviatedIRI();
+  AbbreviatedIRI createAbbreviatedIRI();
 
-	/**
+  /**
    * Returns a new object of class '<em>Variable</em>'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -118,202 +119,202 @@ public interface SparqlasFactory extends EFactory {
   /**
    * Returns a new object of class '<em>Class Variable</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Class Variable</em>'.
    * @generated
    */
-	ClassVariable createClassVariable();
+  ClassVariable createClassVariable();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object Property Variable</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object Property Variable</em>'.
    * @generated
    */
-	ObjectPropertyVariable createObjectPropertyVariable();
+  ObjectPropertyVariable createObjectPropertyVariable();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data Property Variable</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data Property Variable</em>'.
    * @generated
    */
-	DataPropertyVariable createDataPropertyVariable();
+  DataPropertyVariable createDataPropertyVariable();
 
-	/**
+  /**
    * Returns a new object of class '<em>Individual Variable</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Individual Variable</em>'.
    * @generated
    */
-	IndividualVariable createIndividualVariable();
+  IndividualVariable createIndividualVariable();
 
-	/**
+  /**
    * Returns a new object of class '<em>Class</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Class</em>'.
    * @generated
    */
-	Class createClass();
+  Class createClass();
 
-	/**
+  /**
    * Returns a new object of class '<em>Datatype</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Datatype</em>'.
    * @generated
    */
-	Datatype createDatatype();
+  Datatype createDatatype();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object Property</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object Property</em>'.
    * @generated
    */
-	ObjectProperty createObjectProperty();
+  ObjectProperty createObjectProperty();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data Property</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data Property</em>'.
    * @generated
    */
-	DataProperty createDataProperty();
+  DataProperty createDataProperty();
 
-	/**
+  /**
    * Returns a new object of class '<em>Named Individual</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Named Individual</em>'.
    * @generated
    */
-	NamedIndividual createNamedIndividual();
+  NamedIndividual createNamedIndividual();
 
-	/**
+  /**
    * Returns a new object of class '<em>Anonymous Individual</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Anonymous Individual</em>'.
    * @generated
    */
-	AnonymousIndividual createAnonymousIndividual();
+  AnonymousIndividual createAnonymousIndividual();
 
-	/**
+  /**
    * Returns a new object of class '<em>Literal Variable</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Literal Variable</em>'.
    * @generated
    */
-	LiteralVariable createLiteralVariable();
+  LiteralVariable createLiteralVariable();
 
-	/**
+  /**
    * Returns a new object of class '<em>Literal</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Literal</em>'.
    * @generated
    */
-	Literal createLiteral();
+  Literal createLiteral();
 
-	/**
+  /**
    * Returns a new object of class '<em>Class Assertion</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Class Assertion</em>'.
    * @generated
    */
-	ClassAssertion createClassAssertion();
+  ClassAssertion createClassAssertion();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object Property Assertion</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object Property Assertion</em>'.
    * @generated
    */
-	ObjectPropertyAssertion createObjectPropertyAssertion();
+  ObjectPropertyAssertion createObjectPropertyAssertion();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data Property Assertion</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data Property Assertion</em>'.
    * @generated
    */
-	DataPropertyAssertion createDataPropertyAssertion();
+  DataPropertyAssertion createDataPropertyAssertion();
 
-	/**
+  /**
    * Returns a new object of class '<em>Negative Object Property Assertion</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Negative Object Property Assertion</em>'.
    * @generated
    */
-	NegativeObjectPropertyAssertion createNegativeObjectPropertyAssertion();
+  NegativeObjectPropertyAssertion createNegativeObjectPropertyAssertion();
 
-	/**
+  /**
    * Returns a new object of class '<em>Negative Data Property Assertion</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Negative Data Property Assertion</em>'.
    * @generated
    */
-	NegativeDataPropertyAssertion createNegativeDataPropertyAssertion();
+  NegativeDataPropertyAssertion createNegativeDataPropertyAssertion();
 
-	/**
+  /**
    * Returns a new object of class '<em>Same Individual</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Same Individual</em>'.
    * @generated
    */
-	SameIndividual createSameIndividual();
+  SameIndividual createSameIndividual();
 
-	/**
+  /**
    * Returns a new object of class '<em>Different Individuals</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Different Individuals</em>'.
    * @generated
    */
-	DifferentIndividuals createDifferentIndividuals();
+  DifferentIndividuals createDifferentIndividuals();
 
-	/**
+  /**
    * Returns a new object of class '<em>Sub Class Of</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Sub Class Of</em>'.
    * @generated
    */
-	SubClassOf createSubClassOf();
+  SubClassOf createSubClassOf();
 
-	/**
+  /**
    * Returns a new object of class '<em>Equivalent Classes</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Equivalent Classes</em>'.
    * @generated
    */
-	EquivalentClasses createEquivalentClasses();
+  EquivalentClasses createEquivalentClasses();
 
-	/**
+  /**
    * Returns a new object of class '<em>Disjoint Classes</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Disjoint Classes</em>'.
    * @generated
    */
-	DisjointClasses createDisjointClasses();
+  DisjointClasses createDisjointClasses();
 
-	/**
+  /**
    * Returns a new object of class '<em>Disjoint Union</em>'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -325,211 +326,211 @@ public interface SparqlasFactory extends EFactory {
   /**
    * Returns a new object of class '<em>Object Union Of</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object Union Of</em>'.
    * @generated
    */
-	ObjectUnionOf createObjectUnionOf();
+  ObjectUnionOf createObjectUnionOf();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object Complement Of</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object Complement Of</em>'.
    * @generated
    */
-	ObjectComplementOf createObjectComplementOf();
+  ObjectComplementOf createObjectComplementOf();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object One Of</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object One Of</em>'.
    * @generated
    */
-	ObjectOneOf createObjectOneOf();
+  ObjectOneOf createObjectOneOf();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object Intersection Of</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object Intersection Of</em>'.
    * @generated
    */
-	ObjectIntersectionOf createObjectIntersectionOf();
+  ObjectIntersectionOf createObjectIntersectionOf();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object All Values From</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object All Values From</em>'.
    * @generated
    */
-	ObjectAllValuesFrom createObjectAllValuesFrom();
+  ObjectAllValuesFrom createObjectAllValuesFrom();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object Some Values From</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object Some Values From</em>'.
    * @generated
    */
-	ObjectSomeValuesFrom createObjectSomeValuesFrom();
+  ObjectSomeValuesFrom createObjectSomeValuesFrom();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object Has Value</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object Has Value</em>'.
    * @generated
    */
-	ObjectHasValue createObjectHasValue();
+  ObjectHasValue createObjectHasValue();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object Min Cardinality</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object Min Cardinality</em>'.
    * @generated
    */
-	ObjectMinCardinality createObjectMinCardinality();
+  ObjectMinCardinality createObjectMinCardinality();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object Max Cardinality</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object Max Cardinality</em>'.
    * @generated
    */
-	ObjectMaxCardinality createObjectMaxCardinality();
+  ObjectMaxCardinality createObjectMaxCardinality();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object Exact Cardinality</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object Exact Cardinality</em>'.
    * @generated
    */
-	ObjectExactCardinality createObjectExactCardinality();
+  ObjectExactCardinality createObjectExactCardinality();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data All Values From</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data All Values From</em>'.
    * @generated
    */
-	DataAllValuesFrom createDataAllValuesFrom();
+  DataAllValuesFrom createDataAllValuesFrom();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data Some Values From</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data Some Values From</em>'.
    * @generated
    */
-	DataSomeValuesFrom createDataSomeValuesFrom();
+  DataSomeValuesFrom createDataSomeValuesFrom();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data Has Value</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data Has Value</em>'.
    * @generated
    */
-	DataHasValue createDataHasValue();
+  DataHasValue createDataHasValue();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data Min Cardinality</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data Min Cardinality</em>'.
    * @generated
    */
-	DataMinCardinality createDataMinCardinality();
+  DataMinCardinality createDataMinCardinality();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data Max Cardinality</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data Max Cardinality</em>'.
    * @generated
    */
-	DataMaxCardinality createDataMaxCardinality();
+  DataMaxCardinality createDataMaxCardinality();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data Exact Cardinality</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data Exact Cardinality</em>'.
    * @generated
    */
-	DataExactCardinality createDataExactCardinality();
+  DataExactCardinality createDataExactCardinality();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data Union Of</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data Union Of</em>'.
    * @generated
    */
-	DataUnionOf createDataUnionOf();
+  DataUnionOf createDataUnionOf();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data Complement Of</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data Complement Of</em>'.
    * @generated
    */
-	DataComplementOf createDataComplementOf();
+  DataComplementOf createDataComplementOf();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data One Of</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data One Of</em>'.
    * @generated
    */
-	DataOneOf createDataOneOf();
+  DataOneOf createDataOneOf();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data Intersection Of</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data Intersection Of</em>'.
    * @generated
    */
-	DataIntersectionOf createDataIntersectionOf();
+  DataIntersectionOf createDataIntersectionOf();
 
-	/**
+  /**
    * Returns a new object of class '<em>Datatype Restriction</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Datatype Restriction</em>'.
    * @generated
    */
-	DatatypeRestriction createDatatypeRestriction();
+  DatatypeRestriction createDatatypeRestriction();
 
-	/**
+  /**
    * Returns a new object of class '<em>Facet Restriction</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Facet Restriction</em>'.
    * @generated
    */
-	FacetRestriction createFacetRestriction();
+  FacetRestriction createFacetRestriction();
 
-	/**
+  /**
    * Returns a new object of class '<em>Sub Object Property Of</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Sub Object Property Of</em>'.
    * @generated
    */
-	SubObjectPropertyOf createSubObjectPropertyOf();
+  SubObjectPropertyOf createSubObjectPropertyOf();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object Property Chain</em>'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -541,175 +542,175 @@ public interface SparqlasFactory extends EFactory {
   /**
    * Returns a new object of class '<em>Equivalent Object Properties</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Equivalent Object Properties</em>'.
    * @generated
    */
-	EquivalentObjectProperties createEquivalentObjectProperties();
+  EquivalentObjectProperties createEquivalentObjectProperties();
 
-	/**
+  /**
    * Returns a new object of class '<em>Disjoint Object Properties</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Disjoint Object Properties</em>'.
    * @generated
    */
-	DisjointObjectProperties createDisjointObjectProperties();
+  DisjointObjectProperties createDisjointObjectProperties();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object Property Domain</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object Property Domain</em>'.
    * @generated
    */
-	ObjectPropertyDomain createObjectPropertyDomain();
+  ObjectPropertyDomain createObjectPropertyDomain();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object Property Range</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object Property Range</em>'.
    * @generated
    */
-	ObjectPropertyRange createObjectPropertyRange();
+  ObjectPropertyRange createObjectPropertyRange();
 
-	/**
+  /**
    * Returns a new object of class '<em>Inverse Object Property Atom</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Inverse Object Property Atom</em>'.
    * @generated
    */
-	InverseObjectPropertyAtom createInverseObjectPropertyAtom();
+  InverseObjectPropertyAtom createInverseObjectPropertyAtom();
 
-	/**
+  /**
    * Returns a new object of class '<em>Functional Object Property</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Functional Object Property</em>'.
    * @generated
    */
-	FunctionalObjectProperty createFunctionalObjectProperty();
+  FunctionalObjectProperty createFunctionalObjectProperty();
 
-	/**
+  /**
    * Returns a new object of class '<em>Inverse Functional Object Property</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Inverse Functional Object Property</em>'.
    * @generated
    */
-	InverseFunctionalObjectProperty createInverseFunctionalObjectProperty();
+  InverseFunctionalObjectProperty createInverseFunctionalObjectProperty();
 
-	/**
+  /**
    * Returns a new object of class '<em>Reflexive Object Property</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Reflexive Object Property</em>'.
    * @generated
    */
-	ReflexiveObjectProperty createReflexiveObjectProperty();
+  ReflexiveObjectProperty createReflexiveObjectProperty();
 
-	/**
+  /**
    * Returns a new object of class '<em>Irreflexive Object Property</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Irreflexive Object Property</em>'.
    * @generated
    */
-	IrreflexiveObjectProperty createIrreflexiveObjectProperty();
+  IrreflexiveObjectProperty createIrreflexiveObjectProperty();
 
-	/**
+  /**
    * Returns a new object of class '<em>Symmetric Object Property</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Symmetric Object Property</em>'.
    * @generated
    */
-	SymmetricObjectProperty createSymmetricObjectProperty();
+  SymmetricObjectProperty createSymmetricObjectProperty();
 
-	/**
+  /**
    * Returns a new object of class '<em>Asymmetric Object Property</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Asymmetric Object Property</em>'.
    * @generated
    */
-	AsymmetricObjectProperty createAsymmetricObjectProperty();
+  AsymmetricObjectProperty createAsymmetricObjectProperty();
 
-	/**
+  /**
    * Returns a new object of class '<em>Transitive Object Property</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Transitive Object Property</em>'.
    * @generated
    */
-	TransitiveObjectProperty createTransitiveObjectProperty();
+  TransitiveObjectProperty createTransitiveObjectProperty();
 
-	/**
+  /**
    * Returns a new object of class '<em>Inverse Object Property</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Inverse Object Property</em>'.
    * @generated
    */
-	InverseObjectProperty createInverseObjectProperty();
+  InverseObjectProperty createInverseObjectProperty();
 
-	/**
+  /**
    * Returns a new object of class '<em>Sub Data Property Of</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Sub Data Property Of</em>'.
    * @generated
    */
-	SubDataPropertyOf createSubDataPropertyOf();
+  SubDataPropertyOf createSubDataPropertyOf();
 
-	/**
+  /**
    * Returns a new object of class '<em>Equivalent Data Properties</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Equivalent Data Properties</em>'.
    * @generated
    */
-	EquivalentDataProperties createEquivalentDataProperties();
+  EquivalentDataProperties createEquivalentDataProperties();
 
-	/**
+  /**
    * Returns a new object of class '<em>Disjoint Data Properties</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Disjoint Data Properties</em>'.
    * @generated
    */
-	DisjointDataProperties createDisjointDataProperties();
+  DisjointDataProperties createDisjointDataProperties();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data Property Domain</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data Property Domain</em>'.
    * @generated
    */
-	DataPropertyDomain createDataPropertyDomain();
+  DataPropertyDomain createDataPropertyDomain();
 
-	/**
+  /**
    * Returns a new object of class '<em>Data Property Range</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Data Property Range</em>'.
    * @generated
    */
-	DataPropertyRange createDataPropertyRange();
+  DataPropertyRange createDataPropertyRange();
 
-	/**
+  /**
    * Returns a new object of class '<em>Functional Data Property</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Functional Data Property</em>'.
    * @generated
    */
-	FunctionalDataProperty createFunctionalDataProperty();
+  FunctionalDataProperty createFunctionalDataProperty();
 
-	/**
+  /**
    * Returns a new object of class '<em>Has Key</em>'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -721,76 +722,76 @@ public interface SparqlasFactory extends EFactory {
   /**
    * Returns a new object of class '<em>Class Declaration</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Class Declaration</em>'.
    * @generated
    */
-	ClassDeclaration createClassDeclaration();
+  ClassDeclaration createClassDeclaration();
 
-	/**
+  /**
    * Returns a new object of class '<em>Object Property Declaration</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Object Property Declaration</em>'.
    * @generated
    */
-	ObjectPropertyDeclaration createObjectPropertyDeclaration();
+  ObjectPropertyDeclaration createObjectPropertyDeclaration();
 
-	/**
+  /**
    * Returns a new object of class '<em>Datatype Property Declaration</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Datatype Property Declaration</em>'.
    * @generated
    */
-	DatatypePropertyDeclaration createDatatypePropertyDeclaration();
+  DatatypePropertyDeclaration createDatatypePropertyDeclaration();
 
-	/**
+  /**
    * Returns a new object of class '<em>Individual Declaration</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Individual Declaration</em>'.
    * @generated
    */
-	IndividualDeclaration createIndividualDeclaration();
+  IndividualDeclaration createIndividualDeclaration();
 
-	/**
+  /**
    * Returns a new object of class '<em>Template Parameter</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Template Parameter</em>'.
    * @generated
    */
-	TemplateParameter createTemplateParameter();
+  TemplateParameter createTemplateParameter();
 
-	/**
+  /**
    * Returns a new object of class '<em>Template Signature</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Template Signature</em>'.
    * @generated
    */
-	TemplateSignature createTemplateSignature();
+  TemplateSignature createTemplateSignature();
 
-	/**
+  /**
    * Returns a new object of class '<em>Template Parameter Substitution</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Template Parameter Substitution</em>'.
    * @generated
    */
-	TemplateParameterSubstitution createTemplateParameterSubstitution();
+  TemplateParameterSubstitution createTemplateParameterSubstitution();
 
-	/**
+  /**
    * Returns a new object of class '<em>Template Binding</em>'.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return a new object of class '<em>Template Binding</em>'.
    * @generated
    */
-	TemplateBinding createTemplateBinding();
+  TemplateBinding createTemplateBinding();
 
-	/**
+  /**
    * Returns a new object of class '<em>Direct Class Assertion</em>'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
@@ -820,10 +821,10 @@ public interface SparqlasFactory extends EFactory {
   /**
    * Returns the package supported by this factory.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @return the package supported by this factory.
    * @generated
    */
-	SparqlasPackage getSparqlasPackage();
+  SparqlasPackage getSparqlasPackage();
 
 } //SparqlasFactory

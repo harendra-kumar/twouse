@@ -25,7 +25,7 @@ public class Owl2fsMetaInformation implements west.twouse.language.owl2fs.resour
 	}
 	
 	public west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsTextPrinter createPrinter(java.io.OutputStream outputStream, west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsTextResource resource) {
-		return new west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsPrinter(outputStream, resource);
+		return new west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsPrinter2(outputStream, resource);
 	}
 	
 	public org.eclipse.emf.ecore.EClass[] getClassesWithSyntax() {
@@ -64,28 +64,12 @@ public class Owl2fsMetaInformation implements west.twouse.language.owl2fs.resour
 		return new west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsFoldingInformationProvider().getFoldableClasses();
 	}
 	
-	public west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsHoverTextProvider getHoverTextProvider() {
-		return new west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsHoverTextProvider();
-	}
-	
-	public west.twouse.language.owl2fs.resource.owl2fs.ui.Owl2fsColorManager createColorManager() {
-		return new west.twouse.language.owl2fs.resource.owl2fs.ui.Owl2fsColorManager();
-	}
-	
-	public org.eclipse.jface.text.rules.ITokenScanner createTokenScanner(west.twouse.language.owl2fs.resource.owl2fs.ui.Owl2fsColorManager colorManager) {
-		return new west.twouse.language.owl2fs.resource.owl2fs.ui.Owl2fsTokenScanner(colorManager);
-	}
-	
 	public org.eclipse.emf.ecore.resource.Resource.Factory createResourceFactory() {
 		return new west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsResourceFactory();
 	}
 	
 	public west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsNewFileContentProvider getNewFileContentProvider() {
 		return new west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsNewFileContentProvider();
-	}
-	
-	public west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsCodeCompletionHelper createCodeCompletionHelper() {
-		return new west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsCodeCompletionHelper();
 	}
 	
 }

@@ -24,21 +24,22 @@ import org.eclipse.emf.common.util.EList;
  * @model
  * @generated
  */
-public interface EquivalentClasses extends ClassAtom {
-	/**
+public interface EquivalentClasses extends ClassAtom
+{
+  /**
    * Returns the value of the '<em><b>Class Expressions</b></em>' containment reference list.
    * The list contents are of type {@link west.twouse.language.sparqlas.ClassExpression}.
    * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Class Expressions</em>' containment reference list isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
+   * <p>
+   * If the meaning of the '<em>Class Expressions</em>' containment reference list isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
    * @return the value of the '<em>Class Expressions</em>' containment reference list.
    * @see west.twouse.language.sparqlas.SparqlasPackage#getEquivalentClasses_ClassExpressions()
    * @model containment="true" lower="2" ordered="false"
    * @generated
    */
-	EList<ClassExpression> getClassExpressions();
+  EList<ClassExpression> getClassExpressions();
 
 } // EquivalentClasses

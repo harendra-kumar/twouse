@@ -17,7 +17,6 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import west.twouse.language.sparqlas.IndividualDeclaration;
 import west.twouse.language.sparqlas.IndividualVariable;
 import west.twouse.language.sparqlas.NamedIndividual;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 
 /**

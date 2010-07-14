@@ -17,5 +17,6 @@ package west.twouse.language.sparqlas;
  * @model
  * @generated
  */
-public interface ObjectProperty extends ObjectPropertyExpression, Constant {
+public interface ObjectProperty extends ObjectPropertyExpression, Constant
+{
 } // ObjectProperty

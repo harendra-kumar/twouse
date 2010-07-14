@@ -6,32 +6,34 @@
  */
 package west.twouse.language.owl2fs.resource.owl2fs.mopp;
 
-// A representation for a range in a document where a keyword (i.e.,
-// a static string) is expected.
+/**
+ * A representation for a range in a document where a keyword (i.e., a static
+ * string) is expected.
+ */
 public class Owl2fsExpectedCsString extends west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsAbstractExpectedElement {
 	
-	private String value;
+	private west.twouse.language.owl2fs.resource.owl2fs.grammar.Owl2fsKeyword keyword;
 	
-	public Owl2fsExpectedCsString(String value) {
-		super();
-		this.value = value;
+	public Owl2fsExpectedCsString(west.twouse.language.owl2fs.resource.owl2fs.grammar.Owl2fsKeyword keyword) {
+		super(keyword.getMetaclass());
+		this.keyword = keyword;
 	}
 	
 	public String getValue() {
-		return value;
+		return keyword.getValue();
 	}
 	
 	public String getTokenName() {
-		return "'" + value + "'";
+		return "'" + getValue() + "'";
 	}
 	
 	public String toString() {
-		return "CsString \"" + value + "\"";
+		return "CsString \"" + getValue() + "\"";
 	}
 	
 	public boolean equals(Object o) {
 		if (o instanceof Owl2fsExpectedCsString) {
-			return this.value.equals(((Owl2fsExpectedCsString) o).value);
+			return getValue().equals(((Owl2fsExpectedCsString) o).getValue());
 		}
 		return false;
 	}

@@ -20,7 +20,6 @@ import west.twouse.language.sparqlas.Expression;
 import west.twouse.language.sparqlas.ObjectPropertyExpression;
 import west.twouse.language.sparqlas.ObjectPropertyVariable;
 import west.twouse.language.sparqlas.ParameterableElement;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 import west.twouse.language.sparqlas.TemplateParameter;
 

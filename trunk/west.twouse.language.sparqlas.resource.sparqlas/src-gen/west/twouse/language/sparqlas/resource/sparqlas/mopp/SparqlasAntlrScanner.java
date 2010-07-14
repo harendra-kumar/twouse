@@ -8,9 +8,9 @@ package west.twouse.language.sparqlas.resource.sparqlas.mopp;
 
 public class SparqlasAntlrScanner implements west.twouse.language.sparqlas.resource.sparqlas.ISparqlasTextScanner {
 	
-	private org.antlr.runtime.Lexer antlrLexer;
+	private org.antlr.runtime3_2_0.Lexer antlrLexer;
 	
-	public SparqlasAntlrScanner(org.antlr.runtime.Lexer antlrLexer) {
+	public SparqlasAntlrScanner(org.antlr.runtime3_2_0.Lexer antlrLexer) {
 		this.antlrLexer = antlrLexer;
 	}
 	
@@ -18,13 +18,13 @@ public class SparqlasAntlrScanner implements west.twouse.language.sparqlas.resou
 		if (antlrLexer.getCharStream() == null) {
 			return null;
 		}
-		final org.antlr.runtime.Token current = antlrLexer.nextToken();
+		final org.antlr.runtime3_2_0.Token current = antlrLexer.nextToken();
 		west.twouse.language.sparqlas.resource.sparqlas.ISparqlasTextToken result = new west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasTextToken(current);
 		return result;
 	}
 	
 	public void setText(java.lang.String text) {
-		antlrLexer.setCharStream(new org.antlr.runtime.ANTLRStringStream(text));
+		antlrLexer.setCharStream(new org.antlr.runtime3_2_0.ANTLRStringStream(text));
 	}
 	
 }

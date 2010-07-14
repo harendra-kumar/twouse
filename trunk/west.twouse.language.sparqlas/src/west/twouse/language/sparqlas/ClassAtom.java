@@ -17,5 +17,6 @@ package west.twouse.language.sparqlas;
  * @model abstract="true"
  * @generated
  */
-public interface ClassAtom extends Atom {
+public interface ClassAtom extends Atom
+{
 } // ClassAtom

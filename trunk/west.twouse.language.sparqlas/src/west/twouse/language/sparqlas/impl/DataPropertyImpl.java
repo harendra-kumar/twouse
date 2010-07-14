@@ -17,7 +17,6 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import west.twouse.language.sparqlas.Constant;
 import west.twouse.language.sparqlas.DataProperty;
 import west.twouse.language.sparqlas.IRI;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 import west.twouse.language.sparqlas.Term;
 

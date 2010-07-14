@@ -17,4 +17,9 @@ public class Owl2fsReferenceResolverSwitch implements west.twouse.language.owl2f
 			return;
 		}
 	}
+	
+	public west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsReferenceResolver<? extends org.eclipse.emf.ecore.EObject, ? extends org.eclipse.emf.ecore.EObject> getResolver(org.eclipse.emf.ecore.EStructuralFeature reference) {
+		return null;
+	}
+	
 }

@@ -1,9 +1,9 @@
-// $ANTLR 3.1.1
+// $ANTLR ${project.version} ${buildNumber}
 
 	package west.twouse.language.owl2fs.resource.owl2fs.mopp;
 
 
-import org.antlr.runtime.*;
+import org.antlr.runtime3_2_0.*;
 
 public class Owl2fsLexer extends Lexer {
     public static final int T__29=29;
@@ -110,12 +110,12 @@ public class Owl2fsLexer extends Lexer {
     public static final int T__39=39;
     public static final int LANGTAG=9;
 
-    	public java.util.List<org.antlr.runtime.RecognitionException> lexerExceptions  = new java.util.ArrayList<org.antlr.runtime.RecognitionException>();
+    	public java.util.List<org.antlr.runtime3_2_0.RecognitionException> lexerExceptions  = new java.util.ArrayList<org.antlr.runtime3_2_0.RecognitionException>();
     	public java.util.List<java.lang.Integer> lexerExceptionsPosition = new java.util.ArrayList<java.lang.Integer>();
     	
-    	public void reportError(org.antlr.runtime.RecognitionException e) {
+    	public void reportError(org.antlr.runtime3_2_0.RecognitionException e) {
     		lexerExceptions.add(e);
-    		lexerExceptionsPosition.add(((org.antlr.runtime.ANTLRStringStream) input).index());
+    		lexerExceptionsPosition.add(((org.antlr.runtime3_2_0.ANTLRStringStream) input).index());
     	}
 
 
@@ -130,15 +130,15 @@ public class Owl2fsLexer extends Lexer {
         super(input,state);
 
     }
-    public String getGrammarFileName() { return "D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g"; }
+    public String getGrammarFileName() { return "Owl2fs.g"; }
 
     // $ANTLR start "T__14"
     public final void mT__14() throws RecognitionException {
         try {
             int _type = T__14;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:16:7: ( ':' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:16:9: ':'
+            // Owl2fs.g:16:7: ( ':' )
+            // Owl2fs.g:16:9: ':'
             {
             match(':'); 
 
@@ -157,8 +157,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__15;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:17:7: ( 'Prefix' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:17:9: 'Prefix'
+            // Owl2fs.g:17:7: ( 'Prefix' )
+            // Owl2fs.g:17:9: 'Prefix'
             {
             match("Prefix"); 
 
@@ -178,8 +178,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__16;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:18:7: ( '(' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:18:9: '('
+            // Owl2fs.g:18:7: ( '(' )
+            // Owl2fs.g:18:9: '('
             {
             match('('); 
 
@@ -198,8 +198,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__17;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19:7: ( ':=' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19:9: ':='
+            // Owl2fs.g:19:7: ( ':=' )
+            // Owl2fs.g:19:9: ':='
             {
             match(":="); 
 
@@ -219,8 +219,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__18;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:20:7: ( ')' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:20:9: ')'
+            // Owl2fs.g:20:7: ( ')' )
+            // Owl2fs.g:20:9: ')'
             {
             match(')'); 
 
@@ -239,8 +239,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__19;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:21:7: ( 'Ontology' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:21:9: 'Ontology'
+            // Owl2fs.g:21:7: ( 'Ontology' )
+            // Owl2fs.g:21:9: 'Ontology'
             {
             match("Ontology"); 
 
@@ -260,8 +260,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__20;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:22:7: ( 'Import' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:22:9: 'Import'
+            // Owl2fs.g:22:7: ( 'Import' )
+            // Owl2fs.g:22:9: 'Import'
             {
             match("Import"); 
 
@@ -281,8 +281,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__21;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:23:7: ( 'Declaration' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:23:9: 'Declaration'
+            // Owl2fs.g:23:7: ( 'Declaration' )
+            // Owl2fs.g:23:9: 'Declaration'
             {
             match("Declaration"); 
 
@@ -302,8 +302,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__22;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:24:7: ( 'Class' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:24:9: 'Class'
+            // Owl2fs.g:24:7: ( 'Class' )
+            // Owl2fs.g:24:9: 'Class'
             {
             match("Class"); 
 
@@ -323,8 +323,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__23;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:25:7: ( 'Datatype' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:25:9: 'Datatype'
+            // Owl2fs.g:25:7: ( 'Datatype' )
+            // Owl2fs.g:25:9: 'Datatype'
             {
             match("Datatype"); 
 
@@ -344,8 +344,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__24;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:26:7: ( 'ObjectProperty' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:26:9: 'ObjectProperty'
+            // Owl2fs.g:26:7: ( 'ObjectProperty' )
+            // Owl2fs.g:26:9: 'ObjectProperty'
             {
             match("ObjectProperty"); 
 
@@ -365,8 +365,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__25;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:27:7: ( 'DataProperty' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:27:9: 'DataProperty'
+            // Owl2fs.g:27:7: ( 'DataProperty' )
+            // Owl2fs.g:27:9: 'DataProperty'
             {
             match("DataProperty"); 
 
@@ -386,8 +386,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__26;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:28:7: ( 'AnnotationProperty' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:28:9: 'AnnotationProperty'
+            // Owl2fs.g:28:7: ( 'AnnotationProperty' )
+            // Owl2fs.g:28:9: 'AnnotationProperty'
             {
             match("AnnotationProperty"); 
 
@@ -407,8 +407,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__27;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:29:7: ( 'NamedIndividual' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:29:9: 'NamedIndividual'
+            // Owl2fs.g:29:7: ( 'NamedIndividual' )
+            // Owl2fs.g:29:9: 'NamedIndividual'
             {
             match("NamedIndividual"); 
 
@@ -428,8 +428,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__28;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:30:7: ( 'AnnotationAssertion' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:30:9: 'AnnotationAssertion'
+            // Owl2fs.g:30:7: ( 'AnnotationAssertion' )
+            // Owl2fs.g:30:9: 'AnnotationAssertion'
             {
             match("AnnotationAssertion"); 
 
@@ -449,8 +449,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__29;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:31:7: ( 'SubAnnotationPropertyOf' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:31:9: 'SubAnnotationPropertyOf'
+            // Owl2fs.g:31:7: ( 'SubAnnotationPropertyOf' )
+            // Owl2fs.g:31:9: 'SubAnnotationPropertyOf'
             {
             match("SubAnnotationPropertyOf"); 
 
@@ -470,8 +470,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__30;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:32:7: ( 'AnnotationPropertyDomain' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:32:9: 'AnnotationPropertyDomain'
+            // Owl2fs.g:32:7: ( 'AnnotationPropertyDomain' )
+            // Owl2fs.g:32:9: 'AnnotationPropertyDomain'
             {
             match("AnnotationPropertyDomain"); 
 
@@ -491,8 +491,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__31;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:33:7: ( 'AnnotationPropertyRange' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:33:9: 'AnnotationPropertyRange'
+            // Owl2fs.g:33:7: ( 'AnnotationPropertyRange' )
+            // Owl2fs.g:33:9: 'AnnotationPropertyRange'
             {
             match("AnnotationPropertyRange"); 
 
@@ -512,8 +512,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__32;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:34:7: ( 'Annotation' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:34:9: 'Annotation'
+            // Owl2fs.g:34:7: ( 'Annotation' )
+            // Owl2fs.g:34:9: 'Annotation'
             {
             match("Annotation"); 
 
@@ -533,8 +533,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__33;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:35:7: ( '^^' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:35:9: '^^'
+            // Owl2fs.g:35:7: ( '^^' )
+            // Owl2fs.g:35:9: '^^'
             {
             match("^^"); 
 
@@ -554,8 +554,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__34;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:36:7: ( 'ObjectInverseOf' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:36:9: 'ObjectInverseOf'
+            // Owl2fs.g:36:7: ( 'ObjectInverseOf' )
+            // Owl2fs.g:36:9: 'ObjectInverseOf'
             {
             match("ObjectInverseOf"); 
 
@@ -575,8 +575,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__35;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:37:7: ( 'DataComplementOf' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:37:9: 'DataComplementOf'
+            // Owl2fs.g:37:7: ( 'DataComplementOf' )
+            // Owl2fs.g:37:9: 'DataComplementOf'
             {
             match("DataComplementOf"); 
 
@@ -596,8 +596,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__36;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:38:7: ( 'DataOneOf' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:38:9: 'DataOneOf'
+            // Owl2fs.g:38:7: ( 'DataOneOf' )
+            // Owl2fs.g:38:9: 'DataOneOf'
             {
             match("DataOneOf"); 
 
@@ -617,8 +617,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__37;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:39:7: ( 'DatatypeRestriction' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:39:9: 'DatatypeRestriction'
+            // Owl2fs.g:39:7: ( 'DatatypeRestriction' )
+            // Owl2fs.g:39:9: 'DatatypeRestriction'
             {
             match("DatatypeRestriction"); 
 
@@ -638,8 +638,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__38;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:40:7: ( 'ObjectIntersectionOf' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:40:9: 'ObjectIntersectionOf'
+            // Owl2fs.g:40:7: ( 'ObjectIntersectionOf' )
+            // Owl2fs.g:40:9: 'ObjectIntersectionOf'
             {
             match("ObjectIntersectionOf"); 
 
@@ -659,8 +659,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__39;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:41:7: ( 'ObjectUnionOf' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:41:9: 'ObjectUnionOf'
+            // Owl2fs.g:41:7: ( 'ObjectUnionOf' )
+            // Owl2fs.g:41:9: 'ObjectUnionOf'
             {
             match("ObjectUnionOf"); 
 
@@ -680,8 +680,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__40;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:42:7: ( 'ObjectComplementOf' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:42:9: 'ObjectComplementOf'
+            // Owl2fs.g:42:7: ( 'ObjectComplementOf' )
+            // Owl2fs.g:42:9: 'ObjectComplementOf'
             {
             match("ObjectComplementOf"); 
 
@@ -701,8 +701,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__41;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:43:7: ( 'ObjectOneOf' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:43:9: 'ObjectOneOf'
+            // Owl2fs.g:43:7: ( 'ObjectOneOf' )
+            // Owl2fs.g:43:9: 'ObjectOneOf'
             {
             match("ObjectOneOf"); 
 
@@ -722,8 +722,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__42;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:44:7: ( 'ObjectSomeValuesFrom' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:44:9: 'ObjectSomeValuesFrom'
+            // Owl2fs.g:44:7: ( 'ObjectSomeValuesFrom' )
+            // Owl2fs.g:44:9: 'ObjectSomeValuesFrom'
             {
             match("ObjectSomeValuesFrom"); 
 
@@ -743,8 +743,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__43;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:45:7: ( 'ObjectAllValuesFrom' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:45:9: 'ObjectAllValuesFrom'
+            // Owl2fs.g:45:7: ( 'ObjectAllValuesFrom' )
+            // Owl2fs.g:45:9: 'ObjectAllValuesFrom'
             {
             match("ObjectAllValuesFrom"); 
 
@@ -764,8 +764,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__44;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:46:7: ( 'ObjectHasValue' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:46:9: 'ObjectHasValue'
+            // Owl2fs.g:46:7: ( 'ObjectHasValue' )
+            // Owl2fs.g:46:9: 'ObjectHasValue'
             {
             match("ObjectHasValue"); 
 
@@ -785,8 +785,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__45;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:47:7: ( 'ObjectHasSelf' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:47:9: 'ObjectHasSelf'
+            // Owl2fs.g:47:7: ( 'ObjectHasSelf' )
+            // Owl2fs.g:47:9: 'ObjectHasSelf'
             {
             match("ObjectHasSelf"); 
 
@@ -806,8 +806,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__46;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:48:7: ( 'ObjectMinCardinality' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:48:9: 'ObjectMinCardinality'
+            // Owl2fs.g:48:7: ( 'ObjectMinCardinality' )
+            // Owl2fs.g:48:9: 'ObjectMinCardinality'
             {
             match("ObjectMinCardinality"); 
 
@@ -827,8 +827,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__47;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:49:7: ( 'ObjectMaxCardinality' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:49:9: 'ObjectMaxCardinality'
+            // Owl2fs.g:49:7: ( 'ObjectMaxCardinality' )
+            // Owl2fs.g:49:9: 'ObjectMaxCardinality'
             {
             match("ObjectMaxCardinality"); 
 
@@ -848,8 +848,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__48;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:50:7: ( 'ObjectExactCardinality' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:50:9: 'ObjectExactCardinality'
+            // Owl2fs.g:50:7: ( 'ObjectExactCardinality' )
+            // Owl2fs.g:50:9: 'ObjectExactCardinality'
             {
             match("ObjectExactCardinality"); 
 
@@ -869,8 +869,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__49;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:51:7: ( 'DataSomeValuesFrom' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:51:9: 'DataSomeValuesFrom'
+            // Owl2fs.g:51:7: ( 'DataSomeValuesFrom' )
+            // Owl2fs.g:51:9: 'DataSomeValuesFrom'
             {
             match("DataSomeValuesFrom"); 
 
@@ -890,8 +890,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__50;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:52:7: ( 'DataAllValuesFrom' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:52:9: 'DataAllValuesFrom'
+            // Owl2fs.g:52:7: ( 'DataAllValuesFrom' )
+            // Owl2fs.g:52:9: 'DataAllValuesFrom'
             {
             match("DataAllValuesFrom"); 
 
@@ -911,8 +911,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__51;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:53:7: ( 'DataHasValue' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:53:9: 'DataHasValue'
+            // Owl2fs.g:53:7: ( 'DataHasValue' )
+            // Owl2fs.g:53:9: 'DataHasValue'
             {
             match("DataHasValue"); 
 
@@ -932,8 +932,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__52;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:54:7: ( 'DataMinCardinality' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:54:9: 'DataMinCardinality'
+            // Owl2fs.g:54:7: ( 'DataMinCardinality' )
+            // Owl2fs.g:54:9: 'DataMinCardinality'
             {
             match("DataMinCardinality"); 
 
@@ -953,8 +953,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__53;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:55:7: ( 'DataMaxCardinality' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:55:9: 'DataMaxCardinality'
+            // Owl2fs.g:55:7: ( 'DataMaxCardinality' )
+            // Owl2fs.g:55:9: 'DataMaxCardinality'
             {
             match("DataMaxCardinality"); 
 
@@ -974,8 +974,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__54;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:56:7: ( 'DataExactCardinality' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:56:9: 'DataExactCardinality'
+            // Owl2fs.g:56:7: ( 'DataExactCardinality' )
+            // Owl2fs.g:56:9: 'DataExactCardinality'
             {
             match("DataExactCardinality"); 
 
@@ -995,8 +995,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__55;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:57:7: ( 'SubClassOf' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:57:9: 'SubClassOf'
+            // Owl2fs.g:57:7: ( 'SubClassOf' )
+            // Owl2fs.g:57:9: 'SubClassOf'
             {
             match("SubClassOf"); 
 
@@ -1016,8 +1016,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__56;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:58:7: ( 'EquivalentClasses' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:58:9: 'EquivalentClasses'
+            // Owl2fs.g:58:7: ( 'EquivalentClasses' )
+            // Owl2fs.g:58:9: 'EquivalentClasses'
             {
             match("EquivalentClasses"); 
 
@@ -1037,8 +1037,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__57;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:59:7: ( 'DisjointClasses' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:59:9: 'DisjointClasses'
+            // Owl2fs.g:59:7: ( 'DisjointClasses' )
+            // Owl2fs.g:59:9: 'DisjointClasses'
             {
             match("DisjointClasses"); 
 
@@ -1058,8 +1058,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__58;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:60:7: ( 'DisjointUnion' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:60:9: 'DisjointUnion'
+            // Owl2fs.g:60:7: ( 'DisjointUnion' )
+            // Owl2fs.g:60:9: 'DisjointUnion'
             {
             match("DisjointUnion"); 
 
@@ -1079,8 +1079,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__59;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:61:7: ( 'SubObjectPropertyOf' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:61:9: 'SubObjectPropertyOf'
+            // Owl2fs.g:61:7: ( 'SubObjectPropertyOf' )
+            // Owl2fs.g:61:9: 'SubObjectPropertyOf'
             {
             match("SubObjectPropertyOf"); 
 
@@ -1100,8 +1100,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__60;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:62:7: ( 'ObjectPropertyChain' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:62:9: 'ObjectPropertyChain'
+            // Owl2fs.g:62:7: ( 'ObjectPropertyChain' )
+            // Owl2fs.g:62:9: 'ObjectPropertyChain'
             {
             match("ObjectPropertyChain"); 
 
@@ -1121,8 +1121,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__61;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:63:7: ( 'EquivalentObjectProperties' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:63:9: 'EquivalentObjectProperties'
+            // Owl2fs.g:63:7: ( 'EquivalentObjectProperties' )
+            // Owl2fs.g:63:9: 'EquivalentObjectProperties'
             {
             match("EquivalentObjectProperties"); 
 
@@ -1142,8 +1142,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__62;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:64:7: ( 'DisjointObjectProperties' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:64:9: 'DisjointObjectProperties'
+            // Owl2fs.g:64:7: ( 'DisjointObjectProperties' )
+            // Owl2fs.g:64:9: 'DisjointObjectProperties'
             {
             match("DisjointObjectProperties"); 
 
@@ -1163,8 +1163,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__63;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:65:7: ( 'ObjectPropertyDomain' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:65:9: 'ObjectPropertyDomain'
+            // Owl2fs.g:65:7: ( 'ObjectPropertyDomain' )
+            // Owl2fs.g:65:9: 'ObjectPropertyDomain'
             {
             match("ObjectPropertyDomain"); 
 
@@ -1184,8 +1184,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__64;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:66:7: ( 'ObjectPropertyRange' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:66:9: 'ObjectPropertyRange'
+            // Owl2fs.g:66:7: ( 'ObjectPropertyRange' )
+            // Owl2fs.g:66:9: 'ObjectPropertyRange'
             {
             match("ObjectPropertyRange"); 
 
@@ -1205,8 +1205,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__65;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:67:7: ( 'InverseObjectProperties' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:67:9: 'InverseObjectProperties'
+            // Owl2fs.g:67:7: ( 'InverseObjectProperties' )
+            // Owl2fs.g:67:9: 'InverseObjectProperties'
             {
             match("InverseObjectProperties"); 
 
@@ -1226,8 +1226,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__66;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:68:7: ( 'FunctionalObjectProperty' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:68:9: 'FunctionalObjectProperty'
+            // Owl2fs.g:68:7: ( 'FunctionalObjectProperty' )
+            // Owl2fs.g:68:9: 'FunctionalObjectProperty'
             {
             match("FunctionalObjectProperty"); 
 
@@ -1247,8 +1247,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__67;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:69:7: ( 'InverseFunctionalObjectProperty' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:69:9: 'InverseFunctionalObjectProperty'
+            // Owl2fs.g:69:7: ( 'InverseFunctionalObjectProperty' )
+            // Owl2fs.g:69:9: 'InverseFunctionalObjectProperty'
             {
             match("InverseFunctionalObjectProperty"); 
 
@@ -1268,8 +1268,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__68;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:70:7: ( 'ReflexiveObjectProperty' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:70:9: 'ReflexiveObjectProperty'
+            // Owl2fs.g:70:7: ( 'ReflexiveObjectProperty' )
+            // Owl2fs.g:70:9: 'ReflexiveObjectProperty'
             {
             match("ReflexiveObjectProperty"); 
 
@@ -1289,8 +1289,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__69;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:71:7: ( 'IrreflexiveObjectProperty' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:71:9: 'IrreflexiveObjectProperty'
+            // Owl2fs.g:71:7: ( 'IrreflexiveObjectProperty' )
+            // Owl2fs.g:71:9: 'IrreflexiveObjectProperty'
             {
             match("IrreflexiveObjectProperty"); 
 
@@ -1310,8 +1310,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__70;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:72:7: ( 'SymmetricObjectProperty' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:72:9: 'SymmetricObjectProperty'
+            // Owl2fs.g:72:7: ( 'SymmetricObjectProperty' )
+            // Owl2fs.g:72:9: 'SymmetricObjectProperty'
             {
             match("SymmetricObjectProperty"); 
 
@@ -1331,8 +1331,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__71;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:73:7: ( 'AntiSymmetricObjectProperty' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:73:9: 'AntiSymmetricObjectProperty'
+            // Owl2fs.g:73:7: ( 'AntiSymmetricObjectProperty' )
+            // Owl2fs.g:73:9: 'AntiSymmetricObjectProperty'
             {
             match("AntiSymmetricObjectProperty"); 
 
@@ -1352,8 +1352,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__72;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:74:7: ( 'TransitiveObjectProperty' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:74:9: 'TransitiveObjectProperty'
+            // Owl2fs.g:74:7: ( 'TransitiveObjectProperty' )
+            // Owl2fs.g:74:9: 'TransitiveObjectProperty'
             {
             match("TransitiveObjectProperty"); 
 
@@ -1373,8 +1373,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__73;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:75:7: ( 'SubDataPropertyOf' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:75:9: 'SubDataPropertyOf'
+            // Owl2fs.g:75:7: ( 'SubDataPropertyOf' )
+            // Owl2fs.g:75:9: 'SubDataPropertyOf'
             {
             match("SubDataPropertyOf"); 
 
@@ -1394,8 +1394,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__74;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:76:7: ( 'EquivalentDataProperties' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:76:9: 'EquivalentDataProperties'
+            // Owl2fs.g:76:7: ( 'EquivalentDataProperties' )
+            // Owl2fs.g:76:9: 'EquivalentDataProperties'
             {
             match("EquivalentDataProperties"); 
 
@@ -1415,8 +1415,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__75;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:77:7: ( 'DisjointDataProperties' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:77:9: 'DisjointDataProperties'
+            // Owl2fs.g:77:7: ( 'DisjointDataProperties' )
+            // Owl2fs.g:77:9: 'DisjointDataProperties'
             {
             match("DisjointDataProperties"); 
 
@@ -1436,8 +1436,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__76;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:78:7: ( 'DataPropertyDomain' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:78:9: 'DataPropertyDomain'
+            // Owl2fs.g:78:7: ( 'DataPropertyDomain' )
+            // Owl2fs.g:78:9: 'DataPropertyDomain'
             {
             match("DataPropertyDomain"); 
 
@@ -1457,8 +1457,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__77;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:79:7: ( 'DataPropertyRange' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:79:9: 'DataPropertyRange'
+            // Owl2fs.g:79:7: ( 'DataPropertyRange' )
+            // Owl2fs.g:79:9: 'DataPropertyRange'
             {
             match("DataPropertyRange"); 
 
@@ -1478,8 +1478,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__78;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:80:7: ( 'FunctionalDataProperty' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:80:9: 'FunctionalDataProperty'
+            // Owl2fs.g:80:7: ( 'FunctionalDataProperty' )
+            // Owl2fs.g:80:9: 'FunctionalDataProperty'
             {
             match("FunctionalDataProperty"); 
 
@@ -1499,8 +1499,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__79;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:81:7: ( 'DatatypeDefinition' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:81:9: 'DatatypeDefinition'
+            // Owl2fs.g:81:7: ( 'DatatypeDefinition' )
+            // Owl2fs.g:81:9: 'DatatypeDefinition'
             {
             match("DatatypeDefinition"); 
 
@@ -1520,8 +1520,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__80;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:82:7: ( 'HasKey' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:82:9: 'HasKey'
+            // Owl2fs.g:82:7: ( 'HasKey' )
+            // Owl2fs.g:82:9: 'HasKey'
             {
             match("HasKey"); 
 
@@ -1541,8 +1541,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__81;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:83:7: ( 'SameIndividual' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:83:9: 'SameIndividual'
+            // Owl2fs.g:83:7: ( 'SameIndividual' )
+            // Owl2fs.g:83:9: 'SameIndividual'
             {
             match("SameIndividual"); 
 
@@ -1562,8 +1562,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__82;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:84:7: ( 'DifferentIndividuals' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:84:9: 'DifferentIndividuals'
+            // Owl2fs.g:84:7: ( 'DifferentIndividuals' )
+            // Owl2fs.g:84:9: 'DifferentIndividuals'
             {
             match("DifferentIndividuals"); 
 
@@ -1583,8 +1583,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__83;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:85:7: ( 'ClassAssertion' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:85:9: 'ClassAssertion'
+            // Owl2fs.g:85:7: ( 'ClassAssertion' )
+            // Owl2fs.g:85:9: 'ClassAssertion'
             {
             match("ClassAssertion"); 
 
@@ -1604,8 +1604,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__84;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:86:7: ( 'ObjectPropertyAssertion' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:86:9: 'ObjectPropertyAssertion'
+            // Owl2fs.g:86:7: ( 'ObjectPropertyAssertion' )
+            // Owl2fs.g:86:9: 'ObjectPropertyAssertion'
             {
             match("ObjectPropertyAssertion"); 
 
@@ -1625,8 +1625,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__85;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:87:7: ( 'NegativeObjectPropertyAssertion' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:87:9: 'NegativeObjectPropertyAssertion'
+            // Owl2fs.g:87:7: ( 'NegativeObjectPropertyAssertion' )
+            // Owl2fs.g:87:9: 'NegativeObjectPropertyAssertion'
             {
             match("NegativeObjectPropertyAssertion"); 
 
@@ -1646,8 +1646,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__86;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:88:7: ( 'DataPropertyAssertion' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:88:9: 'DataPropertyAssertion'
+            // Owl2fs.g:88:7: ( 'DataPropertyAssertion' )
+            // Owl2fs.g:88:9: 'DataPropertyAssertion'
             {
             match("DataPropertyAssertion"); 
 
@@ -1667,8 +1667,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__87;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:89:7: ( 'NegativeDataPropertyAssertion' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:89:9: 'NegativeDataPropertyAssertion'
+            // Owl2fs.g:89:7: ( 'NegativeDataPropertyAssertion' )
+            // Owl2fs.g:89:9: 'NegativeDataPropertyAssertion'
             {
             match("NegativeDataPropertyAssertion"); 
 
@@ -1688,8 +1688,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__88;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:90:7: ( 'DLSafeRule' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:90:9: 'DLSafeRule'
+            // Owl2fs.g:90:7: ( 'DLSafeRule' )
+            // Owl2fs.g:90:9: 'DLSafeRule'
             {
             match("DLSafeRule"); 
 
@@ -1709,8 +1709,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__89;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:91:7: ( 'Body' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:91:9: 'Body'
+            // Owl2fs.g:91:7: ( 'Body' )
+            // Owl2fs.g:91:9: 'Body'
             {
             match("Body"); 
 
@@ -1730,8 +1730,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__90;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:92:7: ( 'Head' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:92:9: 'Head'
+            // Owl2fs.g:92:7: ( 'Head' )
+            // Owl2fs.g:92:9: 'Head'
             {
             match("Head"); 
 
@@ -1751,8 +1751,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__91;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:93:7: ( 'ClassAtom' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:93:9: 'ClassAtom'
+            // Owl2fs.g:93:7: ( 'ClassAtom' )
+            // Owl2fs.g:93:9: 'ClassAtom'
             {
             match("ClassAtom"); 
 
@@ -1772,8 +1772,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__92;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:94:7: ( 'DataRangeAtom' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:94:9: 'DataRangeAtom'
+            // Owl2fs.g:94:7: ( 'DataRangeAtom' )
+            // Owl2fs.g:94:9: 'DataRangeAtom'
             {
             match("DataRangeAtom"); 
 
@@ -1793,8 +1793,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__93;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:95:7: ( 'ObjectPropertyAtom' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:95:9: 'ObjectPropertyAtom'
+            // Owl2fs.g:95:7: ( 'ObjectPropertyAtom' )
+            // Owl2fs.g:95:9: 'ObjectPropertyAtom'
             {
             match("ObjectPropertyAtom"); 
 
@@ -1814,8 +1814,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__94;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:96:7: ( 'DataPropetyAtom' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:96:9: 'DataPropetyAtom'
+            // Owl2fs.g:96:7: ( 'DataPropetyAtom' )
+            // Owl2fs.g:96:9: 'DataPropetyAtom'
             {
             match("DataPropetyAtom"); 
 
@@ -1835,8 +1835,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__95;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:97:7: ( 'BuiltInAtom' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:97:9: 'BuiltInAtom'
+            // Owl2fs.g:97:7: ( 'BuiltInAtom' )
+            // Owl2fs.g:97:9: 'BuiltInAtom'
             {
             match("BuiltInAtom"); 
 
@@ -1856,8 +1856,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__96;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:98:7: ( 'SameIndividualAtom' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:98:9: 'SameIndividualAtom'
+            // Owl2fs.g:98:7: ( 'SameIndividualAtom' )
+            // Owl2fs.g:98:9: 'SameIndividualAtom'
             {
             match("SameIndividualAtom"); 
 
@@ -1877,8 +1877,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__97;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:99:7: ( 'DifferentIndividualsAtom' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:99:9: 'DifferentIndividualsAtom'
+            // Owl2fs.g:99:7: ( 'DifferentIndividualsAtom' )
+            // Owl2fs.g:99:9: 'DifferentIndividualsAtom'
             {
             match("DifferentIndividualsAtom"); 
 
@@ -1898,8 +1898,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__98;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:100:7: ( 'Variable' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:100:9: 'Variable'
+            // Owl2fs.g:100:7: ( 'Variable' )
+            // Owl2fs.g:100:9: 'Variable'
             {
             match("Variable"); 
 
@@ -1919,8 +1919,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__99;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:101:7: ( 'DescriptionGraphRule' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:101:9: 'DescriptionGraphRule'
+            // Owl2fs.g:101:7: ( 'DescriptionGraphRule' )
+            // Owl2fs.g:101:9: 'DescriptionGraphRule'
             {
             match("DescriptionGraphRule"); 
 
@@ -1940,8 +1940,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__100;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:102:8: ( 'DescriptionGraph' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:102:10: 'DescriptionGraph'
+            // Owl2fs.g:102:8: ( 'DescriptionGraph' )
+            // Owl2fs.g:102:10: 'DescriptionGraph'
             {
             match("DescriptionGraph"); 
 
@@ -1961,8 +1961,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__101;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:103:8: ( 'Nodes' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:103:10: 'Nodes'
+            // Owl2fs.g:103:8: ( 'Nodes' )
+            // Owl2fs.g:103:10: 'Nodes'
             {
             match("Nodes"); 
 
@@ -1982,8 +1982,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__102;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:104:8: ( 'NodeAssertion' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:104:10: 'NodeAssertion'
+            // Owl2fs.g:104:8: ( 'NodeAssertion' )
+            // Owl2fs.g:104:10: 'NodeAssertion'
             {
             match("NodeAssertion"); 
 
@@ -2003,8 +2003,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__103;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:105:8: ( 'Edges' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:105:10: 'Edges'
+            // Owl2fs.g:105:8: ( 'Edges' )
+            // Owl2fs.g:105:10: 'Edges'
             {
             match("Edges"); 
 
@@ -2024,8 +2024,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__104;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:106:8: ( 'EdgeAssertion' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:106:10: 'EdgeAssertion'
+            // Owl2fs.g:106:8: ( 'EdgeAssertion' )
+            // Owl2fs.g:106:10: 'EdgeAssertion'
             {
             match("EdgeAssertion"); 
 
@@ -2045,8 +2045,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = T__105;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:107:8: ( 'MainClasses' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:107:10: 'MainClasses'
+            // Owl2fs.g:107:8: ( 'MainClasses' )
+            // Owl2fs.g:107:10: 'MainClasses'
             {
             match("MainClasses"); 
 
@@ -2066,8 +2066,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = WHITESPACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19876:11: ( ( ' ' | '\\t' | '\\f' ) )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19877:2: ( ' ' | '\\t' | '\\f' )
+            // Owl2fs.g:16824:11: ( ( ' ' | '\\t' | '\\f' ) )
+            // Owl2fs.g:16825:2: ( ' ' | '\\t' | '\\f' )
             {
             if ( input.LA(1)=='\t'||input.LA(1)=='\f'||input.LA(1)==' ' ) {
                 input.consume();
@@ -2095,10 +2095,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = LINEBREAKS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19880:11: ( ( '\\r\\n' | '\\r' | '\\n' ) )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19881:2: ( '\\r\\n' | '\\r' | '\\n' )
+            // Owl2fs.g:16828:11: ( ( '\\r\\n' | '\\r' | '\\n' ) )
+            // Owl2fs.g:16829:2: ( '\\r\\n' | '\\r' | '\\n' )
             {
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19881:2: ( '\\r\\n' | '\\r' | '\\n' )
+            // Owl2fs.g:16829:2: ( '\\r\\n' | '\\r' | '\\n' )
             int alt1=3;
             int LA1_0 = input.LA(1);
 
@@ -2122,7 +2122,7 @@ public class Owl2fsLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19881:3: '\\r\\n'
+                    // Owl2fs.g:16829:3: '\\r\\n'
                     {
                     match("\r\n"); 
 
@@ -2130,14 +2130,14 @@ public class Owl2fsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19881:10: '\\r'
+                    // Owl2fs.g:16829:10: '\\r'
                     {
                     match('\r'); 
 
                     }
                     break;
                 case 3 :
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19881:15: '\\n'
+                    // Owl2fs.g:16829:15: '\\n'
                     {
                     match('\n'); 
 
@@ -2163,12 +2163,12 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19884:8: ( '//' (~ ( '\\n' | '\\r' | '\\uffff' ) )* )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19885:2: '//' (~ ( '\\n' | '\\r' | '\\uffff' ) )*
+            // Owl2fs.g:16832:8: ( '//' (~ ( '\\n' | '\\r' | '\\uffff' ) )* )
+            // Owl2fs.g:16833:2: '//' (~ ( '\\n' | '\\r' | '\\uffff' ) )*
             {
             match("//"); 
 
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19885:6: (~ ( '\\n' | '\\r' | '\\uffff' ) )*
+            // Owl2fs.g:16833:6: (~ ( '\\n' | '\\r' | '\\uffff' ) )*
             loop2:
             do {
                 int alt2=2;
@@ -2181,7 +2181,7 @@ public class Owl2fsLexer extends Lexer {
 
                 switch (alt2) {
             	case 1 :
-            	    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19885:7: ~ ( '\\n' | '\\r' | '\\uffff' )
+            	    // Owl2fs.g:16833:7: ~ ( '\\n' | '\\r' | '\\uffff' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFE') ) {
             	        input.consume();
@@ -2217,7 +2217,7 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = INTEGER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19887:8: ( ( '-' )? ( '1' .. '9' ) ( '0' .. '9' )* | '0' )
+            // Owl2fs.g:16835:8: ( ( '-' )? ( '1' .. '9' ) ( '0' .. '9' )* | '0' )
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -2235,9 +2235,9 @@ public class Owl2fsLexer extends Lexer {
             }
             switch (alt5) {
                 case 1 :
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19888:2: ( '-' )? ( '1' .. '9' ) ( '0' .. '9' )*
+                    // Owl2fs.g:16836:2: ( '-' )? ( '1' .. '9' ) ( '0' .. '9' )*
                     {
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19888:2: ( '-' )?
+                    // Owl2fs.g:16836:2: ( '-' )?
                     int alt3=2;
                     int LA3_0 = input.LA(1);
 
@@ -2246,7 +2246,7 @@ public class Owl2fsLexer extends Lexer {
                     }
                     switch (alt3) {
                         case 1 :
-                            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19888:3: '-'
+                            // Owl2fs.g:16836:3: '-'
                             {
                             match('-'); 
 
@@ -2255,14 +2255,14 @@ public class Owl2fsLexer extends Lexer {
 
                     }
 
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19888:8: ( '1' .. '9' )
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19888:9: '1' .. '9'
+                    // Owl2fs.g:16836:8: ( '1' .. '9' )
+                    // Owl2fs.g:16836:9: '1' .. '9'
                     {
                     matchRange('1','9'); 
 
                     }
 
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19888:18: ( '0' .. '9' )*
+                    // Owl2fs.g:16836:18: ( '0' .. '9' )*
                     loop4:
                     do {
                         int alt4=2;
@@ -2275,7 +2275,7 @@ public class Owl2fsLexer extends Lexer {
 
                         switch (alt4) {
                     	case 1 :
-                    	    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19888:19: '0' .. '9'
+                    	    // Owl2fs.g:16836:19: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); 
 
@@ -2291,7 +2291,7 @@ public class Owl2fsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19888:30: '0'
+                    // Owl2fs.g:16836:30: '0'
                     {
                     match('0'); 
 
@@ -2312,10 +2312,10 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = FLOAT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19889:6: ( ( '-' )? ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' ) '.' ( '0' .. '9' )+ )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19890:2: ( '-' )? ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' ) '.' ( '0' .. '9' )+
+            // Owl2fs.g:16837:6: ( ( '-' )? ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' ) '.' ( '0' .. '9' )+ )
+            // Owl2fs.g:16838:2: ( '-' )? ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' ) '.' ( '0' .. '9' )+
             {
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19890:2: ( '-' )?
+            // Owl2fs.g:16838:2: ( '-' )?
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -2324,7 +2324,7 @@ public class Owl2fsLexer extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19890:3: '-'
+                    // Owl2fs.g:16838:3: '-'
                     {
                     match('-'); 
 
@@ -2333,7 +2333,7 @@ public class Owl2fsLexer extends Lexer {
 
             }
 
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19890:8: ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' )
+            // Owl2fs.g:16838:8: ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' )
             int alt8=2;
             int LA8_0 = input.LA(1);
 
@@ -2351,16 +2351,16 @@ public class Owl2fsLexer extends Lexer {
             }
             switch (alt8) {
                 case 1 :
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19890:9: ( '1' .. '9' ) ( '0' .. '9' )*
+                    // Owl2fs.g:16838:9: ( '1' .. '9' ) ( '0' .. '9' )*
                     {
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19890:9: ( '1' .. '9' )
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19890:10: '1' .. '9'
+                    // Owl2fs.g:16838:9: ( '1' .. '9' )
+                    // Owl2fs.g:16838:10: '1' .. '9'
                     {
                     matchRange('1','9'); 
 
                     }
 
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19890:20: ( '0' .. '9' )*
+                    // Owl2fs.g:16838:20: ( '0' .. '9' )*
                     loop7:
                     do {
                         int alt7=2;
@@ -2373,7 +2373,7 @@ public class Owl2fsLexer extends Lexer {
 
                         switch (alt7) {
                     	case 1 :
-                    	    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19890:21: '0' .. '9'
+                    	    // Owl2fs.g:16838:21: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); 
 
@@ -2389,7 +2389,7 @@ public class Owl2fsLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19890:34: '0'
+                    // Owl2fs.g:16838:34: '0'
                     {
                     match('0'); 
 
@@ -2399,7 +2399,7 @@ public class Owl2fsLexer extends Lexer {
             }
 
             match('.'); 
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19890:43: ( '0' .. '9' )+
+            // Owl2fs.g:16838:43: ( '0' .. '9' )+
             int cnt9=0;
             loop9:
             do {
@@ -2413,7 +2413,7 @@ public class Owl2fsLexer extends Lexer {
 
                 switch (alt9) {
             	case 1 :
-            	    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19890:44: '0' .. '9'
+            	    // Owl2fs.g:16838:44: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -2446,11 +2446,11 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19892:8: ( '\"' (~ ( '\\u0022' | '\\u005C' ) | ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) ) )* '\"' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19893:3: '\"' (~ ( '\\u0022' | '\\u005C' ) | ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) ) )* '\"'
+            // Owl2fs.g:16840:8: ( '\"' (~ ( '\\u0022' | '\\u005C' ) | ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) ) )* '\"' )
+            // Owl2fs.g:16841:3: '\"' (~ ( '\\u0022' | '\\u005C' ) | ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) ) )* '\"'
             {
             match('\"'); 
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19893:7: (~ ( '\\u0022' | '\\u005C' ) | ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) ) )*
+            // Owl2fs.g:16841:7: (~ ( '\\u0022' | '\\u005C' ) | ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) ) )*
             loop10:
             do {
                 int alt10=3;
@@ -2466,7 +2466,7 @@ public class Owl2fsLexer extends Lexer {
 
                 switch (alt10) {
             	case 1 :
-            	    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19893:9: ~ ( '\\u0022' | '\\u005C' )
+            	    // Owl2fs.g:16841:9: ~ ( '\\u0022' | '\\u005C' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -2481,10 +2481,10 @@ public class Owl2fsLexer extends Lexer {
             	    }
             	    break;
             	case 2 :
-            	    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19893:36: ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) )
+            	    // Owl2fs.g:16841:36: ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) )
             	    {
-            	    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19893:36: ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) )
-            	    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19893:37: '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' )
+            	    // Owl2fs.g:16841:36: ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) )
+            	    // Owl2fs.g:16841:37: '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' )
             	    {
             	    match('\\'); 
             	    if ( input.LA(1)=='\"'||input.LA(1)=='\''||input.LA(1)=='\\'||input.LA(1)=='b'||input.LA(1)=='f'||input.LA(1)=='n'||input.LA(1)=='r'||input.LA(1)=='t' ) {
@@ -2525,8 +2525,8 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = NODE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19894:5: ( '_:' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' ) ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' ) )? )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19895:3: '_:' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' ) ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' ) )?
+            // Owl2fs.g:16842:5: ( '_:' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' ) ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' ) )? )
+            // Owl2fs.g:16843:3: '_:' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' ) ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' ) )?
             {
             match("_:"); 
 
@@ -2539,7 +2539,7 @@ public class Owl2fsLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19895:278: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' ) )?
+            // Owl2fs.g:16843:278: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' ) )?
             int alt12=2;
             int LA12_0 = input.LA(1);
 
@@ -2548,9 +2548,9 @@ public class Owl2fsLexer extends Lexer {
             }
             switch (alt12) {
                 case 1 :
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19895:279: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' )
+                    // Owl2fs.g:16843:279: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' )
                     {
-                    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19895:279: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
+                    // Owl2fs.g:16843:279: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
                     loop11:
                     do {
                         int alt11=2;
@@ -2569,7 +2569,7 @@ public class Owl2fsLexer extends Lexer {
 
                         switch (alt11) {
                     	case 1 :
-                    	    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:
+                    	    // Owl2fs.g:
                     	    {
                     	    if ( input.LA(1)=='.'||(input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z')||input.LA(1)=='\u00B7'||(input.LA(1)>='\u00C0' && input.LA(1)<='\u00D6')||(input.LA(1)>='\u00D8' && input.LA(1)<='\u00F6')||(input.LA(1)>='\u00F8' && input.LA(1)<='\u037D')||(input.LA(1)>='\u037F' && input.LA(1)<='\u1FFF')||(input.LA(1)>='\u200C' && input.LA(1)<='\u200D')||(input.LA(1)>='\u203F' && input.LA(1)<='\u2040')||(input.LA(1)>='\u2070' && input.LA(1)<='\u218F')||(input.LA(1)>='\u2C00' && input.LA(1)<='\u2FEF')||(input.LA(1)>='\u3001' && input.LA(1)<='\uD7FF')||(input.LA(1)>='\uF900' && input.LA(1)<='\uFDCF')||(input.LA(1)>='\uFDF0' && input.LA(1)<='\uFFFD') ) {
                     	        input.consume();
@@ -2620,11 +2620,11 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = FULLIRI;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19896:8: ( '<' (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )* '>' )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19897:3: '<' (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )* '>'
+            // Owl2fs.g:16844:8: ( '<' (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )* '>' )
+            // Owl2fs.g:16845:3: '<' (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )* '>'
             {
             match('<'); 
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19897:7: (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )*
+            // Owl2fs.g:16845:7: (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )*
             loop13:
             do {
                 int alt13=2;
@@ -2637,7 +2637,7 @@ public class Owl2fsLexer extends Lexer {
 
                 switch (alt13) {
             	case 1 :
-            	    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19897:8: ~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' )
+            	    // Owl2fs.g:16845:8: ~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' )
             	    {
             	    if ( input.LA(1)=='!'||(input.LA(1)>='#' && input.LA(1)<=';')||input.LA(1)=='='||(input.LA(1)>='?' && input.LA(1)<='[')||input.LA(1)==']'||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z')||input.LA(1)=='|'||(input.LA(1)>='~' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -2674,11 +2674,11 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = ABBRIRI;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19898:8: ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19899:3: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* )
+            // Owl2fs.g:16846:8: ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) )
+            // Owl2fs.g:16847:3: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* )
             {
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19899:3: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19899:4: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
+            // Owl2fs.g:16847:3: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* )
+            // Owl2fs.g:16847:4: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
             {
             if ( input.LA(1)=='-'||(input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z')||(input.LA(1)>='\u00C0' && input.LA(1)<='\u00D6')||(input.LA(1)>='\u00D8' && input.LA(1)<='\u00F6')||(input.LA(1)>='\u00F8' && input.LA(1)<='\u02FF')||(input.LA(1)>='\u0370' && input.LA(1)<='\u037D')||(input.LA(1)>='\u037F' && input.LA(1)<='\u1FFF')||(input.LA(1)>='\u200C' && input.LA(1)<='\u200D')||(input.LA(1)>='\u2070' && input.LA(1)<='\u218F')||(input.LA(1)>='\u2C00' && input.LA(1)<='\u2FEF')||(input.LA(1)>='\u3001' && input.LA(1)<='\uD7FF')||(input.LA(1)>='\uF900' && input.LA(1)<='\uFDCF')||(input.LA(1)>='\uFDF0' && input.LA(1)<='\uFFFD') ) {
                 input.consume();
@@ -2689,7 +2689,7 @@ public class Owl2fsLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19900:3: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
+            // Owl2fs.g:16848:3: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
             loop14:
             do {
                 int alt14=2;
@@ -2702,7 +2702,7 @@ public class Owl2fsLexer extends Lexer {
 
                 switch (alt14) {
             	case 1 :
-            	    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:
+            	    // Owl2fs.g:
             	    {
             	    if ( (input.LA(1)>='-' && input.LA(1)<='.')||(input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z')||input.LA(1)=='\u00B7'||(input.LA(1)>='\u00C0' && input.LA(1)<='\u00D6')||(input.LA(1)>='\u00D8' && input.LA(1)<='\u00F6')||(input.LA(1)>='\u00F8' && input.LA(1)<='\u037D')||(input.LA(1)>='\u037F' && input.LA(1)<='\u1FFF')||(input.LA(1)>='\u200C' && input.LA(1)<='\u200D')||(input.LA(1)>='\u203F' && input.LA(1)<='\u2040')||(input.LA(1)>='\u2070' && input.LA(1)<='\u218F')||(input.LA(1)>='\u2C00' && input.LA(1)<='\u2FEF')||(input.LA(1)>='\u3001' && input.LA(1)<='\uD7FF')||(input.LA(1)>='\uF900' && input.LA(1)<='\uFDCF')||(input.LA(1)>='\uFDF0' && input.LA(1)<='\uFFFD') ) {
             	        input.consume();
@@ -2741,11 +2741,11 @@ public class Owl2fsLexer extends Lexer {
         try {
             int _type = LANGTAG;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19901:8: ( '@' ( 'A' .. 'Z' | 'a' .. 'z' )+ )
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19902:3: '@' ( 'A' .. 'Z' | 'a' .. 'z' )+
+            // Owl2fs.g:16849:8: ( '@' ( 'A' .. 'Z' | 'a' .. 'z' )+ )
+            // Owl2fs.g:16850:3: '@' ( 'A' .. 'Z' | 'a' .. 'z' )+
             {
             match('@'); 
-            // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:19902:7: ( 'A' .. 'Z' | 'a' .. 'z' )+
+            // Owl2fs.g:16850:7: ( 'A' .. 'Z' | 'a' .. 'z' )+
             int cnt15=0;
             loop15:
             do {
@@ -2759,7 +2759,7 @@ public class Owl2fsLexer extends Lexer {
 
                 switch (alt15) {
             	case 1 :
-            	    // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:
+            	    // Owl2fs.g:
             	    {
             	    if ( (input.LA(1)>='A' && input.LA(1)<='Z')||(input.LA(1)>='a' && input.LA(1)<='z') ) {
             	        input.consume();
@@ -2795,719 +2795,719 @@ public class Owl2fsLexer extends Lexer {
     // $ANTLR end "LANGTAG"
 
     public void mTokens() throws RecognitionException {
-        // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:8: ( T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | WHITESPACE | LINEBREAKS | COMMENT | INTEGER | FLOAT | LITERAL | NODE | FULLIRI | ABBRIRI | LANGTAG )
+        // Owl2fs.g:1:8: ( T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | WHITESPACE | LINEBREAKS | COMMENT | INTEGER | FLOAT | LITERAL | NODE | FULLIRI | ABBRIRI | LANGTAG )
         int alt16=102;
         alt16 = dfa16.predict(input);
         switch (alt16) {
             case 1 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:10: T__14
+                // Owl2fs.g:1:10: T__14
                 {
                 mT__14(); 
 
                 }
                 break;
             case 2 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:16: T__15
+                // Owl2fs.g:1:16: T__15
                 {
                 mT__15(); 
 
                 }
                 break;
             case 3 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:22: T__16
+                // Owl2fs.g:1:22: T__16
                 {
                 mT__16(); 
 
                 }
                 break;
             case 4 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:28: T__17
+                // Owl2fs.g:1:28: T__17
                 {
                 mT__17(); 
 
                 }
                 break;
             case 5 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:34: T__18
+                // Owl2fs.g:1:34: T__18
                 {
                 mT__18(); 
 
                 }
                 break;
             case 6 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:40: T__19
+                // Owl2fs.g:1:40: T__19
                 {
                 mT__19(); 
 
                 }
                 break;
             case 7 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:46: T__20
+                // Owl2fs.g:1:46: T__20
                 {
                 mT__20(); 
 
                 }
                 break;
             case 8 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:52: T__21
+                // Owl2fs.g:1:52: T__21
                 {
                 mT__21(); 
 
                 }
                 break;
             case 9 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:58: T__22
+                // Owl2fs.g:1:58: T__22
                 {
                 mT__22(); 
 
                 }
                 break;
             case 10 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:64: T__23
+                // Owl2fs.g:1:64: T__23
                 {
                 mT__23(); 
 
                 }
                 break;
             case 11 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:70: T__24
+                // Owl2fs.g:1:70: T__24
                 {
                 mT__24(); 
 
                 }
                 break;
             case 12 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:76: T__25
+                // Owl2fs.g:1:76: T__25
                 {
                 mT__25(); 
 
                 }
                 break;
             case 13 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:82: T__26
+                // Owl2fs.g:1:82: T__26
                 {
                 mT__26(); 
 
                 }
                 break;
             case 14 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:88: T__27
+                // Owl2fs.g:1:88: T__27
                 {
                 mT__27(); 
 
                 }
                 break;
             case 15 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:94: T__28
+                // Owl2fs.g:1:94: T__28
                 {
                 mT__28(); 
 
                 }
                 break;
             case 16 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:100: T__29
+                // Owl2fs.g:1:100: T__29
                 {
                 mT__29(); 
 
                 }
                 break;
             case 17 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:106: T__30
+                // Owl2fs.g:1:106: T__30
                 {
                 mT__30(); 
 
                 }
                 break;
             case 18 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:112: T__31
+                // Owl2fs.g:1:112: T__31
                 {
                 mT__31(); 
 
                 }
                 break;
             case 19 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:118: T__32
+                // Owl2fs.g:1:118: T__32
                 {
                 mT__32(); 
 
                 }
                 break;
             case 20 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:124: T__33
+                // Owl2fs.g:1:124: T__33
                 {
                 mT__33(); 
 
                 }
                 break;
             case 21 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:130: T__34
+                // Owl2fs.g:1:130: T__34
                 {
                 mT__34(); 
 
                 }
                 break;
             case 22 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:136: T__35
+                // Owl2fs.g:1:136: T__35
                 {
                 mT__35(); 
 
                 }
                 break;
             case 23 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:142: T__36
+                // Owl2fs.g:1:142: T__36
                 {
                 mT__36(); 
 
                 }
                 break;
             case 24 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:148: T__37
+                // Owl2fs.g:1:148: T__37
                 {
                 mT__37(); 
 
                 }
                 break;
             case 25 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:154: T__38
+                // Owl2fs.g:1:154: T__38
                 {
                 mT__38(); 
 
                 }
                 break;
             case 26 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:160: T__39
+                // Owl2fs.g:1:160: T__39
                 {
                 mT__39(); 
 
                 }
                 break;
             case 27 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:166: T__40
+                // Owl2fs.g:1:166: T__40
                 {
                 mT__40(); 
 
                 }
                 break;
             case 28 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:172: T__41
+                // Owl2fs.g:1:172: T__41
                 {
                 mT__41(); 
 
                 }
                 break;
             case 29 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:178: T__42
+                // Owl2fs.g:1:178: T__42
                 {
                 mT__42(); 
 
                 }
                 break;
             case 30 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:184: T__43
+                // Owl2fs.g:1:184: T__43
                 {
                 mT__43(); 
 
                 }
                 break;
             case 31 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:190: T__44
+                // Owl2fs.g:1:190: T__44
                 {
                 mT__44(); 
 
                 }
                 break;
             case 32 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:196: T__45
+                // Owl2fs.g:1:196: T__45
                 {
                 mT__45(); 
 
                 }
                 break;
             case 33 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:202: T__46
+                // Owl2fs.g:1:202: T__46
                 {
                 mT__46(); 
 
                 }
                 break;
             case 34 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:208: T__47
+                // Owl2fs.g:1:208: T__47
                 {
                 mT__47(); 
 
                 }
                 break;
             case 35 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:214: T__48
+                // Owl2fs.g:1:214: T__48
                 {
                 mT__48(); 
 
                 }
                 break;
             case 36 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:220: T__49
+                // Owl2fs.g:1:220: T__49
                 {
                 mT__49(); 
 
                 }
                 break;
             case 37 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:226: T__50
+                // Owl2fs.g:1:226: T__50
                 {
                 mT__50(); 
 
                 }
                 break;
             case 38 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:232: T__51
+                // Owl2fs.g:1:232: T__51
                 {
                 mT__51(); 
 
                 }
                 break;
             case 39 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:238: T__52
+                // Owl2fs.g:1:238: T__52
                 {
                 mT__52(); 
 
                 }
                 break;
             case 40 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:244: T__53
+                // Owl2fs.g:1:244: T__53
                 {
                 mT__53(); 
 
                 }
                 break;
             case 41 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:250: T__54
+                // Owl2fs.g:1:250: T__54
                 {
                 mT__54(); 
 
                 }
                 break;
             case 42 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:256: T__55
+                // Owl2fs.g:1:256: T__55
                 {
                 mT__55(); 
 
                 }
                 break;
             case 43 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:262: T__56
+                // Owl2fs.g:1:262: T__56
                 {
                 mT__56(); 
 
                 }
                 break;
             case 44 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:268: T__57
+                // Owl2fs.g:1:268: T__57
                 {
                 mT__57(); 
 
                 }
                 break;
             case 45 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:274: T__58
+                // Owl2fs.g:1:274: T__58
                 {
                 mT__58(); 
 
                 }
                 break;
             case 46 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:280: T__59
+                // Owl2fs.g:1:280: T__59
                 {
                 mT__59(); 
 
                 }
                 break;
             case 47 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:286: T__60
+                // Owl2fs.g:1:286: T__60
                 {
                 mT__60(); 
 
                 }
                 break;
             case 48 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:292: T__61
+                // Owl2fs.g:1:292: T__61
                 {
                 mT__61(); 
 
                 }
                 break;
             case 49 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:298: T__62
+                // Owl2fs.g:1:298: T__62
                 {
                 mT__62(); 
 
                 }
                 break;
             case 50 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:304: T__63
+                // Owl2fs.g:1:304: T__63
                 {
                 mT__63(); 
 
                 }
                 break;
             case 51 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:310: T__64
+                // Owl2fs.g:1:310: T__64
                 {
                 mT__64(); 
 
                 }
                 break;
             case 52 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:316: T__65
+                // Owl2fs.g:1:316: T__65
                 {
                 mT__65(); 
 
                 }
                 break;
             case 53 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:322: T__66
+                // Owl2fs.g:1:322: T__66
                 {
                 mT__66(); 
 
                 }
                 break;
             case 54 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:328: T__67
+                // Owl2fs.g:1:328: T__67
                 {
                 mT__67(); 
 
                 }
                 break;
             case 55 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:334: T__68
+                // Owl2fs.g:1:334: T__68
                 {
                 mT__68(); 
 
                 }
                 break;
             case 56 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:340: T__69
+                // Owl2fs.g:1:340: T__69
                 {
                 mT__69(); 
 
                 }
                 break;
             case 57 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:346: T__70
+                // Owl2fs.g:1:346: T__70
                 {
                 mT__70(); 
 
                 }
                 break;
             case 58 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:352: T__71
+                // Owl2fs.g:1:352: T__71
                 {
                 mT__71(); 
 
                 }
                 break;
             case 59 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:358: T__72
+                // Owl2fs.g:1:358: T__72
                 {
                 mT__72(); 
 
                 }
                 break;
             case 60 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:364: T__73
+                // Owl2fs.g:1:364: T__73
                 {
                 mT__73(); 
 
                 }
                 break;
             case 61 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:370: T__74
+                // Owl2fs.g:1:370: T__74
                 {
                 mT__74(); 
 
                 }
                 break;
             case 62 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:376: T__75
+                // Owl2fs.g:1:376: T__75
                 {
                 mT__75(); 
 
                 }
                 break;
             case 63 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:382: T__76
+                // Owl2fs.g:1:382: T__76
                 {
                 mT__76(); 
 
                 }
                 break;
             case 64 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:388: T__77
+                // Owl2fs.g:1:388: T__77
                 {
                 mT__77(); 
 
                 }
                 break;
             case 65 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:394: T__78
+                // Owl2fs.g:1:394: T__78
                 {
                 mT__78(); 
 
                 }
                 break;
             case 66 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:400: T__79
+                // Owl2fs.g:1:400: T__79
                 {
                 mT__79(); 
 
                 }
                 break;
             case 67 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:406: T__80
+                // Owl2fs.g:1:406: T__80
                 {
                 mT__80(); 
 
                 }
                 break;
             case 68 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:412: T__81
+                // Owl2fs.g:1:412: T__81
                 {
                 mT__81(); 
 
                 }
                 break;
             case 69 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:418: T__82
+                // Owl2fs.g:1:418: T__82
                 {
                 mT__82(); 
 
                 }
                 break;
             case 70 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:424: T__83
+                // Owl2fs.g:1:424: T__83
                 {
                 mT__83(); 
 
                 }
                 break;
             case 71 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:430: T__84
+                // Owl2fs.g:1:430: T__84
                 {
                 mT__84(); 
 
                 }
                 break;
             case 72 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:436: T__85
+                // Owl2fs.g:1:436: T__85
                 {
                 mT__85(); 
 
                 }
                 break;
             case 73 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:442: T__86
+                // Owl2fs.g:1:442: T__86
                 {
                 mT__86(); 
 
                 }
                 break;
             case 74 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:448: T__87
+                // Owl2fs.g:1:448: T__87
                 {
                 mT__87(); 
 
                 }
                 break;
             case 75 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:454: T__88
+                // Owl2fs.g:1:454: T__88
                 {
                 mT__88(); 
 
                 }
                 break;
             case 76 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:460: T__89
+                // Owl2fs.g:1:460: T__89
                 {
                 mT__89(); 
 
                 }
                 break;
             case 77 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:466: T__90
+                // Owl2fs.g:1:466: T__90
                 {
                 mT__90(); 
 
                 }
                 break;
             case 78 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:472: T__91
+                // Owl2fs.g:1:472: T__91
                 {
                 mT__91(); 
 
                 }
                 break;
             case 79 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:478: T__92
+                // Owl2fs.g:1:478: T__92
                 {
                 mT__92(); 
 
                 }
                 break;
             case 80 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:484: T__93
+                // Owl2fs.g:1:484: T__93
                 {
                 mT__93(); 
 
                 }
                 break;
             case 81 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:490: T__94
+                // Owl2fs.g:1:490: T__94
                 {
                 mT__94(); 
 
                 }
                 break;
             case 82 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:496: T__95
+                // Owl2fs.g:1:496: T__95
                 {
                 mT__95(); 
 
                 }
                 break;
             case 83 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:502: T__96
+                // Owl2fs.g:1:502: T__96
                 {
                 mT__96(); 
 
                 }
                 break;
             case 84 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:508: T__97
+                // Owl2fs.g:1:508: T__97
                 {
                 mT__97(); 
 
                 }
                 break;
             case 85 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:514: T__98
+                // Owl2fs.g:1:514: T__98
                 {
                 mT__98(); 
 
                 }
                 break;
             case 86 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:520: T__99
+                // Owl2fs.g:1:520: T__99
                 {
                 mT__99(); 
 
                 }
                 break;
             case 87 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:526: T__100
+                // Owl2fs.g:1:526: T__100
                 {
                 mT__100(); 
 
                 }
                 break;
             case 88 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:533: T__101
+                // Owl2fs.g:1:533: T__101
                 {
                 mT__101(); 
 
                 }
                 break;
             case 89 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:540: T__102
+                // Owl2fs.g:1:540: T__102
                 {
                 mT__102(); 
 
                 }
                 break;
             case 90 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:547: T__103
+                // Owl2fs.g:1:547: T__103
                 {
                 mT__103(); 
 
                 }
                 break;
             case 91 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:554: T__104
+                // Owl2fs.g:1:554: T__104
                 {
                 mT__104(); 
 
                 }
                 break;
             case 92 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:561: T__105
+                // Owl2fs.g:1:561: T__105
                 {
                 mT__105(); 
 
                 }
                 break;
             case 93 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:568: WHITESPACE
+                // Owl2fs.g:1:568: WHITESPACE
                 {
                 mWHITESPACE(); 
 
                 }
                 break;
             case 94 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:579: LINEBREAKS
+                // Owl2fs.g:1:579: LINEBREAKS
                 {
                 mLINEBREAKS(); 
 
                 }
                 break;
             case 95 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:590: COMMENT
+                // Owl2fs.g:1:590: COMMENT
                 {
                 mCOMMENT(); 
 
                 }
                 break;
             case 96 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:598: INTEGER
+                // Owl2fs.g:1:598: INTEGER
                 {
                 mINTEGER(); 
 
                 }
                 break;
             case 97 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:606: FLOAT
+                // Owl2fs.g:1:606: FLOAT
                 {
                 mFLOAT(); 
 
                 }
                 break;
             case 98 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:612: LITERAL
+                // Owl2fs.g:1:612: LITERAL
                 {
                 mLITERAL(); 
 
                 }
                 break;
             case 99 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:620: NODE
+                // Owl2fs.g:1:620: NODE
                 {
                 mNODE(); 
 
                 }
                 break;
             case 100 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:625: FULLIRI
+                // Owl2fs.g:1:625: FULLIRI
                 {
                 mFULLIRI(); 
 
                 }
                 break;
             case 101 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:633: ABBRIRI
+                // Owl2fs.g:1:633: ABBRIRI
                 {
                 mABBRIRI(); 
 
                 }
                 break;
             case 102 :
-                // D:\\svn-client\\intern\\twouse\\source\\plugins\\west.twouse.language.owl2fs.resource.owl2fs\\src-gen\\west\\twouse\\language\\owl2fs\\resource\\owl2fs\\mopp\\Owl2fs.g:1:641: LANGTAG
+                // Owl2fs.g:1:641: LANGTAG
                 {
                 mLANGTAG(); 
 

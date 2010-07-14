@@ -6,8 +6,9 @@
  */
 package west.twouse.language.sparqlas.resource.sparqlas.mopp;
 
-// A basic implementation of the ITokenResolveResult interface.
-//
+/**
+ * A basic implementation of the ITokenResolveResult interface.
+ */
 public class SparqlasTokenResolveResult implements west.twouse.language.sparqlas.resource.sparqlas.ISparqlasTokenResolveResult {
 	
 	private String errorMessage;
@@ -38,4 +39,5 @@ public class SparqlasTokenResolveResult implements west.twouse.language.sparqlas
 		errorMessage = "Can't resolve token.";
 		resolvedToken = null;
 	}
+	
 }

@@ -17,7 +17,6 @@ import org.eclipse.emf.ecore.impl.EObjectImpl;
 
 import west.twouse.language.sparqlas.FullIRI;
 import west.twouse.language.sparqlas.PrefixDefinition;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 
 /**
