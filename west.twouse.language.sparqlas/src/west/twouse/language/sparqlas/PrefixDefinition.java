@@ -25,57 +25,58 @@ import org.eclipse.emf.ecore.EObject;
  * @model
  * @generated
  */
-public interface PrefixDefinition extends EObject {
-	/**
+public interface PrefixDefinition extends EObject
+{
+  /**
    * Returns the value of the '<em><b>Pref</b></em>' attribute.
    * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Pref</em>' attribute isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
+   * <p>
+   * If the meaning of the '<em>Pref</em>' attribute isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
    * @return the value of the '<em>Pref</em>' attribute.
    * @see #setPref(String)
    * @see west.twouse.language.sparqlas.SparqlasPackage#getPrefixDefinition_Pref()
    * @model unique="false" ordered="false"
    * @generated
    */
-	String getPref();
+  String getPref();
 
-	/**
+  /**
    * Sets the value of the '{@link west.twouse.language.sparqlas.PrefixDefinition#getPref <em>Pref</em>}' attribute.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @param value the new value of the '<em>Pref</em>' attribute.
    * @see #getPref()
    * @generated
    */
-	void setPref(String value);
+  void setPref(String value);
 
-	/**
+  /**
    * Returns the value of the '<em><b>Namespace</b></em>' containment reference.
    * <!-- begin-user-doc -->
-	 * <p>
-	 * If the meaning of the '<em>Namespace</em>' containment reference isn't clear,
-	 * there really should be more of a description here...
-	 * </p>
-	 * <!-- end-user-doc -->
+   * <p>
+   * If the meaning of the '<em>Namespace</em>' containment reference isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
    * @return the value of the '<em>Namespace</em>' containment reference.
    * @see #setNamespace(FullIRI)
    * @see west.twouse.language.sparqlas.SparqlasPackage#getPrefixDefinition_Namespace()
    * @model containment="true" required="true" ordered="false"
    * @generated
    */
-	FullIRI getNamespace();
+  FullIRI getNamespace();
 
-	/**
+  /**
    * Sets the value of the '{@link west.twouse.language.sparqlas.PrefixDefinition#getNamespace <em>Namespace</em>}' containment reference.
    * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
+   * <!-- end-user-doc -->
    * @param value the new value of the '<em>Namespace</em>' containment reference.
    * @see #getNamespace()
    * @generated
    */
-	void setNamespace(FullIRI value);
+  void setNamespace(FullIRI value);
 
 } // PrefixDefinition

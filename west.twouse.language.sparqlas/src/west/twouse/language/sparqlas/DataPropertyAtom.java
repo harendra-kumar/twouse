@@ -17,5 +17,6 @@ package west.twouse.language.sparqlas;
  * @model abstract="true"
  * @generated
  */
-public interface DataPropertyAtom extends Atom {
+public interface DataPropertyAtom extends Atom
+{
 } // DataPropertyAtom

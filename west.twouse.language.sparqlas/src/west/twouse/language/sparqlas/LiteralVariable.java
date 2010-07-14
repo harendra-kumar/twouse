@@ -17,5 +17,6 @@ package west.twouse.language.sparqlas;
  * @model
  * @generated
  */
-public interface LiteralVariable extends Variable, AbstractLiteral {
+public interface LiteralVariable extends Variable, AbstractLiteral
+{
 } // LiteralVariable

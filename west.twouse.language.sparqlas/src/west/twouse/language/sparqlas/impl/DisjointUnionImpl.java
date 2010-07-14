@@ -24,7 +24,6 @@ import org.eclipse.emf.ecore.util.InternalEList;
 import west.twouse.language.sparqlas.ClassExpression;
 import west.twouse.language.sparqlas.ClassVariable;
 import west.twouse.language.sparqlas.DisjointUnion;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 
 /**

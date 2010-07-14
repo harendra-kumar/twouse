@@ -6,11 +6,14 @@
  */
 package west.twouse.language.sparqlas.resource.sparqlas.mopp;
 
-// A basic implementation of the IURIMapping interface that can
-// map identifiers to URIs.
-//
-// @param <ReferenceType> unused type parameter which is needed to implement IURIMapping.
-//
+/**
+ * A basic implementation of the
+ * west.twouse.language.sparqlas.resource.sparqlas.ISparqlasURIMapping interface
+ * that can map identifiers to URIs.
+ * 
+ * @param <ReferenceType> unused type parameter which is needed to implement
+ * west.twouse.language.sparqlas.resource.sparqlas.ISparqlasURIMapping.
+ */
 public class SparqlasURIMapping<ReferenceType> implements west.twouse.language.sparqlas.resource.sparqlas.ISparqlasURIMapping<ReferenceType> {
 	
 	private org.eclipse.emf.common.util.URI uri;

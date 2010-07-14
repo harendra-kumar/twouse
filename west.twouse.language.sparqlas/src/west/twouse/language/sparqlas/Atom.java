@@ -18,5 +18,6 @@ import org.eclipse.emf.ecore.EObject;
  * @model abstract="true"
  * @generated
  */
-public interface Atom extends EObject {
+public interface Atom extends EObject
+{
 } // Atom

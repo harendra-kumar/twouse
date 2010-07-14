@@ -17,5 +17,6 @@ package west.twouse.language.sparqlas;
  * @model abstract="true"
  * @generated
  */
-public interface Expression extends ParameterableElement {
+public interface Expression extends ParameterableElement
+{
 } // Expression

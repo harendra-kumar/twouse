@@ -13,8 +13,8 @@ public class SparqlasTokenResolverFactory implements west.twouse.language.sparql
 	private static west.twouse.language.sparqlas.resource.sparqlas.ISparqlasTokenResolver defaultResolver = new west.twouse.language.sparqlas.resource.sparqlas.analysis.SparqlasDefaultTokenResolver();
 	
 	public SparqlasTokenResolverFactory() {
-		tokenName2TokenResolver = new java.util.HashMap<java.lang.String, west.twouse.language.sparqlas.resource.sparqlas.ISparqlasTokenResolver>();
-		featureName2CollectInTokenResolver = new java.util.HashMap<java.lang.String, west.twouse.language.sparqlas.resource.sparqlas.ISparqlasTokenResolver>();
+		tokenName2TokenResolver = new java.util.LinkedHashMap<java.lang.String, west.twouse.language.sparqlas.resource.sparqlas.ISparqlasTokenResolver>();
+		featureName2CollectInTokenResolver = new java.util.LinkedHashMap<java.lang.String, west.twouse.language.sparqlas.resource.sparqlas.ISparqlasTokenResolver>();
 		registerTokenResolver("INTEGER", new west.twouse.language.sparqlas.resource.sparqlas.analysis.SparqlasINTEGERTokenResolver());
 		registerTokenResolver("LITERAL", new west.twouse.language.sparqlas.resource.sparqlas.analysis.SparqlasLITERALTokenResolver());
 		registerTokenResolver("VARIABLE", new west.twouse.language.sparqlas.resource.sparqlas.analysis.SparqlasVARIABLETokenResolver());

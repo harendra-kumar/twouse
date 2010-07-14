@@ -6,8 +6,10 @@
  */
 package west.twouse.language.owl2fs.resource.owl2fs.util;
 
-// A utility class that encapsulates some case operations that need to be performed
-// unchecked, because of Java's type erasure.
+/**
+ * A utility class that encapsulates some case operations that need to be
+ * performed unchecked, because of Java's type erasure.
+ */
 public class Owl2fsListUtil {
 	
 	@SuppressWarnings("unchecked")	

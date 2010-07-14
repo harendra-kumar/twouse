@@ -1,3 +1,9 @@
+/**
+ * <copyright>
+ * </copyright>
+ *
+ * 
+ */
 package west.twouse.language.sparqlas.resource.sparqlas.mopp;
 
 public class SparqlasNewFileContentProvider {
@@ -38,7 +44,7 @@ public class SparqlasNewFileContentProvider {
 	}
 	
 	public west.twouse.language.sparqlas.resource.sparqlas.ISparqlasTextPrinter getPrinter(java.io.OutputStream outputStream) {
-		return new west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasPrinter(outputStream, new west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasResource());
+		return getMetaInformation().createPrinter(outputStream, new west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasResource());
 	}
 	
 }

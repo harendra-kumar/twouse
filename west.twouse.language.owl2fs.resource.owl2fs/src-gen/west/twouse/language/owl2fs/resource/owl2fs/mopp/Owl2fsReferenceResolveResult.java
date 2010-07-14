@@ -6,11 +6,14 @@
  */
 package west.twouse.language.owl2fs.resource.owl2fs.mopp;
 
-// A basic implementation of IResolveResult interface
-// that collects mappings in a list.
-//
-// @param <ReferenceType> the type of the references that can be contained in this result
-//
+/**
+ * A basic implementation of the
+ * west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsReferenceResolveResult
+ * interface that collects mappings in a list.
+ * 
+ * @param <ReferenceType> the type of the references that can be contained in this
+ * result
+ */
 public class Owl2fsReferenceResolveResult<ReferenceType> implements west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsReferenceResolveResult<ReferenceType> {
 	
 	private java.util.Collection<west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsReferenceMapping<ReferenceType>> mappings;

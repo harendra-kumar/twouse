@@ -6,9 +6,9 @@
  */
 package west.twouse.language.sparqlas.resource.sparqlas.util;
 
-// A helper class that is able to create minimal model instances for Ecore
-// models.
-//
+/**
+ * A helper class that is able to create minimal model instances for Ecore models.
+ */
 public class SparqlasMinimalModelHelper {
 	
 	private final static west.twouse.language.sparqlas.resource.sparqlas.util.SparqlasEClassUtil eClassUtil = new west.twouse.language.sparqlas.resource.sparqlas.util.SparqlasEClassUtil();

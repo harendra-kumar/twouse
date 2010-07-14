@@ -16,7 +16,6 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 
 import west.twouse.language.sparqlas.InverseObjectPropertyAtom;
 import west.twouse.language.sparqlas.ObjectPropertyExpression;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 
 /**

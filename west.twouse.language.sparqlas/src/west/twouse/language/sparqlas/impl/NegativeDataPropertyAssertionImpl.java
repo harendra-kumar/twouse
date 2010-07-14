@@ -18,7 +18,6 @@ import west.twouse.language.sparqlas.AbstractLiteral;
 import west.twouse.language.sparqlas.DataPropertyExpression;
 import west.twouse.language.sparqlas.Individual;
 import west.twouse.language.sparqlas.NegativeDataPropertyAssertion;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 
 /**

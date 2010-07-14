@@ -25,7 +25,6 @@ import org.eclipse.emf.ecore.util.InternalEList;
 import west.twouse.language.sparqlas.Atom;
 import west.twouse.language.sparqlas.DescribeQuery;
 import west.twouse.language.sparqlas.IRI;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 import west.twouse.language.sparqlas.TemplateBinding;
 import west.twouse.language.sparqlas.TemplateSignature;

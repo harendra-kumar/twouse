@@ -6,12 +6,14 @@
  */
 package west.twouse.language.owl2fs.resource.owl2fs.mopp;
 
-// An implementation of the ResolveResult interface that delegates
-// all method calls to another ResolveResult. Client may subclass
-// this class to easily create custom ResolveResults.
-//
-// @param <ReferenceType> the type of the references that can be contained in this result
-//
+/**
+ * An implementation of the ResolveResult interface that delegates all method
+ * calls to another ResolveResult. Client may subclass this class to easily create
+ * custom ResolveResults.
+ * 
+ * @param <ReferenceType> the type of the references that can be contained in this
+ * result
+ */
 public class Owl2fsDelegatingResolveResult<ReferenceType> implements west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsReferenceResolveResult<ReferenceType> {
 	
 	private west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsReferenceResolveResult<ReferenceType> delegate;
@@ -59,4 +61,5 @@ public class Owl2fsDelegatingResolveResult<ReferenceType> implements west.twouse
 	public void addMapping(String identifier, org.eclipse.emf.common.util.URI uri, String warning) {
 		delegate.addMapping(identifier, uri, warning);
 	}
+	
 }

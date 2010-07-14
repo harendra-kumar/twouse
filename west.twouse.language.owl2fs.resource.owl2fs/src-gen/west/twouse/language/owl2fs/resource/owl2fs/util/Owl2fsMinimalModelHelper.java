@@ -6,9 +6,9 @@
  */
 package west.twouse.language.owl2fs.resource.owl2fs.util;
 
-// A helper class that is able to create minimal model instances for Ecore
-// models.
-//
+/**
+ * A helper class that is able to create minimal model instances for Ecore models.
+ */
 public class Owl2fsMinimalModelHelper {
 	
 	private final static west.twouse.language.owl2fs.resource.owl2fs.util.Owl2fsEClassUtil eClassUtil = new west.twouse.language.owl2fs.resource.owl2fs.util.Owl2fsEClassUtil();

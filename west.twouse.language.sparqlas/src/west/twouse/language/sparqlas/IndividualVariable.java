@@ -17,5 +17,6 @@ package west.twouse.language.sparqlas;
  * @model
  * @generated
  */
-public interface IndividualVariable extends Variable, Individual {
+public interface IndividualVariable extends Variable, Individual
+{
 } // IndividualVariable

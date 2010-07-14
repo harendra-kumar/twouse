@@ -7,7 +7,6 @@
 package west.twouse.language.sparqlas;
 
 import org.eclipse.emf.ecore.EObject;
-import org.eclipse.emf.common.util.EList;
 
 /**
  * <!-- begin-user-doc -->
@@ -19,6 +18,6 @@ import org.eclipse.emf.common.util.EList;
  * @model abstract="true"
  * @generated
  */
-public interface Query extends EObject {
-
+public interface Query extends EObject
+{
 } // Query

@@ -24,7 +24,6 @@ import org.eclipse.emf.ecore.util.InternalEList;
 import west.twouse.language.sparqlas.DataAllValuesFrom;
 import west.twouse.language.sparqlas.DataPropertyExpression;
 import west.twouse.language.sparqlas.DataRange;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 
 /**

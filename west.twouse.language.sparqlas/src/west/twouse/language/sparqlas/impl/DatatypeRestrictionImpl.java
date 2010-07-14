@@ -24,7 +24,6 @@ import org.eclipse.emf.ecore.util.InternalEList;
 import west.twouse.language.sparqlas.Datatype;
 import west.twouse.language.sparqlas.DatatypeRestriction;
 import west.twouse.language.sparqlas.FacetRestriction;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 
 /**

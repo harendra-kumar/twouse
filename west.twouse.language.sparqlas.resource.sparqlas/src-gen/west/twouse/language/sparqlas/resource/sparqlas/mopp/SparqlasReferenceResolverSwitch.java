@@ -17,4 +17,9 @@ public class SparqlasReferenceResolverSwitch implements west.twouse.language.spa
 			return;
 		}
 	}
+	
+	public west.twouse.language.sparqlas.resource.sparqlas.ISparqlasReferenceResolver<? extends org.eclipse.emf.ecore.EObject, ? extends org.eclipse.emf.ecore.EObject> getResolver(org.eclipse.emf.ecore.EStructuralFeature reference) {
+		return null;
+	}
+	
 }

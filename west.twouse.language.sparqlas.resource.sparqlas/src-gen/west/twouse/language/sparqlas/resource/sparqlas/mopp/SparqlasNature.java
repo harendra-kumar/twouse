@@ -12,7 +12,9 @@ public class SparqlasNature implements org.eclipse.core.resources.IProjectNature
 	
 	private org.eclipse.core.resources.IProject project;
 	
-	// the IDs of all builders, IDs of additional builders can be added here
+	/**
+	 * the IDs of all builders, IDs of additional builders can be added here
+	 */
 	public final static String[] BUILDER_IDS = {west.twouse.language.sparqlas.resource.sparqlas.mopp.SparqlasBuilderAdapter.BUILDER_ID};
 	
 	public static void activate(org.eclipse.core.resources.IProject project) {

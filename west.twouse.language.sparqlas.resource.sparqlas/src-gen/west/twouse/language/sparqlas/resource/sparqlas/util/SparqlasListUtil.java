@@ -6,8 +6,10 @@
  */
 package west.twouse.language.sparqlas.resource.sparqlas.util;
 
-// A utility class that encapsulates some case operations that need to be performed
-// unchecked, because of Java's type erasure.
+/**
+ * A utility class that encapsulates some case operations that need to be
+ * performed unchecked, because of Java's type erasure.
+ */
 public class SparqlasListUtil {
 	
 	@SuppressWarnings("unchecked")	

@@ -6,11 +6,14 @@
  */
 package west.twouse.language.owl2fs.resource.owl2fs.mopp;
 
-// A basic implementation of the IURIMapping interface that can
-// map identifiers to URIs.
-//
-// @param <ReferenceType> unused type parameter which is needed to implement IURIMapping.
-//
+/**
+ * A basic implementation of the
+ * west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsURIMapping interface that
+ * can map identifiers to URIs.
+ * 
+ * @param <ReferenceType> unused type parameter which is needed to implement
+ * west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsURIMapping.
+ */
 public class Owl2fsURIMapping<ReferenceType> implements west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsURIMapping<ReferenceType> {
 	
 	private org.eclipse.emf.common.util.URI uri;

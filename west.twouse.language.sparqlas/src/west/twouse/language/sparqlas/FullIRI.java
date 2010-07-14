@@ -17,5 +17,6 @@ package west.twouse.language.sparqlas;
  * @model
  * @generated
  */
-public interface FullIRI extends IRI {
+public interface FullIRI extends IRI
+{
 } // FullIRI

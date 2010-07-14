@@ -18,5 +18,6 @@ import org.eclipse.emf.ecore.EObject;
  * @model abstract="true"
  * @generated
  */
-public interface Individual extends EObject {
+public interface Individual extends EObject
+{
 } // Individual

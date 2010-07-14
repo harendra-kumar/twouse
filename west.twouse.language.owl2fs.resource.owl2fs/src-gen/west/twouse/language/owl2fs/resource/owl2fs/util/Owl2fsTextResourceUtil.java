@@ -6,8 +6,10 @@
  */
 package west.twouse.language.owl2fs.resource.owl2fs.util;
 
-// Class TextResourceUtil can be used to perform common tasks on text resources,
-// such as loading and saving resources, as well as, checking them for errors.
+/**
+ * Class TextResourceUtil can be used to perform common tasks on text resources,
+ * such as loading and saving resources, as well as, checking them for errors.
+ */
 public class Owl2fsTextResourceUtil {
 	
 	public static west.twouse.language.owl2fs.resource.owl2fs.mopp.Owl2fsResource getResource(org.eclipse.core.resources.IFile file) {

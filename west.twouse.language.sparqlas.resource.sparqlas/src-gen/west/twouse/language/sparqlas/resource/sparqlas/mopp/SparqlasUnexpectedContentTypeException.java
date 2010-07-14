@@ -6,10 +6,14 @@
  */
 package west.twouse.language.sparqlas.resource.sparqlas.mopp;
 
-// java.lang.Exception class to represent invalid content types for parser instances.
-//
-// @see west.twouse.language.sparqlas.resource.sparqlas.ISparqlasOptions.RESOURCE_CONTENT_TYPE
-public class SparqlasUnexpectedContentTypeException extends org.antlr.runtime.RecognitionException{
+/**
+ * An Excpetion to represent invalid content types for parser instances.
+ * 
+ * @see
+ * west.twouse.language.sparqlas.resource.sparqlas.ISparqlasOptions.RESOURCE_CONTEN
+ * T_TYPE
+ */
+public class SparqlasUnexpectedContentTypeException extends org.antlr.runtime3_2_0.RecognitionException{
 	
 	private static final long serialVersionUID = 4791359811519433999L;
 	
@@ -22,4 +26,5 @@ public class SparqlasUnexpectedContentTypeException extends org.antlr.runtime.Re
 	public Object getContentType() {
 		return contentType;
 	}
+	
 }

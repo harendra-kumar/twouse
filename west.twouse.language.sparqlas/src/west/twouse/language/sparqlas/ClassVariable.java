@@ -17,5 +17,6 @@ package west.twouse.language.sparqlas;
  * @model
  * @generated
  */
-public interface ClassVariable extends Variable, ClassExpression {
+public interface ClassVariable extends Variable, ClassExpression
+{
 } // ClassVariable

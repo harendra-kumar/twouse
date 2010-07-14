@@ -6,23 +6,27 @@
  */
 package west.twouse.language.sparqlas.resource.sparqlas.mopp;
 
-// A representation for a range in a document where a terminal (i.e.,
-// a placeholder or a keyword) is expected.
-// The range is expressed using two integers denoting the start of the range
-// including hidden tokens (e.g., whitespace) and excluding those token 
-// (i.e., the part of the document containing the relevant characters).
+/**
+ * A representation for a range in a document where a terminal (i.e., a
+ * placeholder or a keyword) is expected. The range is expressed using two
+ * integers denoting the start of the range including hidden tokens (e.g.,
+ * whitespace) and excluding those token (i.e., the part of the document
+ * containing the relevant characters).
+ */
 public class SparqlasExpectedTerminal {
 	
 	private int followSetID;
 	private west.twouse.language.sparqlas.resource.sparqlas.ISparqlasExpectedElement terminal;
 	private int startIncludingHiddenTokens;
 	private int startExcludingHiddenTokens;
-	private String prefix;
+	private java.lang.String prefix;
+	private org.eclipse.emf.ecore.EStructuralFeature[] containmentTrace;
 	
-	public SparqlasExpectedTerminal(west.twouse.language.sparqlas.resource.sparqlas.ISparqlasExpectedElement terminal, int followSetID) {
+	public SparqlasExpectedTerminal(west.twouse.language.sparqlas.resource.sparqlas.ISparqlasExpectedElement terminal, int followSetID, org.eclipse.emf.ecore.EStructuralFeature... containmentTrace) {
 		super();
 		this.terminal = terminal;
 		this.followSetID = followSetID;
+		this.containmentTrace = containmentTrace;
 	}
 	
 	public int getFollowSetID() {
@@ -33,11 +37,11 @@ public class SparqlasExpectedTerminal {
 		return terminal;
 	}
 	
-	public String toString() {
+	public java.lang.String toString() {
 		return terminal == null ? "null" : terminal.toString();
 	}
 	
-	public boolean equals(Object o) {
+	public boolean equals(java.lang.Object o) {
 		return this.terminal.equals(((SparqlasExpectedTerminal) o).terminal);
 	}
 	
@@ -56,12 +60,16 @@ public class SparqlasExpectedTerminal {
 		return startExcludingHiddenTokens;
 	}
 	
-	public String getPrefix() {
+	public java.lang.String getPrefix() {
 		return prefix;
 	}
 	
-	public void setPrefix(String prefix) {
+	public void setPrefix(java.lang.String prefix) {
 		this.prefix = prefix;
+	}
+	
+	public org.eclipse.emf.ecore.EStructuralFeature[] getContainmentTrace() {
+		return containmentTrace;
 	}
 	
 }

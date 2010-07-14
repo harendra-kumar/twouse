@@ -17,7 +17,6 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import west.twouse.language.sparqlas.DataExactCardinality;
 import west.twouse.language.sparqlas.DataPropertyExpression;
 import west.twouse.language.sparqlas.DataRange;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 
 /**

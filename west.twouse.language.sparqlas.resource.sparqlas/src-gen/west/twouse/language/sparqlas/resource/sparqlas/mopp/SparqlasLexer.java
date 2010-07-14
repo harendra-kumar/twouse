@@ -1,9 +1,9 @@
-// $ANTLR 3.1.1
+// $ANTLR ${project.version} ${buildNumber}
 
 	package west.twouse.language.sparqlas.resource.sparqlas.mopp;
 
 
-import org.antlr.runtime.*;
+import org.antlr.runtime3_2_0.*;
 
 public class SparqlasLexer extends Lexer {
     public static final int T__29=29;
@@ -124,12 +124,12 @@ public class SparqlasLexer extends Lexer {
     public static final int T__38=38;
     public static final int T__39=39;
 
-    	public java.util.List<org.antlr.runtime.RecognitionException> lexerExceptions  = new java.util.ArrayList<org.antlr.runtime.RecognitionException>();
+    	public java.util.List<org.antlr.runtime3_2_0.RecognitionException> lexerExceptions  = new java.util.ArrayList<org.antlr.runtime3_2_0.RecognitionException>();
     	public java.util.List<java.lang.Integer> lexerExceptionsPosition = new java.util.ArrayList<java.lang.Integer>();
     	
-    	public void reportError(org.antlr.runtime.RecognitionException e) {
+    	public void reportError(org.antlr.runtime3_2_0.RecognitionException e) {
     		lexerExceptions.add(e);
-    		lexerExceptionsPosition.add(((org.antlr.runtime.ANTLRStringStream) input).index());
+    		lexerExceptionsPosition.add(((org.antlr.runtime3_2_0.ANTLRStringStream) input).index());
     	}
 
 
@@ -144,15 +144,15 @@ public class SparqlasLexer extends Lexer {
         super(input,state);
 
     }
-    public String getGrammarFileName() { return "D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g"; }
+    public String getGrammarFileName() { return "Sparqlas.g"; }
 
     // $ANTLR start "T__14"
     public final void mT__14() throws RecognitionException {
         try {
             int _type = T__14;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:16:7: ( 'IRI' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:16:9: 'IRI'
+            // Sparqlas.g:16:7: ( 'IRI' )
+            // Sparqlas.g:16:9: 'IRI'
             {
             match("IRI"); 
 
@@ -172,8 +172,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__15;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:17:7: ( '(' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:17:9: '('
+            // Sparqlas.g:17:7: ( '(' )
+            // Sparqlas.g:17:9: '('
             {
             match('('); 
 
@@ -192,8 +192,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__16;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:18:7: ( ')' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:18:9: ')'
+            // Sparqlas.g:18:7: ( ')' )
+            // Sparqlas.g:18:9: ')'
             {
             match(')'); 
 
@@ -212,8 +212,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__17;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:19:7: ( 'Import' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:19:9: 'Import'
+            // Sparqlas.g:19:7: ( 'Import' )
+            // Sparqlas.g:19:9: 'Import'
             {
             match("Import"); 
 
@@ -233,8 +233,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__18;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:20:7: ( 'Namespace' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:20:9: 'Namespace'
+            // Sparqlas.g:20:7: ( 'Namespace' )
+            // Sparqlas.g:20:9: 'Namespace'
             {
             match("Namespace"); 
 
@@ -254,8 +254,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__19;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:21:7: ( '=' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:21:9: '='
+            // Sparqlas.g:21:7: ( '=' )
+            // Sparqlas.g:21:9: '='
             {
             match('='); 
 
@@ -274,8 +274,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__20;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22:7: ( 'Select' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22:9: 'Select'
+            // Sparqlas.g:22:7: ( 'Select' )
+            // Sparqlas.g:22:9: 'Select'
             {
             match("Select"); 
 
@@ -295,8 +295,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__21;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:23:7: ( '*' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:23:9: '*'
+            // Sparqlas.g:23:7: ( '*' )
+            // Sparqlas.g:23:9: '*'
             {
             match('*'); 
 
@@ -315,8 +315,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__22;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:24:7: ( 'Where' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:24:9: 'Where'
+            // Sparqlas.g:24:7: ( 'Where' )
+            // Sparqlas.g:24:9: 'Where'
             {
             match("Where"); 
 
@@ -336,8 +336,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__23;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:25:7: ( 'Construct' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:25:9: 'Construct'
+            // Sparqlas.g:25:7: ( 'Construct' )
+            // Sparqlas.g:25:9: 'Construct'
             {
             match("Construct"); 
 
@@ -357,8 +357,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__24;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:26:7: ( 'Ask' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:26:9: 'Ask'
+            // Sparqlas.g:26:7: ( 'Ask' )
+            // Sparqlas.g:26:9: 'Ask'
             {
             match("Ask"); 
 
@@ -378,8 +378,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__25;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:27:7: ( 'Describe' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:27:9: 'Describe'
+            // Sparqlas.g:27:7: ( 'Describe' )
+            // Sparqlas.g:27:9: 'Describe'
             {
             match("Describe"); 
 
@@ -399,8 +399,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__26;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:28:7: ( '^^' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:28:9: '^^'
+            // Sparqlas.g:28:7: ( '^^' )
+            // Sparqlas.g:28:9: '^^'
             {
             match("^^"); 
 
@@ -420,8 +420,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__27;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:29:7: ( 'ClassAssertion' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:29:9: 'ClassAssertion'
+            // Sparqlas.g:29:7: ( 'ClassAssertion' )
+            // Sparqlas.g:29:9: 'ClassAssertion'
             {
             match("ClassAssertion"); 
 
@@ -441,8 +441,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__28;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:30:7: ( 'Type' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:30:9: 'Type'
+            // Sparqlas.g:30:7: ( 'Type' )
+            // Sparqlas.g:30:9: 'Type'
             {
             match("Type"); 
 
@@ -462,8 +462,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__29;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:31:7: ( 'ObjectPropertyAssertion' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:31:9: 'ObjectPropertyAssertion'
+            // Sparqlas.g:31:7: ( 'ObjectPropertyAssertion' )
+            // Sparqlas.g:31:9: 'ObjectPropertyAssertion'
             {
             match("ObjectPropertyAssertion"); 
 
@@ -483,8 +483,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__30;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:32:7: ( 'PropertyValue' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:32:9: 'PropertyValue'
+            // Sparqlas.g:32:7: ( 'PropertyValue' )
+            // Sparqlas.g:32:9: 'PropertyValue'
             {
             match("PropertyValue"); 
 
@@ -504,8 +504,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__31;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:33:7: ( 'DataPropertyAssertion' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:33:9: 'DataPropertyAssertion'
+            // Sparqlas.g:33:7: ( 'DataPropertyAssertion' )
+            // Sparqlas.g:33:9: 'DataPropertyAssertion'
             {
             match("DataPropertyAssertion"); 
 
@@ -525,8 +525,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__32;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:34:7: ( 'NegativeObjectPropertyAssertion' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:34:9: 'NegativeObjectPropertyAssertion'
+            // Sparqlas.g:34:7: ( 'NegativeObjectPropertyAssertion' )
+            // Sparqlas.g:34:9: 'NegativeObjectPropertyAssertion'
             {
             match("NegativeObjectPropertyAssertion"); 
 
@@ -546,8 +546,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__33;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:35:7: ( 'NegativePropertyValue' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:35:9: 'NegativePropertyValue'
+            // Sparqlas.g:35:7: ( 'NegativePropertyValue' )
+            // Sparqlas.g:35:9: 'NegativePropertyValue'
             {
             match("NegativePropertyValue"); 
 
@@ -567,8 +567,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__34;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:36:7: ( 'NegativeDataPropertyAssertion' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:36:9: 'NegativeDataPropertyAssertion'
+            // Sparqlas.g:36:7: ( 'NegativeDataPropertyAssertion' )
+            // Sparqlas.g:36:9: 'NegativeDataPropertyAssertion'
             {
             match("NegativeDataPropertyAssertion"); 
 
@@ -588,8 +588,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__35;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:37:7: ( 'SameIndividual' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:37:9: 'SameIndividual'
+            // Sparqlas.g:37:7: ( 'SameIndividual' )
+            // Sparqlas.g:37:9: 'SameIndividual'
             {
             match("SameIndividual"); 
 
@@ -609,8 +609,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__36;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:38:7: ( 'SameAs' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:38:9: 'SameAs'
+            // Sparqlas.g:38:7: ( 'SameAs' )
+            // Sparqlas.g:38:9: 'SameAs'
             {
             match("SameAs"); 
 
@@ -630,8 +630,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__37;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:39:7: ( 'DifferentIndividuals' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:39:9: 'DifferentIndividuals'
+            // Sparqlas.g:39:7: ( 'DifferentIndividuals' )
+            // Sparqlas.g:39:9: 'DifferentIndividuals'
             {
             match("DifferentIndividuals"); 
 
@@ -651,8 +651,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__38;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:40:7: ( 'DifferentFrom' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:40:9: 'DifferentFrom'
+            // Sparqlas.g:40:7: ( 'DifferentFrom' )
+            // Sparqlas.g:40:9: 'DifferentFrom'
             {
             match("DifferentFrom"); 
 
@@ -672,8 +672,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__39;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:41:7: ( 'SubClassOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:41:9: 'SubClassOf'
+            // Sparqlas.g:41:7: ( 'SubClassOf' )
+            // Sparqlas.g:41:9: 'SubClassOf'
             {
             match("SubClassOf"); 
 
@@ -693,8 +693,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__40;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:42:7: ( 'EquivalentClasses' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:42:9: 'EquivalentClasses'
+            // Sparqlas.g:42:7: ( 'EquivalentClasses' )
+            // Sparqlas.g:42:9: 'EquivalentClasses'
             {
             match("EquivalentClasses"); 
 
@@ -714,8 +714,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__41;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:43:7: ( 'EquivalentTo' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:43:9: 'EquivalentTo'
+            // Sparqlas.g:43:7: ( 'EquivalentTo' )
+            // Sparqlas.g:43:9: 'EquivalentTo'
             {
             match("EquivalentTo"); 
 
@@ -735,8 +735,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__42;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:44:7: ( 'DisjointClasses' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:44:9: 'DisjointClasses'
+            // Sparqlas.g:44:7: ( 'DisjointClasses' )
+            // Sparqlas.g:44:9: 'DisjointClasses'
             {
             match("DisjointClasses"); 
 
@@ -756,8 +756,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__43;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:45:7: ( 'DisjointWith' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:45:9: 'DisjointWith'
+            // Sparqlas.g:45:7: ( 'DisjointWith' )
+            // Sparqlas.g:45:9: 'DisjointWith'
             {
             match("DisjointWith"); 
 
@@ -777,8 +777,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__44;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:46:7: ( 'DisjointUnion' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:46:9: 'DisjointUnion'
+            // Sparqlas.g:46:7: ( 'DisjointUnion' )
+            // Sparqlas.g:46:9: 'DisjointUnion'
             {
             match("DisjointUnion"); 
 
@@ -798,8 +798,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__45;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:47:7: ( 'ObjectUnionOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:47:9: 'ObjectUnionOf'
+            // Sparqlas.g:47:7: ( 'ObjectUnionOf' )
+            // Sparqlas.g:47:9: 'ObjectUnionOf'
             {
             match("ObjectUnionOf"); 
 
@@ -819,8 +819,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__46;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:48:7: ( 'Or' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:48:9: 'Or'
+            // Sparqlas.g:48:7: ( 'Or' )
+            // Sparqlas.g:48:9: 'Or'
             {
             match("Or"); 
 
@@ -840,8 +840,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__47;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:49:7: ( 'ObjectComplementOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:49:9: 'ObjectComplementOf'
+            // Sparqlas.g:49:7: ( 'ObjectComplementOf' )
+            // Sparqlas.g:49:9: 'ObjectComplementOf'
             {
             match("ObjectComplementOf"); 
 
@@ -861,8 +861,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__48;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:50:7: ( 'Not' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:50:9: 'Not'
+            // Sparqlas.g:50:7: ( 'Not' )
+            // Sparqlas.g:50:9: 'Not'
             {
             match("Not"); 
 
@@ -882,8 +882,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__49;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:51:7: ( 'ObjectOneOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:51:9: 'ObjectOneOf'
+            // Sparqlas.g:51:7: ( 'ObjectOneOf' )
+            // Sparqlas.g:51:9: 'ObjectOneOf'
             {
             match("ObjectOneOf"); 
 
@@ -903,8 +903,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__50;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:52:7: ( 'One' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:52:9: 'One'
+            // Sparqlas.g:52:7: ( 'One' )
+            // Sparqlas.g:52:9: 'One'
             {
             match("One"); 
 
@@ -924,8 +924,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__51;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:53:7: ( 'ObjectIntersectionOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:53:9: 'ObjectIntersectionOf'
+            // Sparqlas.g:53:7: ( 'ObjectIntersectionOf' )
+            // Sparqlas.g:53:9: 'ObjectIntersectionOf'
             {
             match("ObjectIntersectionOf"); 
 
@@ -945,8 +945,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__52;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:54:7: ( 'And' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:54:9: 'And'
+            // Sparqlas.g:54:7: ( 'And' )
+            // Sparqlas.g:54:9: 'And'
             {
             match("And"); 
 
@@ -966,8 +966,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__53;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:55:7: ( 'ObjectAllValuesFrom' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:55:9: 'ObjectAllValuesFrom'
+            // Sparqlas.g:55:7: ( 'ObjectAllValuesFrom' )
+            // Sparqlas.g:55:9: 'ObjectAllValuesFrom'
             {
             match("ObjectAllValuesFrom"); 
 
@@ -987,8 +987,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__54;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:56:7: ( 'All' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:56:9: 'All'
+            // Sparqlas.g:56:7: ( 'All' )
+            // Sparqlas.g:56:9: 'All'
             {
             match("All"); 
 
@@ -1008,8 +1008,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__55;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:57:7: ( 'ObjectSomeValuesFrom' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:57:9: 'ObjectSomeValuesFrom'
+            // Sparqlas.g:57:7: ( 'ObjectSomeValuesFrom' )
+            // Sparqlas.g:57:9: 'ObjectSomeValuesFrom'
             {
             match("ObjectSomeValuesFrom"); 
 
@@ -1029,8 +1029,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__56;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:58:7: ( 'Some' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:58:9: 'Some'
+            // Sparqlas.g:58:7: ( 'Some' )
+            // Sparqlas.g:58:9: 'Some'
             {
             match("Some"); 
 
@@ -1050,8 +1050,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__57;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:59:7: ( 'ObjectHasValue' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:59:9: 'ObjectHasValue'
+            // Sparqlas.g:59:7: ( 'ObjectHasValue' )
+            // Sparqlas.g:59:9: 'ObjectHasValue'
             {
             match("ObjectHasValue"); 
 
@@ -1071,8 +1071,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__58;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:60:7: ( 'Has' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:60:9: 'Has'
+            // Sparqlas.g:60:7: ( 'Has' )
+            // Sparqlas.g:60:9: 'Has'
             {
             match("Has"); 
 
@@ -1092,8 +1092,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__59;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:61:7: ( 'ObjectMinCardinality' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:61:9: 'ObjectMinCardinality'
+            // Sparqlas.g:61:7: ( 'ObjectMinCardinality' )
+            // Sparqlas.g:61:9: 'ObjectMinCardinality'
             {
             match("ObjectMinCardinality"); 
 
@@ -1113,8 +1113,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__60;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:62:7: ( 'Min' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:62:9: 'Min'
+            // Sparqlas.g:62:7: ( 'Min' )
+            // Sparqlas.g:62:9: 'Min'
             {
             match("Min"); 
 
@@ -1134,8 +1134,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__61;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:63:7: ( 'ObjectMaxCardinality' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:63:9: 'ObjectMaxCardinality'
+            // Sparqlas.g:63:7: ( 'ObjectMaxCardinality' )
+            // Sparqlas.g:63:9: 'ObjectMaxCardinality'
             {
             match("ObjectMaxCardinality"); 
 
@@ -1155,8 +1155,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__62;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:64:7: ( 'Max' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:64:9: 'Max'
+            // Sparqlas.g:64:7: ( 'Max' )
+            // Sparqlas.g:64:9: 'Max'
             {
             match("Max"); 
 
@@ -1176,8 +1176,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__63;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:65:7: ( 'ObjectExactCardinality' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:65:9: 'ObjectExactCardinality'
+            // Sparqlas.g:65:7: ( 'ObjectExactCardinality' )
+            // Sparqlas.g:65:9: 'ObjectExactCardinality'
             {
             match("ObjectExactCardinality"); 
 
@@ -1197,8 +1197,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__64;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:66:7: ( 'Exact' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:66:9: 'Exact'
+            // Sparqlas.g:66:7: ( 'Exact' )
+            // Sparqlas.g:66:9: 'Exact'
             {
             match("Exact"); 
 
@@ -1218,8 +1218,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__65;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:67:7: ( 'DataAllValuesFrom' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:67:9: 'DataAllValuesFrom'
+            // Sparqlas.g:67:7: ( 'DataAllValuesFrom' )
+            // Sparqlas.g:67:9: 'DataAllValuesFrom'
             {
             match("DataAllValuesFrom"); 
 
@@ -1239,8 +1239,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__66;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:68:7: ( 'DataSomeValuesFrom' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:68:9: 'DataSomeValuesFrom'
+            // Sparqlas.g:68:7: ( 'DataSomeValuesFrom' )
+            // Sparqlas.g:68:9: 'DataSomeValuesFrom'
             {
             match("DataSomeValuesFrom"); 
 
@@ -1260,8 +1260,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__67;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:69:7: ( 'DataHasValue' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:69:9: 'DataHasValue'
+            // Sparqlas.g:69:7: ( 'DataHasValue' )
+            // Sparqlas.g:69:9: 'DataHasValue'
             {
             match("DataHasValue"); 
 
@@ -1281,8 +1281,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__68;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:70:7: ( 'DataMinCardinality' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:70:9: 'DataMinCardinality'
+            // Sparqlas.g:70:7: ( 'DataMinCardinality' )
+            // Sparqlas.g:70:9: 'DataMinCardinality'
             {
             match("DataMinCardinality"); 
 
@@ -1302,8 +1302,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__69;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:71:7: ( 'DataMaxCardinality' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:71:9: 'DataMaxCardinality'
+            // Sparqlas.g:71:7: ( 'DataMaxCardinality' )
+            // Sparqlas.g:71:9: 'DataMaxCardinality'
             {
             match("DataMaxCardinality"); 
 
@@ -1323,8 +1323,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__70;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:72:7: ( 'DataExactCardinality' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:72:9: 'DataExactCardinality'
+            // Sparqlas.g:72:7: ( 'DataExactCardinality' )
+            // Sparqlas.g:72:9: 'DataExactCardinality'
             {
             match("DataExactCardinality"); 
 
@@ -1344,8 +1344,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__71;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:73:7: ( 'DataUnionOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:73:9: 'DataUnionOf'
+            // Sparqlas.g:73:7: ( 'DataUnionOf' )
+            // Sparqlas.g:73:9: 'DataUnionOf'
             {
             match("DataUnionOf"); 
 
@@ -1365,8 +1365,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__72;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:74:7: ( 'DataComplementOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:74:9: 'DataComplementOf'
+            // Sparqlas.g:74:7: ( 'DataComplementOf' )
+            // Sparqlas.g:74:9: 'DataComplementOf'
             {
             match("DataComplementOf"); 
 
@@ -1386,8 +1386,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__73;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:75:7: ( 'DataOneOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:75:9: 'DataOneOf'
+            // Sparqlas.g:75:7: ( 'DataOneOf' )
+            // Sparqlas.g:75:9: 'DataOneOf'
             {
             match("DataOneOf"); 
 
@@ -1407,8 +1407,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__74;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:76:7: ( 'DataIntersectionOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:76:9: 'DataIntersectionOf'
+            // Sparqlas.g:76:7: ( 'DataIntersectionOf' )
+            // Sparqlas.g:76:9: 'DataIntersectionOf'
             {
             match("DataIntersectionOf"); 
 
@@ -1428,8 +1428,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__75;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:77:7: ( 'DatatypeRestriction' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:77:9: 'DatatypeRestriction'
+            // Sparqlas.g:77:7: ( 'DatatypeRestriction' )
+            // Sparqlas.g:77:9: 'DatatypeRestriction'
             {
             match("DatatypeRestriction"); 
 
@@ -1449,8 +1449,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__76;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:78:7: ( 'SubObjectPropertyOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:78:9: 'SubObjectPropertyOf'
+            // Sparqlas.g:78:7: ( 'SubObjectPropertyOf' )
+            // Sparqlas.g:78:9: 'SubObjectPropertyOf'
             {
             match("SubObjectPropertyOf"); 
 
@@ -1470,8 +1470,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__77;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:79:7: ( 'SubPropertyOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:79:9: 'SubPropertyOf'
+            // Sparqlas.g:79:7: ( 'SubPropertyOf' )
+            // Sparqlas.g:79:9: 'SubPropertyOf'
             {
             match("SubPropertyOf"); 
 
@@ -1491,8 +1491,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__78;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:80:7: ( 'EquivalentObjectProperties' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:80:9: 'EquivalentObjectProperties'
+            // Sparqlas.g:80:7: ( 'EquivalentObjectProperties' )
+            // Sparqlas.g:80:9: 'EquivalentObjectProperties'
             {
             match("EquivalentObjectProperties"); 
 
@@ -1512,8 +1512,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__79;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:81:7: ( 'EquivalentProperty' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:81:9: 'EquivalentProperty'
+            // Sparqlas.g:81:7: ( 'EquivalentProperty' )
+            // Sparqlas.g:81:9: 'EquivalentProperty'
             {
             match("EquivalentProperty"); 
 
@@ -1533,8 +1533,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__80;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:82:7: ( 'DisjointObjectProperties' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:82:9: 'DisjointObjectProperties'
+            // Sparqlas.g:82:7: ( 'DisjointObjectProperties' )
+            // Sparqlas.g:82:9: 'DisjointObjectProperties'
             {
             match("DisjointObjectProperties"); 
 
@@ -1554,8 +1554,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__81;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:83:7: ( 'DisjointProperty' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:83:9: 'DisjointProperty'
+            // Sparqlas.g:83:7: ( 'DisjointProperty' )
+            // Sparqlas.g:83:9: 'DisjointProperty'
             {
             match("DisjointProperty"); 
 
@@ -1575,8 +1575,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__82;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:84:7: ( 'ObjectPropertyDomain' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:84:9: 'ObjectPropertyDomain'
+            // Sparqlas.g:84:7: ( 'ObjectPropertyDomain' )
+            // Sparqlas.g:84:9: 'ObjectPropertyDomain'
             {
             match("ObjectPropertyDomain"); 
 
@@ -1596,8 +1596,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__83;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:85:7: ( 'Domain' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:85:9: 'Domain'
+            // Sparqlas.g:85:7: ( 'Domain' )
+            // Sparqlas.g:85:9: 'Domain'
             {
             match("Domain"); 
 
@@ -1617,8 +1617,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__84;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:86:7: ( 'ObjectPropertyRange' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:86:9: 'ObjectPropertyRange'
+            // Sparqlas.g:86:7: ( 'ObjectPropertyRange' )
+            // Sparqlas.g:86:9: 'ObjectPropertyRange'
             {
             match("ObjectPropertyRange"); 
 
@@ -1638,8 +1638,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__85;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:87:7: ( 'Range' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:87:9: 'Range'
+            // Sparqlas.g:87:7: ( 'Range' )
+            // Sparqlas.g:87:9: 'Range'
             {
             match("Range"); 
 
@@ -1659,8 +1659,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__86;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:88:7: ( 'InverseObjectProperties' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:88:9: 'InverseObjectProperties'
+            // Sparqlas.g:88:7: ( 'InverseObjectProperties' )
+            // Sparqlas.g:88:9: 'InverseObjectProperties'
             {
             match("InverseObjectProperties"); 
 
@@ -1680,8 +1680,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__87;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:89:7: ( 'InverseOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:89:9: 'InverseOf'
+            // Sparqlas.g:89:7: ( 'InverseOf' )
+            // Sparqlas.g:89:9: 'InverseOf'
             {
             match("InverseOf"); 
 
@@ -1701,8 +1701,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__88;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:90:7: ( 'FunctionalObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:90:9: 'FunctionalObjectProperty'
+            // Sparqlas.g:90:7: ( 'FunctionalObjectProperty' )
+            // Sparqlas.g:90:9: 'FunctionalObjectProperty'
             {
             match("FunctionalObjectProperty"); 
 
@@ -1722,8 +1722,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__89;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:91:7: ( 'InverseFunctionalObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:91:9: 'InverseFunctionalObjectProperty'
+            // Sparqlas.g:91:7: ( 'InverseFunctionalObjectProperty' )
+            // Sparqlas.g:91:9: 'InverseFunctionalObjectProperty'
             {
             match("InverseFunctionalObjectProperty"); 
 
@@ -1743,8 +1743,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__90;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:92:7: ( 'InverseFunctional' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:92:9: 'InverseFunctional'
+            // Sparqlas.g:92:7: ( 'InverseFunctional' )
+            // Sparqlas.g:92:9: 'InverseFunctional'
             {
             match("InverseFunctional"); 
 
@@ -1764,8 +1764,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__91;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:93:7: ( 'ReflexiveObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:93:9: 'ReflexiveObjectProperty'
+            // Sparqlas.g:93:7: ( 'ReflexiveObjectProperty' )
+            // Sparqlas.g:93:9: 'ReflexiveObjectProperty'
             {
             match("ReflexiveObjectProperty"); 
 
@@ -1785,8 +1785,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__92;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:94:7: ( 'Reflexive' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:94:9: 'Reflexive'
+            // Sparqlas.g:94:7: ( 'Reflexive' )
+            // Sparqlas.g:94:9: 'Reflexive'
             {
             match("Reflexive"); 
 
@@ -1806,8 +1806,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__93;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:95:7: ( 'IrreflexiveObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:95:9: 'IrreflexiveObjectProperty'
+            // Sparqlas.g:95:7: ( 'IrreflexiveObjectProperty' )
+            // Sparqlas.g:95:9: 'IrreflexiveObjectProperty'
             {
             match("IrreflexiveObjectProperty"); 
 
@@ -1827,8 +1827,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__94;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:96:7: ( 'Irreflexive' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:96:9: 'Irreflexive'
+            // Sparqlas.g:96:7: ( 'Irreflexive' )
+            // Sparqlas.g:96:9: 'Irreflexive'
             {
             match("Irreflexive"); 
 
@@ -1848,8 +1848,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__95;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:97:7: ( 'SymmetricObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:97:9: 'SymmetricObjectProperty'
+            // Sparqlas.g:97:7: ( 'SymmetricObjectProperty' )
+            // Sparqlas.g:97:9: 'SymmetricObjectProperty'
             {
             match("SymmetricObjectProperty"); 
 
@@ -1869,8 +1869,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__96;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:98:7: ( 'Symmetric' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:98:9: 'Symmetric'
+            // Sparqlas.g:98:7: ( 'Symmetric' )
+            // Sparqlas.g:98:9: 'Symmetric'
             {
             match("Symmetric"); 
 
@@ -1890,8 +1890,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__97;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:99:7: ( 'AsymmetricObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:99:9: 'AsymmetricObjectProperty'
+            // Sparqlas.g:99:7: ( 'AsymmetricObjectProperty' )
+            // Sparqlas.g:99:9: 'AsymmetricObjectProperty'
             {
             match("AsymmetricObjectProperty"); 
 
@@ -1911,8 +1911,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__98;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:100:7: ( 'Asymmetric' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:100:9: 'Asymmetric'
+            // Sparqlas.g:100:7: ( 'Asymmetric' )
+            // Sparqlas.g:100:9: 'Asymmetric'
             {
             match("Asymmetric"); 
 
@@ -1932,8 +1932,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__99;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:101:7: ( 'TransitiveObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:101:9: 'TransitiveObjectProperty'
+            // Sparqlas.g:101:7: ( 'TransitiveObjectProperty' )
+            // Sparqlas.g:101:9: 'TransitiveObjectProperty'
             {
             match("TransitiveObjectProperty"); 
 
@@ -1953,8 +1953,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__100;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:102:8: ( 'Transitive' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:102:10: 'Transitive'
+            // Sparqlas.g:102:8: ( 'Transitive' )
+            // Sparqlas.g:102:10: 'Transitive'
             {
             match("Transitive"); 
 
@@ -1974,8 +1974,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__101;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:103:8: ( 'SubDataPropertyOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:103:10: 'SubDataPropertyOf'
+            // Sparqlas.g:103:8: ( 'SubDataPropertyOf' )
+            // Sparqlas.g:103:10: 'SubDataPropertyOf'
             {
             match("SubDataPropertyOf"); 
 
@@ -1995,8 +1995,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__102;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:104:8: ( 'EquivalentDataProperties' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:104:10: 'EquivalentDataProperties'
+            // Sparqlas.g:104:8: ( 'EquivalentDataProperties' )
+            // Sparqlas.g:104:10: 'EquivalentDataProperties'
             {
             match("EquivalentDataProperties"); 
 
@@ -2016,8 +2016,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__103;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:105:8: ( 'DisjointDataProperties' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:105:10: 'DisjointDataProperties'
+            // Sparqlas.g:105:8: ( 'DisjointDataProperties' )
+            // Sparqlas.g:105:10: 'DisjointDataProperties'
             {
             match("DisjointDataProperties"); 
 
@@ -2037,8 +2037,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__104;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:106:8: ( 'DataPropertyDomain' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:106:10: 'DataPropertyDomain'
+            // Sparqlas.g:106:8: ( 'DataPropertyDomain' )
+            // Sparqlas.g:106:10: 'DataPropertyDomain'
             {
             match("DataPropertyDomain"); 
 
@@ -2058,8 +2058,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__105;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:107:8: ( 'DataPropertyRange' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:107:10: 'DataPropertyRange'
+            // Sparqlas.g:107:8: ( 'DataPropertyRange' )
+            // Sparqlas.g:107:10: 'DataPropertyRange'
             {
             match("DataPropertyRange"); 
 
@@ -2079,8 +2079,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__106;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:108:8: ( 'FunctionalDataProperty' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:108:10: 'FunctionalDataProperty'
+            // Sparqlas.g:108:8: ( 'FunctionalDataProperty' )
+            // Sparqlas.g:108:10: 'FunctionalDataProperty'
             {
             match("FunctionalDataProperty"); 
 
@@ -2100,8 +2100,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__107;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:109:8: ( 'ObjectInverseOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:109:10: 'ObjectInverseOf'
+            // Sparqlas.g:109:8: ( 'ObjectInverseOf' )
+            // Sparqlas.g:109:10: 'ObjectInverseOf'
             {
             match("ObjectInverseOf"); 
 
@@ -2121,8 +2121,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__108;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:110:8: ( 'ObjectPropertyChain' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:110:10: 'ObjectPropertyChain'
+            // Sparqlas.g:110:8: ( 'ObjectPropertyChain' )
+            // Sparqlas.g:110:10: 'ObjectPropertyChain'
             {
             match("ObjectPropertyChain"); 
 
@@ -2142,8 +2142,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__109;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:111:8: ( 'Chain' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:111:10: 'Chain'
+            // Sparqlas.g:111:8: ( 'Chain' )
+            // Sparqlas.g:111:10: 'Chain'
             {
             match("Chain"); 
 
@@ -2163,8 +2163,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__110;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:112:8: ( 'HasKey' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:112:10: 'HasKey'
+            // Sparqlas.g:112:8: ( 'HasKey' )
+            // Sparqlas.g:112:10: 'HasKey'
             {
             match("HasKey"); 
 
@@ -2184,8 +2184,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__111;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:113:8: ( 'Class' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:113:10: 'Class'
+            // Sparqlas.g:113:8: ( 'Class' )
+            // Sparqlas.g:113:10: 'Class'
             {
             match("Class"); 
 
@@ -2205,8 +2205,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__112;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:114:8: ( 'ObjectProperty' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:114:10: 'ObjectProperty'
+            // Sparqlas.g:114:8: ( 'ObjectProperty' )
+            // Sparqlas.g:114:10: 'ObjectProperty'
             {
             match("ObjectProperty"); 
 
@@ -2226,8 +2226,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__113;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:115:8: ( 'DataProperty' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:115:10: 'DataProperty'
+            // Sparqlas.g:115:8: ( 'DataProperty' )
+            // Sparqlas.g:115:10: 'DataProperty'
             {
             match("DataProperty"); 
 
@@ -2247,8 +2247,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__114;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:116:8: ( 'NamedIndividual' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:116:10: 'NamedIndividual'
+            // Sparqlas.g:116:8: ( 'NamedIndividual' )
+            // Sparqlas.g:116:10: 'NamedIndividual'
             {
             match("NamedIndividual"); 
 
@@ -2268,8 +2268,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__115;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:117:8: ( 'Parameter' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:117:10: 'Parameter'
+            // Sparqlas.g:117:8: ( 'Parameter' )
+            // Sparqlas.g:117:10: 'Parameter'
             {
             match("Parameter"); 
 
@@ -2289,8 +2289,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__116;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:118:8: ( 'Bind' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:118:10: 'Bind'
+            // Sparqlas.g:118:8: ( 'Bind' )
+            // Sparqlas.g:118:10: 'Bind'
             {
             match("Bind"); 
 
@@ -2310,8 +2310,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__117;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:119:8: ( 'DirectType' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:119:10: 'DirectType'
+            // Sparqlas.g:119:8: ( 'DirectType' )
+            // Sparqlas.g:119:10: 'DirectType'
             {
             match("DirectType"); 
 
@@ -2331,8 +2331,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__118;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:120:8: ( 'DirectSubClassOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:120:10: 'DirectSubClassOf'
+            // Sparqlas.g:120:8: ( 'DirectSubClassOf' )
+            // Sparqlas.g:120:10: 'DirectSubClassOf'
             {
             match("DirectSubClassOf"); 
 
@@ -2352,8 +2352,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = T__119;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:121:8: ( 'StrictSubClassOf' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:121:10: 'StrictSubClassOf'
+            // Sparqlas.g:121:8: ( 'StrictSubClassOf' )
+            // Sparqlas.g:121:10: 'StrictSubClassOf'
             {
             match("StrictSubClassOf"); 
 
@@ -2373,8 +2373,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = WHITESPACE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22121:11: ( ( ' ' | '\\t' | '\\f' ) )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22122:2: ( ' ' | '\\t' | '\\f' )
+            // Sparqlas.g:17565:11: ( ( ' ' | '\\t' | '\\f' ) )
+            // Sparqlas.g:17566:2: ( ' ' | '\\t' | '\\f' )
             {
             if ( input.LA(1)=='\t'||input.LA(1)=='\f'||input.LA(1)==' ' ) {
                 input.consume();
@@ -2402,10 +2402,10 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = LINEBREAKS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22125:11: ( ( '\\r\\n' | '\\r' | '\\n' ) )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22126:2: ( '\\r\\n' | '\\r' | '\\n' )
+            // Sparqlas.g:17569:11: ( ( '\\r\\n' | '\\r' | '\\n' ) )
+            // Sparqlas.g:17570:2: ( '\\r\\n' | '\\r' | '\\n' )
             {
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22126:2: ( '\\r\\n' | '\\r' | '\\n' )
+            // Sparqlas.g:17570:2: ( '\\r\\n' | '\\r' | '\\n' )
             int alt1=3;
             int LA1_0 = input.LA(1);
 
@@ -2429,7 +2429,7 @@ public class SparqlasLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22126:3: '\\r\\n'
+                    // Sparqlas.g:17570:3: '\\r\\n'
                     {
                     match("\r\n"); 
 
@@ -2437,14 +2437,14 @@ public class SparqlasLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22126:10: '\\r'
+                    // Sparqlas.g:17570:10: '\\r'
                     {
                     match('\r'); 
 
                     }
                     break;
                 case 3 :
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22126:15: '\\n'
+                    // Sparqlas.g:17570:15: '\\n'
                     {
                     match('\n'); 
 
@@ -2470,12 +2470,12 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22129:8: ( '//' (~ ( '\\n' | '\\r' | '\\uffff' ) )* )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22130:2: '//' (~ ( '\\n' | '\\r' | '\\uffff' ) )*
+            // Sparqlas.g:17573:8: ( '//' (~ ( '\\n' | '\\r' | '\\uffff' ) )* )
+            // Sparqlas.g:17574:2: '//' (~ ( '\\n' | '\\r' | '\\uffff' ) )*
             {
             match("//"); 
 
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22130:6: (~ ( '\\n' | '\\r' | '\\uffff' ) )*
+            // Sparqlas.g:17574:6: (~ ( '\\n' | '\\r' | '\\uffff' ) )*
             loop2:
             do {
                 int alt2=2;
@@ -2488,7 +2488,7 @@ public class SparqlasLexer extends Lexer {
 
                 switch (alt2) {
             	case 1 :
-            	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22130:7: ~ ( '\\n' | '\\r' | '\\uffff' )
+            	    // Sparqlas.g:17574:7: ~ ( '\\n' | '\\r' | '\\uffff' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFE') ) {
             	        input.consume();
@@ -2525,7 +2525,7 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = INTEGER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22133:8: ( ( '-' )? ( '1' .. '9' ) ( '0' .. '9' )* | '0' )
+            // Sparqlas.g:17577:8: ( ( '-' )? ( '1' .. '9' ) ( '0' .. '9' )* | '0' )
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -2543,9 +2543,9 @@ public class SparqlasLexer extends Lexer {
             }
             switch (alt5) {
                 case 1 :
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22134:2: ( '-' )? ( '1' .. '9' ) ( '0' .. '9' )*
+                    // Sparqlas.g:17578:2: ( '-' )? ( '1' .. '9' ) ( '0' .. '9' )*
                     {
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22134:2: ( '-' )?
+                    // Sparqlas.g:17578:2: ( '-' )?
                     int alt3=2;
                     int LA3_0 = input.LA(1);
 
@@ -2554,7 +2554,7 @@ public class SparqlasLexer extends Lexer {
                     }
                     switch (alt3) {
                         case 1 :
-                            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22134:3: '-'
+                            // Sparqlas.g:17578:3: '-'
                             {
                             match('-'); 
 
@@ -2563,14 +2563,14 @@ public class SparqlasLexer extends Lexer {
 
                     }
 
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22134:8: ( '1' .. '9' )
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22134:9: '1' .. '9'
+                    // Sparqlas.g:17578:8: ( '1' .. '9' )
+                    // Sparqlas.g:17578:9: '1' .. '9'
                     {
                     matchRange('1','9'); 
 
                     }
 
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22134:18: ( '0' .. '9' )*
+                    // Sparqlas.g:17578:18: ( '0' .. '9' )*
                     loop4:
                     do {
                         int alt4=2;
@@ -2583,7 +2583,7 @@ public class SparqlasLexer extends Lexer {
 
                         switch (alt4) {
                     	case 1 :
-                    	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22134:19: '0' .. '9'
+                    	    // Sparqlas.g:17578:19: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); 
 
@@ -2599,7 +2599,7 @@ public class SparqlasLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22134:30: '0'
+                    // Sparqlas.g:17578:30: '0'
                     {
                     match('0'); 
 
@@ -2620,10 +2620,10 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = FLOAT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22135:6: ( ( '-' )? ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' ) '.' ( '0' .. '9' )+ )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22136:2: ( '-' )? ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' ) '.' ( '0' .. '9' )+
+            // Sparqlas.g:17579:6: ( ( '-' )? ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' ) '.' ( '0' .. '9' )+ )
+            // Sparqlas.g:17580:2: ( '-' )? ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' ) '.' ( '0' .. '9' )+
             {
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22136:2: ( '-' )?
+            // Sparqlas.g:17580:2: ( '-' )?
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -2632,7 +2632,7 @@ public class SparqlasLexer extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22136:3: '-'
+                    // Sparqlas.g:17580:3: '-'
                     {
                     match('-'); 
 
@@ -2641,7 +2641,7 @@ public class SparqlasLexer extends Lexer {
 
             }
 
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22136:8: ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' )
+            // Sparqlas.g:17580:8: ( ( '1' .. '9' ) ( '0' .. '9' )* | '0' )
             int alt8=2;
             int LA8_0 = input.LA(1);
 
@@ -2659,16 +2659,16 @@ public class SparqlasLexer extends Lexer {
             }
             switch (alt8) {
                 case 1 :
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22136:9: ( '1' .. '9' ) ( '0' .. '9' )*
+                    // Sparqlas.g:17580:9: ( '1' .. '9' ) ( '0' .. '9' )*
                     {
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22136:9: ( '1' .. '9' )
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22136:10: '1' .. '9'
+                    // Sparqlas.g:17580:9: ( '1' .. '9' )
+                    // Sparqlas.g:17580:10: '1' .. '9'
                     {
                     matchRange('1','9'); 
 
                     }
 
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22136:20: ( '0' .. '9' )*
+                    // Sparqlas.g:17580:20: ( '0' .. '9' )*
                     loop7:
                     do {
                         int alt7=2;
@@ -2681,7 +2681,7 @@ public class SparqlasLexer extends Lexer {
 
                         switch (alt7) {
                     	case 1 :
-                    	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22136:21: '0' .. '9'
+                    	    // Sparqlas.g:17580:21: '0' .. '9'
                     	    {
                     	    matchRange('0','9'); 
 
@@ -2697,7 +2697,7 @@ public class SparqlasLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22136:34: '0'
+                    // Sparqlas.g:17580:34: '0'
                     {
                     match('0'); 
 
@@ -2707,7 +2707,7 @@ public class SparqlasLexer extends Lexer {
             }
 
             match('.'); 
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22136:43: ( '0' .. '9' )+
+            // Sparqlas.g:17580:43: ( '0' .. '9' )+
             int cnt9=0;
             loop9:
             do {
@@ -2721,7 +2721,7 @@ public class SparqlasLexer extends Lexer {
 
                 switch (alt9) {
             	case 1 :
-            	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22136:44: '0' .. '9'
+            	    // Sparqlas.g:17580:44: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -2754,11 +2754,11 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = LITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22138:8: ( '\"' (~ ( '\\u0022' | '\\u005C' ) | ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) ) )* '\"' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22139:3: '\"' (~ ( '\\u0022' | '\\u005C' ) | ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) ) )* '\"'
+            // Sparqlas.g:17582:8: ( '\"' (~ ( '\\u0022' | '\\u005C' ) | ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) ) )* '\"' )
+            // Sparqlas.g:17583:3: '\"' (~ ( '\\u0022' | '\\u005C' ) | ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) ) )* '\"'
             {
             match('\"'); 
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22139:7: (~ ( '\\u0022' | '\\u005C' ) | ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) ) )*
+            // Sparqlas.g:17583:7: (~ ( '\\u0022' | '\\u005C' ) | ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) ) )*
             loop10:
             do {
                 int alt10=3;
@@ -2774,7 +2774,7 @@ public class SparqlasLexer extends Lexer {
 
                 switch (alt10) {
             	case 1 :
-            	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22139:9: ~ ( '\\u0022' | '\\u005C' )
+            	    // Sparqlas.g:17583:9: ~ ( '\\u0022' | '\\u005C' )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -2789,10 +2789,10 @@ public class SparqlasLexer extends Lexer {
             	    }
             	    break;
             	case 2 :
-            	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22139:36: ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) )
+            	    // Sparqlas.g:17583:36: ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) )
             	    {
-            	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22139:36: ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) )
-            	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22139:37: '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' )
+            	    // Sparqlas.g:17583:36: ( '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' ) )
+            	    // Sparqlas.g:17583:37: '\\\\' ( 't' | 'b' | 'n' | 'r' | 'f' | '\\\\' | '\\\"' | '\\'' )
             	    {
             	    match('\\'); 
             	    if ( input.LA(1)=='\"'||input.LA(1)=='\''||input.LA(1)=='\\'||input.LA(1)=='b'||input.LA(1)=='f'||input.LA(1)=='n'||input.LA(1)=='r'||input.LA(1)=='t' ) {
@@ -2833,10 +2833,10 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = VARIABLE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22140:9: ( ( ( '?' ) | ( '\\u0024' ) ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+ )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22141:3: ( ( '?' ) | ( '\\u0024' ) ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+
+            // Sparqlas.g:17584:9: ( ( ( '?' ) | ( '\\u0024' ) ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+ )
+            // Sparqlas.g:17585:3: ( ( '?' ) | ( '\\u0024' ) ) ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+
             {
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22141:3: ( ( '?' ) | ( '\\u0024' ) )
+            // Sparqlas.g:17585:3: ( ( '?' ) | ( '\\u0024' ) )
             int alt11=2;
             int LA11_0 = input.LA(1);
 
@@ -2854,10 +2854,10 @@ public class SparqlasLexer extends Lexer {
             }
             switch (alt11) {
                 case 1 :
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22141:4: ( '?' )
+                    // Sparqlas.g:17585:4: ( '?' )
                     {
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22141:4: ( '?' )
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22141:5: '?'
+                    // Sparqlas.g:17585:4: ( '?' )
+                    // Sparqlas.g:17585:5: '?'
                     {
                     match('?'); 
 
@@ -2867,10 +2867,10 @@ public class SparqlasLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22141:12: ( '\\u0024' )
+                    // Sparqlas.g:17585:12: ( '\\u0024' )
                     {
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22141:12: ( '\\u0024' )
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22141:13: '\\u0024'
+                    // Sparqlas.g:17585:12: ( '\\u0024' )
+                    // Sparqlas.g:17585:13: '\\u0024'
                     {
                     match('$'); 
 
@@ -2882,7 +2882,7 @@ public class SparqlasLexer extends Lexer {
 
             }
 
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22141:24: ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+
+            // Sparqlas.g:17585:24: ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' | '-' )+
             int cnt12=0;
             loop12:
             do {
@@ -2896,7 +2896,7 @@ public class SparqlasLexer extends Lexer {
 
                 switch (alt12) {
             	case 1 :
-            	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:
+            	    // Sparqlas.g:
             	    {
             	    if ( input.LA(1)=='-'||(input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z') ) {
             	        input.consume();
@@ -2936,8 +2936,8 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = NODE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22142:5: ( '_:' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' ) ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' ) )? )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22143:3: '_:' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' ) ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' ) )?
+            // Sparqlas.g:17586:5: ( '_:' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' ) ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' ) )? )
+            // Sparqlas.g:17587:3: '_:' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' ) ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' ) )?
             {
             match("_:"); 
 
@@ -2950,7 +2950,7 @@ public class SparqlasLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22143:278: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' ) )?
+            // Sparqlas.g:17587:278: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' ) )?
             int alt14=2;
             int LA14_0 = input.LA(1);
 
@@ -2959,9 +2959,9 @@ public class SparqlasLexer extends Lexer {
             }
             switch (alt14) {
                 case 1 :
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22143:279: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' )
+                    // Sparqlas.g:17587:279: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '.' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' )
                     {
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22143:279: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
+                    // Sparqlas.g:17587:279: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
                     loop13:
                     do {
                         int alt13=2;
@@ -2980,7 +2980,7 @@ public class SparqlasLexer extends Lexer {
 
                         switch (alt13) {
                     	case 1 :
-                    	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:
+                    	    // Sparqlas.g:
                     	    {
                     	    if ( input.LA(1)=='.'||(input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z')||input.LA(1)=='\u00B7'||(input.LA(1)>='\u00C0' && input.LA(1)<='\u00D6')||(input.LA(1)>='\u00D8' && input.LA(1)<='\u00F6')||(input.LA(1)>='\u00F8' && input.LA(1)<='\u037D')||(input.LA(1)>='\u037F' && input.LA(1)<='\u1FFF')||(input.LA(1)>='\u200C' && input.LA(1)<='\u200D')||(input.LA(1)>='\u203F' && input.LA(1)<='\u2040')||(input.LA(1)>='\u2070' && input.LA(1)<='\u218F')||(input.LA(1)>='\u2C00' && input.LA(1)<='\u2FEF')||(input.LA(1)>='\u3001' && input.LA(1)<='\uD7FF')||(input.LA(1)>='\uF900' && input.LA(1)<='\uFDCF')||(input.LA(1)>='\uFDF0' && input.LA(1)<='\uFFFD') ) {
                     	        input.consume();
@@ -3031,11 +3031,11 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = FULLIRI;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22144:8: ( '<' (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )* '>' )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22145:3: '<' (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )* '>'
+            // Sparqlas.g:17588:8: ( '<' (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )* '>' )
+            // Sparqlas.g:17589:3: '<' (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )* '>'
             {
             match('<'); 
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22145:7: (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )*
+            // Sparqlas.g:17589:7: (~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' ) )*
             loop15:
             do {
                 int alt15=2;
@@ -3048,7 +3048,7 @@ public class SparqlasLexer extends Lexer {
 
                 switch (alt15) {
             	case 1 :
-            	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22145:8: ~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' )
+            	    // Sparqlas.g:17589:8: ~ ( '^' | '<' | '>' | '\"' | '{' | '}' | '`' | '\\\\' | '\\u0000' .. '\\u0020' )
             	    {
             	    if ( input.LA(1)=='!'||(input.LA(1)>='#' && input.LA(1)<=';')||input.LA(1)=='='||(input.LA(1)>='?' && input.LA(1)<='[')||input.LA(1)==']'||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z')||input.LA(1)=='|'||(input.LA(1)>='~' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -3085,18 +3085,18 @@ public class SparqlasLexer extends Lexer {
         try {
             int _type = ABBRIRI;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22146:8: ( ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) | ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ':' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ) )
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22147:3: ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) | ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ':' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) )
+            // Sparqlas.g:17590:8: ( ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) | ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ':' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ) )
+            // Sparqlas.g:17591:3: ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) | ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ':' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) )
             {
-            // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22147:3: ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) | ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ':' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) )
+            // Sparqlas.g:17591:3: ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) | ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ':' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) )
             int alt19=2;
             alt19 = dfa19.predict(input);
             switch (alt19) {
                 case 1 :
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22147:4: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* )
+                    // Sparqlas.g:17591:4: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* )
                     {
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22147:4: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* )
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22147:5: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
+                    // Sparqlas.g:17591:4: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* )
+                    // Sparqlas.g:17591:5: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
                     {
                     if ( input.LA(1)=='-'||(input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z')||(input.LA(1)>='\u00C0' && input.LA(1)<='\u00D6')||(input.LA(1)>='\u00D8' && input.LA(1)<='\u00F6')||(input.LA(1)>='\u00F8' && input.LA(1)<='\u02FF')||(input.LA(1)>='\u0370' && input.LA(1)<='\u037D')||(input.LA(1)>='\u037F' && input.LA(1)<='\u1FFF')||(input.LA(1)>='\u200C' && input.LA(1)<='\u200D')||(input.LA(1)>='\u2070' && input.LA(1)<='\u218F')||(input.LA(1)>='\u2C00' && input.LA(1)<='\u2FEF')||(input.LA(1)>='\u3001' && input.LA(1)<='\uD7FF')||(input.LA(1)>='\uF900' && input.LA(1)<='\uFDCF')||(input.LA(1)>='\uFDF0' && input.LA(1)<='\uFFFD') ) {
                         input.consume();
@@ -3107,7 +3107,7 @@ public class SparqlasLexer extends Lexer {
                         recover(mse);
                         throw mse;}
 
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22147:282: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
+                    // Sparqlas.g:17591:282: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
                     loop16:
                     do {
                         int alt16=2;
@@ -3120,7 +3120,7 @@ public class SparqlasLexer extends Lexer {
 
                         switch (alt16) {
                     	case 1 :
-                    	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:
+                    	    // Sparqlas.g:
                     	    {
                     	    if ( (input.LA(1)>='-' && input.LA(1)<='.')||(input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z')||input.LA(1)=='\u00B7'||(input.LA(1)>='\u00C0' && input.LA(1)<='\u00D6')||(input.LA(1)>='\u00D8' && input.LA(1)<='\u00F6')||(input.LA(1)>='\u00F8' && input.LA(1)<='\u037D')||(input.LA(1)>='\u037F' && input.LA(1)<='\u1FFF')||(input.LA(1)>='\u200C' && input.LA(1)<='\u200D')||(input.LA(1)>='\u203F' && input.LA(1)<='\u2040')||(input.LA(1)>='\u2070' && input.LA(1)<='\u218F')||(input.LA(1)>='\u2C00' && input.LA(1)<='\u2FEF')||(input.LA(1)>='\u3001' && input.LA(1)<='\uD7FF')||(input.LA(1)>='\uF900' && input.LA(1)<='\uFDCF')||(input.LA(1)>='\uFDF0' && input.LA(1)<='\uFFFD') ) {
                     	        input.consume();
@@ -3147,13 +3147,13 @@ public class SparqlasLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22148:2: ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ':' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* )
+                    // Sparqlas.g:17592:2: ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ':' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* )
                     {
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22148:2: ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ':' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* )
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22148:3: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ':' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
+                    // Sparqlas.g:17592:2: ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ':' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* )
+                    // Sparqlas.g:17592:3: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ':' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
                     {
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22148:3: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* )
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22148:4: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
+                    // Sparqlas.g:17592:3: ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* )
+                    // Sparqlas.g:17592:4: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
                     {
                     if ( (input.LA(1)>='A' && input.LA(1)<='Z')||(input.LA(1)>='a' && input.LA(1)<='z')||(input.LA(1)>='\u00C0' && input.LA(1)<='\u00D6')||(input.LA(1)>='\u00D8' && input.LA(1)<='\u00F6')||(input.LA(1)>='\u00F8' && input.LA(1)<='\u02FF')||(input.LA(1)>='\u0370' && input.LA(1)<='\u037D')||(input.LA(1)>='\u037F' && input.LA(1)<='\u1FFF')||(input.LA(1)>='\u200C' && input.LA(1)<='\u200D')||(input.LA(1)>='\u2070' && input.LA(1)<='\u218F')||(input.LA(1)>='\u2C00' && input.LA(1)<='\u2FEF')||(input.LA(1)>='\u3001' && input.LA(1)<='\uD7FF')||(input.LA(1)>='\uF900' && input.LA(1)<='\uFDCF')||(input.LA(1)>='\uFDF0' && input.LA(1)<='\uFFFD') ) {
                         input.consume();
@@ -3164,7 +3164,7 @@ public class SparqlasLexer extends Lexer {
                         recover(mse);
                         throw mse;}
 
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22148:257: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
+                    // Sparqlas.g:17592:257: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
                     loop17:
                     do {
                         int alt17=2;
@@ -3177,7 +3177,7 @@ public class SparqlasLexer extends Lexer {
 
                         switch (alt17) {
                     	case 1 :
-                    	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:
+                    	    // Sparqlas.g:
                     	    {
                     	    if ( (input.LA(1)>='-' && input.LA(1)<='.')||(input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z')||input.LA(1)=='\u00B7'||(input.LA(1)>='\u00C0' && input.LA(1)<='\u00D6')||(input.LA(1)>='\u00D8' && input.LA(1)<='\u00F6')||(input.LA(1)>='\u00F8' && input.LA(1)<='\u037D')||(input.LA(1)>='\u037F' && input.LA(1)<='\u1FFF')||(input.LA(1)>='\u200C' && input.LA(1)<='\u200D')||(input.LA(1)>='\u203F' && input.LA(1)<='\u2040')||(input.LA(1)>='\u2070' && input.LA(1)<='\u218F')||(input.LA(1)>='\u2C00' && input.LA(1)<='\u2FEF')||(input.LA(1)>='\u3001' && input.LA(1)<='\uD7FF')||(input.LA(1)>='\uF900' && input.LA(1)<='\uFDCF')||(input.LA(1)>='\uFDF0' && input.LA(1)<='\uFFFD') ) {
                     	        input.consume();
@@ -3210,7 +3210,7 @@ public class SparqlasLexer extends Lexer {
                         recover(mse);
                         throw mse;}
 
-                    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:22149:279: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
+                    // Sparqlas.g:17593:279: ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )*
                     loop18:
                     do {
                         int alt18=2;
@@ -3223,7 +3223,7 @@ public class SparqlasLexer extends Lexer {
 
                         switch (alt18) {
                     	case 1 :
-                    	    // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:
+                    	    // Sparqlas.g:
                     	    {
                     	    if ( (input.LA(1)>='-' && input.LA(1)<='.')||(input.LA(1)>='0' && input.LA(1)<='9')||(input.LA(1)>='A' && input.LA(1)<='Z')||input.LA(1)=='_'||(input.LA(1)>='a' && input.LA(1)<='z')||input.LA(1)=='\u00B7'||(input.LA(1)>='\u00C0' && input.LA(1)<='\u00D6')||(input.LA(1)>='\u00D8' && input.LA(1)<='\u00F6')||(input.LA(1)>='\u00F8' && input.LA(1)<='\u037D')||(input.LA(1)>='\u037F' && input.LA(1)<='\u1FFF')||(input.LA(1)>='\u200C' && input.LA(1)<='\u200D')||(input.LA(1)>='\u203F' && input.LA(1)<='\u2040')||(input.LA(1)>='\u2070' && input.LA(1)<='\u218F')||(input.LA(1)>='\u2C00' && input.LA(1)<='\u2FEF')||(input.LA(1)>='\u3001' && input.LA(1)<='\uD7FF')||(input.LA(1)>='\uF900' && input.LA(1)<='\uFDCF')||(input.LA(1)>='\uFDF0' && input.LA(1)<='\uFFFD') ) {
                     	        input.consume();
@@ -3264,817 +3264,817 @@ public class SparqlasLexer extends Lexer {
     // $ANTLR end "ABBRIRI"
 
     public void mTokens() throws RecognitionException {
-        // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:8: ( T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | T__117 | T__118 | T__119 | WHITESPACE | LINEBREAKS | COMMENT | INTEGER | FLOAT | LITERAL | VARIABLE | NODE | FULLIRI | ABBRIRI )
+        // Sparqlas.g:1:8: ( T__14 | T__15 | T__16 | T__17 | T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | T__53 | T__54 | T__55 | T__56 | T__57 | T__58 | T__59 | T__60 | T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | T__117 | T__118 | T__119 | WHITESPACE | LINEBREAKS | COMMENT | INTEGER | FLOAT | LITERAL | VARIABLE | NODE | FULLIRI | ABBRIRI )
         int alt20=116;
         alt20 = dfa20.predict(input);
         switch (alt20) {
             case 1 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:10: T__14
+                // Sparqlas.g:1:10: T__14
                 {
                 mT__14(); 
 
                 }
                 break;
             case 2 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:16: T__15
+                // Sparqlas.g:1:16: T__15
                 {
                 mT__15(); 
 
                 }
                 break;
             case 3 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:22: T__16
+                // Sparqlas.g:1:22: T__16
                 {
                 mT__16(); 
 
                 }
                 break;
             case 4 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:28: T__17
+                // Sparqlas.g:1:28: T__17
                 {
                 mT__17(); 
 
                 }
                 break;
             case 5 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:34: T__18
+                // Sparqlas.g:1:34: T__18
                 {
                 mT__18(); 
 
                 }
                 break;
             case 6 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:40: T__19
+                // Sparqlas.g:1:40: T__19
                 {
                 mT__19(); 
 
                 }
                 break;
             case 7 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:46: T__20
+                // Sparqlas.g:1:46: T__20
                 {
                 mT__20(); 
 
                 }
                 break;
             case 8 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:52: T__21
+                // Sparqlas.g:1:52: T__21
                 {
                 mT__21(); 
 
                 }
                 break;
             case 9 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:58: T__22
+                // Sparqlas.g:1:58: T__22
                 {
                 mT__22(); 
 
                 }
                 break;
             case 10 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:64: T__23
+                // Sparqlas.g:1:64: T__23
                 {
                 mT__23(); 
 
                 }
                 break;
             case 11 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:70: T__24
+                // Sparqlas.g:1:70: T__24
                 {
                 mT__24(); 
 
                 }
                 break;
             case 12 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:76: T__25
+                // Sparqlas.g:1:76: T__25
                 {
                 mT__25(); 
 
                 }
                 break;
             case 13 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:82: T__26
+                // Sparqlas.g:1:82: T__26
                 {
                 mT__26(); 
 
                 }
                 break;
             case 14 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:88: T__27
+                // Sparqlas.g:1:88: T__27
                 {
                 mT__27(); 
 
                 }
                 break;
             case 15 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:94: T__28
+                // Sparqlas.g:1:94: T__28
                 {
                 mT__28(); 
 
                 }
                 break;
             case 16 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:100: T__29
+                // Sparqlas.g:1:100: T__29
                 {
                 mT__29(); 
 
                 }
                 break;
             case 17 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:106: T__30
+                // Sparqlas.g:1:106: T__30
                 {
                 mT__30(); 
 
                 }
                 break;
             case 18 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:112: T__31
+                // Sparqlas.g:1:112: T__31
                 {
                 mT__31(); 
 
                 }
                 break;
             case 19 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:118: T__32
+                // Sparqlas.g:1:118: T__32
                 {
                 mT__32(); 
 
                 }
                 break;
             case 20 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:124: T__33
+                // Sparqlas.g:1:124: T__33
                 {
                 mT__33(); 
 
                 }
                 break;
             case 21 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:130: T__34
+                // Sparqlas.g:1:130: T__34
                 {
                 mT__34(); 
 
                 }
                 break;
             case 22 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:136: T__35
+                // Sparqlas.g:1:136: T__35
                 {
                 mT__35(); 
 
                 }
                 break;
             case 23 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:142: T__36
+                // Sparqlas.g:1:142: T__36
                 {
                 mT__36(); 
 
                 }
                 break;
             case 24 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:148: T__37
+                // Sparqlas.g:1:148: T__37
                 {
                 mT__37(); 
 
                 }
                 break;
             case 25 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:154: T__38
+                // Sparqlas.g:1:154: T__38
                 {
                 mT__38(); 
 
                 }
                 break;
             case 26 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:160: T__39
+                // Sparqlas.g:1:160: T__39
                 {
                 mT__39(); 
 
                 }
                 break;
             case 27 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:166: T__40
+                // Sparqlas.g:1:166: T__40
                 {
                 mT__40(); 
 
                 }
                 break;
             case 28 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:172: T__41
+                // Sparqlas.g:1:172: T__41
                 {
                 mT__41(); 
 
                 }
                 break;
             case 29 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:178: T__42
+                // Sparqlas.g:1:178: T__42
                 {
                 mT__42(); 
 
                 }
                 break;
             case 30 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:184: T__43
+                // Sparqlas.g:1:184: T__43
                 {
                 mT__43(); 
 
                 }
                 break;
             case 31 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:190: T__44
+                // Sparqlas.g:1:190: T__44
                 {
                 mT__44(); 
 
                 }
                 break;
             case 32 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:196: T__45
+                // Sparqlas.g:1:196: T__45
                 {
                 mT__45(); 
 
                 }
                 break;
             case 33 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:202: T__46
+                // Sparqlas.g:1:202: T__46
                 {
                 mT__46(); 
 
                 }
                 break;
             case 34 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:208: T__47
+                // Sparqlas.g:1:208: T__47
                 {
                 mT__47(); 
 
                 }
                 break;
             case 35 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:214: T__48
+                // Sparqlas.g:1:214: T__48
                 {
                 mT__48(); 
 
                 }
                 break;
             case 36 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:220: T__49
+                // Sparqlas.g:1:220: T__49
                 {
                 mT__49(); 
 
                 }
                 break;
             case 37 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:226: T__50
+                // Sparqlas.g:1:226: T__50
                 {
                 mT__50(); 
 
                 }
                 break;
             case 38 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:232: T__51
+                // Sparqlas.g:1:232: T__51
                 {
                 mT__51(); 
 
                 }
                 break;
             case 39 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:238: T__52
+                // Sparqlas.g:1:238: T__52
                 {
                 mT__52(); 
 
                 }
                 break;
             case 40 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:244: T__53
+                // Sparqlas.g:1:244: T__53
                 {
                 mT__53(); 
 
                 }
                 break;
             case 41 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:250: T__54
+                // Sparqlas.g:1:250: T__54
                 {
                 mT__54(); 
 
                 }
                 break;
             case 42 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:256: T__55
+                // Sparqlas.g:1:256: T__55
                 {
                 mT__55(); 
 
                 }
                 break;
             case 43 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:262: T__56
+                // Sparqlas.g:1:262: T__56
                 {
                 mT__56(); 
 
                 }
                 break;
             case 44 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:268: T__57
+                // Sparqlas.g:1:268: T__57
                 {
                 mT__57(); 
 
                 }
                 break;
             case 45 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:274: T__58
+                // Sparqlas.g:1:274: T__58
                 {
                 mT__58(); 
 
                 }
                 break;
             case 46 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:280: T__59
+                // Sparqlas.g:1:280: T__59
                 {
                 mT__59(); 
 
                 }
                 break;
             case 47 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:286: T__60
+                // Sparqlas.g:1:286: T__60
                 {
                 mT__60(); 
 
                 }
                 break;
             case 48 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:292: T__61
+                // Sparqlas.g:1:292: T__61
                 {
                 mT__61(); 
 
                 }
                 break;
             case 49 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:298: T__62
+                // Sparqlas.g:1:298: T__62
                 {
                 mT__62(); 
 
                 }
                 break;
             case 50 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:304: T__63
+                // Sparqlas.g:1:304: T__63
                 {
                 mT__63(); 
 
                 }
                 break;
             case 51 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:310: T__64
+                // Sparqlas.g:1:310: T__64
                 {
                 mT__64(); 
 
                 }
                 break;
             case 52 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:316: T__65
+                // Sparqlas.g:1:316: T__65
                 {
                 mT__65(); 
 
                 }
                 break;
             case 53 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:322: T__66
+                // Sparqlas.g:1:322: T__66
                 {
                 mT__66(); 
 
                 }
                 break;
             case 54 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:328: T__67
+                // Sparqlas.g:1:328: T__67
                 {
                 mT__67(); 
 
                 }
                 break;
             case 55 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:334: T__68
+                // Sparqlas.g:1:334: T__68
                 {
                 mT__68(); 
 
                 }
                 break;
             case 56 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:340: T__69
+                // Sparqlas.g:1:340: T__69
                 {
                 mT__69(); 
 
                 }
                 break;
             case 57 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:346: T__70
+                // Sparqlas.g:1:346: T__70
                 {
                 mT__70(); 
 
                 }
                 break;
             case 58 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:352: T__71
+                // Sparqlas.g:1:352: T__71
                 {
                 mT__71(); 
 
                 }
                 break;
             case 59 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:358: T__72
+                // Sparqlas.g:1:358: T__72
                 {
                 mT__72(); 
 
                 }
                 break;
             case 60 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:364: T__73
+                // Sparqlas.g:1:364: T__73
                 {
                 mT__73(); 
 
                 }
                 break;
             case 61 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:370: T__74
+                // Sparqlas.g:1:370: T__74
                 {
                 mT__74(); 
 
                 }
                 break;
             case 62 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:376: T__75
+                // Sparqlas.g:1:376: T__75
                 {
                 mT__75(); 
 
                 }
                 break;
             case 63 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:382: T__76
+                // Sparqlas.g:1:382: T__76
                 {
                 mT__76(); 
 
                 }
                 break;
             case 64 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:388: T__77
+                // Sparqlas.g:1:388: T__77
                 {
                 mT__77(); 
 
                 }
                 break;
             case 65 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:394: T__78
+                // Sparqlas.g:1:394: T__78
                 {
                 mT__78(); 
 
                 }
                 break;
             case 66 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:400: T__79
+                // Sparqlas.g:1:400: T__79
                 {
                 mT__79(); 
 
                 }
                 break;
             case 67 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:406: T__80
+                // Sparqlas.g:1:406: T__80
                 {
                 mT__80(); 
 
                 }
                 break;
             case 68 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:412: T__81
+                // Sparqlas.g:1:412: T__81
                 {
                 mT__81(); 
 
                 }
                 break;
             case 69 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:418: T__82
+                // Sparqlas.g:1:418: T__82
                 {
                 mT__82(); 
 
                 }
                 break;
             case 70 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:424: T__83
+                // Sparqlas.g:1:424: T__83
                 {
                 mT__83(); 
 
                 }
                 break;
             case 71 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:430: T__84
+                // Sparqlas.g:1:430: T__84
                 {
                 mT__84(); 
 
                 }
                 break;
             case 72 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:436: T__85
+                // Sparqlas.g:1:436: T__85
                 {
                 mT__85(); 
 
                 }
                 break;
             case 73 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:442: T__86
+                // Sparqlas.g:1:442: T__86
                 {
                 mT__86(); 
 
                 }
                 break;
             case 74 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:448: T__87
+                // Sparqlas.g:1:448: T__87
                 {
                 mT__87(); 
 
                 }
                 break;
             case 75 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:454: T__88
+                // Sparqlas.g:1:454: T__88
                 {
                 mT__88(); 
 
                 }
                 break;
             case 76 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:460: T__89
+                // Sparqlas.g:1:460: T__89
                 {
                 mT__89(); 
 
                 }
                 break;
             case 77 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:466: T__90
+                // Sparqlas.g:1:466: T__90
                 {
                 mT__90(); 
 
                 }
                 break;
             case 78 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:472: T__91
+                // Sparqlas.g:1:472: T__91
                 {
                 mT__91(); 
 
                 }
                 break;
             case 79 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:478: T__92
+                // Sparqlas.g:1:478: T__92
                 {
                 mT__92(); 
 
                 }
                 break;
             case 80 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:484: T__93
+                // Sparqlas.g:1:484: T__93
                 {
                 mT__93(); 
 
                 }
                 break;
             case 81 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:490: T__94
+                // Sparqlas.g:1:490: T__94
                 {
                 mT__94(); 
 
                 }
                 break;
             case 82 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:496: T__95
+                // Sparqlas.g:1:496: T__95
                 {
                 mT__95(); 
 
                 }
                 break;
             case 83 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:502: T__96
+                // Sparqlas.g:1:502: T__96
                 {
                 mT__96(); 
 
                 }
                 break;
             case 84 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:508: T__97
+                // Sparqlas.g:1:508: T__97
                 {
                 mT__97(); 
 
                 }
                 break;
             case 85 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:514: T__98
+                // Sparqlas.g:1:514: T__98
                 {
                 mT__98(); 
 
                 }
                 break;
             case 86 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:520: T__99
+                // Sparqlas.g:1:520: T__99
                 {
                 mT__99(); 
 
                 }
                 break;
             case 87 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:526: T__100
+                // Sparqlas.g:1:526: T__100
                 {
                 mT__100(); 
 
                 }
                 break;
             case 88 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:533: T__101
+                // Sparqlas.g:1:533: T__101
                 {
                 mT__101(); 
 
                 }
                 break;
             case 89 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:540: T__102
+                // Sparqlas.g:1:540: T__102
                 {
                 mT__102(); 
 
                 }
                 break;
             case 90 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:547: T__103
+                // Sparqlas.g:1:547: T__103
                 {
                 mT__103(); 
 
                 }
                 break;
             case 91 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:554: T__104
+                // Sparqlas.g:1:554: T__104
                 {
                 mT__104(); 
 
                 }
                 break;
             case 92 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:561: T__105
+                // Sparqlas.g:1:561: T__105
                 {
                 mT__105(); 
 
                 }
                 break;
             case 93 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:568: T__106
+                // Sparqlas.g:1:568: T__106
                 {
                 mT__106(); 
 
                 }
                 break;
             case 94 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:575: T__107
+                // Sparqlas.g:1:575: T__107
                 {
                 mT__107(); 
 
                 }
                 break;
             case 95 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:582: T__108
+                // Sparqlas.g:1:582: T__108
                 {
                 mT__108(); 
 
                 }
                 break;
             case 96 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:589: T__109
+                // Sparqlas.g:1:589: T__109
                 {
                 mT__109(); 
 
                 }
                 break;
             case 97 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:596: T__110
+                // Sparqlas.g:1:596: T__110
                 {
                 mT__110(); 
 
                 }
                 break;
             case 98 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:603: T__111
+                // Sparqlas.g:1:603: T__111
                 {
                 mT__111(); 
 
                 }
                 break;
             case 99 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:610: T__112
+                // Sparqlas.g:1:610: T__112
                 {
                 mT__112(); 
 
                 }
                 break;
             case 100 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:617: T__113
+                // Sparqlas.g:1:617: T__113
                 {
                 mT__113(); 
 
                 }
                 break;
             case 101 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:624: T__114
+                // Sparqlas.g:1:624: T__114
                 {
                 mT__114(); 
 
                 }
                 break;
             case 102 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:631: T__115
+                // Sparqlas.g:1:631: T__115
                 {
                 mT__115(); 
 
                 }
                 break;
             case 103 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:638: T__116
+                // Sparqlas.g:1:638: T__116
                 {
                 mT__116(); 
 
                 }
                 break;
             case 104 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:645: T__117
+                // Sparqlas.g:1:645: T__117
                 {
                 mT__117(); 
 
                 }
                 break;
             case 105 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:652: T__118
+                // Sparqlas.g:1:652: T__118
                 {
                 mT__118(); 
 
                 }
                 break;
             case 106 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:659: T__119
+                // Sparqlas.g:1:659: T__119
                 {
                 mT__119(); 
 
                 }
                 break;
             case 107 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:666: WHITESPACE
+                // Sparqlas.g:1:666: WHITESPACE
                 {
                 mWHITESPACE(); 
 
                 }
                 break;
             case 108 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:677: LINEBREAKS
+                // Sparqlas.g:1:677: LINEBREAKS
                 {
                 mLINEBREAKS(); 
 
                 }
                 break;
             case 109 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:688: COMMENT
+                // Sparqlas.g:1:688: COMMENT
                 {
                 mCOMMENT(); 
 
                 }
                 break;
             case 110 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:696: INTEGER
+                // Sparqlas.g:1:696: INTEGER
                 {
                 mINTEGER(); 
 
                 }
                 break;
             case 111 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:704: FLOAT
+                // Sparqlas.g:1:704: FLOAT
                 {
                 mFLOAT(); 
 
                 }
                 break;
             case 112 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:710: LITERAL
+                // Sparqlas.g:1:710: LITERAL
                 {
                 mLITERAL(); 
 
                 }
                 break;
             case 113 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:718: VARIABLE
+                // Sparqlas.g:1:718: VARIABLE
                 {
                 mVARIABLE(); 
 
                 }
                 break;
             case 114 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:727: NODE
+                // Sparqlas.g:1:727: NODE
                 {
                 mNODE(); 
 
                 }
                 break;
             case 115 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:732: FULLIRI
+                // Sparqlas.g:1:732: FULLIRI
                 {
                 mFULLIRI(); 
 
                 }
                 break;
             case 116 :
-                // D:\\Uni\\HiWi\\MOST\\SVN\\source\\plugins\\west.twouse.language.sparqlas.resource.sparqlas\\src-gen\\west\\twouse\\language\\sparqlas\\resource\\sparqlas\\mopp\\Sparqlas.g:1:740: ABBRIRI
+                // Sparqlas.g:1:740: ABBRIRI
                 {
                 mABBRIRI(); 
 
@@ -4149,7 +4149,7 @@ public class SparqlasLexer extends Lexer {
             this.transition = DFA19_transition;
         }
         public String getDescription() {
-            return "22147:3: ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) | ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ':' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) )";
+            return "17591:3: ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) | ( ( ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) ':' ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' ) ( 'A' .. 'Z' | 'a' .. 'z' | '\\u00C0' .. '\\u00D6' | '\\u00D8' .. '\\u00F6' | '\\u00F8' .. '\\u02FF' | '\\u0370' .. '\\u037D' | '\\u037F' .. '\\u1FFF' | '\\u200C' .. '\\u200D' | '\\u2070' .. '\\u218F' | '\\u2C00' .. '\\u2FEF' | '\\u3001' .. '\\uD7FF' | '\\uF900' .. '\\uFDCF' | '\\uFDF0' .. '\\uFFFD' | '_' | '-' | '0' .. '9' | '\\u00B7' | '\\u0300' .. '\\u036F' | '\\u203F' .. '\\u2040' | '.' )* ) )";
         }
     }
     static final String DFA20_eotS =

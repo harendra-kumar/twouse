@@ -18,7 +18,6 @@ import org.eclipse.emf.ecore.impl.EObjectImpl;
 import west.twouse.language.sparqlas.AbstractLiteral;
 import west.twouse.language.sparqlas.FacetRestriction;
 import west.twouse.language.sparqlas.IRI;
-import west.twouse.language.sparqlas.SparqlmsPackage;
 import west.twouse.language.sparqlas.SparqlasPackage;
 
 /**

@@ -227,9 +227,6 @@ public class Owl2fsTokenStyleInformationProvider {
 		if ("HasKey".equals(tokenName)) {
 			return new TokenStyleImpl(new int[] {0x7F, 0x00, 0x55}, true, false, false, false);
 		}
-		if (":".equals(tokenName)) {
-			return new TokenStyleImpl(new int[] {0x80, 0x00, 0x55}, true, false, false, false);
-		}
 		if ("Prefix".equals(tokenName)) {
 			return new TokenStyleImpl(new int[] {0x80, 0x00, 0x55}, true, false, false, false);
 		}

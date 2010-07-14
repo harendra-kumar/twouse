@@ -17,5 +17,6 @@ package west.twouse.language.sparqlas;
  * @model
  * @generated
  */
-public interface AbbreviatedIRI extends IRI {
+public interface AbbreviatedIRI extends IRI
+{
 } // AbbreviatedIRI

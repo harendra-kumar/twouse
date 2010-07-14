@@ -13,8 +13,8 @@ public class Owl2fsTokenResolverFactory implements west.twouse.language.owl2fs.r
 	private static west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsTokenResolver defaultResolver = new west.twouse.language.owl2fs.resource.owl2fs.analysis.Owl2fsDefaultTokenResolver();
 	
 	public Owl2fsTokenResolverFactory() {
-		tokenName2TokenResolver = new java.util.HashMap<java.lang.String, west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsTokenResolver>();
-		featureName2CollectInTokenResolver = new java.util.HashMap<java.lang.String, west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsTokenResolver>();
+		tokenName2TokenResolver = new java.util.LinkedHashMap<java.lang.String, west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsTokenResolver>();
+		featureName2CollectInTokenResolver = new java.util.LinkedHashMap<java.lang.String, west.twouse.language.owl2fs.resource.owl2fs.IOwl2fsTokenResolver>();
 		registerTokenResolver("COMMENT", new west.twouse.language.owl2fs.resource.owl2fs.analysis.Owl2fsCOMMENTTokenResolver());
 		registerTokenResolver("INTEGER", new west.twouse.language.owl2fs.resource.owl2fs.analysis.Owl2fsINTEGERTokenResolver());
 		registerTokenResolver("LITERAL", new west.twouse.language.owl2fs.resource.owl2fs.analysis.Owl2fsLITERALTokenResolver());
