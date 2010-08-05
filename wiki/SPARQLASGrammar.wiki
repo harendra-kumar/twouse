@@ -45,7 +45,7 @@ This page shows the complete grammar for SPARQLAS.
 
 <br/>
 
-*!SelectQuery* := 'Select' 'Where' '(' `{` *Atom* `}` ')'
+*!SelectQuery* := 'Select' `[` *variable* `{` *variable* `}` | '`*`' `]` 'Where' '(' `{` *Atom* `}` ')'
 
 *!ConstructQuery* := 'Construct' '(' `{` *!ConstructAtom* `}` ')' 'Where' '(' `{` *!WhereAtom* `}` ')'
 
