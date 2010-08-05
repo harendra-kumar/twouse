@@ -10,7 +10,6 @@ http://twouse.googlecode.com/svn/wiki/images/InstallationTopCased0.png
 http://twouse.googlecode.com/svn/wiki/images/InstallationTopCased1.png
 
   3. Add http://topcased-mm.gforge.enseeiht.fr/release/update-site3.6/
-http://twouse.googlecode.com/svn/wiki/images/InstallationTopCased2.png
 
   4. Check TopCased UML Editor
 http://twouse.googlecode.com/svn/wiki/images/InstallationTopCased4.png
