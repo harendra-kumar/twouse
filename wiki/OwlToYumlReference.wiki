@@ -1,0 +1,217 @@
+#summary One-sentence summary of this page.
+
+
+= OWL to yUML Syntax Reference =
+
+
+== Class Expressions ==
+
+=== Declarations ===
+
+{{{Declaration(Class(Person))}}}
+http://yuml.me/diagram/class/[● Person {bg:goldenrod}]
+
+{{{Declaration(NamedIndividual(Peter))}}}
+http://yuml.me/diagram/class/[♦ Peter {bg:darkorchid}]
+
+{{{Declaration(ObjectProperty(hasFather))}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing {bg:goldenrod}]-hasFather>[(⊤) owl:Thing {bg:goldenrod}]
+
+
+=== Propositional Connectives and Enumeration of Individuals ===
+
+{{{ObjectIntersectionOf(Dog CanTalk)}}}
+http://yuml.me/diagram/class/[(∩) Dog and CanTalk {bg:goldenrod}]
+
+{{{ObjectUnionOf(Man Woman)}}}
+http://yuml.me/diagram/class/[(∪) Man or Woman {bg:goldenrod}]
+
+{{{ObjectComplementOf(Man)}}}
+http://yuml.me/diagram/class/[(￢) not Man {bg:goldenrod}]
+
+{{{EquivalentClasses(GriffinFamilyMember ObjectOneOf(Peter Lois Stewie Meg Chris Brian))}}}
+http://yuml.me/diagram/plain;dir:TB;/class/[(≡) GriffinFamilyMember {bg:goldenrod}]^-^[(≡) ｛♦Peter‚ ♦Lois‚ ♦Stewie‚ ♦Meg‚ ♦Chris‚ ♦Brian｝ {bg:goldenrod}]
+
+
+=== Object Property Restrictions ===
+
+{{{ObjectSomeValuesFrom(hasWheels Wheels)}}}
+http://yuml.me/diagram/class/[(Ǝ) hasWheels some Wheels {bg:goldenrod}]
+
+{{{ObjectAllValuesFrom(hasWheels Wheels)}}}
+http://yuml.me/diagram/class/[(∀) hasWheels only Wheels {bg:goldenrod}]
+
+{{{ObjectHasValue(fatherOf Stewie)}}}
+http://yuml.me/diagram/class/[(∋) fatherOf value Stewie {bg:goldenrod}]
+
+{{{ObjectHasSelf(likes)}}}
+http://yuml.me/diagram/class/[(Self) likes {bg:goldenrod}]
+
+
+=== Object Property Cardinality Restrictions ===
+
+{{{ObjectMaxCardinality(parent 2)}}}
+http://yuml.me/diagram/class/[(≤) parent max 2 {bg:goldenrod}]
+
+{{{ObjectMinCardinality(hasFather 2)}}}
+http://yuml.me/diagram/class/[(≥) hasFather min 1 {bg:goldenrod}]
+
+{{{ObjectExactCardinality(parent 2)}}}
+http://yuml.me/diagram/class/[(=) parent exact 2 {bg:goldenrod}]
+
+
+=== Data Property Restrictions ===
+
+{{{DataSomeValuesFrom(hasAge xsd:integer)}}}
+http://yuml.me/diagram/class/[(Ǝ) |hasAge some xsd:integer {bg:goldenrod}]
+
+{{{DataAllValuesFrom(hasZIP xsd:integer)}}}
+http://yuml.me/diagram/class/[(∀) |hasZIP only xsd:integer {bg:goldenrod}]
+
+{{{DataHasValue(hasAge "17"^^xsd:integer)}}}
+http://yuml.me/diagram/class/[(∋) |hasAge '17'^^xsd:integer {bg:goldenrod}]
+
+
+
+=== Data Property Cardinality Restrictions ===
+
+{{{DataMaxCardinality(2 hasName xsd:string)}}}
+http://yuml.me/diagram/class/[(≤) |hasName max 2 xsd:string {bg:goldenrod}]
+
+{{{DataMinCardinality(2 hasName)}}}
+http://yuml.me/diagram/class/[(≥) |hasName min 2  {bg:goldenrod}]
+
+{{{ObjectExactCardinality(parent 2)}}}
+http://yuml.me/diagram/class/[(=) |parent exact 2 {bg:goldenrod}]
+
+
+== Axioms ==
+
+
+=== Class Expression Axioms ===
+
+{{{SubClassOf(Child Person)}}}
+http://yuml.me/diagram/class/[● Person {bg:goldenrod}]^-[● Child {bg:goldenrod}]
+
+{{{EquivalentClasses(Boy ObjectIntersectionOf(Child Man))}}}
+http://yuml.me/diagram/class/[(≡) Boy {bg:goldenrod}]^-^[(≡) Child and Man {bg:goldenrod}]
+
+{{{DisjointClasses(Man Woman)}}}
+http://yuml.me/diagram/class/[● Man {bg:goldenrod}]-[note: DisjointClasses{bg:cornsilk}], [● Woman {bg:goldenrod}]-[note: DisjointClasses{bg:cornsilk}]
+
+{{{DisjointUnion(Child Boy Girl)}}}
+http://yuml.me/diagram/class/[(≡) Child {bg:goldenrod}]^«disjointUnion»-[● Boy {bg:goldenrod}], [(≡) Child {bg:goldenrod}]^«disjointUnion»-[● Girl {bg:goldenrod}]
+
+
+
+=== Object Property Axioms ===
+
+{{{SubObjectPropertyOf(ObjectPropertyChain(hasMother hasSister) hasAunt)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing {bg:goldenrod}]-hasMother>[(⊤) owl:Thing {bg:goldenrod}], [(⊤) owl:Thing {bg:goldenrod}]-hasSister>[(⊤) owl:Thing {bg:goldenrod}], [(⊤) owl:Thing {bg:goldenrod}]-hasAunt\n{hasMother o hasSister}>[(⊤) owl:Thing {bg:goldenrod}]
+
+{{{EquivalentObjectProperties(hasBrother hasMaleSibling)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing {bg:goldenrod}]-hasBrother{≡ hasMaleSibling}>[(⊤) owl:Thing {bg:goldenrod}],[(⊤) owl:Thing {bg:goldenrod}]-hasMaleSibling{≡ hasBrother}>[(⊤) owl:Thing {bg:goldenrod}]
+
+{{{DisjointObjectProperties(hasFather hasMother)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing {bg:goldenrod}]-hasFather{«disjointOf» hasMother}>[(⊤) owl:Thing {bg:goldenrod}],[(⊤) owl:Thing {bg:goldenrod}]-hasMother{«disjointOf» hasFather}>[(⊤) owl:Thing {bg:goldenrod}]
+
+{{{InverseObjectProperties(hasFather fatherOf)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing {bg:goldenrod}]<fatherOf-hasFather>[(⊤) owl:Thing {bg:goldenrod}]
+
+{{{ObjectPropertyDomain(hasDog Person)}}}
+http://yuml.me/diagram/class/[● Person {bg:goldenrod}]-hasDog>[(⊤) owl:Thing {bg:goldenrod}]
+
+{{{ObjectPropertyRange(hasDog Dog)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing {bg:goldenrod}]-hasDog>[● Dog {bg:goldenrod}]
+
+{{{ObjectPropertyDomain(hasDog Person) ObjectPropertyRange(hasDog Dog) ObjectPropertyDomain(hasPet Person) ObjectPropertyRange(hasPet Dog) SubObjectPropertyOf(hasDog hasPet)}}}
+http://yuml.me/diagram/class/[● Person {bg:goldenrod}]-hasDog\n{SubPropertyOf hasPet}>[● Dog {bg:goldenrod}], [● Dog {bg:goldenrod}]-^[● Pet {bg:goldenrod}], [● Person {bg:goldenrod}]-hasPet>[● Pet {bg:goldenrod}]
+
+{{{FunctionalObjectProperty(hasFather)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing {bg:goldenrod}]-hasFather 1->[(⊤) owl:Thing {bg:goldenrod}]
+
+{{{InverseFunctionalObjectProperty(fatherOf)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing {bg:goldenrod}]1-fatherOf->[(⊤) owl:Thing {bg:goldenrod}]
+
+{{{ReflexiveObjectProperty(knows)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing {bg:goldenrod}]-«reflexive» knows>[(⊤) owl:Thing {bg:goldenrod}]
+
+{{{IrreflexiveObjectProperty(marriedTo)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing {bg:goldenrod}]-«ireflexive» marriedTo>[(⊤) owl:Thing {bg:goldenrod}]
+
+{{{SymmetricObjectProperty(friend)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing {bg:goldenrod}]-«symmetric» friend[(⊤) owl:Thing {bg:goldenrod}]
+
+{{{AsymmetricObjectProperty(parentOf)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing {bg:goldenrod}]-«asymmetric» parentOf>[(⊤) owl:Thing {bg:goldenrod}]
+
+{{{TransitiveObjectProperty(ancestorOf)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing {bg:goldenrod}]-«transitive» ancestorOf>[(⊤) owl:Thing {bg:goldenrod}]
+
+
+
+=== Data Property Axioms ===
+
+{{{SubDataPropertyOf(hasLastName hasName)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing|hasLastName «subPropertyOf» hasName {bg:goldenrod}]
+
+{{{EquivalentDataProperties(hasName seLlama)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing|hasName ≡ seLlama {bg:goldenrod}]
+
+{{{DisjointDataProperties(hasName hasAddress)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing|hasName «disjointOf» hasAddress {bg:goldenrod}]
+
+{{{DataPropertyDomain(hasName Person)}}}
+http://yuml.me/diagram/class/[● Person|hasName {bg:goldenrod}]
+
+{{{DataPropertyRange(hasName xsd:string)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing|hasName xsd:string {bg:goldenrod}]
+
+{{{FunctionalDataProperty(hasAge)}}}
+http://yuml.me/diagram/class/[(⊤) owl:Thing|hasAge «functional» {bg:goldenrod}]
+
+
+===  Individual Equality ===
+
+{{{ SameIndividual(Meg Megan)}}}
+http://yuml.me/diagram/class/[♦ Meg {bg:darkorchid}]-[note: SameIndividual{bg:cornsilk}], [♦ Megan {bg:darkorchid}]-[note: SameIndividual{bg:cornsilk}]
+
+
+===  Individual Inequality ===
+
+{{{ DifferentIndividuals(Peter Meg Chris Stewie)}}}
+http://yuml.me/diagram/class/[♦ Peter {bg:darkorchid}]-[note: DifferentIndividuals{bg:cornsilk}], [♦ Meg {bg:darkorchid}]-[note: DifferentIndividuals{bg:cornsilk}], [♦ Chris {bg:darkorchid}]-[note: DifferentIndividuals{bg:cornsilk}]
+
+
+=== Class Assertions ===
+
+{{{ ClassAssertion(Dog Brian)}}}
+http://yuml.me/diagram/class/[♦ Brian: Dog {bg:darkorchid}]
+
+
+===  Positive Object Property Assertions ===
+
+{{{ ObjectPropertyAssertion(hasDog Peter Brian)}}}
+http://yuml.me/diagram/class/[♦ Peter{bg:darkorchid}]-hasDog>[♦ Brian{bg:darkorchid}]
+
+
+
+===  Negative Object Property Assertions ===
+
+{{{ NegativeObjectPropertyAssertion(hasSon Peter Meg)}}}
+http://yuml.me/diagram/class/[♦ Peter{bg:darkorchid}]-hasSon not>[♦ Meg{bg:darkorchid}]
+
+
+===  Positive Object Property Assertions ===
+
+{{{ DataPropertyAssertion(hasAge Meg "17"^^xsd:integer)}}}
+http://yuml.me/diagram/class/[♦ Meg|hasAge '17'^^xsd:integer{bg:darkorchid}]
+
+
+===  Negative Data Property Assertions ===
+
+{{{ NegativeDataPropertyAssertion(hasAge Meg "5"^^xsd:integer)}}}
+http://yuml.me/diagram/class/[♦ Meg|hasAge not '5'^^xsd:integer{bg:darkorchid}]
+
+
+== Annotations ==
