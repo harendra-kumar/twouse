@@ -6,7 +6,7 @@
 === Declarations ===
 
 {{{Declaration(Class(Person))}}}
-<img src=http://yuml.me/diagram/class/[● Person {bg:goldenrod}]/><br>
+<img src=http://yuml.me/diagram/class/[● Person {bg:goldenrod}]></img><br>
 
 {{{Declaration(NamedIndividual(Peter))}}}
 http://yuml.me/diagram/class/[♦ Peter {bg:darkorchid}].png
