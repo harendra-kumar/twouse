@@ -26,22 +26,22 @@
 
 {{{ObjectIntersectionOf(Dog CanTalk)}}}
 
-<img src="http://yuml.me/diagram/class/[(∩) Dog and CanTalk {bg:goldenrod}].png"></img>
+<img src="http://yuml.me/diagram/class/[(∩) Dog and CanTalk {bg:goldenrod}].png"></img>
 
 
 {{{ObjectUnionOf(Man Woman)}}}
 
-<img src="http://yuml.me/diagram/class/[(∪) Man or Woman {bg:goldenrod}].png"></img>
+<img src="http://yuml.me/diagram/class/[(∪) Man or Woman {bg:goldenrod}].png"></img>
 
 
 {{{ObjectComplementOf(Man)}}}
 
-<img src="http://yuml.me/diagram/class/[(￢) not Man {bg:goldenrod}].png"></img>
+<img src="http://yuml.me/diagram/class/[(￢) not Man {bg:goldenrod}].png"></img>
 
 
 {{{EquivalentClasses(GriffinFamilyMember ObjectOneOf(Peter Lois Stewie Meg Chris Brian))}}}
 
-<img src="http://yuml.me/diagram/plain;dir:TB;/class/[(≡) GriffinFamilyMember {bg:goldenrod}]^-^[(≡) ｛♦Peter‚ ♦Lois‚ ♦Stewie‚ ♦Meg‚ ♦Chris‚ ♦Brian｝ {bg:goldenrod}].png"></img>
+<img src="http://yuml.me/diagram/plain;dir:TB;/class/[(≡) GriffinFamilyMember {bg:goldenrod}]^-^[(≡) ｛♦Peter‚ ♦Lois‚ ♦Stewie‚ ♦Meg‚ ♦Chris‚ ♦Brian｝ {bg:goldenrod}].png"></img>
 
 
 
@@ -49,22 +49,22 @@
 
 {{{ObjectSomeValuesFrom(hasWheels Wheels)}}}
 
-<img src="http://yuml.me/diagram/class/[(Ǝ) hasWheels some Wheels {bg:goldenrod}].png"></img>
+<img src="http://yuml.me/diagram/class/[(Ǝ) hasWheels some Wheels {bg:goldenrod}].png"></img>
 
 
 {{{ObjectAllValuesFrom(hasWheels Wheels)}}}
 
-<img src="http://yuml.me/diagram/class/[(∀) hasWheels only Wheels {bg:goldenrod}].png"></img>
+<img src="http://yuml.me/diagram/class/[(∀) hasWheels only Wheels {bg:goldenrod}].png"></img>
 
 
 {{{ObjectHasValue(fatherOf Stewie)}}}
 
-<img src="http://yuml.me/diagram/class/[(∋) fatherOf value Stewie {bg:goldenrod}].png"></img>
+<img src="http://yuml.me/diagram/class/[(∋) fatherOf value Stewie {bg:goldenrod}].png"></img>
 
 
 {{{ObjectHasSelf(likes)}}}
 
-<img src="http://yuml.me/diagram/class/[(Self) likes {bg:goldenrod}].png"></img>
+<img src="http://yuml.me/diagram/class/[(Self) likes {bg:goldenrod}].png"></img>
 
 
 
@@ -72,17 +72,17 @@
 
 {{{ObjectMaxCardinality(parent 2)}}}
 
-<img src="http://yuml.me/diagram/class/[(≤) parent max 2 {bg:goldenrod}].png"></img>
+<img src="http://yuml.me/diagram/class/[(≤) parent max 2 {bg:goldenrod}].png"></img>
 
 
 {{{ObjectMinCardinality(hasFather 2)}}}
 
-<img src="http://yuml.me/diagram/class/[(≥) hasFather min 1 {bg:goldenrod}].png"></img>
+<img src="http://yuml.me/diagram/class/[(≥) hasFather min 1 {bg:goldenrod}].png"></img>
 
 
 {{{ObjectExactCardinality(parent 2)}}}
 
-<img src="http://yuml.me/diagram/class/[(=) parent exact 2 {bg:goldenrod}].png"></img>
+<img src="http://yuml.me/diagram/class/[(=) parent exact 2 {bg:goldenrod}].png"></img>
 
 
 
