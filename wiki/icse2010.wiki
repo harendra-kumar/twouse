@@ -1,0 +1,11 @@
+#summary Inconsistency Detection in Software Product Lines using Description Logics
+
+= Introduction =
+
+On this page, we provide some data of the case-study that were
+used for proof-of-concept evaluation in the paper.
+
+
+= Details =
+
+* Solution space model: E-store BPMN-Model 
