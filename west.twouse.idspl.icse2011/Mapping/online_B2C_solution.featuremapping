@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="ASCII"?>
+<featuremapping:FeatureMappingModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:featuremapping="http://www.tudresden.de/featuremapping" composerID="org.featuremapper.interpreter.emf.interpreter">
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_CE-7UY_lEd-A7e--zNaf1A"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#E-mail"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_HPQn0Y_lEd-A7e--zNaf1A"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#E-mail"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_EmL0IY_iEd-A7e--zNaf1A"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Searching"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#__eW1IY_VEd-A7e--zNaf1A"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Searching"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_rIzZwZCwEd-yvtimgeembg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Searching"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_j9jA4ZCYEd-l99gPNNSQfg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Searching"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_s2zi0Y_jEd-A7e--zNaf1A"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Searching"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_vKrlsZCuEd-yvtimgeembg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Searching"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_brzE0Y_iEd-A7e--zNaf1A"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Advanced Search"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_e8O60Y_iEd-A7e--zNaf1A"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Advanced Search"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_gPZL0Y_iEd-A7e--zNaf1A"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Advanced Search"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_YKs8oY_iEd-A7e--zNaf1A"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Basic Search"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_TqPCIY_iEd-A7e--zNaf1A"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Basic Search"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_hdDRwY_iEd-A7e--zNaf1A"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Basic Search"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_EikrYZAiEd-A7e--zNaf1A"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Categories"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_D1Ww4ZCiEd-l99gPNNSQfg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Categories"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_38WikZChEd-l99gPNNSQfg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Categories"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_yS_tYJChEd-l99gPNNSQfg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Categories"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_v-Iu0ZChEd-l99gPNNSQfg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Categories"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_3V6NoJChEd-l99gPNNSQfg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Categories"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_0nmlkZCnEd-H8bsqnlml1g"/>
+    <term xsi:type="featuremapping:Or">
+      <terms xsi:type="featuremapping:Or">
+        <terms xsi:type="featuremapping:FeatureRef">
+          <feature href="../problem_space/online_B2C_solution.feature#Categories"/>
+        </terms>
+        <terms xsi:type="featuremapping:FeatureRef">
+          <feature href="../problem_space/online_B2C_solution.feature#Multilevel"/>
+        </terms>
+      </terms>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_6cRyIZOVEd-VANNmTAzGZw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Multiple Wish Lists"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_2NFbkZOaEd-VANNmTAzGZw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Multiple Wish Lists"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_4VbBEZOaEd-VANNmTAzGZw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Multiple Wish Lists"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_5HDSUZOaEd-VANNmTAzGZw"/>
+    <term xsi:type="featuremapping:Or">
+      <terms xsi:type="featuremapping:Not">
+        <term xsi:type="featuremapping:FeatureRef">
+          <feature href="../problem_space/online_B2C_solution.feature#Multiple Wish Lists"/>
+        </term>
+      </terms>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_kQh58ZObEd-VANNmTAzGZw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Wish List Saved After Session"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_bnPv8ZObEd-VANNmTAzGZw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Wish List Saved After Session"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_lrSAsZObEd-VANNmTAzGZw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Wish List Saved After Session"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_gHb9oZObEd-VANNmTAzGZw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registration"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_jSsYsZObEd-VANNmTAzGZw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registration"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_lS1rgZObEd-VANNmTAzGZw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registration"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_wW-R4ZOcEd-VANNmTAzGZw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registration"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_4kPOQZOcEd-VANNmTAzGZw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registration"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_10224ZOcEd-VANNmTAzGZw"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registration"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_GYBTwamBEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registered Checkout"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_KIHEwamCEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registered Checkout"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_GAVMgamBEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Guest Checkout"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_FhCBYamBEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_4uR1samCEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_83hjAamCEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_TEWKgamDEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_tKSAjql9Ed-J7MJ5bSQMdQ"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_tKSAiKl9Ed-J7MJ5bSQMdQ"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_A6vZcamGEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_xxwLoamGEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_0cON0amGEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Shipping"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_tKSAiql9Ed-J7MJ5bSQMdQ"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Shipping"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_tLNlsamDEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Shipping"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_nvarYamDEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Shipping"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_1JRocamDEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Shipping"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_9XG0Qal9Ed-J7MJ5bSQMdQ"/>
+    <term xsi:type="featuremapping:Or">
+      <terms xsi:type="featuremapping:Or">
+        <terms xsi:type="featuremapping:FeatureRef">
+          <feature href="../problem_space/online_B2C_solution.feature#Quality of Service Selection"/>
+        </terms>
+        <terms xsi:type="featuremapping:FeatureRef">
+          <feature href="../problem_space/online_B2C_solution.feature#Carrier Selection"/>
+        </terms>
+      </terms>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_tKSAi6l9Ed-J7MJ5bSQMdQ"/>
+    <term xsi:type="featuremapping:Or">
+      <terms xsi:type="featuremapping:Or">
+        <terms xsi:type="featuremapping:FeatureRef">
+          <feature href="../problem_space/online_B2C_solution.feature#Quality of Service Selection"/>
+        </terms>
+        <terms xsi:type="featuremapping:FeatureRef">
+          <feature href="../problem_space/online_B2C_solution.feature#Carrier Selection"/>
+        </terms>
+      </terms>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_tKSAmal9Ed-J7MJ5bSQMdQ"/>
+    <term xsi:type="featuremapping:Or">
+      <terms xsi:type="featuremapping:Or">
+        <terms xsi:type="featuremapping:FeatureRef">
+          <feature href="../problem_space/online_B2C_solution.feature#Quality of Service Selection"/>
+        </terms>
+        <terms xsi:type="featuremapping:FeatureRef">
+          <feature href="../problem_space/online_B2C_solution.feature#Carrier Selection"/>
+        </terms>
+      </terms>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_w8Ku0amDEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Discounts"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_3r2S4amDEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Discounts"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_dvC8MamPEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Coupons"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_gbvzAamPEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Coupons"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_i8resamPEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Coupons"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_YygmMamOEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Coupons"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_RF0EcamHEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Coupons"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_W4UxcamOEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Coupons"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_XgZCkamEEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Automatic Update"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_43bfwamEEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Automatic Update"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_kiVKsamLEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Automatic Update"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_QATf0amFEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Electronic Page"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_GOwtQamFEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Electronic Page"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_SdEdMamFEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Electronic Page"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_w3nAIamdEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_SwYYwambEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_6hWMcambEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_q4LCsamcEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_7ZhxoambEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_FpoIcamcEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_tDpbwamcEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_uGZ5QamcEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_etjVYambEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_rI-7UambEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_qZ5AsambEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_vmCVcambEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_yn5j8ambEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_kWEyMamdEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Quick Checkout Profile"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_-9FtQanCEd-SxskcCFsueg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Wish List Saved After Session"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_9fqtAanCEd-SxskcCFsueg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Wish List Saved After Session"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_f-jtoanEEd-SxskcCFsueg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Wish List Saved After Session"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_VkxPUanEEd-SxskcCFsueg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Wish List Saved After Session"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_5SbbEanDEd-SxskcCFsueg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Wish List Saved After Session"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_9Tn_oanDEd-SxskcCFsueg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Wish List Saved After Session"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_71H2wanCEd-SxskcCFsueg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registration"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_5dIEoanCEd-SxskcCFsueg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registration"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_et8aUanEEd-SxskcCFsueg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registration"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_9yd3wanDEd-SxskcCFsueg"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registration"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_Jzj4oamkEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registration"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_FQ17YamkEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registration"/>
+    </term>
+  </mappings>
+  <mappings xsi:type="featuremapping:ElementMapping">
+    <element href="../solution_space/eshop.bpmn#_OlevgamkEd-LVJMCUKyfWA"/>
+    <term xsi:type="featuremapping:FeatureRef">
+      <feature href="../problem_space/online_B2C_solution.feature#Registration"/>
+    </term>
+  </mappings>
+  <featureModel>
+    <value href="../problem_space/online_B2C_solution.feature#/"/>
+  </featureModel>
+  <solutionModels>
+    <value href="../solution_space/eshop.bpmn#_JWswEY_SEd-A7e--zNaf1A"/>
+  </solutionModels>
+</featuremapping:FeatureMappingModel>
