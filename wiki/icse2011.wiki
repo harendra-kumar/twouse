@@ -16,8 +16,12 @@ used for proof-of-concept evaluation in the paper.
 
 * Solution space model: E-store BPMN-Model 
 
-[http://code.google.com/p/twouse/svn/trunk/west.twouse.idspl.icse2011/SolutionSpace/eshop.bpmn]
+[http://twouse.googlecode.com/svn/trunk/west.twouse.idspl.icse2011/SolutionSpace/eshop.bpmn]
 
 * Mapping model
 
 [http://twouse.googlecode.com/svn/trunk/west.twouse.idspl.icse2011/Mapping/eshop.featuremapping] 
+
+* Whole Project
+
+[http://twouse.googlecode.com/svn/trunk/west.twouse.idspl.icse2011/]
