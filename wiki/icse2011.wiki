@@ -12,6 +12,8 @@ used for proof-of-concept evaluation in the paper.
 
 [http://twouse.googlecode.com/svn/trunk/west.twouse.idspl.icse2011/ProblemSpace/eshop.feature]
 
+alternative formal:
+
 [http://twouse.googlecode.com/svn/trunk/west.twouse.idspl.icse2011/ProblemSpace/eshop.fmp]
 
 * Solution space model: E-store BPMN-Model 
