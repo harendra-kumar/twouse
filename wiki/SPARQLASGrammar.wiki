@@ -163,13 +163,13 @@ This page shows the complete grammar for SPARQLAS.
 
 <br/>
 
-*!ObjectUnionOf* := `(` '!ObjectUnionOf' | 'Or' `)` '(' *!ClassExpression* *!ClassExpression* `{` *!ClassExpresion* `}` ')'
+*!ObjectUnionOf* := `(` '!ObjectUnionOf' | 'Or' `)` '(' *!ClassExpression* *!ClassExpression* `{` *!ClassExpression* `}` ')'
 
 *!ObjectComplementOf* := `(` '!ObjectComplementOf' | 'Not' `)` '(' *!ClassExpression* ')'
 
 *!ObjectOneOf* := `(` '!ObjectOneOf' | 'One' `)` '(' *Individual* `{` *Individual* `}` ')'
 
-*!ObjectIntersectionOf* := `(` '!ObjectIntersectionOf' | 'And' `)` '(' *!ClassExpression* *!ClassExpression* `{` *!ClassExpresion* `}`')'
+*!ObjectIntersectionOf* := `(` '!ObjectIntersectionOf' | 'And' `)` '(' *!ClassExpression* *!ClassExpression* `{` *!ClassExpression* `}`')'
 
 *!ObjectAllValuesFrom* := `(` '!ObjectAllValuesFrom' | 'All' `)` '(' *!ObjectPropertyExpression* *!ClassExpression* ')'
 
@@ -198,7 +198,7 @@ This page shows the complete grammar for SPARQLAS.
 
 <br/>
 
-*!DataRange* := *!DataType* | *!DataUnionOf* | *!DataComplementOf* | *!DataOneOf* | *!DataIntersectionOf* | *!DatatypeRestriction*
+*!DataRange* := *!Datatype* | *!DataUnionOf* | *!DataComplementOf* | *!DataOneOf* | *!DataIntersectionOf* | *!DatatypeRestriction*
 
 <br/>
 
@@ -254,7 +254,7 @@ This page shows the complete grammar for SPARQLAS.
 
 <br/>
 
-*!ObjectPropertyExpression* := *!ObjectPropertyVariabe* | *!ObjectProperty* | *!InverseObjectProperty*
+*!ObjectPropertyExpression* := *!ObjectPropertyVariable* | *!ObjectProperty* | *!InverseObjectProperty*
 
 <br/>
 
