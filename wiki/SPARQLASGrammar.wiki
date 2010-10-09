@@ -9,7 +9,7 @@ This page shows the complete grammar for SPARQLAS.
 
 *cardinality* := _a nonempty finite sequence of digits between 0 and 9_
 
-*lexical* := _a nonempty finite sequence of alphanumeric characters enclosed in a pair of " (U+22) characters_
+*lexical* := _a nonempty finite sequence of alphanumeric characters enclosed in a pair of ` (U+22) characters_
 
 *variable* := _a nonempty finite sequence of alphanumeric characters starting with either a ? (U+3F) character or a $ (U+24) character
 
@@ -94,7 +94,7 @@ This page shows the complete grammar for SPARQLAS.
 
 <br/>
 
-*Atom* := *Assertion* | *!ClassAtom* | *!ObjectPropertyAtom* | *!DataPropertyAtom* | *Declaration*
+*Atom* := *Assertion* | *!ClassAtom* | *!ObjectPropertyAtom* | *!DataPropertyAtom* | *!HasKey* | *Declaration*
 
 
 <br/>
@@ -247,9 +247,11 @@ This page shows the complete grammar for SPARQLAS.
 
 *!TransitiveObjectProperty* := `(` '!TransitiveObjectProperty' | 'Transitive' `)` '(' *!ObjectPropertyExpression* ')'
 
-*!SubObjectPropertyExpression* := *!ObjectPropertyExpression*
+*!SubObjectPropertyExpression* := *!ObjectPropertyExpression* | *!ObjectPropertyChain*
 
 *!SuperObjectPropertyExpression* := *!ObjectPropertyExpression*
+
+*!ObjectPropertyChain* := `(` '!ObjectPropertyChain' | 'Chain' `)` '(' *!ObjectPropertyExpression* *!ObjectPropertyExpression* `{` *!ObjectPropertyExpression* `}` ')'
 
 
 <br/>
@@ -287,6 +289,11 @@ This page shows the complete grammar for SPARQLAS.
 <br/>
 
 *!DataPropertyExpression* := *!DataPropertyVariable* | *!DataProperty*
+
+
+<br/>
+
+*!HasKey* := '!HasKey' '(' *!ClassExpression* '(' `{` *!ObjectPropertyExpression* `}` ')' '(' `{` *!DataPropertyExpression* `}` ')' ')'
 
 
 <br/>
