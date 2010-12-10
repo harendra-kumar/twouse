@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: EMFText Parser Plugin: yuml
+Bundle-SymbolicName: west.twouse.language.yuml.resource.yuml;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: WeST University of Koblenz-Landau
+Require-Bundle: org.eclipse.emf.codegen.ecore,
+ org.eclipse.emf.ecore.edit,
+ org.eclipse.emf.workspace,
+ org.emftext.commons.antlr3_2_0,
+ west.twouse.language.yuml
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: west.twouse.language.yuml.resource.yuml,
+  west.twouse.language.yuml.resource.yuml.analysis,
+  west.twouse.language.yuml.resource.yuml.mopp,
+  west.twouse.language.yuml.resource.yuml.grammar,
+  west.twouse.language.yuml.resource.yuml.util
+Bundle-Activator: west.twouse.language.yuml.resource.yuml.mopp.YumlPlugin

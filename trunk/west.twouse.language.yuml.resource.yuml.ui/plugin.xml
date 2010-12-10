@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+	<extension point="org.emftext.access.syntax.ui">
+		<metaInformationProvider class="west.twouse.language.yuml.resource.yuml.ui.YumlUIMetaInformation" id="west.twouse.language.yuml.resource.yuml.ui.YumlUIMetaInformation">
+		</metaInformationProvider>
+	</extension>
+	
+	<extension point="org.eclipse.ui.editors">
+		<editor class="west.twouse.language.yuml.resource.yuml.ui.YumlEditor" contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor" extensions="yuml" icon="icons/editor_icon.gif" id="west.twouse.language.yuml.resource.yuml.ui.YumlEditor" name="EMFText yuml Editor">
+			<contentTypeBinding contentTypeId="west.twouse.language.yuml.resource.yuml"/>
+		</editor>
+	</extension>
+	
+	<extension point="org.eclipse.core.runtime.preferences">
+		<initializer class="west.twouse.language.yuml.resource.yuml.ui.YumlPreferenceInitializer">
+		</initializer>
+	</extension>
+	
+	<extension point="org.eclipse.ui.preferencePages">
+		<page name="Yuml Text Editor" id="west.twouse.language.yuml.resource.yuml.ui.YumlPreferencePage" class="west.twouse.language.yuml.resource.yuml.ui.YumlPreferencePage" category="org.eclipse.ui.preferencePages.GeneralTextEditor">
+		</page>
+		<page name="Syntax Coloring" id="west.twouse.language.yuml.resource.yuml.ui.YumlSyntaxColoringPreferencePage" class="west.twouse.language.yuml.resource.yuml.ui.YumlSyntaxColoringPreferencePage" category="west.twouse.language.yuml.resource.yuml.ui.YumlPreferencePage">
+		</page>
+		<page name="Brackets" id="west.twouse.language.yuml.resource.yuml.ui.YumlBracketPreferencePage" class="west.twouse.language.yuml.resource.yuml.ui.YumlBracketPreferencePage" category="west.twouse.language.yuml.resource.yuml.ui.YumlPreferencePage">
+		</page>
+	</extension>
+	
+	<extension point="org.eclipse.ui.newWizards">
+		<category id="west.twouse.ui.branding.category.twouse" name="TwoUse">
+		</category>
+		<wizard category="west.twouse.ui.branding.category.twouse" icon="/icons/default_new_icon.gif" class="west.twouse.language.yuml.resource.yuml.ui.YumlNewFileWizard" id="west.twouse.language.yuml.resource.yuml.ui.YumlNewFileWizard" name="yUML Syntax File">
+		</wizard>
+	</extension>
+	
+	<extension point="org.eclipse.ui.ide.markerResolution">
+		<markerResolutionGenerator class="west.twouse.language.yuml.resource.yuml.ui.YumlMarkerResolutionGenerator" markerType="west.twouse.language.yuml.resource.yuml.problem" />
+	</extension>
+	
+	<extension point="org.eclipse.core.filebuffers.annotationModelCreation">
+		<factory class="west.twouse.language.yuml.resource.yuml.ui.YumlAnnotationModelFactory" extensions="yuml" />
+	</extension>
+	
+	<extension point="org.eclipse.core.contenttype.contentTypes">
+		<content-type id="west.twouse.language.yuml.resource.yuml" name=".yuml File" base-type="org.eclipse.core.runtime.text" file-extensions="yuml"/>
+	</extension>
+	
+	<extension point="org.eclipse.ui.editors.documentProviders">
+		<provider class="org.eclipse.ui.editors.text.TextFileDocumentProvider" extensions="yuml" id="west.twouse.language.yuml.resource.yuml.ui.provider" />
+	</extension>
+	
+	<extension point="org.eclipse.ui.editors.annotationTypes">
+		<type name="west.twouse.language.yuml.resource.yuml.ui.occurences" />
+		<type name="west.twouse.language.yuml.resource.yuml.ui.occurences.declaration" super="west.twouse.language.yuml.resource.yuml.ui.occurences" />
+	</extension>
+	
+	<extension point="org.eclipse.ui.editors.markerAnnotationSpecification">
+		<specification annotationType="west.twouse.language.yuml.resource.yuml.ui.occurences" label="Occurrences (in .yuml files)" icon="/icons/occurrence_icon.gif" textPreferenceKey="yuml.occurrenceIndication" textPreferenceValue="false" highlightPreferenceKey="yuml.occurrenceHighlighting" highlightPreferenceValue="true" contributesToHeader="false" overviewRulerPreferenceKey="yuml.occurrenceIndicationInOverviewRuler" overviewRulerPreferenceValue="true" verticalRulerPreferenceKey="yuml.occurrenceIndicationInVerticalRuler" verticalRulerPreferenceValue="false" colorPreferenceKey="yuml.occurrenceIndicationColor" colorPreferenceValue="212,212,212" presentationLayer="4" showInNextPrevDropdownToolbarActionKey="yuml.showOccurrenceInNextPrevDropdownToolbarAction" showInNextPrevDropdownToolbarAction="true" isGoToNextNavigationTargetKey="yuml.isOccurrenceGoToNextNavigationTarget" isGoToNextNavigationTarget="false" isGoToPreviousNavigationTargetKey="yuml.isOccurrenceGoToPreviousNavigationTarget" isGoToPreviousNavigationTarget="false" textStylePreferenceKey="yuml.occurrenceTextStyle" textStylePreferenceValue="NONE" />
+		<specification annotationType="west.twouse.language.yuml.resource.yuml.ui.occurences.declaration" label="Declarations (in .yuml files)" textPreferenceKey="yuml.declarationIndication" textPreferenceValue="false" highlightPreferenceKey="yuml.declarationHighlighting" highlightPreferenceValue="true" overviewRulerPreferenceKey="yuml.declarationIndicationInOverviewRuler" overviewRulerPreferenceValue="true" verticalRulerPreferenceKey="yuml.declarationIndicationInVerticalRuler" verticalRulerPreferenceValue="false" colorPreferenceKey="yuml.declarationIndicationColor" colorPreferenceValue="240,216,168" presentationLayer="4" textStylePreferenceKey="yuml.declarationTextStyle" textStylePreferenceValue="NONE" />
+	</extension>
+	
+</plugin>
