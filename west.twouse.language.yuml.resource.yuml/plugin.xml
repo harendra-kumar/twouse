@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+	<extension point="org.emftext.access.syntax">
+		<metaInformationProvider class="west.twouse.language.yuml.resource.yuml.mopp.YumlMetaInformation" id="west.twouse.language.yuml.resource.yuml.mopp.YumlMetaInformation">
+		</metaInformationProvider>
+	</extension>
+	
+	<extension id="west.twouse.language.yuml.resource.yuml.nature" name="yuml nature" point="org.eclipse.core.resources.natures">
+		<runtime>
+			<run class="west.twouse.language.yuml.resource.yuml.mopp.YumlNature" />
+		</runtime>
+		<builder id="west.twouse.language.yuml.resource.yuml.builder" />
+	</extension>
+	
+	<extension point="org.eclipse.core.resources.builders" id="west.twouse.language.yuml.resource.yuml.builder" name="yuml Builder">
+		<builder hasNature="true">
+			<run class="west.twouse.language.yuml.resource.yuml.mopp.YumlBuilderAdapter" />
+		</builder>
+	</extension>
+	
+	<extension-point id="west.twouse.language.yuml.resource.yuml.default_load_options" name="Default Load Options" schema="schema/default_load_options.exsd"/>
+	
+	<extension point="org.eclipse.emf.ecore.extension_parser">
+		<parser class="west.twouse.language.yuml.resource.yuml.mopp.YumlResourceFactoryDelegator" type="yuml">
+		</parser>
+	</extension>
+	
+	<extension-point id="west.twouse.language.yuml.resource.yuml.additional_extension_parser" name="Additional Extension Parser" schema="schema/additional_extension_parser.exsd"/>
+	
+</plugin>

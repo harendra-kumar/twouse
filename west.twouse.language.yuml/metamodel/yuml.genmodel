@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/west.twouse.language.yuml/src"
+    modelPluginID="west.twouse.language.yuml" modelName="Yuml" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>yuml.ecore</foreignModel>
+  <genPackages prefix="Yuml" basePackage="west.twouse.language" disposableProviderFactory="true"
+      ecorePackage="yuml.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="yuml.ecore#//AssociationType">
+      <genEnumLiterals ecoreEnumLiteral="yuml.ecore#//AssociationType/simpleAssociation"/>
+      <genEnumLiterals ecoreEnumLiteral="yuml.ecore#//AssociationType/aggregation"/>
+      <genEnumLiterals ecoreEnumLiteral="yuml.ecore#//AssociationType/composition"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="yuml.ecore#//Visibility">
+      <genEnumLiterals ecoreEnumLiteral="yuml.ecore#//Visibility/unspecified"/>
+      <genEnumLiterals ecoreEnumLiteral="yuml.ecore#//Visibility/public"/>
+      <genEnumLiterals ecoreEnumLiteral="yuml.ecore#//Visibility/private"/>
+      <genEnumLiterals ecoreEnumLiteral="yuml.ecore#//Visibility/protected"/>
+      <genEnumLiterals ecoreEnumLiteral="yuml.ecore#//Visibility/package"/>
+    </genEnums>
+    <genClasses ecoreClass="yuml.ecore#//Model">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference yuml.ecore#//Model/elements"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="yuml.ecore#//ModelElement"/>
+    <genClasses image="false" ecoreClass="yuml.ecore#//ColorableElement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//ColorableElement/color"/>
+    </genClasses>
+    <genClasses ecoreClass="yuml.ecore#//Class">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Class/stereotype"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Class/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference yuml.ecore#//Class/attributes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference yuml.ecore#//Class/methods"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="yuml.ecore#//Relationship">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference yuml.ecore#//Relationship/source"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference yuml.ecore#//Relationship/target"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Relationship/sourceLabel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Relationship/targetLabel"/>
+    </genClasses>
+    <genClasses ecoreClass="yuml.ecore#//Association">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Association/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Association/navigableSource"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference yuml.ecore#//Association/sourceCardinality"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Association/sourceVisibility"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Association/navigableTarget"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference yuml.ecore#//Association/targetCardinality"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Association/targetVisibility"/>
+    </genClasses>
+    <genClasses ecoreClass="yuml.ecore#//Inheritance"/>
+    <genClasses ecoreClass="yuml.ecore#//Cardinality">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Cardinality/lowerBound"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Cardinality/upperBound"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="yuml.ecore#//ClassMember">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//ClassMember/visibility"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//ClassMember/name"/>
+    </genClasses>
+    <genClasses ecoreClass="yuml.ecore#//Attribute">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Attribute/stereotype"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Attribute/type"/>
+    </genClasses>
+    <genClasses ecoreClass="yuml.ecore#//Method">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Method/arguments"/>
+    </genClasses>
+    <genClasses ecoreClass="yuml.ecore#//Note">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute yuml.ecore#//Note/text"/>
+    </genClasses>
+    <genClasses ecoreClass="yuml.ecore#//NoteAssociation">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference yuml.ecore#//NoteAssociation/note"/>
+    </genClasses>
+    <genClasses ecoreClass="yuml.ecore#//Equivalence"/>
+  </genPackages>
+</genmodel:GenModel>
