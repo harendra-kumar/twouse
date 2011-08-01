@@ -9,57 +9,84 @@ This page shows the complete grammar for EcoreOWL.
 
 *package* := "package" name "{" classifiers "}";
 
+
 *classifiers* := (classifier);
+
 *classifier* := class | datatype | enumeration;
 
 *class* := ["abstract"] "class" name [supertypes] [classaxioms] "{"features"}";
 
+
 *supertypes* := "extends" typelist;
+
 *typelist* := {typeref", "} typeref;
 
+
 *features* := {feature};
+
 *feature* := attribute | reference;
+
 
 *attribute* := [frontDataPropertyAxioms] "attribute" name multiplicity ":" typeref [endDataPropertyAxioms] ";";
 
 *reference* := [frontObjectPropertyAxioms] "reference" name multiplicity
 iscontainer ":" typeref "oppositeOf" name [endObjectPropertyAxioms] ";";
+
 *multiplicity* := bounds ("ordered");
+
 *bounds* := "[" integer "-" integer "]" | "[" integer "- * ]" | "[ * ]";
+
 *iscontainer* := ("container");
+
 
 *datatype* := "datatype" name ;
 
 *enumeration* := "enumeration" name "{" literals "}";
 
+
 *literals* := literal { ";" literal };
+
 *literal* := "literal" name ;
 
 *typeref* := name;
 
+
+
 # KM3 Grammar Extension
 
+
+
 *classaxioms* :=  classAxiom {"," classAxiom} ;
+
 *classAxiom* := ("equivalentTo" CE | "disjointWith" CE | "subClassOf" CE | "disjointUnionOf" CE CE {CE} ) ;
+
 *CE* := ( name | "not" CE | CE "and" CE { "and" CE } | CE "or" CE {"or" CE} | OPE ("some" | "only") CE | OPE "Self" | OPE ("min" | "max" | "exactly") integer CE | DPE ("some" | "only") dataRange | DPE ("min" | "max" | "exactly") integer dataRange ) ;
 
 
 *frontObjectPropertyAxioms* :=  frontObjectPropertyAxiom {","
 frontObjectPropertyAxiom} ;
+
 *endObjectPropertyAxioms* :=  endObjectPropertyAxiom {","
 endObjectPropertyAxiom} ;
+
 *frontObjectPropertyAxiom* := ("functional" | "inversefunctional" | "symmetric" | "asymmetric" | "reflexive" | "irreflexive" | "transitive" ) ;
+
 *endObjectPropertyAxiom* := ( "equivalentTo" OPE | "subPropertyOf" OPE |
 "domain" CE | "range" CE | "disjointWith" OPE | "inverseOf" name |
 "subPropertyChain" OPE "o" OPE {"o" OPE} ) ;
+
 *OPE* := name | "inv(" name ")" ;
 
 
 *frontDataPropertyAxioms* :=  frontDataPropertyAxiom {","
 frontDataPropertyAxiom} ;
+
 *endDataPropertyAxioms* :=  endDataPropertyAxiom {"," endDataPropertyAxiom} ;
+
 *frontDataPropertyAxiom* := "functional" ;
+
 *endDataPropertyAxiom* := ( "equivalentTo" DPE | "subPropertyOf" DPE | "domain" CE | "range" dataRange | "disjointWith" DPE );
+
 *DPE* := name ;
 
 
@@ -78,7 +105,9 @@ frontDataPropertyAxiom} ;
 
 
 *digit* := "0".."9";
+
 *integer* := digit {digit};
 
 *name* := ( letter | "_" ) { letter | digit | "_" } ;
+
 *letter* = "a".."z" | "A".."Z" ;
