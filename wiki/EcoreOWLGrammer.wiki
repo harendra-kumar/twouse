@@ -75,7 +75,7 @@ iscontainer ":" typeref "oppositeOf" name [endObjectPropertyAxioms] ";";
 
 *classAxiom* := ("equivalentTo" CE | "disjointWith" CE | "subClassOf" CE | "disjointUnionOf" CE CE {CE} ) ;
 
-*CE* := ( name | "not" CE | CE "and" CE { "and" CE } | CE "or" CE {"or" CE} | OPE ("some" | "only") CE | OPE "Self" | OPE ("min" | "max" | "exactly") integer CE | DPE ("some" | "only") dataRange | DPE ("min" | "max" | "exactly") integer dataRange ) ;
+*CE* := ( name | "not" CE | "(" CE "and" CE { "and" CE } ")" | "(" CE "or" CE {"or" CE} ")" | "(" OPE ("some" | "only") CE ")" | "(" OPE "Self" ")" | "(" OPE ("min" | "max" | "exactly") integer CE ")" | DPE ("some" | "only") dataRange |  DPE ("min" | "max" | "exactly") integer dataRange ) ;
 
 
 <br/>
