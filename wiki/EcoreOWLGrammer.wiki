@@ -42,7 +42,7 @@ iscontainer ":" typeref "oppositeOf" name `[endObjectPropertyAxioms`] ";";
 
 *multiplicity* := bounds ("ordered");
 
-*bounds* := "[" integer "-" integer "]" | "[" integer "- * ]" | "[ * ]";
+*bounds* := "[" integer "-" integer "]" | "[" integer "- `* ]" | "[ `* ]";
 
 *iscontainer* := ("container");
 
@@ -115,7 +115,7 @@ frontDataPropertyAxiom} ;
 
 *dataConjunction* := (dataPrimary "and" dataPrimary { "and" dataPrimary }) | dataPrimary ;
 
-*dataPrimary* := [ "not" ] dataAtomic;
+*dataPrimary* := `["not"`] dataAtomic;
 
 *dataAtomic* := Datatype | "{" literalList "}" | "(" dataRange ")";
 
