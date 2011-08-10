@@ -42,7 +42,7 @@ iscontainer ":" typeref "oppositeOf" name `[endObjectPropertyAxioms`] ";";
 
 *multiplicity* := bounds ("ordered");
 
-*bounds* := "[" integer "-" integer "]" | "[" integer "- `*` ]" | "`[ `*` `]";
+*bounds* := "[" integer "-" integer "]" | "[" integer "- `*` ]" | "`[` `*` `]`";
 
 *iscontainer* := ("container");
 
