@@ -15,7 +15,7 @@ This page shows the complete grammar for EcoreOWL.
 *classifiers* := (classifier);
 
 *classifier* := class | datatype | enumeration;
-'
+
 *class* := ["abstract"] "class" name `[`supertypes`]` `[`classaxioms`]` "{"features"}";
 
 
