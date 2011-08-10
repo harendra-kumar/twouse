@@ -35,7 +35,7 @@ This page shows the complete grammar for EcoreOWL.
 
 <br/>
 
-*attribute* := [frontDataPropertyAxioms] "attribute" name multiplicity ":" typeref [endDataPropertyAxioms] ";";
+*attribute* := '[frontDataPropertyAxioms]' "attribute" name multiplicity ":" typeref [endDataPropertyAxioms] ";";
 
 *reference* := [frontObjectPropertyAxioms] "reference" name multiplicity
 iscontainer ":" typeref "oppositeOf" name [endObjectPropertyAxioms] ";";
