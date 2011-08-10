@@ -7,7 +7,7 @@ This page shows the complete grammar for EcoreOWL.
 
 = Grammer =
 
-`*package* := "package" name "{" classifiers "}";
+*package* := "package" name "{" classifiers "}";
 
 
 <br/>
@@ -16,7 +16,7 @@ This page shows the complete grammar for EcoreOWL.
 
 *classifier* := class | datatype | enumeration;
 '
-*class* := ["abstract"] "class" name [supertypes] [classaxioms] "{"features"}";
+*class* := ["abstract"] "class" name `[supertypes`] `[classaxioms`] "{"features"}";
 
 
 <br/>
@@ -35,10 +35,10 @@ This page shows the complete grammar for EcoreOWL.
 
 <br/>
 
-*attribute* := [frontDataPropertyAxioms] "attribute" name multiplicity ":" typeref [endDataPropertyAxioms] ";";
+*attribute* := `[frontDataPropertyAxioms`] "attribute" name multiplicity ":" typeref `[endDataPropertyAxioms`] ";";
 
-*reference* := [frontObjectPropertyAxioms] "reference" name multiplicity
-iscontainer ":" typeref "oppositeOf" name [endObjectPropertyAxioms] ";";
+*reference* := `[frontObjectPropertyAxioms`] "reference" name multiplicity
+iscontainer ":" typeref "oppositeOf" name `[endObjectPropertyAxioms`] ";";
 
 *multiplicity* := bounds ("ordered");
 
@@ -134,4 +134,3 @@ frontDataPropertyAxiom} ;
 *name* := ( letter | "_" ) { letter | digit | "_" } ;
 
 *letter* = "a".."z" | "A".."Z" ;
-`
